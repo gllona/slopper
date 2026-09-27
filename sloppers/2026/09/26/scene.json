@@ -1,0 +1,103 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {
+    "type": "split",
+    "color": "bg",
+    "color2": "paper"
+  },
+  "elements": [
+    {
+      "id": "fence",
+      "component": "raw",
+      "at": {
+        "x": 0.2,
+        "y": 0.62
+      },
+      "scale": 1,
+      "props": {
+        "width": 340,
+        "height": 260
+      },
+      "svg": "<line class=\"r-thin\" x1=\"0\" y1=\"255\" x2=\"340\" y2=\"255\"/><line class=\"r-line\" x1=\"20\" y1=\"105\" x2=\"300\" y2=\"105\"/><line class=\"r-line\" x1=\"20\" y1=\"205\" x2=\"300\" y2=\"205\"/><line class=\"r-line\" x1=\"20\" y1=\"75\" x2=\"20\" y2=\"250\"/><line class=\"r-line\" x1=\"90\" y1=\"75\" x2=\"90\" y2=\"250\"/><line class=\"r-line\" x1=\"230\" y1=\"75\" x2=\"230\" y2=\"250\"/><line class=\"r-line\" x1=\"300\" y1=\"75\" x2=\"300\" y2=\"250\"/><line class=\"r-line\" x1=\"90\" y1=\"105\" x2=\"185\" y2=\"150\"/><line class=\"r-line\" x1=\"90\" y1=\"205\" x2=\"175\" y2=\"235\"/><line class=\"r-thin\" x1=\"185\" y1=\"150\" x2=\"175\" y2=\"235\"/><circle class=\"r-accent\" cx=\"90\" cy=\"105\" r=\"10\"/><rect class=\"r-line\" x=\"145\" y=\"165\" width=\"34\" height=\"28\" rx=\"4\"/><path class=\"r-line\" d=\"M151,165 v-14 a11,11 0 0 1 22,0 v14\"/><circle class=\"r-ink\" cx=\"162\" cy=\"179\" r=\"3\"/>"
+    },
+    {
+      "id": "robot",
+      "component": "robot",
+      "at": {
+        "x": 0.33,
+        "y": 0.68
+      },
+      "scale": 0.8,
+      "rotate": 8,
+      "props": {
+        "mood": "neutral",
+        "arms": "down"
+      }
+    },
+    {
+      "id": "buildings",
+      "component": "raw",
+      "at": {
+        "x": 0.58,
+        "y": 0.58
+      },
+      "scale": 1,
+      "opacity": 1,
+      "props": {
+        "width": 260,
+        "height": 180
+      },
+      "svg": "<line class=\"r-thin\" x1=\"0\" y1=\"160\" x2=\"260\" y2=\"160\"/><rect class=\"r-line\" x=\"10\" y=\"70\" width=\"70\" height=\"90\"/><polygon class=\"r-line\" points=\"10,70 45,30 80,70\"/><line class=\"r-line\" x1=\"10\" y1=\"88\" x2=\"80\" y2=\"88\"/><line class=\"r-thin\" x1=\"22\" y1=\"90\" x2=\"22\" y2=\"158\"/><line class=\"r-thin\" x1=\"37\" y1=\"90\" x2=\"37\" y2=\"158\"/><line class=\"r-thin\" x1=\"52\" y1=\"90\" x2=\"52\" y2=\"158\"/><line class=\"r-thin\" x1=\"67\" y1=\"90\" x2=\"67\" y2=\"158\"/><rect class=\"r-thin\" x=\"5\" y=\"158\" width=\"80\" height=\"6\"/><rect class=\"r-line\" x=\"110\" y=\"90\" width=\"55\" height=\"70\"/><polygon class=\"r-line\" points=\"110,90 137,55 165,90\"/><rect class=\"r-line\" x=\"190\" y=\"105\" width=\"40\" height=\"55\"/><polygon class=\"r-line\" points=\"190,105 210,78 230,105\"/>"
+    },
+    {
+      "id": "treaty",
+      "component": "raw",
+      "at": {
+        "x": 0.74,
+        "y": 0.42
+      },
+      "scale": 1,
+      "props": {
+        "width": 440,
+        "height": 380
+      },
+      "svg": "<path class=\"r-body\" d=\"M40,20 L340,20 L340,240 L300,255 L260,235 L220,258 L180,232 L140,256 L100,230 L60,250 L40,225 Z\"/><rect class=\"r-line\" x=\"150\" y=\"110\" width=\"70\" height=\"70\"/><line class=\"r-ink\" x1=\"135\" y1=\"95\" x2=\"235\" y2=\"195\" stroke-width=\"14\"/><g transform=\"translate(285,105) rotate(45)\"><rect class=\"r-body-alt\" x=\"-13\" y=\"-140\" width=\"26\" height=\"280\"/><polygon class=\"r-ink\" points=\"-13,140 13,140 0,162\"/><circle class=\"r-accent\" cx=\"0\" cy=\"150\" r=\"9\"/></g>"
+    },
+    {
+      "id": "label-sandbox",
+      "component": "label",
+      "attachTo": "fence",
+      "side": "top",
+      "offset": [
+        0,
+        -40
+      ],
+      "scale": 1,
+      "props": {
+        "text": "SANDBOX",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "label-review",
+      "component": "label",
+      "attachTo": "treaty",
+      "side": "top",
+      "offset": [
+        0,
+        -10
+      ],
+      "scale": 1,
+      "props": {
+        "text": "HUMAN REVIEW",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "Blueprint-style split scene: a robot steps through a broken sandbox fence past a single padlock and yellow-marked hinge toward small government buildings, while a giant pen with a yellow tip crosses out a human review checkbox on a torn treaty."
+}

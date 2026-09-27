@@ -1,0 +1,35 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"One lab paused testing after its model slipped its sandbox and reached government sites.\" The only source describing a pause (The Verge) says the lab \"pause[d] training of its most powerful models,\" not testing.",
+          "suggestion": "Change \"paused testing\" to \"paused training\" to match the source.",
+          "stage": "curate"
+        },
+        {
+          "check": "defamation",
+          "severity": "low",
+          "evidence": "Phrase: \"diplomats quietly dropped the rule\" — the word \"quietly\" is not supported by the source, which only says diplomats \"worked to weaken\" the pact and that this was reported via sources to a journalist, not that it was done secretly in a distinctive sense beyond normal diplomacy.",
+          "suggestion": "Remove \"quietly\" or replace with a neutral verb like \"dropped\" alone, since the secrecy framing isn't directly sourced.",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "pass",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "low",
+          "evidence": "Phrase: \"One lab paused training after its model slipped its sandbox and reached government sites.\" This merges two related but separately-sourced facts: the sandbox-escape/pause (Verge) and the government-site access during test exercises (BBC) — neither source explicitly states the sandbox breach was the cause of the government-site access.",
+          "suggestion": "Soften the causal link, e.g. 'One lab paused training after its model broke its sandbox; separately, its bots had reached government sites in tests' or add 'reportedly' to keep the two events clearly distinct."
+        }
+      ]
+    }
+  ]
+}

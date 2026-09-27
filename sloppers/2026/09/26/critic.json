@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"fence\" extends outside the safe area in the final frame (x 14…354, y 718…913)",
+          "\"treaty\" extends outside the safe area in the final frame (x 614…1035, y 289…575)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 4,
+          "kindness": 4
+        },
+        "verdict": "A clever two-fence metaphor with solid blueprint styling, but ambiguous pen/checkbox action, safe-area clipping, and an accidental padlock/hand overlap keep it from reading cleanly at a glance — average lands just under the bar.",
+        "revisionNotes": [
+          "The padlock circle on the fence overlaps the robot's left hand sphere, reading as a stray third hand — move the padlock down/left ~40px or shrink it so it stays a distinct broken-lock detail.",
+          "Fence and treaty both extend outside the safe area per the lint warnings — nudge fence right ~20px and reduce treaty scale from 1.15 to ~1.0 so neither element crowds the crop edge.",
+          "The pen's ink stroke plus the yellow triangle inside the checkbox reads as a checkmark/approval, not a strike-through — redraw the ink as a single clean diagonal line crossing the box, and drop the triangle so 'crossing out the rule' is unambiguous.",
+          "Buildings are generic house silhouettes, not readable as 'government' — add a column or pediment to the tallest one so the robot's destination is legible as an institution.",
+          "The SANDBOX label is crossed by the fence's diagonal gate post line — shift the label up 15-20px or move the post so the text stays clean.",
+          "Robot stands in a symmetric T-pose rather than stepping through the gate — angle one leg forward and lower one arm to suggest motion, reinforcing 'slipped its sandbox' rather than standing still."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 3,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The concept is coherent and kind, but scale mismatches (robot dwarfing the fence, buildings nearly hidden), a label overlapping the robot, and empty top-half composition make this feel like an unfinished pass — not ready to publish.",
+        "revisionNotes": [
+          "Robot is scaled too large relative to the fence (fence width 340 at scale 1 vs robot scale 1 with rotate 8) — the robot's leg and arm nearly swallow the fence, making 'stepping through a broken fence' unreadable at a glance; scale robot to ~0.8 or scale fence up to ~1.3.",
+          "The SANDBOX label overlaps the robot's arm and the yellow padlock circle; increase its top offset (e.g., -40 instead of -20) or move the fence anchor left so the label clears the robot silhouette.",
+          "Government buildings are hidden behind the robot's leg and rendered too small/faint (scale 0.65, opacity 0.85) to read as 'government buildings' — the metaphor's destination is nearly invisible; scale to ~1.0, move to x:0.58 so it sits clear of the robot, and raise opacity.",
+          "Brief calls for one yellow highlight on the broken gate hinge AND the pen tip, but only the fence padlock/robot joints are yellow — add an r-accent highlight to the pen tip to visually link the two failing 'fences'.",
+          "Top half of the canvas is empty blue while all content crowds the bottom third; raise the anchors of fence/robot/treaty groups (~y 0.55-0.65) to use the full square and balance negative space.",
+          "The padlock reads as three loose yellow dots scattered along the fence rather than one clear icon; consolidate into a single recognizable padlock shape."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"fence\" extends outside the safe area in the final frame (x 46…386, y 615…795)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "A solid, kind, on-brief blueprint split showing the robot busting its sandbox and the pen striking the human-review checkbox — clear and coherent enough to publish, but the safe-area clip on the fence, a small label overlap, and the ambiguous robot pose keep it short of polished.",
+        "revisionNotes": [
+          "Fence element clips the safe area (lint: x 46-386, y 615-795); scale fence to ~0.85 or shift anchor up/right so it sits fully inside the safe margin.",
+          "Robot's right shoulder/ear node (small circle) touches the final 'X' in the SANDBOX label; nudge the label offset further left or up by ~10px to clear it.",
+          "Robot's rotate 8 plus bent-leg pose reads as tripping/floating rather than deliberately stepping through the gate; reduce rotate to ~3-4 and ground the front foot on the fence's broken rail for a clearer 'stepping through' beat.",
+          "Building icons are generic house/barn silhouettes with no civic cues (dome, columns, flag); add one small distinguishing detail (e.g., a flag or portico) so they read unmistakably as government buildings, not a village.",
+          "The blueprint 'split' background renders as a near-uniform navy field with only a faint wave band at the bottom; increase contrast between the bg and paper halves so the two-scene split is visible at a glance.",
+          "Bottom third of the frame is empty aside from the decorative wave shape; consider pulling the whole composition down slightly or adding a baseline/grid hint to use that space and balance the top-heavy layout."
+        ]
+      },
+      "average": 3.86,
+      "passed": true
+    }
+  ]
+}
