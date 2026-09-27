@@ -100,11 +100,16 @@ export function styleCss(style: StyleCard): string {
 export function styleDefs(style: StyleCard): string {
   const defs: string[] = [];
   if (style.texture === 'grain') {
+    // Paper grain: noise in a small tile, posterized to 3 alpha levels. Tiling and posterizing keep
+    // the rendered PNG around 150 KB instead of ~2 MB (random noise does not compress).
+    const T = GRAIN_TILE;
     defs.push(
-      '<filter id="grain" x="0" y="0" width="100%" height="100%" filterUnits="userSpaceOnUse">' +
+      `<filter id="grain" x="0" y="0" width="${T}" height="${T}" filterUnits="userSpaceOnUse">` +
         '<feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" stitchTiles="stitch"/>' +
         `<feColorMatrix type="matrix" values="${grainMatrix(style.palette.ink)}"/>` +
-        '</filter>',
+        '<feComponentTransfer><feFuncA type="discrete" tableValues="0 0.45 0.9"/></feComponentTransfer>' +
+        '</filter>' +
+        `<pattern id="grain-tile" width="${T}" height="${T}" patternUnits="userSpaceOnUse"><rect width="${T}" height="${T}" filter="url(#grain)"/></pattern>`,
     );
   }
   if (style.shadow === 'soft') {
@@ -119,6 +124,8 @@ export function styleDefs(style: StyleCard): string {
   }
   return defs.join('');
 }
+
+export const GRAIN_TILE = 216;
 
 export function round(n: number, digits = 1): number {
   const f = 10 ** digits;

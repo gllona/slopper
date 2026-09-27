@@ -1,0 +1,11 @@
+---
+permalink: /_redirects
+eleventyExcludeFromCollections: true
+---
+{%- if latest %}
+/today /{{ latest.path }}/ 302
+/today/ /{{ latest.path }}/ 302
+{%- else %}
+/today / 302
+/today/ / 302
+{%- endif %}

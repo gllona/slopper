@@ -28,3 +28,7 @@ jobs:
       - run: npx playwright install --with-deps chromium
       - run: npm run typecheck
       - run: npm test
+      - name: Build the site (published sloppers only)
+        run: npm run build
+      - name: Build the preview site from fixtures
+        run: npm run preview:fixtures && npm run preview:build

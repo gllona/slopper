@@ -16,19 +16,28 @@
     "harness:fixtures": "tsx harness/cli.ts fixtures",
     "harness:docs": "tsx harness/docs.ts",
     "harness:watch": "tsx harness/playground.ts",
-    "check": "npm run typecheck && npm test"
+    "check": "npm run typecheck && npm test",
+    "build": "SLOPPER_SITE_MODE=build tsx node_modules/@11ty/eleventy/cmd.cjs --config=site/eleventy.config.ts --quiet",
+    "dev": "SLOPPER_SITE_MODE=dev tsx node_modules/@11ty/eleventy/cmd.cjs --config=site/eleventy.config.ts --serve --quiet",
+    "preview:fixtures": "tsx site/fixtures/build.ts",
+    "preview:build": "SLOPPER_ARCHIVE=.out/site-fixtures/sloppers SLOPPER_SITE_MODE=all tsx node_modules/@11ty/eleventy/cmd.cjs --config=site/eleventy.config.ts --quiet",
+    "preview:dev": "SLOPPER_ARCHIVE=.out/site-fixtures/sloppers SLOPPER_SITE_MODE=all tsx node_modules/@11ty/eleventy/cmd.cjs --config=site/eleventy.config.ts --serve --quiet",
+    "deploy:preview": "wrangler pages deploy dist --project-name slopper --branch preview"
   },
   "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
     "@types/node": "^26.6.3",
     "@types/pngjs": "^6.0.5",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2",
-    "vitest": "^5.0.2"
+    "vitest": "^5.0.2",
+    "wrangler": "^4.141.0"
   },
   "dependencies": {
     "opentype.js": "^2.0.0",
     "playwright": "^1.63.0",
     "pngjs": "^7.0.0",
+    "sharp": "^0.35.4",
     "svgo": "^4.1.0",
     "yaml": "^2.9.1",
     "zod": "^4.6.5"

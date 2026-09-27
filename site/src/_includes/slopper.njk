@@ -1,0 +1,47 @@
+{#- One slopper, as shown on "/" and on its dated page. Expects `slopper`. -#}
+<article class="slopper{% if slopper.draft %} is-draft{% endif %}">
+  <figure class="art">
+    {%- if slopper.draft %}<span class="badge">Draft</span>{% endif %}
+    {#- <img> never runs scripts. With reduced motion, the still (final frame) is shown instead. #}
+    <picture>
+      {%- if slopper.animated and slopper.files['still.png'] %}
+      <source srcset="{{ slopper.url }}still.png" media="(prefers-reduced-motion: reduce)">
+      {%- endif %}
+      <img id="art" src="{{ slopper.url }}slopper.svg" width="1080" height="1080" alt="{{ slopper.alt }}" fetchpriority="high">
+    </picture>
+    {%- if slopper.animated %}
+    <button type="button" class="replay" data-replay hidden>
+      <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><path d="M4 12a8 8 0 1 0 2.4-5.7M4 4v5h5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Replay
+    </button>
+    {%- endif %}
+  </figure>
+
+  <div class="words">
+    <h1 class="motto">{{ slopper.motto }}</h1>
+    <p class="phrase">{{ slopper.phrase }}</p>
+    <p class="meta">
+      {%- if slopper.number %}<a href="{{ slopper.url }}">#{{ slopper.number }}</a> · {% endif -%}
+      <time datetime="{{ slopper.date }}">{{ slopper.dateLong }}</time>
+      {%- if slopper.continues %} · <a class="continues" href="{{ slopper.continues.url }}">Continues from {% if slopper.continues.number %}#{{ slopper.continues.number }}{% else %}{{ slopper.continues.date }}{% endif %}</a>{% endif %}
+    </p>
+
+    {%- if slopper.sources.length %}
+    <details class="sources">
+      <summary>Relevant sources</summary>
+      <ul>
+        {%- for s in slopper.sources %}
+        <li><a href="{{ s.url }}" rel="nofollow noopener" referrerpolicy="no-referrer">{{ s.title }}</a> <span class="via">{{ s.url | hostname }} · via {{ s.source | sourceName }}</span></li>
+        {%- endfor %}
+      </ul>
+    </details>
+    {%- endif %}
+  </div>
+
+  <nav class="pager" aria-label="Sloppers">
+    {%- if slopper.prev %}<a rel="prev" href="{{ slopper.prev.url }}">← Previous</a>{% else %}<span aria-hidden="true"></span>{% endif %}
+    <a href="/archive/">Archive</a>
+    {%- if slopper.next %}<a rel="next" href="{{ slopper.next.url }}">Next →</a>{% elif latest and latest.date != slopper.date %}<a href="/">Today →</a>{% else %}<span aria-hidden="true"></span>{% endif %}
+  </nav>
+  <p class="credit">Slopper{% if slopper.number %} #{{ slopper.number }}{% endif %}, slopper.logicos.org, <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a></p>
+</article>

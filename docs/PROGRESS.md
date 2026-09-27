@@ -8,7 +8,7 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 | M0 — Scaffold | ✅ | TypeScript/ESM, config precedence, zod schemas, utils, CI, licenses, CLAUDE.md |
 | M1 — Harness core | ✅ | layout, robot/datacenter/label, riso-duotone, compile, sanitize, render, lint, playground |
 | M2 — Harness v1 | ✅ | all 9 components + raw, 3 style cards, animation, reduced motion, flashing check |
-| M3 — Site | ⬜ | next |
+| M3 — Site | ✅ | Eleventy site live at https://slopper.logicos.org (Coming soon) + sample preview |
 | M4 — Fetch | ⬜ | |
 | M5 — AI stages locally | ⬜ | |
 | M6 — Automation | ⬜ | needs: GitHub App, secrets, Cloudflare, DNS |
@@ -18,8 +18,58 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 
 ## Waiting for Gorka
 
-1. Nothing committed yet: the repo is `git init`-ed with remote `origin = github.com/gllona/slopper`. Tell me
-   when you want a first commit/push (and which git author name to use).
+1. Optional: enable **Cloudflare Web Analytics** for the Pages project (dashboard → Workers & Pages → slopper →
+   Metrics → Web Analytics). The CSP already allows its script.
+2. Cloudflare platform change (DESIGN §13.1, decision 27): confirm before M6 that classic Pages stays supported.
+
+---
+
+## M3 — Site ✅
+
+- Eleventy 3 (config in TypeScript, run through tsx), Nunjucks templates, one stylesheet, one script
+  (`replay.js`). Pages: `/`, `/YYYY/MM/DD/`, `/archive/` (by month), `/about/` (satire notice, license,
+  takedown contact, privacy), `/404.html`, `/feed.xml` (Atom), `/sitemap.xml`, `/robots.txt`, `/_redirects`
+  (`/today/` → latest, 302), `/_headers`.
+- "Published" = tracked by git (`SLOPPER_SITE_MODE=build`); `dev` shows untracked folders with a Draft badge;
+  `all` is for fixture previews. Only `slopper.svg`, `still.png`, `og.png` are deployed.
+- SEO: title, description, canonical, Open Graph + Twitter card (`og.png`), `image_src` (`still.png`),
+  JSON-LD `CreativeWork` with license. Sources in `<details>` (in the HTML for crawlers).
+- Reduced motion: `<picture>` serves `still.png`; the Replay button is hidden then. Replay reloads the
+  `<img>` with a new URL fragment: the animation restarts with no new download.
+- Light/dark themes, self-hosted fonts (Bricolage Grotesque 800, Atkinson Hyperlegible Next 400/700,
+  latin + latin-ext), responsive down to 390 px (checked with screenshots).
+- CI now also builds the site (published only) and the fixture preview.
+
+### Custom domain (2026-09-27)
+
+- Gorka added the CNAME at freedns; the domain was attached via the Cloudflare API (`POST
+  /accounts/:id/pages/projects/slopper/domains`, using the local wrangler login; wrangler has no command for it).
+  Validation + certificate (Google Trust Services, auto-renewed) took ~90 s.
+- First production deployment (`--branch main`): the real build, i.e. the "Coming soon" page.
+- Fixes found while testing the live domain: `/today/` returned 404 with an empty archive (now → `/`); the
+  `pages.dev` copy was indexable (now `X-Robots-Tag: noindex`); HSTS enabled (`max-age=300`); feed served as
+  `application/atom+xml`. A comment inside a `_headers` rule could be read as a header, so comments sit above rules.
+- Verified: HTTP→HTTPS 301, headers, redirects, and a clean browser load on `https://slopper.logicos.org`.
+
+### Deployed and verified (preview)
+
+- Classic Pages project `slopper` created (`slopper-coh.pages.dev`) and deployed with
+  `wrangler pages deploy dist --branch preview`.
+- `curl` checks: HTML CSP as designed; `slopper.svg` has its own locked-down CSP and `image/svg+xml`;
+  media `immutable` 1 year; dated pages 1 hour; `/`, archive, feed 5 minutes; assets 1 day; `/today/` → 302;
+  unknown paths → our 404. The `! Header` detach rules work: each response has a single CSP and Cache-Control.
+- A browser on the live preview showed no CSP violations, no failed requests, and all fonts loaded.
+- Preview URLs get `x-robots-tag: noindex` from Cloudflare automatically.
+
+### Findings
+
+- **PNG size**: the paper grain is random noise, so `still.png` was ~2 MB. Now a 216 px tiled texture posterized
+  to 3 alpha levels, plus 256-color palette PNGs (sharp): stills ~110–165 KB, og ~220 KB, filmstrips ~200 KB,
+  looking practically the same (decision 25).
+- **Cloudflare**: `wrangler pages project create` now delegates to Workers and failed without a Worker entry
+  point; `--force` created a classic Pages project (decision 27). The default hostname is `slopper-coh.pages.dev`,
+  so the freedns CNAME target is that name.
+- Nunjucks reads Markdown heading anchors like `{#license}` as comments: use HTML headings with ids.
 
 ---
 
