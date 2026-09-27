@@ -121,7 +121,7 @@ The quality bar and spirit are similar to Simon Willison's "pelican riding a bic
 ```
                         ┌──────────────────────── GitHub (public repo) ────────────────────────┐
                         │                                                                        │
-  06:00 UTC cron ──────►│  generate.yml                                                          │
+  15:00 UTC cron ──────►│  generate.yml                                                          │
                         │   ┌────────┐   ┌─────────────────────────────────┐   ┌─────────────┐  │
                         │   │ fetch  │──►│ create                          │──►│ open-pr     │  │
                         │   │ (no AI)│   │ curate → art ⟲ critic → cop     │   │ (no AI)     │  │
@@ -131,7 +131,7 @@ The quality bar and spirit are similar to Simon Willison's "pelican riding a bic
                         │                        PR "Slopper #N — date — motto"  ◄──────┘         │
                         │                        (Gorka may veto / approve)                       │
                         │                                                                        │
-  hourly cron ─────────►│  publish.yml: eligible PR? → merge → build site → deploy               │
+  hourly cron ─────────►│  publish.yml: eligible PR? (≥ 19:00 UTC) → merge → build → deploy       │
                         └──────────────────────────────────────────────────┬─────────────────────┘
                                                                            │ wrangler pages deploy
                                                                            ▼
@@ -154,7 +154,18 @@ There is **no backend server**. The previously considered Ubuntu/nginx server is
 
 ## 5. The daily pipeline
 
-Generation starts at **06:00 UTC** and produces the slopper for the **previous UTC day** (the "slopper date"). All dates are UTC, always.
+Generation starts at **15:00 UTC** and produces the slopper for the **previous UTC day** (the "slopper date"). All dates are UTC, always.
+
+**Daily timeline** (Gorka's local time is UTC-5 all year, no daylight saving, so these never drift):
+
+| UTC | Gorka (UTC-5) | What happens |
+|---|---|---|
+| 15:00 | 10:00 | `generate.yml` starts (fetch → create → open PR) |
+| ~15:30–16:00 | ~10:30–11:00 | PR `Slopper #N — date — motto` appears (usually; retries can make it later) |
+| 17:00 | 12:00 | Gorka reviews |
+| **19:00** | **14:00** | **Veto deadline** (`PUBLISH_HOUR_UTC`); the next hourly `publish.yml` run (at :05) publishes eligible PRs |
+
+The slopper date stays the previous **UTC** day. Generating at 15:00 UTC (not right after midnight) also lets late-reported news of that day appear in the sources.
 
 The orchestrator is `pipeline/run.ts`. It calls stages in order, validates every stage output against a schema (zod), and writes results to `sloppers/YYYY/MM/DD/`.
 
@@ -315,20 +326,22 @@ All sources must be **free** and accessible without paid API keys. Each source i
 
 | Source | Access | Covers |
 |---|---|---|
-| Hacker News | Algolia HN Search API (AI-related queries, by date) | developer pulse |
-| Hugging Face | Trending models API + Daily Papers | open models, research |
-| arXiv | arXiv API, categories cs.AI, cs.CL, cs.LG, cs.CY | research, society-related research |
-| Google News | RSS search feeds for AI queries (several queries across dimensions: jobs, schools, energy, law, government) | broad news |
-| GDELT | DOC 2.0 API, AI-related queries | global, multilingual, society/policy |
+| Hacker News | Algolia HN Search API (AI-related queries, by date, with points) | developer pulse |
+| Hugging Face | Daily Papers API (by date) + trending models API | open models, research |
+| arXiv | `rss.arxiv.org` feed for cs.AI, cs.CL, cs.LG, cs.CY (latest announcement) | research, society-related research |
+| Publisher feeds | Configurable list of AI-section RSS/Atom feeds (e.g. MIT Technology Review, Ars Technica, The Verge, BBC Technology, Wired, TechCrunch, Rest of World); general feeds are filtered by AI keywords | broad news: jobs, schools, energy, law, government |
+| GDELT | DOC 2.0 API, one query per dimension group | global, multilingual, society/policy |
 | Techmeme | RSS | curated tech/industry |
-| Reddit | RSS of selected AI subreddits | community mood |
 
 Rules:
 
-- Respect each source's terms, rate limits, and `robots.txt`. Use a clear User-Agent: `SlopperBot/1.0 (+https://slopper.logicos.org/about/)`.
+- Respect each source's terms, rate limits, and `robots.txt`. Use a clear User-Agent: `SlopperBot/1.0 (+https://slopper.logicos.org/about/)`. The fetcher checks `robots.txt` for every URL before requesting it (product token `SlopperBot`, falling back to `*`), and skips disallowed URLs.
+- **Do not use sources whose terms forbid AI/LLM use of their content**, even when `robots.txt` allows the URL (we pass titles and snippets to Claude). Examples excluded for this reason (2026-09): The Guardian, Al Jazeera. Bing News RSS is excluded because Microsoft's terms forbid automated querying outside the paid API.
+- Excluded because `robots.txt` disallows them (checked 2026-09-26): **Google News RSS** (`/rss/` disallowed for all agents), **Reddit** (`Disallow: /`), and the **arXiv API** at `export.arxiv.org` (`Disallow: /`; `rss.arxiv.org` is used instead).
+- Rate limits: GDELT at most one request every 5 seconds (it answers 429 otherwise); arXiv at most one every 3 seconds; other hosts one per second. 429/5xx responses are retried with backoff (respecting `Retry-After`).
 - Store only titles, URLs, short snippets, dates, and scores. Never store full article text.
-- A failing source must not fail the pipeline; log a warning. If **more than half** of sources fail, the pipeline stops (see §20).
-- Google News queries are defined in config so they can be tuned without code changes.
+- A failing source must not fail the pipeline; log a warning. If **more than half** of sources fail (4 or more of 6), the pipeline stops (see §20).
+- Feed lists and queries (HN, GDELT, publisher feeds) are defined in config so they can be tuned without code changes.
 
 ---
 
@@ -634,7 +647,7 @@ slopper/
 │
 ├── .github/
 │   ├── workflows/
-│   │   ├── generate.yml           # daily 06:00 UTC: fetch → create (incl. cop) → open PR
+│   │   ├── generate.yml           # daily 15:00 UTC: fetch → create (incl. cop) → open PR
 │   │   ├── publish.yml            # hourly: merge eligible PRs → build → deploy
 │   │   ├── ci.yml                 # PRs and main: typecheck, tests, lint sloppers, build
 │   │   ├── regenerate.yml         # label "regenerate" on a slopper PR → new attempt
@@ -650,15 +663,20 @@ slopper/
 │   ├── run.ts                     # orchestrator: `npm run day -- --date YYYY-MM-DD [--dry-run]`
 │   ├── claude.ts                  # wrapper around `claude -p` (tools, turns, JSON parsing, retries)
 │   ├── fetch/
-│   │   ├── index.ts               # runs all sources, dedupes, writes digest.json
+│   │   ├── index.ts               # runs all sources, normalizes, window filter, caps, dedupes → digest
+│   │   ├── cli.ts                 # `npm run fetch -- --date … [--record dir | --replay dir]`
+│   │   ├── http.ts                # User-Agent, robots.txt, per-host rate limits, retries, size cap, record/replay
+│   │   ├── robots.ts              # robots.txt parser (RFC 9309)
+│   │   ├── feed.ts                # RSS / Atom / RDF parser (no entity expansion)
+│   │   ├── normalize.ts           # plain text, truncation, canonical URLs, de-duplication, AI keyword filter
+│   │   ├── types.ts
 │   │   └── sources/
 │   │       ├── hackernews.ts
 │   │       ├── huggingface.ts
 │   │       ├── arxiv.ts
-│   │       ├── googlenews.ts
+│   │       ├── feeds.ts           # publisher RSS/Atom feeds (config list)
 │   │       ├── gdelt.ts
-│   │       ├── techmeme.ts
-│   │       └── reddit.ts
+│   │       └── techmeme.ts
 │   ├── stages/
 │   │   ├── curate.ts
 │   │   ├── art.ts                 # art loop incl. compile/render/lint/critic calls
@@ -759,8 +777,9 @@ slopper/
 │
 └── tests/
     ├── harness/                   # compile, sanitize (malicious SVG cases!), lint
-    ├── pipeline/                  # schemas, dates, numbering, config precedence
-    └── site/                      # build smoke test
+    ├── pipeline/                  # schemas, dates, numbering, config precedence, fetch (replayed)
+    ├── site/                      # build smoke test
+    └── fixtures/fetch/<date>/     # recorded source responses (full article text stripped)
 ```
 
 ---
@@ -776,7 +795,8 @@ slopper/
 | Variable | Values | Default | Meaning |
 |---|---|---|---|
 | `VETO_MODE` | `off` \| `window` \| `approve` | `window` | How publishing is gated (§17) |
-| `VETO_HOURS` | integer | `6` | Veto window length in `window` mode |
+| `PUBLISH_HOUR_UTC` | integer 0–23 | `19` | In `window` mode: PRs publish at or after this UTC hour of the day they were opened (19 = 14:00 in UTC-5). This is Gorka's veto deadline |
+| `VETO_MIN_MINUTES` | integer | `60` | In `window` mode: minimum PR age before publishing, even after `PUBLISH_HOUR_UTC` (a late PR still gets a review window) |
 | `DRY_RUN` | `true` \| `false` | `true` until launch | If `true`, PRs are created but never published |
 | `SITE_URL` | URL | `https://slopper.logicos.org` | Canonical base URL |
 | `CLOUDFLARE_ACCOUNT_ID` | string | — | Cloudflare account ID (not secret) |
@@ -795,7 +815,7 @@ slopper/
 
 ```json
 {
-  "generateHourUTC": 6,
+  "generateHourUTC": 15,
   "maxArtIterations": 3,
   "copRetries": 1,
   "relevanceThreshold": 8,
@@ -814,14 +834,9 @@ slopper/
   "sources": {
     "perSourceCap": 40,
     "snippetMaxChars": 300,
-    "googleNewsQueries": [
-      "artificial intelligence",
-      "AI jobs",
-      "AI schools students",
-      "AI energy datacenter",
-      "AI law copyright",
-      "AI government regulation"
-    ]
+    "hnQueries": ["AI", "LLM", "artificial intelligence", "machine learning"],
+    "gdeltQueries": ["…one per dimension group, see slopper.config.json…"],
+    "feeds": [{ "name": "MIT Technology Review", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed" }, "…"]
   }
 }
 ```
@@ -831,7 +846,7 @@ slopper/
 - Invoke with `claude -p` in headless mode; use the **default model** (do not pass a model flag).
 - Each stage passes a restricted tool list (see §19.2), a `--max-turns` limit, and requests JSON output. The orchestrator validates output with zod and retries once on invalid JSON.
 - Verify exact CLI flag names against the current Claude Code documentation when implementing `pipeline/claude.ts`.
-- Budget: the pipeline shares Gorka's Max 5x usage with his interactive work. Keep iteration caps as configured; running at 06:00 UTC keeps it away from most interactive hours.
+- Budget: the pipeline shares Gorka's Max 5x usage with his interactive work. Keep iteration caps as configured. The 15:00 UTC run (10:00 for Gorka) may overlap with interactive work; if usage limits become a problem, move `generateHourUTC` earlier (the veto deadline does not depend on it).
 
 ---
 
@@ -846,7 +861,7 @@ General rules for all workflows:
 
 ### 16.1 `generate.yml`
 
-Triggers: `schedule: cron "0 6 * * *"` and `workflow_dispatch` (inputs: `date`, optional).
+Triggers: `schedule: cron "0 15 * * *"` and `workflow_dispatch` (inputs: `date`, optional). GitHub may start scheduled runs some minutes late.
 
 | Job | AI? | Secrets | Permissions | Does |
 |---|---|---|---|---|
@@ -862,12 +877,12 @@ PR labels set automatically: `slopper`, plus `fresh` or `continuation`, plus `cr
 
 ### 16.2 `publish.yml`
 
-Triggers: `schedule: cron "17 * * * *"` (hourly) and `workflow_dispatch`.
+Triggers: `schedule: cron "5 * * * *"` (hourly, at :05, so the 19:05 UTC run publishes right after the deadline) and `workflow_dispatch`.
 
 1. List open PRs with label `slopper`.
 2. A PR is **eligible** when all are true:
    - CI passed; no labels `veto`, `cop-hold`, `critic-fail`, `dry-run`;
-   - mode rule: `off` → always; `window` → PR age ≥ `VETO_HOURS` **or** label `approved`; `approve` → label `approved` only.
+   - mode rule: `off` → always; `window` → (current UTC time ≥ `PUBLISH_HOUR_UTC`:00 on the PR's creation day **and** PR age ≥ `VETO_MIN_MINUTES`) **or** label `approved`; `approve` → label `approved` only.
    - Gorka may override `cop-hold` or `critic-fail` by adding **both** `approved` and `override` labels.
 3. Merge eligible PRs (squash) in date order, using the bot App token (the App is on the `main` ruleset bypass list).
 4. Build the site (`npm ci && npm run build`).
@@ -910,13 +925,13 @@ A small GitHub App owned by Gorka, installed **only** on `gllona/slopper`, with 
 
 ### 17.1 Every day (about 1 minute)
 
-Around **06:30–07:00 UTC** a PR appears: **`Slopper #N — YYYY-MM-DD — <motto>`**. GitHub notifies you (email or mobile app). The PR body shows the still, the phrase, critic scores, the Cop verdict, and sources.
+Around **15:30–16:00 UTC (10:30–11:00 your time)** a PR appears: **`Slopper #N — YYYY-MM-DD — <motto>`**. GitHub notifies you (email or mobile app). The PR body shows the still, the phrase, critic scores, the Cop verdict, and sources.
 
 Your options:
 
 | You want to… | Do this | Result |
 |---|---|---|
-| Let it publish | Nothing | In `window` mode, publishes after `VETO_HOURS` (default at ~12:00 UTC) |
+| Let it publish | Nothing | In `window` mode, publishes at the first hourly run after 19:00 UTC (≈ 14:05 your time) |
 | Publish now | Add label `approved` | Publishes at the next hourly run |
 | Block it | Add label `veto` (or close the PR) | Not published; yesterday's slopper stays |
 | Try again | Add label `regenerate` | New attempt, new PR (max 2 per date) |
@@ -991,7 +1006,9 @@ If someone reports a problem (issue `takedown` or email from the about page):
 
 | Command | Does |
 |---|---|
-| `npm run fetch -- --date 2026-09-26` | Fetch only; writes `digest.json` |
+| `npm run fetch -- --date 2026-09-26` | Fetch only; writes `sloppers/2026/09/26/digest.json` (`--out` to change) |
+| `npm run fetch -- --date 2026-09-26 --record tests/fixtures/fetch/2026-09-26` | Fetch live and save every response as a test fixture (bodies trimmed) |
+| `npm run fetch -- --date 2026-09-26 --replay tests/fixtures/fetch/2026-09-26` | Fetch offline from recorded responses |
 | `npm run day -- --date 2026-09-26 --dry-run` | Full pipeline locally, writes to `sloppers/…`, no git, no deploy |
 | `npm run day -- --date 2026-09-26 --from-stage art` | Rerun from a stage, reusing earlier outputs |
 | `npm run harness:render -- path/to/scene.json` | Compile + sanitize + render + lint one scene |
@@ -1017,7 +1034,7 @@ Gorka works in cybersecurity awareness; this project should be an example of goo
 
 | Threat | Mitigation |
 |---|---|
-| **Prompt injection** via fetched news, Reddit posts, HN titles | Sources are data, never instructions (stated in every prompt). AI stages have no write access, no network tools, no secrets except their own OAuth token. Outputs are schema-validated. Cop reviews with fresh context. Human veto window. |
+| **Prompt injection** via fetched news, feed items, HN titles | Sources are data, never instructions (stated in every prompt). AI stages have no write access, no network tools, no secrets except their own OAuth token. Outputs are schema-validated. Cop reviews with fresh context. Human veto window. |
 | **Prompt injection via issues** from strangers | Lessons job reads only issues authored by the repo owner. |
 | **Malicious SVG** (scripts, external loads) | Declarative scene format (no executable scene code), allowlist sanitizer, re-check in `open-pr` and CI, `<img>` embedding, strict CSP headers including on `.svg`. |
 | **Secret leakage** | Secrets only in the jobs that need them; Cloudflare token only in the `production` environment deploy job; no secrets on fork PRs; never print secrets; `.env` in `.gitignore`. |
@@ -1096,7 +1113,7 @@ The system improves through versioned files, not through retraining:
   "mood": { "hype_doom": -1, "calm_frantic": 0 },
   "storylines": ["datacenter-water"],
   "sources": [
-    { "title": "…", "url": "https://…", "source": "googlenews", "publishedAt": "2026-09-27T09:12:00Z" }
+    { "title": "…", "url": "https://…", "source": "feeds", "publisher": "MIT Technology Review", "publishedAt": "2026-09-27T09:12:00Z" }
   ],
   "critic": { "passed": true, "average": 3.9, "iterations": 2 },
   "cop": { "verdict": "pass" },
@@ -1157,10 +1174,10 @@ Build in this order. Each milestone ends with tests passing and a short demo.
 | 3 | Public GitHub repo (free Actions). |
 | 4 | No backend server. Static site on Cloudflare Pages (Direct Upload), custom subdomain via CNAME at freedns.afraid.org. |
 | 5 | Node/TypeScript for everything (pipeline, harness, site); Eleventy for the site. |
-| 6 | All dates are UTC. Generation at 06:00 UTC for the previous UTC day. |
+| 6 | All dates are UTC. Generation at 15:00 UTC for the previous UTC day (changed from 06:00, decision 29). |
 | 7 | English only, plain international English, no idioms or wordplay. |
 | 8 | Motto (2–5 word tag) and phrase (≤30-word joke) are distinct. |
-| 9 | Human veto is optional and configurable via GitHub repository variables (`VETO_MODE`, `VETO_HOURS`); default `window`, 6 hours. |
+| 9 | Human veto is optional and configurable via GitHub repository variables (`VETO_MODE`, `PUBLISH_HOUR_UTC`, `VETO_MIN_MINUTES`); default `window`, deadline 19:00 UTC (decision 29). |
 | 10 | A "Cop" stage protects Gorka from legal risk; fails closed. |
 | 11 | No real people, likenesses, brands, or logos in phrase, motto, or art. |
 | 12 | Square 1080×1080 artboard; separate 1200×630 `og.png` for link previews. |
@@ -1180,6 +1197,9 @@ Build in this order. Each milestone ends with tests passing and a short demo.
 | 26 | With reduced motion, day pages show `still.png` through `<picture><source media="(prefers-reduced-motion: reduce)">`: no JS needed, and it works even where the SVG's own media query is not applied inside `<img>`. |
 | 27 | Classic Cloudflare Pages project `slopper` → `slopper-coh.pages.dev` (created with `--force`; see §13.1). |
 | 28 | The `slopper-coh.pages.dev` copy of production is served with `X-Robots-Tag: noindex` (via `_headers`); only `slopper.logicos.org` is indexed. `/today/` redirects to `/` while the archive is empty. The feed is served as `application/atom+xml`. |
+| 29 | Timing for Gorka in UTC-5 (no DST): generate at 15:00 UTC, review at ~17:00 UTC, **fixed** veto deadline 19:00 UTC (`PUBLISH_HOUR_UTC`) plus a 60-minute minimum PR age (`VETO_MIN_MINUTES`), replacing `VETO_HOURS`. `publish.yml` runs hourly at :05. |
+| 30 | Sources (v1): Hacker News, Hugging Face, arXiv via `rss.arxiv.org`, publisher feeds, GDELT, Techmeme. Google News RSS, Reddit, and the arXiv API are excluded by `robots.txt`; The Guardian, Al Jazeera, and Bing News by their terms (§7). |
+| 31 | GDELT is best-effort: few broad queries, 12 s between requests, 90 s timeout, one retry. It rate-limits shared IPs hard (it answered 429 for hours during M4), and its failure alone never stops the pipeline. Revisit after observing it from GitHub runners (M6). |
 
 ---
 

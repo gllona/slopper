@@ -9,7 +9,7 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 | M1 — Harness core | ✅ | layout, robot/datacenter/label, riso-duotone, compile, sanitize, render, lint, playground |
 | M2 — Harness v1 | ✅ | all 9 components + raw, 3 style cards, animation, reduced motion, flashing check |
 | M3 — Site | ✅ | Eleventy site live at https://slopper.logicos.org (Coming soon) + sample preview |
-| M4 — Fetch | ⬜ | |
+| M4 — Fetch | ✅ | 6 sources, robots.txt-aware HTTP, digest.json, recorded fixtures |
 | M5 — AI stages locally | ⬜ | |
 | M6 — Automation | ⬜ | needs: GitHub App, secrets, Cloudflare, DNS |
 | M7 — Calibration | ⬜ | |
@@ -18,11 +18,44 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 
 ## Waiting for Gorka
 
-1. Optional: enable **Cloudflare Web Analytics** for the Pages project (dashboard → Workers & Pages → slopper →
-   Metrics → Web Analytics). The CSP already allows its script.
-2. Cloudflare platform change (DESIGN §13.1, decision 27): confirm before M6 that classic Pages stays supported.
+1. Review M4 (branch `feat/m4-fetch`, not committed yet) and say when to commit.
+2. Optional: enable **Cloudflare Web Analytics** (dashboard → Workers & Pages → slopper → Metrics).
+3. Cloudflare platform change (DESIGN §13.1, decision 27): confirm before M6 that classic Pages stays supported.
 
 ---
+
+## M4 — Fetch ✅
+
+- **Sources changed** (decision 30, Gorka's choice): `robots.txt` disallows Google News RSS, Reddit, and the
+  arXiv API. Now: Hacker News (Algolia), Hugging Face (Daily Papers + trending models for recent dates),
+  arXiv via `rss.arxiv.org`, **publisher feeds** (MIT Technology Review, Ars Technica, The Verge, Wired,
+  TechCrunch, BBC News and Rest of World with an AI keyword filter), GDELT, Techmeme (AI keyword filter).
+  Sources whose terms forbid AI use (The Guardian, Al Jazeera) or automated querying (Bing) are excluded.
+- **Timing changed** (decision 29): generate at 15:00 UTC; fixed veto deadline 19:00 UTC (`PUBLISH_HOUR_UTC`,
+  14:00 for Gorka, UTC-5 all year) plus 60-minute minimum PR age (`VETO_MIN_MINUTES`); `VETO_HOURS` removed.
+  Config, `.env.example`, DESIGN §4/§5/§15/§16/§17 updated. Workflows implement it in M6.
+- `pipeline/fetch/http.ts`: SlopperBot User-Agent, robots.txt checked per URL (RFC 9309: 4xx = allow,
+  5xx/unreachable = disallow, one retry), per-host spacing (GDELT 12 s, arXiv 3 s, others 1 s), per-host
+  timeouts, one retry with backoff honoring `Retry-After`, 5 MB cap, error causes in logs.
+  `RecordingHttp`/`ReplayHttp` for offline tests; recorded bodies are trimmed so fixtures never contain full
+  article text.
+- `pipeline/fetch/index.ts`: sources run in parallel; items are cleaned (plain text, control characters removed,
+  titles ≤ 300, snippets ≤ 300 chars), kept only inside the UTC day window (per-source slack: arXiv +1 day,
+  trending models −14 days), capped per source, and de-duplicated across sources (canonical URL, or title
+  word-overlap ≥ 0.75). More than half of the sources failing → `FetchFailedError` (the partial digest is still
+  written for debugging) and exit code 1.
+- A live run for 2026-09-26 (a Saturday) took 87 s: 46 items, including the week's big AI-safety story. arXiv
+  had 0 items because arXiv announces nothing on weekends. 24 new tests (robots, text cleanup, feeds, HTTP
+  politeness with a fake `fetch`, the failure rule, a full replayed day).
+
+### Findings
+
+- GDELT answered **429 for hours** after a few probe requests from this IP, needs 13–16 s even for a 404, resets
+  connections under load, and rejects short keywords like "AI". It is best-effort now (decision 31); to be
+  observed from GitHub runners in M6.
+- Some feeds embed full article text (`content:encoded`); the recorder strips it (DESIGN §7: never store it).
+- Techmeme covers all of tech, so it gets the AI keyword filter too.
+- Not done here (belongs to M5, Curate's input): loading the last 14 days, storylines, ontology, and lessons.
 
 ## M3 — Site ✅
 

@@ -31,7 +31,7 @@
       <summary>Relevant sources</summary>
       <ul>
         {%- for s in slopper.sources %}
-        <li><a href="{{ s.url }}" rel="nofollow noopener" referrerpolicy="no-referrer">{{ s.title }}</a> <span class="via">{{ s.url | hostname }} · via {{ s.source | sourceName }}</span></li>
+        <li><a href="{{ s.url }}" rel="nofollow noopener" referrerpolicy="no-referrer">{{ s.title }}</a> <span class="via">{{ s.publisher or (s.url | hostname) }}{% if s.source != 'feeds' %} · via {{ s.source | sourceName }}{% endif %}</span></li>
         {%- endfor %}
       </ul>
     </details>

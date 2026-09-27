@@ -19,6 +19,6 @@ export const DIMENSIONS = [
 export const DimensionSchema = z.enum(DIMENSIONS);
 export type Dimension = z.infer<typeof DimensionSchema>;
 
-export const SOURCE_NAMES = ['hackernews', 'huggingface', 'arxiv', 'googlenews', 'gdelt', 'techmeme', 'reddit'] as const;
+export const SOURCE_NAMES = ['hackernews', 'huggingface', 'arxiv', 'feeds', 'gdelt', 'techmeme'] as const;
 export const SourceNameSchema = z.enum(SOURCE_NAMES);
 export type SourceName = z.infer<typeof SourceNameSchema>;

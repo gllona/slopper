@@ -16,9 +16,9 @@ Yes, this is "AI slop" by definition. We try to make it meaningful, timely, and 
 
 ## How it is made
 
-Every morning (06:00 UTC) an automated pipeline:
+Every day at 15:00 UTC an automated pipeline:
 
-1. collects public headlines about AI from the previous day (titles and short snippets only);
+1. collects public headlines about AI from the previous day (titles and short snippets only, from sources whose rules allow it);
 2. asks an AI model to choose what matters, and to write the motto and the phrase;
 3. asks the model to draw the art as code (SVG), using a small library of shapes and styles;
 4. has a separate AI "critic" check the art, and a separate AI "cop" check for legal problems;

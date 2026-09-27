@@ -13,6 +13,8 @@ missing or ambiguous there, ask Gorka and propose an update to it. Track progres
 - After changing components, actions, anchors, or style cards: `npm run harness:docs` (a test checks it).
 - Site: `npm run dev` (real archive, drafts badged), `npm run preview:fixtures && npm run preview:dev` (sample
   sloppers), `npm run build` (published only → `dist/`). Keep templates CSP-clean: no inline styles or scripts.
+- Fetch: `npm run fetch -- --date YYYY-MM-DD [--out file]`; `--replay tests/fixtures/fetch/<date>` works offline.
+  Never add a source without checking its robots.txt *and* its terms for AI-use restrictions (DESIGN §7).
 - Tests: Vitest, under `tests/`. Harness tests launch Playwright Chromium.
 - Preview deploy: `npm run deploy:preview` (Cloudflare Pages project `slopper`, branch `preview`). Never deploy
   the `main` branch by hand.

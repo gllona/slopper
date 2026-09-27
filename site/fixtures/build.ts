@@ -43,7 +43,8 @@ for (const d of spec.days) {
     sources: [1, 2].map((i) => ({
       title: `Example headline ${i} for "${d.motto}" (sample data, not real news)`,
       url: `https://example.com/slopper-sample/${d.date}/${i}`,
-      source: i === 1 ? 'googlenews' : 'hackernews',
+      source: i === 1 ? 'feeds' : 'hackernews',
+      publisher: i === 1 ? 'Example Publisher' : undefined,
       publishedAt: `${d.date}T0${i + 7}:00:00Z`,
     })),
     versions: { harness: HARNESS_VERSION, prompts: '0', ontology: '0', rubricArt: '0', rubricCop: '0', styleCard: '1' },
