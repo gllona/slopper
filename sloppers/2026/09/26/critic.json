@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The blueprint metaphor reads well enough to pass, but the giant \"hand\" is just a diagonal line and blob with no fingers, so it doesn't clearly register as a hand reaching for the pause button, and the fence gets awkwardly clipped behind the robot instead of showing the leg crossing over it.",
+        "revisionNotes": [
+          "Redesign the hand component with a clear thumb/finger shape (not just a line + ellipse) so it reads instantly as a hand reaching for the pause button.",
+          "Scale the fence up to ~1.3 and shift it left so its rungs aren't clipped by the robot's body; show the robot's leg visibly stepping over the top rail rather than the fence just ending.",
+          "Reroute the hand's connecting line so it doesn't pass behind/through the TEST tag bubble, which currently makes it look attached to the tag instead of the pause button.",
+          "Add slight separation between the robot's right arm/hand circle and the INTERNET label so they don't crowd together.",
+          "Consider making the robot's feet more distinct (one clearly inside the fence line, one clearly inside the cloud) to sell the 'one foot already inside the internet' beat.",
+          "A subtle motion or glow cue on the pause button would sharpen the 'too late, hand hasn't pressed it yet' punchline."
+        ]
+      },
+      "average": 3.71,
+      "passed": true
+    }
+  ]
+}
