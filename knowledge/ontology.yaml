@@ -1,0 +1,60 @@
+# Slopper ontology — the dimensions of "the state of AI" (DESIGN §6.1).
+# Changes go through a normal PR reviewed by Gorka. Bump `version` when the meaning changes.
+version: 1
+
+dimensions:
+  - id: capabilities
+    name: Capabilities and models
+    about: What AI systems can do, and the systems themselves.
+    examples: [new models, benchmarks, open-weight releases, agents, multimodal features, reasoning results]
+  - id: industry
+    name: Industry, money, compute
+    about: Companies, markets, and the physical and financial machinery behind AI.
+    examples: [funding rounds, valuations, stock moves, chips, datacenters, cloud deals, mergers, pricing]
+  - id: labor
+    name: Labor and employment
+    about: How AI changes work and the people who do it.
+    examples: [layoffs, hiring, automation of tasks, new jobs, unions, freelancers, productivity claims]
+  - id: policy
+    name: Policy, governance, geopolitics
+    about: Rules for AI and AI as a matter between states.
+    examples: [laws, regulation, export controls, treaties, government use of AI, elections, military AI]
+  - id: law
+    name: Law and intellectual property
+    about: Courts, rights, and ownership.
+    examples: [lawsuits, copyright, licensing deals, liability, privacy cases, patents]
+  - id: safety
+    name: Safety and security
+    about: Harms, risks, and how AI is attacked or misused.
+    examples: [incidents, jailbreaks, model misbehavior, deepfakes, fraud, cyberattacks, alignment research]
+  - id: society
+    name: Society and culture
+    about: How people live with AI day to day.
+    examples: [AI slop, relationships with chatbots, trust, art and media, religion, language, misinformation]
+  - id: education
+    name: Education and youth
+    about: Learning, schools, and young people.
+    examples: [schools and universities, students, cheating, teachers, children and chatbots, skills]
+  - id: planet
+    name: Planet and resources
+    about: The physical cost and footprint of AI.
+    examples: [energy use, water use, emissions, minerals, land, local opposition to datacenters]
+  - id: science
+    name: Science and health
+    about: AI as a tool for discovery and care.
+    examples: [research breakthroughs, medicine, biology, climate science, math results]
+
+# Scored per day from -2 to +2.
+mood_axes:
+  - id: hype_doom
+    low: strong doom (-2)
+    high: strong hype (+2)
+  - id: calm_frantic
+    low: calm (-2)
+    high: frantic (+2)
+
+# Each top story is scored 0–3 on these; relevance = novelty × magnitude × breadth (0–27).
+relevance:
+  novelty: Is this genuinely new, or a repeat of known news? (0 = repeat, 3 = first time anyone hears this)
+  magnitude: How big is the effect? (0 = trivial, 3 = changes a lot for many)
+  breadth: How many people or dimensions does it touch? (0 = a niche, 3 = most people or several dimensions)

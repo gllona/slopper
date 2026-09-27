@@ -23,7 +23,8 @@
     "preview:build": "SLOPPER_ARCHIVE=.out/site-fixtures/sloppers SLOPPER_SITE_MODE=all tsx node_modules/@11ty/eleventy/cmd.cjs --config=site/eleventy.config.ts --quiet",
     "preview:dev": "SLOPPER_ARCHIVE=.out/site-fixtures/sloppers SLOPPER_SITE_MODE=all tsx node_modules/@11ty/eleventy/cmd.cjs --config=site/eleventy.config.ts --serve --quiet",
     "deploy:preview": "wrangler pages deploy dist --project-name slopper --branch preview",
-    "fetch": "tsx pipeline/fetch/cli.ts"
+    "fetch": "tsx pipeline/fetch/cli.ts",
+    "day": "tsx pipeline/run.ts"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
