@@ -1,0 +1,11 @@
+{
+  "harness": "0.2",
+  "style": "paper-cutout",
+  "elements": [
+    { "id": "cl", "component": "cloud", "at": { "x": 0.5, "y": 0.3 }, "scale": 1.3, "props": { "mood": "exhausted", "rain": true, "dark": true } },
+    { "id": "bucket", "component": "raw", "at": { "x": 0.5, "y": 0.73 }, "props": { "width": 220, "height": 200 },
+      "svg": "<path class=\"r-accent\" d=\"M10 20h200l-30 180h-140z\"/><path class=\"r-paper\" d=\"M30 40h160l-6 30h-148z\"/><ellipse class=\"r-shade\" cx=\"110\" cy=\"20\" rx=\"100\" ry=\"14\"/>" },
+    { "id": "gpu", "component": "label", "at": { "x": 0.5, "y": 0.8 }, "props": { "text": "GPU cooling", "size": "sm", "color": "paper" } }
+  ],
+  "alt": "A tired dark cloud rains into a red bucket labeled GPU cooling."
+}

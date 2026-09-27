@@ -1,0 +1,36 @@
+{
+  "name": "slopper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A daily piece of art-as-code about the state of AI, made by AI.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "harness:render": "tsx harness/cli.ts render",
+    "harness:fixtures": "tsx harness/cli.ts fixtures",
+    "harness:docs": "tsx harness/docs.ts",
+    "harness:watch": "tsx harness/playground.ts",
+    "check": "npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "@types/pngjs": "^6.0.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.2"
+  },
+  "dependencies": {
+    "opentype.js": "^2.0.0",
+    "playwright": "^1.63.0",
+    "pngjs": "^7.0.0",
+    "svgo": "^4.1.0",
+    "yaml": "^2.9.1",
+    "zod": "^4.6.5"
+  }
+}

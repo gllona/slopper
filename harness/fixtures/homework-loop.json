@@ -1,0 +1,24 @@
+{
+  "harness": "0.2",
+  "style": "riso-duotone",
+  "background": { "type": "rays", "horizon": 0.82 },
+  "elements": [
+    { "id": "kid", "component": "human", "at": { "x": 0.2, "y": 0.86 }, "scale": 0.9, "props": { "kind": "child", "mood": "happy", "holds": "book" } },
+    { "id": "bot1", "component": "robot", "at": { "x": 0.5, "y": 0.86 }, "scale": 0.62, "props": { "mood": "neutral" } },
+    { "id": "bot2", "component": "robot", "at": { "x": 0.8, "y": 0.86 }, "scale": 0.62, "flip": true, "props": { "mood": "worried", "color": "accent" } },
+    { "id": "q1", "component": "speech-bubble", "attachTo": "kid", "side": "top", "props": { "text": "Help?", "tail": "bottom-left", "size": "sm" } },
+    { "id": "q2", "component": "speech-bubble", "attachTo": "bot1", "side": "top", "props": { "text": "Help?", "tail": "bottom-left", "size": "sm" } },
+    { "id": "q3", "component": "speech-bubble", "attachTo": "bot2", "side": "top", "props": { "text": "Help?", "tail": "bottom-right", "size": "sm" } }
+  ],
+  "animation": {
+    "durationSec": 5,
+    "beats": [
+      { "t": 0.2, "target": "q1", "action": "pop" },
+      { "t": 1.2, "target": "q2", "action": "pop" },
+      { "t": 2.2, "target": "q3", "action": "pop" },
+      { "t": 3.0, "target": "bot2", "action": "shake" }
+    ],
+    "holdSec": 1.5
+  },
+  "alt": "A child with a book asks a robot for help; the robot asks a second robot, which asks for help too and shakes nervously."
+}

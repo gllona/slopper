@@ -1,0 +1,32 @@
+id: paper-cutout
+version: 1
+name: Paper cutout
+description: >-
+  Flat layers of cut colored paper on kraft card. No outlines: shapes are separated by
+  color and a soft shadow under each layer, like a paper collage photographed from above.
+mood: [handmade, calm, tactile, cozy, storybook]
+palette:
+  bg: "#E8DCC4"       # kraft card
+  ink: "#2F2A25"      # dark brown paper
+  accent1: "#E4643B"  # tomato red paper
+  accent2: "#3F8F7F"  # teal paper
+  paper: "#FBF6EC"    # white paper
+stroke: { width: 5, linecap: round, linejoin: round }
+corner: 24
+blend: normal
+texture: grain
+shadow: soft
+font: bricolage-grotesque-800
+background: { type: split, horizon: 0.74, color: bg, color2: accent2 }
+roles:
+  body:     { fill: accent2, stroke: none }
+  body-alt: { fill: paper, stroke: none }
+  accent:   { fill: accent1, stroke: none }
+  accent-2: { fill: accent2, stroke: none }
+  ink:      { fill: ink, stroke: none }
+  paper:    { fill: paper, stroke: none }
+  line:     { fill: none, stroke: ink }
+  thin:     { fill: none, stroke: ink, width: 0.6 }
+  shade:    { fill: ink, stroke: none, opacity: 0.14 }
+  glow:     { fill: paper, stroke: none, opacity: 0.55 }
+  text:     { fill: ink, stroke: none }

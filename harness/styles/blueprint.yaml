@@ -1,0 +1,32 @@
+id: blueprint
+version: 1
+name: Blueprint
+description: >-
+  A technical drawing: crisp white lines on deep blueprint blue, over a fine grid.
+  Shapes are mostly outlines with pale translucent fills; one yellow highlight marks the point of the joke.
+mood: [technical, precise, dry, engineered, deadpan]
+palette:
+  bg: "#1C4E89"       # blueprint blue
+  ink: "#EEF4FF"      # white line
+  accent1: "#FFD35C"  # highlighter yellow
+  accent2: "#79A9DE"  # pale blue line / fill
+  paper: "#2A64A5"    # lighter blue panel
+stroke: { width: 4, linecap: square, linejoin: miter }
+corner: 6
+blend: normal
+texture: none
+shadow: none
+font: ibm-plex-mono-700
+background: { type: grid, color: bg, color2: accent2 }
+roles:
+  body:     { fill: paper, stroke: ink }
+  body-alt: { fill: bg, stroke: ink }
+  accent:   { fill: accent1, stroke: ink }
+  accent-2: { fill: accent2, stroke: none, opacity: 0.5 }
+  ink:      { fill: ink, stroke: none }
+  paper:    { fill: paper, stroke: ink }
+  line:     { fill: none, stroke: ink }
+  thin:     { fill: none, stroke: accent2, width: 0.5 }
+  shade:    { fill: accent2, stroke: none, opacity: 0.22 }
+  glow:     { fill: accent1, stroke: none, opacity: 0.35 }
+  text:     { fill: ink, stroke: none }

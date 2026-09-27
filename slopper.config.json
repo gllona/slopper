@@ -1,0 +1,30 @@
+{
+  "generateHourUTC": 6,
+  "maxArtIterations": 3,
+  "copRetries": 1,
+  "relevanceThreshold": 8,
+  "maxContinuationDays": 3,
+  "balanceBonus": 3,
+  "heatDecay": 0.7,
+  "noveltyWindowDays": 14,
+  "artboard": 1080,
+  "safeArea": 60,
+  "svgMaxKB": 150,
+  "rawSvgMaxBytes": 8192,
+  "maxRawElements": 3,
+  "maxWordsInArt": 6,
+  "animation": { "minSec": 3, "maxSec": 9, "filmstripFrames": 6 },
+  "critic": { "passAverage": 3.5, "minScore": 2 },
+  "sources": {
+    "perSourceCap": 40,
+    "snippetMaxChars": 300,
+    "googleNewsQueries": [
+      "artificial intelligence",
+      "AI jobs",
+      "AI schools students",
+      "AI energy datacenter",
+      "AI law copyright",
+      "AI government regulation"
+    ]
+  }
+}

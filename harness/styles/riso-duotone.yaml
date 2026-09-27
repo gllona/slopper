@@ -1,0 +1,33 @@
+# Style card — see DESIGN §9.5. Components never use literal colors: only these roles/tokens.
+id: riso-duotone
+version: 1
+name: Riso duotone
+description: >-
+  A two-ink risograph print (blue and fluorescent pink) on warm cream paper.
+  Flat shapes, thick friendly outlines, inks overprint where they overlap, soft paper grain.
+mood: [playful, printed, warm, slightly imperfect, zine]
+palette:
+  bg: "#F4ECDD"       # cream paper
+  ink: "#24479A"      # riso blue
+  accent1: "#FF5C8D"  # fluorescent pink
+  accent2: "#9FBBEA"  # blue at 45% screen
+  paper: "#FFF9EF"    # unprinted highlight
+stroke: { width: 7, linecap: round, linejoin: round }
+corner: 18
+blend: multiply       # fills overprint like real riso inks
+texture: grain
+shadow: none
+font: bricolage-grotesque-800
+background: { type: solid, color: bg, color2: accent2 }
+roles:
+  body:     { fill: accent2, stroke: ink }
+  body-alt: { fill: paper, stroke: ink }
+  accent:   { fill: accent1, stroke: ink }
+  accent-2: { fill: accent2, stroke: none }
+  ink:      { fill: ink, stroke: none }
+  paper:    { fill: paper, stroke: ink }
+  line:     { fill: none, stroke: ink }
+  thin:     { fill: none, stroke: ink, width: 0.55 }
+  shade:    { fill: ink, stroke: none, opacity: 0.16 }
+  glow:     { fill: accent1, stroke: none, opacity: 0.45 }
+  text:     { fill: ink, stroke: none }

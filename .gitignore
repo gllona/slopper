@@ -1,0 +1,39 @@
+# Private notes (never published)
+/local/
+
+# Dependencies and build output
+node_modules/
+dist/
+.cache/
+coverage/
+
+# Harness scratch output (npm run harness:render / harness:fixtures)
+/.out/
+
+# Playwright / test artifacts
+playwright-report/
+test-results/
+
+# Secrets: never commit these (.env.example is the committed template)
+.env
+.env.*
+!.env.example
+.dev.vars
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Cloudflare Wrangler local state
+.wrangler/
+
+# Local Claude Code settings (personal permissions)
+.claude/settings.local.json
+
+# Editors and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+*.log

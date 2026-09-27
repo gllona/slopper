@@ -1,0 +1,25 @@
+{
+  "harness": "0.2",
+  "style": "blueprint",
+  "background": { "type": "grid" },
+  "elements": [
+    { "id": "moon", "component": "sun", "at": { "x": 0.78, "y": 0.22 }, "scale": 0.8, "props": { "kind": "moon" } },
+    { "id": "c1", "component": "cloud", "at": { "x": 0.28, "y": 0.26 }, "scale": 0.8, "props": { "size": "sm" } },
+    { "id": "bot", "component": "robot", "at": "left-third", "scale": 0.95, "props": { "mood": "neutral" } },
+    { "id": "news", "component": "meter", "at": { "x": 0.7, "y": 0.62 }, "props": { "kind": "bar", "level": 0.02 } },
+    { "id": "tag", "component": "label", "attachTo": "news", "side": "top", "props": { "text": "NEWS", "size": "md" } },
+    { "id": "thinks", "component": "speech-bubble", "attachTo": "bot", "side": "right", "offset": [0, -120], "props": { "text": "...", "kind": "thought", "tail": "left", "size": "lg" } }
+  ],
+  "animation": {
+    "durationSec": 5,
+    "beats": [
+      { "t": 0.3, "target": "news", "action": "set", "props": { "level": 0.35 }, "dur": 1.2, "ease": "ease-out" },
+      { "t": 1.8, "target": "news", "action": "set", "props": { "level": 0.02 }, "dur": 1.0, "ease": "ease-in" },
+      { "t": 2.2, "target": "thinks", "action": "pop" },
+      { "t": 3.0, "target": "bot", "action": "tilt", "props": { "angle": -8 } }
+    ],
+    "holdSec": 1.5,
+    "ambient": { "target": "bot", "action": "blink" }
+  },
+  "alt": "A technical drawing at night: a robot waits next to a news meter that rises a little and falls back to empty; the robot thinks: dot dot dot."
+}
