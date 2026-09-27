@@ -1,0 +1,17 @@
+name: Takedown or rights request
+description: Report content that is wrong, unfair, or infringes your rights. You can also email slopper@lab14.chat.
+labels: [takedown]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: URL of the slopper
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is the problem?
+      description: Please be specific. Do not post private personal data here; use email for that.
+    validations:
+      required: true

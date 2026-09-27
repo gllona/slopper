@@ -1,0 +1,166 @@
+# Daily slopper (DESIGN §16.1): fetch (no AI) → create (AI, read-only) → open-pr (no AI, bot token).
+# 15:00 UTC = 10:00 for Gorka (UTC-5). The PR publishes after 19:00 UTC unless vetoed (publish.yml).
+name: generate
+
+on:
+  schedule:
+    - cron: '0 15 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Slopper date (YYYY-MM-DD, UTC). Empty = yesterday.'
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: generate-${{ inputs.date || 'daily' }}
+  cancel-in-progress: false
+
+env:
+  DRY_RUN: ${{ vars.DRY_RUN || 'true' }}
+  LAUNCH_DATE: ${{ vars.LAUNCH_DATE }}
+  SITE_URL: ${{ vars.SITE_URL || 'https://slopper.logicos.org' }}
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    outputs:
+      date: ${{ steps.date.outputs.date }}
+      path: ${{ steps.date.outputs.path }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: Slopper date
+        id: date
+        env:
+          INPUT_DATE: ${{ inputs.date }}
+        run: |
+          d="${INPUT_DATE:-$(date -u -d yesterday +%F)}"
+          [[ "$d" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || { echo "::error::bad date '$d'"; exit 1; }
+          echo "date=$d" >> "$GITHUB_OUTPUT"
+          echo "path=sloppers/${d//-//}" >> "$GITHUB_OUTPUT"
+      - name: Fetch sources
+        run: npm run fetch -- --date "${{ steps.date.outputs.date }}" --out digest.json
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        if: always()
+        with:
+          name: digest
+          path: digest.json
+          if-no-files-found: error
+          retention-days: 7
+
+  create:
+    needs: fetch
+    runs-on: ubuntu-latest
+    timeout-minutes: 90 # includes one 15-minute wait on a usage limit
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: digest
+          path: ${{ needs.fetch.outputs.path }}
+      - name: Curate → art ⟲ critic → cop → package
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: npm run day -- --date "${{ needs.fetch.outputs.date }}" --from-stage curate
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: slopper
+          path: ${{ needs.fetch.outputs.path }}
+          if-no-files-found: error
+          retention-days: 14
+
+  open-pr:
+    needs: [fetch, create]
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
+        with:
+          name: slopper
+          path: ${{ needs.fetch.outputs.path }}
+      # Nothing produced by the AI job is trusted: re-validate before any token exists in this job.
+      - name: Verify the slopper folder
+        run: npm run verify:sloppers -- "${{ needs.fetch.outputs.path }}"
+      - name: Bot token
+        id: bot
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        with:
+          app-id: ${{ vars.BOT_APP_ID }}
+          private-key: ${{ secrets.BOT_APP_PRIVATE_KEY }}
+      - name: Commit, push, open PR
+        env:
+          GH_TOKEN: ${{ steps.bot.outputs.token }}
+          SLUG: ${{ steps.bot.outputs.app-slug }}
+          DATE: ${{ needs.fetch.outputs.date }}
+          DIR: ${{ needs.fetch.outputs.path }}
+          PUBLISH_HOUR_UTC: ${{ vars.PUBLISH_HOUR_UTC || '19' }}
+          VETO_MODE: ${{ vars.VETO_MODE || 'window' }}
+        run: |
+          set -euo pipefail
+          branch="slopper/$DATE"
+          if git ls-remote --exit-code --heads "https://github.com/$GITHUB_REPOSITORY.git" "$branch" >/dev/null; then
+            echo "::error::Branch $branch already exists (close its PR or use the regenerate label)"; exit 1
+          fi
+          uid=$(gh api "/users/${SLUG}%5Bbot%5D" --jq .id)
+          git config user.name "${SLUG}[bot]"
+          git config user.email "${uid}+${SLUG}[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          cp "$DIR/storylines.json" knowledge/storylines.json
+          git add "$DIR" knowledge/storylines.json
+          title=$(head -n 1 "$DIR/pr.md" | sed 's/^# //')
+          labels=$(sed -n "s/^Labels: //p" "$DIR/pr.md" | head -n 1 | tr -d " ")
+          git commit -q -m "$title" -m "Generated by $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          git push -q "https://x-access-token:${GH_TOKEN}@github.com/$GITHUB_REPOSITORY.git" "$branch"
+          raw="https://github.com/$GITHUB_REPOSITORY/raw/$branch/$DIR"
+          {
+            tail -n +5 "$DIR/pr.md" | sed "s#](still.png)#]($raw/still.png)#"
+            echo
+            if [ "$VETO_MODE" = window ]; then echo "⏰ Publishes after **${PUBLISH_HOUR_UTC}:00 UTC** today unless labeled \`veto\`."; fi
+            echo "Run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          } > body.md
+          gh pr create --repo "$GITHUB_REPOSITORY" --base main --head "$branch" --title "$title" --body-file body.md --label "$labels"
+
+  report-failure:
+    needs: [fetch, create, open-pr]
+    if: failure()
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Open or update a pipeline-failure issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DATE: ${{ needs.fetch.outputs.date || inputs.date || 'unknown date' }}
+        run: |
+          title="Pipeline failure: generate $DATE"
+          run="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          n=$(gh issue list --repo "$GITHUB_REPOSITORY" --label pipeline-failure --state open --search "$title in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$n" ]; then gh issue comment "$n" --repo "$GITHUB_REPOSITORY" --body "Failed again: $run"
+          else gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --label pipeline-failure --body "The daily generation failed. Logs: $run"; fi

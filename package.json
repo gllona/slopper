@@ -24,10 +24,13 @@
     "preview:dev": "SLOPPER_ARCHIVE=.out/site-fixtures/sloppers SLOPPER_SITE_MODE=all tsx node_modules/@11ty/eleventy/cmd.cjs --config=site/eleventy.config.ts --serve --quiet",
     "deploy:preview": "wrangler pages deploy dist --project-name slopper --branch preview",
     "fetch": "tsx pipeline/fetch/cli.ts",
-    "day": "tsx pipeline/run.ts"
+    "day": "tsx pipeline/run.ts",
+    "verify:sloppers": "tsx pipeline/ops/verify.ts",
+    "eligible": "tsx pipeline/ops/eligibility.ts"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
+    "@anthropic-ai/claude-code": "^2.1.283",
     "@types/node": "^26.6.3",
     "@types/pngjs": "^6.0.5",
     "tsx": "^4.23.15",

@@ -27,6 +27,8 @@ jobs:
       - run: npm ci
       - run: npx playwright install --with-deps chromium
       - run: npm run typecheck
+      - name: Verify slopper folders (schemas, SVG sanitizer re-check, sizes)
+        run: npm run verify:sloppers
       - run: npm test
       - name: Build the site (published sloppers only)
         run: npm run build

@@ -10,7 +10,7 @@ Each *slopper* is a square SVG image or short animation, a 2–5 word **motto**,
 fetches public news, asks Claude to curate, write, and draw (as code), checks quality with an AI Critic,
 checks legal risk with an AI "Cop", and opens a pull request for a human veto before publishing a static site.
 
-Read the full design in [`docs/DESIGN.md`](docs/DESIGN.md), the scene vocabulary in [`docs/HARNESS.md`](docs/HARNESS.md), and build progress in [`docs/PROGRESS.md`](docs/PROGRESS.md).
+Read the full design in [`docs/DESIGN.md`](docs/DESIGN.md), the one-time automation setup in [`docs/SETUP.md`](docs/SETUP.md), the scene vocabulary in [`docs/HARNESS.md`](docs/HARNESS.md), and build progress in [`docs/PROGRESS.md`](docs/PROGRESS.md).
 
 ## Run locally
 

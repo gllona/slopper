@@ -1,0 +1,42 @@
+# One-time (and idempotent): create or update the labels used by the pipeline (DESIGN §17.5).
+name: setup-labels
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  labels:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          while IFS='|' read -r name color desc; do
+            gh label create "$name" --repo "$GITHUB_REPOSITORY" --color "$color" --description "$desc" --force
+          done <<'LABELS'
+          slopper|5319e7|A daily slopper PR (set by the bot)
+          fresh|0e8a16|Day mode: fresh news
+          continuation|c5def5|Day mode: continues the previous slopper
+          approved|0e8a16|Publish (early in window mode, required in approve mode)
+          veto|b60205|Never publish this PR
+          override|d93f0b|With approved: publish despite cop-hold or critic-fail
+          regenerate|fbca04|Close this PR and generate the same date again
+          cop-hold|b60205|The Cop blocked it (never auto-published)
+          critic-fail|e99695|Art quality did not pass (never auto-published)
+          dry-run|bfdadc|Pre-launch PR, never published
+          feedback|1d76db|Input for the weekly lessons job
+          great|0e8a16|Feedback: a great slopper
+          bad|b60205|Feedback: a bad slopper
+          style-idea|c2e0c6|Idea for a new style card or component
+          component-proposal|5319e7|New or changed harness component
+          takedown|b60205|Legal or rights request, highest priority
+          pipeline-failure|d93f0b|Automatic failure report
+          bug|d73a4a|Code problem
+          LABELS
