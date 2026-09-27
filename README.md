@@ -31,6 +31,15 @@ npm run harness:fixtures
 npm run harness:watch -- harness/fixtures/thirsty-datacenter.json
 ```
 
+## The site
+
+```bash
+npm run preview:fixtures && npm run preview:dev   # sample sloppers at http://localhost:8080
+npm run build                                     # production build (published sloppers only) → dist/
+```
+
+Preview: https://preview.slopper-coh.pages.dev
+
 ## License
 
 - Code: [MIT](LICENSE)

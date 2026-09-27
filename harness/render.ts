@@ -1,6 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { chromium, type Browser, type Page } from 'playwright';
 import { PNG } from 'pngjs';
+import sharp from 'sharp';
 import { fontFile, type FontKey } from './fonts.ts';
 import type { Box } from './layout.ts';
 import type { StyleCard } from './style.ts';
@@ -102,7 +103,14 @@ export async function renderAll(svg: string, opts: RenderOptions): Promise<Rende
     }
     await page.close();
     const og = await composeOg(browser, still, opts);
-    return { still, filmstrip, og, metrics, stillStdDev: luminanceStdDev(still), flashes };
+    return {
+      still: await compressPng(still),
+      filmstrip: filmstrip && (await compressPng(filmstrip)),
+      og: await compressPng(og),
+      metrics,
+      stillStdDev: luminanceStdDev(still),
+      flashes,
+    };
   });
 }
 
@@ -120,6 +128,11 @@ async function measure(page: Page): Promise<FrameMetrics> {
     return out;
   });
   return { boxes };
+}
+
+/** Palette PNG (256 colors, no dithering): the art is flat, so this is visually lossless and ~10× smaller. */
+export async function compressPng(png: Buffer): Promise<Buffer> {
+  return sharp(png).png({ palette: true, colors: 256, dither: 0, effort: 10, compressionLevel: 9 }).toBuffer();
 }
 
 // ---------- composites ----------

@@ -1,0 +1,45 @@
+# Cloudflare Pages headers (DESIGN §12.5). More specific rules detach (!) generic headers first,
+# because Cloudflare merges every matching rule.
+
+# HSTS: HTTPS on slopper.logicos.org confirmed 2026-09-27. Short max-age first; raise to 31536000 after launch.
+/*
+  Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
+  Cache-Control: public, max-age=300
+  Strict-Transport-Security: max-age=300
+
+# The same deployment is served on the pages.dev hostname: keep it out of search engines.
+https://slopper-coh.pages.dev/*
+  X-Robots-Tag: noindex
+
+/feed.xml
+  ! Content-Type
+  Content-Type: application/atom+xml; charset=utf-8
+
+# Dated pages: an hour, so takedowns reach browsers quickly (decision 21).
+/:year/:month/:day/
+  ! Cache-Control
+  Cache-Control: public, max-age=3600
+
+# Dated media never change: immutable. An SVG opened directly still cannot run anything.
+/:year/:month/:day/slopper.svg
+  ! Content-Security-Policy
+  ! Cache-Control
+  Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:
+  Content-Type: image/svg+xml
+  Cache-Control: public, max-age=31536000, immutable
+
+/:year/:month/:day/still.png
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+/:year/:month/:day/og.png
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+# Fonts and assets are not fingerprinted: one day.
+/assets/*
+  ! Cache-Control
+  Cache-Control: public, max-age=86400

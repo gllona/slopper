@@ -593,7 +593,8 @@ Simple and clean, like a Google Doodle page:
 
 ### 13.1 Cloudflare Pages
 
-- Project name: `slopper` (default hostname `slopper.pages.dev`, or whatever Cloudflare assigns).
+- Project name: `slopper`, created 2026-09-26. Cloudflare assigned the hostname **`slopper-coh.pages.dev`** (the name `slopper.pages.dev` was taken). Preview deployments: `preview.slopper-coh.pages.dev`.
+- **Platform note (2026-09):** wrangler 4.141 now delegates `wrangler pages project create` to "Cloudflare Pages, now part of Cloudflare Workers". The project was created as a classic Pages project with `--force`, to keep the external-DNS CNAME custom domain this design relies on. Later `wrangler pages` commands act on it directly. Re-check this before M6 in case classic Pages is being retired.
 - Deploy method: **Direct Upload** from GitHub Actions with `wrangler pages deploy dist --project-name slopper --branch main`. Cloudflare's Git integration is **not** used (the publisher controls exactly when deployments happen).
 - **Why Pages and not Workers:** Workers custom domains require the domain to be a Cloudflare zone. Pages supports a subdomain with **external DNS** through a simple CNAME, which fits freedns.afraid.org.
 
@@ -603,9 +604,11 @@ Order matters (a CNAME added before associating the domain in Pages can cause er
 
 1. Create the Pages project with a first manual deploy (`npx wrangler pages deploy dist --project-name slopper`).
 2. In the Cloudflare dashboard → Workers & Pages → `slopper` → **Custom domains** → add `slopper.logicos.org`. Cloudflare shows the CNAME target.
-3. At freedns.afraid.org, create: `CNAME  slopper.logicos.org  →  slopper.pages.dev` (use the exact target shown).
+3. At freedns.afraid.org, create: `CNAME  slopper.logicos.org  →  slopper-coh.pages.dev` (use the exact target shown by Cloudflare).
 4. Wait for Cloudflare to verify and issue the certificate. If `logicos.org` has CAA records, they must allow Cloudflare's certificate authorities.
 5. Done. This record never needs to change again.
+
+**Status (2026-09-27): done.** CNAME `slopper.logicos.org → slopper-coh.pages.dev` at freedns; domain attached to the Pages project through the Cloudflare API (wrangler has no command for it); certificate issued by Google Trust Services in ~90 s; HTTP → HTTPS 301 works; HSTS enabled with `max-age=300`. The production deployment currently shows the "Coming soon" page (empty archive).
 
 **HTTPS:** Cloudflare issues and renews a certificate for `slopper.logicos.org` itself (not for `pages.dev`) once the domain is added in step 2. Renewal is automatic as long as the CNAME stays in place. Verify with `curl -I https://slopper.logicos.org` and the browser padlock. HSTS is set in `_headers` (§12.5) only after HTTPS is confirmed working.
 
@@ -730,9 +733,10 @@ slopper/
 │               └── cop.json
 │
 ├── site/
-│   ├── eleventy.config.ts
+│   ├── eleventy.config.ts         # run through tsx; global data instead of _data/*.ts
+│   ├── lib/sloppers.ts            # loads day.json files: build | dev (drafts) | all (fixtures)
+│   ├── fixtures/                  # sample sloppers for previews (sloppers.json + build.ts)
 │   ├── src/
-│   │   ├── _data/sloppers.ts      # loads published day.json files
 │   │   ├── _includes/
 │   │   │   ├── base.njk
 │   │   │   └── slopper.njk
@@ -741,14 +745,16 @@ slopper/
 │   │   ├── archive.njk
 │   │   ├── about.md
 │   │   ├── feed.njk               # → /feed.xml
-│   │   └── sitemap.njk            # → /sitemap.xml
+│   │   ├── sitemap.njk            # → /sitemap.xml
+│   │   ├── robots.njk             # → /robots.txt (needs SITE_URL)
+│   │   ├── redirects.njk          # → /_redirects (/today/ → latest)
+│   │   └── 404.njk
 │   ├── assets/
 │   │   ├── css/site.css
 │   │   ├── js/replay.js
 │   │   └── fonts/
 │   └── static/
 │       ├── _headers
-│       ├── robots.txt
 │       └── favicon.svg
 │
 └── tests/
@@ -992,6 +998,8 @@ If someone reports a problem (issue `takedown` or email from the about page):
 | `npm run harness:watch -- path/to/scene.json` | Live playground in the browser while editing a scene |
 | `npm run dev` | Eleventy dev server with all local sloppers (published or not, with a "draft" badge) |
 | `npm run build` | Production build into `dist/` (published only) |
+| `npm run preview:fixtures` | Render the harness fixtures into a sample archive (`.out/site-fixtures/`) |
+| `npm run preview:build` / `preview:dev` | Build / serve the site from that sample archive |
 | `npm run deploy:preview` | `wrangler pages deploy dist --branch preview` (preview URL, not production) |
 | `npm test` | All tests |
 
@@ -1168,6 +1176,10 @@ Build in this order. Each milestone ends with tests passing and a short demo.
 | 22 | Curate, art/critic loop, and Cop run in one AI job (separate fresh-context Claude calls). |
 | 23 | All documentation lives in `./docs/`; progress tracked in `docs/PROGRESS.md`. |
 | 24 | Takedown / contact address: `slopper@lab14.chat`. Repo: `github.com/gllona/slopper`. |
+| 25 | PNG outputs are 256-color palette PNGs, and the paper grain is a tiled, posterized texture: ~150 KB per still instead of ~2 MB (noise does not compress), so the git archive grows ~0.5 MB/day. |
+| 26 | With reduced motion, day pages show `still.png` through `<picture><source media="(prefers-reduced-motion: reduce)">`: no JS needed, and it works even where the SVG's own media query is not applied inside `<img>`. |
+| 27 | Classic Cloudflare Pages project `slopper` → `slopper-coh.pages.dev` (created with `--force`; see §13.1). |
+| 28 | The `slopper-coh.pages.dev` copy of production is served with `X-Robots-Tag: noindex` (via `_headers`); only `slopper.logicos.org` is indexed. `/today/` redirects to `/` while the archive is empty. The feed is served as `application/atom+xml`. |
 
 ---
 

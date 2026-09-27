@@ -1,0 +1,36 @@
+{
+  "launchDate": "2026-09-20",
+  "note": "Sample sloppers for previewing the site. Not real news: sources are example.com placeholders.",
+  "days": [
+    {
+      "date": "2026-09-21", "scene": "benchmark-season", "mode": "fresh",
+      "motto": "Benchmark Season",
+      "phrase": "The new model is 3% smarter and 40% more confident.",
+      "dimensions": { "capabilities": 3, "industry": 1 }, "mood": { "hype_doom": 1, "calm_frantic": 1 }
+    },
+    {
+      "date": "2026-09-22", "scene": "homework-loop", "mode": "fresh",
+      "motto": "Homework Help",
+      "phrase": "A student asked the AI for help with homework. The AI asked another AI.",
+      "dimensions": { "education": 3, "society": 1 }, "mood": { "hype_doom": 0, "calm_frantic": 0 }
+    },
+    {
+      "date": "2026-09-23", "scene": "rainy-cloud-raw", "mode": "fresh",
+      "motto": "The Thirsty Cloud",
+      "phrase": "Today the datacenter used more water than the town. The town was asked to be patient.",
+      "dimensions": { "planet": 3, "industry": 2 }, "mood": { "hype_doom": -1, "calm_frantic": 0 }
+    },
+    {
+      "date": "2026-09-24", "scene": "thirsty-datacenter", "mode": "continuation", "continuesFrom": "2026-09-23",
+      "motto": "Day Four",
+      "phrase": "More chips, more power, more money. Nobody told the electricity bill.",
+      "dimensions": { "planet": 2, "industry": 3 }, "mood": { "hype_doom": -1, "calm_frantic": 1 }
+    },
+    {
+      "date": "2026-09-26", "scene": "quiet-day", "mode": "continuation", "continuesFrom": "2026-09-24",
+      "motto": "Quiet Day",
+      "phrase": "Nothing important happened in AI today. Please enjoy this rare moment of silence.",
+      "dimensions": {}, "mood": { "hype_doom": 0, "calm_frantic": -2 }
+    }
+  ]
+}

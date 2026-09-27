@@ -1,0 +1,11 @@
+---
+layout: base.njk
+pagination:
+  data: sloppers
+  size: 1
+  alias: slopper
+permalink: "/{{ slopper.path }}/"
+eleventyComputed:
+  canonical: "{{ slopper.url }}"
+---
+{% include "slopper.njk" %}

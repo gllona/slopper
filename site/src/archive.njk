@@ -1,0 +1,25 @@
+---
+layout: base.njk
+permalink: /archive/
+title: Archive — Slopper
+description: Every slopper so far, newest first.
+---
+<section class="archive">
+  <h1 class="motto">Archive</h1>
+  {%- if not sloppers.length %}
+  <p class="phrase">Nothing here yet.</p>
+  {%- endif %}
+  {%- for month in months %}
+  <h2 class="month" id="m-{{ month.key }}">{{ month.label }}</h2>
+  <ul class="grid">
+    {%- for s in month.items %}
+    <li>
+      <a href="{{ s.url }}">
+        <img src="{{ s.url }}{{ 'still.png' if s.files['still.png'] else 'slopper.svg' }}" width="1080" height="1080" alt="{{ s.alt }}" loading="lazy" decoding="async">
+        <span class="cap"><strong>{{ s.motto }}</strong><span>{% if s.number %}#{{ s.number }} · {% endif %}{{ s.dateLong }}{% if s.draft %} · draft{% endif %}</span></span>
+      </a>
+    </li>
+    {%- endfor %}
+  </ul>
+  {%- endfor %}
+</section>

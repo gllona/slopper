@@ -11,7 +11,11 @@ missing or ambiguous there, ask Gorka and propose an update to it. Track progres
 - `npm run harness:render -- harness/fixtures/<scene>.json` renders a scene to `.out/<name>/`;
   `npm run harness:fixtures` renders all fixtures + `.out/contact-sheet.png`. Look at the PNGs.
 - After changing components, actions, anchors, or style cards: `npm run harness:docs` (a test checks it).
+- Site: `npm run dev` (real archive, drafts badged), `npm run preview:fixtures && npm run preview:dev` (sample
+  sloppers), `npm run build` (published only → `dist/`). Keep templates CSP-clean: no inline styles or scripts.
 - Tests: Vitest, under `tests/`. Harness tests launch Playwright Chromium.
+- Preview deploy: `npm run deploy:preview` (Cloudflare Pages project `slopper`, branch `preview`). Never deploy
+  the `main` branch by hand.
 
 ## Rules
 

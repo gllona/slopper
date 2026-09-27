@@ -1,0 +1,75 @@
+{%- set slopper = slopper or (latest if home else null) -%}
+{%- if slopper and not title %}{% set title = slopper | slopperTitle %}{% endif -%}
+{%- if slopper and not description %}{% set description = slopper.phrase %}{% endif -%}
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ title or site.name }}</title>
+<meta name="description" content="{{ description or site.description }}">
+<link rel="canonical" href="{{ (canonical or page.url) | absolute }}">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f2e8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#17161b" media="(prefers-color-scheme: dark)">
+{%- if noindex %}
+<meta name="robots" content="noindex">
+{%- endif %}
+<link rel="preload" href="/assets/fonts/bricolage-grotesque-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/atkinson-hyperlegible-next-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/site.css">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/atom+xml" title="Slopper" href="/feed.xml">
+{%- if slopper %}
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Slopper">
+<meta property="og:title" content="{{ slopper.motto }}{% if slopper.number %} — Slopper #{{ slopper.number }}{% endif %}">
+<meta property="og:description" content="{{ slopper.phrase }}">
+<meta property="og:url" content="{{ slopper.url | absolute }}">
+{%- if slopper.files['og.png'] %}
+<meta property="og:image" content="{{ (slopper.url + 'og.png') | absolute }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ slopper.alt }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ (slopper.url + 'og.png') | absolute }}">
+{%- endif %}
+{%- if slopper.files['still.png'] %}
+<link rel="image_src" href="{{ (slopper.url + 'still.png') | absolute }}">
+{%- endif %}
+<script type="application/ld+json">{{ {
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "headline": slopper.motto,
+  "description": slopper.phrase,
+  "dateCreated": slopper.date,
+  "url": slopper.url | absolute,
+  "image": { "@type": "ImageObject", "url": (slopper.url + ('still.png' if slopper.files['still.png'] else 'slopper.svg')) | absolute, "width": 1080, "height": 1080, "caption": slopper.alt },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": { "@type": "Organization", "name": "Slopper", "url": site.url },
+  "isPartOf": { "@type": "WebSite", "name": "Slopper", "url": site.url },
+  "position": slopper.number
+} | json | safe }}</script>
+{%- endif %}
+</head>
+<body>
+<header class="top">
+  <a class="wordmark" href="/" aria-label="Slopper, home">Slopper</a>
+</header>
+<main id="main">
+{{ content | safe }}
+</main>
+<footer class="bottom">
+  <nav aria-label="Site">
+    <a href="/archive/">Archive</a>
+    <a href="/about/">About</a>
+    <a href="/feed.xml">Feed</a>
+    <a href="/about/#license">CC BY 4.0</a>
+  </nav>
+  <p class="fine">Made daily by AI, reviewed by a human. Satire, not news.</p>
+</footer>
+{%- if slopper and slopper.animated %}
+<script src="/assets/js/replay.js" defer></script>
+{%- endif %}
+</body>
+</html>

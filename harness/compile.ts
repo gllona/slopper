@@ -257,7 +257,7 @@ export function compileScene(input: unknown, opts: CompileOptions = {}): Compile
     words += p.rendered.words ?? 0;
     placed.push({ id, component: p.el.component, box: boxes.get(id)!, key: KEY_COMPONENTS.has(p.el.component) });
   }
-  const texture = style.texture === 'grain' ? `<rect width="${board.size}" height="${board.size}" filter="url(#grain)" opacity="0.5" style="mix-blend-mode:multiply" aria-hidden="true"/>` : '';
+  const texture = style.texture === 'grain' ? `<rect width="${board.size}" height="${board.size}" fill="url(#grain-tile)" opacity="0.45" style="mix-blend-mode:multiply" aria-hidden="true"/>` : '';
 
   const css = styleCss(style) + staticCss.join('') + animCss;
   const svg =

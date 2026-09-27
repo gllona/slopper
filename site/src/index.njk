@@ -1,0 +1,15 @@
+---
+layout: base.njk
+permalink: /
+home: true
+---
+{%- set slopper = latest -%}
+{%- if slopper -%}
+{% include "slopper.njk" %}
+{%- else -%}
+<section class="empty">
+  <h1 class="motto">Coming Soon</h1>
+  <p class="phrase">A small piece of art about the state of AI, made by AI, once a day. The first one is still thinking.</p>
+  <p class="meta"><a href="/about/">What is this?</a></p>
+</section>
+{%- endif %}
