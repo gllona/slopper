@@ -10,7 +10,7 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 | M2 — Harness v1 | ✅ | all 9 components + raw, 3 style cards, animation, reduced motion, flashing check |
 | M3 — Site | ✅ | Eleventy site live at https://slopper.logicos.org (Coming soon) + sample preview |
 | M4 — Fetch | ✅ | 6 sources, robots.txt-aware HTTP, digest.json, recorded fixtures |
-| M5 — AI stages locally | ⬜ | |
+| M5 — AI stages locally | ✅ | `npm run day` end to end with real Claude in 165 s |
 | M6 — Automation | ⬜ | needs: GitHub App, secrets, Cloudflare, DNS |
 | M7 — Calibration | ⬜ | |
 | M8 — Launch | ⬜ | |
@@ -18,11 +18,49 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 
 ## Waiting for Gorka
 
-1. Review M4 (branch `feat/m4-fetch`, not committed yet) and say when to commit.
-2. Optional: enable **Cloudflare Web Analytics** (dashboard → Workers & Pages → slopper → Metrics).
-3. Cloudflare platform change (DESIGN §13.1, decision 27): confirm before M6 that classic Pages stays supported.
+1. Look at the first real slopper: `.out/live/2026/09/26/` (`still.png`, `og.png`, `pr.md`, `cop.json`).
+2. Commit M5 (branch `feat/m5-ai-stages`, not committed yet).
+3. Optional: enable **Cloudflare Web Analytics** (dashboard → Workers & Pages → slopper → Metrics).
+4. Cloudflare platform change (DESIGN §13.1, decision 27): confirm before M6 that classic Pages stays supported.
 
 ---
+
+## M5 — AI stages locally ✅
+
+- `pipeline/claude.ts`: every call runs `claude -p` in a throwaway workspace with only its input files, with
+  `--restricted --tools Read --strict-mcp-config --permission-mode dontAsk --no-session-persistence
+  --disable-slash-commands --output-format json --json-schema …`, default model, wall-clock timeout, zod
+  validation + stage checks, one retry that quotes the problems, usage-limit detection (`ClaudeLimitError`).
+  Verified live: a `Read` outside the workspace is refused.
+- Knowledge: `ontology.yaml`, `voice.md` (Appendix A: 18 approved, 2 rejected), `rubric-art.md`, `rubric-cop.md`,
+  `LESSONS.md`, `storylines.json`. Prompts: `curate.md`, `art.md`, `critic.md`, `cop.md` (version lines).
+- Stages: Curate (top stories, storylines, mode, motto, phrase + 3 alternatives, brief, sources) → Art loop (Art →
+  compile → sanitize → render → lint → Critic, up to 3 iterations, best kept) → Cop (one revision round that
+  reruns the stage it names) → Package (`day.json`, `critic.json`, `cop.json`, `storylines.json` snapshot,
+  `pr.md` with title, labels, and body for M6).
+- Code, not the model, enforces: the mode rule (threshold, continuation cap, balance bonus), item/source ids,
+  storyline ids, a different style than yesterday, beats for animated briefs, the critic pass rule, and Cop
+  verdict consistency (no "pass" with medium/high findings).
+- `npm run day` with `--from-stage`, `--replay`, `--out`, `--no-wait` (usage limit → wait 15 min, retry once).
+- `tests/fixtures/fake-claude.mjs` simulates every stage (invalid output, critic fail, Cop revise/hold, limits):
+  17 new tests of the wrapper, the mode rules, storylines, and the whole orchestrator.
+
+### First live run (2026-09-26, recorded digest)
+
+165 s in total: Curate 28 s → Art 30 s → Critic 16 s (3.43, fail: "the robot doesn't show climbing out") →
+Art 55 s → Critic 17 s (3.71, pass) → Cop 18 s (pass, 2 low findings: "paused *training*"; "the same day" is
+unverified). **"Out Of The Sandbox"** — *A big lab paused its strongest models after one climbed out of its test
+box. The same day, two superpowers installed a hotline, just in case.* Blueprint style, 3 raw elements (sandbox,
+dashed route, pause button: candidates for new components).
+
+### Findings
+
+- **`--json-schema` dialect trap**: the CLI's local validator (draft-07, strict) rejects the 2020-12 `$schema` URI
+  and `prefixItems`, while the API validates as draft 2020-12 and rejects draft-07 tuples. Solution: emit 2020-12
+  without `$schema`, and never use tuples in stage schemas (`offset` is now a 2-number array). A test guards it.
+- `--bare` would skip the subscription login (API key only); `--max-turns` does not exist in this CLI version.
+- The first live slopper had "brb" in a speech bubble: chat slang, against the voice guide, and the Critic did
+  not flag it. Added the rule to `prompts/art.md` and `knowledge/rubric-art.md`.
 
 ## M4 — Fetch ✅
 

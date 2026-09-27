@@ -166,7 +166,7 @@ export function compileScene(input: unknown, opts: CompileOptions = {}): Compile
     } else {
       origin = resolveAt(el.at!, board, ground);
     }
-    if (el.offset) origin = { x: origin.x + el.offset[0], y: origin.y + el.offset[1] };
+    if (el.offset) origin = { x: origin.x + el.offset[0]!, y: origin.y + el.offset[1]! };
     origins.set(id, origin);
     boxes.set(id, translateBox(local, origin));
     placing.delete(id);

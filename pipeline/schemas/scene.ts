@@ -46,8 +46,8 @@ export const ElementSchema = z
     at: z.union([AnchorSchema, PointSchema]).optional(),
     attachTo: IdSchema.optional(),
     side: z.enum(ATTACH_SIDES).optional(),
-    /** Small pixel nudge after placement. */
-    offset: z.tuple([z.number().min(-540).max(540), z.number().min(-540).max(540)]).optional(),
+    /** Small pixel nudge after placement: [dx, dy]. (An array, not a tuple: the Claude CLI and API disagree on tuple syntax.) */
+    offset: z.array(z.number().min(-540).max(540)).length(2).optional(),
     scale: z.number().min(0.1).max(4).default(1),
     rotate: z.number().min(-180).max(180).optional(),
     flip: z.boolean().optional(),

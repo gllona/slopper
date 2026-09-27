@@ -15,6 +15,10 @@ missing or ambiguous there, ask Gorka and propose an update to it. Track progres
   sloppers), `npm run build` (published only → `dist/`). Keep templates CSP-clean: no inline styles or scripts.
 - Fetch: `npm run fetch -- --date YYYY-MM-DD [--out file]`; `--replay tests/fixtures/fetch/<date>` works offline.
   Never add a source without checking its robots.txt *and* its terms for AI-use restrictions (DESIGN §7).
+- Day pipeline: `npm run day -- --date YYYY-MM-DD --replay tests/fixtures/fetch/2026-09-26 --out .out/live`
+  uses the real Claude (subscription usage!). For code changes, test with
+  `SLOPPER_CLAUDE_BIN=tests/fixtures/fake-claude.mjs` first. AI calls go only through `pipeline/claude.ts`.
+- Stage JSON schemas must not use tuples (the Claude CLI and API disagree on tuple syntax).
 - Tests: Vitest, under `tests/`. Harness tests launch Playwright Chromium.
 - Preview deploy: `npm run deploy:preview` (Cloudflare Pages project `slopper`, branch `preview`). Never deploy
   the `main` branch by hand.

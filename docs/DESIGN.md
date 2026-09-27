@@ -748,7 +748,10 @@ slopper/
 │               ├── og.png
 │               ├── filmstrip.png  # only if animated
 │               ├── critic.json
-│               └── cop.json
+│               ├── cop.json
+│               ├── curate.json    # Curate's full answer (top stories, storyline matches, brief)
+│               ├── storylines.json # storyline state after this day (next day's input; copied to knowledge/ by open-pr)
+│               └── pr.md          # PR title, labels, and body
 │
 ├── site/
 │   ├── eleventy.config.ts         # run through tsx; global data instead of _data/*.ts
@@ -845,7 +848,10 @@ slopper/
 
 - Invoke with `claude -p` in headless mode; use the **default model** (do not pass a model flag).
 - Each stage passes a restricted tool list (see §19.2), a `--max-turns` limit, and requests JSON output. The orchestrator validates output with zod and retries once on invalid JSON.
-- Verify exact CLI flag names against the current Claude Code documentation when implementing `pipeline/claude.ts`.
+- Verified against Claude Code 2.1.283 (M5). Every call: `claude -p <prompt> --restricted --tools Read --strict-mcp-config --permission-mode dontAsk --no-session-persistence --disable-slash-commands --output-format json --json-schema <schema>`, run with the working directory set to a **throwaway workspace** that contains only that stage's input files (`--restricted` confines file tools to it, removes Bash/code tools and WebFetch, and ignores user/project settings). Tested: a `Read` outside the workspace is refused.
+- `--bare` is **not** usable: it authenticates only with an API key and never reads the OAuth token, which would bypass the Max subscription.
+- There is no `--max-turns` flag in this version; `pipeline/claude.ts` enforces a wall-clock timeout per stage instead (curate 15 min, art 10, critic 8, cop 8).
+- Structured output (`structured_output`) is validated with zod plus stage-specific checks; one retry quotes the problems back to the model.
 - Budget: the pipeline shares Gorka's Max 5x usage with his interactive work. Keep iteration caps as configured. The 15:00 UTC run (10:00 for Gorka) may overlap with interactive work; if usage limits become a problem, move `generateHourUTC` earlier (the veto deadline does not depend on it).
 
 ---
@@ -1010,7 +1016,9 @@ If someone reports a problem (issue `takedown` or email from the about page):
 | `npm run fetch -- --date 2026-09-26 --record tests/fixtures/fetch/2026-09-26` | Fetch live and save every response as a test fixture (bodies trimmed) |
 | `npm run fetch -- --date 2026-09-26 --replay tests/fixtures/fetch/2026-09-26` | Fetch offline from recorded responses |
 | `npm run day -- --date 2026-09-26 --dry-run` | Full pipeline locally, writes to `sloppers/…`, no git, no deploy |
-| `npm run day -- --date 2026-09-26 --from-stage art` | Rerun from a stage, reusing earlier outputs |
+| `npm run day -- --date 2026-09-26 --from-stage art` | Rerun from a stage (`fetch`, `curate`, `art`, `cop`), reusing earlier outputs |
+| `npm run day -- --date 2026-09-26 --replay tests/fixtures/fetch/2026-09-26 --out .out/live` | Full run on a recorded digest, into a scratch folder (keeps `sloppers/` clean) |
+| `SLOPPER_CLAUDE_BIN=tests/fixtures/fake-claude.mjs npm run day -- …` | Run the pipeline with a fake Claude (no subscription usage) |
 | `npm run harness:render -- path/to/scene.json` | Compile + sanitize + render + lint one scene |
 | `npm run harness:watch -- path/to/scene.json` | Live playground in the browser while editing a scene |
 | `npm run dev` | Eleventy dev server with all local sloppers (published or not, with a "draft" badge) |
@@ -1200,6 +1208,8 @@ Build in this order. Each milestone ends with tests passing and a short demo.
 | 29 | Timing for Gorka in UTC-5 (no DST): generate at 15:00 UTC, review at ~17:00 UTC, **fixed** veto deadline 19:00 UTC (`PUBLISH_HOUR_UTC`) plus a 60-minute minimum PR age (`VETO_MIN_MINUTES`), replacing `VETO_HOURS`. `publish.yml` runs hourly at :05. |
 | 30 | Sources (v1): Hacker News, Hugging Face, arXiv via `rss.arxiv.org`, publisher feeds, GDELT, Techmeme. Google News RSS, Reddit, and the arXiv API are excluded by `robots.txt`; The Guardian, Al Jazeera, and Bing News by their terms (§7). |
 | 31 | GDELT is best-effort: few broad queries, 12 s between requests, 90 s timeout, one retry. It rate-limits shared IPs hard (it answered 429 for hours during M4), and its failure alone never stops the pipeline. Revisit after observing it from GitHub runners (M6). |
+| 32 | AI calls use `--restricted --tools Read` in a throwaway workspace (§15.5); `--bare` is excluded because it bypasses the subscription login. The mode rule, storyline heat, and the critic pass rule are computed by code; Claude's scores feed them, and mismatches trigger one retry. |
+| 33 | Each day folder keeps `curate.json`, `storylines.json` (state after the day; input for the next day, then `knowledge/storylines.json` via open-pr), and `pr.md`. The Critic judges novelty from one contact sheet of recent stills (`recent.png`), not 14 separate images. |
 
 ---
 
