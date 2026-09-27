@@ -11,19 +11,38 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 | M3 — Site | ✅ | Eleventy site live at https://slopper.logicos.org (Coming soon) + sample preview |
 | M4 — Fetch | ✅ | 6 sources, robots.txt-aware HTTP, digest.json, recorded fixtures |
 | M5 — AI stages locally | ✅ | `npm run day` end to end with real Claude in 165 s |
-| M6 — Automation | ⬜ | needs: GitHub App, secrets, Cloudflare, DNS |
+| M6 — Automation | 🟡 🔒 | workflows done; waiting for Gorka's one-time setup (`docs/SETUP.md`) |
 | M7 — Calibration | ⬜ | |
 | M8 — Launch | ⬜ | |
 | M9 — Evolution | ⬜ | |
 
 ## Waiting for Gorka
 
-1. Look at the first real slopper: `.out/live/2026/09/26/` (`still.png`, `og.png`, `pr.md`, `cop.json`).
-2. Commit M5 (branch `feat/m5-ai-stages`, not committed yet).
+1. Commit M6 (branch `feat/m6-automation`) and merge it: workflows only run from `main`.
+2. Do the one-time setup in **[`docs/SETUP.md`](SETUP.md)** (GitHub App, secrets, Cloudflare token, variables,
+   ruleset, labels), then the first dry run.
 3. Optional: enable **Cloudflare Web Analytics** (dashboard → Workers & Pages → slopper → Metrics).
-4. Cloudflare platform change (DESIGN §13.1, decision 27): confirm before M6 that classic Pages stays supported.
+4. Cloudflare platform change (DESIGN §13.1, decision 27): confirm classic Pages stays supported.
 
 ---
+
+## M6 — Automation 🟡
+
+- `generate.yml` (15:00 UTC + manual with a date): **fetch** (no AI, no secrets) → **create** (Claude token only,
+  read-only checkout, 90 min timeout incl. one usage-limit wait) → **open-pr** (no AI: downloads the folder,
+  `verify:sloppers`, *then* mints the bot token, copies `storylines.json` to `knowledge/`, commits
+  `slopper/DATE`, opens the PR with labels and the still image) → **report-failure** (`pipeline-failure` issue).
+- `publish.yml` (hourly at :05 + manual): **decide** (lists slopper PRs, `npm run eligible`, merges with the bot
+  token unless `DRY_RUN`) → **deploy** (`production` environment, the only job with the Cloudflare token; verifies
+  and builds `main`, `wrangler pages deploy`) → **tag** (`deployed`, `slopper-DATE`) → **report-failure**.
+- `regenerate.yml` (label `regenerate`, owner only, max 2 per date), `setup-labels.yml`, `ci.yml` now also runs
+  `verify:sloppers`. Issue templates (feedback, style idea, takedown) and a PR template.
+- `pipeline/ops/eligibility.ts`: window mode = after `PUBLISH_HOUR_UTC` on the PR's day **and** ≥
+  `VETO_MIN_MINUTES` old, or `approved`; `veto`/`dry-run` never; `cop-hold`/`critic-fail` need `approved` +
+  `override`; CI `ci` must have passed. `pipeline/ops/verify.ts`: independent folder checks.
+- All actions pinned to commit SHAs; Claude Code pinned to 2.1.283 as a dev dependency.
+- `actionlint` 1.7.12 + `shellcheck` 0.11.0: no findings. 8 new tests (eligibility rules, verify vs tampering).
+- Not testable from here until the setup is done: the real runs on GitHub (first dry run is step 8 of SETUP.md).
 
 ## M5 — AI stages locally ✅
 

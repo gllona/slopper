@@ -1,0 +1,11 @@
+name: Style or component idea
+description: Propose a new style card or a new drawing component.
+labels: [style-idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What it looks like, when it would be useful, examples of sloppers that would use it.
+    validations:
+      required: true

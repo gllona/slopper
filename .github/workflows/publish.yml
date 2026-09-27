@@ -1,0 +1,145 @@
+# Publisher (DESIGN §16.2, decision 29): merge eligible slopper PRs, build, deploy, tag.
+# Hourly at :05, so the 19:05 UTC run publishes right after the 19:00 UTC veto deadline.
+# Any change on main that is not deployed yet (a merged slopper, a code change, a takedown) is deployed too,
+# so a failed deploy is retried by the next run.
+name: publish
+
+on:
+  schedule:
+    - cron: '5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+env:
+  DRY_RUN: ${{ vars.DRY_RUN || 'true' }}
+  VETO_MODE: ${{ vars.VETO_MODE || 'window' }}
+  PUBLISH_HOUR_UTC: ${{ vars.PUBLISH_HOUR_UTC || '19' }}
+  VETO_MIN_MINUTES: ${{ vars.VETO_MIN_MINUTES || '60' }}
+  LAUNCH_DATE: ${{ vars.LAUNCH_DATE }}
+  SITE_URL: ${{ vars.SITE_URL || 'https://slopper.logicos.org' }}
+
+jobs:
+  decide:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      merged: ${{ steps.merge.outputs.merged }}
+      deploy: ${{ steps.pending.outputs.deploy }}
+      sha: ${{ steps.pending.outputs.sha }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: Bot token
+        id: bot
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        with:
+          app-id: ${{ vars.BOT_APP_ID }}
+          private-key: ${{ secrets.BOT_APP_PRIVATE_KEY }}
+      - name: Merge eligible PRs
+        id: merge
+        env:
+          GH_TOKEN: ${{ steps.bot.outputs.token }}
+        run: |
+          set -euo pipefail
+          gh pr list --repo "$GITHUB_REPOSITORY" --label slopper --state open --limit 50 \
+            --json number,headRefName,createdAt,labels,statusCheckRollup > prs.json
+          numbers=$(npm run -s eligible < prs.json)
+          merged=""
+          if [ "$DRY_RUN" = "true" ]; then
+            echo "DRY_RUN=true: would merge: ${numbers:-nothing}"
+          else
+            for n in $numbers; do
+              ref=$(gh pr view "$n" --repo "$GITHUB_REPOSITORY" --json headRefName --jq .headRefName)
+              gh pr merge "$n" --repo "$GITHUB_REPOSITORY" --squash --delete-branch
+              merged="$merged ${ref#slopper/}"
+            done
+          fi
+          echo "merged=${merged# }" >> "$GITHUB_OUTPUT"
+      - name: Anything to deploy?
+        id: pending
+        run: |
+          set -euo pipefail
+          url="https://github.com/$GITHUB_REPOSITORY.git"
+          main=$(git ls-remote "$url" refs/heads/main | cut -f1)
+          deployed=$(git ls-remote "$url" refs/tags/deployed | cut -f1)
+          echo "sha=$main" >> "$GITHUB_OUTPUT"
+          if [ "$main" != "$deployed" ]; then echo "deploy=true" >> "$GITHUB_OUTPUT"; echo "main $main is not deployed (deployed: ${deployed:-none})"
+          else echo "deploy=false" >> "$GITHUB_OUTPUT"; echo "main is already deployed"; fi
+
+  deploy:
+    needs: decide
+    if: needs.decide.outputs.deploy == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment: production
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ needs.decide.outputs.sha }}
+          persist-credentials: false
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm run verify:sloppers
+      - run: npm run build
+      - name: Deploy to Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx wrangler pages deploy dist --project-name slopper --branch main --commit-hash "${{ needs.decide.outputs.sha }}" --commit-dirty=true
+
+  tag:
+    needs: [decide, deploy]
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Bot token
+        id: bot
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        with:
+          app-id: ${{ vars.BOT_APP_ID }}
+          private-key: ${{ secrets.BOT_APP_PRIVATE_KEY }}
+      - name: Tag the deployed commit and each published slopper
+        env:
+          GH_TOKEN: ${{ steps.bot.outputs.token }}
+          SHA: ${{ needs.decide.outputs.sha }}
+          MERGED: ${{ needs.decide.outputs.merged }}
+        run: |
+          set -euo pipefail
+          tag() { # name sha: create or move a lightweight tag through the API
+            gh api -X PATCH "repos/$GITHUB_REPOSITORY/git/refs/tags/$1" -f sha="$2" -F force=true >/dev/null 2>&1 \
+              || gh api -X POST "repos/$GITHUB_REPOSITORY/git/refs" -f ref="refs/tags/$1" -f sha="$2" >/dev/null
+          }
+          tag deployed "$SHA"
+          for d in $MERGED; do tag "slopper-$d" "$SHA"; echo "tagged slopper-$d"; done
+
+  report-failure:
+    needs: [decide, deploy, tag]
+    if: failure()
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Open or update a pipeline-failure issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Pipeline failure: publish"
+          run="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          n=$(gh issue list --repo "$GITHUB_REPOSITORY" --label pipeline-failure --state open --search "$title in:title" --json number --jq '.[0].number // empty')
+          if [ -n "$n" ]; then gh issue comment "$n" --repo "$GITHUB_REPOSITORY" --body "Failed again: $run"
+          else gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --label pipeline-failure --body "Publishing failed (merge, build, deploy, or tag). The next hourly run retries the deploy. Logs: $run"; fi

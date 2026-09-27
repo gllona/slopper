@@ -18,6 +18,7 @@ missing or ambiguous there, ask Gorka and propose an update to it. Track progres
 - Day pipeline: `npm run day -- --date YYYY-MM-DD --replay tests/fixtures/fetch/2026-09-26 --out .out/live`
   uses the real Claude (subscription usage!). For code changes, test with
   `SLOPPER_CLAUDE_BIN=tests/fixtures/fake-claude.mjs` first. AI calls go only through `pipeline/claude.ts`.
+- Workflows: pin actions to SHAs; lint with actionlint + shellcheck. Setup steps for Gorka: `docs/SETUP.md`.
 - Stage JSON schemas must not use tuples (the Claude CLI and API disagree on tuple syntax).
 - Tests: Vitest, under `tests/`. Harness tests launch Playwright Chromium.
 - Preview deploy: `npm run deploy:preview` (Cloudflare Pages project `slopper`, branch `preview`). Never deploy

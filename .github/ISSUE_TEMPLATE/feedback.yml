@@ -1,0 +1,22 @@
+name: Feedback on a slopper
+description: Tell us what worked or did not (used by the weekly lessons job when written by the owner).
+labels: [feedback]
+body:
+  - type: input
+    id: date
+    attributes:
+      label: Slopper date or URL
+      placeholder: 2026-09-26 or https://slopper.logicos.org/2026/09/26/
+    validations:
+      required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Overall
+      options: [Great, OK, Bad]
+  - type: textarea
+    id: what
+    attributes:
+      label: What should change (or stay)?
+    validations:
+      required: true

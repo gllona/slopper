@@ -897,11 +897,17 @@ Triggers: `schedule: cron "5 * * * *"` (hourly, at :05, so the 19:05 UTC run pub
 
 Note: build and deploy happen inside this same workflow run (not via a `push` trigger), so the publisher controls exactly when a deployment happens.
 
-If `DRY_RUN=true`, the workflow only reports what it would do.
+If `DRY_RUN=true`, the workflow only reports which slopper PRs it would merge. It still deploys `main` when it changed (site code, takedowns): see below.
+
+**Deploy state (M6):** a lightweight tag `deployed` marks the last deployed commit of `main`. Every run compares `main` with it and deploys when they differ, so a failed deploy is retried by the next hourly run, and code or takedown merges go live within the hour. Tags (`deployed`, `slopper-YYYY-MM-DD`) are written through the GitHub API with the bot token.
 
 ### 16.3 `ci.yml`
 
 Triggers: `pull_request`, `push` to `main`. Typecheck, unit tests, schema validation of any changed `sloppers/**`, sanitizer re-check of changed SVGs, and a full site build. Required status check for `main`.
+
+### 16.3b `setup-labels.yml`
+
+`workflow_dispatch` only: creates or updates every label in §17.5 (idempotent). Used once during setup (see `docs/SETUP.md`).
 
 ### 16.4 `regenerate.yml`
 
@@ -1206,11 +1212,13 @@ Build in this order. Each milestone ends with tests passing and a short demo.
 | 27 | Classic Cloudflare Pages project `slopper` → `slopper-coh.pages.dev` (created with `--force`; see §13.1). |
 | 28 | The `slopper-coh.pages.dev` copy of production is served with `X-Robots-Tag: noindex` (via `_headers`); only `slopper.logicos.org` is indexed. `/today/` redirects to `/` while the archive is empty. The feed is served as `application/atom+xml`. |
 | 29 | Timing for Gorka in UTC-5 (no DST): generate at 15:00 UTC, review at ~17:00 UTC, **fixed** veto deadline 19:00 UTC (`PUBLISH_HOUR_UTC`) plus a 60-minute minimum PR age (`VETO_MIN_MINUTES`), replacing `VETO_HOURS`. `publish.yml` runs hourly at :05. |
+| 3 | The robots are learning fast. The rules are still reading page one. | A | |
 | 30 | Sources (v1): Hacker News, Hugging Face, arXiv via `rss.arxiv.org`, publisher feeds, GDELT, Techmeme. Google News RSS, Reddit, and the arXiv API are excluded by `robots.txt`; The Guardian, Al Jazeera, and Bing News by their terms (§7). |
 | 31 | GDELT is best-effort: few broad queries, 12 s between requests, 90 s timeout, one retry. It rate-limits shared IPs hard (it answered 429 for hours during M4), and its failure alone never stops the pipeline. Revisit after observing it from GitHub runners (M6). |
 | 32 | AI calls use `--restricted --tools Read` in a throwaway workspace (§15.5); `--bare` is excluded because it bypasses the subscription login. The mode rule, storyline heat, and the critic pass rule are computed by code; Claude's scores feed them, and mismatches trigger one retry. |
 | 33 | Each day folder keeps `curate.json`, `storylines.json` (state after the day; input for the next day, then `knowledge/storylines.json` via open-pr), and `pr.md`. The Critic judges novelty from one contact sheet of recent stills (`recent.png`), not 14 separate images. |
-
+| 34 | `open-pr` re-verifies the AI job's folder (`npm run verify:sloppers`: schemas, sanitizer re-check, allowed file names, sizes) **before** the bot token is minted, and runs `npm ci --ignore-scripts`. Claude Code is a pinned dev dependency (lockfile integrity), not a global install. |
+| 35 | Publishing uses a `deployed` tag to deploy any undeployed `main` (retry on failure, code and takedown changes). `DRY_RUN` only stops slopper merges. One-time setup steps live in `docs/SETUP.md`. |
 ---
 
 ## Appendix A — Voice candidates (reviewed)
