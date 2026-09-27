@@ -9,6 +9,8 @@ export const DigestItemSchema = z.object({
   snippet: z.string().max(400).default(''),
   publishedAt: IsoDateTimeSchema,
   score: z.number().optional(),
+  /** Original publisher or site (e.g. "MIT Technology Review", "arxiv.org"). */
+  publisher: z.string().max(120).optional(),
   lang: z.string().min(2).max(8).default('en'),
 });
 

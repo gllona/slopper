@@ -44,7 +44,8 @@ describe('config precedence', () => {
 
   it('loads the real slopper.config.json', () => {
     const c = loadConfig({ env: {} });
-    expect(c.sources.googleNewsQueries.length).toBeGreaterThan(0);
+    expect(c.sources.feeds.length).toBeGreaterThan(0);
+    expect(c.publishHourUTC).toBe(19);
     expect(c.artboard).toBe(1080);
   });
 });

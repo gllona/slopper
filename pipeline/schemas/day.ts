@@ -47,6 +47,7 @@ export const DaySourceSchema = z.object({
   title: z.string().min(1),
   url: z.url({ protocol: /^https?$/ }),
   source: SourceNameSchema,
+  publisher: z.string().max(120).optional(),
   publishedAt: IsoDateTimeSchema,
 });
 

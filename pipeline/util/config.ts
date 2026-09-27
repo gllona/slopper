@@ -12,7 +12,8 @@ type Json = Record<string, unknown>;
 /** Environment variables that map to runtime settings (GitHub repository variables in CI). */
 const RUNTIME_ENV: Record<string, { key: keyof Config; parse: (v: string) => unknown }> = {
   VETO_MODE: { key: 'vetoMode', parse: (v) => v },
-  VETO_HOURS: { key: 'vetoHours', parse: Number },
+  PUBLISH_HOUR_UTC: { key: 'publishHourUTC', parse: Number },
+  VETO_MIN_MINUTES: { key: 'vetoMinMinutes', parse: Number },
   DRY_RUN: { key: 'dryRun', parse: parseBool },
   SITE_URL: { key: 'siteUrl', parse: (v) => v },
   LAUNCH_DATE: { key: 'launchDate', parse: (v) => v },

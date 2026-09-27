@@ -63,8 +63,7 @@ const SOURCE_NAMES: Record<string, string> = {
   hackernews: 'Hacker News',
   huggingface: 'Hugging Face',
   arxiv: 'arXiv',
-  googlenews: 'Google News',
+  feeds: 'publisher feed',
   gdelt: 'GDELT',
   techmeme: 'Techmeme',
-  reddit: 'Reddit',
 };
