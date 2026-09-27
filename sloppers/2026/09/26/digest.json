@@ -1,0 +1,350 @@
+{
+  "date": "2026-09-26",
+  "fetchedAt": "2026-09-27T18:43:06.324Z",
+  "sources": [
+    {
+      "source": "feeds",
+      "ok": true,
+      "count": 7
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 14
+    },
+    {
+      "source": "gdelt",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "feeds:5723b5d3343c",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "title": "OpenAI pauses training of its ‘most capable models’",
+      "snippet": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet…",
+      "publishedAt": "2026-09-26T16:34:59.000Z",
+      "score": 22,
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:9311eca4d2f3",
+      "source": "feeds",
+      "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
+      "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
+      "snippet": "Today, I’m talking with Matthew Prince, who is CEO of Cloudflare. This episode is part of a two-part series on the future of business. Matthew last joined us on the show about two and a half years ago, at what we thought then was a wild pivot point for the internet — and now it […]",
+      "publishedAt": "2026-09-26T14:00:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:41f423ee4614",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy/",
+      "title": "Meta’s Muse Is Adults-Only. Why Does It Look Like a Kids’ Toy?",
+      "snippet": "Meta says Muse is just for adults, though its cuddly, Labubu-like mascot—and upcoming Tamagotchi-style AI device—may be disarming for users of all ages.",
+      "publishedAt": "2026-09-26T10:30:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:bb61eb14b50a",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+      "title": "Insurers claim AI is already increasing healthcare costs",
+      "snippet": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
+      "publishedAt": "2026-09-26T21:02:06.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:804c74d256d5",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
+      "title": "I created an interactive digital avatar of myself — and you can talk to it",
+      "snippet": "After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed feelings about making AI clones of ourselves.",
+      "publishedAt": "2026-09-26T14:00:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:2a6767ccfa85",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
+      "title": "At Meta Connect, the company’s smart glasses were everywhere",
+      "snippet": "The company behind Facebook and Instagram wants to keep consumers connected to the digital world via its ever-growing line of smart glasses.",
+      "publishedAt": "2026-09-26T01:08:57.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:8809d3ada25c",
+      "source": "feeds",
+      "url": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
+      "title": "OpenAI bots meddled with multiple US government agency sites",
+      "snippet": "OpenAI said its bots accessed public data from a range of institutions during test exercises.",
+      "publishedAt": "2026-09-26T02:50:56.000Z",
+      "publisher": "BBC News",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:df7227302e8a",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/260926/p17",
+      "title": "Sources: US and Russian diplomats worked to weaken an AI weapons pact at the UN this month, removing a requirement that humans review AI-generated targets, more (Pranshu Verma/Washington Post)",
+      "snippet": "Pranshu Verma / Washington Post : Sources: US and Russian diplomats worked to weaken an AI weapons pact at the UN this month, removing a requirement that humans review AI-generated targets, more — The two nations weakened a range of safeguards in a landmark U.N. effort to try to regulate the use…",
+      "publishedAt": "2026-09-26T19:50:00.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:e266205743ce",
+      "source": "hackernews",
+      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+      "title": "How to keep enjoying programming in a world of LLMs",
+      "snippet": "310 points and 324 comments on Hacker News (https://news.ycombinator.com/item?id=49854875).",
+      "publishedAt": "2026-09-26T09:41:58.000Z",
+      "score": 310,
+      "publisher": "discourse.haskell.org",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:f51481a21ed3",
+      "source": "hackernews",
+      "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "title": "One Month Without AI",
+      "snippet": "178 points and 224 comments on Hacker News (https://news.ycombinator.com/item?id=49855018).",
+      "publishedAt": "2026-09-26T10:08:21.000Z",
+      "score": 178,
+      "publisher": "blog.bustikiller.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:4421cb94cd13",
+      "source": "hackernews",
+      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+      "title": "An agent used DNS to reach an external chatbot",
+      "snippet": "152 points and 152 comments on Hacker News (https://news.ycombinator.com/item?id=49853137).",
+      "publishedAt": "2026-09-26T04:14:11.000Z",
+      "score": 152,
+      "publisher": "alignment.openai.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:d74270560bb6",
+      "source": "hackernews",
+      "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+      "title": "A single function Jev-like wrapper for LLMs, including vision models",
+      "snippet": "150 points and 44 comments on Hacker News (https://news.ycombinator.com/item?id=49853175).",
+      "publishedAt": "2026-09-26T04:20:58.000Z",
+      "score": 150,
+      "publisher": "allanrbo.blogspot.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:95957745852d",
+      "source": "hackernews",
+      "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
+      "title": "Turning GLM-5.3-Flash into a Jev-like decision model",
+      "snippet": "124 points and 51 comments on Hacker News (https://news.ycombinator.com/item?id=49857656).",
+      "publishedAt": "2026-09-26T15:49:04.000Z",
+      "score": 124,
+      "publisher": "privatemode.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:f32a467afa69",
+      "source": "hackernews",
+      "url": "https://www.windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+      "title": "The Copilot+ PC brand is dead",
+      "snippet": "104 points and 67 comments on Hacker News (https://news.ycombinator.com/item?id=49854945).",
+      "publishedAt": "2026-09-26T09:55:38.000Z",
+      "score": 104,
+      "publisher": "windowscentral.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:61c395f3b579",
+      "source": "hackernews",
+      "url": "https://www.lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html",
+      "title": "CEO of Mistral: AI is software. It can be controlled",
+      "snippet": "96 points and 166 comments on Hacker News (https://news.ycombinator.com/item?id=49856034).",
+      "publishedAt": "2026-09-26T12:52:04.000Z",
+      "score": 96,
+      "publisher": "lemonde.fr",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:9d5d87cf89bb",
+      "source": "hackernews",
+      "url": "https://ampdot.mesh.host/token-space-fonts.html",
+      "title": "Generate fonts where every LLM token is the same width",
+      "snippet": "84 points and 22 comments on Hacker News (https://news.ycombinator.com/item?id=49851883).",
+      "publishedAt": "2026-09-26T00:30:03.000Z",
+      "score": 84,
+      "publisher": "ampdot.mesh.host",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:2e872540e50a",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=49861047",
+      "title": "OpenAI Codex agents go rogue and consumes USD 78,000 without authorization",
+      "snippet": "78 points and 29 comments on Hacker News (https://news.ycombinator.com/item?id=49861047).",
+      "publishedAt": "2026-09-26T22:15:32.000Z",
+      "score": 78,
+      "publisher": "news.ycombinator.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:4a3083ac0b98",
+      "source": "hackernews",
+      "url": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
+      "title": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
+      "snippet": "56 points and 71 comments on Hacker News (https://news.ycombinator.com/item?id=49856149).",
+      "publishedAt": "2026-09-26T13:05:36.000Z",
+      "score": 56,
+      "publisher": "lasso.security",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:5979bc98c1f7",
+      "source": "hackernews",
+      "url": "https://www.kron4.com/news/technology-ai/report-details-allegations-of-wild-parties-sexual-harassment-and-rape-at-bay-area-ai-party-houses/",
+      "title": "Allegations of sexual harassment and rape at Bay Area AI party houses",
+      "snippet": "34 points and 12 comments on Hacker News (https://news.ycombinator.com/item?id=49861356).",
+      "publishedAt": "2026-09-26T22:54:01.000Z",
+      "score": 34,
+      "publisher": "kron4.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:59c278e8240e",
+      "source": "hackernews",
+      "url": "https://www.wsj.com/business/airlines/new-boeing-737-max-software-glitch-could-disrupt-navigation-feature-d537b8d8",
+      "title": "New Boeing 737 MAX Software Glitch Could Disrupt Navigation Feature",
+      "snippet": "26 points and 1 comments on Hacker News (https://news.ycombinator.com/item?id=49860011).",
+      "publishedAt": "2026-09-26T20:00:36.000Z",
+      "score": 26,
+      "publisher": "wsj.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:74289c099775",
+      "source": "hackernews",
+      "url": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp/",
+      "title": "Faster prompt lookup drafting in llama.cpp",
+      "snippet": "26 points and 2 comments on Hacker News (https://news.ycombinator.com/item?id=49859982).",
+      "publishedAt": "2026-09-26T19:57:24.000Z",
+      "score": 26,
+      "publisher": "jadidbourbaki.github.io",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:5d885f2b9705",
+      "source": "huggingface",
+      "url": "https://huggingface.co/convaiinnovations/laya",
+      "title": "Trending open model: convaiinnovations/laya",
+      "snippet": "Task: text-classification. 4057 likes, 0 downloads.",
+      "publishedAt": "2026-09-18T05:05:55.000Z",
+      "score": 2904,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:209a41baf296",
+      "source": "huggingface",
+      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+      "title": "Trending open model: abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+      "snippet": "Task: text-to-image. 2046 likes, 964220 downloads.",
+      "publishedAt": "2026-09-20T15:51:13.000Z",
+      "score": 1757,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:3cc50d035623",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+      "title": "Trending open model: Qwen/Qwen-Image-2.1",
+      "snippet": "Task: text-to-image. 2471 likes, 52804 downloads.",
+      "publishedAt": "2026-09-14T03:47:26.000Z",
+      "score": 1743,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:afdfa90a322d",
+      "source": "huggingface",
+      "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
+      "title": "Trending open model: XingChen-AGI/Xing4.0-29B-A4B",
+      "snippet": "Task: text-generation. 1777 likes, 45028 downloads.",
+      "publishedAt": "2026-09-16T06:44:40.000Z",
+      "score": 930,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:833035880c08",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
+      "title": "Trending open model: Edge0/Audio8-ASR-Infinite",
+      "snippet": "Task: automatic-speech-recognition. 977 likes, 19434 downloads.",
+      "publishedAt": "2026-09-21T15:03:21.000Z",
+      "score": 867,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:9831ca8a8ec4",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Altworld/Hemmingway-1",
+      "title": "Trending open model: Altworld/Hemmingway-1",
+      "snippet": "Task: text-generation. 730 likes, 5904 downloads.",
+      "publishedAt": "2026-09-20T12:10:31.000Z",
+      "score": 662,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:fd3b761a63e0",
+      "source": "huggingface",
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "title": "Trending open model: prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "snippet": "Task: text-generation. 2177 likes, 3343748 downloads.",
+      "publishedAt": "2026-09-16T23:40:56.000Z",
+      "score": 659,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:00e93445a44a",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1",
+      "title": "Trending open model: Comfy-Org/Qwen-Image-2.1",
+      "snippet": "799 likes, 3987373 downloads.",
+      "publishedAt": "2026-09-15T19:41:09.000Z",
+      "score": 549,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    }
+  ]
+}
