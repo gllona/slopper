@@ -1,0 +1,635 @@
+{
+  "date": "2026-09-27",
+  "fetchedAt": "2026-09-28T18:33:17.270Z",
+  "sources": [
+    {
+      "source": "feeds",
+      "ok": true,
+      "count": 2
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 9
+    },
+    {
+      "source": "gdelt",
+      "ok": false,
+      "count": 0,
+      "error": "all GDELT queries failed"
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "count": 7
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 40
+    }
+  ],
+  "items": [
+    {
+      "id": "feeds:24560cdd0318",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+      "title": "Engram is a sampler that turns broken AI hallucinations into music",
+      "snippet": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This isn't a \"push-button, get-song\" device…",
+      "publishedAt": "2026-09-27T20:46:36.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:1b4ba2f38e37",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+      "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+      "snippet": "Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June. While the incident doesn't quite rise to the level of the Hugging Face hack, or the recent attacks on US government…",
+      "publishedAt": "2026-09-27T17:21:07.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:ee0a4957fb50",
+      "source": "hackernews",
+      "url": "https://fireworks.ai/blog/ember-1",
+      "title": "Ember-1",
+      "snippet": "566 points and 242 comments on Hacker News (https://news.ycombinator.com/item?id=49868830).",
+      "publishedAt": "2026-09-27T17:31:53.000Z",
+      "score": 566,
+      "publisher": "fireworks.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:b62a94f3911c",
+      "source": "hackernews",
+      "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "title": "There are no \"rogue\" AI agents",
+      "snippet": "385 points and 266 comments on Hacker News (https://news.ycombinator.com/item?id=49868083).",
+      "publishedAt": "2026-09-27T16:19:46.000Z",
+      "score": 385,
+      "publisher": "eoinhiggins.substack.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:feb8ab8ab26f",
+      "source": "hackernews",
+      "url": "https://tinyaiarena.com/",
+      "title": "Show HN: TinyAIArena watch AI agents battle it out",
+      "snippet": "116 points and 45 comments on Hacker News (https://news.ycombinator.com/item?id=49867775).",
+      "publishedAt": "2026-09-27T15:51:28.000Z",
+      "score": 116,
+      "publisher": "tinyaiarena.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:afb1427d4a34",
+      "source": "hackernews",
+      "url": "https://arxiv.org/abs/2609.25021",
+      "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+      "snippet": "102 points and 104 comments on Hacker News (https://news.ycombinator.com/item?id=49865343).",
+      "publishedAt": "2026-09-27T10:26:25.000Z",
+      "score": 102,
+      "publisher": "arxiv.org",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:850c8e5ebd9e",
+      "source": "hackernews",
+      "url": "https://github.com/deepfates/imp",
+      "title": "Imp is a full port of DSPy to the BEAM",
+      "snippet": "94 points and 10 comments on Hacker News (https://news.ycombinator.com/item?id=49869995).",
+      "publishedAt": "2026-09-27T19:28:23.000Z",
+      "score": 94,
+      "publisher": "github.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:43403437c49a",
+      "source": "hackernews",
+      "url": "https://earnanhonestdollar.com/bench",
+      "title": "Calling the AI bluff: Adding \"Do not guess\" cut made-up claims from 71% to 20%",
+      "snippet": "75 points and 26 comments on Hacker News (https://news.ycombinator.com/item?id=49868753).",
+      "publishedAt": "2026-09-27T17:24:17.000Z",
+      "score": 75,
+      "publisher": "earnanhonestdollar.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:67949c043a31",
+      "source": "hackernews",
+      "url": "https://zachholman.com/posts/you-should-have-an-llc",
+      "title": "Have an LLC",
+      "snippet": "69 points and 59 comments on Hacker News (https://news.ycombinator.com/item?id=49870304).",
+      "publishedAt": "2026-09-27T20:04:37.000Z",
+      "score": 69,
+      "publisher": "zachholman.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:440e44887d07",
+      "source": "hackernews",
+      "url": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
+      "title": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
+      "snippet": "58 points and 118 comments on Hacker News (https://news.ycombinator.com/item?id=49868202).",
+      "publishedAt": "2026-09-27T16:29:38.000Z",
+      "score": 58,
+      "publisher": "theguardian.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:092e6baf12c1",
+      "source": "hackernews",
+      "url": "https://twitter.com/__tinygrad__/status/2044354852663558370",
+      "title": "George Hotz’s opinion on AI coding",
+      "snippet": "21 points and 10 comments on Hacker News (https://news.ycombinator.com/item?id=49871139).",
+      "publishedAt": "2026-09-27T21:40:54.000Z",
+      "score": 21,
+      "publisher": "twitter.com",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:5d885f2b9705",
+      "source": "huggingface",
+      "url": "https://huggingface.co/convaiinnovations/laya",
+      "title": "Trending open model: convaiinnovations/laya",
+      "snippet": "Task: text-classification. 4256 likes, 0 downloads.",
+      "publishedAt": "2026-09-18T05:05:55.000Z",
+      "score": 2441,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:209a41baf296",
+      "source": "huggingface",
+      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+      "title": "Trending open model: abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+      "snippet": "Task: text-to-image. 2222 likes, 1062921 downloads.",
+      "publishedAt": "2026-09-20T15:51:13.000Z",
+      "score": 1442,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:833035880c08",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Edge0/Audio8-ASR-Infinite",
+      "title": "Trending open model: Edge0/Audio8-ASR-Infinite",
+      "snippet": "Task: automatic-speech-recognition. 1366 likes, 19963 downloads.",
+      "publishedAt": "2026-09-21T15:03:21.000Z",
+      "score": 1216,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:3cc50d035623",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+      "title": "Trending open model: Qwen/Qwen-Image-2.1",
+      "snippet": "Task: text-to-image. 2573 likes, 58693 downloads.",
+      "publishedAt": "2026-09-14T03:47:26.000Z",
+      "score": 1058,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:afdfa90a322d",
+      "source": "huggingface",
+      "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B",
+      "title": "Trending open model: XingChen-AGI/Xing4.0-29B-A4B",
+      "snippet": "Task: text-generation. 1798 likes, 45834 downloads.",
+      "publishedAt": "2026-09-16T06:44:40.000Z",
+      "score": 714,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:6f92c274a23e",
+      "source": "huggingface",
+      "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
+      "title": "Trending open model: XiaomiMiMo/MiMo-V2.6-Pro-RL",
+      "snippet": "Task: text-generation. 577 likes, 76518 downloads.",
+      "publishedAt": "2026-09-21T15:39:33.000Z",
+      "score": 563,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:3f93d1ce366f",
+      "source": "huggingface",
+      "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
+      "title": "Trending open model: XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
+      "snippet": "Task: image-text-to-text. 542 likes, 9994 downloads.",
+      "publishedAt": "2026-09-21T18:18:40.000Z",
+      "score": 530,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:2deef54a6be6",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30427",
+      "title": "Fake News Theories: Harnessing Disciplinary Insights for Computational Modeling, Detection, and Explanation",
+      "snippet": "Disinformation research has produced increasingly accurate automated fake-news detectors, but many systems remain difficult to interpret and are weakly connected to established theories of persuasion, credibility, and human judgment. In this paper, we develop a theory-informed computational…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:b73fe6e06fad",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30747",
+      "title": "Beyond the Last Truffula Tree: SustainAI - A Water-Aware, Closed-Loop Framework for Environmentally Accountable AI",
+      "snippet": "As artificial intelligence (AI) becomes embedded in everyday life, its environmental footprint, particularly water consumption remains largely invisible. While energy and carbon impacts are widely recognized, the substantial freshwater demands of data center cooling and electricity generation…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:fa13f328a05d",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30896",
+      "title": "Large language models underestimate and partly misrepresent cultural variation in everyday norms",
+      "snippet": "A key aspect of culture is a society's norms about everyday behavior. How accurately do large language models (LLMs) represent cultural differences in such norms? To answer this question we used the recent Global Study of Everyday Norms (GSEN), which collected ratings of 150 scenarios in 90…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:b2923e00aafe",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.31007",
+      "title": "Incipit: Axiom-Grounded Scaffolding for Human-AI Literary Creation",
+      "snippet": "Large language models can produce fluent prose from short prompts, but direct prompt-to-text interaction gives writers limited access to the assumptions that shape a long narrative. We present Incipit, an implemented research prototype that introduces an explicit planning layer between a writer's…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:875f726317bc",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.31188",
+      "title": "How can AI accelerate the green transition?",
+      "snippet": "In his essay The Gift, published in 1925, the sociologist Marcel Mauss emphasised the 'total' scope of the phenomenon of gift-and counter-gift-giving, noting that it 'expresses, simultaneously and all at once, all manner of institutions: religious, legal and moral (...)\\,; economic (...)\\,; not to…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:8a2131fc5de8",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.31219",
+      "title": "Research with AI Agents: How Agentic Systems Are Changing Scientific Work",
+      "snippet": "Background. Agentic AI systems independently decompose tasks such as literature search, data analysis, and programming into subtasks, search the web, access databases, and execute code. This allows them to perform digital research tasks at high speed. Objectives. Under what conditions does the use…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:2ef94c45e113",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.31562",
+      "title": "Agentic Economies for Autonomous Scientific Discovery",
+      "snippet": "Recent advances in agentic Artificial Intelligence (AI) systems have marked a shift in AI for Science: moving away from the use of individual AI systems for narrow task execution, toward multi-agent systems capable of orchestrating complex, end-to-end research workflows and performing…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:59c47b310b40",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30320",
+      "title": "Multidimensional Political Attitudes and Polarization Across 141 Countries",
+      "snippet": "Societies worldwide are described as increasingly polarized, yet issue polarization -- how divided a society is over political positions -- has been measured almost entirely on a single left-right axis developed in Western democracies. Whether that axis describes political division elsewhere is…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:e760de0b2c9b",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30611",
+      "title": "Epstein Files Engine: Agentic Search for Investigative Journalism",
+      "snippet": "On Jan. 30, 2026, the U.S. Department of Justice released a mixed-media collection concerning Jeffrey Epstein, including about three million pages of PDFs. We describe the Epstein Files Engine, an A.I. agent The New York Times deployed to investigate the files. The Engine translated reporter…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:866cf256d2eb",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.31297",
+      "title": "Who Belongs Together? Topical and Social Structure in Bluesky Starter Packs",
+      "snippet": "Bluesky starter packs are human curated collections of accounts and feeds aimed at helping users discover new communities, especially during onboarding. Prior research has examined their effects on platform growth and account visibility. However, whether these packs capture meaningful topical and…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:4bf80f0cb9aa",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.31485",
+      "title": "Verifiable Randomness for Blockchain-Based Lottery Systems",
+      "snippet": "As lotteries and other high-stakes decentralized applications increasingly depend on unpredictable randomness for their operations, the lack of a secure and transparent on-chain random number generator that is verifiable by all participants remains a critical open problem. Various approaches to…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:3eeacbb9e192",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30270",
+      "title": "HybridInfer: Thermal-Aware Reinforcement-Learning Tier Routing for On-Device, Edge, and Cloud LLM Inference",
+      "snippet": "On-device inference with small language models keeps user data local, works offline, and incurs no per-query cost, so the on-device tier is preferred when it is adequate. It is thermally constrained, however, and I find the constraint is sharper than a slowdown: on a flagship Snapdragon device…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:2b823bb4a160",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30271",
+      "title": "When the Preconditioning Exponent Turns Negative: Learning-Rate Coupling and Cross-Environment Generalization",
+      "snippet": "Adaptive optimizers are commonly parameterized by a fixed power of the second-moment estimate. Existing partially adaptive methods study exponents between momentum-like updates and the standard Adam square root, while the interaction between this exponent and the global learning rate is less…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:3e8f19e181ac",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30272",
+      "title": "ENAS: An Efficient Hardware-Aware Neural Architecture Search Framework for TinyML on Resource-Constrained Microcontrollers",
+      "snippet": "We present \\textbf{ENAS}, a hardware-aware Neural Architecture Search (NAS) framework that combines a static feasibility check, a cell-based search space supporting standard, depthwise-separable, and bottleneck blocks with optional skip connections, and a three-stage hybrid search strategy (random…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:863d1cc06b33",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30273",
+      "title": "Offline Policy Evaluation as a decision support tool for designing Adaptive Experiments",
+      "snippet": "We investigate how historical data from fixed randomized experiments (A/B tests) can be used to inform the deployment of adaptive experiments based on contextual bandits. Given data collected under a static allocation, our goal is to assess which adaptive policies, if any, would have outperformed…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:452b7f2dcf5e",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30275",
+      "title": "Cosine Similarity Is Not Evidence: Measuring the Noise Floor of Interpretability Transfer Under Quantization",
+      "snippet": "A statistic reported without the quantity needed to interpret it is not evidence. We develop that thesis for a concrete practice in AI safety. Interpretability artifacts are calibrated on full-precision weights, deployed on quantized ones, and certified as surviving the change by scale-invariant…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:2674bf30092b",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30276",
+      "title": "Why Clipping Matters in AdaGrad? Toward a High-Probability Theory under Generalized Smoothness",
+      "snippet": "We analyze the original same-step coordinate-wise AdaGrad under generalized smoothness and heavy-tailed noise with bounded variance. In this setting, local curvature may grow sub-quadratically with the gradient norm, and stochastic gradients are assumed to have only bounded conditional second…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:5aeaab209df0",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30277",
+      "title": "Fixed Points Without Fixed Diffusion: Implicit Neural Sheaves for Convergent Test-Time Computation",
+      "snippet": "Implicit Graph Neural Networks (IGNNs) define node representations as fixed points of message-passing operators, enabling effectively infinite-depth propagation, iteration-independent parameterization, and flexible test-time computation. Yet these benefits depend on the equilibrium being unique…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:69d1bb52c456",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30279",
+      "title": "Neural Ideals and Neural Codes: An Algebraic Framework for Neural Network Classification and Feature Interpretation",
+      "snippet": "Understanding the features captured by the hidden layers of neural networks is a fundamental challenge in machine learning, despite their widespread success across various classification problems. In this work, we propose an algebraic framework for examining neural networks that model…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:8ea00c41d241",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30281",
+      "title": "Seasonal and Quantum-inspired Models for Neutron Monitor Time Series Forecasting",
+      "snippet": "We present a focused and reproducible study of multi-horizon forecasting on the Lomnicky Stit neutron monitor (LMKS) time series. Our evaluation suite covers simple seasonal baselines, modern deep sequence models, and functional and quantum-inspired architectures, including Seasonal Naive, Long…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:8fa7a44cacad",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30286",
+      "title": "When Does Advection-Aware Graph Nowcasting Help? A Controlled Study of Distributed Solar Ramp Forecasting with a Self-Supervised Cloud-Motion Estimator",
+      "snippet": "Short-term forecasting of cloud-induced power ramps across a network of distributed photovoltaic (PV) or irradiance sensors is a recognised pain point for grid operators. A natural idea is to make the graph neural network (GNN) advection-aware: connect each site to the sites upwind of it, with…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:78f544f88309",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30287",
+      "title": "A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT: Sparse Probing and Activation Patching on RAID",
+      "snippet": "AI-generated text detectors achieve high accuracy on standard benchmarks, yet the internal representations that drive these predictions remain poorly understood. We study which neurons in a frozen BERT-base-uncased encoder support AI-text detection, using the RAID benchmark across six generators…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:fb3f2e57ce2a",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30288",
+      "title": "Manifold Projection and Iterative Autoencoder Refinement for Masked Language Modeling",
+      "snippet": "In Transformer-based masked language models, attention is the primary mechanism for context mixing, but there are other ways to mix data across tokens. Recent attention-free mixers replace attention with fixed or hypernetwork-generated MLPs, alternating their dynamic, content-dependent weighting…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:5c9d3cc91f3d",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30289",
+      "title": "Not All Memories Are Equal: Hierarchical Collaborative Memory for Validity-Aware Retrieval in LLM Agents",
+      "snippet": "In team collaboration scenarios, memory is heterogeneous and continually evolving. Team memories capture collective decisions, protocols, and current consensus, while individual memories preserve member-specific observations, execution traces, and intermediate progress. Existing memory-augmented…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:d58e13a07866",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30290",
+      "title": "Auditing and Repairing LLM-as-Judge Failures in a Production Text-to-SQL Pipeline",
+      "snippet": "Production text-to-SQL pipelines often end with an LLM-as-judge whose agreement with human annotators has never actually been measured. When we checked ours, the deployed gpt-4o-mini judge agreed with two-author gold at only Cohen's kappa = 0.04 on a disagreement-enriched set and 0.42 on a…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:e06deff32845",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30291",
+      "title": "Bringing AI to Autonomous Systems -- From Cognition to Collective Intelligence",
+      "snippet": "The purpose of this article is to highlight the central role of autonomous systems as the ultimate stage in the development of AI, to explain the underlying technical challenges that require a combination of connectionist AI and symbolic AI, and to integrate AI and systems engineering. We present…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:1a61367dd50f",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30292",
+      "title": "A Survey on Fake Review Detection: From Pre-trained Language Models to Large Language Models",
+      "snippet": "Online reviews shape consumer decisions, platform governance, and corporate reputation.Fake reviews compromise this information channel by injecting deceptive evidence into rating systems, recommendation pipelines, and public trust mechanisms.The rise of large language models, or LLMs, has changed…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:3b5a577021cc",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30293",
+      "title": "Cartograph: Federated Tool Discovery with Operator-Attested Retrieval for AI Agents",
+      "snippet": "The Model Context Protocol (MCP) enables AI agents to discover and call tools, but loading every definition becomes expensive as connected catalogs grow. We present Cartograph, a federated MCP proxy that changes agent-visible tool discovery from $O(n)$ catalog traversal to $O(k)$ progressive…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:57b55a10f407",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30294",
+      "title": "SlideLab: Audience-Centered Scientific Slide Generation and Evaluation",
+      "snippet": "Scientific presentations are more than summaries of research papers. They need to present the work in a coherent sequence, explain the main ideas clearly, and help the audience follow the presentation. We present SlideLab, a training-free multi-agent framework for generating scientific…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:1bd6f3bf5e46",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30295",
+      "title": "SignTrace: Describe a Sign, Find the Word",
+      "snippet": "Identifying an unfamiliar sign is difficult when a learner remembers its movement but does not know its meaning or formal feature codes. SignTrace addresses this longstanding reverse-lookup problem through natural-language access to a Chinese sign-language dictionary. The system integrates…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:eac9551174f6",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30296",
+      "title": "NeuralCert: certified computational discovery of extremal mathematical constructions",
+      "snippet": "Neural networks are becoming popular in solving mathematical problems, but stochastic models do not provide mathematical exactness by themselves. This study introduces a discovery-to-certification framework in which high-dimensional variational trial functions are learned in a compact separable…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:ef14ba9e161c",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30297",
+      "title": "Bootstrapping Conversational Recommendation Agents At Spotify: Synthetic Data Generation and Self-Improvement Loops",
+      "snippet": "Conversational recommendation agents are a new paradigm for content discovery, enabling users to express complex intents through natural language (e.g., \"recommend Italian indie artists I haven't heard before\"). A central challenge in building such agents is optimizing agent planning -- deciding…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:af0dce754a02",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30298",
+      "title": "A Benchmark Framework for Screening Automation in Systematic Reviews",
+      "snippet": "Systematic reviews (SR) are essential for evidence-based research, but their screening phase is highly time-consuming and labor-intensive. Large language models (LLMs) offer a promising opportunity to reduce this workload by assisting with article relevance classification. However, existing…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:4bd1c28a531b",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30299",
+      "title": "Staged Depth Training: A Representation Curriculum for PINNs",
+      "snippet": "Representation quality is a central determinant of PINNs' performance, yet standard training leaves representations to emerge implicitly while fitting the final solution. We introduce \\textbf{representation curriculum}, an ordered process in which representations are explicitly learned…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:9d07981f5c8c",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30316",
+      "title": "PALM: Point-in-Time Adaptation for Financial Language Models",
+      "snippet": "Language models used in financial backtests suffer from look-ahead bias, as a model trained on text published after the study period has already observed the outcomes it is asked to predict. To handle this issue, point-in-time (PIT) language models are pretrained on chronologically filtered…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:3280a319e4f2",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30325",
+      "title": "ScopeBench: Do Agents Preserve Engagement Boundaries Under Goal Pressure?",
+      "snippet": "Agents are increasingly deployed with real autonomy in web application and network penetration testing, where a single out-of-scope action can breach a client's engagement boundary. Existing offensive-security benchmarks measure raw hacking capability; as those benchmarks saturate, the real…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:4284e6198cbb",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30326",
+      "title": "Guarded Gradient-Based Activation Steering of Shutdown Responses in Qwen3.5-0.8B: A Minimum-Step Policy",
+      "snippet": "Activation steering changes a model's internal activations during inference without updating its weights, but a useful intervention must determine both how and when to steer. Motivated by the AI-safety concern that a model expected to accept shutdown may instead produce a shutdown-avoidance…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:88e0b7ffb165",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30328",
+      "title": "When Is a Multi-Agent Code Judge Actually Grounded? Two Label-Free Measurements, and a Judge That Declines to Guess",
+      "snippet": "When one language model judges whether another's code is correct, it does not report the absence of evidence. It returns a confident verdict with reasoning attached, indistinguishable from a verdict it had grounds for. Multi-agent verification, which decomposes a judgment into checkable claims and…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:22bb6ae2c669",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30337",
+      "title": "Parameters vs. Context: TRACE Fine-Tuning for Robust Retrieval-Augmented Generation",
+      "snippet": "Retrieval-Augmented Generation (RAG) mitigates knowledge obsolescence and factual hallucination in large language models by introducing external context. However, when retrieved knowledge conflicts with the model's internal parametric knowledge, the model may either blindly follow misleading…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:dde1b37bb932",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2609.30340",
+      "title": "GAUDI: Geometry-Aware Diffusion for Calibrated Air-Quality Time-Series Imputation",
+      "snippet": "Air-quality sensor outages often create contiguous missing blocks, where side information useful for isolated missingness may be less reliable. We study a block-specific, GAUDI-aligned conditional diffusion imputer that retains temporal and feature processing, visible-value and mask conditioning…",
+      "publishedAt": "2026-09-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    }
+  ]
+}
