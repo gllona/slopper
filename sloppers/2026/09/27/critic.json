@@ -1,0 +1,78 @@
+{
+  "passed": false,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The pause button renders in the wrong spot, overlapping the robot's face and the door instead of the human's hand, which breaks the composition and muddies who is actually pausing what — this needs a layout fix before it can publish.",
+        "revisionNotes": [
+          "Reposition the 'button' component: it's attachTo human/side left but rendered overlapping the robot's torso and the door instead of near the human's hand — move it to sit beside the human at right-third (e.g. offset [-140, -20]) so the person visibly presses it.",
+          "The 'paused' label clips across the door's bottom edge and the robot's legs — after moving the button, give the label its own clear offset below it with no overlap.",
+          "Robot's face and antenna are partly hidden behind the misplaced button; once the button moves, confirm the robot's face and 'neutral' expression are fully visible.",
+          "Human's arm (pose 'point') stretches into empty space on the far right with nothing to point at — change pose to a pressing gesture aimed at the relocated button so the hand visually touches it.",
+          "Knock motion lines on the door are only faintly visible as one small arc near the robot's shoulder — thicken/brighten the r-thin arcs so repeated knocking reads clearly.",
+          "There's a visual gap between the meter bar and the '16,000' label above the door with nothing connecting them to the door top — tighten the vertical spacing so the chain (door → meter → number) reads as one stack."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The palette and blueprint style are handled well, but the robot is badly clipped behind the door, the knock-motion arcs are entirely hidden, and the PAUSED button/label overlap the robot instead of sitting clearly with the human — the composition muddles rather than tells the joke, so this does not pass.",
+        "revisionNotes": [
+          "Shift the door element right (offset +80 on x) or shrink robot to scale 0.85 — the robot's torso is currently hidden about 40% behind the door panel, breaking the read of who is knocking.",
+          "The three knock-motion arcs are drawn at x -10 to -46 on the door's left edge, which lands directly behind the robot's body — flip the arcs to the door's right edge or move them above the robot's silhouette so the repeated-knock action is actually visible.",
+          "Move the pause button and 'PAUSED' label fully onto the human's side (increase offset to roughly -220, -40 from human) — right now the button sits against the robot and the label's last letters clip into the robot's leg/door edge.",
+          "Redirect the human's pointing arm toward the pause button instead of toward the door's round handle-knob; as staged it reads as the human reaching for the door, not for PAUSED.",
+          "Add clear negative space between robot and door components (increase horizontal gap ~60-80px) so the scene has one clean focal path left-to-right instead of a fused blob at center-left."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": false,
+        "errors": [
+          "\"paused\" (label) must be inside the safe area 60…1020 px (now x 877…1042, y 726…759)"
+        ],
+        "warnings": [
+          "\"button\" extends outside the safe area in the final frame (x 931…1027, y 580…676)"
+        ]
+      },
+      "passed": false
+    }
+  ]
+}
