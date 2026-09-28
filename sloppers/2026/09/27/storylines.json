@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "storylines": [
+    {
+      "id": "agents-gone-rogue",
+      "title": "Debate over 'rogue' AI agents and a training halt",
+      "dimensions": [
+        "safety",
+        "industry",
+        "policy"
+      ],
+      "firstSeen": "2026-09-27",
+      "lastSeen": "2026-09-27",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-09-27"
+      ],
+      "motifs": [
+        "a robot knocking on a door",
+        "a climbing meter",
+        "a pause button"
+      ]
+    },
+    {
+      "id": "ember-model-launch",
+      "title": "New inference model Ember-1 draws attention",
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "firstSeen": "2026-09-27",
+      "lastSeen": "2026-09-27",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-09-27"
+      ],
+      "motifs": [
+        "a glowing spark or ember shape",
+        "a launch pad"
+      ]
+    },
+    {
+      "id": "ai-honesty-benchmark",
+      "title": "Telling AI to admit uncertainty cuts made-up answers",
+      "dimensions": [
+        "capabilities",
+        "safety",
+        "society"
+      ],
+      "firstSeen": "2026-09-27",
+      "lastSeen": "2026-09-27",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-09-27"
+      ],
+      "motifs": [
+        "a speech bubble with a shrug",
+        "a dropping meter"
+      ]
+    },
+    {
+      "id": "thirsty-datacenters",
+      "title": "Research quantifies AI's hidden water footprint",
+      "dimensions": [
+        "planet",
+        "science"
+      ],
+      "firstSeen": "2026-09-27",
+      "lastSeen": "2026-09-27",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-09-27"
+      ],
+      "motifs": [
+        "a datacenter with a water droplet",
+        "a dry landscape"
+      ]
+    },
+    {
+      "id": "ai-hallucination-art",
+      "title": "Musicians turn AI hallucinations into an instrument",
+      "dimensions": [
+        "society",
+        "capabilities"
+      ],
+      "firstSeen": "2026-09-27",
+      "lastSeen": "2026-09-27",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-09-27"
+      ],
+      "motifs": [
+        "a sampler machine",
+        "glitching musical notes"
+      ]
+    }
+  ]
+}

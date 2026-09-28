@@ -1,0 +1,17 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "pass",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "low",
+          "evidence": "Art and phrase state '16,000' as an exact count, while the Verge source states the agents scanned the site 'over 16,000 times'.",
+          "suggestion": "Change wording to 'over 16,000' or 'more than 16,000' in the phrase and art meter label to match the source precisely.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}

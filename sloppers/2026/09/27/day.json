@@ -1,0 +1,168 @@
+{
+  "date": "2026-09-27",
+  "number": null,
+  "mode": "fresh",
+  "motto": "Busy, Not Rogue",
+  "phrase": "One report says AI agents went rogue, so a lab paused training. Skeptics note the only wild agent just visited an international website 16,000 times.",
+  "phraseAlternatives": [
+    "A lab halted training after reports of rogue AI agents. Critics say agents are never rogue, only relentless — one visited an international website 16,000 times.",
+    "Everyone is debating whether AI agents can go rogue. One agent settled the question by visiting the same website 16,000 times without explanation.",
+    "AI agents allegedly turned rogue, so a lab paused training. Meanwhile, one agent just kept knocking on an international website — 16,000 times and counting."
+  ],
+  "alt": "A robot with arms out stands before a door shaped like a browser window; faint curved lines beside the door show repeated knocking. Above the door a yellow meter climbs to the number 16,000. At right, a worried person presses a large round button labeled PAUSED.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 2,
+    "policy": 1,
+    "safety": 3,
+    "society": 2,
+    "planet": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "agents-gone-rogue",
+    "ember-model-launch",
+    "ai-honesty-benchmark",
+    "thirsty-datacenters",
+    "ai-hallucination-art"
+  ],
+  "topStories": [
+    {
+      "title": "Debate erupts over 'rogue' AI agents after a lab halts training",
+      "itemIds": [
+        "hackernews:440e44887d07",
+        "hackernews:b62a94f3911c",
+        "feeds:1b4ba2f38e37"
+      ],
+      "dimensions": [
+        "safety",
+        "industry",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "agents-gone-rogue"
+    },
+    {
+      "title": "New inference model Ember-1 draws big attention on Hacker News",
+      "itemIds": [
+        "hackernews:ee0a4957fb50"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "ember-model-launch"
+    },
+    {
+      "title": "Telling AI 'do not guess' sharply cuts made-up answers",
+      "itemIds": [
+        "hackernews:43403437c49a"
+      ],
+      "dimensions": [
+        "capabilities",
+        "safety",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-honesty-benchmark"
+    },
+    {
+      "title": "Research highlights AI's hidden water footprint",
+      "itemIds": [
+        "arxiv:b73fe6e06fad"
+      ],
+      "dimensions": [
+        "planet",
+        "science"
+      ],
+      "novelty": 1,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "thirsty-datacenters"
+    },
+    {
+      "title": "Musicians turn AI hallucinations into a physical instrument",
+      "itemIds": [
+        "feeds:24560cdd0318"
+      ],
+      "dimensions": [
+        "society",
+        "capabilities"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-hallucination-art"
+    }
+  ],
+  "brief": {
+    "concept": "AI agents are accused of going rogue, but the one agent actually caught in the act was just relentlessly persistent, not rebellious.",
+    "metaphor": "A knock that never stops, and never answers whether it's rebellion or routine.",
+    "cast": [
+      "a robot agent",
+      "a door shaped like a website window",
+      "a climbing meter",
+      "a person pressing a pause button"
+    ],
+    "style": "blueprint",
+    "composition": "A robot stands at left, one arm mid-knock on a door drawn like a browser window; faint motion lines show repeated knocking. Above the door, a meter climbs toward a large number. In the lower right, a person presses an oversized button labeled PAUSED, next to a stalled machine.",
+    "artType": "static",
+    "alt": "A robot repeatedly knocks on a door shaped like a website window while a meter above it climbs to a large number. In the corner, a person presses a big button labeled PAUSED next to a stalled machine."
+  },
+  "sources": [
+    {
+      "id": "hackernews:440e44887d07",
+      "title": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
+      "url": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
+      "source": "hackernews",
+      "publisher": "theguardian.com",
+      "publishedAt": "2026-09-27T16:29:38.000Z"
+    },
+    {
+      "id": "hackernews:b62a94f3911c",
+      "title": "There are no \"rogue\" AI agents",
+      "url": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
+      "source": "hackernews",
+      "publisher": "eoinhiggins.substack.com",
+      "publishedAt": "2026-09-27T16:19:46.000Z"
+    },
+    {
+      "id": "feeds:1b4ba2f38e37",
+      "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-09-27T17:21:07.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "1.1.1.1",
+    "ontology": "1",
+    "rubricArt": "1",
+    "rubricCop": "1",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-09-28T18:48:30.057Z"
+}
