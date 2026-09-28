@@ -19,8 +19,7 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 ## Waiting for Gorka
 
 1. Telegram: add `TELEGRAM_BOT_TOKEN` (secret), `TELEGRAM_CHAT_ID`, `REVIEWER_UTC_OFFSET` (variables) in GitHub (SETUP.md §9).
-2. Two open M7 questions: (a) the schedule (GitHub started the 15:00 UTC run 3 h 42 min late on 2026-09-27);
-   (b) where dry-run sloppers are kept so storylines and continuation days can be calibrated.
+2. Merge `feat/telegram-notify`, then `feat/m7-schedule-history` (built on top of it).
 3. Optional: enable **Cloudflare Web Analytics**.
 4. Cloudflare platform change (DESIGN §13.1, decision 27): confirm classic Pages stays supported.
 
@@ -35,6 +34,12 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
   (GitHub Mobile push) and sends a Telegram photo message with the motto, phrase, critic and Cop results, the
   deadline in local time, and "Open PR" / "Image" link buttons. Failures and publications are sent too. Outbound
   only: no endpoint. 9 tests (escaping, limits, fallback, one network retry, token redaction).
+- **Schedule** (decision 37, Gorka's choice): tries at 11:07, 13:07, 15:07 UTC (06:07/08:07/10:07 Panama); a
+  scheduled try exits early when a PR for the date exists. Minute 7 avoids GitHub's top-of-the-hour load.
+- **Calibration history** (decision 38, Gorka's choice): while `DRY_RUN=true`, `open-pr` also commits the folder
+  to a `calibration` branch and `create` loads `sloppers/` from it, so storylines, continuation days, and style
+  rotation get calibrated. The save step was simulated locally against a bare repo: first run creates the
+  branch, a regeneration replaces the day (stale files removed), a repeat is a no-op, the load restores it.
 - Local test 2026-09-27: bot @aislopperbot sent the PR #6 message to Gorka's phone; image, caption, and
   buttons OK. (A first attempt hit a transient connection timeout, hence the retry.)
 

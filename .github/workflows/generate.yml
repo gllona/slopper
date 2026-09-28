@@ -1,10 +1,15 @@
 # Daily slopper (DESIGN §16.1): fetch (no AI) → create (AI, read-only) → open-pr (no AI, bot token).
-# 15:00 UTC = 10:00 for Gorka (UTC-5). The PR publishes after 19:00 UTC unless vetoed (publish.yml).
+# GitHub cron has no guaranteed start time (it started 3 h 42 min late on 2026-09-27), so there are three
+# scheduled tries (06:07, 08:07, 10:07 in UTC-5); a try exits early when a PR for that date already exists.
+# The PR publishes after 19:00 UTC (14:00 for Gorka) unless vetoed (publish.yml).
+# While DRY_RUN=true, dry-run sloppers are also kept on the `calibration` branch so later days have history.
 name: generate
 
 on:
   schedule:
-    - cron: '0 15 * * *'
+    - cron: '7 11 * * *'
+    - cron: '7 13 * * *'
+    - cron: '7 15 * * *'
   workflow_dispatch:
     inputs:
       date:
@@ -28,9 +33,13 @@ jobs:
   fetch:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    permissions:
+      contents: read
+      pull-requests: read
     outputs:
       date: ${{ steps.date.outputs.date }}
       path: ${{ steps.date.outputs.path }}
+      skip: ${{ steps.done.outputs.skip }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -49,10 +58,26 @@ jobs:
           [[ "$d" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || { echo "::error::bad date '$d'"; exit 1; }
           echo "date=$d" >> "$GITHUB_OUTPUT"
           echo "path=sloppers/${d//-//}" >> "$GITHUB_OUTPUT"
+      - name: Already done today?
+        id: done
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          # Scheduled backups stop here when an earlier try already opened a PR (open or closed) for this date.
+          # Manual runs (and regenerate) always proceed.
+          n=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "slopper/${{ steps.date.outputs.date }}" --state all --json number --jq length)
+          if [ "$EVENT" = schedule ] && [ "$n" -gt 0 ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::A PR for ${{ steps.date.outputs.date }} already exists: nothing to do."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
       - name: Fetch sources
+        if: steps.done.outputs.skip != 'true'
         run: npm run fetch -- --date "${{ steps.date.outputs.date }}" --out digest.json
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
-        if: always()
+        if: always() && steps.done.outputs.skip != 'true'
         with:
           name: digest
           path: digest.json
@@ -61,6 +86,7 @@ jobs:
 
   create:
     needs: fetch
+    if: needs.fetch.outputs.skip != 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 90 # includes one 15-minute wait on a usage limit
     steps:
@@ -73,6 +99,16 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npx playwright install --with-deps chromium
+      - name: Calibration history (dry runs)
+        if: env.DRY_RUN == 'true'
+        run: |
+          # Earlier dry-run sloppers (and their storylines) live on the calibration branch, not on main.
+          if git fetch -q --depth=1 "https://github.com/$GITHUB_REPOSITORY.git" calibration 2>/dev/null; then
+            git checkout FETCH_HEAD -- sloppers 2>/dev/null && echo "Loaded $(find sloppers -name day.json | wc -l) earlier dry-run day(s)" || echo "calibration has no sloppers yet"
+          else
+            echo "No calibration branch yet"
+          fi
+          rm -rf "${{ needs.fetch.outputs.path }}" # an older attempt at this same date must not leak into this run
       - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
           name: digest
@@ -90,6 +126,7 @@ jobs:
 
   open-pr:
     needs: [fetch, create]
+    if: needs.fetch.outputs.skip != 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -150,6 +187,24 @@ jobs:
           url=$(gh pr create --repo "$GITHUB_REPOSITORY" --base main --head "$branch" --title "$title" --body-file body.md --label "$labels" --reviewer "$GITHUB_REPOSITORY_OWNER")
           echo "url=$url" >> "$GITHUB_OUTPUT"
           echo "image=$raw/still.png" >> "$GITHUB_OUTPUT"
+      - name: Keep the dry run on the calibration branch
+        if: env.DRY_RUN == 'true'
+        env:
+          GH_TOKEN: ${{ steps.bot.outputs.token }}
+          DIR: ${{ needs.fetch.outputs.path }}
+        run: |
+          set -euo pipefail
+          remote="https://x-access-token:${GH_TOKEN}@github.com/$GITHUB_REPOSITORY.git"
+          work="$RUNNER_TEMP/calibration"
+          if git fetch -q "$remote" calibration 2>/dev/null; then git worktree add -q "$work" FETCH_HEAD
+          else git worktree add -q "$work" origin/main 2>/dev/null || git worktree add -q "$work" HEAD~1; fi
+          rm -rf "${work:?}/$DIR" && mkdir -p "$work/$DIR" && cp -R "$DIR/." "$work/$DIR/"
+          cd "$work"
+          git add "$DIR"
+          if git diff --cached --quiet; then echo "calibration already up to date"; exit 0; fi
+          git commit -q -m "Calibration: $(head -n 1 "$DIR/pr.md" | sed 's/^# //')"
+          git push -q "$remote" HEAD:refs/heads/calibration
+          echo "Saved $DIR on the calibration branch"
       - name: Notify on Telegram
         continue-on-error: true
         env:
