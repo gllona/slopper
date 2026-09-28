@@ -804,6 +804,8 @@ slopper/
 | `SITE_URL` | URL | `https://slopper.logicos.org` | Canonical base URL |
 | `CLOUDFLARE_ACCOUNT_ID` | string | — | Cloudflare account ID (not secret) |
 | `LAUNCH_DATE` | `YYYY-MM-DD` | — | Date of Slopper #1 (number = days since this date + 1) |
+| `TELEGRAM_CHAT_ID` | integer | — | Gorka's Telegram chat id (notifications) |
+| `REVIEWER_UTC_OFFSET` | integer | `-5` | Only for showing the deadline in Gorka's local time |
 | `BOT_APP_ID` | integer | — | GitHub App ID of the Slopper bot (not secret) |
 
 ### 15.3 GitHub secrets
@@ -812,6 +814,7 @@ slopper/
 |---|---|---|
 | `CLAUDE_CODE_OAUTH_TOKEN` | generate (`create` job, incl. Cop), regenerate, lessons | From `claude setup-token` with Gorka's Max account. Has an expiry: keep a calendar reminder. |
 | `CLOUDFLARE_API_TOKEN` | publish (deploy job only) | Scoped to "Cloudflare Pages: Edit" on this account only. Stored in the `production` environment. |
+| `TELEGRAM_BOT_TOKEN` | generate (`open-pr` notify step, failure alert), publish (tag notify, failure alert) | Telegram bot token from @BotFather. Only sends messages. |
 | `BOT_APP_PRIVATE_KEY` | generate (`open-pr` job), publish (merge step) | Private key of the Slopper bot GitHub App (see §16.7). Used to mint short-lived installation tokens. |
 
 ### 15.4 `slopper.config.json` (non-secret tunables)
@@ -937,7 +940,7 @@ A small GitHub App owned by Gorka, installed **only** on `gllona/slopper`, with 
 
 ### 17.1 Every day (about 1 minute)
 
-Around **15:30–16:00 UTC (10:30–11:00 your time)** a PR appears: **`Slopper #N — YYYY-MM-DD — <motto>`**. GitHub notifies you (email or mobile app). The PR body shows the still, the phrase, critic scores, the Cop verdict, and sources.
+Around **15:30–16:00 UTC (10:30–11:00 your time)** a PR appears: **`Slopper #N — YYYY-MM-DD — <motto>`**. Your phone gets a **Telegram** message (still image, motto, phrase, critic and Cop results, your deadline, an "Open PR" button) and a **GitHub Mobile** push (the bot requests your review). Approve or veto by adding the label in GitHub Mobile. Failures and publications are also sent to Telegram. The PR body shows the still, the phrase, critic scores, the Cop verdict, and sources.
 
 Your options:
 
@@ -1213,13 +1216,14 @@ Build in this order. Each milestone ends with tests passing and a short demo.
 | 28 | The `slopper-coh.pages.dev` copy of production is served with `X-Robots-Tag: noindex` (via `_headers`); only `slopper.logicos.org` is indexed. `/today/` redirects to `/` while the archive is empty. The feed is served as `application/atom+xml`. |
 | 29 | Timing for Gorka in UTC-5 (no DST): generate at 15:00 UTC, review at ~17:00 UTC, **fixed** veto deadline 19:00 UTC (`PUBLISH_HOUR_UTC`) plus a 60-minute minimum PR age (`VETO_MIN_MINUTES`), replacing `VETO_HOURS`. `publish.yml` runs hourly at :05. |
 | 3 | The robots are learning fast. The rules are still reading page one. | A | |
+| 3 | The robots are learning fast. The rules are still reading page one. | A | |
 | 30 | Sources (v1): Hacker News, Hugging Face, arXiv via `rss.arxiv.org`, publisher feeds, GDELT, Techmeme. Google News RSS, Reddit, and the arXiv API are excluded by `robots.txt`; The Guardian, Al Jazeera, and Bing News by their terms (§7). |
 | 31 | GDELT is best-effort: few broad queries, 12 s between requests, 90 s timeout, one retry. It rate-limits shared IPs hard (it answered 429 for hours during M4), and its failure alone never stops the pipeline. Revisit after observing it from GitHub runners (M6). |
 | 32 | AI calls use `--restricted --tools Read` in a throwaway workspace (§15.5); `--bare` is excluded because it bypasses the subscription login. The mode rule, storyline heat, and the critic pass rule are computed by code; Claude's scores feed them, and mismatches trigger one retry. |
 | 33 | Each day folder keeps `curate.json`, `storylines.json` (state after the day; input for the next day, then `knowledge/storylines.json` via open-pr), and `pr.md`. The Critic judges novelty from one contact sheet of recent stills (`recent.png`), not 14 separate images. |
 | 34 | `open-pr` re-verifies the AI job's folder (`npm run verify:sloppers`: schemas, sanitizer re-check, allowed file names, sizes) **before** the bot token is minted, and runs `npm ci --ignore-scripts`. Claude Code is a pinned dev dependency (lockfile integrity), not a global install. |
 | 35 | Publishing uses a `deployed` tag to deploy any undeployed `main` (retry on failure, code and takedown changes). `DRY_RUN` only stops slopper merges. One-time setup steps live in `docs/SETUP.md`. |
----
+| 36 | Phone notifications are **outbound only** (no endpoint): the bot requests the owner's review (GitHub Mobile push) and sends Telegram messages (`pipeline/ops/notify.ts`; failures and publications via `curl`). Gorka acts by labeling the PR in GitHub Mobile. Telegram buttons that act directly would need an always-on endpoint (a Cloudflare Worker holding a GitHub credential); not done. |
 
 ## Appendix A — Voice candidates (reviewed)
 

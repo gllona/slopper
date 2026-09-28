@@ -11,22 +11,34 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 | M3 — Site | ✅ | Eleventy site live at https://slopper.logicos.org (Coming soon) + sample preview |
 | M4 — Fetch | ✅ | 6 sources, robots.txt-aware HTTP, digest.json, recorded fixtures |
 | M5 — AI stages locally | ✅ | `npm run day` end to end with real Claude in 165 s |
-| M6 — Automation | 🟡 🔒 | workflows done; waiting for Gorka's one-time setup (`docs/SETUP.md`) |
-| M7 — Calibration | ⬜ | |
+| M6 — Automation | ✅ | first dry run on GitHub: PR #5 (critic passed on the 3rd try) |
+| M7 — Calibration | 🟡 | started 2026-09-27: phone notifications first |
 | M8 — Launch | ⬜ | |
 | M9 — Evolution | ⬜ | |
 
 ## Waiting for Gorka
 
-1. Commit M6 (branch `feat/m6-automation`) and merge it: workflows only run from `main`.
-2. Do the one-time setup in **[`docs/SETUP.md`](SETUP.md)** (GitHub App, secrets, Cloudflare token, variables,
-   ruleset, labels), then the first dry run.
-3. Optional: enable **Cloudflare Web Analytics** (dashboard → Workers & Pages → slopper → Metrics).
+1. Telegram: add `TELEGRAM_BOT_TOKEN` (secret), `TELEGRAM_CHAT_ID`, `REVIEWER_UTC_OFFSET` (variables) in GitHub (SETUP.md §9).
+2. Two open M7 questions: (a) the schedule (GitHub started the 15:00 UTC run 3 h 42 min late on 2026-09-27);
+   (b) where dry-run sloppers are kept so storylines and continuation days can be calibrated.
+3. Optional: enable **Cloudflare Web Analytics**.
 4. Cloudflare platform change (DESIGN §13.1, decision 27): confirm classic Pages stays supported.
 
 ---
 
-## M6 — Automation 🟡
+## M7 — Calibration 🟡
+
+- 2026-09-27: the scheduled run started at **18:42 UTC instead of 15:00 UTC** (GitHub delays cron under load);
+  generation itself took ~10 min, PR #6 at 18:52 UTC. The 60-minute minimum age still protected the deadline.
+- Gorka on PR #6: "the art and composition is great. No visual nuances."
+- **Phone notifications** (branch `feat/telegram-notify`, decision 36): the bot requests Gorka's review
+  (GitHub Mobile push) and sends a Telegram photo message with the motto, phrase, critic and Cop results, the
+  deadline in local time, and "Open PR" / "Image" link buttons. Failures and publications are sent too. Outbound
+  only: no endpoint. 9 tests (escaping, limits, fallback, one network retry, token redaction).
+- Local test 2026-09-27: bot @aislopperbot sent the PR #6 message to Gorka's phone; image, caption, and
+  buttons OK. (A first attempt hit a transient connection timeout, hence the retry.)
+
+## M6 — Automation ✅
 
 - `generate.yml` (15:00 UTC + manual with a date): **fetch** (no AI, no secrets) → **create** (Claude token only,
   read-only checkout, 90 min timeout incl. one usage-limit wait) → **open-pr** (no AI: downloads the folder,

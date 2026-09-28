@@ -126,6 +126,20 @@ jobs:
           }
           tag deployed "$SHA"
           for d in $MERGED; do tag "slopper-$d" "$SHA"; echo "tagged slopper-$d"; done
+      - name: Notify on Telegram
+        if: needs.decide.outputs.merged != ''
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ vars.TELEGRAM_CHAT_ID }}
+          MERGED: ${{ needs.decide.outputs.merged }}
+        run: |
+          [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$CHAT" ] || { echo "Telegram not configured"; exit 0; }
+          links=""
+          for d in $MERGED; do links="$links $SITE_URL/${d//-//}/"; done
+          curl -sS --fail-with-body -o /dev/null "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=$CHAT" \
+            --data-urlencode "text=✅ Published:${links}"
 
   report-failure:
     needs: [decide, deploy, tag]
@@ -143,3 +157,14 @@ jobs:
           n=$(gh issue list --repo "$GITHUB_REPOSITORY" --label pipeline-failure --state open --search "$title in:title" --json number --jq '.[0].number // empty')
           if [ -n "$n" ]; then gh issue comment "$n" --repo "$GITHUB_REPOSITORY" --body "Failed again: $run"
           else gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --label pipeline-failure --body "Publishing failed (merge, build, deploy, or tag). The next hourly run retries the deploy. Logs: $run"; fi
+      - name: Alert on Telegram
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ vars.TELEGRAM_CHAT_ID }}
+        run: |
+          [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$CHAT" ] || { echo "Telegram not configured"; exit 0; }
+          run="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          curl -sS --fail-with-body -o /dev/null "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=$CHAT" \
+            --data-urlencode "text=⚠️ Slopper publish failed. The next hourly run retries. Logs: $run"

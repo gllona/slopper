@@ -115,6 +115,7 @@ jobs:
           app-id: ${{ vars.BOT_APP_ID }}
           private-key: ${{ secrets.BOT_APP_PRIVATE_KEY }}
       - name: Commit, push, open PR
+        id: pr
         env:
           GH_TOKEN: ${{ steps.bot.outputs.token }}
           SLUG: ${{ steps.bot.outputs.app-slug }}
@@ -145,7 +146,19 @@ jobs:
             if [ "$VETO_MODE" = window ]; then echo "⏰ Publishes after **${PUBLISH_HOUR_UTC}:00 UTC** today unless labeled \`veto\`."; fi
             echo "Run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
           } > body.md
-          gh pr create --repo "$GITHUB_REPOSITORY" --base main --head "$branch" --title "$title" --body-file body.md --label "$labels"
+          # Requesting Gorka's review makes GitHub Mobile send a push notification.
+          url=$(gh pr create --repo "$GITHUB_REPOSITORY" --base main --head "$branch" --title "$title" --body-file body.md --label "$labels" --reviewer "$GITHUB_REPOSITORY_OWNER")
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+          echo "image=$raw/still.png" >> "$GITHUB_OUTPUT"
+      - name: Notify on Telegram
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
+          REVIEWER_UTC_OFFSET: ${{ vars.REVIEWER_UTC_OFFSET || '-5' }}
+          VETO_MODE: ${{ vars.VETO_MODE || 'window' }}
+          PUBLISH_HOUR_UTC: ${{ vars.PUBLISH_HOUR_UTC || '19' }}
+        run: npm run -s notify -- pr --dir "${{ needs.fetch.outputs.path }}" --pr-url "${{ steps.pr.outputs.url }}" --image-url "${{ steps.pr.outputs.image }}"
 
   report-failure:
     needs: [fetch, create, open-pr]
@@ -164,3 +177,15 @@ jobs:
           n=$(gh issue list --repo "$GITHUB_REPOSITORY" --label pipeline-failure --state open --search "$title in:title" --json number --jq '.[0].number // empty')
           if [ -n "$n" ]; then gh issue comment "$n" --repo "$GITHUB_REPOSITORY" --body "Failed again: $run"
           else gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --label pipeline-failure --body "The daily generation failed. Logs: $run"; fi
+      - name: Alert on Telegram
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ vars.TELEGRAM_CHAT_ID }}
+          DATE: ${{ needs.fetch.outputs.date || inputs.date || 'unknown date' }}
+        run: |
+          [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$CHAT" ] || { echo "Telegram not configured"; exit 0; }
+          run="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          curl -sS --fail-with-body -o /dev/null "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=$CHAT" \
+            --data-urlencode "text=⚠️ Slopper generate failed ($DATE). Logs: $run"
