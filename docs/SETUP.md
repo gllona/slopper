@@ -13,6 +13,7 @@ Checklist:
 - [ ] 6. Actions settings
 - [ ] 7. Labels (run the `setup-labels` workflow)
 - [ ] 8. First dry run
+- [ ] 9. Phone notifications (GitHub Mobile + Telegram)
 
 ---
 
@@ -113,3 +114,26 @@ run again.
 4. Close the dry-run PR (with **Delete branch**) when you have looked at it; try the `regenerate` label once.
 
 If something fails, the workflow opens an issue labeled `pipeline-failure` with a link to the logs.
+
+## 9. Phone notifications
+
+The bot requests **your review** on every daily PR and sends a **Telegram** message with the still image, the
+motto and phrase, the critic and Cop results, your deadline, and buttons to open the PR. To approve or veto,
+open the PR in **GitHub Mobile** and add the `approved` or `veto` label. Nothing listens for Telegram messages:
+the workflows only send.
+
+1. **GitHub Mobile:** install it, sign in, then **Profile → Settings → Notifications**: enable push notifications
+   and turn on **Reviews requested** (and **Participating**).
+2. **Telegram bot:** in Telegram, talk to **@BotFather** → `/newbot` → pick a name → copy the **token**.
+   Then open your new bot and send it any message (so it is allowed to write to you).
+3. **Your chat id:** on your machine (never paste the token in chats or issues):
+   ```bash
+   curl -s "https://api.telegram.org/bot<TOKEN>/getUpdates" | grep -o '"chat":{"id":[-0-9]*' | head -1
+   ```
+   The number after `"id":` is your chat id.
+4. In the repo, **Settings → Secrets and variables → Actions**:
+   - Secret `TELEGRAM_BOT_TOKEN` = the token.
+   - Variable `TELEGRAM_CHAT_ID` = your chat id.
+   - Variable `REVIEWER_UTC_OFFSET` = `-5` (only used to show the deadline in your local time).
+
+Without these, the workflows skip the Telegram step and keep working.
