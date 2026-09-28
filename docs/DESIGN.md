@@ -154,14 +154,14 @@ There is **no backend server**. The previously considered Ubuntu/nginx server is
 
 ## 5. The daily pipeline
 
-Generation starts at **15:00 UTC** and produces the slopper for the **previous UTC day** (the "slopper date"). All dates are UTC, always.
+Generation starts at **11:07 UTC** (with backups at 13:07 and 15:07) and produces the slopper for the **previous UTC day** (the "slopper date"). All dates are UTC, always.
 
 **Daily timeline** (Gorka's local time is UTC-5 all year, no daylight saving, so these never drift):
 
 | UTC | Gorka (UTC-5) | What happens |
 |---|---|---|
-| 15:00 | 10:00 | `generate.yml` starts (fetch → create → open PR) |
-| ~15:30–16:00 | ~10:30–11:00 | PR `Slopper #N — date — motto` appears (usually; retries can make it later) |
+| 11:07 | 06:07 | `generate.yml` first try (fetch → create → open PR); backups at 13:07 and 15:07 UTC run only if no PR exists yet for the date (GitHub cron can start hours late) |
+| ~11:20 (or later) | ~06:20 | PR `Slopper #N — date — motto` appears; Telegram + GitHub Mobile notify Gorka |
 | 17:00 | 12:00 | Gorka reviews |
 | **19:00** | **14:00** | **Veto deadline** (`PUBLISH_HOUR_UTC`); the next hourly `publish.yml` run (at :05) publishes eligible PRs |
 
@@ -870,7 +870,9 @@ General rules for all workflows:
 
 ### 16.1 `generate.yml`
 
-Triggers: `schedule: cron "0 15 * * *"` and `workflow_dispatch` (inputs: `date`, optional). GitHub may start scheduled runs some minutes late.
+Triggers: `schedule` at `7 11 * * *`, `7 13 * * *`, `7 15 * * *` and `workflow_dispatch` (inputs: `date`, optional). GitHub cron has no guaranteed start time (the first scheduled run started 3 h 42 min late), so the later tries are backups: a scheduled run exits in its `fetch` job when a PR (any state) already exists for the date. Manual runs always proceed. Minute 7 avoids the top-of-the-hour load.
+
+**Calibration history (while `DRY_RUN=true`):** dry-run PRs are closed, not merged, so `open-pr` also commits each dry-run folder to a long-lived `calibration` branch (replacing the day on regeneration), and `create` overlays `sloppers/` from that branch before running. Earlier days, storylines, continuation, and style rotation can therefore be calibrated without anything reaching `main` or the site. With `DRY_RUN=false` both steps are off; the branch stays as a record.
 
 | Job | AI? | Secrets | Permissions | Does |
 |---|---|---|---|---|
@@ -1191,7 +1193,7 @@ Build in this order. Each milestone ends with tests passing and a short demo.
 | 3 | Public GitHub repo (free Actions). |
 | 4 | No backend server. Static site on Cloudflare Pages (Direct Upload), custom subdomain via CNAME at freedns.afraid.org. |
 | 5 | Node/TypeScript for everything (pipeline, harness, site); Eleventy for the site. |
-| 6 | All dates are UTC. Generation at 15:00 UTC for the previous UTC day (changed from 06:00, decision 29). |
+| 6 | All dates are UTC. Generation for the previous UTC day, first try at 11:07 UTC (decisions 29, 37). |
 | 7 | English only, plain international English, no idioms or wordplay. |
 | 8 | Motto (2–5 word tag) and phrase (≤30-word joke) are distinct. |
 | 9 | Human veto is optional and configurable via GitHub repository variables (`VETO_MODE`, `PUBLISH_HOUR_UTC`, `VETO_MIN_MINUTES`); default `window`, deadline 19:00 UTC (decision 29). |
@@ -1217,6 +1219,7 @@ Build in this order. Each milestone ends with tests passing and a short demo.
 | 29 | Timing for Gorka in UTC-5 (no DST): generate at 15:00 UTC, review at ~17:00 UTC, **fixed** veto deadline 19:00 UTC (`PUBLISH_HOUR_UTC`) plus a 60-minute minimum PR age (`VETO_MIN_MINUTES`), replacing `VETO_HOURS`. `publish.yml` runs hourly at :05. |
 | 3 | The robots are learning fast. The rules are still reading page one. | A | |
 | 3 | The robots are learning fast. The rules are still reading page one. | A | |
+| 3 | The robots are learning fast. The rules are still reading page one. | A | |
 | 30 | Sources (v1): Hacker News, Hugging Face, arXiv via `rss.arxiv.org`, publisher feeds, GDELT, Techmeme. Google News RSS, Reddit, and the arXiv API are excluded by `robots.txt`; The Guardian, Al Jazeera, and Bing News by their terms (§7). |
 | 31 | GDELT is best-effort: few broad queries, 12 s between requests, 90 s timeout, one retry. It rate-limits shared IPs hard (it answered 429 for hours during M4), and its failure alone never stops the pipeline. Revisit after observing it from GitHub runners (M6). |
 | 32 | AI calls use `--restricted --tools Read` in a throwaway workspace (§15.5); `--bare` is excluded because it bypasses the subscription login. The mode rule, storyline heat, and the critic pass rule are computed by code; Claude's scores feed them, and mismatches trigger one retry. |
@@ -1224,7 +1227,8 @@ Build in this order. Each milestone ends with tests passing and a short demo.
 | 34 | `open-pr` re-verifies the AI job's folder (`npm run verify:sloppers`: schemas, sanitizer re-check, allowed file names, sizes) **before** the bot token is minted, and runs `npm ci --ignore-scripts`. Claude Code is a pinned dev dependency (lockfile integrity), not a global install. |
 | 35 | Publishing uses a `deployed` tag to deploy any undeployed `main` (retry on failure, code and takedown changes). `DRY_RUN` only stops slopper merges. One-time setup steps live in `docs/SETUP.md`. |
 | 36 | Phone notifications are **outbound only** (no endpoint): the bot requests the owner's review (GitHub Mobile push) and sends Telegram messages (`pipeline/ops/notify.ts`; failures and publications via `curl`). Gorka acts by labeling the PR in GitHub Mobile. Telegram buttons that act directly would need an always-on endpoint (a Cloudflare Worker holding a GitHub credential); not done. |
-
+| 37 | Schedule: three tries per day (11:07, 13:07, 15:07 UTC), idempotent per date, replacing the single 15:00 UTC run (decision 29's review time and deadline are unchanged). |
+| 38 | While `DRY_RUN=true`, dry-run sloppers are kept on a `calibration` branch and read back as history by the `create` job. |
 ## Appendix A — Voice candidates (reviewed)
 
 Reviewed by Gorka. **A** (approved) lines go into `knowledge/voice.md` as good examples. **D** (denied) lines go in as rejected examples (no reason given; treat them as "not the Slopper voice").
