@@ -1,0 +1,213 @@
+{
+  "version": 1,
+  "storylines": [
+    {
+      "id": "agents-gone-rogue",
+      "title": "Debate over 'rogue' AI agents and a training halt",
+      "dimensions": [
+        "safety",
+        "industry",
+        "policy"
+      ],
+      "firstSeen": "2026-09-27",
+      "lastSeen": "2026-09-28",
+      "daysActive": 2,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-09-27",
+        "2026-09-28"
+      ],
+      "motifs": [
+        "a robot knocking on a door",
+        "a climbing meter",
+        "a pause button"
+      ]
+    },
+    {
+      "id": "amd-world-labs-acquisition",
+      "title": "A chip maker buys a spatial-AI startup for billions",
+      "dimensions": [
+        "industry",
+        "capabilities"
+      ],
+      "firstSeen": "2026-09-28",
+      "lastSeen": "2026-09-28",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-09-28"
+      ],
+      "motifs": [
+        "a handshake with a price tag",
+        "a small lab absorbed into a big tower"
+      ]
+    },
+    {
+      "id": "ai-and-mathematicians",
+      "title": "Mathematicians push back as AI claims discoveries",
+      "dimensions": [
+        "science",
+        "society",
+        "capabilities"
+      ],
+      "firstSeen": "2026-09-28",
+      "lastSeen": "2026-09-28",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-09-28"
+      ],
+      "motifs": [
+        "a chalkboard proof beside a glowing screen",
+        "a trophy with a question mark"
+      ]
+    },
+    {
+      "id": "virtual-border-wall",
+      "title": "Investigation finds failures in AI-era border surveillance towers",
+      "dimensions": [
+        "policy",
+        "safety",
+        "society"
+      ],
+      "firstSeen": "2026-09-28",
+      "lastSeen": "2026-09-28",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-09-28"
+      ],
+      "motifs": [
+        "a surveillance tower on a dusty horizon",
+        "a broken camera eye"
+      ]
+    },
+    {
+      "id": "ai-powered-hacking-surge",
+      "title": "AI-powered hacking outpaces small hospitals and banks",
+      "dimensions": [
+        "safety",
+        "industry",
+        "society"
+      ],
+      "firstSeen": "2026-09-28",
+      "lastSeen": "2026-09-28",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-09-28"
+      ],
+      "motifs": [
+        "a padlock with a crack",
+        "a small clinic under a shadow"
+      ]
+    },
+    {
+      "id": "datacenter-community-costs",
+      "title": "Communities ask AI companies to share data center costs",
+      "dimensions": [
+        "planet",
+        "society",
+        "industry"
+      ],
+      "firstSeen": "2026-09-28",
+      "lastSeen": "2026-09-28",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-09-28"
+      ],
+      "motifs": [
+        "a data center beside a small chapel",
+        "a water droplet and a coin"
+      ]
+    },
+    {
+      "id": "ember-model-launch",
+      "title": "New inference model Ember-1 draws attention",
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "firstSeen": "2026-09-27",
+      "lastSeen": "2026-09-27",
+      "daysActive": 1,
+      "heat": 0.7,
+      "status": "active",
+      "sloppers": [
+        "2026-09-27"
+      ],
+      "motifs": [
+        "a glowing spark or ember shape",
+        "a launch pad"
+      ]
+    },
+    {
+      "id": "ai-honesty-benchmark",
+      "title": "Telling AI to admit uncertainty cuts made-up answers",
+      "dimensions": [
+        "capabilities",
+        "safety",
+        "society"
+      ],
+      "firstSeen": "2026-09-27",
+      "lastSeen": "2026-09-27",
+      "daysActive": 1,
+      "heat": 0.7,
+      "status": "active",
+      "sloppers": [
+        "2026-09-27"
+      ],
+      "motifs": [
+        "a speech bubble with a shrug",
+        "a dropping meter"
+      ]
+    },
+    {
+      "id": "thirsty-datacenters",
+      "title": "Research quantifies AI's hidden water footprint",
+      "dimensions": [
+        "planet",
+        "science"
+      ],
+      "firstSeen": "2026-09-27",
+      "lastSeen": "2026-09-27",
+      "daysActive": 1,
+      "heat": 0.7,
+      "status": "active",
+      "sloppers": [
+        "2026-09-27"
+      ],
+      "motifs": [
+        "a datacenter with a water droplet",
+        "a dry landscape"
+      ]
+    },
+    {
+      "id": "ai-hallucination-art",
+      "title": "Musicians turn AI hallucinations into an instrument",
+      "dimensions": [
+        "society",
+        "capabilities"
+      ],
+      "firstSeen": "2026-09-27",
+      "lastSeen": "2026-09-27",
+      "daysActive": 1,
+      "heat": 0.7,
+      "status": "active",
+      "sloppers": [
+        "2026-09-27"
+      ],
+      "motifs": [
+        "a sampler machine",
+        "glitching musical notes"
+      ]
+    }
+  ]
+}
