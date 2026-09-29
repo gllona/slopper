@@ -1,0 +1,95 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {},
+  "elements": [
+    {
+      "id": "nuisance-bot",
+      "component": "robot",
+      "at": "left-third",
+      "scale": 1.2,
+      "props": {
+        "mood": "worried",
+        "arms": "up",
+        "color": "body",
+        "antenna": true
+      }
+    },
+    {
+      "id": "nuisance-tag",
+      "component": "label",
+      "at": {
+        "x": 0.3,
+        "y": 0.55
+      },
+      "scale": 1,
+      "props": {
+        "text": "NUISANCE",
+        "size": "md",
+        "kind": "tag",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "gavel",
+      "component": "raw",
+      "at": {
+        "x": 0.36,
+        "y": 0.2
+      },
+      "scale": 0.75,
+      "rotate": -18,
+      "props": {
+        "width": 220,
+        "height": 260
+      },
+      "svg": "<rect class=\"r-body-alt\" x=\"95\" y=\"0\" width=\"30\" height=\"150\" rx=\"15\"/><rect class=\"r-accent\" x=\"30\" y=\"140\" width=\"160\" height=\"90\" rx=\"30\"/>"
+    },
+    {
+      "id": "watchdog",
+      "component": "robot",
+      "at": "right-third",
+      "scale": 0.42,
+      "props": {
+        "mood": "happy",
+        "arms": "down",
+        "color": "accent",
+        "antenna": false
+      }
+    },
+    {
+      "id": "leash",
+      "component": "raw",
+      "attachTo": "watchdog",
+      "side": "right",
+      "offset": [
+        -15,
+        -10
+      ],
+      "scale": 1,
+      "props": {
+        "width": 120,
+        "height": 140
+      },
+      "svg": "<path class=\"r-line\" d=\"M20,10 Q60,60 90,120\" fill=\"none\"/><rect class=\"r-body-alt\" x=\"80\" y=\"110\" width=\"16\" height=\"30\" rx=\"6\"/>"
+    },
+    {
+      "id": "price-tag",
+      "component": "label",
+      "attachTo": "watchdog",
+      "side": "top",
+      "offset": [
+        0,
+        -10
+      ],
+      "scale": 1,
+      "props": {
+        "text": "FOR SALE",
+        "size": "md",
+        "kind": "tag",
+        "color": "paper"
+      }
+    }
+  ],
+  "alt": "A tall worried robot labeled NUISANCE stands with a courtroom gavel raised above its head, while nearby a small calm watchdog robot on a leash wears a FOR SALE tag."
+}

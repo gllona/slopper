@@ -1,0 +1,59 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": false,
+        "errors": [
+          "\"nuisance-tag\" (label) must be inside the safe area 60…1020 px (now x -153…148, y 424…495)",
+          "\"gavel\" is cut off by the artboard edge in the final frame (x 289…512, y -116…152)"
+        ],
+        "warnings": []
+      },
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 3,
+          "style": 4,
+          "polish": 1,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "Fails: the gavel renders as an unreadable blob fused to the antenna and the leash floats disconnected from the watchdog, so the central courtroom-threat/leash metaphor doesn't land, and the ghosted NUISANCE tag is a visible rendering bug.",
+        "revisionNotes": [
+          "Fix the gavel: it currently renders as a shapeless pink blob fused to the antenna, unreadable as a raised hammer. Rebuild at x=0.36, y=0.12 with clear head/handle silhouette against the cream background, kept clear of the antenna.",
+          "Fix the leash: the curved line is disconnected from the watchdog, floating to its right with no visible attachment to a collar or handler's hand. Reroute it so it terminates directly at the watchdog's neck.",
+          "Fix the NUISANCE tag: it double-renders on the robot's chest with a darker duplicate offset behind it, making the text hard to read. Flatten to one opaque tag, scale 1.1, reposition at y=0.5.",
+          "The vendor named in the brief's cast is missing from the scene entirely, weakening the 'sale' beat; either add a small vendor component at the stall or move the FOR SALE tag closer to the watchdog to imply the transaction more clearly.",
+          "Bottom half of the frame is empty negative space; shift both robot groups down ~10% and scale watchdog to 0.5 to better balance the square.",
+          "Once the gavel is fixed, add a subtle motion line or shadow beneath it to sell the 'about to strike' beat that the brief calls for."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": false,
+        "errors": [
+          "\"gavel\" is cut off by the artboard edge in the final frame (x 242…515, y -18…251)"
+        ],
+        "warnings": []
+      },
+      "passed": false
+    }
+  ]
+}
