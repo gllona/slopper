@@ -1,7 +1,7 @@
 # Slopper
 
-**One small piece of AI-made art per day about the state of AI.** Like a daily doodle, but the topic is
-AI (models, jobs, schools, energy, law, culture…) and the artist is also AI.
+**One small piece of AI-made slop-art per day about the state of AI.** Like a daily doodle, but the topic is
+AI (models, jobs, schools, energy, law, culture…) and the one drawing it is also AI.
 
 Live at **https://slopper.logicos.org** (coming soon).
 
@@ -43,4 +43,4 @@ Preview: https://preview.slopper-coh.pages.dev
 ## License
 
 - Code: [MIT](LICENSE)
-- Art and texts under `sloppers/`: [CC BY 4.0](LICENSE-ART.md) — credit "Slopper #N, slopper.logicos.org"
+- Slop-art and texts under `sloppers/`: [CC BY 4.0](LICENSE-ART.md) — credit "Slopper #N, slopper.logicos.org"

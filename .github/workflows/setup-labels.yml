@@ -29,7 +29,7 @@ jobs:
           override|d93f0b|With approved: publish despite cop-hold or critic-fail
           regenerate|fbca04|Close this PR and generate the same date again
           cop-hold|b60205|The Cop blocked it (never auto-published)
-          critic-fail|e99695|Art quality did not pass (never auto-published)
+          critic-fail|e99695|Slop-art quality did not pass (never auto-published)
           dry-run|bfdadc|Pre-launch PR, never published
           feedback|1d76db|Input for the weekly lessons job
           great|0e8a16|Feedback: a great slopper
