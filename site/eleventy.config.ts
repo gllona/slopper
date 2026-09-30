@@ -19,7 +19,7 @@ export default function (eleventyConfig: any) {
   eleventyConfig.addGlobalData('site', {
     url: siteUrl,
     name: 'Slopper',
-    description: 'A small piece of AI-made art every day about the state of AI.',
+    description: 'A small piece of AI-made slop-art every day about the state of AI.',
     contact: 'slopper@lab14.chat',
     repo: 'https://github.com/gllona/slopper',
     mode,

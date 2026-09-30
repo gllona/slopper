@@ -94,7 +94,8 @@ The quality bar and spirit are similar to Simon Willison's "pelican riding a bic
 
 | Term | Meaning |
 |---|---|
-| **Slopper** | One day's publication: art + motto + phrase + sources. Also the project name. |
+| **Slopper** | One day's publication: slop-art + motto + phrase + sources. Also the project name. |
+| **Slop-art** | What visitors are told the images are: AI-made pictures and animations, not art (decision 42). |
 | **Slopper number** | `days since LAUNCH_DATE + 1`, fixed at generation time and stored in `day.json`. Gaps (skipped or taken-down days) never renumber later sloppers. |
 | **Slopper date** | The UTC day the slopper is *about* (the previous UTC day relative to generation time). |
 | **Digest** | Deterministic JSON bundle of fetched items from all sources for a date. |
@@ -1235,6 +1236,7 @@ Build in this order. Each milestone ends with tests passing and a short demo.
 | 39 | **Clock:** a Cloudflare Worker (`infra/clock`, cron triggers 11:07 and 13:07 UTC → `generate` with `scheduled=true`; every hour at :05 → `publish`) starts the workflows through GitHub's API with a fine-grained token (Actions read/write on this repo only). No fetch handler, no route, no workers.dev URL. GitHub cron schedules remain as backups. Reason: GitHub started scheduled runs 3–7 hours late on 2026-09-27/28/29. |
 | 40 | **Art sees its work:** on a retry the Art stage gets `attempt.png` (its previous final frame) and `layout.json` (rendered boxes). The compiler nudges text back into the safe area and shapes back into the artboard (reported as lint warnings) instead of losing an iteration. Reason: 2 of the first 3 dry runs failed the critic on layout, not ideas. |
 | 41 | Launch: `LAUNCH_DATE=2026-09-30`, so Slopper #1 (about 2026-09-30) is **published on 2026-10-01**, the first day of Q4, at the 19:00 UTC deadline. Changed on 2026-09-30 from `2026-10-01` (Gorka preferred the publication day to coincide with the quarter). |
+| 42 | **"Slop-art", not "art"** in everything visitors see (site pages, meta description and feed subtitle, default social image, README, `LICENSE-ART.md`, the `critic-fail` label). Many artists do not accept AI-made images as art; the name is also more satirical. Internal code names (`art.ts`, `artType`, the Art stage), prompts, and these docs keep "art" (Gorka's choice: public texts only). |
 ## Appendix A — Voice candidates (reviewed)
 
 Reviewed by Gorka. **A** (approved) lines go into `knowledge/voice.md` as good examples. **D** (denied) lines go in as rejected examples (no reason given; treat them as "not the Slopper voice").

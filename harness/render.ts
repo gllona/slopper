@@ -174,7 +174,7 @@ async function composeOg(browser: Browser, still: Buffer, opts: RenderOptions): 
   const p = opts.style.palette;
   const page = await browser.newPage({ viewport: { width: 1200, height: 630 }, deviceScaleFactor: 1 });
   const motto = escapeHtml(opts.motto ?? 'Slopper');
-  const phrase = escapeHtml(opts.phrase ?? 'A daily piece of art about the state of AI, made by AI.');
+  const phrase = escapeHtml(opts.phrase ?? 'A daily piece of slop-art about the state of AI, made by AI.');
   const meta = escapeHtml([opts.number ? `#${opts.number}` : null, opts.date ?? null].filter(Boolean).join(' · '));
   await page.setContent(
     `<!doctype html><html><head><style>

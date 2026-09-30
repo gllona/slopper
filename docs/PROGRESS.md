@@ -29,6 +29,14 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 
 ## M7 — Calibration 🟡
 
+### 2026-09-29: "slop-art", not "art" (decision 42)
+
+- Gorka: avoid angering artists and be more satirical. Every visitor-visible "art" is now "slop-art" (home and
+  About pages, meta description/feed subtitle, default social image text, README, LICENSE-ART.md, the
+  `critic-fail` label). No explanation of the name on the site: it should speak for itself (Gorka). Internal
+  names and prompts unchanged.
+- After merging: run **Actions → setup-labels** once to update the label description on GitHub.
+
 ### 2026-09-29: first review, launch date, clock, art feedback
 
 - Gorka reviewed 3 dry runs (#6 passed; #9 and #10 `critic-fail`): "the other two looked good"; launch approved:

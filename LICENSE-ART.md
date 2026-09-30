@@ -1,6 +1,6 @@
-# Art and text license — CC BY 4.0
+# Slop-art and text license — CC BY 4.0
 
-Everything under [`sloppers/`](sloppers/) — the art (`slopper.svg`, `still.png`, `og.png`, `filmstrip.png`),
+Everything under [`sloppers/`](sloppers/) — the slop-art (`slopper.svg`, `still.png`, `og.png`, `filmstrip.png`),
 scenes, mottos, phrases, and alt texts — is licensed under the
 **Creative Commons Attribution 4.0 International** license (CC BY 4.0):
 https://creativecommons.org/licenses/by/4.0/
