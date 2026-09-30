@@ -100,13 +100,39 @@ describe('compile', () => {
     const r = compileScene({
       ...base,
       elements: [
-        { id: 'bot', component: 'robot', at: 'center' },
+        { id: 'bot', component: 'robot', at: 'bottom-center' },
         { id: 'say', component: 'speech-bubble', attachTo: 'bot', side: 'top', props: { text: 'Hello' } },
       ],
     });
+    expect(r.nudges).toEqual([]);
     const bot = r.elements.find((e) => e.id === 'bot')!.box;
     const say = r.elements.find((e) => e.id === 'say')!.box;
     expect(say.y + say.h).toBeLessThanOrEqual(bot.y);
+  });
+
+  it('nudges text back into the safe area and shapes back into the artboard', () => {
+    const r = compileScene({
+      ...base,
+      elements: [
+        { id: 'tag', component: 'label', at: { x: 0.99, y: 0.5 }, props: { text: 'Far right' } },
+        { id: 'dc', component: 'datacenter', at: { x: 0.01, y: 0.8 } },
+        { id: 'bot', component: 'robot', at: { x: 0.5, y: 0.99 } },
+      ],
+    });
+    const tag = r.elements.find((e) => e.id === 'tag')!.box;
+    expect(tag.x + tag.w).toBeLessThanOrEqual(1020.5);
+    expect(r.elements.find((e) => e.id === 'dc')!.box.x).toBeGreaterThanOrEqual(-0.5);
+    expect(r.nudges.join()).toMatch(/"tag" \(label\) was moved -\d+ px, 0 px to stay inside the safe area/);
+    expect(r.nudges.join()).toMatch(/"dc"/);
+    expect(r.nudges.join()).not.toMatch(/"bot"/); // grounded: may extend below the bottom edge
+  });
+
+  it('accounts for rotation when nudging', () => {
+    const svg = '<rect class="r-ink" width="300" height="60"/>';
+    const r = compileScene({ ...base, elements: [{ id: 'g', component: 'raw', at: { x: 0.2, y: 0.05 }, rotate: -35, props: { width: 300, height: 60 }, svg }] });
+    const b = r.elements[0]!.box;
+    expect(b.y).toBeGreaterThanOrEqual(-0.5); // the rotated shape stays inside the artboard
+    expect(r.nudges.join()).toMatch(/"g"/);
   });
 
   it('rejects attachment cycles', () => {
@@ -143,6 +169,9 @@ describe('compile', () => {
       expect(issues({ ...base, elements: [raw('<text>hi</text>')] })[0]).toMatch(/label component/);
       expect(issues({ ...base, elements: [raw('<style>*{}</style>')] })[0]).toMatch(/<style>/);
       expect(issues({ ...base, elements: [raw('<rect onclick="x" width="1" height="1"/>')] })[0]).toMatch(/unsafe/);
+      // malformed XML is feedback for the Art stage, never a crash
+      expect(issues({ ...base, elements: [raw('<g><rect width="1" height="1"/></svg>')] })[0]).toMatch(/not well-formed/);
+      expect(issues({ ...base, elements: [raw('<path d="M0 0"')] })[0]).toMatch(/not well-formed/);
       expect(issues({ ...base, elements: [raw(`<path d="${'M0 0L1 1'.repeat(2000)}"/>`)] })[0]).toMatch(/larger than/);
     });
     it('limits the number of raw elements', () => {

@@ -14,6 +14,7 @@ Checklist:
 - [ ] 7. Labels (run the `setup-labels` workflow)
 - [ ] 8. First dry run
 - [ ] 9. Phone notifications (GitHub Mobile + Telegram)
+- [ ] 10. The clock (Cloudflare Worker that starts the workflows on time)
 
 ---
 
@@ -137,3 +138,28 @@ the workflows only send.
    - Variable `REVIEWER_UTC_OFFSET` = `-5` (only used to show the deadline in your local time).
 
 Without these, the workflows skip the Telegram step and keep working.
+
+## 10. The clock: `slopper-clock` (Cloudflare Worker)
+
+GitHub's own cron started our runs up to 7 hours late. This tiny Worker starts `generate` at 11:07 UTC
+(06:07 for you, backup at 13:07) and `publish` every hour at :05, on the minute. It has **no web address**: it only
+calls GitHub's API. GitHub's own schedules stay as extra backups; duplicate runs skip themselves.
+
+1. **GitHub token** — https://github.com/settings/personal-access-tokens/new (fine-grained):
+   - Name: `slopper-clock` · Expiration: Gorka chose **No expiration** (2026-09-30): the token can only start/cancel
+     workflow runs in this repo; if it leaks, revoke it here and store a new one (step 2).
+   - Repository access: **Only select repositories** → `gllona/slopper`
+   - Permissions → Repository → **Actions: Read and write** (nothing else)
+   - Generate → copy the token (`github_pat_…`).
+2. **Store it in the Worker** — in the project folder (claude-box, where wrangler is logged in), paste the token
+   when asked (it is not echoed):
+   ```bash
+   npx wrangler secret put GITHUB_TOKEN --config infra/clock/wrangler.toml
+   ```
+   The first time, wrangler may offer to create the Worker `slopper-clock`: answer yes.
+3. **Deploy** (Claude Code can do this step; re-run after changing `infra/clock/`):
+   ```bash
+   npx wrangler deploy --config infra/clock/wrangler.toml
+   ```
+4. **Check**: Cloudflare dashboard → Workers & Pages → `slopper-clock` → Settings → Trigger events lists the
+   3 cron triggers; Logs show a line per trigger ("dispatched generate.yml").

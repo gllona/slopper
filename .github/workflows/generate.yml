@@ -16,6 +16,11 @@ on:
         description: 'Slopper date (YYYY-MM-DD, UTC). Empty = yesterday.'
         required: false
         type: string
+      scheduled:
+        description: 'Behave like a scheduled run (skip if a PR for the date already exists). Used by the slopper-clock Worker.'
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -63,11 +68,12 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           EVENT: ${{ github.event_name }}
+          SCHEDULED: ${{ inputs.scheduled }}
         run: |
-          # Scheduled backups stop here when an earlier try already opened a PR (open or closed) for this date.
-          # Manual runs (and regenerate) always proceed.
+          # Scheduled tries (GitHub cron, or the slopper-clock Worker with scheduled=true) stop here when an earlier
+          # try already opened a PR (open or closed) for this date. Manual runs (and regenerate) always proceed.
           n=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "slopper/${{ steps.date.outputs.date }}" --state all --json number --jq length)
-          if [ "$EVENT" = schedule ] && [ "$n" -gt 0 ]; then
+          if { [ "$EVENT" = schedule ] || [ "$SCHEDULED" = true ]; } && [ "$n" -gt 0 ]; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
             echo "::notice::A PR for ${{ steps.date.outputs.date }} already exists: nothing to do."
           else

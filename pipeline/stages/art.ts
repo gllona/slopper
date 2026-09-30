@@ -26,6 +26,8 @@ export interface ArtInput {
   config: Config;
   /** Notes from the Cop when it asked the art to change. */
   copNotes?: string[];
+  /** Start from this attempt (a Cop revision of an image that was otherwise fine) instead of from scratch. */
+  startFrom?: ArtAttempt;
 }
 
 export interface ArtAttempt {
@@ -55,7 +57,9 @@ export async function runArt(input: ArtInput): Promise<ArtOutput> {
   const previousDir = previous ? dayDir(input.archiveRoot, previous.date) : null;
   const continuation = curate.mode === 'continuation' && previousDir && existsSync(join(previousDir, 'scene.json'));
 
-  let feedback: { scene: Scene; notes: string[]; lint?: string[] } | null = null;
+  let feedback: Feedback | null = input.startFrom
+    ? { scene: input.startFrom.scene, notes: [], still: input.startFrom.build.render?.still, layout: layoutOf(input.startFrom.build) }
+    : null;
   for (let iteration = 1; iteration <= config.maxArtIterations; iteration++) {
     const scene = await drawScene(input, feedback, continuation ? previousDir! : null);
     let build: BuildResult;
@@ -70,7 +74,7 @@ export async function runArt(input: ArtInput): Promise<ArtOutput> {
     if (!build.lint.ok) {
       log.warn(`iteration ${iteration}: lint failed`, build.lint.errors);
       lintOnly.push({ iteration, lint: build.lint, scene });
-      feedback = { scene, notes: [], lint: build.lint.errors };
+      feedback = { scene, notes: [], lint: build.lint.errors, still: build.render?.still, layout: layoutOf(build) };
       continue;
     }
     const review = await critique(input, scene, build, recentSheet);
@@ -78,7 +82,7 @@ export async function runArt(input: ArtInput): Promise<ArtOutput> {
     attempts.push({ iteration, scene, build, review, average, passed });
     log.info(`iteration ${iteration}: critic ${average} ${passed ? 'PASS' : 'fail'} — ${review.verdict}`);
     if (passed) break;
-    feedback = { scene, notes: review.revisionNotes, lint: build.lint.warnings };
+    feedback = { scene, notes: review.revisionNotes, lint: build.lint.warnings, still: build.render!.still, layout: layoutOf(build) };
   }
 
   if (!attempts.length) {
@@ -102,7 +106,24 @@ export async function runArt(input: ArtInput): Promise<ArtOutput> {
   return { best, critic };
 }
 
-async function drawScene(input: ArtInput, feedback: { scene: Scene; notes: string[]; lint?: string[] } | null, previousDir: string | null): Promise<Scene> {
+interface Feedback {
+  scene: Scene;
+  notes: string[];
+  lint?: string[];
+  /** The previous attempt's final frame, so the illustrator can see what it drew. */
+  still?: Buffer;
+  /** Where each element actually rendered (final frame), in artboard pixels. */
+  layout?: Record<string, { x: number; y: number; w: number; h: number }>;
+}
+
+/** Rendered element boxes, rounded, for the next Art attempt. */
+export function layoutOf(build: BuildResult): Feedback['layout'] {
+  const boxes = build.render?.metrics.boxes;
+  if (!boxes) return undefined;
+  return Object.fromEntries(Object.entries(boxes).map(([id, b]) => [id, { x: Math.round(b.x), y: Math.round(b.y), w: Math.round(b.w), h: Math.round(b.h) }]));
+}
+
+async function drawScene(input: ArtInput, feedback: Feedback | null, previousDir: string | null): Promise<Scene> {
   const { curate, config } = input;
   const style = curate.brief.style;
   const extra: string[] = [];
@@ -127,6 +148,14 @@ async function drawScene(input: ArtInput, feedback: { scene: Scene; notes: strin
   if (feedback) {
     files.push({ name: 'attempt.json', content: JSON.stringify(feedback.scene, null, 1) });
     extra.push('- `attempt.json` — your previous attempt, which must be improved.');
+    if (feedback.still) {
+      files.push({ name: 'attempt.png', content: feedback.still });
+      extra.push('- `attempt.png` — **what your previous attempt actually looked like**. Look at it before changing anything: check overlaps, hidden parts, and sizes with your own eyes.');
+    }
+    if (feedback.layout) {
+      files.push({ name: 'layout.json', content: JSON.stringify({ artboard: 1080, safeArea: [60, 1020], elements: feedback.layout }, null, 1) });
+      extra.push('- `layout.json` — where each element really rendered (x, y, width, height in px). Use it to separate overlapping elements and to keep text inside 60…1020.');
+    }
     revision =
       '\n## Revise your previous attempt\n\n' +
       (feedback.lint?.length ? `The harness rejected it or found problems:\n${feedback.lint.map((l) => `- ${l}`).join('\n')}\n\n` : '') +

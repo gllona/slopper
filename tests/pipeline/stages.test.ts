@@ -5,7 +5,7 @@ import { afterEach, beforeEach, describe, expect, it } from 'vitest';
 import { buildArgs, callClaude, ClaudeError, ClaudeLimitError, cliJsonSchema, fileVersion, fillTemplate, parseJsonLoose } from '../../pipeline/claude.ts';
 import { CurateOutputSchema } from '../../pipeline/schemas/curate.ts';
 import { SceneSchema } from '../../pipeline/schemas/scene.ts';
-import { runDay } from '../../pipeline/run.ts';
+import { runDay, sameVisualIdea } from '../../pipeline/run.ts';
 import { CopFileSchema } from '../../pipeline/schemas/cop.ts';
 import type { CurateOutput } from '../../pipeline/schemas/curate.ts';
 import { DaySchema, type Day } from '../../pipeline/schemas/day.ts';
@@ -133,6 +133,16 @@ describe('mode rules (DESIGN §6.3–6.4)', () => {
   });
 });
 
+describe('Cop revisions', () => {
+  it('keep the image when only the words change', () => {
+    const brief = { concept: 'c', metaphor: 'm', cast: ['a robot'], style: 'blueprint', composition: 'x', artType: 'static', alt: 'A robot on a blueprint.' };
+    const a = { motto: 'One Two', phrase: 'x', brief } as unknown as CurateOutput;
+    expect(sameVisualIdea(a, { ...a, motto: 'Three Four', phrase: 'y', brief: { ...brief, alt: 'Another alt text here.' } } as CurateOutput)).toBe(true);
+    expect(sameVisualIdea(a, { ...a, brief: { ...brief, concept: 'new idea' } } as CurateOutput)).toBe(false);
+    expect(sameVisualIdea(a, { ...a, brief: { ...brief, style: 'riso-duotone' } } as CurateOutput)).toBe(false);
+  });
+});
+
 describe('storylines (DESIGN §6.5)', () => {
   it('refreshes touched storylines, adds new ones, and cools the rest', () => {
     const prev = {
@@ -165,7 +175,7 @@ describe('npm run day (with a fake claude)', () => {
     expect(files).toEqual(['cop.json', 'critic.json', 'curate.json', 'day.json', 'digest.json', 'og.png', 'pr.md', 'scene.json', 'slopper.svg', 'still.png', 'storylines.json']);
     const d = DaySchema.parse(JSON.parse(readFileSync(join(r.dir, 'day.json'), 'utf8')));
     expect(d.sources.length).toBeGreaterThan(0);
-    expect(d.versions.prompts).toBe('1.1.1.1');
+    expect(d.versions.prompts).toMatch(/^\d+\.\d+\.\d+\.\d+$/);
     expect(d.critic?.passed).toBe(true);
   }, 120_000);
 

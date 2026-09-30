@@ -14,6 +14,6 @@
     "noEmit": true,
     "types": ["node"]
   },
-  "include": ["pipeline", "harness", "site", "tests", "*.ts"],
+  "include": ["pipeline", "harness", "site", "tests", "infra", "*.ts"],
   "exclude": ["node_modules", "dist"]
 }
