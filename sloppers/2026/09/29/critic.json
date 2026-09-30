@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 2,
+          "style": 2,
+          "polish": 1,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The concept is solid, but the render is broken: the robot presenter is hidden behind the chart with only stray floating parts visible, the skull icon and dollar-sign stack from the brief never appear, the skeptic's arm merges into the chart instead of crossing, and the 'Extinction Risk' label is clipped by overlapping legs. Fails on polish and composition — needs a re-render before it can go out.",
+        "revisionNotes": [
+          "Robot presenter is buried behind the chart screen — only its antenna, one shoulder dot, and a stray floating arm are visible. Pull 'presenter' fully clear of 'screen' (increase left-third offset or reduce screen scale) so the whole robot body, arms-out gesture, and antenna read as one clean shape.",
+          "The skull-and-dollar icon on the raw 'skull' element never rendered — it's completely absent from the top of the screen. This is the visual pivot for 'extinction risk = sales hook'; without it the chart is just a generic line graph. Fix the attachTo/offset so it actually draws.",
+          "Cast calls for 'a small stack of dollar signs' — it's missing entirely from the frame. Add it near the chart or skull so the pitch-deck/money joke lands.",
+          "Skeptic's pose should be 'shrug'/arms-crossed per brief but the arm is drawn merging into the chart's trend line, making it look like the human is touching the graph. Detach human from screen (move to right-third, clear gap) and restore the intended pose.",
+          "'Extinction Risk' label is clipped by the skeptic's legs (reads 'Extinction Ri[legs]k'). Shift the label anchor or move the human's 'at' position further right so it clears the text.",
+          "A faint duplicate speech-bubble outline peeks out behind the main 'Just a pitch deck' bubble — looks like a double-render glitch; regenerate so only one bubble draws."
+        ]
+      },
+      "average": 2.57,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"presenter\" extends outside the safe area in the final frame (x 41…299, y 556…799)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The text label and speech bubble carry the joke, but the centerpiece \"skull\" icon renders as a cheerful smiley (matching the robot's own happy face), undercutting the extinction-risk metaphor, and the floating props plus a left-edge safe-area violation weaken the composition — needs a revision pass before publishing.",
+        "revisionNotes": [
+          "Redesign the \"skull\" raw-svg element: as rendered it's a smiley face (round eyes + upturned mouth curve), identical in feel to the robot's own happy face, so it reads as cheerful rather than ominous — give it hollow/X eyes and a jaw or teeth line so 'extinction risk' actually registers.",
+          "Tighten the offset on skull/dollar-stack (attachTo screen, side top): they currently float ~100px above the chart with a visible gap, reading as unrelated clutter in empty space rather than 'topping' the chart.",
+          "Nudge the presenter robot right (or reduce offset -190 toward -150) and/or trim scale slightly — lint flags it exceeding the safe area on the left (x 41…299), and its arm sits close to the canvas edge.",
+          "Swap the skeptic's pose from shrug/arms-out to arms-crossed as specified in the brief — arms-out mirrors the robot's own pose and softens the skepticism the joke needs.",
+          "Bump dollar-stack scale from 0.5 to ~0.8; at current size the '$' mark is nearly illegible and the stack reads as a stray tag icon.",
+          "Large empty beige field above the chart (roughly top quarter of the frame) is dead space — consider raising the chart or adding a small anchor prop (podium riser, screen frame) to use the square more fully."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 3,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The joke reads clearly and the props (chart, skull, dollar stack, 'Extinction Risk' label, 'Just a pitch' bubble) support the phrase well, but the composition wastes nearly half the canvas on empty floor and the skull/dollar icons float disconnected above the chart instead of topping it — a pass, but composition needs tightening.",
+        "revisionNotes": [
+          "Raise the horizon from 0.62 to ~0.78 or add a stage/floor prop under the cast; right now the bottom ~40% of the canvas is empty flat teal with no content, leaving the joke crammed into the top half.",
+          "Tighten the offset on 'skull' and 'dollar-stack' so they sit flush on the chart's top edge instead of floating with a visible gap above it — right now they read as separate stickers rather than icons topping the chart.",
+          "Scale the 'presenter' robot up from 0.45 to ~0.6 and pull its offset closer to the chart so its arms-out gesture visually connects to the screen; at the current scale and distance it reads as a small bystander, not the presenter.",
+          "Add a podium element at the robot's feet (it's in the brief's cast list but missing from the scene) to sell the 'pitch deck presentation' staging.",
+          "Chart has 'arrow: true' in props but no arrowhead renders on the line's endpoint — fix the render or drop the prop."
+        ]
+      },
+      "average": 3.71,
+      "passed": true
+    }
+  ]
+}

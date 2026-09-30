@@ -1,0 +1,132 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {
+    "type": "split",
+    "horizon": 0.62
+  },
+  "elements": [
+    {
+      "id": "presenter",
+      "component": "robot",
+      "at": "left-third",
+      "offset": [
+        -150,
+        0
+      ],
+      "scale": 0.45,
+      "props": {
+        "mood": "proud",
+        "arms": "out",
+        "antenna": true
+      }
+    },
+    {
+      "id": "screen",
+      "component": "chart",
+      "at": "center",
+      "offset": [
+        0,
+        -170
+      ],
+      "scale": 0.8,
+      "props": {
+        "type": "line",
+        "values": [
+          0.08,
+          0.15,
+          0.22,
+          0.35,
+          0.5,
+          0.7,
+          0.95
+        ],
+        "highlight": "last",
+        "arrow": true,
+        "frame": true
+      }
+    },
+    {
+      "id": "skull",
+      "component": "raw",
+      "attachTo": "screen",
+      "side": "top",
+      "offset": [
+        90,
+        -15
+      ],
+      "scale": 0.9,
+      "props": {
+        "width": 100,
+        "height": 100
+      },
+      "svg": "<path class=\"r-paper\" d=\"M50 8 C72 8 86 26 86 46 C86 58 80 66 74 72 L74 82 C74 90 66 94 58 94 L42 94 C34 94 26 90 26 82 L26 72 C20 66 14 58 14 46 C14 26 28 8 50 8 Z\"/><path class=\"r-line\" d=\"M30 32 L44 46 M44 32 L30 46\"/><path class=\"r-line\" d=\"M56 32 L70 46 M70 32 L56 46\"/><path class=\"r-ink\" d=\"M50 50 L45 60 L55 60 Z\"/><path class=\"r-line\" d=\"M26 76 H74\"/><path class=\"r-line\" d=\"M34 76 V88 M42 76 V88 M50 76 V88 M58 76 V88 M66 76 V88\"/>"
+    },
+    {
+      "id": "dollar-stack",
+      "component": "raw",
+      "attachTo": "screen",
+      "side": "top",
+      "offset": [
+        -70,
+        -10
+      ],
+      "scale": 0.8,
+      "props": {
+        "width": 90,
+        "height": 100
+      },
+      "svg": "<rect class=\"r-accent-2\" x=\"5\" y=\"55\" width=\"80\" height=\"35\" rx=\"6\"/><rect class=\"r-accent\" x=\"8\" y=\"40\" width=\"74\" height=\"35\" rx=\"6\"/><rect class=\"r-paper\" x=\"11\" y=\"25\" width=\"68\" height=\"35\" rx=\"6\"/><path class=\"r-line\" d=\"M45 30 V56 M37 35 C37 31 41 29 45 29 C49 29 53 31 53 34 C53 38 49 39 45 41 C41 42 37 44 37 48 C37 51 41 53 45 53 C49 53 53 51 53 48\"/>"
+    },
+    {
+      "id": "risk-label",
+      "component": "label",
+      "attachTo": "screen",
+      "side": "bottom",
+      "offset": [
+        0,
+        15
+      ],
+      "scale": 1,
+      "props": {
+        "text": "Extinction Risk",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "skeptic",
+      "component": "human",
+      "at": "right-third",
+      "offset": [
+        100,
+        0
+      ],
+      "scale": 0.65,
+      "props": {
+        "mood": "neutral",
+        "pose": "stand",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "skeptic-bubble",
+      "component": "speech-bubble",
+      "attachTo": "skeptic",
+      "side": "top",
+      "offset": [
+        0,
+        -10
+      ],
+      "scale": 1,
+      "props": {
+        "text": "Just a pitch",
+        "kind": "speech",
+        "tail": "bottom",
+        "size": "md"
+      }
+    }
+  ],
+  "alt": "A robot with arms spread presents at a podium beside a tall screen showing a rising chart topped by a skull with X eyes and teeth, plus a stack of dollar bills, labeled Extinction Risk. To the right, a person stands with a neutral, unimpressed look beside a speech bubble reading Just a pitch."
+}
