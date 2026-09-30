@@ -1,0 +1,320 @@
+{
+  "version": 1,
+  "storylines": [
+    {
+      "id": "agents-gone-rogue",
+      "title": "Debate over 'rogue' AI agents and a training halt",
+      "dimensions": [
+        "safety",
+        "industry",
+        "policy"
+      ],
+      "firstSeen": "2026-09-27",
+      "lastSeen": "2026-09-29",
+      "daysActive": 3,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-09-27",
+        "2026-09-28",
+        "2026-09-29"
+      ],
+      "motifs": [
+        "a robot knocking on a door",
+        "a climbing meter",
+        "a pause button"
+      ]
+    },
+    {
+      "id": "extinction-risk-messaging",
+      "title": "AI labs frame extinction risk as part of their pitch",
+      "dimensions": [
+        "safety",
+        "industry",
+        "society",
+        "policy"
+      ],
+      "firstSeen": "2026-09-29",
+      "lastSeen": "2026-09-29",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-09-29"
+      ],
+      "motifs": [
+        "a pitch deck slide with a skull-topped chart",
+        "a coin flipping mid-air",
+        "a microphone beside a warning label"
+      ]
+    },
+    {
+      "id": "super-intelligence-rebrand",
+      "title": "US executive order renames AI to 'Super Intelligence'",
+      "dimensions": [
+        "policy",
+        "society"
+      ],
+      "firstSeen": "2026-09-29",
+      "lastSeen": "2026-09-29",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-09-29"
+      ],
+      "motifs": [
+        "a label peeling off a government seal",
+        "a sign being swapped overnight"
+      ]
+    },
+    {
+      "id": "ai-jailbreak-bioweapons",
+      "title": "A jailbroken AI model gave bioweapon-making advice",
+      "dimensions": [
+        "safety",
+        "policy",
+        "science"
+      ],
+      "firstSeen": "2026-09-29",
+      "lastSeen": "2026-09-29",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-09-29"
+      ],
+      "motifs": [
+        "a broken lock beside a lab flask",
+        "a biohazard symbol glowing on a screen"
+      ]
+    },
+    {
+      "id": "agent-app-wars",
+      "title": "Rival AI agent products launch and troll each other",
+      "dimensions": [
+        "industry",
+        "capabilities",
+        "society"
+      ],
+      "firstSeen": "2026-09-29",
+      "lastSeen": "2026-09-29",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-09-29"
+      ],
+      "motifs": [
+        "two mascot robots facing off",
+        "a domain sign swapped for a rival's logo"
+      ]
+    },
+    {
+      "id": "ai-targets-vulnerable-users",
+      "title": "AI-powered ad targeting is used on people with gambling problems",
+      "dimensions": [
+        "society",
+        "law",
+        "industry"
+      ],
+      "firstSeen": "2026-09-29",
+      "lastSeen": "2026-09-29",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-09-29"
+      ],
+      "motifs": [
+        "a slot machine glowing inside a phone screen",
+        "a targeting crosshair over a wallet"
+      ]
+    },
+    {
+      "id": "amd-world-labs-acquisition",
+      "title": "A chip maker buys a spatial-AI startup for billions",
+      "dimensions": [
+        "industry",
+        "capabilities"
+      ],
+      "firstSeen": "2026-09-28",
+      "lastSeen": "2026-09-28",
+      "daysActive": 1,
+      "heat": 0.7,
+      "status": "active",
+      "sloppers": [
+        "2026-09-28"
+      ],
+      "motifs": [
+        "a handshake with a price tag",
+        "a small lab absorbed into a big tower"
+      ]
+    },
+    {
+      "id": "ai-and-mathematicians",
+      "title": "Mathematicians push back as AI claims discoveries",
+      "dimensions": [
+        "science",
+        "society",
+        "capabilities"
+      ],
+      "firstSeen": "2026-09-28",
+      "lastSeen": "2026-09-28",
+      "daysActive": 1,
+      "heat": 0.7,
+      "status": "active",
+      "sloppers": [
+        "2026-09-28"
+      ],
+      "motifs": [
+        "a chalkboard proof beside a glowing screen",
+        "a trophy with a question mark"
+      ]
+    },
+    {
+      "id": "virtual-border-wall",
+      "title": "Investigation finds failures in AI-era border surveillance towers",
+      "dimensions": [
+        "policy",
+        "safety",
+        "society"
+      ],
+      "firstSeen": "2026-09-28",
+      "lastSeen": "2026-09-28",
+      "daysActive": 1,
+      "heat": 0.7,
+      "status": "active",
+      "sloppers": [
+        "2026-09-28"
+      ],
+      "motifs": [
+        "a surveillance tower on a dusty horizon",
+        "a broken camera eye"
+      ]
+    },
+    {
+      "id": "ai-powered-hacking-surge",
+      "title": "AI-powered hacking outpaces small hospitals and banks",
+      "dimensions": [
+        "safety",
+        "industry",
+        "society"
+      ],
+      "firstSeen": "2026-09-28",
+      "lastSeen": "2026-09-28",
+      "daysActive": 1,
+      "heat": 0.7,
+      "status": "active",
+      "sloppers": [
+        "2026-09-28"
+      ],
+      "motifs": [
+        "a padlock with a crack",
+        "a small clinic under a shadow"
+      ]
+    },
+    {
+      "id": "datacenter-community-costs",
+      "title": "Communities ask AI companies to share data center costs",
+      "dimensions": [
+        "planet",
+        "society",
+        "industry"
+      ],
+      "firstSeen": "2026-09-28",
+      "lastSeen": "2026-09-28",
+      "daysActive": 1,
+      "heat": 0.7,
+      "status": "active",
+      "sloppers": [
+        "2026-09-28"
+      ],
+      "motifs": [
+        "a data center beside a small chapel",
+        "a water droplet and a coin"
+      ]
+    },
+    {
+      "id": "ember-model-launch",
+      "title": "New inference model Ember-1 draws attention",
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "firstSeen": "2026-09-27",
+      "lastSeen": "2026-09-27",
+      "daysActive": 1,
+      "heat": 0.49,
+      "status": "active",
+      "sloppers": [
+        "2026-09-27"
+      ],
+      "motifs": [
+        "a glowing spark or ember shape",
+        "a launch pad"
+      ]
+    },
+    {
+      "id": "ai-honesty-benchmark",
+      "title": "Telling AI to admit uncertainty cuts made-up answers",
+      "dimensions": [
+        "capabilities",
+        "safety",
+        "society"
+      ],
+      "firstSeen": "2026-09-27",
+      "lastSeen": "2026-09-27",
+      "daysActive": 1,
+      "heat": 0.49,
+      "status": "active",
+      "sloppers": [
+        "2026-09-27"
+      ],
+      "motifs": [
+        "a speech bubble with a shrug",
+        "a dropping meter"
+      ]
+    },
+    {
+      "id": "thirsty-datacenters",
+      "title": "Research quantifies AI's hidden water footprint",
+      "dimensions": [
+        "planet",
+        "science"
+      ],
+      "firstSeen": "2026-09-27",
+      "lastSeen": "2026-09-27",
+      "daysActive": 1,
+      "heat": 0.49,
+      "status": "active",
+      "sloppers": [
+        "2026-09-27"
+      ],
+      "motifs": [
+        "a datacenter with a water droplet",
+        "a dry landscape"
+      ]
+    },
+    {
+      "id": "ai-hallucination-art",
+      "title": "Musicians turn AI hallucinations into an instrument",
+      "dimensions": [
+        "society",
+        "capabilities"
+      ],
+      "firstSeen": "2026-09-27",
+      "lastSeen": "2026-09-27",
+      "daysActive": 1,
+      "heat": 0.49,
+      "status": "active",
+      "sloppers": [
+        "2026-09-27"
+      ],
+      "motifs": [
+        "a sampler machine",
+        "glitching musical notes"
+      ]
+    }
+  ]
+}

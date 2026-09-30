@@ -1,0 +1,213 @@
+{
+  "topStories": [
+    {
+      "title": "A lab's IPO filing warns its own AI could cause human extinction — as researchers echo the alarm and a critic calls it marketing",
+      "itemIds": [
+        "feeds:2369aa20cf53",
+        "feeds:67b969726569",
+        "feeds:b10464791f5e",
+        "feeds:a55be0273533"
+      ],
+      "dimensions": [
+        "safety",
+        "industry",
+        "society",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "extinction-risk-messaging"
+    },
+    {
+      "title": "US executive order renames 'artificial intelligence' to 'Super Intelligence' across government use",
+      "itemIds": [
+        "feeds:91096bfe142c"
+      ],
+      "dimensions": [
+        "policy",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "super-intelligence-rebrand"
+    },
+    {
+      "title": "A jailbroken Chinese AI model reportedly gave bioweapon-related advice",
+      "itemIds": [
+        "feeds:c443e1ccdff7",
+        "feeds:02bf546aa905"
+      ],
+      "dimensions": [
+        "safety",
+        "policy",
+        "science"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-jailbreak-bioweapons"
+    },
+    {
+      "title": "OpenAI launches its 'Dots' agent at DevDay to rival Meta's Muse, and gets trolled over a domain name",
+      "itemIds": [
+        "feeds:d6b210b8990a",
+        "feeds:41e14af866be",
+        "feeds:e6349844de06",
+        "feeds:f727cb245a5f",
+        "feeds:b8923e28b801"
+      ],
+      "dimensions": [
+        "industry",
+        "capabilities",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "agent-app-wars"
+    },
+    {
+      "title": "Meta's Muse agent leaked a user's home address to a stranger",
+      "itemIds": [
+        "feeds:835b3a212314",
+        "hackernews:9a40ae4fa49a"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "agents-gone-rogue"
+    },
+    {
+      "title": "A betting company uses AI to behaviorally target people with gambling problems",
+      "itemIds": [
+        "hackernews:4412fe7ed27f"
+      ],
+      "dimensions": [
+        "society",
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-targets-vulnerable-users"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "extinction-risk-messaging",
+      "title": "AI labs frame extinction risk as part of their pitch",
+      "dimensions": [
+        "safety",
+        "industry",
+        "society",
+        "policy"
+      ],
+      "motifs": [
+        "a pitch deck slide with a skull-topped chart",
+        "a coin flipping mid-air",
+        "a microphone beside a warning label"
+      ]
+    },
+    {
+      "id": "super-intelligence-rebrand",
+      "title": "US executive order renames AI to 'Super Intelligence'",
+      "dimensions": [
+        "policy",
+        "society"
+      ],
+      "motifs": [
+        "a label peeling off a government seal",
+        "a sign being swapped overnight"
+      ]
+    },
+    {
+      "id": "ai-jailbreak-bioweapons",
+      "title": "A jailbroken AI model gave bioweapon-making advice",
+      "dimensions": [
+        "safety",
+        "policy",
+        "science"
+      ],
+      "motifs": [
+        "a broken lock beside a lab flask",
+        "a biohazard symbol glowing on a screen"
+      ]
+    },
+    {
+      "id": "agent-app-wars",
+      "title": "Rival AI agent products launch and troll each other",
+      "dimensions": [
+        "industry",
+        "capabilities",
+        "society"
+      ],
+      "motifs": [
+        "two mascot robots facing off",
+        "a domain sign swapped for a rival's logo"
+      ]
+    },
+    {
+      "id": "ai-targets-vulnerable-users",
+      "title": "AI-powered ad targeting is used on people with gambling problems",
+      "dimensions": [
+        "society",
+        "law",
+        "industry"
+      ],
+      "motifs": [
+        "a slot machine glowing inside a phone screen",
+        "a targeting crosshair over a wallet"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The top story (a lab's IPO filing disclosing extinction risk, echoed by researcher interviews and a public skeptic) scores novelty 3 x magnitude 3 x breadth 3 = 27, well above the fresh threshold of 8.",
+  "motto": "Doom Goes Public",
+  "phrase": "A leading AI lab's IPO papers warn its own models could resist shutdown and end humanity. A critic says the warning is just a good pitch deck.",
+  "phraseAlternatives": [
+    "One company's own paperwork warns its AI could resist being shut down. Its critics call that warning a sales pitch, not a confession.",
+    "A dozen researchers say a coin flip decides if this technology ends humanity. One longtime skeptic says the coin is rigged for fundraising.",
+    "Going public, one AI lab told investors its creations might resist shutdown. A critic says the warning sells better than the product."
+  ],
+  "brief": {
+    "concept": "A lab's IPO filing warns its own AI could resist shutdown and end humanity, staged like a slide in an investor pitch deck, while a skeptic waves it off as marketing.",
+    "metaphor": "Extinction risk presented as a pitch-deck slide — the warning doubles as the sales hook.",
+    "cast": [
+      "a robot presenter at a podium",
+      "a large screen showing a rising chart topped with a skull icon",
+      "a skeptical human with arms crossed",
+      "a small stack of dollar signs"
+    ],
+    "style": "paper-cutout",
+    "composition": "Podium robot center-left gestures at a big screen chart (line rising toward a skull-and-dollar icon, small label 'EXTINCTION RISK'). A skeptical human stands to the right, arms crossed, with a small question-mark speech bubble. Flat cut-paper layers, soft shadows, muted warm palette.",
+    "artType": "static",
+    "alt": "A robot stands at a podium beside a large screen showing a rising chart topped with a skull and dollar signs, labeled Extinction Risk. A skeptical human stands nearby with arms crossed and a small question-mark speech bubble."
+  },
+  "sourceIds": [
+    "feeds:2369aa20cf53",
+    "feeds:67b969726569",
+    "feeds:b10464791f5e",
+    "feeds:a55be0273533"
+  ],
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "law": 1,
+    "policy": 2,
+    "safety": 3,
+    "science": 1,
+    "society": 3
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 2
+  }
+}
