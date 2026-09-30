@@ -41,9 +41,15 @@ describe('render (Playwright)', () => {
     expect(r.lint.errors.join()).toMatch(/flashing/);
   });
 
-  it('catches elements cut off by the artboard edge', async () => {
+  it('catches elements an animation moves off the artboard', async () => {
     const r = await buildScene(
-      { harness: '0.2', style: 'blueprint', elements: [{ id: 'dc', component: 'datacenter', at: { x: 0.02, y: 0.5 }, scale: 1.5 }], alt: 'A datacenter half outside the picture.' },
+      {
+        harness: '0.2',
+        style: 'blueprint',
+        elements: [{ id: 'dc', component: 'datacenter', at: 'center-third', scale: 1.2 }],
+        animation: { durationSec: 4, beats: [{ t: 0.5, target: 'dc', action: 'move', props: { to: { x: 0.97, y: 0.78 } } }] },
+        alt: 'A datacenter slides half outside the picture.',
+      },
       limits,
     );
     expect(r.lint.errors.join()).toMatch(/"dc" is cut off/);

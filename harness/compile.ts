@@ -37,6 +37,8 @@ export interface CompileResult {
   elements: PlacedElement[];
   /** Animation duration in seconds; null for static scenes. */
   duration: number | null;
+  /** Elements the compiler moved back inside the safe area / artboard (reported as lint warnings). */
+  nudges: string[];
 }
 
 export class SceneError extends Error {
@@ -146,6 +148,7 @@ export function compileScene(input: unknown, opts: CompileOptions = {}): Compile
   const origins = new Map<string, Point>();
   const boxes = new Map<string, Box>();
   const placing = new Set<string>();
+  const nudges: string[] = [];
   const place = (id: string): void => {
     if (origins.has(id)) return;
     if (placing.has(id)) {
@@ -167,6 +170,27 @@ export function compileScene(input: unknown, opts: CompileOptions = {}): Compile
       origin = resolveAt(el.at!, board, ground);
     }
     if (el.offset) origin = { x: origin.x + el.offset[0]!, y: origin.y + el.offset[1]! };
+    // Keep text inside the safe area and everything inside the artboard (grounded elements may extend below
+    // the bottom edge). Moving it here saves a whole Art iteration that lint would otherwise reject.
+    const key = KEY_COMPONENTS.has(el.component);
+    const box0 = translateBox(el.rotate ? rotatedBox(local, el.rotate) : local, origin);
+    // a few px of margin: component boxes are outlines, the rendered shapes include half the stroke width
+    const margin = 4;
+    const lo = key ? board.safe : margin;
+    const hi = key ? board.size - board.safe : board.size - margin;
+    const allowBelow = !key && prepared.get(id)!.def.grounded;
+    const shift = (start: number, size: number, bottomFree = false) => {
+      if (size > hi - lo) return lo + (hi - lo - size) / 2 - start; // too big: center it
+      if (start < lo) return lo - start;
+      if (start + size > hi && !bottomFree) return hi - (start + size);
+      return 0;
+    };
+    const dx = shift(box0.x, box0.w);
+    const dy = shift(box0.y, box0.h, allowBelow);
+    if (Math.abs(dx) >= 1 || Math.abs(dy) >= 1) {
+      origin = { x: origin.x + dx, y: origin.y + dy };
+      nudges.push(`"${id}" (${el.component}) was moved ${Math.round(dx)} px, ${Math.round(dy)} px to stay inside the ${key ? 'safe area' : 'artboard'}`);
+    }
     origins.set(id, origin);
     boxes.set(id, translateBox(local, origin));
     placing.delete(id);
@@ -270,7 +294,7 @@ export function compileScene(input: unknown, opts: CompileOptions = {}): Compile
     texture +
     `</svg>`;
 
-  return { svg, scene, style, words, elements: placed, duration: scene.animation?.durationSec ?? null };
+  return { svg, scene, style, words, elements: placed, duration: scene.animation?.durationSec ?? null, nudges };
 }
 
 export function animId(elementId: string): string {
@@ -281,6 +305,22 @@ export function partId(elementId: string, part: string): string {
   return `p-${elementId}--${part}`;
 }
 
+/** Axis-aligned box of `b` rotated by `deg` around the origin (0,0), as SVG rotate() does. */
+function rotatedBox(b: Box, deg: number): Box {
+  const a = (deg * Math.PI) / 180;
+  const cos = Math.cos(a);
+  const sin = Math.sin(a);
+  const pts = [
+    [b.x, b.y],
+    [b.x + b.w, b.y],
+    [b.x, b.y + b.h],
+    [b.x + b.w, b.y + b.h],
+  ].map(([x, y]) => [x! * cos - y! * sin, x! * sin + y! * cos] as const);
+  const xs = pts.map((p) => p[0]);
+  const ys = pts.map((p) => p[1]);
+  return { x: Math.min(...xs), y: Math.min(...ys), w: Math.max(...xs) - Math.min(...xs), h: Math.max(...ys) - Math.min(...ys) };
+}
+
 function flipBox(b: Box, flip: boolean | undefined): Box {
   return flip ? { x: -(b.x + b.w), y: b.y, w: b.w, h: b.h } : b;
 }
@@ -289,7 +329,12 @@ function checkRaw(el: SceneElement, maxBytes: number): string | null {
   const svg = el.svg ?? '';
   if (Buffer.byteLength(svg, 'utf8') > maxBytes) return `raw SVG is larger than ${maxBytes} bytes`;
   if (/<\s*(style|text|tspan|script|foreignObject)\b/i.test(svg)) return 'raw SVG must not contain <style>, <text>, <script>, or <foreignObject> (use a label component for text)';
-  const { removed } = sanitizeSvg(`<svg xmlns="http://www.w3.org/2000/svg">${svg}</svg>`);
+  let removed: string[];
+  try {
+    ({ removed } = sanitizeSvg(`<svg xmlns="http://www.w3.org/2000/svg">${svg}</svg>`));
+  } catch (e) {
+    return `raw SVG is not well-formed XML (${(e as Error).message.replace(/^<input>:/, 'position ')}); send only the inner shapes, with every tag closed`;
+  }
   if (removed.length) return `unsafe or unsupported SVG: ${removed.join('; ')}`;
   return null;
 }

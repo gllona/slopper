@@ -18,14 +18,36 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 
 ## Waiting for Gorka
 
-1. Telegram: add `TELEGRAM_BOT_TOKEN` (secret), `TELEGRAM_CHAT_ID`, `REVIEWER_UTC_OFFSET` (variables) in GitHub (SETUP.md §9).
-2. Merge `feat/telegram-notify`, then `feat/m7-schedule-history` (built on top of it).
-3. Optional: enable **Cloudflare Web Analytics**.
-4. Cloudflare platform change (DESIGN §13.1, decision 27): confirm classic Pages stays supported.
+1. Commit + merge `feat/m7-clock-and-art` **before 11:07 UTC on 2026-09-30**: the deployed Worker dispatches
+   `generate` with the new `scheduled` input, which `main` does not have until this merge.
+3. **Launch (M8), on 2026-10-01** (any time that day): set `DRY_RUN=false` and `LAUNCH_DATE=2026-10-01`.
+   Slopper #1 (about Oct 1) is generated on Oct 2 at 11:07 UTC and publishes at 19:00 UTC unless vetoed.
+4. Optional: enable **Cloudflare Web Analytics**.
 
 ---
 
 ## M7 — Calibration 🟡
+
+### 2026-09-29: first review, launch date, clock, art feedback
+
+- Gorka reviewed 3 dry runs (#6 passed; #9 and #10 `critic-fail`): "the other two looked good"; launch approved
+  for **2026-10-01** (decision 41).
+- **GitHub cron was 5–7 hours late** on 09-28 and 09-29 (11:07 UTC tries started 18:33 and 16:50), and the
+  "hourly" publisher ran 4 times in 18 hours. Fix (decision 39): the **`slopper-clock` Cloudflare Worker**
+  dispatches `generate` (`scheduled=true`, idempotent) at 11:07/13:07 UTC and `publish` hourly at :05. No fetch
+  handler, no route; fine-grained token with Actions read/write only. 5 tests; wrangler dry-run bundle 1.7 KB.
+- **Critic failures were layout, not ideas** (overlaps, a gavel "blob", text outside the safe area). Fix
+  (decision 40): retries include `attempt.png` + `layout.json`; the compiler nudges text into the safe area and
+  shapes into the artboard (rotation-aware); after a Cop revision the art is **revised from the current image**
+  unless Curate changed the idea. Art prompt v2.
+- Live rerun of 09-28 ("The Watchdog Business", failed 3/3 yesterday): **passed on attempt 2 (3.57)**. The Cop then
+  caught an invented "$99" price tag (correctly), and the old code redrew from scratch and failed; that path now
+  revises the existing image instead.
+- Second live rerun with all fixes: **09-27 passed** (attempt 3, 3.57); **09-28 passed** after the Cop's note by
+  revising the current image (first try, 3.57), ending without `critic-fail`. Both failed yesterday.
+- 2026-09-30 01:20 UTC: `slopper-clock` deployed (secret stored by Gorka; token without expiration by choice).
+- Bugs found by those runs and fixed: a malformed raw-SVG fragment crashed the pipeline (now it is feedback for
+  Art: "not well-formed XML"); the nudge now keeps 4 px of margin (a robot was cut off by 2 px).
 
 - 2026-09-27: the scheduled run started at **18:42 UTC instead of 15:00 UTC** (GitHub delays cron under load);
   generation itself took ~10 min, PR #6 at 18:52 UTC. The 60-minute minimum age still protected the deadline.

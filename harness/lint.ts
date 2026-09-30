@@ -31,7 +31,7 @@ export interface LintReport {
 /** Lint that needs only the compiled + sanitized SVG. */
 export function lintSvg(compiled: CompileResult, sanitizedSvg: string, removed: string[], limits: LintLimits): LintReport {
   const errors: string[] = [];
-  const warnings: string[] = [];
+  const warnings: string[] = [...compiled.nudges];
 
   if (removed.length) errors.push(`sanitizer removed unexpected content: ${removed.join('; ')}`);
 

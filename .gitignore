@@ -8,7 +8,7 @@ dist/
 coverage/
 
 # Harness scratch output (npm run harness:render / harness:fixtures)
-/.out/
+.out/
 
 # Playwright / test artifacts
 playwright-report/

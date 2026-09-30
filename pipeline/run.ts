@@ -132,14 +132,20 @@ export async function runDay(opts: RunOptions): Promise<RunResult> {
     rounds.push(verdict);
     if (verdict.verdict !== 'revise' || round >= config.copRetries) break;
     const notes = verdict.findings.filter((f) => f.severity !== 'low').map((f) => `${f.check}: ${f.evidence} → ${f.suggestion}`);
+    let sameIdea = true;
     if (verdict.findings.some((f) => f.stage === 'curate')) {
       log.info('Cop asked Curate to revise');
-      curate = await withLimitRetry('curate', () => runCurate({ date: opts.date, digest, recent, storylines: storylinesPrev, config, revisionNotes: notes, previous: curate }));
+      const before = curate;
+      curate = await withLimitRetry('curate', () => runCurate({ date: opts.date, digest, recent, storylines: storylinesPrev, config, revisionNotes: notes, previous: before }));
       save('curate.json', curate);
+      sameIdea = sameVisualIdea(before, curate);
     } else {
       log.info('Cop asked Art to revise');
     }
-    const out = await withLimitRetry('art', () => runArt({ ...artInput, curate, copNotes: notes }));
+    // Revise the existing image unless Curate changed the idea itself (keeps a drawing that already passed).
+    const startFrom = sameIdea ? art : undefined;
+    log.info(startFrom ? 'Art revises the current image' : 'The idea changed: Art starts from scratch');
+    const out = await withLimitRetry('art', () => runArt({ ...artInput, curate, copNotes: notes, startFrom }));
     art = out.best;
     critic = out.critic;
     saveArt(art, critic);
@@ -175,6 +181,12 @@ export async function runDay(opts: RunOptions): Promise<RunResult> {
   const labels = prLabels(day, config.dryRun);
   log.info(`${prTitle(day)} [${labels.join(', ')}] → ${dir}`);
   return { dir, title: prTitle(day), labels };
+}
+
+/** Whether a Curate revision kept the visual idea (so the image can be revised instead of redrawn). */
+export function sameVisualIdea(a: CurateOutput, b: CurateOutput): boolean {
+  const idea = (c: CurateOutput) => JSON.stringify([c.brief.concept, c.brief.metaphor, c.brief.cast, c.brief.style, c.brief.artType]);
+  return idea(a) === idea(b);
 }
 
 async function main(): Promise<number> {
