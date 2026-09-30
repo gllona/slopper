@@ -20,8 +20,9 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 
 1. Commit + merge `feat/m7-clock-and-art` **before 11:07 UTC on 2026-09-30**: the deployed Worker dispatches
    `generate` with the new `scheduled` input, which `main` does not have until this merge.
-3. **Launch (M8), on 2026-10-01** (any time that day): set `DRY_RUN=false` and `LAUNCH_DATE=2026-10-01`.
-   Slopper #1 (about Oct 1) is generated on Oct 2 at 11:07 UTC and publishes at 19:00 UTC unless vetoed.
+3. **Launch (M8)**: on 2026-09-30, **after** that morning's dry-run PR arrives and **before 2026-10-01 11:07 UTC**,
+   set `DRY_RUN=false` and `LAUNCH_DATE=2026-09-30`. Slopper #1 (about Sep 30) is generated on Oct 1 at 11:07 UTC
+   and publishes at 19:00 UTC (14:00 in Panama) unless vetoed.
 4. Optional: enable **Cloudflare Web Analytics**.
 
 ---
@@ -30,8 +31,8 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 
 ### 2026-09-29: first review, launch date, clock, art feedback
 
-- Gorka reviewed 3 dry runs (#6 passed; #9 and #10 `critic-fail`): "the other two looked good"; launch approved
-  for **2026-10-01** (decision 41).
+- Gorka reviewed 3 dry runs (#6 passed; #9 and #10 `critic-fail`): "the other two looked good"; launch approved:
+  first publication on **2026-10-01** (`LAUNCH_DATE=2026-09-30`, decision 41; first planned as #1 *about* Oct 1).
 - **GitHub cron was 5–7 hours late** on 09-28 and 09-29 (11:07 UTC tries started 18:33 and 16:50), and the
   "hourly" publisher ran 4 times in 18 hours. Fix (decision 39): the **`slopper-clock` Cloudflare Worker**
   dispatches `generate` (`scheduled=true`, idempotent) at 11:07/13:07 UTC and `publish` hourly at :05. No fetch

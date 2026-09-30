@@ -1183,7 +1183,7 @@ Build in this order. Each milestone ends with tests passing and a short demo.
 1. ~~**Wordmark and typefaces**~~ — resolved (approved 2026-09-26): Bricolage Grotesque (wordmark, headings, art labels), Atkinson Hyperlegible Next (body text), IBM Plex Mono (blueprint labels); all SIL OFL, self-hosted. Art labels are converted to paths at compile time.
 2. ~~**Final v1 style cards**~~ — resolved (approved 2026-09-26): palettes in `harness/styles/*.yaml` (summary in `docs/HARNESS.md`).
 3. ~~Takedown contact address~~ — resolved: `slopper@lab14.chat`.
-4. ~~**Launch date**~~ — resolved: `LAUNCH_DATE=2026-10-01` (decision 41).
+4. ~~**Launch date**~~ — resolved: `LAUNCH_DATE=2026-09-30`, first publication 2026-10-01 (decision 41).
 
 ---
 
@@ -1234,7 +1234,7 @@ Build in this order. Each milestone ends with tests passing and a short demo.
 | 38 | While `DRY_RUN=true`, dry-run sloppers are kept on a `calibration` branch and read back as history by the `create` job. |
 | 39 | **Clock:** a Cloudflare Worker (`infra/clock`, cron triggers 11:07 and 13:07 UTC → `generate` with `scheduled=true`; every hour at :05 → `publish`) starts the workflows through GitHub's API with a fine-grained token (Actions read/write on this repo only). No fetch handler, no route, no workers.dev URL. GitHub cron schedules remain as backups. Reason: GitHub started scheduled runs 3–7 hours late on 2026-09-27/28/29. |
 | 40 | **Art sees its work:** on a retry the Art stage gets `attempt.png` (its previous final frame) and `layout.json` (rendered boxes). The compiler nudges text back into the safe area and shapes back into the artboard (reported as lint warnings) instead of losing an iteration. Reason: 2 of the first 3 dry runs failed the critic on layout, not ideas. |
-| 41 | Launch: `LAUNCH_DATE=2026-10-01` (Slopper #1 is about the first day of Q4, published on 2026-10-02 at the 19:00 UTC deadline). |
+| 41 | Launch: `LAUNCH_DATE=2026-09-30`, so Slopper #1 (about 2026-09-30) is **published on 2026-10-01**, the first day of Q4, at the 19:00 UTC deadline. Changed on 2026-09-30 from `2026-10-01` (Gorka preferred the publication day to coincide with the quarter). |
 ## Appendix A — Voice candidates (reviewed)
 
 Reviewed by Gorka. **A** (approved) lines go into `knowledge/voice.md` as good examples. **D** (denied) lines go in as rejected examples (no reason given; treat them as "not the Slopper voice").
