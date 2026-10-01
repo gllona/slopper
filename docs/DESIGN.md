@@ -591,7 +591,7 @@ Simple and clean, like a Google Doodle page:
 - For HTML: `Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'`.
 - For `*.svg`: `Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:` (so an SVG opened directly still cannot run anything) and `Content-Type: image/svg+xml`.
 - `X-Content-Type-Options: nosniff`, `Referrer-Policy: strict-origin-when-cross-origin`.
-- `Strict-Transport-Security: max-age=31536000` (add only after HTTPS on the custom domain is confirmed; start with a short `max-age` such as 300 during M6).
+- `Strict-Transport-Security: max-age=31536000` (started at 300 s when HTTPS was confirmed on 2026-09-27; raised to one year after the launch on 2026-10-01; no `includeSubDomains`).
 - Cache: dated media files (`/YYYY/MM/DD/slopper.svg`, `still.png`, `og.png`) `Cache-Control: public, max-age=31536000, immutable`; dated HTML pages `max-age=3600` (so a takedown reaches browsers within an hour); `/`, `/archive/`, `/feed.xml`, `/sitemap.xml` short cache (e.g. 5 minutes).
 
 ### 12.6 Analytics

@@ -3,7 +3,7 @@
 **One small piece of AI-made slop-art per day about the state of AI.** Like a daily doodle, but the topic is
 AI (models, jobs, schools, energy, law, culture…) and the one drawing it is also AI.
 
-Live at **https://slopper.logicos.org** (coming soon).
+Live at **https://slopper.logicos.org** since 2026-10-01. First one: [Slopper #1, "Self-Policing Season"](https://slopper.logicos.org/2026/10/01/).
 
 Each *slopper* is a square SVG image or short animation, a 2–5 word **motto**, a one-line **phrase**
 (the joke), and the list of **sources** it is based on. Everything is generated daily by a pipeline that

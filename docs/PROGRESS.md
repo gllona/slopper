@@ -12,22 +12,29 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 | M4 — Fetch | ✅ | 6 sources, robots.txt-aware HTTP, digest.json, recorded fixtures |
 | M5 — AI stages locally | ✅ | `npm run day` end to end with real Claude in 165 s |
 | M6 — Automation | ✅ | first dry run on GitHub: PR #5 (critic passed on the 3rd try) |
-| M7 — Calibration | 🟡 | started 2026-09-27: phone notifications first |
-| M8 — Launch | ⬜ | |
+| M7 — Calibration | ✅ | notifications, clock, art feedback, slop-art, publication-date URLs |
+| M8 — Launch | ✅ | **2026-10-01: Slopper #1 "Self-Policing Season" live** |
 | M9 — Evolution | ⬜ | |
 
 ## Waiting for Gorka
 
-1. Commit + merge `feat/m7-clock-and-art` **before 11:07 UTC on 2026-09-30**: the deployed Worker dispatches
-   `generate` with the new `scheduled` input, which `main` does not have until this merge.
-3. **Launch (M8)**: on 2026-09-30, **after** that morning's dry-run PR arrives and **before 2026-10-01 11:07 UTC**,
-   set `DRY_RUN=false` and `LAUNCH_DATE=2026-09-30`. Slopper #1 (about Sep 30) is generated on Oct 1 at 11:07 UTC
-   and publishes at 19:00 UTC (14:00 in Panama) unless vetoed.
-4. Optional: enable **Cloudflare Web Analytics**.
+1. Commit + merge `feat/m8-launch` (README, HSTS one year, progress).
+2. Feedback on the daily sloppers (it feeds M9: the weekly lessons job).
+3. Optional: enable **Cloudflare Web Analytics**.
 
 ---
 
-## M7 — Calibration 🟡
+## M8 — Launch ✅
+
+- 2026-09-30: Gorka set `DRY_RUN=false` and `LAUNCH_DATE=2026-09-30` after the last dry run (PR #13, about
+  2026-09-29, opened at 06:28 Panama time: the first run started on time by `slopper-clock`).
+- **2026-10-01: Slopper #1, "Self-Policing Season"** (news of 2026-09-30): PR #15, approved by Gorka, merged at
+  16:21 UTC, tagged `slopper-2026-09-30`, live at **https://slopper.logicos.org/2026/10/01/**. Verified: page,
+  `slopper.svg`/`still.png`/`og.png`, "#1 · 1 October 2026" + "News of 30 September 2026", 6 sources, `/` and
+  `/today/`, feed.
+- After launch: HSTS raised to one year (`max-age=31536000`, this host only); README points to the live site.
+
+## M7 — Calibration ✅
 
 ### 2026-09-30: public URLs carry the publication date (decision 43)
 
