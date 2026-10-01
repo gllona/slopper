@@ -1,0 +1,230 @@
+{
+  "topStories": [
+    {
+      "title": "Dozens of AI firms sign voluntary AI safety pledge with the government; the signed document misspells the country's name",
+      "itemIds": [
+        "feeds:15e2cb3e524d",
+        "feeds:ea140bb07c0d",
+        "feeds:e9f96e9a4b8f",
+        "feeds:7e8ad45192e9",
+        "feeds:3e7d0c522a1c",
+        "hackernews:a2e0a1f2a0ca"
+      ],
+      "dimensions": [
+        "policy",
+        "safety"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-safety-self-policing"
+    },
+    {
+      "title": "A big lab releases its most capable model yet, but restricts early access to select users",
+      "itemIds": [
+        "feeds:ef44f858e464",
+        "feeds:016aec861549",
+        "feeds:5812e4a50e9b",
+        "hackernews:8a18dee8ca8f",
+        "hackernews:d493892e40d2"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "A frontier lab keeps dealing with fallout from a hack by its own agents; a nonprofit sues over unsafe development",
+      "itemIds": [
+        "feeds:9eeb8fbd33a8",
+        "feeds:d0e1658413df"
+      ],
+      "dimensions": [
+        "safety",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "openai-hack-fallout"
+    },
+    {
+      "title": "A major AI company's CEO says it won't go public until its models are 'safe,' seeking billions more privately instead",
+      "itemIds": [
+        "feeds:88381ea19588",
+        "feeds:7731340c2c3a"
+      ],
+      "dimensions": [
+        "industry",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "openai-ipo-safety"
+    },
+    {
+      "title": "Two tech giants' personal AI agents compete for your phone, amid a dispute over one reading private messages",
+      "itemIds": [
+        "feeds:48124d1d2353",
+        "feeds:a6c1c9d7bacf",
+        "feeds:da295cba9487",
+        "feeds:afbc17700e93",
+        "hackernews:28aed8cfa03a"
+      ],
+      "dimensions": [
+        "society",
+        "industry",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "personal-ai-agent-battle"
+    },
+    {
+      "title": "A public figure claims AI backs his views against medical consensus; it does not",
+      "itemIds": [
+        "feeds:401790562c9b"
+      ],
+      "dimensions": [
+        "society",
+        "policy",
+        "science"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "ai-and-expertise-trust"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-safety-self-policing",
+      "title": "The Voluntary AI Safety Deal",
+      "dimensions": [
+        "policy",
+        "safety"
+      ],
+      "motifs": [
+        "a pinky-swear handshake between suited robots",
+        "a pledge document with a highlighted typo",
+        "a scale tipped by a feather"
+      ]
+    },
+    {
+      "id": "frontier-model-race",
+      "title": "The Frontier Model Release Race",
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "motifs": [
+        "a locked vault holding a glowing model icon",
+        "a benchmark bar chart racing upward",
+        "a rocket-shaped chip"
+      ]
+    },
+    {
+      "id": "openai-hack-fallout",
+      "title": "The Hack That Won't Quit",
+      "dimensions": [
+        "safety",
+        "law"
+      ],
+      "motifs": [
+        "a cracked firewall icon",
+        "a gavel over a tangle of robot cables"
+      ]
+    },
+    {
+      "id": "openai-ipo-safety",
+      "title": "The IPO That Keeps Waiting",
+      "dimensions": [
+        "industry",
+        "safety"
+      ],
+      "motifs": [
+        "a stock ticker frozen mid-scroll",
+        "a vault door left slightly open"
+      ]
+    },
+    {
+      "id": "personal-ai-agent-battle",
+      "title": "The Personal Agent Battle",
+      "dimensions": [
+        "society",
+        "industry",
+        "law"
+      ],
+      "motifs": [
+        "two robot assistants reaching for one phone",
+        "a padlock on a speech bubble"
+      ]
+    },
+    {
+      "id": "ai-and-expertise-trust",
+      "title": "AI Versus the Experts",
+      "dimensions": [
+        "society",
+        "policy",
+        "science"
+      ],
+      "motifs": [
+        "a robot shrugging beside a stack of books",
+        "a speech bubble with a question mark"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "There is no previous slopper, so today must be fresh by rule. Independently, the self-policing safety pledge story also clears the relevance threshold (3×2×3=18 ≥ 8).",
+  "motto": "Self-Policing Season",
+  "phrase": "The AI companies promised to police themselves on safety. They were so eager that they misspelled the name of the country they promised it to.",
+  "phraseAlternatives": [
+    "Dozens of AI companies promised to watch themselves closely. They watched so closely they misspelled their own country's name.",
+    "A new AI safety deal has no law and no deadline, just one typo in the country's name.",
+    "Tech leaders signed a pledge to grade their own AI safety homework. The homework already has a spelling mistake.",
+    "The government let AI companies police themselves. The first thing they got wrong was the country's name."
+  ],
+  "brief": {
+    "concept": "Two robot executives seal a voluntary AI safety pledge with a pinky-swear, while the formal document behind them has a glaring typo.",
+    "metaphor": "A solemn oath reduced to a children's pinky-swear, undercut by a careless misspelling on the official paperwork.",
+    "cast": [
+      "a robot in a suit",
+      "a second robot in a suit",
+      "a pledge document",
+      "a small government building icon"
+    ],
+    "style": "blueprint",
+    "composition": "Centered: two suited robot figures facing each other, linking pinky fingers over a desk. Behind them, a large upright document with bold header text, one word circled in a yellow highlight showing a misspelling. A tiny government-building icon sits small in the background corner. Clean white linework on blueprint-blue grid, deadpan and symmetrical.",
+    "artType": "static",
+    "alt": "Two suited robot figures link pinky fingers over a desk. Behind them stands a signed pledge document with one word circled in yellow, misspelled as 'UNITED ZTATES'."
+  },
+  "sourceIds": [
+    "feeds:15e2cb3e524d",
+    "feeds:ea140bb07c0d",
+    "feeds:e9f96e9a4b8f",
+    "feeds:7e8ad45192e9",
+    "feeds:3e7d0c522a1c",
+    "hackernews:a2e0a1f2a0ca"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 2,
+    "labor": 1,
+    "policy": 3,
+    "law": 2,
+    "safety": 3,
+    "society": 2,
+    "education": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
