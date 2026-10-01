@@ -18,7 +18,7 @@ import { prLabels, prTitle, writePackage } from './stages/package.ts';
 import { updateStorylines } from './storylines.ts';
 import { dayDir, recentDays, storylinesBefore } from './util/archive.ts';
 import { loadConfig } from './util/config.ts';
-import { assertIsoDate, slopperDateFor } from './util/dates.ts';
+import { assertIsoDate, publicationDate, slopperDateFor } from './util/dates.ts';
 import { logger } from './util/log.ts';
 import { slopperNumber } from './util/numbering.ts';
 
@@ -120,7 +120,7 @@ export async function runDay(opts: RunOptions): Promise<RunResult> {
   } else {
     const scene = read('scene.json', (v) => SceneSchema.parse(v));
     critic = read('critic.json', (v) => CriticFileSchema.parse(v));
-    const build = await buildScene(scene, { ...config, filmstripFrames: config.animation.filmstripFrames }, { motto: curate.motto, phrase: curate.phrase, number, date: opts.date });
+    const build = await buildScene(scene, { ...config, filmstripFrames: config.animation.filmstripFrames }, { motto: curate.motto, phrase: curate.phrase, number, date: publicationDate(opts.date) });
     const best = critic.iterations.find((i) => i.iteration === critic.bestIteration);
     art = { iteration: critic.bestIteration, scene, build, review: best?.review, average: best?.review ? evaluateScores(best.review.scores, config.critic).average : undefined, passed: critic.passed };
   }

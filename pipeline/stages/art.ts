@@ -12,6 +12,7 @@ import type { CurateOutput } from '../schemas/curate.ts';
 import type { Day } from '../schemas/day.ts';
 import { HARNESS_VERSION, SceneSchema, type Scene } from '../schemas/scene.ts';
 import { dayDir } from '../util/archive.ts';
+import { publicationDate } from '../util/dates.ts';
 import { logger } from '../util/log.ts';
 import { KNOWLEDGE } from './curate.ts';
 
@@ -64,7 +65,7 @@ export async function runArt(input: ArtInput): Promise<ArtOutput> {
     const scene = await drawScene(input, feedback, continuation ? previousDir! : null);
     let build: BuildResult;
     try {
-      build = await buildScene(scene, limits, { motto: curate.motto, phrase: curate.phrase, number: input.number, date: input.date });
+      build = await buildScene(scene, limits, { motto: curate.motto, phrase: curate.phrase, number: input.number, date: publicationDate(input.date) });
     } catch (e) {
       if (!(e instanceof SceneError)) throw e;
       feedback = { scene, notes: [], lint: e.issues };

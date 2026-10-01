@@ -136,7 +136,8 @@ jobs:
         run: |
           [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$CHAT" ] || { echo "Telegram not configured"; exit 0; }
           links=""
-          for d in $MERGED; do links="$links $SITE_URL/${d//-//}/"; done
+          # public URLs use the publication date: the news date + 1 day (DESIGN decision 43)
+          for d in $MERGED; do links="$links $SITE_URL/$(date -u -d "$d +1 day" +%Y/%m/%d)/"; done
           curl -sS --fail-with-body -o /dev/null "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
             --data-urlencode "chat_id=$CHAT" \
             --data-urlencode "text=✅ Published:${links}"

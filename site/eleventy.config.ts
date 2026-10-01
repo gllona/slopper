@@ -44,8 +44,8 @@ export default function (eleventyConfig: any) {
       return '';
     }
   });
-  eleventyConfig.addFilter('slopperTitle', (s: { number: number | null; motto: string; date: string }) =>
-    `Slopper${s.number ? ` #${s.number}` : ''} — ${s.motto} — ${s.date}`,
+  eleventyConfig.addFilter('slopperTitle', (s: { number: number | null; motto: string; publishedOn: string }) =>
+    `Slopper${s.number ? ` #${s.number}` : ''} — ${s.motto} — ${s.publishedOn}`,
   );
   eleventyConfig.addFilter('sourceName', (source: string) => SOURCE_NAMES[source] ?? source);
 

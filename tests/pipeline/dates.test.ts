@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { addDays, datePath, dayWindow, daysBetween, formatLong, isIsoDate, slopperDateFor } from '../../pipeline/util/dates.ts';
+import { addDays, datePath, dayWindow, daysBetween, formatLong, isIsoDate, publicationDate, slopperDateFor } from '../../pipeline/util/dates.ts';
 import { slopperNumber } from '../../pipeline/util/numbering.ts';
 
 describe('dates (UTC only)', () => {
@@ -20,6 +20,11 @@ describe('dates (UTC only)', () => {
   it('the slopper date is the previous UTC day', () => {
     expect(slopperDateFor(new Date('2026-09-28T06:00:00Z'))).toBe('2026-09-27');
     expect(slopperDateFor(new Date('2026-09-28T00:00:01Z'))).toBe('2026-09-27');
+  });
+  it('publication date is the news date + 1 (decision 43)', () => {
+    expect(publicationDate('2026-09-30')).toBe('2026-10-01');
+    expect(publicationDate('2026-12-31')).toBe('2027-01-01');
+    expect(publicationDate('2028-02-28')).toBe('2028-02-29');
   });
   it('formats paths and long dates', () => {
     expect(datePath('2026-09-07')).toBe('2026/09/07');

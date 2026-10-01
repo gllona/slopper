@@ -46,9 +46,10 @@ describe('site data', () => {
   it('links neighbours and continuations, newest first', () => {
     const list = loadSloppers('all', makeArchive());
     expect(list.map((s) => s.date)).toEqual(['2026-09-22', '2026-09-21']);
-    expect(list[0]!.prev?.date).toBe('2026-09-21');
-    expect(list[0]!.continues).toEqual({ url: '/2026/09/21/', number: 1, date: '2026-09-21' });
-    expect(list[1]!.next?.date).toBe('2026-09-22');
+    expect(list[0]!.prev?.date).toBe('2026-09-22');
+    expect(list[0]!.url).toBe('/2026/09/23/'); // news of 09-22, published 09-23
+    expect(list[0]!.continues).toEqual({ url: '/2026/09/22/', number: 1, date: '2026-09-22' });
+    expect(list[1]!.next?.date).toBe('2026-09-23');
     expect(list[0]!.animated).toBe(true);
   });
 
@@ -77,21 +78,24 @@ describe('site build', () => {
   const read = (p: string) => readFileSync(join(out, p), 'utf8');
 
   it('writes every page and machine-readable file', () => {
-    for (const f of ['index.html', '2026/09/21/index.html', '2026/09/22/index.html', 'archive/index.html', 'about/index.html', '404.html', 'feed.xml', 'sitemap.xml', 'robots.txt', '_headers', '_redirects', 'favicon.svg', 'assets/css/site.css', 'assets/js/replay.js']) {
+    for (const f of ['index.html', '2026/09/22/index.html', '2026/09/23/index.html', 'archive/index.html', 'about/index.html', '404.html', 'feed.xml', 'sitemap.xml', 'robots.txt', '_headers', '_redirects', 'favicon.svg', 'assets/css/site.css', 'assets/js/replay.js']) {
       expect(existsSync(join(out, f)), f).toBe(true);
     }
   });
 
-  it('copies only public files into dated folders', () => {
-    expect(existsSync(join(out, '2026/09/21/slopper.svg'))).toBe(true);
-    expect(existsSync(join(out, '2026/09/21/digest.json'))).toBe(false);
-    expect(existsSync(join(out, '2026/09/21/day.json'))).toBe(false);
+  it('copies only public files into dated folders (named by publication date)', () => {
+    expect(existsSync(join(out, '2026/09/22/slopper.svg'))).toBe(true);
+    expect(existsSync(join(out, '2026/09/22/digest.json'))).toBe(false);
+    expect(existsSync(join(out, '2026/09/22/day.json'))).toBe(false);
+    expect(existsSync(join(out, '2026/09/21/index.html'))).toBe(false);
   });
 
   it('day pages have SEO metadata and escaped text', () => {
-    const html = read('2026/09/22/index.html');
-    expect(html).toContain('<title>Slopper #2 — Still Benchmarking — 2026-09-22</title>');
-    expect(html).toContain('<link rel="canonical" href="https://slopper.logicos.org/2026/09/22/">');
+    const html = read('2026/09/23/index.html');
+    expect(html).toContain('<title>Slopper #2 — Still Benchmarking — 2026-09-23</title>');
+    expect(html).toContain('<link rel="canonical" href="https://slopper.logicos.org/2026/09/23/">');
+    expect(html).toContain('<time datetime="2026-09-23">23 September 2026</time>');
+    expect(html).toContain('News of 22 September 2026');
     expect(html).toContain('&amp; 40% more &quot;confident&quot;');
     expect(html).toContain('A &lt;b&gt;headline&lt;/b&gt;');
     expect(html).toContain('Continues from #1');
@@ -102,7 +106,7 @@ describe('site build', () => {
   });
 
   it('is compatible with the strict CSP: no inline styles or inline scripts', () => {
-    for (const f of ['index.html', '2026/09/21/index.html', 'archive/index.html', 'about/index.html']) {
+    for (const f of ['index.html', '2026/09/22/index.html', 'archive/index.html', 'about/index.html']) {
       const html = read(f);
       expect(html, f).not.toMatch(/\sstyle="/);
       expect(html, f).not.toMatch(/<style/);
@@ -113,7 +117,7 @@ describe('site build', () => {
 
   it('home shows the latest slopper; /today redirects to it', () => {
     expect(read('index.html')).toContain('Still Benchmarking');
-    expect(read('_redirects')).toContain('/today/ /2026/09/22/ 302');
+    expect(read('_redirects')).toContain('/today/ /2026/09/23/ 302');
   });
 
   it('headers keep the pages.dev copy out of search engines', () => {
@@ -121,8 +125,8 @@ describe('site build', () => {
   });
 
   it('feed and sitemap list every slopper with absolute URLs', () => {
-    expect(read('feed.xml')).toContain('<id>https://slopper.logicos.org/2026/09/21/</id>');
-    expect(read('sitemap.xml')).toContain('<loc>https://slopper.logicos.org/2026/09/22/</loc>');
+    expect(read('feed.xml')).toContain('<id>https://slopper.logicos.org/2026/09/22/</id>');
+    expect(read('sitemap.xml')).toContain('<loc>https://slopper.logicos.org/2026/09/23/</loc>');
     expect(read('robots.txt')).toContain('Sitemap: https://slopper.logicos.org/sitemap.xml');
   });
 });

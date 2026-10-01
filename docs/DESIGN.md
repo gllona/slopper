@@ -98,6 +98,7 @@ The quality bar and spirit are similar to Simon Willison's "pelican riding a bic
 | **Slop-art** | What visitors are told the images are: AI-made pictures and animations, not art (decision 42). |
 | **Slopper number** | `days since LAUNCH_DATE + 1`, fixed at generation time and stored in `day.json`. Gaps (skipped or taken-down days) never renumber later sloppers. |
 | **Slopper date** | The UTC day the slopper is *about* (the previous UTC day relative to generation time). |
+| **Publication date** | Slopper date + 1: the day it is published, used in its public URL (decision 43). |
 | **Digest** | Deterministic JSON bundle of fetched items from all sources for a date. |
 | **Dimension** | One axis of the ontology (e.g. "labor", "planet"). |
 | **Storyline** | A news thread that can span several days, tracked in `knowledge/storylines.json`. |
@@ -549,7 +550,7 @@ Output `cop.json`: `{ verdict: "pass" | "revise" | "hold", findings: [{ check, s
 | URL | Content |
 |---|---|
 | `/` | Today's slopper (the latest published), same layout as a day page |
-| `/YYYY/MM/DD/` | **Canonical** page for a slopper |
+| `/YYYY/MM/DD/` | **Canonical** page for a slopper. The date is the **publication date** = news date + 1 (decision 43): the slopper about 2026-09-30 lives at `/2026/10/01/` |
 | `/YYYY/MM/DD/slopper.svg` | Animated/static art |
 | `/YYYY/MM/DD/still.png` | Square still (1080×1080) |
 | `/YYYY/MM/DD/og.png` | Social preview (1200×630) |
@@ -570,7 +571,7 @@ Simple and clean, like a Google Doodle page:
 2. The art, centered, square, max ~560 px on desktop, full width on mobile. Shown with `<img src="slopper.svg" alt="…">` (an `<img>` never runs scripts: extra isolation). Replay button below animated art.
 3. Motto as `<h1>`.
 4. Phrase as a paragraph.
-5. Date and number: "#42 · 27 September 2026".
+5. Date and number: "#42 · 27 September 2026" (publication date), and below it "News of 26 September 2026".
 6. `<details><summary>Relevant sources</summary>…</details>` — hidden by default, present in HTML for crawlers.
 7. Continuation days show a small link: "Continues from #41".
 8. Navigation: ← previous · today · archive · next →.
@@ -1237,6 +1238,7 @@ Build in this order. Each milestone ends with tests passing and a short demo.
 | 40 | **Art sees its work:** on a retry the Art stage gets `attempt.png` (its previous final frame) and `layout.json` (rendered boxes). The compiler nudges text back into the safe area and shapes back into the artboard (reported as lint warnings) instead of losing an iteration. Reason: 2 of the first 3 dry runs failed the critic on layout, not ideas. |
 | 41 | Launch: `LAUNCH_DATE=2026-09-30`, so Slopper #1 (about 2026-09-30) is **published on 2026-10-01**, the first day of Q4, at the 19:00 UTC deadline. Changed on 2026-09-30 from `2026-10-01` (Gorka preferred the publication day to coincide with the quarter). |
 | 42 | **"Slop-art", not "art"** in everything visitors see (site pages, meta description and feed subtitle, default social image, README, `LICENSE-ART.md`, the `critic-fail` label). Many artists do not accept AI-made images as art; the name is also more satirical. Internal code names (`art.ts`, `artType`, the Art stage), prompts, and these docs keep "art" (Gorka's choice: public texts only). |
+| 43 | **Public URLs use the publication date** (news date + 1): a link shared on the day it goes out carries that day's date. The page shows the publication date and "News of <news date>"; feed, sitemap, `/today/`, `og.png`, and the Telegram links follow. The archive folder, `day.json`, branches, PR titles, numbering, and `LAUNCH_DATE` keep the news date. Slopper #1 (news of 2026-09-30) is at `/2026/10/01/`. |
 ## Appendix A — Voice candidates (reviewed)
 
 Reviewed by Gorka. **A** (approved) lines go into `knowledge/voice.md` as good examples. **D** (denied) lines go in as rejected examples (no reason given; treat them as "not the Slopper voice").

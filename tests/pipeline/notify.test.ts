@@ -1,6 +1,6 @@
 import { execFileSync } from 'node:child_process';
 import { describe, expect, it } from 'vitest';
-import { esc, failureMessage, localTime, prMessage, publishedMessage, send, type PrInfo } from '../../pipeline/ops/notify.ts';
+import { esc, failureMessage, localTime, prMessage, publicUrl, publishedMessage, send, type PrInfo } from '../../pipeline/ops/notify.ts';
 import { DaySchema } from '../../pipeline/schemas/day.ts';
 
 const day = DaySchema.parse({
@@ -29,6 +29,7 @@ const info = (over: Partial<PrInfo> = {}): PrInfo => ({
   vetoMode: 'window',
   publishHourUTC: 19,
   offset: -5,
+  siteUrl: 'https://slopper.logicos.org',
   ...over,
 });
 
@@ -48,6 +49,10 @@ describe('telegram messages', () => {
     expect(m.buttons?.map((b) => b.text)).toEqual(['Open PR', 'Image']);
     expect(m.photoUrl).toMatch(/still\.png$/);
   });
+  it('includes the public link to share (not for dry runs)', () => {
+    expect(prMessage(info()).text).toContain('🔗 https://slopper.logicos.org/2026/09/27/');
+    expect(prMessage(info({ labels: ['slopper', 'dry-run'] })).text).not.toContain('🔗');
+  });
   it('says clearly when it will not publish by itself', () => {
     expect(prMessage(info({ labels: ['slopper', 'dry-run'] })).text).toContain('Dry run');
     expect(prMessage(info({ labels: ['slopper', 'cop-hold'] })).text).toContain('Blocked');
@@ -58,7 +63,9 @@ describe('telegram messages', () => {
     expect(long.text.length).toBeLessThanOrEqual(1024);
   });
   it('published and failure messages', () => {
-    expect(publishedMessage(['2026-09-26'], 'https://slopper.logicos.org/').buttons?.[0]?.url).toBe('https://slopper.logicos.org/2026/09/26/');
+    // public URLs carry the publication date: the news date + 1 day (decision 43)
+    expect(publishedMessage(['2026-09-30'], 'https://slopper.logicos.org/').buttons?.[0]).toEqual({ text: 'Open 2026-10-01', url: 'https://slopper.logicos.org/2026/10/01/' });
+    expect(publicUrl('https://slopper.logicos.org', '2026-12-31')).toBe('https://slopper.logicos.org/2027/01/01/');
     expect(failureMessage('generate', 'https://x/run', '2026-09-26').text).toContain('generate failed');
   });
 });

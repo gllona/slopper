@@ -2,7 +2,7 @@ import { execFileSync } from 'node:child_process';
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join, relative, resolve } from 'node:path';
 import { DaySchema, type Day } from '../../pipeline/schemas/day.ts';
-import { datePath, formatLong } from '../../pipeline/util/dates.ts';
+import { datePath, formatLong, publicationDate } from '../../pipeline/util/dates.ts';
 
 /**
  * Loads sloppers for the site (DESIGN §12.7).
@@ -20,13 +20,18 @@ export type SiteMode = 'build' | 'dev' | 'all';
 export const PUBLIC_FILES = ['slopper.svg', 'still.png', 'og.png'] as const;
 
 export interface SiteSlopper extends Day {
-  /** "2026/09/27" */
+  /** Publication date (news date + 1), used in public URLs and shown to visitors: "2026-10-01". */
+  publishedOn: string;
+  /** "2026/10/01" — public path (publication date). */
   path: string;
-  /** "/2026/09/27/" */
+  /** "/2026/10/01/" */
   url: string;
-  /** Folder on disk. */
+  /** Folder on disk (named by the news date). */
   dir: string;
+  /** "1 October 2026" (publication date). */
   dateLong: string;
+  /** "30 September 2026" (the news day it is about). */
+  newsDateLong: string;
   draft: boolean;
   animated: boolean;
   files: Record<(typeof PUBLIC_FILES)[number], boolean>;
@@ -79,16 +84,19 @@ export function loadSloppers(mode: SiteMode = siteMode(), root: string = archive
     }
     const day = parsed.data;
     const dir = join(file, '..');
-    const path = datePath(day.date);
-    if (relative(root, dir) !== path) throw new Error(`${relative(process.cwd(), file)} declares date ${day.date}`);
+    if (relative(root, dir) !== datePath(day.date)) throw new Error(`${relative(process.cwd(), file)} declares date ${day.date}`);
+    const publishedOn = publicationDate(day.date);
+    const path = datePath(publishedOn);
     const files = Object.fromEntries(PUBLIC_FILES.map((f) => [f, existsSync(join(dir, f))])) as SiteSlopper['files'];
     if (!files['slopper.svg']) throw new Error(`${relative(process.cwd(), dir)} has no slopper.svg`);
     list.push({
       ...day,
+      publishedOn,
       path,
       url: `/${path}/`,
       dir,
-      dateLong: formatLong(day.date),
+      dateLong: formatLong(publishedOn),
+      newsDateLong: formatLong(day.date),
       draft: mode === 'dev' && !isTrackedInDev(file),
       animated: day.artType === 'animated',
       files,
@@ -100,10 +108,10 @@ export function loadSloppers(mode: SiteMode = siteMode(), root: string = archive
   list.forEach((s, i) => {
     const newer = list[i - 1];
     const older = list[i + 1];
-    if (older) s.prev = { url: older.url, date: older.date };
-    if (newer) s.next = { url: newer.url, date: newer.date };
+    if (older) s.prev = { url: older.url, date: older.publishedOn };
+    if (newer) s.next = { url: newer.url, date: newer.publishedOn };
     const from = s.continuesFrom ? byDate.get(s.continuesFrom) : undefined;
-    if (from) s.continues = { url: from.url, number: from.number, date: from.date };
+    if (from) s.continues = { url: from.url, number: from.number, date: from.publishedOn };
   });
   return list;
 }
@@ -118,7 +126,7 @@ function isTrackedInDev(file: string): boolean {
 export function byMonth(list: SiteSlopper[]): { key: string; label: string; items: SiteSlopper[] }[] {
   const groups = new Map<string, SiteSlopper[]>();
   for (const s of list) {
-    const key = s.date.slice(0, 7);
+    const key = s.publishedOn.slice(0, 7);
     groups.set(key, [...(groups.get(key) ?? []), s]);
   }
   return [...groups].map(([key, items]) => ({

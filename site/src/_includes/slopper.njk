@@ -22,9 +22,10 @@
     <p class="phrase">{{ slopper.phrase }}</p>
     <p class="meta">
       {%- if slopper.number %}<a href="{{ slopper.url }}">#{{ slopper.number }}</a> · {% endif -%}
-      <time datetime="{{ slopper.date }}">{{ slopper.dateLong }}</time>
+      <time datetime="{{ slopper.publishedOn }}">{{ slopper.dateLong }}</time>
       {%- if slopper.continues %} · <a class="continues" href="{{ slopper.continues.url }}">Continues from {% if slopper.continues.number %}#{{ slopper.continues.number }}{% else %}{{ slopper.continues.date }}{% endif %}</a>{% endif %}
     </p>
+    <p class="news">News of {{ slopper.newsDateLong }}</p>
 
     {%- if slopper.sources.length %}
     <details class="sources">

@@ -29,6 +29,17 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 
 ## M7 — Calibration 🟡
 
+### 2026-09-30: public URLs carry the publication date (decision 43)
+
+- Gorka: a link shared each day should contain that day's date. Public URLs, the date on the page, feed,
+  sitemap, `/today/`, the `og.png` date, and Telegram links now use news date + 1; the page adds "News of …".
+  Internals unchanged. **Slopper #1: https://slopper.logicos.org/2026/10/01/**. The Telegram review message now
+  includes the public link to share.
+- Clock incident: the Worker fired but GitHub answered 403 ("Resource not accessible by personal access token")
+  because the token lacked Actions write. Found by tailing the Worker's logs (it logs errors instead of failing,
+  so Cloudflare showed "success"). After Gorka fixed the token, a 2-minute test dispatched `publish` twice and
+  deployed `main` (slop-art) at 02:28 UTC.
+
 ### 2026-09-29: "slop-art", not "art" (decision 42)
 
 - Gorka: avoid angering artists and be more satirical. Every visitor-visible "art" is now "slop-art" (home and
