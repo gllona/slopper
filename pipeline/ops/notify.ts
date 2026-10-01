@@ -4,6 +4,7 @@ import { parseArgs } from 'node:util';
 import { CopFileSchema } from '../schemas/cop.ts';
 import { CriticFileSchema } from '../schemas/critic.ts';
 import { DaySchema, type Day } from '../schemas/day.ts';
+import { datePath, publicationDate } from '../util/dates.ts';
 
 /**
  * Telegram notifications (outbound only: no endpoint, no webhook). Gorka taps a link button to open the PR in
@@ -63,6 +64,12 @@ export interface PrInfo {
   vetoMode: string;
   publishHourUTC: number;
   offset: number;
+  siteUrl: string;
+}
+
+/** The public page of a slopper: its publication date (news date + 1), DESIGN decision 43. */
+export function publicUrl(siteUrl: string, newsDate: string): string {
+  return `${siteUrl.replace(/\/$/, '')}/${datePath(publicationDate(newsDate))}/`;
 }
 
 export function prMessage(p: PrInfo): TelegramMessage {
@@ -86,7 +93,8 @@ export function prMessage(p: PrInfo): TelegramMessage {
     `Labels: ${esc(p.labels.join(', '))}`,
     '',
     when,
-  ];
+    dry ? '' : `🔗 ${esc(publicUrl(p.siteUrl, d.date))}`,
+  ].filter((l, i, a) => l !== '' || a[i + 1] !== undefined);
   return {
     text: fit(lines.join('\n'), CAPTION_MAX),
     photoUrl: p.imageUrl,
@@ -97,11 +105,11 @@ export function prMessage(p: PrInfo): TelegramMessage {
   };
 }
 
-export function publishedMessage(dates: string[], siteUrl: string): TelegramMessage {
-  const links = dates.map((d) => `${siteUrl.replace(/\/$/, '')}/${d.replaceAll('-', '/')}/`);
+export function publishedMessage(newsDates: string[], siteUrl: string): TelegramMessage {
+  const links = newsDates.map((d) => publicUrl(siteUrl, d));
   return {
     text: `✅ <b>Published</b>\n${links.map((l) => esc(l)).join('\n')}`,
-    buttons: links.slice(0, 3).map((url, i) => ({ text: `Open ${dates[i]}`, url })),
+    buttons: links.slice(0, 3).map((url, i) => ({ text: `Open ${publicationDate(newsDates[i]!)}`, url })),
   };
 }
 
@@ -163,6 +171,7 @@ function readPrInfo(dir: string, prUrl: string, imageUrl: string): PrInfo {
     vetoMode: process.env.VETO_MODE || 'window',
     publishHourUTC: Number(process.env.PUBLISH_HOUR_UTC || 19),
     offset: Number(process.env.REVIEWER_UTC_OFFSET || -5),
+    siteUrl: process.env.SITE_URL || 'https://slopper.logicos.org',
   };
 }
 

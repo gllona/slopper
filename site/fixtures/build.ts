@@ -3,7 +3,7 @@ import { join } from 'node:path';
 import { buildScene, writeBuild } from '../../harness/index.ts';
 import { HARNESS_VERSION } from '../../pipeline/schemas/scene.ts';
 import { DaySchema } from '../../pipeline/schemas/day.ts';
-import { datePath } from '../../pipeline/util/dates.ts';
+import { datePath, publicationDate } from '../../pipeline/util/dates.ts';
 import { loadConfig } from '../../pipeline/util/config.ts';
 import { slopperNumber } from '../../pipeline/util/numbering.ts';
 
@@ -22,7 +22,7 @@ const config = loadConfig({ loadDotEnv: true });
 for (const d of spec.days) {
   const scene = JSON.parse(readFileSync(`harness/fixtures/${d.scene}.json`, 'utf8'));
   const number = slopperNumber(d.date, spec.launchDate);
-  const result = await buildScene(scene, { ...config, filmstripFrames: config.animation.filmstripFrames }, { motto: d.motto, phrase: d.phrase, number, date: d.date });
+  const result = await buildScene(scene, { ...config, filmstripFrames: config.animation.filmstripFrames }, { motto: d.motto, phrase: d.phrase, number, date: publicationDate(d.date) });
   if (!result.lint.ok) throw new Error(`${d.scene}: ${result.lint.errors.join('; ')}`);
   const dir = join(OUT, datePath(d.date));
   mkdirSync(dir, { recursive: true });

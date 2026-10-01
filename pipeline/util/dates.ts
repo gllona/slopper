@@ -55,6 +55,15 @@ export function datePath(date: IsoDate): string {
   return date.replaceAll('-', '/');
 }
 
+/**
+ * The day a slopper is published: the day after the news day it covers (generated and published on D+1;
+ * the 19:00 UTC deadline is the same calendar day in UTC and in UTC-5). Public URLs and the dates visitors
+ * read use this day (DESIGN decision 43); the archive folder, day.json, and branches keep the news day.
+ */
+export function publicationDate(newsDate: IsoDate): IsoDate {
+  return addDays(newsDate, 1);
+}
+
 /** "27 September 2026" — the human format used on the site. */
 export function formatLong(date: IsoDate): string {
   return startOfDay(date).toLocaleDateString('en-GB', {

@@ -233,6 +233,11 @@ main {
 .meta a {
   color: inherit;
 }
+.news {
+  margin: 0.2rem 0 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
 
 .sources {
   margin: 1.6rem auto 0;

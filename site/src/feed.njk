@@ -17,7 +17,7 @@ eleventyExcludeFromCollections: true
     <title>{{ s.motto }}{% if s.number %} (Slopper #{{ s.number }}){% endif %}</title>
     <link href="{{ s.url | absolute }}" rel="alternate" type="text/html"/>
     <id>{{ s.url | absolute }}</id>
-    <published>{{ s.date }}T00:00:00Z</published>
+    <published>{{ s.publishedOn }}T19:00:00Z</published>
     <updated>{{ s.generatedAt }}</updated>
     <summary>{{ s.phrase }}</summary>
     <content type="html">{% filter escape %}<p><a href="{{ s.url | absolute }}"><img src="{{ (s.url + ('still.png' if s.files['still.png'] else 'slopper.svg')) | absolute }}" width="540" height="540" alt="{{ s.alt }}"></a></p><p>{{ s.phrase }}</p>{% endfilter %}</content>
