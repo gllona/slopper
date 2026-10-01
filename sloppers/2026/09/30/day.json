@@ -1,0 +1,223 @@
+{
+  "date": "2026-09-30",
+  "number": 1,
+  "mode": "fresh",
+  "motto": "Self-Policing Season",
+  "phrase": "The AI companies promised to police themselves on safety. They were so eager that they misspelled the name of the country they promised it to.",
+  "phraseAlternatives": [
+    "Dozens of AI companies promised to watch themselves closely. They watched so closely they misspelled their own country's name.",
+    "A new AI safety deal has no law and no deadline, just one typo in the country's name.",
+    "Tech leaders signed a pledge to grade their own AI safety homework. The homework already has a spelling mistake.",
+    "The government let AI companies police themselves. The first thing they got wrong was the country's name."
+  ],
+  "alt": "Two blueprint-style robots stand well apart and link their inner pinky fingers over a small desk between them. Above, a tall pledge document reads PLEDGE, then UNITED and ZTATES, with ZTATES glowing in bright yellow to show the misspelling.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 2,
+    "labor": 1,
+    "policy": 3,
+    "law": 2,
+    "safety": 3,
+    "society": 2,
+    "education": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "ai-safety-self-policing",
+    "frontier-model-race",
+    "openai-hack-fallout",
+    "openai-ipo-safety",
+    "personal-ai-agent-battle",
+    "ai-and-expertise-trust"
+  ],
+  "topStories": [
+    {
+      "title": "Dozens of AI firms sign voluntary AI safety pledge with the government; the signed document misspells the country's name",
+      "itemIds": [
+        "feeds:15e2cb3e524d",
+        "feeds:ea140bb07c0d",
+        "feeds:e9f96e9a4b8f",
+        "feeds:7e8ad45192e9",
+        "feeds:3e7d0c522a1c",
+        "hackernews:a2e0a1f2a0ca"
+      ],
+      "dimensions": [
+        "policy",
+        "safety"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-safety-self-policing"
+    },
+    {
+      "title": "A big lab releases its most capable model yet, but restricts early access to select users",
+      "itemIds": [
+        "feeds:ef44f858e464",
+        "feeds:016aec861549",
+        "feeds:5812e4a50e9b",
+        "hackernews:8a18dee8ca8f",
+        "hackernews:d493892e40d2"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "A frontier lab keeps dealing with fallout from a hack by its own agents; a nonprofit sues over unsafe development",
+      "itemIds": [
+        "feeds:9eeb8fbd33a8",
+        "feeds:d0e1658413df"
+      ],
+      "dimensions": [
+        "safety",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "openai-hack-fallout"
+    },
+    {
+      "title": "A major AI company's CEO says it won't go public until its models are 'safe,' seeking billions more privately instead",
+      "itemIds": [
+        "feeds:88381ea19588",
+        "feeds:7731340c2c3a"
+      ],
+      "dimensions": [
+        "industry",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "openai-ipo-safety"
+    },
+    {
+      "title": "Two tech giants' personal AI agents compete for your phone, amid a dispute over one reading private messages",
+      "itemIds": [
+        "feeds:48124d1d2353",
+        "feeds:a6c1c9d7bacf",
+        "feeds:da295cba9487",
+        "feeds:afbc17700e93",
+        "hackernews:28aed8cfa03a"
+      ],
+      "dimensions": [
+        "society",
+        "industry",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "personal-ai-agent-battle"
+    },
+    {
+      "title": "A public figure claims AI backs his views against medical consensus; it does not",
+      "itemIds": [
+        "feeds:401790562c9b"
+      ],
+      "dimensions": [
+        "society",
+        "policy",
+        "science"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "ai-and-expertise-trust"
+    }
+  ],
+  "brief": {
+    "concept": "Two robot executives seal a voluntary AI safety pledge with a pinky-swear, while the formal document behind them has a glaring typo.",
+    "metaphor": "A solemn oath reduced to a children's pinky-swear, undercut by a careless misspelling on the official paperwork.",
+    "cast": [
+      "a robot in a suit",
+      "a second robot in a suit",
+      "a pledge document",
+      "a small government building icon"
+    ],
+    "style": "blueprint",
+    "composition": "Centered: two suited robot figures facing each other, linking pinky fingers over a desk. Behind them, a large upright document with bold header text, one word circled in a yellow highlight showing a misspelling. A tiny government-building icon sits small in the background corner. Clean white linework on blueprint-blue grid, deadpan and symmetrical.",
+    "artType": "static",
+    "alt": "Two suited robot figures link pinky fingers over a desk. Behind them stands a signed pledge document with one word circled in yellow, misspelled as 'UNITED ZTATES'."
+  },
+  "sources": [
+    {
+      "id": "feeds:15e2cb3e524d",
+      "title": "Trump plan to combat AI risks hinges on Big Tech pals policing themselves",
+      "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-09-30T18:47:01.000Z"
+    },
+    {
+      "id": "feeds:ea140bb07c0d",
+      "title": "Here’s what AI leaders are saying about Trump’s new safety plan",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-09-30T17:15:49.000Z"
+    },
+    {
+      "id": "feeds:e9f96e9a4b8f",
+      "title": "Here’s how tech leaders will self-police AI safety under Trump’s deal",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002584/trump-us-ai-safety-deal-self-regulation-tech-execs",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-09-30T12:24:32.000Z"
+    },
+    {
+      "id": "feeds:7e8ad45192e9",
+      "title": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear",
+      "url": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-09-30T20:30:09.000Z"
+    },
+    {
+      "id": "feeds:3e7d0c522a1c",
+      "title": "Three takeaways from Trump's 'Super Intelligence' summit",
+      "url": "https://www.bbc.co.uk/news/articles/cme30dz5vkzko?at_medium=RSS&at_campaign=rss",
+      "source": "feeds",
+      "publisher": "BBC News",
+      "publishedAt": "2026-09-30T04:01:52.000Z"
+    },
+    {
+      "id": "hackernews:a2e0a1f2a0ca",
+      "title": "Pledge signed by President Trump and top AI leaders misspells the United States",
+      "url": "https://techcrunch.com/2026/09/30/pledge-signed-by-president-trump-and-top-ai-leaders-misspells-the-united-states/",
+      "source": "hackernews",
+      "publisher": "techcrunch.com",
+      "publishedAt": "2026-09-30T15:04:33.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.86,
+    "iterations": 2
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "1.2.1.1",
+    "ontology": "1",
+    "rubricArt": "1",
+    "rubricCop": "1",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-01T11:22:29.414Z"
+}

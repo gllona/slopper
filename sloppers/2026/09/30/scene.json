@@ -1,0 +1,128 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {},
+  "elements": [
+    {
+      "id": "building",
+      "component": "raw",
+      "at": {
+        "x": 0.12,
+        "y": 0.1
+      },
+      "scale": 1,
+      "props": {
+        "width": 120,
+        "height": 100
+      },
+      "svg": "<polygon points=\"10,40 60,5 110,40\" class=\"r-line\"/><rect x=\"15\" y=\"40\" width=\"90\" height=\"50\" class=\"r-thin\"/><line x1=\"30\" y1=\"45\" x2=\"30\" y2=\"90\" class=\"r-line\"/><line x1=\"60\" y1=\"45\" x2=\"60\" y2=\"90\" class=\"r-line\"/><line x1=\"90\" y1=\"45\" x2=\"90\" y2=\"90\" class=\"r-line\"/>"
+    },
+    {
+      "id": "doc",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.27
+      },
+      "scale": 1,
+      "props": {
+        "width": 400,
+        "height": 420
+      },
+      "svg": "<rect x=\"10\" y=\"10\" width=\"380\" height=\"400\" rx=\"6\" class=\"r-body\"/><rect x=\"30\" y=\"30\" width=\"340\" height=\"340\" class=\"r-thin\"/><line x1=\"60\" y1=\"140\" x2=\"340\" y2=\"140\" class=\"r-line\"/><ellipse cx=\"200\" cy=\"330\" rx=\"165\" ry=\"48\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "label-pledge",
+      "component": "label",
+      "at": {
+        "x": 0.5,
+        "y": 0.1496
+      },
+      "scale": 1,
+      "props": {
+        "text": "PLEDGE",
+        "size": "lg",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "label-united",
+      "component": "label",
+      "at": {
+        "x": 0.5,
+        "y": 0.2885
+      },
+      "scale": 1,
+      "props": {
+        "text": "UNITED",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "label-ztates",
+      "component": "label",
+      "at": {
+        "x": 0.5,
+        "y": 0.3811
+      },
+      "scale": 1,
+      "props": {
+        "text": "ZTATES",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "desk",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.6359
+      },
+      "scale": 1,
+      "props": {
+        "width": 300,
+        "height": 200
+      },
+      "svg": "<rect x=\"20\" y=\"30\" width=\"260\" height=\"24\" rx=\"4\" class=\"r-body\"/><line x1=\"60\" y1=\"54\" x2=\"60\" y2=\"200\" class=\"r-line\"/><line x1=\"240\" y1=\"54\" x2=\"240\" y2=\"200\" class=\"r-line\"/><line x1=\"20\" y1=\"200\" x2=\"280\" y2=\"200\" class=\"r-thin\"/>"
+    },
+    {
+      "id": "robot-left",
+      "component": "robot",
+      "at": "left-third",
+      "offset": [
+        -70,
+        0
+      ],
+      "scale": 0.85,
+      "props": {
+        "mood": "proud",
+        "arms": "out",
+        "color": "body",
+        "antenna": true
+      }
+    },
+    {
+      "id": "robot-right",
+      "component": "robot",
+      "at": "right-third",
+      "offset": [
+        70,
+        0
+      ],
+      "scale": 0.85,
+      "flip": true,
+      "props": {
+        "mood": "proud",
+        "arms": "out",
+        "color": "body",
+        "antenna": true
+      }
+    }
+  ],
+  "alt": "Two blueprint-style robots stand well apart and link their inner pinky fingers over a small desk between them. Above, a tall pledge document reads PLEDGE, then UNITED and ZTATES, with ZTATES glowing in bright yellow to show the misspelling."
+}
