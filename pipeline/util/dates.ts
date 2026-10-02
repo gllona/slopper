@@ -64,6 +64,19 @@ export function publicationDate(newsDate: IsoDate): IsoDate {
   return addDays(newsDate, 1);
 }
 
+/** "2 Oct 2026" (or "1 Oct" without the year) — short form for PR titles and notifications. */
+export function formatShort(date: IsoDate, withYear = true): string {
+  return startOfDay(date).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', ...(withYear ? { year: 'numeric' } : {}), timeZone: 'UTC' });
+}
+
+/**
+ * "Slopper #2 — 2 Oct 2026 — Policing The Police (news of 1 Oct)": leads with the publication date (the day
+ * Gorka reviews and it goes live), then the news day. Branches, folders, and tags keep the news date.
+ */
+export function slopperTitle(number: number | null, newsDate: IsoDate, motto: string): string {
+  return `Slopper${number ? ` #${number}` : ''} — ${formatShort(publicationDate(newsDate))} — ${motto} (news of ${formatShort(newsDate, false)})`;
+}
+
 /** "27 September 2026" — the human format used on the site. */
 export function formatLong(date: IsoDate): string {
   return startOfDay(date).toLocaleDateString('en-GB', {

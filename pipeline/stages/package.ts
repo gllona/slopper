@@ -8,6 +8,7 @@ import type { Digest } from '../schemas/digest.ts';
 import { HARNESS_VERSION } from '../schemas/scene.ts';
 import type { StorylinesFile } from '../schemas/storylines.ts';
 import type { ArtAttempt } from './art.ts';
+import { slopperTitle } from '../util/dates.ts';
 
 /** Stage 5 — Package (DESIGN §5): final day.json, critic.json, cop.json, storylines snapshot, PR body. */
 
@@ -64,7 +65,7 @@ export function prLabels(day: Day, dryRun: boolean): string[] {
 }
 
 export function prTitle(day: Day): string {
-  return `Slopper${day.number ? ` #${day.number}` : ''} — ${day.date} — ${day.motto}`;
+  return slopperTitle(day.number, day.date, day.motto);
 }
 
 /** Markdown body for the daily PR (M6 opens it; locally it is just a readable summary). */

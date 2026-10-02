@@ -163,7 +163,7 @@ Generation starts at **11:07 UTC** (with backups at 13:07 and 15:07) and produce
 | UTC | Gorka (UTC-5) | What happens |
 |---|---|---|
 | 11:07 | 06:07 | `generate.yml` first try (fetch → create → open PR); backups at 13:07 and 15:07 UTC run only if no PR exists yet for the date (GitHub cron can start hours late) |
-| ~11:20 (or later) | ~06:20 | PR `Slopper #N — date — motto` appears; Telegram + GitHub Mobile notify Gorka |
+| ~11:20 (or later) | ~06:20 | PR `Slopper #N — <publication date> — <motto> (news of <news date>)` appears; Telegram + GitHub Mobile notify Gorka |
 | 17:00 | 12:00 | Gorka reviews |
 | **19:00** | **14:00** | **Veto deadline** (`PUBLISH_HOUR_UTC`); the next hourly `publish.yml` run (at :05) publishes eligible PRs |
 
@@ -221,7 +221,7 @@ Legal-risk review of the phrase, motto, alt text, stills, SVG source text, and s
 
 - Generate `og.png` (1200×630): the square art on a branded background with the motto and phrase beside it.
 - Write final `day.json`, `critic.json`, `cop.json`.
-- Commit everything to branch `slopper/YYYY-MM-DD` and open a PR titled `Slopper #N — YYYY-MM-DD — <motto>`.
+- Commit everything to branch `slopper/YYYY-MM-DD` and open a PR titled `Slopper #N — <publication date> — <motto> (news of <news date>)`, e.g. `Slopper #2 — 2 Oct 2026 — Policing The Police (news of 1 Oct)`. The branch stays `slopper/<news date>`.
 - The PR body shows the still image, the phrase, the mode, critic scores, the Cop verdict, and the sources.
 
 ### Stage 6 — Publish (deterministic, separate workflow)
@@ -949,7 +949,7 @@ A small GitHub App owned by Gorka, installed **only** on `gllona/slopper`, with 
 
 ### 17.1 Every day (about 1 minute)
 
-Around **15:30–16:00 UTC (10:30–11:00 your time)** a PR appears: **`Slopper #N — YYYY-MM-DD — <motto>`**. Your phone gets a **Telegram** message (still image, motto, phrase, critic and Cop results, your deadline, an "Open PR" button) and a **GitHub Mobile** push (the bot requests your review). Approve or veto by adding the label in GitHub Mobile. Failures and publications are also sent to Telegram. The PR body shows the still, the phrase, critic scores, the Cop verdict, and sources.
+Around **11:20 UTC (06:20 your time)**, started on time by the `slopper-clock` Worker, a PR appears: **`Slopper #N — 2 Oct 2026 — <motto> (news of 1 Oct)`**. Your phone gets a **Telegram** message (still image, motto, phrase, critic and Cop results, your deadline, an "Open PR" button) and a **GitHub Mobile** push (the bot requests your review). Approve or veto by adding the label in GitHub Mobile. Failures and publications are also sent to Telegram. The PR body shows the still, the phrase, critic scores, the Cop verdict, and sources.
 
 Your options:
 
