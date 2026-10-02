@@ -4,7 +4,7 @@ import { parseArgs } from 'node:util';
 import { CopFileSchema } from '../schemas/cop.ts';
 import { CriticFileSchema } from '../schemas/critic.ts';
 import { DaySchema, type Day } from '../schemas/day.ts';
-import { datePath, publicationDate } from '../util/dates.ts';
+import { datePath, publicationDate, slopperTitle } from '../util/dates.ts';
 
 /**
  * Telegram notifications (outbound only: no endpoint, no webhook). Gorka taps a link button to open the PR in
@@ -74,7 +74,7 @@ export function publicUrl(siteUrl: string, newsDate: string): string {
 
 export function prMessage(p: PrInfo): TelegramMessage {
   const d = p.day;
-  const title = `Slopper${d.number ? ` #${d.number}` : ''} — ${d.date}`;
+  const title = slopperTitle(d.number, d.date, d.motto);
   const dry = p.labels.includes('dry-run');
   const blocked = p.labels.includes('cop-hold') || p.labels.includes('critic-fail');
   let when: string;
@@ -85,7 +85,6 @@ export function prMessage(p: PrInfo): TelegramMessage {
   else when = `⏰ Publishes after <b>${localTime(p.publishHourUTC, p.offset)}</b> unless you add <b>veto</b>. Add <b>approved</b> to publish now.`;
   const lines = [
     `🎨 <b>${esc(title)}</b>`,
-    `<b>${esc(d.motto)}</b>`,
     `<i>${esc(d.phrase)}</i>`,
     '',
     `${d.mode === 'fresh' ? 'Fresh' : 'Continuation'} · ${esc(d.style)} · ${d.artType}`,

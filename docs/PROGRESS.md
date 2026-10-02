@@ -18,14 +18,26 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 
 ## Waiting for Gorka
 
-1. Commit + merge `feat/instagram`. The next publish run deploys `/latest.json` and `still.jpg`; within 15 minutes
-   the Worker posts the latest slopper to @sloppertoday and Telegram says "📸 On Instagram".
-2. iLands.ai: deferred until Instagram works.
+1. iLands.ai research (unblocked: Instagram works) or M9 (weekly lessons job): Gorka's choice.
 3. Optional: enable **Cloudflare Web Analytics**.
 
 ---
 
+## After launch: fixes
+
+- 2026-10-02: after a `regenerate`, the Telegram message (and the PR description) showed the **previous**
+  attempt's image: both used `…/raw/slopper/<date>/…/still.png`, the same URL for the same branch name, and
+  Telegram caches photos by URL. The images in the two commits differed (checked by hash). Fix: image links use
+  the commit id (`…/raw/<sha>/…`), unique per run.
+- 2026-10-02: PR titles read as the wrong day (news date "2026-10-01" on the day of review, Oct 2). Titles in PRs,
+  commits, and Telegram now lead with the publication date: "Slopper #2 — 2 Oct 2026 — Policing The Police (news
+  of 1 Oct)". Branches, folders, and tags keep the news date (they are keys for the publisher and regenerate).
+  The skipped "regenerate" lines in PR checks are left as they are (Gorka's choice).
+
 ## After launch: Instagram (decision 44)
+
+- **2026-10-02 03:16 UTC: Slopper #1 posted to @sloppertoday** on the first try, 11 minutes after the site deploy;
+  Telegram "📸 On Instagram" received. Confirmed by Gorka.
 
 - Research (2026-10-01): Instagram API free, no App Review for your own account (Development mode + Instagram
   Tester), JPEG only, square OK, 100 posts/24 h. TikTok: private-only until audited. X: no free tier since

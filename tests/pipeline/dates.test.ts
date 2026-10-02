@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { addDays, datePath, dayWindow, daysBetween, formatLong, isIsoDate, publicationDate, slopperDateFor } from '../../pipeline/util/dates.ts';
+import { addDays, datePath, dayWindow, daysBetween, formatLong, isIsoDate, publicationDate, slopperDateFor, slopperTitle } from '../../pipeline/util/dates.ts';
 import { slopperNumber } from '../../pipeline/util/numbering.ts';
 
 describe('dates (UTC only)', () => {
@@ -25,6 +25,10 @@ describe('dates (UTC only)', () => {
     expect(publicationDate('2026-09-30')).toBe('2026-10-01');
     expect(publicationDate('2026-12-31')).toBe('2027-01-01');
     expect(publicationDate('2028-02-28')).toBe('2028-02-29');
+  });
+  it('PR and notification titles lead with the publication date, then the news day', () => {
+    expect(slopperTitle(2, '2026-10-01', 'Policing The Police')).toBe('Slopper #2 — 2 Oct 2026 — Policing The Police (news of 1 Oct)');
+    expect(slopperTitle(null, '2026-12-31', 'Year End')).toBe('Slopper — 1 Jan 2027 — Year End (news of 31 Dec)');
   });
   it('formats paths and long dates', () => {
     expect(datePath('2026-09-07')).toBe('2026/09/07');

@@ -34,6 +34,9 @@ const info = (over: Partial<PrInfo> = {}): PrInfo => ({
 });
 
 describe('telegram messages', () => {
+  it('the title leads with the publication date', () => {
+    expect(prMessage(info()).text.split('\n')[0]).toBe('🎨 <b>Slopper — 27 Sept 2026 — Out Of The Sandbox (news of 26 Sept)</b>');
+  });
   it('escapes AI-written text for HTML mode', () => {
     expect(esc('<b>&')).toBe('&lt;b&gt;&amp;');
     const m = prMessage(info());
