@@ -1,14 +1,15 @@
 # Cloudflare Pages headers (DESIGN §12.5). More specific rules detach (!) generic headers first,
 # because Cloudflare merges every matching rule.
 
-# HSTS: HTTPS on slopper.logicos.org confirmed 2026-09-27. Short max-age first; raise to 31536000 after launch.
+# HSTS: HTTPS confirmed 2026-09-27; raised to one year after the launch (2026-10-01). Only this host: no
+# includeSubDomains, so other logicos.org subdomains are not affected.
 /*
   Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self' https://static.cloudflareinsights.com; connect-src 'self' https://cloudflareinsights.com; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
   Cache-Control: public, max-age=300
-  Strict-Transport-Security: max-age=300
+  Strict-Transport-Security: max-age=31536000
 
 # The same deployment is served on the pages.dev hostname: keep it out of search engines.
 https://slopper-coh.pages.dev/*
