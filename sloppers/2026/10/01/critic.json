@@ -1,0 +1,102 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"right-bot\" (robot) was moved 58 px, 0 px to stay inside the artboard",
+          "\"right-bot\" extends outside the safe area in the final frame (x 1…596, y 388…948)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 1,
+          "style": 2,
+          "polish": 1,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "Fails: the two robots collide into one tangled mass that crosses the dividing line, the Records label is sliced in half by the divider, and the right robot clips the safe area — the \"separate tracks\" metaphor and basic readability both break down.",
+        "revisionNotes": [
+          "The two robots are overlapping into a single blob instead of sitting on opposite sides of the divider — move left-bot fully into left-third and right-bot fully into right-third per the brief, no crossing the line.",
+          "The 'Records' label is bisected by the divider line and reads as 'Recorus' — move records-box/label further left so it clears the divider with margin.",
+          "right-bot is clipped by the safe area per the lint warning; pull it back inside the 1080x1080 canvas and re-anchor to consoles left side at its intended scale 1.15.",
+          "clipboard floats disconnected above the robots with no visible hand holding it — reattach it directly to right-bot's arm/hand so the prop reads as held, not hovering.",
+          "Right robot's antenna and arm are tangled into the left robot's silhouette — separate the two figures with clear negative space so each side's action (walking away vs inspecting) is legible on its own.",
+          "Consoles sit empty on the right with no robot clearly working them — once right-bot is repositioned at the consoles, confirm its clipboard-holding arm faces the consoles, not the left robot."
+        ]
+      },
+      "average": 2.43,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"records-label\" (label) was moved 114 px, 0 px to stay inside the safe area",
+          "\"records-box\" extends outside the safe area in the final frame (x 18…120, y 659…727)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "Fresh palette and cast, but the robots' arms cross the divider and touch at center, undercutting the 'separate tracks' metaphor, while a floating disconnected box, mis-anchored label, and a clipboard fused into the console rack hurt clarity and polish. Needs revision before publishing.",
+        "revisionNotes": [
+          "Pull the left robot's arm back (shorten reach or scale arm 0.8) and nudge the 'records-box' offset right so it sits at the hand instead of floating isolated near the canvas edge; also move it inside the safe margin — it currently clips (x 18…120).",
+          "Reattach 'records-label' directly onto the box lid (side: top, offset near 0) instead of floating between hand and box, where it now reads like a speech bubble rather than a box tag.",
+          "The two robots' arms cross the divider and their hand-circles touch at center — this contradicts the brief's 'separate tracks, not causing each other' metaphor and looks like a rendering overlap. Set arms to 'down' or point them away from the divider.",
+          "Clipboard offset ([35,185]) drops it low enough to fuse with the console rack's top edge, so it reads as part of the server, not a held prop — reduce the offset to roughly [20,40] so it sits clearly in front of the right robot's torso.",
+          "Add the small government-building icon from the brief near the consoles — it's in the concept/alt text but absent from the rendered scene, weakening the 'regulators investigating' half of the joke.",
+          "Increase horizontal gap between left-bot and right-bot (or widen 'offset' on consoles) so the two halves feel more clearly separated, reinforcing the divider rather than undercutting it."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "Fails: the split-panel metaphor is undercut by a missing divider/door, a nearly-hidden records box, and an ambiguous speech-bubble-style label, leaving large dead space top and bottom — average falls below the 3.5 pass bar despite clean riso style and fresh palette.",
+        "revisionNotes": [
+          "Add the thin vertical divider line called for in the brief so the panel visibly splits into two tracks; right now the two groups just float with a big empty gap and read as separate thumbnails.",
+          "The records-box is almost entirely hidden behind left-bot's arm (only a sliver of red shows) — increase its offset/scale so the box and its folder line are clearly visible.",
+          "Swap the 'Records' tag for a flat rectangular label attached to the box top; the current pill/speech-bubble shape with a tail overlaps left-bot's head and reads like the robot is saying 'Records' rather than a box tag.",
+          "Add the door on the left side that the brief calls for, so it's clear left-bot is walking out rather than standing idle.",
+          "Both figure clusters sit in a narrow horizontal band with large dead space above and below — scale the cast up (left-bot to ~1.0, right-bot to ~1.05) and/or shift them to use more of the 1080 square.",
+          "Give left-bot a mid-stride pose (one leg forward) instead of neutral arms-down stance to sell 'quietly leaving' against right-bot's static inspection pose."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    }
+  ]
+}

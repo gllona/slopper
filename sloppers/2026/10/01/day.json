@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-01",
+  "number": 2,
+  "mode": "fresh",
+  "motto": "Policing The Police",
+  "phrase": "A company that promised to police itself just cut ties with three safety researchers over a records dispute. Regulators are separately investigating the industry over product risks.",
+  "phraseAlternatives": [
+    "A lab lost three safety researchers in a records dispute. A regulator is separately reviewing the industry's product risks.",
+    "The company that pledged to police itself just has three fewer safety researchers, over a dispute about records.",
+    "A safety team got smaller after a records dispute. Elsewhere, a government review of the industry's products goes on.",
+    "Three safety researchers are gone over a records dispute. The industry's self-policing pledge stayed the same size."
+  ],
+  "alt": "A cream background split by a thin vertical line. On the left, a robot carries a box labeled Records away from the divider toward unseen exit. On the right, clearly separated and fully on its own side, a taller robot holds a clipboard beside a row of three consoles with status lights.",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 1,
+    "policy": 3,
+    "law": 2,
+    "safety": 3,
+    "society": 2,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "ai-safety-self-policing",
+    "ai-datacenter-tax-shelter",
+    "ai-advisors-to-power",
+    "ai-price-discrimination",
+    "algorithmic-bias-ratings",
+    "ai-search-antitrust"
+  ],
+  "topStories": [
+    {
+      "title": "A lab cuts ties with safety researchers over a records dispute, as a regulator separately probes AI product risks",
+      "itemIds": [
+        "feeds:60ae302e794b",
+        "hackernews:83b3b1c9f6b9",
+        "feeds:5fee57f904d9"
+      ],
+      "dimensions": [
+        "safety",
+        "policy",
+        "law",
+        "labor"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "ai-safety-self-policing"
+    },
+    {
+      "title": "A social network's AI data centers help it avoid billions in federal taxes",
+      "itemIds": [
+        "hackernews:48e3f6633b5d"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-datacenter-tax-shelter"
+    },
+    {
+      "title": "A chatbot reportedly advised a government before a military action against a neighboring country's leader",
+      "itemIds": [
+        "feeds:fd0285610cdb"
+      ],
+      "dimensions": [
+        "policy",
+        "safety"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-advisors-to-power"
+    },
+    {
+      "title": "A fast-food chain's AI prices the same item differently depending on the neighborhood's wealth",
+      "itemIds": [
+        "hackernews:6cbeb818c5f3"
+      ],
+      "dimensions": [
+        "society",
+        "industry",
+        "labor"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-price-discrimination"
+    },
+    {
+      "title": "A study finds AI evaluators give men without degrees the lowest ratings in hiring, credit, and rental tests",
+      "itemIds": [
+        "arxiv:f5404e1d41af"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "algorithmic-bias-ratings"
+    },
+    {
+      "title": "Antitrust lawsuits over AI search summaries are dismissed by a federal judge",
+      "itemIds": [
+        "feeds:784c7518aa78",
+        "feeds:f4c48cd1f4da",
+        "hackernews:6a9142be6b2f"
+      ],
+      "dimensions": [
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-search-antitrust"
+    }
+  ],
+  "brief": {
+    "concept": "A robot in a lab coat carries a box of folders labeled records out through a door on one side of a dividing line, while on the other side a taller official robot with a clipboard inspects a row of consoles.",
+    "metaphor": "Internal housekeeping and outside oversight happening on separate tracks, not one causing the other.",
+    "cast": [
+      "a robot wearing a lab coat, carrying a box of folders",
+      "a taller official robot holding a clipboard",
+      "a row of consoles with status lights",
+      "a small government building icon in the background"
+    ],
+    "style": "riso-duotone",
+    "composition": "A thin vertical divider splits the panel. Left half: a robot in a lab coat walks toward a door carrying a box labeled 'records', neutral expression, not looking back. Right half: a taller robot with a clipboard inspects a row of three consoles with status lights, a small government-building icon in the far corner. Warm cream background, flat shapes in blue and fluorescent pink ink only, thick friendly outlines.",
+    "artType": "static",
+    "alt": "A robot in a lab coat carries a box labeled records out a door on one side of a dividing line. On the other side, a taller robot with a clipboard inspects a row of consoles below a small government building icon."
+  },
+  "sources": [
+    {
+      "id": "feeds:60ae302e794b",
+      "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
+      "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-01T18:14:42.000Z"
+    },
+    {
+      "id": "hackernews:83b3b1c9f6b9",
+      "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+      "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+      "source": "hackernews",
+      "publisher": "cnbc.com",
+      "publishedAt": "2026-10-01T13:00:55.000Z"
+    },
+    {
+      "id": "feeds:5fee57f904d9",
+      "title": "Whatever AI Safety Is, It’s Not This",
+      "url": "https://www.wired.com/story/whatever-ai-safety-looks-like-its-not-this/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-10-01T22:10:42.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.29,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "1.2.1.1",
+    "ontology": "1",
+    "rubricArt": "1",
+    "rubricCop": "1",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-02T15:59:29.002Z"
+}

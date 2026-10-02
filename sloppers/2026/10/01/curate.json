@@ -1,0 +1,205 @@
+{
+  "topStories": [
+    {
+      "title": "A lab cuts ties with safety researchers over a records dispute, as a regulator separately probes AI product risks",
+      "itemIds": [
+        "feeds:60ae302e794b",
+        "hackernews:83b3b1c9f6b9",
+        "feeds:5fee57f904d9"
+      ],
+      "dimensions": [
+        "safety",
+        "policy",
+        "law",
+        "labor"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "ai-safety-self-policing"
+    },
+    {
+      "title": "A social network's AI data centers help it avoid billions in federal taxes",
+      "itemIds": [
+        "hackernews:48e3f6633b5d"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-datacenter-tax-shelter"
+    },
+    {
+      "title": "A chatbot reportedly advised a government before a military action against a neighboring country's leader",
+      "itemIds": [
+        "feeds:fd0285610cdb"
+      ],
+      "dimensions": [
+        "policy",
+        "safety"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-advisors-to-power"
+    },
+    {
+      "title": "A fast-food chain's AI prices the same item differently depending on the neighborhood's wealth",
+      "itemIds": [
+        "hackernews:6cbeb818c5f3"
+      ],
+      "dimensions": [
+        "society",
+        "industry",
+        "labor"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-price-discrimination"
+    },
+    {
+      "title": "A study finds AI evaluators give men without degrees the lowest ratings in hiring, credit, and rental tests",
+      "itemIds": [
+        "arxiv:f5404e1d41af"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "algorithmic-bias-ratings"
+    },
+    {
+      "title": "Antitrust lawsuits over AI search summaries are dismissed by a federal judge",
+      "itemIds": [
+        "feeds:784c7518aa78",
+        "feeds:f4c48cd1f4da",
+        "hackernews:6a9142be6b2f"
+      ],
+      "dimensions": [
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-search-antitrust"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-datacenter-tax-shelter",
+      "title": "The Datacenter Tax Shelter",
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet"
+      ],
+      "motifs": [
+        "a datacenter sitting on a pile of tax forms",
+        "a coin dropping into a server rack instead of a public till"
+      ]
+    },
+    {
+      "id": "ai-advisors-to-power",
+      "title": "AI as Advisor to Power",
+      "dimensions": [
+        "policy",
+        "safety"
+      ],
+      "motifs": [
+        "a robot whispering into an oversized ear",
+        "a world map with a cursor hovering over a border"
+      ]
+    },
+    {
+      "id": "ai-price-discrimination",
+      "title": "The Price the Algorithm Sees",
+      "dimensions": [
+        "society",
+        "industry",
+        "labor"
+      ],
+      "motifs": [
+        "a vending machine showing two different prices to two shoppers",
+        "a price tag changing as a scanner reads a neighborhood map"
+      ]
+    },
+    {
+      "id": "algorithmic-bias-ratings",
+      "title": "The Algorithm's Favorites",
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "motifs": [
+        "a robot judge handing out different grades from a hidden chart",
+        "a scale tipped unevenly by a resume icon"
+      ]
+    },
+    {
+      "id": "ai-search-antitrust",
+      "title": "The AI Search Antitrust Fight",
+      "dimensions": [
+        "law",
+        "industry"
+      ],
+      "motifs": [
+        "a gavel bouncing off a search bar",
+        "a dismissed stamp over a lawsuit folder"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Several top stories clear the relevance threshold of 8: a lab cutting ties with safety researchers over a records dispute amid a separate regulatory probe into AI product risks, a datacenter operator's tax-avoidance story, and a chatbot's reported role in a government's military decision each score 18.",
+  "motto": "Policing The Police",
+  "phrase": "A company that promised to police itself just cut ties with three safety researchers over a records dispute. Regulators are separately investigating the industry over product risks.",
+  "phraseAlternatives": [
+    "A lab lost three safety researchers in a records dispute. A regulator is separately reviewing the industry's product risks.",
+    "The company that pledged to police itself just has three fewer safety researchers, over a dispute about records.",
+    "A safety team got smaller after a records dispute. Elsewhere, a government review of the industry's products goes on.",
+    "Three safety researchers are gone over a records dispute. The industry's self-policing pledge stayed the same size."
+  ],
+  "brief": {
+    "concept": "A robot in a lab coat carries a box of folders labeled records out through a door on one side of a dividing line, while on the other side a taller official robot with a clipboard inspects a row of consoles.",
+    "metaphor": "Internal housekeeping and outside oversight happening on separate tracks, not one causing the other.",
+    "cast": [
+      "a robot wearing a lab coat, carrying a box of folders",
+      "a taller official robot holding a clipboard",
+      "a row of consoles with status lights",
+      "a small government building icon in the background"
+    ],
+    "style": "riso-duotone",
+    "composition": "A thin vertical divider splits the panel. Left half: a robot in a lab coat walks toward a door carrying a box labeled 'records', neutral expression, not looking back. Right half: a taller robot with a clipboard inspects a row of three consoles with status lights, a small government-building icon in the far corner. Warm cream background, flat shapes in blue and fluorescent pink ink only, thick friendly outlines.",
+    "artType": "static",
+    "alt": "A robot in a lab coat carries a box labeled records out a door on one side of a dividing line. On the other side, a taller robot with a clipboard inspects a row of consoles below a small government building icon."
+  },
+  "sourceIds": [
+    "feeds:60ae302e794b",
+    "hackernews:83b3b1c9f6b9",
+    "feeds:5fee57f904d9"
+  ],
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 1,
+    "policy": 3,
+    "law": 2,
+    "safety": 3,
+    "society": 2,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
