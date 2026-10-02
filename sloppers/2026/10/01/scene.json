@@ -1,0 +1,90 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {},
+  "elements": [
+    {
+      "id": "bot1",
+      "component": "robot",
+      "at": "left-third",
+      "scale": 1.3,
+      "props": {
+        "mood": "proud",
+        "arms": "down",
+        "color": "body",
+        "antenna": true
+      }
+    },
+    {
+      "id": "badge",
+      "component": "label",
+      "attachTo": "bot1",
+      "side": "center",
+      "offset": [
+        0,
+        -60
+      ],
+      "scale": 1,
+      "props": {
+        "text": "SELF POLICE",
+        "size": "md",
+        "kind": "tag",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "inspector",
+      "component": "raw",
+      "at": "top-right",
+      "scale": 1,
+      "rotate": -12,
+      "props": {
+        "width": 340,
+        "height": 260
+      },
+      "svg": "<polygon points=\"40,130 110,65 180,130\" class=\"r-body\"/><rect x=\"40\" y=\"130\" width=\"140\" height=\"90\" class=\"r-body\"/><rect x=\"58\" y=\"150\" width=\"12\" height=\"65\" class=\"r-ink\"/><rect x=\"104\" y=\"150\" width=\"12\" height=\"65\" class=\"r-ink\"/><rect x=\"150\" y=\"150\" width=\"12\" height=\"65\" class=\"r-ink\"/><rect x=\"30\" y=\"218\" width=\"160\" height=\"12\" class=\"r-ink\"/><circle cx=\"255\" cy=\"95\" r=\"50\" class=\"r-paper\"/><line x1=\"290\" y1=\"130\" x2=\"325\" y2=\"165\" class=\"r-line\" stroke-width=\"14\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "bot2",
+      "component": "robot",
+      "at": "right-third",
+      "scale": 0.55,
+      "props": {
+        "mood": "worried",
+        "arms": "out",
+        "color": "accent",
+        "antenna": false
+      }
+    },
+    {
+      "id": "box",
+      "component": "raw",
+      "attachTo": "bot2",
+      "side": "right",
+      "offset": [
+        -10,
+        -70
+      ],
+      "scale": 0.8,
+      "props": {
+        "width": 140,
+        "height": 110
+      },
+      "svg": "<rect x=\"10\" y=\"30\" width=\"120\" height=\"80\" class=\"r-accent\"/><line x1=\"10\" y1=\"30\" x2=\"70\" y2=\"5\" class=\"r-line\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"30\" x2=\"70\" y2=\"5\" class=\"r-line\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"70\" y1=\"30\" x2=\"70\" y2=\"110\" class=\"r-line\" stroke-width=\"6\"/>"
+    },
+    {
+      "id": "exit-label",
+      "component": "label",
+      "attachTo": "bot2",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "EXIT",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "A large robot stands proudly wearing a round pink badge that reads 'self police,' while a small government building off to the upper right holds a magnifying glass angled toward the badge. In a separate lower-right corner, a much smaller robot quietly walks away carrying a cardboard box, with an 'exit' label above it."
+}

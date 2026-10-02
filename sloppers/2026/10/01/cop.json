@@ -1,0 +1,28 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "\"The AI companies promised to police themselves on safety. One day later, regulators opened an investigation...\"",
+          "suggestion": "No source gives a date for the self-policing pledge, so the 'one day later' timing isn't established; the CNBC probe story even predates the Wired accord story. Replace with a vaguer, source-supported connector like 'around the same time' / 'soon after', or add a source with explicit dates for both events.",
+          "stage": "curate"
+        },
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "\"...regulators opened an investigation, and one company let go of three safety researchers.\"",
+          "suggestion": "The juxtaposition implies the firings were retaliation for the probe. The TechCrunch source instead says the researchers were let go after an internal probe found they mishandled sensitive info, unrelated to the FTC action. Rephrase to avoid implying causation, e.g. 'In an unrelated move, one company also let go of three safety researchers.'",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "pass",
+      "findings": []
+    }
+  ]
+}

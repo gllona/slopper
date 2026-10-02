@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"inspector\" extends outside the safe area in the final frame (x 705…1032, y 105…347)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The three-beat joke (proud badge, oversight, quiet exit) is legible and the small-robot/EXIT corner works well, but the magnifying glass isn't actually aimed at the badge, which blunts the central 'inspection' metaphor, and the inspector group sits outside the safe area per the lint warning. A marginal pass, worth a quick revision pass before publishing.",
+        "revisionNotes": [
+          "Rotate the inspector's magnifying glass so the lens is aimed down-left at bot1's badge, not off toward the top-right corner — right now it reads as scrutinizing nothing.",
+          "Pull the inspector group in from the edge (rotate/offset so it sits fully inside the safe margin) — lint flags it extending to x 705…1032, y 105…347.",
+          "Close the gap between bot2's right hand and the box (tighten offset so fingers touch the box edge) — currently they're adjacent but not connected, so it doesn't read as 'carrying'.",
+          "Nudge the badge pill down or shrink slightly so 'SELF POLICE' text has a hair more margin from the pill's edge and doesn't crowd the robot's collar seam.",
+          "Consider adding a short connecting cue (a dotted sightline or tilt) from the magnifying glass toward the badge to make the inspection beat land in under 3 seconds."
+        ]
+      },
+      "average": 3.57,
+      "passed": true
+    }
+  ]
+}

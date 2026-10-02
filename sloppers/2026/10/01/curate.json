@@ -1,0 +1,186 @@
+{
+  "topStories": [
+    {
+      "title": "Regulators and insiders turn on AI's self-policing promise",
+      "itemIds": [
+        "hackernews:83b3b1c9f6b9",
+        "feeds:60ae302e794b",
+        "feeds:5fee57f904d9",
+        "feeds:a82dbbb67173",
+        "gdelt:f091aa7f66db",
+        "gdelt:979e508b0dd2",
+        "gdelt:0badcee0c0b7"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "law",
+        "labor"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-safety-self-policing"
+    },
+    {
+      "title": "A chatbot's opinion sought before a head-of-state capture",
+      "itemIds": [
+        "feeds:fd0285610cdb"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-geopolitical-advisor"
+    },
+    {
+      "title": "Datacenter boom meets local and fiscal backlash",
+      "itemIds": [
+        "hackernews:48e3f6633b5d",
+        "gdelt:d36a6afbdc54",
+        "gdelt:b34e0c19a342",
+        "gdelt:796c653174d4",
+        "gdelt:9dad4cff1b0d",
+        "gdelt:287bd8c9bd67",
+        "feeds:318620576b23"
+      ],
+      "dimensions": [
+        "industry",
+        "planet",
+        "policy",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "data-center-backlash"
+    },
+    {
+      "title": "Everyone ships an agent, again",
+      "itemIds": [
+        "feeds:05a5e9a01073",
+        "feeds:700a306228b4",
+        "feeds:55b824c4e050",
+        "feeds:0beaa0880b73",
+        "feeds:c07058a5362d"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "personal-ai-agent-battle"
+    },
+    {
+      "title": "Central bank and credit market flag AI bubble risk",
+      "itemIds": [
+        "feeds:fcd9e0ea51ee",
+        "hackernews:9d2398f6ab47"
+      ],
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-bubble-watch"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-geopolitical-advisor",
+      "title": "AI Chatbots in the War Room",
+      "dimensions": [
+        "policy",
+        "safety",
+        "society"
+      ],
+      "motifs": [
+        "a chatbot speech bubble beside a world map with a pin",
+        "a robot whispering into the ear of a human leader figure",
+        "a red alert meter"
+      ]
+    },
+    {
+      "id": "data-center-backlash",
+      "title": "The Datacenter Backlash",
+      "dimensions": [
+        "industry",
+        "planet",
+        "policy",
+        "law"
+      ],
+      "motifs": [
+        "a datacenter with tiny protest signs outside its fence",
+        "a tax form being shredded by a robot hand",
+        "a power meter needle in the red zone"
+      ]
+    },
+    {
+      "id": "ai-bubble-watch",
+      "title": "Watching the AI Bubble",
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "motifs": [
+        "a balloon shaped like a computer chip about to pop",
+        "a stock chart line wobbling on a tightrope"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The top story — a regulator investigating AI companies' safety practices around the same time as their voluntary self-policing pledge, plus one of those companies separately letting go of three safety researchers — scores 3×3×2=18, well above the fresh threshold of 8.",
+  "motto": "Self-Policing, Interrupted",
+  "phrase": "The AI companies promised to police themselves on safety. Around the same time, regulators opened an investigation, and in an unrelated move, one company let go of three safety researchers.",
+  "phraseAlternatives": [
+    "A regulator began investigating AI companies around the same time they promised to police themselves.",
+    "One company quietly let go of three safety researchers, in a move it says was unrelated to any outside investigation.",
+    "AI companies said they would police themselves. Regulators, watching closely, decided to check anyway.",
+    "The self-policing pledge and the regulatory investigation are happening at the same time. That alone says something."
+  ],
+  "brief": {
+    "concept": "A robot proudly wears a badge that says it polices itself, while a government building holds a magnifying glass up to inspect it; in an unrelated corner of the scene, a smaller robot quietly walks out the door with a box.",
+    "metaphor": "Self-regulation is a badge that someone else decides to inspect, while separate, unrelated housekeeping happens off to the side.",
+    "cast": [
+      "a robot wearing a chest badge labeled SELF POLICE",
+      "a government building icon holding a large magnifying glass",
+      "a small robot walking away carrying a box",
+      "an EXIT label"
+    ],
+    "style": "riso-duotone",
+    "composition": "Center-left: a robot stands with chest out, wearing a round badge reading 'SELF POLICE'. Upper right: a small government-building icon holds a large magnifying glass angled down at the badge. Lower right corner, clearly separate and smaller scale: a second robot walks off-panel carrying a cardboard box, a small 'EXIT' label above it. Flat riso shapes in blue and fluorescent pink, thick outlines, cream paper texture.",
+    "artType": "static",
+    "alt": "A robot wears a badge reading 'self police' while a government building holds a large magnifying glass over it; in a separate corner, a smaller robot walks away carrying a box under an exit sign."
+  },
+  "sourceIds": [
+    "hackernews:83b3b1c9f6b9",
+    "feeds:60ae302e794b",
+    "feeds:5fee57f904d9",
+    "feeds:a82dbbb67173"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 3,
+    "law": 2,
+    "safety": 3,
+    "society": 2,
+    "education": 1,
+    "planet": 2,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
