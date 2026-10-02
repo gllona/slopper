@@ -1,0 +1,36 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"A company that promised to police itself just fired three of its own safety researchers.\" The only supporting source (TechCrunch, citing WSJ) says the company \"parted ways with three safety researchers after an internal investigation found they mishandled sensitive company information\" — it does not support framing this as retaliation against researchers for safety-policing work.",
+          "suggestion": "Revise the phrase to track the source's stated reason (a records/information-handling dispute) rather than implying the firings were punishment for safety oversight, e.g. 'A company that promised to police itself just cut ties with three safety researchers over a records dispute.'",
+          "stage": "curate"
+        },
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"Days later, regulators said they would check anyway.\" The FTC probe source (CNBC) is timestamped 2026-10-01T13:00:55Z, which is earlier the same day as the firing story (TechCrunch, 2026-10-01T18:14:42Z) — not 'days later' — and no source ties the FTC investigation to the firings as a reactive or follow-on event.",
+          "suggestion": "Remove the 'Days later...anyway' causal/sequential framing; state only what the sources support, e.g. 'Regulators are separately investigating the industry over product risks,' without implying the probe was a reaction to the firings.",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "pass",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "low",
+          "evidence": "phrase: \"cut ties with three safety researchers over a records dispute\" vs. source snippet: \"mishandled sensitive company information\"",
+          "suggestion": "Tighten the phrase to track the source language more closely, e.g. \"over mishandling company records,\" so the characterization of the dispute stays verifiably close to the reporting.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}

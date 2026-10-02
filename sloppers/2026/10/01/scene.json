@@ -1,0 +1,111 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {
+    "type": "solid",
+    "color": "bg"
+  },
+  "elements": [
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": "center",
+      "scale": 1,
+      "props": {
+        "width": 20,
+        "height": 960
+      },
+      "svg": "<line x1=\"10\" y1=\"0\" x2=\"10\" y2=\"960\" class=\"r-line\"/>"
+    },
+    {
+      "id": "left-bot",
+      "component": "robot",
+      "at": "left-third",
+      "scale": 0.85,
+      "props": {
+        "mood": "neutral",
+        "arms": "out",
+        "color": "body",
+        "antenna": false
+      }
+    },
+    {
+      "id": "records-box",
+      "component": "raw",
+      "attachTo": "left-bot",
+      "side": "left",
+      "offset": [
+        0,
+        28
+      ],
+      "scale": 0.85,
+      "props": {
+        "width": 140,
+        "height": 110
+      },
+      "svg": "<rect x=\"10\" y=\"20\" width=\"120\" height=\"80\" rx=\"10\" class=\"r-accent\"/><line x1=\"10\" y1=\"55\" x2=\"130\" y2=\"55\" class=\"r-line\"/>"
+    },
+    {
+      "id": "records-label",
+      "component": "label",
+      "attachTo": "records-box",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "Records",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    },
+    {
+      "id": "consoles",
+      "component": "datacenter",
+      "at": "right-third",
+      "offset": [
+        191,
+        0
+      ],
+      "scale": 0.64,
+      "props": {
+        "racks": 3,
+        "lights": "busy",
+        "steam": false,
+        "fans": false
+      }
+    },
+    {
+      "id": "right-bot",
+      "component": "robot",
+      "at": "right-third",
+      "offset": [
+        -47,
+        0
+      ],
+      "scale": 0.95,
+      "props": {
+        "mood": "neutral",
+        "arms": "out",
+        "color": "accent",
+        "antenna": true
+      }
+    },
+    {
+      "id": "clipboard",
+      "component": "raw",
+      "attachTo": "right-bot",
+      "side": "top",
+      "offset": [
+        35,
+        185
+      ],
+      "scale": 0.6,
+      "props": {
+        "width": 110,
+        "height": 130
+      },
+      "svg": "<rect x=\"10\" y=\"10\" width=\"90\" height=\"110\" rx=\"8\" class=\"r-body-alt\"/><rect x=\"35\" y=\"0\" width=\"40\" height=\"18\" rx=\"4\" class=\"r-ink\"/><line x1=\"25\" y1=\"45\" x2=\"95\" y2=\"45\" class=\"r-line\"/><line x1=\"25\" y1=\"68\" x2=\"95\" y2=\"68\" class=\"r-line\"/><line x1=\"25\" y1=\"91\" x2=\"95\" y2=\"91\" class=\"r-line\"/>"
+    }
+  ],
+  "alt": "A cream background split by a thin vertical line. On the left, a robot carries a box labeled Records away from the divider toward unseen exit. On the right, clearly separated and fully on its own side, a taller robot holds a clipboard beside a row of three consoles with status lights."
+}
