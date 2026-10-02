@@ -19,7 +19,7 @@ import { slopperNumber } from '../util/numbering.ts';
  */
 
 const REQUIRED = ['day.json', 'digest.json', 'scene.json', 'slopper.svg', 'still.png', 'og.png', 'critic.json', 'cop.json'];
-const OPTIONAL = ['filmstrip.png', 'curate.json', 'storylines.json', 'pr.md'];
+const OPTIONAL = ['filmstrip.png', 'still.jpg', 'curate.json', 'storylines.json', 'pr.md'];
 const MAX_PNG = 2_000_000;
 const MAX_JSON = 1_000_000;
 
@@ -63,6 +63,11 @@ export function verifyFolder(dir: string): string[] {
     if (removed.length) p(`slopper.svg fails the sanitizer re-check: ${removed.join('; ')}`);
   } catch (e) {
     p(`slopper.svg does not parse: ${(e as Error).message}`);
+  }
+  for (const f of files.filter((x) => x.endsWith('.jpg'))) {
+    const buf = readFileSync(join(dir, f));
+    if (buf.length > MAX_PNG) p(`${f} is larger than ${MAX_PNG} bytes`);
+    if (buf.subarray(0, 3).toString('hex') !== 'ffd8ff') p(`${f} is not a JPEG`);
   }
   for (const f of files.filter((x) => x.endsWith('.png'))) {
     const buf = readFileSync(join(dir, f));

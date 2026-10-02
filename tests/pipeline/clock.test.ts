@@ -2,7 +2,15 @@ import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import worker, { dispatch, SCHEDULE } from '../../infra/clock/src/index.ts';
 
-const env = { GITHUB_TOKEN: 'ghs_test', REPO: 'gllona/slopper' };
+const memory = new Map<string, string>();
+const env = {
+  GITHUB_TOKEN: 'ghs_test',
+  REPO: 'gllona/slopper',
+  IG_ACCESS_TOKEN: 'IGAA_test',
+  IG_USER_ID: '17841424224659685',
+  SITE_URL: 'https://slopper.logicos.org',
+  STATE: { get: async (k: string) => memory.get(k) ?? null, put: async (k: string, v: string) => void memory.set(k, v) },
+};
 
 describe('slopper-clock worker', () => {
   it('every cron in wrangler.toml has a job, and every job has a cron', () => {
@@ -10,6 +18,7 @@ describe('slopper-clock worker', () => {
     const crons = JSON.parse(/crons = (\[.*\])/.exec(toml)![1]!) as string[];
     expect(crons.sort()).toEqual(Object.keys(SCHEDULE).sort());
     expect(toml).toMatch(/workers_dev = false/);
+    expect(toml).toMatch(/binding = "STATE"/);
     expect(toml).not.toMatch(/^routes?\s*=/m);
   });
 

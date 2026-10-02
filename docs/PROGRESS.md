@@ -18,11 +18,27 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 
 ## Waiting for Gorka
 
-1. Commit + merge `feat/m8-launch` (README, HSTS one year, progress).
-2. Feedback on the daily sloppers (it feeds M9: the weekly lessons job).
+1. Commit + merge `feat/instagram`. The next publish run deploys `/latest.json` and `still.jpg`; within 15 minutes
+   the Worker posts the latest slopper to @sloppertoday and Telegram says "📸 On Instagram".
+2. iLands.ai: deferred until Instagram works.
 3. Optional: enable **Cloudflare Web Analytics**.
 
 ---
+
+## After launch: Instagram (decision 44)
+
+- Research (2026-10-01): Instagram API free, no App Review for your own account (Development mode + Instagram
+  Tester), JPEG only, square OK, 100 posts/24 h. TikTok: private-only until audited. X: no free tier since
+  2026-02-06. Gorka chose Instagram only; iLands.ai deferred.
+- Account `@sloppertoday` (Creator), avatar = riso robot from the harness, Meta app `1799884511141809` in
+  Development mode, Instagram user id `17841424224659685`. Tester invite only visible on the web
+  (instagram.com/accounts/manage_access → Tester invites), not in the phone app.
+- Code: `still.jpg` for every slopper (+ backfill for #1), `/latest.json` with the caption
+  (`pipeline/ops/caption.ts`, hashtags in `slopper.config.json`), Worker job `*/15` (`infra/clock/src/instagram.ts`):
+  container → wait for FINISHED → publish → permalink → KV `ig:last` → Telegram; max 3 tries; weekly token refresh
+  in KV; tokens redacted from every message. 9 tests with a fake Instagram API.
+- Deployed the Worker 2026-10-02 02:11 UTC (KV namespace `slopper-clock-state`). First tick: the token refresh
+  succeeded (`ig:token`, `ig:refreshedAt` written), so the credentials work; no post yet (`/latest.json` not live).
 
 ## M8 — Launch ✅
 

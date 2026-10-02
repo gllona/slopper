@@ -57,6 +57,7 @@ export function writeBuild(outDir: string, result: BuildResult): string[] {
   put('lint.json', JSON.stringify(result.lint, null, 2) + '\n');
   if (result.render) {
     put('still.png', result.render.still);
+    put('still.jpg', result.render.stillJpg);
     put('og.png', result.render.og);
     if (result.render.filmstrip) put('filmstrip.png', result.render.filmstrip);
   }

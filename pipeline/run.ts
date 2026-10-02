@@ -107,6 +107,7 @@ export async function runDay(opts: RunOptions): Promise<RunResult> {
     save('scene.json', a.scene);
     save('slopper.svg', a.build.svg);
     save('still.png', a.build.render!.still);
+    save('still.jpg', a.build.render!.stillJpg);
     save('og.png', a.build.render!.og);
     if (a.build.render!.filmstrip) save('filmstrip.png', a.build.render!.filmstrip);
     save('critic.json', c);

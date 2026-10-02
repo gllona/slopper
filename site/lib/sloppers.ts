@@ -17,7 +17,7 @@ import { datePath, formatLong, publicationDate } from '../../pipeline/util/dates
 export type SiteMode = 'build' | 'dev' | 'all';
 
 /** Public files copied next to each day page. Everything else stays in the repo only. */
-export const PUBLIC_FILES = ['slopper.svg', 'still.png', 'og.png'] as const;
+export const PUBLIC_FILES = ['slopper.svg', 'still.png', 'still.jpg', 'og.png'] as const;
 
 export interface SiteSlopper extends Day {
   /** Publication date (news date + 1), used in public URLs and shown to visitors: "2026-10-01". */

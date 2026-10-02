@@ -1,6 +1,6 @@
 # slopper-clock: starts the GitHub workflows on time (see src/index.ts). Deploy:
 #   npx wrangler deploy --config infra/clock/wrangler.toml
-# Secret (once): npx wrangler secret put GITHUB_TOKEN --config infra/clock/wrangler.toml
+# Secrets (once): npx wrangler secret put GITHUB_TOKEN | IG_ACCESS_TOKEN | TELEGRAM_BOT_TOKEN | TELEGRAM_CHAT_ID --config infra/clock/wrangler.toml
 name = "slopper-clock"
 main = "src/index.ts"
 compatibility_date = "2026-09-01"
@@ -9,10 +9,17 @@ workers_dev = false
 preview_urls = false
 
 [triggers]
-crons = ["7 11 * * *", "7 13 * * *", "5 * * * *"]
+crons = ["7 11 * * *", "7 13 * * *", "5 * * * *", "*/15 * * * *"]
 
 [vars]
 REPO = "gllona/slopper"
+SITE_URL = "https://slopper.logicos.org"
+IG_USER_ID = "17841424224659685"
+
+# Worker memory: last posted slopper, retry counts, refreshed Instagram token.
+[[kv_namespaces]]
+binding = "STATE"
+id = "3ebc720c110448b5ac1b590389c7bf7f"
 
 [observability]
 enabled = true
