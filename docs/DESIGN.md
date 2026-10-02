@@ -84,7 +84,7 @@ The quality bar and spirit are similar to Simon Willison's "pelican riding a bic
 
 - No user accounts, comments, likes, or any dynamic features.
 - No raster image-generation models (diffusion, etc.) in the daily loop.
-- No automatic posting to social media (possible later).
+- No automatic posting to social media other than Instagram (added after launch, decision 44).
 - No multilingual site.
 - No per-trend pages (planned for later; the data model supports them from day one).
 
@@ -556,6 +556,8 @@ Output `cop.json`: `{ verdict: "pass" | "revise" | "hold", findings: [{ check, s
 | `/YYYY/MM/DD/og.png` | Social preview (1200×630) |
 | `/today/` | Redirect (302) to latest canonical page, via `_redirects` |
 | `/archive/` | Grid of all sloppers (newest first), grouped by month |
+| `/latest.json` | The latest slopper and its Instagram caption (read by the `slopper-clock` Worker) |
+| `/YYYY/MM/DD/still.jpg` | The square still as JPEG (Instagram accepts only JPEG) |
 | `/about/` | What Slopper is, satire notice, license, takedown contact, privacy note |
 | `/feed.xml` | Atom feed (one entry per slopper, with image) |
 | `/sitemap.xml` | All pages |
@@ -714,7 +716,7 @@ slopper/
 │   └── storylines.json
 │
 ├── infra/
-│   └── clock/                     # slopper-clock Cloudflare Worker: starts generate/publish on time
+│   └── clock/                     # slopper-clock Worker: starts generate/publish on time; posts to Instagram
 │
 ├── harness/
 │   ├── compile.ts                 # scene.json → SVG
@@ -1239,6 +1241,7 @@ Build in this order. Each milestone ends with tests passing and a short demo.
 | 41 | Launch: `LAUNCH_DATE=2026-09-30`, so Slopper #1 (about 2026-09-30) is **published on 2026-10-01**, the first day of Q4, at the 19:00 UTC deadline. Changed on 2026-09-30 from `2026-10-01` (Gorka preferred the publication day to coincide with the quarter). |
 | 42 | **"Slop-art", not "art"** in everything visitors see (site pages, meta description and feed subtitle, default social image, README, `LICENSE-ART.md`, the `critic-fail` label). Many artists do not accept AI-made images as art; the name is also more satirical. Internal code names (`art.ts`, `artType`, the Art stage), prompts, and these docs keep "art" (Gorka's choice: public texts only). |
 | 43 | **Public URLs use the publication date** (news date + 1): a link shared on the day it goes out carries that day's date. The page shows the publication date and "News of <news date>"; feed, sitemap, `/today/`, `og.png`, and the Telegram links follow. The archive folder, `day.json`, branches, PR titles, numbering, and `LAUNCH_DATE` keep the news date. Slopper #1 (news of 2026-09-30) is at `/2026/10/01/`. |
+| 44 | **Instagram** (`@sloppertoday`): the `slopper-clock` Worker reads `/latest.json` every 15 minutes and posts each newly published slopper (square `still.jpg`, caption from the Cop-approved motto and phrase, alt text) through the free Instagram API with Instagram Login (Meta app in Development mode, account as Instagram Tester: no App Review). Instagram and Telegram credentials live only in Cloudflare (KV keeps the weekly-refreshed token, the last posted date, and retry counts; max 3 tries per slopper, Telegram on success and failure). One approval covers site and Instagram. TikTok (private-only until audited) and X (no free tier since 2026-02-06) were rejected for cost; iLands.ai deferred. |
 ## Appendix A — Voice candidates (reviewed)
 
 Reviewed by Gorka. **A** (approved) lines go into `knowledge/voice.md` as good examples. **D** (denied) lines go in as rejected examples (no reason given; treat them as "not the Slopper voice").

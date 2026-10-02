@@ -47,6 +47,12 @@ export const TunablesSchema = z.object({
       arxivCategories: z.array(z.string().regex(/^[a-z-]+\.[A-Z]{2}$/)).default(['cs.AI']),
     })
     .prefault({}),
+  social: z
+    .object({
+      /** Hashtags for the Instagram caption (without #; max 30 are used). */
+      hashtags: z.array(z.string().min(1).max(60)).default(['slopper', 'slopart', 'ai']),
+    })
+    .prefault({}),
 });
 
 /** Deployment/runtime settings that come from GitHub repository variables or .env. */

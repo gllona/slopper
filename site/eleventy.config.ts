@@ -1,5 +1,6 @@
 import { join, relative } from 'node:path';
 import { loadConfig } from '../pipeline/util/config.ts';
+import { instagramCaption } from '../pipeline/ops/caption.ts';
 import { byMonth, loadSloppers, PUBLIC_FILES, siteMode } from './lib/sloppers.ts';
 
 /**
@@ -16,6 +17,31 @@ export default function (eleventyConfig: any) {
   eleventyConfig.addGlobalData('sloppers', sloppers);
   eleventyConfig.addGlobalData('latest', sloppers[0] ?? null);
   eleventyConfig.addGlobalData('months', byMonth(sloppers));
+  // /latest.json: read by the slopper-clock Worker to post to Instagram (DESIGN decision 44)
+  const latest = sloppers[0];
+  eleventyConfig.addGlobalData('latestJson', {
+    version: 1,
+    latest: latest
+      ? {
+          number: latest.number,
+          date: latest.date,
+          publishedOn: latest.publishedOn,
+          url: `${siteUrl}${latest.url}`,
+          imageJpg: latest.files['still.jpg'] ? `${siteUrl}${latest.url}still.jpg` : null,
+          alt: latest.alt,
+          motto: latest.motto,
+          phrase: latest.phrase,
+          caption: instagramCaption({
+            motto: latest.motto,
+            phrase: latest.phrase,
+            number: latest.number,
+            publishedOn: latest.publishedOn,
+            siteHost: new URL(siteUrl).host,
+            hashtags: config.social.hashtags,
+          }),
+        }
+      : null,
+  });
   eleventyConfig.addGlobalData('site', {
     url: siteUrl,
     name: 'Slopper',

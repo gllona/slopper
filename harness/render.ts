@@ -54,6 +54,8 @@ export interface FrameMetrics {
 
 export interface RenderOutput {
   still: Buffer;
+  /** The still as JPEG, for platforms that refuse PNG (Instagram). */
+  stillJpg: Buffer;
   filmstrip: Buffer | null;
   og: Buffer;
   metrics: FrameMetrics;
@@ -105,6 +107,7 @@ export async function renderAll(svg: string, opts: RenderOptions): Promise<Rende
     const og = await composeOg(browser, still, opts);
     return {
       still: await compressPng(still),
+      stillJpg: await toJpeg(still),
       filmstrip: filmstrip && (await compressPng(filmstrip)),
       og: await compressPng(og),
       metrics,
@@ -128,6 +131,11 @@ async function measure(page: Page): Promise<FrameMetrics> {
     return out;
   });
   return { boxes };
+}
+
+/** High-quality JPEG (no chroma subsampling: keeps thin colored lines crisp). Instagram accepts only JPEG. */
+export async function toJpeg(png: Buffer): Promise<Buffer> {
+  return sharp(png).flatten({ background: '#ffffff' }).jpeg({ quality: 90, chromaSubsampling: '4:4:4', mozjpeg: true }).toBuffer();
 }
 
 /** Palette PNG (256 colors, no dithering): the art is flat, so this is visually lossless and ~10× smaller. */

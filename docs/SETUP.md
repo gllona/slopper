@@ -15,6 +15,7 @@ Checklist:
 - [ ] 8. First dry run
 - [ ] 9. Phone notifications (GitHub Mobile + Telegram)
 - [ ] 10. The clock (Cloudflare Worker that starts the workflows on time)
+- [ ] 11. Instagram (@sloppertoday), posted by the clock
 
 ---
 
@@ -163,3 +164,35 @@ calls GitHub's API. GitHub's own schedules stay as extra backups; duplicate runs
    ```
 4. **Check**: Cloudflare dashboard → Workers & Pages → `slopper-clock` → Settings → Trigger events lists the
    3 cron triggers; Logs show a line per trigger ("dispatched generate.yml").
+
+## 11. Instagram: `@sloppertoday` (zero cost, done 2026-10-01)
+
+The `slopper-clock` Worker posts each published slopper (square `still.jpg` + caption) within 15 minutes of
+the site publish. Your daily approval covers it. Uses the free "Instagram API with Instagram Login"; the Meta app
+stays in **Development mode** with the account as **Instagram Tester**, so no App Review is needed.
+
+1. Instagram app → **Add account → Create new account** (`sloppertoday`), profile picture from
+   `.out/avatars/2-robot-riso.jpg`, bio and link `https://slopper.logicos.org`.
+   **Settings → Account type and tools → Switch to professional account → Creator** (no Facebook Page).
+2. https://developers.facebook.com → log in with Facebook (Meta allows one personal account per person: use
+   your own) → **My Apps → Create app** "Slopper", use case **Manage messaging & content on Instagram**, no
+   business portfolio. App id: `1799884511141809`.
+3. **Instagram → API setup with Instagram login** →
+   https://developers.facebook.com/apps/1799884511141809/use_cases/customize/API-Setup/?product_route=instagram-business&use_case_enum=INSTAGRAM_BUSINESS&selected_tab=API-Setup
+   → **Generate access tokens → Add account** → role **Instagram Tester** (the last one, not "Tester") →
+   `sloppertoday`.
+4. Accept the invite **on the web, logged in as sloppertoday** (the phone app does not show it):
+   https://www.instagram.com/accounts/manage_access/ → **Tester invites** → Accept.
+5. Back on API setup: note the **Instagram user ID** (`17841424224659685`, in `infra/clock/wrangler.toml`),
+   **Generate token**, approve the permissions as sloppertoday, then in claude-box:
+   ```bash
+   npx wrangler secret put IG_ACCESS_TOKEN --config infra/clock/wrangler.toml
+   npx wrangler secret put TELEGRAM_BOT_TOKEN --config infra/clock/wrangler.toml
+   ```
+   (`TELEGRAM_CHAT_ID` is also a Worker secret, so it stays out of the public repo.)
+6. **Never click "Go live" / "Publish" on the Meta app.**
+
+The token lasts 60 days; the Worker refreshes it weekly and keeps the new one in its KV store, so there is no
+manual renewal. If Instagram ever rejects it (password change, removed tester), Telegram says so: generate a new
+token (step 5) and run the first `wrangler secret put` again; then delete the KV key `ig:token`
+(`npx wrangler kv key delete ig:token --namespace-id 3ebc720c110448b5ac1b590389c7bf7f --remote`).

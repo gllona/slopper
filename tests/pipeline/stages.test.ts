@@ -172,7 +172,7 @@ describe('npm run day (with a fake claude)', () => {
     const r = await run();
     expect(r.labels).toEqual(['slopper', 'fresh', 'dry-run']);
     const files = readdirSync(r.dir).sort();
-    expect(files).toEqual(['cop.json', 'critic.json', 'curate.json', 'day.json', 'digest.json', 'og.png', 'pr.md', 'scene.json', 'slopper.svg', 'still.png', 'storylines.json']);
+    expect(files).toEqual(['cop.json', 'critic.json', 'curate.json', 'day.json', 'digest.json', 'og.png', 'pr.md', 'scene.json', 'slopper.svg', 'still.jpg', 'still.png', 'storylines.json']);
     const d = DaySchema.parse(JSON.parse(readFileSync(join(r.dir, 'day.json'), 'utf8')));
     expect(d.sources.length).toBeGreaterThan(0);
     expect(d.versions.prompts).toMatch(/^\d+\.\d+\.\d+\.\d+$/);
