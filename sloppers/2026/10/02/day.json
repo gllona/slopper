@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-02",
+  "number": 3,
+  "mode": "fresh",
+  "motto": "Cleanup Duty",
+  "phrase": "A cloud company spent a billion dollars calming angry neighbors near its datacenters. A hospital's new AI scheduler is calming nobody, least of all the nurses.",
+  "phraseAlternatives": [
+    "A company spent a billion dollars trying to calm its datacenter neighbors. A hospital's scheduling program could not calm a single nurse.",
+    "Datacenters got camouflage netting and a billion-dollar apology this week. Nurses just got a worse schedule.",
+    "One story this week involved $300 million in smuggled chips. Another involved a nurse who just wanted a schedule that made sense.",
+    "This week a government renamed artificial intelligence. The nurses whose shifts it scrambles still just call it a headache."
+  ],
+  "alt": "A split paper-cutout image. On the left, a small datacenter with steam sits beside a tank gauge labeled CALM that is nearly empty. On the right, a tired nurse points at a bar chart with one tall red bar, showing a schedule that is not calming anyone.",
+  "artType": "static",
+  "style": "paper-cutout",
+  "dimensions": {
+    "industry": 3,
+    "policy": 3,
+    "society": 2,
+    "safety": 2,
+    "planet": 2,
+    "law": 2,
+    "labor": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "datacenter-backlash-campaign",
+    "ai-safety-self-policing",
+    "ai-rebrand-super-intelligence",
+    "chip-smuggling-crackdown",
+    "mac-ai-agent-lockdown",
+    "ai-scheduling-nurses"
+  ],
+  "topStories": [
+    {
+      "title": "Amazon's billion-dollar plan to calm datacenter backlash draws more backlash",
+      "itemIds": [
+        "feeds:90c6c9903271",
+        "feeds:7fee27dbfb1e",
+        "techmeme:ab1faefd57fb",
+        "feeds:14f88081bd16",
+        "hackernews:0cdc40be2f31"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "OpenAI's safety ranks thin out amid firings, a resignation, and leaked Slack messages",
+      "itemIds": [
+        "feeds:6c8da325c4f5",
+        "feeds:6c0f74ccab69",
+        "techmeme:2a1829bef458",
+        "techmeme:fc8a842c157f"
+      ],
+      "dimensions": [
+        "safety",
+        "policy",
+        "industry",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-safety-self-policing"
+    },
+    {
+      "title": "White House rebrands AI as 'Super Intelligence,' tech leaders sign a pledge",
+      "itemIds": [
+        "feeds:2fcd39b3c3f3",
+        "feeds:4c105a8d48d0",
+        "feeds:8925781db7fd"
+      ],
+      "dimensions": [
+        "policy",
+        "society",
+        "industry"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-rebrand-super-intelligence"
+    },
+    {
+      "title": "US arrests tech CEO over alleged $300M Nvidia chip smuggling to China",
+      "itemIds": [
+        "feeds:9c74b8828a2c"
+      ],
+      "dimensions": [
+        "policy",
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "chip-smuggling-crackdown"
+    },
+    {
+      "title": "Apple tightens Mac file-access controls over AI agent risk",
+      "itemIds": [
+        "feeds:5432f5b94c34",
+        "feeds:d38f609848f2",
+        "feeds:b3857f26daab"
+      ],
+      "dimensions": [
+        "safety",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "mac-ai-agent-lockdown"
+    },
+    {
+      "title": "A hospital's AI scheduling tool is frustrating and endangering nurses",
+      "itemIds": [
+        "feeds:36c2c108af5d"
+      ],
+      "dimensions": [
+        "labor",
+        "safety",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-scheduling-nurses"
+    }
+  ],
+  "brief": {
+    "concept": "A datacenter hides behind a leafy camouflage screen while a small crowd holds blank signs outside it, and beside that panel a tired nurse studies a shift chart as a small robot hand crosses out a row in red.",
+    "metaphor": "Hiding the machine from the neighbors is easier than fixing the schedule for the people who work next to it.",
+    "cast": [
+      "a datacenter wrapped in leafy camouflage netting",
+      "a small crowd of generic humans holding blank protest signs",
+      "a tired nurse in scrubs looking at a shift schedule chart",
+      "a small robot hand crossing out a shift row in red"
+    ],
+    "style": "paper-cutout",
+    "composition": "Split vertical composition divided by a thin paper seam. Left half: a boxy datacenter shape wrapped in cut-paper leaf shapes, a small meter below it labeled CALM with the needle low, three plain human silhouettes with blank signs standing at its base. Right half: a nurse figure standing beside a tall chart of shift rows, a tiny robot arm reaching in to cross out one row with a red paper strip. Soft drop shadows under every layer, kraft card background, no outlines.",
+    "artType": "static",
+    "alt": "A split illustration: on one side, a datacenter disguised with leafy camouflage stands before a small crowd holding blank signs, with a calm-meter reading low. On the other side, a tired nurse looks at a shift schedule chart where a small robotic hand is crossing out a row in red."
+  },
+  "sources": [
+    {
+      "id": "feeds:90c6c9903271",
+      "title": "Amazon’s $1B plan to combat data center backlash draws more backlash",
+      "url": "https://arstechnica.com/tech-policy/2026/10/amazons-1b-plan-to-combat-data-center-backlash-draws-more-backlash/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-10-02T20:30:27.000Z"
+    },
+    {
+      "id": "feeds:7fee27dbfb1e",
+      "title": "Amazon writes scary blog warning communities not to block data centers",
+      "url": "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-02T11:52:20.000Z"
+    },
+    {
+      "id": "techmeme:ab1faefd57fb",
+      "title": "Amazon says it has stopped using NDAs with county officials for data center projects and acknowledges community backlash is leading to data center moratoriums (Molly Taft/Wired)",
+      "url": "https://www.techmeme.com/261002/p27",
+      "source": "techmeme",
+      "publisher": "Techmeme",
+      "publishedAt": "2026-10-02T23:20:01.000Z"
+    },
+    {
+      "id": "feeds:14f88081bd16",
+      "title": "If a data center is camouflaged in the woods, will anyone hate it?",
+      "url": "https://www.theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-02T12:00:00.000Z"
+    },
+    {
+      "id": "feeds:36c2c108af5d",
+      "title": "AI Is Making a Mess of Nurses’ Schedules. They Say It’s a Safety Issue",
+      "url": "https://www.wired.com/story/ai-making-mess-of-nurses-schedules-they-say-its-a-safety-issue/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-10-02T09:30:00.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.29,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "1.2.1.1",
+    "ontology": "1",
+    "rubricArt": "1",
+    "rubricCop": "1",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-03T11:26:58.270Z"
+}

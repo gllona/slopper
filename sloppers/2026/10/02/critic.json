@@ -1,0 +1,101 @@
+{
+  "passed": false,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"nurse\" (human) was moved -10 px, 0 px to stay inside the artboard",
+          "\"dc\" extends outside the safe area in the final frame (x 40…314, y 377…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 2,
+          "composition": 3,
+          "style": 3,
+          "polish": 3,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "Reads as a tired-nurse-vs-bar-chart scene but drops three of the brief's four cast elements (camo netting, protest crowd, robot hand crossing out the shift), so the core joke about calming angry neighbors and an uncaring AI scheduler isn't actually told by the art; also has outline/safe-area issues.",
+        "revisionNotes": [
+          "Add the leafy camouflage netting wrapped around the datacenter (component: foliage/leaves) called for in the brief; it's the visual anchor for the 'calming neighbors' half of the joke and is completely absent.",
+          "Add a small crowd (2-3 generic human silhouettes) holding blank protest signs near the datacenter base — without it, the CALM meter reads as the server's own status, not neighbors' anger.",
+          "Add the small robot hand/arm crossing out the tallest chart row in red, per the cast list; right now the nurse just points at a bar, losing the 'AI scheduler' punchline entirely.",
+          "Scale down or shift the 'dc' datacenter right so it sits inside the safe area — lint flags it overflowing at x 40-314, y 377-842.",
+          "Drop the black outline strokes on the nurse, meter, chart, and datacenter; the style card specifies cut-paper shapes with soft drop shadows and no outlines.",
+          "Add a thin visible paper seam dividing left/right halves as the brief describes, and fill the large empty beige sky with foliage, steam, or a raised horizon so the lower half isn't so crowded relative to the top."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"nurse\" (human) was moved -26 px, 0 px to stay inside the artboard"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 2,
+          "style": 4,
+          "polish": 3,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The paper-cutout style is polished and the palette is fresh, but the central visual metaphor fails: the datacenter isn't actually hidden by camouflage (it reads as a floating cloud), the split seam is invisible, and the robot arm/chart interaction is disconnected from the nurse — the joke doesn't resolve quickly. Does not pass.",
+        "revisionNotes": [
+          "The leafy camouflage reads as a floating cloud/exhaust above the datacenter rather than netting draped over it — the building's racks and lights are fully visible. Overlap the foliage component directly onto the datacenter body so it visibly obscures the facade.",
+          "The vertical paper seam dividing the two halves isn't visible in the render — thicken the seam line and darken its colour so the split composition actually reads as two distinct panels.",
+          "The robot-arm + red strip sits as a disconnected shape above the chart, not touching any bar. Reposition and scale it so the red strip overlaps the highlighted (last) bar directly.",
+          "The chart floats near the top while the nurse stands isolated at the bottom-right with a large gap between them — move the chart down and closer to the nurse so her pointing pose visibly connects to what she's reacting to.",
+          "The protest crowd is only two generic figures with blank signs, reading thin against the brief's 'small crowd' — add a third figure or scale the pair up so the group reads fuller at a glance.",
+          "Top half of the frame (sky) is mostly empty while the bottom is crowded with figures standing on the horizon — rebalance vertical weight, e.g. lower the horizon or bring the meter/chart down into the sky zone."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 3,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Fails: the split-panel idea is sound but under-executed — the dividing seam is missing, the robot \"hand\" reads as a stray pencil, and the nurse feels disconnected from her chart, leaving composition and clarity too weak to clear the bar despite a pleasant, consistent paper-cutout style.",
+        "revisionNotes": [
+          "Render/replace the seam prop: the vertical paper-seam line called for in the brief is invisible in the still, so the left/right split (protest vs. hospital) doesn't register as an intentional panel break.",
+          "Redesign the robot-arm raw component — right now it reads as a pencil or flag poking off the top of the chart, not a mechanical hand crossing out a row; give it a visible claw/pincer and land the red strike directly across the top bar instead of above it.",
+          "Pull the nurse closer to the chart and angle her pointing arm up toward the crossed-out bar; the current gap between her and the chart makes the two feel like separate vignettes rather than one scene.",
+          "Rebalance negative space: the top half is nearly empty while the crowd and robot-arm elements crowd the bottom edge (feet almost touch the frame) — raise the horizon elements or enlarge the cast slightly so weight is more even top-to-bottom.",
+          "Nudge the CALM tag right or down so it stops overlapping the datacenter's foliage/steam on its left edge.",
+          "Shift the foliage to a tone distinct from the teal ground (lighter/darker or with a thin edge) — right now the camouflaged datacenter blob melts into the horizon color and loses its building silhouette."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    }
+  ]
+}
