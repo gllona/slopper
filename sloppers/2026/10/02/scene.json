@@ -1,0 +1,85 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {},
+  "elements": [
+    {
+      "id": "dc",
+      "component": "datacenter",
+      "at": {
+        "x": 0.164,
+        "y": 0.78
+      },
+      "scale": 0.8,
+      "props": {
+        "racks": 3,
+        "lights": "on",
+        "steam": true
+      }
+    },
+    {
+      "id": "meter",
+      "component": "meter",
+      "at": {
+        "x": 0.346,
+        "y": 0.62
+      },
+      "scale": 0.7,
+      "props": {
+        "kind": "tank",
+        "level": 0.25,
+        "color": "accent"
+      }
+    },
+    {
+      "id": "calm-label",
+      "component": "label",
+      "attachTo": "meter",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "CALM",
+        "size": "md",
+        "kind": "tag"
+      }
+    },
+    {
+      "id": "chart",
+      "component": "chart",
+      "at": {
+        "x": 0.535,
+        "y": 0.52
+      },
+      "scale": 0.6,
+      "props": {
+        "type": "bar",
+        "values": [
+          0.6,
+          0.5,
+          0.7,
+          0.4,
+          0.9
+        ],
+        "highlight": "max",
+        "frame": true
+      }
+    },
+    {
+      "id": "nurse",
+      "component": "human",
+      "at": {
+        "x": 0.782,
+        "y": 0.78
+      },
+      "scale": 1.05,
+      "flip": true,
+      "props": {
+        "mood": "exhausted",
+        "pose": "point",
+        "holds": "none",
+        "color": "body"
+      }
+    }
+  ],
+  "alt": "A split paper-cutout image. On the left, a small datacenter with steam sits beside a tank gauge labeled CALM that is nearly empty. On the right, a tired nurse points at a bar chart with one tall red bar, showing a schedule that is not calming anyone."
+}

@@ -1,0 +1,221 @@
+{
+  "topStories": [
+    {
+      "title": "Amazon's billion-dollar plan to calm datacenter backlash draws more backlash",
+      "itemIds": [
+        "feeds:90c6c9903271",
+        "feeds:7fee27dbfb1e",
+        "techmeme:ab1faefd57fb",
+        "feeds:14f88081bd16",
+        "hackernews:0cdc40be2f31"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "OpenAI's safety ranks thin out amid firings, a resignation, and leaked Slack messages",
+      "itemIds": [
+        "feeds:6c8da325c4f5",
+        "feeds:6c0f74ccab69",
+        "techmeme:2a1829bef458",
+        "techmeme:fc8a842c157f"
+      ],
+      "dimensions": [
+        "safety",
+        "policy",
+        "industry",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-safety-self-policing"
+    },
+    {
+      "title": "White House rebrands AI as 'Super Intelligence,' tech leaders sign a pledge",
+      "itemIds": [
+        "feeds:2fcd39b3c3f3",
+        "feeds:4c105a8d48d0",
+        "feeds:8925781db7fd"
+      ],
+      "dimensions": [
+        "policy",
+        "society",
+        "industry"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-rebrand-super-intelligence"
+    },
+    {
+      "title": "US arrests tech CEO over alleged $300M Nvidia chip smuggling to China",
+      "itemIds": [
+        "feeds:9c74b8828a2c"
+      ],
+      "dimensions": [
+        "policy",
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "chip-smuggling-crackdown"
+    },
+    {
+      "title": "Apple tightens Mac file-access controls over AI agent risk",
+      "itemIds": [
+        "feeds:5432f5b94c34",
+        "feeds:d38f609848f2",
+        "feeds:b3857f26daab"
+      ],
+      "dimensions": [
+        "safety",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "mac-ai-agent-lockdown"
+    },
+    {
+      "title": "A hospital's AI scheduling tool is frustrating and endangering nurses",
+      "itemIds": [
+        "feeds:36c2c108af5d"
+      ],
+      "dimensions": [
+        "labor",
+        "safety",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-scheduling-nurses"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "datacenter-backlash-campaign",
+      "title": "The Datacenter Backlash Campaign",
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet",
+        "society"
+      ],
+      "motifs": [
+        "a datacenter wrapped in camouflage netting beside a protest sign",
+        "a stack of money poured into a town square that evaporates into a cloud",
+        "an NDA document being shredded next to a handshake"
+      ]
+    },
+    {
+      "id": "ai-rebrand-super-intelligence",
+      "title": "AI Gets Rebranded Super Intelligence",
+      "dimensions": [
+        "policy",
+        "society",
+        "industry"
+      ],
+      "motifs": [
+        "a sign painter repainting 'AI' into 'Super Intelligence'",
+        "a row of suited figures raising hands in a pledge line",
+        "a dictionary page torn out and taped over"
+      ]
+    },
+    {
+      "id": "chip-smuggling-crackdown",
+      "title": "The Chip Smuggling Crackdown",
+      "dimensions": [
+        "policy",
+        "law",
+        "industry"
+      ],
+      "motifs": [
+        "a chip hidden inside a shipping crate opened by customs",
+        "handcuffs looped through a circuit board"
+      ]
+    },
+    {
+      "id": "mac-ai-agent-lockdown",
+      "title": "Locking Down Agents On The Mac",
+      "dimensions": [
+        "safety",
+        "industry",
+        "society"
+      ],
+      "motifs": [
+        "a vault door on a home computer closing one notch tighter",
+        "a small robot hand reaching for a locked file cabinet"
+      ]
+    },
+    {
+      "id": "ai-scheduling-nurses",
+      "title": "AI Scheduling Hits The Nurses' Station",
+      "dimensions": [
+        "labor",
+        "safety",
+        "society"
+      ],
+      "motifs": [
+        "a nurse station clock with jammed gears",
+        "a shift schedule chart crossed out in red by a small robot hand"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Several top stories independently clear the relevance threshold of 8 (datacenter backlash at 18; OpenAI safety exits, the chip-smuggling arrest, Apple's agent lockdown, and the nurse-scheduling harms each at 8), so today stands on its own rather than needing to continue yesterday's thread.",
+  "motto": "Cleanup Duty",
+  "phrase": "A cloud company spent a billion dollars calming angry neighbors near its datacenters. A hospital's new AI scheduler is calming nobody, least of all the nurses.",
+  "phraseAlternatives": [
+    "A company spent a billion dollars trying to calm its datacenter neighbors. A hospital's scheduling program could not calm a single nurse.",
+    "Datacenters got camouflage netting and a billion-dollar apology this week. Nurses just got a worse schedule.",
+    "One story this week involved $300 million in smuggled chips. Another involved a nurse who just wanted a schedule that made sense.",
+    "This week a government renamed artificial intelligence. The nurses whose shifts it scrambles still just call it a headache."
+  ],
+  "brief": {
+    "concept": "A datacenter hides behind a leafy camouflage screen while a small crowd holds blank signs outside it, and beside that panel a tired nurse studies a shift chart as a small robot hand crosses out a row in red.",
+    "metaphor": "Hiding the machine from the neighbors is easier than fixing the schedule for the people who work next to it.",
+    "cast": [
+      "a datacenter wrapped in leafy camouflage netting",
+      "a small crowd of generic humans holding blank protest signs",
+      "a tired nurse in scrubs looking at a shift schedule chart",
+      "a small robot hand crossing out a shift row in red"
+    ],
+    "style": "paper-cutout",
+    "composition": "Split vertical composition divided by a thin paper seam. Left half: a boxy datacenter shape wrapped in cut-paper leaf shapes, a small meter below it labeled CALM with the needle low, three plain human silhouettes with blank signs standing at its base. Right half: a nurse figure standing beside a tall chart of shift rows, a tiny robot arm reaching in to cross out one row with a red paper strip. Soft drop shadows under every layer, kraft card background, no outlines.",
+    "artType": "static",
+    "alt": "A split illustration: on one side, a datacenter disguised with leafy camouflage stands before a small crowd holding blank signs, with a calm-meter reading low. On the other side, a tired nurse looks at a shift schedule chart where a small robotic hand is crossing out a row in red."
+  },
+  "sourceIds": [
+    "feeds:90c6c9903271",
+    "feeds:7fee27dbfb1e",
+    "techmeme:ab1faefd57fb",
+    "feeds:14f88081bd16",
+    "feeds:36c2c108af5d"
+  ],
+  "dimensions": {
+    "industry": 3,
+    "policy": 3,
+    "society": 2,
+    "safety": 2,
+    "planet": 2,
+    "law": 2,
+    "labor": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
