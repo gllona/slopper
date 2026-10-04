@@ -34,6 +34,21 @@ async function svgPage(browser: Browser, svg: string, size: number): Promise<Pag
   return page;
 }
 
+/**
+ * page.screenshot with retries. Under load (e.g. several Chromium instances on a small CI runner), Chromium
+ * occasionally answers "Unable to capture screenshot"; a short wait and a retry succeeds.
+ */
+export async function screenshot(page: Page, attempts = 3): Promise<Buffer> {
+  for (let i = 1; ; i++) {
+    try {
+      return await page.screenshot({ type: 'png' });
+    } catch (e) {
+      if (i >= attempts || !/Unable to capture screenshot|Target crashed|Protocol error/i.test((e as Error).message)) throw e;
+      await new Promise((r) => setTimeout(r, 250 * i));
+    }
+  }
+}
+
 /** Pause every animation and move the timeline to `ms`. Ambient loops are held at their start. */
 async function seek(page: Page, ms: number): Promise<void> {
   await page.evaluate((t) => {
@@ -88,7 +103,7 @@ export async function renderAll(svg: string, opts: RenderOptions): Promise<Rende
     const page = await svgPage(browser, svg, size);
     const endMs = (opts.duration ?? 0) * 1000;
     await seek(page, endMs);
-    const still = await page.screenshot({ type: 'png' });
+    const still = await screenshot(page);
     const metrics = await measure(page);
     let filmstrip: Buffer | null = null;
     let flashes: FlashReport | null = null;
@@ -98,7 +113,7 @@ export async function renderAll(svg: string, opts: RenderOptions): Promise<Rende
       for (let i = 0; i < n; i++) {
         const t = (opts.duration * i) / (n - 1);
         await seek(page, t * 1000);
-        frames.push({ t, png: await page.screenshot({ type: 'png' }) });
+        frames.push({ t, png: await screenshot(page) });
       }
       filmstrip = await composeFilmstrip(browser, frames, opts.style);
       flashes = await analyzeFlashes(browser, svg, opts.duration);
@@ -173,7 +188,7 @@ async function composeFilmstrip(browser: Browser, frames: { t: number; png: Buff
     figure{margin:0}img{display:block;width:${cell}px;height:${cell}px;outline:2px solid ${style.palette.ink}}figcaption{height:28px;margin-top:10px}</style></head><body>${cells}</body></html>`,
     { waitUntil: 'load' },
   );
-  const png = await page.screenshot({ type: 'png' });
+  const png = await screenshot(page);
   await page.close();
   return png;
 }
@@ -199,7 +214,7 @@ async function composeOg(browser: Browser, still: Buffer, opts: RenderOptions): 
     { waitUntil: 'load' },
   );
   await page.evaluate(() => document.fonts.ready);
-  const png = await page.screenshot({ type: 'png' });
+  const png = await screenshot(page);
   await page.close();
   return png;
 }
@@ -250,7 +265,7 @@ async function analyzeFlashes(browser: Browser, svg: string, duration: number): 
   const steps = Math.round(duration * 10);
   for (let s = 0; s <= steps; s++) {
     await seek(page, s * 100);
-    const img = PNG.sync.read(await page.screenshot({ type: 'png' }));
+    const img = PNG.sync.read(await screenshot(page));
     const cell = small / G;
     const acc = new Array(G * G).fill(0);
     const cnt = new Array(G * G).fill(0);
