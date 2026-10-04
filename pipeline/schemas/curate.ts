@@ -42,3 +42,9 @@ export const CurateOutputSchema = z.object({
 });
 
 export type CurateOutput = z.infer<typeof CurateOutputSchema>;
+
+/**
+ * For reading archived curate.json files: sloppers made before decision 45 have a plain-text cast.
+ * New Curate output is always validated with the strict CurateOutputSchema.
+ */
+export const CurateArchiveSchema = CurateOutputSchema.extend({ brief: BriefSchema });

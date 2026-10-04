@@ -1,4 +1,4 @@
-import { cpSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+import { cpSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 import { describe, expect, it } from 'vitest';
@@ -82,6 +82,14 @@ describe('verify slopper folders', () => {
       const again = verifyFolder(bad).join('\n');
       expect(again).toMatch(/sanitizer re-check/);
       expect(again).toMatch(/still.png is not a PNG/);
+
+      // archived curate.json from before decision 45 (plain-text cast) stays valid
+      const legacy = join(out, 'legacy', '2026', '09', '26');
+      cpSync(r.dir, legacy, { recursive: true });
+      const cur = JSON.parse(readFileSync(join(legacy, 'curate.json'), 'utf8'));
+      cur.brief.cast = ['a robot in a suit', 'a pledge document'];
+      writeFileSync(join(legacy, 'curate.json'), JSON.stringify(cur));
+      expect(verifyFolder(legacy)).toEqual([]);
 
       const wrongDate = join(out, 'x', '2026', '09', '25');
       cpSync(r.dir, wrongDate, { recursive: true });

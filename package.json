@@ -16,7 +16,7 @@
     "harness:fixtures": "tsx harness/cli.ts fixtures",
     "harness:docs": "tsx harness/docs.ts",
     "harness:watch": "tsx harness/playground.ts",
-    "check": "npm run typecheck && npm test",
+    "check": "npm run typecheck && npm run verify:sloppers && npm test",
     "build": "SLOPPER_SITE_MODE=build tsx node_modules/@11ty/eleventy/cmd.cjs --config=site/eleventy.config.ts --quiet",
     "dev": "SLOPPER_SITE_MODE=dev tsx node_modules/@11ty/eleventy/cmd.cjs --config=site/eleventy.config.ts --serve --quiet",
     "preview:fixtures": "tsx site/fixtures/build.ts",

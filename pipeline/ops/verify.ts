@@ -3,7 +3,7 @@ import { join, relative } from 'node:path';
 import { sanitizeSvg } from '../../harness/sanitize.ts';
 import { CopFileSchema } from '../schemas/cop.ts';
 import { CriticFileSchema } from '../schemas/critic.ts';
-import { CurateOutputSchema } from '../schemas/curate.ts';
+import { CurateArchiveSchema } from '../schemas/curate.ts';
 import { DaySchema } from '../schemas/day.ts';
 import { DigestSchema } from '../schemas/digest.ts';
 import { SceneSchema } from '../schemas/scene.ts';
@@ -48,7 +48,7 @@ export function verifyFolder(dir: string): string[] {
   check('scene.json', SceneSchema);
   check('critic.json', CriticFileSchema);
   check('cop.json', CopFileSchema);
-  check('curate.json', CurateOutputSchema);
+  check('curate.json', CurateArchiveSchema);
   check('storylines.json', StorylinesFileSchema);
 
   if (day) {
