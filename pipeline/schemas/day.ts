@@ -31,10 +31,19 @@ export const TopStorySchema = z.object({
   storyline: z.string().optional(),
 });
 
+/** Who appears in the art and what kind of actor it is (casting rule, DESIGN decision 45). */
+export const CAST_KINDS = ['person', 'institution', 'ai', 'object'] as const;
+export const CastMemberSchema = z.object({
+  who: z.string().min(1).max(100).describe('e.g. "a tired nurse in scrubs", "a chatbot", "a datacenter"'),
+  kind: z.enum(CAST_KINDS).describe('person = any human (worker, researcher, official, user); institution = a company, government, or court; ai = an AI system, model, agent, or robot; object = a thing'),
+});
+export type CastMember = z.infer<typeof CastMemberSchema>;
+
 export const BriefSchema = z.object({
   concept: z.string().min(1).max(300),
   metaphor: z.string().min(1).max(300),
-  cast: z.array(z.string().max(80)).max(8),
+  /** Plain strings in sloppers made before decision 45; cast members with a kind since then. */
+  cast: z.array(z.union([z.string().max(80), CastMemberSchema])).max(8),
   style: z.string().regex(/^[a-z0-9-]+$/),
   composition: z.string().max(600),
   artType: z.enum(['static', 'animated']),

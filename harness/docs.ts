@@ -84,7 +84,7 @@ export function harnessDocs(): string {
   }
   out.push('## Raw SVG (escape hatch)');
   out.push('');
-  out.push('`{"id": "x", "component": "raw", "at": "center", "props": {"width": 200, "height": 120}, "svg": "<path class=\\"r-accent\\" d=\\"…\\"/>"}` — drawn in a local 0..width × 0..height box. Max 8 KB each, max 3 per scene, no `<text>`/`<style>`/scripts, palette colors only. Ids are namespaced automatically. Good raw shapes can be promoted to components (label `component-proposal`).');
+  out.push('`{"id": "x", "component": "raw", "at": "center", "props": {"width": 200, "height": 120}, "svg": "<path class=\\"r-accent\\" d=\\"…\\"/>"}` — drawn in a local 0..width × 0..height box. Max 12 KB each, max 5 per scene, no `<text>`/`<style>`/scripts, palette colors only. Ids are namespaced automatically. Props (a gavel, a box of files, a badge, a door) are meant to be improvised here, differently every day.');
   out.push('');
   return out.join('\n');
 }

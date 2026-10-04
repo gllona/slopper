@@ -17,7 +17,7 @@ type Props = z.infer<typeof Props>;
  */
 export const raw: ComponentDef<Props & { rawSvg?: string }> = {
   name: 'raw',
-  doc: 'Escape hatch: "svg" is an SVG fragment in a local 0..width×0..height box (props: width, height), centered on the anchor. Use role classes (r-body, r-body-alt, r-accent, r-accent-2, r-ink, r-paper, r-line, r-thin, r-shade, r-glow) instead of colors. No <text>, <style>, or scripts. Max 8 KB, max 3 per scene.',
+  doc: 'Escape hatch: "svg" is an SVG fragment in a local 0..width×0..height box (props: width, height), centered on the anchor. Use role classes (r-body, r-body-alt, r-accent, r-accent-2, r-ink, r-paper, r-line, r-thin, r-shade, r-glow) instead of colors. No <text>, <style>, or scripts. Max 12 KB, max 5 per scene. Use it freely for props (a gavel, a box of files, a badge): improvised props keep every slopper different.',
   grounded: false,
   props: Props as z.ZodType<Props & { rawSvg?: string }>,
   render(p) {

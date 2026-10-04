@@ -1,4 +1,4 @@
-<!-- version: 1 -->
+<!-- version: 2 -->
 # Cop rubric (legal risk review)
 
 Purpose: protect the publisher (Gorka) from content that could be the object of legal action. You review the
@@ -17,6 +17,8 @@ Checks:
 1. **defamation** — Every factual element in the phrase, motto, alt text, or art must be supported by the listed
    sources. Satire must be recognizable as satire and must not state or imply false facts about identifiable
    people or organizations. Unsupported numbers are findings.
+   A paraphrase must not change the *nature* of an accusation or event (e.g. "shared sensitive information
+   with an outside group" is not "a records dispute"): compare each claim with the source wording.
 2. **real-people** — No names, recognizable likenesses, or caricatures of real people (including by unmistakable
    description, e.g. "the richest man's rocket company CEO").
 3. **trademarks** — No logos, brand marks, product or company names, or implied endorsement, in the motto,

@@ -70,7 +70,7 @@ export function compileScene(input: unknown, opts: CompileOptions = {}): Compile
   }
 
   const raws = scene.elements.filter((e) => e.component === 'raw');
-  if (raws.length > (opts.maxRawElements ?? 3)) issues.push(`elements: at most ${opts.maxRawElements ?? 3} raw elements per scene (found ${raws.length})`);
+  if (raws.length > (opts.maxRawElements ?? 5)) issues.push(`elements: at most ${opts.maxRawElements ?? 5} raw elements per scene (found ${raws.length})`);
 
   // values each prop takes during the scene (initial + `set` beats), for multi-state parts like faces
   const usedValues = new Map<string, Map<string, Set<unknown>>>();
@@ -108,7 +108,7 @@ export function compileScene(input: unknown, opts: CompileOptions = {}): Compile
     }
     const props = pr.data as Record<string, unknown>;
     if (el.component === 'raw') {
-      const rawIssue = checkRaw(el, opts.rawSvgMaxBytes ?? 8192);
+      const rawIssue = checkRaw(el, opts.rawSvgMaxBytes ?? 12288);
       if (rawIssue) {
         issues.push(`elements.${i} (${el.id}).svg: ${rawIssue}`);
         continue;

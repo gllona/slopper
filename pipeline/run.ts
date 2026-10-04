@@ -8,7 +8,7 @@ import { FetchFailedError, runFetch } from './fetch/index.ts';
 import { LiveHttp, ReplayHttp } from './fetch/http.ts';
 import { CopFileSchema, type CopFile, type CopVerdict } from './schemas/cop.ts';
 import { CriticFileSchema, evaluateScores, type CriticFile } from './schemas/critic.ts';
-import { CurateOutputSchema, type CurateOutput } from './schemas/curate.ts';
+import { CurateArchiveSchema, type CurateOutput } from './schemas/curate.ts';
 import { DigestSchema, type Digest } from './schemas/digest.ts';
 import { SceneSchema } from './schemas/scene.ts';
 import { ArtFailedError, runArt, type ArtAttempt } from './stages/art.ts';
@@ -97,7 +97,7 @@ export async function runDay(opts: RunOptions): Promise<RunResult> {
   let curate: CurateOutput =
     from <= 1
       ? await withLimitRetry('curate', () => runCurate({ date: opts.date, digest, recent, storylines: storylinesPrev, config }))
-      : read('curate.json', (v) => CurateOutputSchema.parse(v));
+      : read('curate.json', (v) => normalizeCurate(CurateArchiveSchema.parse(v)));
   if (from <= 1) save('curate.json', curate);
 
   // 3. art loop
@@ -182,6 +182,11 @@ export async function runDay(opts: RunOptions): Promise<RunResult> {
   const labels = prLabels(day, config.dryRun);
   log.info(`${prTitle(day)} [${labels.join(', ')}] → ${dir}`);
   return { dir, title: prTitle(day), labels };
+}
+
+/** Old curate.json files (before decision 45) have a plain-text cast: treat unknown kinds as objects. */
+function normalizeCurate(c: ReturnType<typeof CurateArchiveSchema.parse>): CurateOutput {
+  return { ...c, brief: { ...c.brief, cast: c.brief.cast.map((m) => (typeof m === 'string' ? { who: m, kind: 'object' as const } : m)) } };
 }
 
 /** Whether a Curate revision kept the visual idea (so the image can be revised instead of redrawn). */

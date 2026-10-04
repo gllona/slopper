@@ -10,8 +10,8 @@
   "artboard": 1080,
   "safeArea": 60,
   "svgMaxKB": 150,
-  "rawSvgMaxBytes": 8192,
-  "maxRawElements": 3,
+  "rawSvgMaxBytes": 12288,
+  "maxRawElements": 5,
   "maxWordsInArt": 6,
   "animation": {
     "minSec": 3,

@@ -132,6 +132,7 @@ export async function runCurate(input: CurateInput): Promise<CurateOutput> {
       if (!styles.includes(out.brief.style)) problems.push(`brief.style: "${out.brief.style}" is not one of ${styles.join(', ')}`);
       if (yesterdayStyle && out.brief.style === yesterdayStyle && styles.length > 1) problems.push(`brief.style: yesterday used "${yesterdayStyle}"; choose another card`);
       if (out.brief.artType === 'animated' && (out.brief.beats?.length ?? 0) < 2) problems.push('brief.beats: an animated brief needs 2–4 story beats');
+      problems.push(...castingProblems(out.brief.cast));
       return problems;
     },
   });
@@ -142,4 +143,17 @@ export async function runCurate(input: CurateInput): Promise<CurateOutput> {
 /** For debugging and PR bodies. */
 export function curateSummary(out: CurateOutput): string {
   return toYaml({ mode: out.mode, motto: out.motto, phrase: out.phrase, style: out.brief.style, artType: out.brief.artType });
+}
+
+const ROBOT_WORDS = /\b(robots?|android|bots?|automaton|cyborg)\b/i;
+
+/** Casting rule (decision 45): a person or institution must not be described as a robot. */
+export function castingProblems(cast: { who: string; kind: string }[]): string[] {
+  return cast
+    .map((c, i) =>
+      (c.kind === 'person' || c.kind === 'institution') && ROBOT_WORDS.test(c.who)
+        ? `brief.cast.${i}: "${c.who}" is a ${c.kind} but described as a robot. People are drawn as humans and institutions as buildings or the people who run them; a robot is only for an AI system (or when the joke is explicitly that AI replaced them, then use kind "ai" and say so in the concept).`
+        : null,
+    )
+    .filter((p): p is string => p !== null);
 }

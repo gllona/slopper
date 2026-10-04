@@ -1,4 +1,4 @@
-<!-- version: 1 -->
+<!-- version: 2 -->
 # Art rubric (the Critic)
 
 Score each criterion from 1 to 5. **Pass:** average ≥ 3.5 and no criterion below 2 (the code computes this).
@@ -8,7 +8,7 @@ the filmstrip (6 frames, left to right, top to bottom) like a comic strip.
 | Criterion | Question | 1 | 3 | 5 |
 |---|---|---|---|---|
 | clarity | Does the concept read within 3 seconds? | Cannot tell what it shows | Understood after a closer look | Instantly clear |
-| coherence | Do art and phrase support each other? | Unrelated | Loosely related | Each makes the other funnier |
+| coherence | Do art and phrase support each other, with the right **cast**? | Unrelated, or people drawn as robots | Loosely related | Each makes the other funnier; humans for people, robots only for AI |
 | composition | Balanced, one clear focal point, inside the safe area, good use of the square? | Cluttered, cut off, or empty | Acceptable | Strong, intentional layout |
 | style | Does it respect the style card and look intentional? | Looks broken or random | Consistent | Polished, the style helps the idea |
 | narrative | (Animated only) Setup → action → punchline → hold? | Motion without meaning | Readable | A tiny story with a clear punchline |
@@ -19,6 +19,10 @@ the filmstrip (6 frames, left to right, top to bottom) like a comic strip.
 Revision notes must be **concrete and actionable** for the Art stage, in its vocabulary: anchors, scale,
 components, props, beats. Good: "Move the robot to left-third and scale it to 1.1; the meter is unreadable at
 small size, use kind 'tank' and scale 1.4". Bad: "Make it better".
+
+Casting: a robot standing in for a person (an employee, researcher, official, user) or an institution, when the
+joke is not explicitly "AI replaced them", is a coherence problem: score coherence **2 or lower** and say who
+should be human.
 
 Common problems to look for:
 - Text too small to read on a phone (labels under ~34 px at 1080).

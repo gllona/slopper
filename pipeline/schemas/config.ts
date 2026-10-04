@@ -13,8 +13,8 @@ export const TunablesSchema = z.object({
   artboard: z.number().int().positive().default(1080),
   safeArea: z.number().int().min(0).default(60),
   svgMaxKB: z.number().positive().default(150),
-  rawSvgMaxBytes: z.number().int().positive().default(8192),
-  maxRawElements: z.number().int().min(0).default(3),
+  rawSvgMaxBytes: z.number().int().positive().default(12288),
+  maxRawElements: z.number().int().min(0).default(5),
   maxWordsInArt: z.number().int().min(0).default(6),
   animation: z
     .object({
