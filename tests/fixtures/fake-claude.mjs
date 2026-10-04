@@ -6,6 +6,7 @@
 //   cop-revise     the cop asks Curate to revise once, then passes
 //   cop-hold       the cop holds
 //   limit          every call reports a usage limit
+//   cast-person    the brief casts a person, but the art still draws only robots (casting check)
 // FAKE_CLAUDE_STATE: a directory for call counters and a log of received argv.
 import { appendFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
@@ -53,7 +54,7 @@ if (stage === 'curate') {
       motto: revising ? 'The Careful Pause' : 'The Big Pause',
       phrase: revising ? 'A big lab paused its strongest models. Everyone else checked their own pause button.' : 'A big lab pressed pause on its strongest models. The models asked what pause means.',
       phraseAlternatives: ['The strongest model is now resting. Nobody knows who will wake it up.'],
-      brief: { concept: 'A robot sits next to a giant pause sign.', metaphor: 'Pause button', cast: ['a robot'], style, composition: 'Robot left, sign right.', artType: 'static', alt: 'A robot sits next to a big pause sign.' },
+      brief: { concept: 'A robot sits next to a giant pause sign.', metaphor: 'Pause button', cast: flags.has('cast-person') ? [{ who: 'a tired nurse', kind: 'person' }, { who: 'a scheduling chatbot', kind: 'ai' }] : [{ who: 'a robot that stands for the paused model', kind: 'ai' }], style, composition: 'Robot left, sign right.', artType: 'static', alt: 'A robot sits next to a big pause sign.' },
       sourceIds: ids,
       dimensions: { safety: 3, industry: 2 },
       mood: { hype_doom: -1, calm_frantic: 1 },

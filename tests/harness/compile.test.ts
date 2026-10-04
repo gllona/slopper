@@ -175,8 +175,9 @@ describe('compile', () => {
       expect(issues({ ...base, elements: [raw(`<path d="${'M0 0L1 1'.repeat(2000)}"/>`)] })[0]).toMatch(/larger than/);
     });
     it('limits the number of raw elements', () => {
-      const els = [0, 1, 2, 3].map((i) => raw('<rect class="r-body" width="10" height="10"/>', `r${i}`));
-      expect(issues({ ...base, elements: els })[0]).toMatch(/at most 3 raw/);
+      const els = (n: number) => Array.from({ length: n }, (_, i) => raw('<rect class="r-body" width="10" height="10"/>', `r${i}`));
+      expect(issues({ ...base, elements: els(5) })).toEqual([]); // improvised props: up to 5 (decision 45)
+      expect(issues({ ...base, elements: els(6) })[0]).toMatch(/at most 5 raw/);
     });
   });
 });

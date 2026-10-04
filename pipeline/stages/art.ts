@@ -181,6 +181,9 @@ async function drawScene(input: ArtInput, feedback: Feedback | null, previousDir
       const problems: string[] = [];
       if (scene.style !== style) problems.push(`style: must be "${style}" (the brief's choice)`);
       if (Boolean(scene.animation) !== (curate.brief.artType === 'animated')) problems.push(`animation: the brief asks for a ${curate.brief.artType} slopper`);
+      const people = curate.brief.cast.filter((c) => c.kind === 'person');
+      if (people.length && !scene.elements.some((e) => e.component === 'human'))
+        problems.push(`casting: the brief has people (${people.map((p) => p.who).join('; ')}); draw them with the "human" component, not as robots`);
       try {
         compileScene(scene, { artboard: config.artboard, safeArea: config.safeArea, rawSvgMaxBytes: config.rawSvgMaxBytes, maxRawElements: config.maxRawElements });
       } catch (e) {

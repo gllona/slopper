@@ -9,7 +9,7 @@ import { runDay, sameVisualIdea } from '../../pipeline/run.ts';
 import { CopFileSchema } from '../../pipeline/schemas/cop.ts';
 import type { CurateOutput } from '../../pipeline/schemas/curate.ts';
 import { DaySchema, type Day } from '../../pipeline/schemas/day.ts';
-import { modeRule } from '../../pipeline/stages/curate.ts';
+import { castingProblems, modeRule } from '../../pipeline/stages/curate.ts';
 import { updateStorylines } from '../../pipeline/storylines.ts';
 import { modeContext } from '../../pipeline/util/archive.ts';
 import { loadConfig } from '../../pipeline/util/config.ts';
@@ -133,9 +133,18 @@ describe('mode rules (DESIGN §6.3–6.4)', () => {
   });
 });
 
+describe('casting rule (decision 45)', () => {
+  it('rejects people and institutions described as robots', () => {
+    expect(castingProblems([{ who: 'a robot wearing a lab coat', kind: 'person' }])[0]).toMatch(/is a person but described as a robot/);
+    expect(castingProblems([{ who: 'two robots in suits', kind: 'institution' }])).toHaveLength(1);
+    expect(castingProblems([{ who: 'a robot hand crossing out a shift', kind: 'ai' }, { who: 'a tired nurse in scrubs', kind: 'person' }])).toEqual([]);
+    expect(castingProblems([{ who: 'a robotics engineer', kind: 'person' }])).toEqual([]); // "robotics" is not a robot
+  });
+});
+
 describe('Cop revisions', () => {
   it('keep the image when only the words change', () => {
-    const brief = { concept: 'c', metaphor: 'm', cast: ['a robot'], style: 'blueprint', composition: 'x', artType: 'static', alt: 'A robot on a blueprint.' };
+    const brief = { concept: 'c', metaphor: 'm', cast: [{ who: 'a robot', kind: 'ai' }], style: 'blueprint', composition: 'x', artType: 'static', alt: 'A robot on a blueprint.' };
     const a = { motto: 'One Two', phrase: 'x', brief } as unknown as CurateOutput;
     expect(sameVisualIdea(a, { ...a, motto: 'Three Four', phrase: 'y', brief: { ...brief, alt: 'Another alt text here.' } } as CurateOutput)).toBe(true);
     expect(sameVisualIdea(a, { ...a, brief: { ...brief, concept: 'new idea' } } as CurateOutput)).toBe(false);
@@ -203,6 +212,10 @@ describe('npm run day (with a fake claude)', () => {
     const first = await run();
     const again = await run('', 'cop', first.out);
     expect(again.dir).toBe(first.dir);
+  }, 120_000);
+
+  it('rejects art that draws the people of the cast as robots', async () => {
+    await expect(run('cast-person')).rejects.toThrow(/casting: the brief has people \(a tired nurse\)/);
   }, 120_000);
 
   it('fails cleanly on a usage limit when not waiting', async () => {

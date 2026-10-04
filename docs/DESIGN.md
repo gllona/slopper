@@ -427,7 +427,7 @@ Scenes are **declarative JSON**, validated by a schema. Scenes are never executa
 
 - `animation` is omitted for static sloppers.
 - Unknown components, props, actions, or anchors are schema errors (fed back to Art).
-- **Escape hatch:** an element may use `"component": "raw"` with an `svg` string for one-off shapes. Raw SVG is sanitized and size-limited (config `rawSvgMaxBytes`, default 8 KB per element, max 3 raw elements per scene).
+- **Escape hatch:** an element may use `"component": "raw"` with an `svg` string for one-off shapes. Raw SVG is sanitized and size-limited (config `rawSvgMaxBytes`, 12 KB per element, max 5 raw elements per scene: props are improvised here, decision 45).
 
 ### 9.4 Components (`harness/components/`)
 
@@ -839,8 +839,8 @@ slopper/
   "artboard": 1080,
   "safeArea": 60,
   "svgMaxKB": 150,
-  "rawSvgMaxBytes": 8192,
-  "maxRawElements": 3,
+  "rawSvgMaxBytes": 12288,
+  "maxRawElements": 5,
   "maxWordsInArt": 6,
   "animation": { "minSec": 3, "maxSec": 9, "filmstripFrames": 6 },
   "critic": { "passAverage": 3.5, "minScore": 2 },
@@ -1242,6 +1242,7 @@ Build in this order. Each milestone ends with tests passing and a short demo.
 | 42 | **"Slop-art", not "art"** in everything visitors see (site pages, meta description and feed subtitle, default social image, README, `LICENSE-ART.md`, the `critic-fail` label). Many artists do not accept AI-made images as art; the name is also more satirical. Internal code names (`art.ts`, `artType`, the Art stage), prompts, and these docs keep "art" (Gorka's choice: public texts only). |
 | 43 | **Public URLs use the publication date** (news date + 1): a link shared on the day it goes out carries that day's date. The page shows the publication date and "News of <news date>"; feed, sitemap, `/today/`, `og.png`, and the Telegram links follow. The archive folder, `day.json`, branches, PR titles, numbering, and `LAUNCH_DATE` keep the news date. Slopper #1 (news of 2026-09-30) is at `/2026/10/01/`. |
 | 44 | **Instagram** (`@sloppertoday`): the `slopper-clock` Worker reads `/latest.json` every 15 minutes and posts each newly published slopper (square `still.jpg`, caption from the Cop-approved motto and phrase, alt text) through the free Instagram API with Instagram Login (Meta app in Development mode, account as Instagram Tester: no App Review). Instagram and Telegram credentials live only in Cloudflare (KV keeps the weekly-refreshed token, the last posted date, and retry counts; max 3 tries per slopper, Telegram on success and failure). One approval covers site and Instagram. TikTok (private-only until audited) and X (no free tier since 2026-02-06) were rejected for cost; iLands.ai deferred. |
+| 45 | **Casting rule:** people are human figures, AI is a robot (only for AI systems, or when the joke is that AI replaced someone); institutions are buildings, signs, or the people who run them; roles come from the situation, not costumes. Brief cast members carry a `kind` (`person` / `institution` / `ai` / `object`); Curate rejects a person or institution described as a robot; Art rejects a scene without a `human` when the cast has people; the critic scores coherence ≤ 2 for robots standing in for people. **Props stay improvised** raw shapes (no fixed prop components, no per-role figures: they would stereotype the actors): up to 5 raw shapes of 12 KB per scene. The Cop checks that paraphrases keep the nature of an accusation. Reason: Sloppers #1 and #2 drew AI leaders, researchers, and regulators as robots (9 robots vs 2 humans in the first 6 scenes). |
 ## Appendix A — Voice candidates (reviewed)
 
 Reviewed by Gorka. **A** (approved) lines go into `knowledge/voice.md` as good examples. **D** (denied) lines go in as rejected examples (no reason given; treat them as "not the Slopper voice").

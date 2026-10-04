@@ -35,7 +35,7 @@ Grid anchors are the centers of a 3×3 grid over the safe area. `left-third`, `c
 | `sun` | no | `mood` | Sun or moon, ~300×300 px with rays. props: mood (none\|happy\|…), rays (bool), kind (sun\|moon). parts: rays. |
 | `label` | no | — | Short text label (counts against the 6-word limit). props: text, size (sm 34px\|md 46px\|lg 68px\|xl 104px), kind (plain\|tag = pill\|sign = board on a post, grounded look), color (text\|accent\|paper). |
 | `meter` | no | `level` | Gauge whose level can rise or fall: tank (110×280 px), bar (320×70 px), thermometer (90×300 px). props: level (0..1), kind (tank\|bar\|thermometer), color (accent\|body). Use "set" with {level} to animate. |
-| `raw` | no | — | Escape hatch: "svg" is an SVG fragment in a local 0..width×0..height box (props: width, height), centered on the anchor. Use role classes (r-body, r-body-alt, r-accent, r-accent-2, r-ink, r-paper, r-line, r-thin, r-shade, r-glow) instead of colors. No <text>, <style>, or scripts. Max 8 KB, max 3 per scene. |
+| `raw` | no | — | Escape hatch: "svg" is an SVG fragment in a local 0..width×0..height box (props: width, height), centered on the anchor. Use role classes (r-body, r-body-alt, r-accent, r-accent-2, r-ink, r-paper, r-line, r-thin, r-shade, r-glow) instead of colors. No <text>, <style>, or scripts. Max 12 KB, max 5 per scene. Use it freely for props (a gavel, a box of files, a badge): improvised props keep every slopper different. |
 
 ## Animation
 
@@ -110,4 +110,4 @@ A two-ink risograph print (blue and fluorescent pink) on warm cream paper. Flat 
 
 ## Raw SVG (escape hatch)
 
-`{"id": "x", "component": "raw", "at": "center", "props": {"width": 200, "height": 120}, "svg": "<path class=\"r-accent\" d=\"…\"/>"}` — drawn in a local 0..width × 0..height box. Max 8 KB each, max 3 per scene, no `<text>`/`<style>`/scripts, palette colors only. Ids are namespaced automatically. Good raw shapes can be promoted to components (label `component-proposal`).
+`{"id": "x", "component": "raw", "at": "center", "props": {"width": 200, "height": 120}, "svg": "<path class=\"r-accent\" d=\"…\"/>"}` — drawn in a local 0..width × 0..height box. Max 12 KB each, max 5 per scene, no `<text>`/`<style>`/scripts, palette colors only. Ids are namespaced automatically. Props (a gavel, a box of files, a badge, a door) are meant to be improvised here, differently every day.

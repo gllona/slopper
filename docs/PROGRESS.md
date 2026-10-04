@@ -14,14 +14,32 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 | M6 — Automation | ✅ | first dry run on GitHub: PR #5 (critic passed on the 3rd try) |
 | M7 — Calibration | ✅ | notifications, clock, art feedback, slop-art, publication-date URLs |
 | M8 — Launch | ✅ | **2026-10-01: Slopper #1 "Self-Policing Season" live** |
-| M9 — Evolution | ⬜ | |
+| M9 — Evolution | 🟡 | first iteration 2026-10-03: casting rule (decision 45) |
 
 ## Waiting for Gorka
 
-1. iLands.ai research (unblocked: Instagram works) or M9 (weekly lessons job): Gorka's choice.
-3. Optional: enable **Cloudflare Web Analytics**.
+1. Commit + merge `feat/m9-casting`.
+2. Still open: iLands.ai research; animations more often / Instagram Reels; the weekly lessons job (`lessons.yml`).
 
 ---
+
+## M9 — Evolution 🟡
+
+### 2026-10-03 (Saturday): first iteration — casting
+
+- Gorka noticed Slopper #2 drew human safety researchers and FTC regulators as robots; #1 drew "AI leaders" as
+  robots in suits. Across the first 6 scenes: 9 robots, 2 humans. #3 ("Cleanup Duty") already cast a nurse as
+  a human.
+- Decision 45: **people are humans, AI is a robot**; cast members carry a `kind`; Curate and Art check it in
+  code; the critic scores robots-for-people as a coherence problem. Props stay improvised raw shapes (Gorka
+  rejected fixed prop components and per-role figures as stereotypes): up to 5 per scene (was 3), 12 KB each.
+  The Cop rubric now checks that a paraphrase keeps the nature of an accusation ("records dispute" in #2).
+- Versions: curate prompt 2, art prompt 3, rubric-art 2, rubric-cop 2, LESSONS 2. Old `day.json` files with a
+  plain-text cast stay valid.
+- Live test on #2's news (Oct 1, archived digest): cast judge + website owner as `person`, chatbot as `ai`;
+  scene 9 humans, 1 robot (the chatbot), 5 raw props; the critic said "the cast is right" twice and passed on
+  attempt 2 (3.57; remaining note: composition, top third empty). Cop pass. 317 s.
+- Not done (Gorka): repairing old merged PR images; actor variations.
 
 ## After launch: fixes
 

@@ -1,6 +1,6 @@
 import { z } from 'zod';
 import { DimensionSchema } from './common.ts';
-import { BriefSchema, MottoSchema, PhraseSchema } from './day.ts';
+import { BriefSchema, CastMemberSchema, MottoSchema, PhraseSchema } from './day.ts';
 
 const Score03 = z.number().int().min(0).max(3);
 const Mood = z.number().int().min(-2).max(2);
@@ -35,7 +35,7 @@ export const CurateOutputSchema = z.object({
   motto: MottoSchema,
   phrase: PhraseSchema,
   phraseAlternatives: z.array(PhraseSchema).min(1).max(5),
-  brief: BriefSchema,
+  brief: BriefSchema.extend({ cast: z.array(CastMemberSchema).min(1).max(8) }),
   sourceIds: z.array(z.string()).max(8).describe('Digest item ids supporting the facts in the phrase and art'),
   dimensions: z.partialRecord(DimensionSchema, Score03),
   mood: z.object({ hype_doom: Mood, calm_frantic: Mood }),
