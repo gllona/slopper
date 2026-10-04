@@ -43,6 +43,11 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 
 ## After launch: fixes
 
+- 2026-10-04: CI on Slopper #4's PR failed with Chromium "Unable to capture screenshot" in a test that runs the
+  whole pipeline (fake Claude) while other test files also ran Chromium: a load-related flake, not the slopper.
+  Fix: `screenshot()` in `harness/render.ts` retries that error up to 3 times (also protects the real daily run);
+  CI runs at most 2 test files in parallel. Unblock: re-run the failed `ci` job.
+
 - 2026-10-02: after a `regenerate`, the Telegram message (and the PR description) showed the **previous**
   attempt's image: both used `…/raw/slopper/<date>/…/still.png`, the same URL for the same branch name, and
   Telegram caches photos by URL. The images in the two commits differed (checked by hash). Fix: image links use
