@@ -1,0 +1,98 @@
+{
+  "passed": false,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"lab\" extends outside the safe area in the final frame (x 52…316, y 486…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The blueprint style and correct human casting work, but the missing resignation box and a gavel that renders as a strange stretched pointing arm blur both specific story beats, and a near-repeat of the recent blueprint look hurts novelty — not quite publish-ready.",
+        "revisionNotes": [
+          "Restore the \"box\" prop (attachTo researcher, side right, scale 0.9) — it isn't visible in the render, so the resignation beat (carrying belongings out) is lost.",
+          "The judge's gavel reads as a single stretched arm reaching to the screen rather than a mallet mid-swing; rebuild it as a clear head+handle shape (rotate -35°, scale back to ~0.8) so the court beat is legible.",
+          "The \"lab\" datacenter component currently reads as a locker/vending machine; shrink scale to ~0.9 and nudge x right ~20px to clear the flagged safe-area overlap and add a visible open-door line.",
+          "Add the soft horizon line from the brief between the two scenes so the building+researcher and judge+screen read as two distinct institutions, not one continuous row.",
+          "Vary the blueprint palette/grid slightly from the other recent blueprint piece (robots-on-blueprint) — alternate accent hue or line weight to keep the style card from repeating.",
+          "Keep the crack and torn-paper props as-is; they read fine at current scale and anchor the problem/consequence beats well."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 4,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Clean blueprint execution and correct human-for-people casting, but the two props that carry the joke — the resignation box and the mid-swing gavel — don't actually read in the final frame, so the specific story falls back entirely on the caption; the palette also closely echoes the prior blueprint slopper. Does not pass.",
+        "revisionNotes": [
+          "The box and gavel are essentially invisible: box (attached right of researcher, offset y+90) and gavel (rotate -35, scale 0.8 on judge) blend into the bodies. Scale both to ~1.3 and clear the silhouette so the carried box and the mid-strike gavel actually read.",
+          "The lab renders as an electrical cabinet with a lightning bolt, not 'a plain lab building with its door standing open' from the brief; add a door outline the researcher is stepping through so the exit beat reads.",
+          "Palette and treatment (dark blue grid, white linework, single accent) closely match the most recent blueprint slopper in recent.png; shift background tone or accent hue, or break the grid, to differentiate this piece.",
+          "Both shirts use the same bright accent yellow as the screen's X, which should be the one highlight color per the brief; recolor the clothing neutral so the X and torn paper are the sole accent.",
+          "Brief calls for two scenes sharing a soft horizon with a gap; the four elements read as one continuous row. Widen the gap between researcher and judge so the two institutions feel like separate beats.",
+          "The judge has no robe or bench cue beyond proximity to the screen; add a simple raw-shape bench or robe line so the second figure reads unambiguously as a judge, not a bystander."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Correct human casting and a clean caption, but the box and gavel render as unreadable shapes (a stray stick, a floating disconnected gavel) and the torn paper looks like a ribbon, which drags clarity, coherence, and polish down enough to miss the pass bar.",
+        "revisionNotes": [
+          "Rebuild the box prop: it currently renders as a bare diagonal stick instead of the specified rectangle with a dividing line, so it reads as debris, not belongings being carried out — restore the closed rectangle at scale 1.3.",
+          "Attach the gavel directly to the judge's hand; right now it floats disconnected in the gap between the judge and the screen with no contact point, so the 'mid-swing' action doesn't read.",
+          "Redraw the torn-paper shape under the screen — the current silhouette reads as a ribbon or pennant/award, not a scrap of paper falling; give it jagged torn edges and a clear downward drift.",
+          "Nudge the lab building anchor right (toward x 0.20-0.22); its left edge sits close to the safe margin and feels cramped against the frame.",
+          "Vary the accent palette from the immediately preceding blueprint slopper (same navy/white/yellow combo) so this doesn't read as a near-repeat in color and style.",
+          "Keep the 'TOO LATE' caption as is — it's legible and lands the point cleanly."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    }
+  ]
+}

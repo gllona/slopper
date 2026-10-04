@@ -1,0 +1,218 @@
+{
+  "date": "2026-10-03",
+  "number": 4,
+  "mode": "fresh",
+  "motto": "Nobody's Policing Anybody",
+  "phrase": "A safety worker resigned from a top AI lab and called its culture broken. A court overturned a sentence after ruling that an AI-made video should not have been shown.",
+  "phraseAlternatives": [
+    "One employee quit a leading AI lab, warning that its safety culture is broken. One court decided an AI video had no place in its courtroom.",
+    "An AI safety insider walked out and called the culture broken. Nearby, a judge walked back a sentence over an AI video that went too far.",
+    "A safety worker quit an AI lab, saying it polices itself badly. The same week, a court ruled that AI-made evidence still needs real rules."
+  ],
+  "alt": "A tired person carries a small box out of a plain lab building with a crack above its roof, while a judge brings a gavel down beside a video screen marked with a large X, a torn paper falling from it. A caption reads TOO LATE.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "industry": 2,
+    "labor": 2,
+    "policy": 2,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 0
+  },
+  "storylines": [
+    "ai-safety-self-policing",
+    "courtroom-ai-deepfake",
+    "ai-agent-social-profiling",
+    "datacenter-backlash-campaign",
+    "ai-radio-host",
+    "ai-memory-price-surge"
+  ],
+  "topStories": [
+    {
+      "title": "OpenAI safety employee resigns, says lab's culture is broken",
+      "itemIds": [
+        "feeds:f6f593b76583",
+        "feeds:801ec396652b",
+        "techmeme:6ce59928d0fc",
+        "hackernews:2abad21a6a05"
+      ],
+      "dimensions": [
+        "safety",
+        "policy",
+        "labor",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-safety-self-policing"
+    },
+    {
+      "title": "Killer's sentence quashed over AI video of victim shown in court",
+      "itemIds": [
+        "hackernews:f2d260de0be3"
+      ],
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "courtroom-ai-deepfake"
+    },
+    {
+      "title": "Meta's AI agent builds detailed profiles of friends and family",
+      "itemIds": [
+        "feeds:c9541274a24f",
+        "feeds:b6aee1da4c9d"
+      ],
+      "dimensions": [
+        "society",
+        "safety",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agent-social-profiling"
+    },
+    {
+      "title": "Amazon ends NDAs after datacenter backlash",
+      "itemIds": [
+        "feeds:67165811a40f"
+      ],
+      "dimensions": [
+        "industry",
+        "planet",
+        "policy",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "AI DJ co-hosts radio show as workers fear replacement",
+      "itemIds": [
+        "techmeme:d84c1b5f545d"
+      ],
+      "dimensions": [
+        "labor",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "ai-radio-host"
+    },
+    {
+      "title": "AI-driven memory shortage raises price of aging streaming device",
+      "itemIds": [
+        "feeds:c4f8e44fc9bd"
+      ],
+      "dimensions": [
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "ai-memory-price-surge"
+    }
+  ],
+  "brief": {
+    "concept": "A tired worker walks out of a lab building carrying a small box labeled with nothing, and beside that scene a judge brings a gavel down next to a video screen marked with a large X and a torn paper falling from it.",
+    "metaphor": "Two institutions only fix their trust problem after something has already gone wrong.",
+    "cast": [
+      {
+        "who": "a tired safety researcher carrying a small box out of a lab building",
+        "kind": "person"
+      },
+      {
+        "who": "a plain lab building with its door standing open",
+        "kind": "institution"
+      },
+      {
+        "who": "a judge mid-swing with a gavel",
+        "kind": "person"
+      },
+      {
+        "who": "a video screen with a large X and a torn sentencing paper beside it",
+        "kind": "object"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Two scenes share a soft horizon line, no hard divider. Left: the researcher steps through the lab's open door, box in hand, a small crack shape floating above the roofline. Right: the judge's gavel is caught mid-strike beside the video screen, its X in the single highlight color, with the torn paper drifting toward the ground. Even spacing, generous white space, at most one short label if needed.",
+    "artType": "static",
+    "alt": "A tired person carries a small box out of a plain office building, while nearby a judge brings down a gavel beside a video screen marked with a large X and a scrap of torn paper falling from it."
+  },
+  "sources": [
+    {
+      "id": "feeds:f6f593b76583",
+      "title": "An OpenAI safety employee has quit and is sounding the alarm",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-03T14:31:56.000Z"
+    },
+    {
+      "id": "feeds:801ec396652b",
+      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-03T16:30:01.000Z"
+    },
+    {
+      "id": "hackernews:2abad21a6a05",
+      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "source": "hackernews",
+      "publisher": "theguardian.com",
+      "publishedAt": "2026-10-03T22:18:13.000Z"
+    },
+    {
+      "id": "techmeme:6ce59928d0fc",
+      "title": "David Robinson, ex-OpenAI safety and policy: SV lacks a safety-centric culture; labs must study other fields' safety approaches; time for trial and error's over (David Robinson/The Atlantic)",
+      "url": "https://www.techmeme.com/261003/p12",
+      "source": "techmeme",
+      "publisher": "Techmeme",
+      "publishedAt": "2026-10-03T20:30:01.000Z"
+    },
+    {
+      "id": "hackernews:f2d260de0be3",
+      "title": "US killer's sentence quashed because of AI video of victim shown in court",
+      "url": "https://www.bbc.com/news/articles/cwgkvygg5nzvo",
+      "source": "hackernews",
+      "publisher": "bbc.com",
+      "publishedAt": "2026-10-03T13:34:18.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.29,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-04T11:28:12.335Z"
+}
