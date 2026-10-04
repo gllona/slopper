@@ -41,7 +41,7 @@
     "wrangler": "^4.141.0"
   },
   "dependencies": {
-    "fast-xml-parser": "^5.11.1",
+    "fast-xml-parser": "^5.11.2",
     "opentype.js": "^2.0.0",
     "playwright": "^1.63.0",
     "pngjs": "^7.0.0",
