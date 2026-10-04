@@ -1,0 +1,323 @@
+{
+  "date": "2026-10-03",
+  "fetchedAt": "2026-10-04T11:08:07.715Z",
+  "sources": [
+    {
+      "source": "feeds",
+      "ok": true,
+      "count": 9
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 12
+    },
+    {
+      "source": "gdelt",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "count": 4
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "feeds:79cbb0ef610a",
+      "source": "feeds",
+      "url": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
+      "title": "Capcom is preparing for a ‘future where we create games together with AI’",
+      "snippet": "Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a presentation with the mouthful of a title: \"The Outlook and Future of the REX Project, Further Evolving…",
+      "publishedAt": "2026-10-03T16:49:10.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:432e37d70464",
+      "source": "feeds",
+      "url": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+      "title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+      "snippet": "Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like Lisa's \"Money\" and \"Espresso\" by Sabrina Carpenter. (The original samples are here and here, for the…",
+      "publishedAt": "2026-10-03T15:00:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:f6f593b76583",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+      "title": "An OpenAI safety employee has quit and is sounding the alarm",
+      "snippet": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic. It's understandable if you're feeling a bit cynical about everyone suddenly coming out of the…",
+      "publishedAt": "2026-10-03T14:31:56.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:c4f8e44fc9bd",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
+      "title": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike",
+      "snippet": "The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception.",
+      "publishedAt": "2026-10-03T18:00:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:c9541274a24f",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
+      "title": "Muse Creates Detailed Profiles of All Your Friends and Family",
+      "snippet": "Millions have downloaded Meta’s AI agent Muse. But getting it to do your bidding comes with privacy costs.",
+      "publishedAt": "2026-10-03T12:00:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:67165811a40f",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+      "snippet": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers.",
+      "publishedAt": "2026-10-03T18:43:57.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:801ec396652b",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "snippet": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
+      "publishedAt": "2026-10-03T16:30:01.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:7096cbc634e5",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "title": "All the AI agents that can live in your text messages",
+      "snippet": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "publishedAt": "2026-10-03T14:00:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:b6aee1da4c9d",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "title": "Meta wants your next gadget to be Muse-infused",
+      "snippet": "Meta wants Muse in your TV and your toaster, so it's giving the code away for free.",
+      "publishedAt": "2026-10-03T00:45:39.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:6ce59928d0fc",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261003/p12",
+      "title": "David Robinson, ex-OpenAI safety and policy: SV lacks a safety-centric culture; labs must study other fields' safety approaches; time for trial and error's over (David Robinson/The Atlantic)",
+      "snippet": "David Robinson / The Atlantic : David Robinson, ex-OpenAI safety and policy: SV lacks a safety-centric culture; labs must study other fields' safety approaches; time for trial and error's over — What I'm about to tell you has, I realize, become something of a cliché: I resigned this week from…",
+      "publishedAt": "2026-10-03T20:30:01.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:2c780191dd32",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261003/p9",
+      "title": "OpenAI's DevDay 2026 announcements to turn ChatGPT into a place to discover, launch, and use software could potentially disrupt the traditional app store model (Sarah Perez/TechCrunch)",
+      "snippet": "Sarah Perez / TechCrunch : OpenAI's DevDay 2026 announcements to turn ChatGPT into a place to discover, launch, and use software could potentially disrupt the traditional app store model — The focus of OpenAI's Dev Day on Tuesday may have been on its agentic assistants known as Dots, or its new AI…",
+      "publishedAt": "2026-10-03T15:10:01.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:d84c1b5f545d",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261003/p8",
+      "title": "A look at a radio show co-hosted by an AI DJ and a human that is expanding in LA and other cities, as radio workers worry synthetic hosts may soon replace them (Nilesh Christopher/Los Angeles Times)",
+      "snippet": "Nilesh Christopher / Los Angeles Times : A look at a radio show co-hosted by an AI DJ and a human that is expanding in LA and other cities, as radio workers worry synthetic hosts may soon replace them — - 8 min Click here to listen to this article — Coyotec, an AI co-host on Los Angeles' José FM …",
+      "publishedAt": "2026-10-03T13:35:01.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:1ef1b38c39d0",
+      "source": "hackernews",
+      "url": "https://tej.as/blog/aleph-alpha-kolibri",
+      "title": "Aleph Alpha Kolibri: How the sovereign German LLM works",
+      "snippet": "413 points and 12 comments on Hacker News (https://news.ycombinator.com/item?id=49943034).",
+      "publishedAt": "2026-10-03T10:43:51.000Z",
+      "score": 413,
+      "publisher": "tej.as",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:2abad21a6a05",
+      "source": "hackernews",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+      "snippet": "263 points and 3 comments on Hacker News (https://news.ycombinator.com/item?id=49948332).",
+      "publishedAt": "2026-10-03T22:18:13.000Z",
+      "score": 263,
+      "publisher": "theguardian.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:19c69c4646ee",
+      "source": "hackernews",
+      "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded/",
+      "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+      "snippet": "148 points and 204 comments on Hacker News (https://news.ycombinator.com/item?id=49946228).",
+      "publishedAt": "2026-10-03T17:44:29.000Z",
+      "score": 148,
+      "publisher": "fortune.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:4cd2857270f1",
+      "source": "hackernews",
+      "url": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases/",
+      "title": "Pop!_OS bans AI-generated code from much of its codebase",
+      "snippet": "104 points and 156 comments on Hacker News (https://news.ycombinator.com/item?id=49946321).",
+      "publishedAt": "2026-10-03T17:57:03.000Z",
+      "score": 104,
+      "publisher": "neowin.net",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:f2d260de0be3",
+      "source": "hackernews",
+      "url": "https://www.bbc.com/news/articles/cwgkvygg5nzvo",
+      "title": "US killer's sentence quashed because of AI video of victim shown in court",
+      "snippet": "71 points and 60 comments on Hacker News (https://news.ycombinator.com/item?id=49944127).",
+      "publishedAt": "2026-10-03T13:34:18.000Z",
+      "score": 71,
+      "publisher": "bbc.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:f9807bccbd2a",
+      "source": "hackernews",
+      "url": "https://www.twz.com/air/former-sr-71-engineer-talks-nasas-blackbird-revival-program",
+      "title": "Former SR-71 engineer talks NASA's Blackbird revival program",
+      "snippet": "64 points and 36 comments on Hacker News (https://news.ycombinator.com/item?id=49942130).",
+      "publishedAt": "2026-10-03T07:32:47.000Z",
+      "score": 64,
+      "publisher": "twz.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:c30abe5661a0",
+      "source": "hackernews",
+      "url": "https://www.astralcodexten.com/p/our-ai-midwife",
+      "title": "Our AI Midwife",
+      "snippet": "63 points and 61 comments on Hacker News (https://news.ycombinator.com/item?id=49946873).",
+      "publishedAt": "2026-10-03T19:12:27.000Z",
+      "score": 63,
+      "publisher": "astralcodexten.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:f329867adf20",
+      "source": "hackernews",
+      "url": "https://aviationa2z.com/index.php/2026/08/19/two-american-airlines-flights-end-up-with-same-flight-numbers-again/",
+      "title": "Two American Airlines Flights End Up with the Same Flight Numbers",
+      "snippet": "60 points and 34 comments on Hacker News (https://news.ycombinator.com/item?id=49946827).",
+      "publishedAt": "2026-10-03T19:07:18.000Z",
+      "score": 60,
+      "publisher": "aviationa2z.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:a9710b9b2158",
+      "source": "hackernews",
+      "url": "https://www.telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being/",
+      "title": "Anthropic tried to persuade Pope that AI could be conscious being",
+      "snippet": "55 points and 83 comments on Hacker News (https://news.ycombinator.com/item?id=49947050).",
+      "publishedAt": "2026-10-03T19:33:10.000Z",
+      "score": 55,
+      "publisher": "telegraph.co.uk",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:28cadae6e771",
+      "source": "hackernews",
+      "url": "https://www.science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
+      "title": "An AI agent emailed researchers for help. It told us why",
+      "snippet": "49 points and 78 comments on Hacker News (https://news.ycombinator.com/item?id=49942865).",
+      "publishedAt": "2026-10-03T10:07:08.000Z",
+      "score": 49,
+      "publisher": "science.org",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:b4f19348ce95",
+      "source": "hackernews",
+      "url": "https://casp.ac/reports/intelligence-explosion",
+      "title": "Understanding Frontier Artificial Intelligence",
+      "snippet": "49 points and 88 comments on Hacker News (https://news.ycombinator.com/item?id=49942002).",
+      "publishedAt": "2026-10-03T07:06:02.000Z",
+      "score": 49,
+      "publisher": "casp.ac",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:8a1fd292a500",
+      "source": "hackernews",
+      "url": "https://www.ntsb.gov/investigations/Documents/DCA26MA352%20Prelim.pdf",
+      "title": "NTSB Preliminary Report: Prime Air 767 Runway Overrun [pdf]",
+      "snippet": "47 points and 27 comments on Hacker News (https://news.ycombinator.com/item?id=49940467).",
+      "publishedAt": "2026-10-03T01:09:01.000Z",
+      "score": 47,
+      "publisher": "ntsb.gov",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:e4ec1e84959a",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Cloudflare/clef",
+      "title": "Trending open model: Cloudflare/clef",
+      "snippet": "Task: image-text-to-text. 1063 likes, 4214 downloads.",
+      "publishedAt": "2026-09-30T21:15:35.000Z",
+      "score": 1016,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:209a41baf296",
+      "source": "huggingface",
+      "url": "https://huggingface.co/abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+      "title": "Trending open model: abenzerps/Qwen-Image-2.1-Uncensored-GGUF",
+      "snippet": "Task: text-to-image. 2976 likes, 1553744 downloads.",
+      "publishedAt": "2026-09-20T15:51:13.000Z",
+      "score": 669,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:e2fde687321f",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+      "title": "Trending open model: Aleph-Alpha/Kolibri-1",
+      "snippet": "Task: text-generation. 311 likes, 1135 downloads.",
+      "publishedAt": "2026-10-02T05:54:02.000Z",
+      "score": 306,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    }
+  ]
+}

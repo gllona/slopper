@@ -1,0 +1,143 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {},
+  "elements": [
+    {
+      "id": "lab",
+      "component": "datacenter",
+      "at": {
+        "x": 0.17,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "racks": 2,
+        "lights": "off",
+        "steam": false,
+        "fans": false
+      }
+    },
+    {
+      "id": "crack",
+      "component": "raw",
+      "attachTo": "lab",
+      "side": "top",
+      "offset": [
+        0,
+        -10
+      ],
+      "scale": 0.8,
+      "props": {
+        "width": 140,
+        "height": 90
+      },
+      "svg": "<path d=\"M70 85 L52 50 L78 42 L58 10\" class=\"r-line\"/>"
+    },
+    {
+      "id": "researcher",
+      "component": "human",
+      "at": {
+        "x": 0.4,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "mood": "exhausted",
+        "pose": "stand",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "box",
+      "component": "raw",
+      "attachTo": "researcher",
+      "side": "right",
+      "offset": [
+        15,
+        60
+      ],
+      "scale": 0.9,
+      "props": {
+        "width": 90,
+        "height": 70
+      },
+      "svg": "<rect x=\"10\" y=\"20\" width=\"70\" height=\"40\" class=\"r-body\"/><line x1=\"10\" y1=\"20\" x2=\"80\" y2=\"20\" class=\"r-line\"/><line x1=\"45\" y1=\"20\" x2=\"45\" y2=\"60\" class=\"r-line\"/>"
+    },
+    {
+      "id": "judge",
+      "component": "human",
+      "at": {
+        "x": 0.62,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "mood": "neutral",
+        "pose": "point",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "gavel",
+      "component": "raw",
+      "attachTo": "judge",
+      "side": "right",
+      "offset": [
+        15,
+        40
+      ],
+      "scale": 1,
+      "rotate": -35,
+      "props": {
+        "width": 90,
+        "height": 110
+      },
+      "svg": "<rect x=\"20\" y=\"5\" width=\"50\" height=\"22\" class=\"r-body\"/><rect x=\"40\" y=\"27\" width=\"10\" height=\"70\" class=\"r-body\"/>"
+    },
+    {
+      "id": "screen",
+      "component": "raw",
+      "at": {
+        "x": 0.85,
+        "y": 0.68
+      },
+      "scale": 1,
+      "props": {
+        "width": 200,
+        "height": 220
+      },
+      "svg": "<rect x=\"20\" y=\"10\" width=\"160\" height=\"130\" class=\"r-body\"/><rect x=\"85\" y=\"140\" width=\"30\" height=\"30\" class=\"r-body\"/><rect x=\"55\" y=\"170\" width=\"90\" height=\"16\" class=\"r-body\"/><polygon points=\"40,25 55,25 160,120 145,120\" class=\"r-accent\"/><polygon points=\"145,25 160,25 55,120 40,120\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "paper",
+      "component": "raw",
+      "attachTo": "screen",
+      "side": "bottom",
+      "offset": [
+        0,
+        20
+      ],
+      "scale": 0.9,
+      "rotate": 15,
+      "props": {
+        "width": 70,
+        "height": 90
+      },
+      "svg": "<path d=\"M10 5 L60 8 L55 50 L62 85 L40 70 L15 88 L20 45 Z\" class=\"r-paper\"/>"
+    },
+    {
+      "id": "caption",
+      "component": "label",
+      "at": "top-center",
+      "scale": 1,
+      "props": {
+        "text": "TOO LATE",
+        "size": "lg",
+        "kind": "plain",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "A tired person carries a small box out of a plain lab building with a crack above its roof, while a judge brings a gavel down beside a video screen marked with a large X, a torn paper falling from it. A caption reads TOO LATE."
+}

@@ -1,0 +1,207 @@
+{
+  "topStories": [
+    {
+      "title": "OpenAI safety employee resigns, says lab's culture is broken",
+      "itemIds": [
+        "feeds:f6f593b76583",
+        "feeds:801ec396652b",
+        "techmeme:6ce59928d0fc",
+        "hackernews:2abad21a6a05"
+      ],
+      "dimensions": [
+        "safety",
+        "policy",
+        "labor",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-safety-self-policing"
+    },
+    {
+      "title": "Killer's sentence quashed over AI video of victim shown in court",
+      "itemIds": [
+        "hackernews:f2d260de0be3"
+      ],
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "courtroom-ai-deepfake"
+    },
+    {
+      "title": "Meta's AI agent builds detailed profiles of friends and family",
+      "itemIds": [
+        "feeds:c9541274a24f",
+        "feeds:b6aee1da4c9d"
+      ],
+      "dimensions": [
+        "society",
+        "safety",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agent-social-profiling"
+    },
+    {
+      "title": "Amazon ends NDAs after datacenter backlash",
+      "itemIds": [
+        "feeds:67165811a40f"
+      ],
+      "dimensions": [
+        "industry",
+        "planet",
+        "policy",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "AI DJ co-hosts radio show as workers fear replacement",
+      "itemIds": [
+        "techmeme:d84c1b5f545d"
+      ],
+      "dimensions": [
+        "labor",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "ai-radio-host"
+    },
+    {
+      "title": "AI-driven memory shortage raises price of aging streaming device",
+      "itemIds": [
+        "feeds:c4f8e44fc9bd"
+      ],
+      "dimensions": [
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "ai-memory-price-surge"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "courtroom-ai-deepfake",
+      "title": "AI Video Shakes A Courtroom",
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "motifs": [
+        "a judge's gavel beside a crossed-out video screen",
+        "a torn sentencing paper falling from a bench"
+      ]
+    },
+    {
+      "id": "ai-agent-social-profiling",
+      "title": "Your AI Agent Maps Your Friends",
+      "dimensions": [
+        "society",
+        "safety",
+        "law"
+      ],
+      "motifs": [
+        "a robot assistant holding a web of connected profile cards",
+        "a speech bubble branching into small portraits"
+      ]
+    },
+    {
+      "id": "ai-radio-host",
+      "title": "The AI DJ Takes The Mic",
+      "dimensions": [
+        "labor",
+        "society",
+        "industry"
+      ],
+      "motifs": [
+        "a microphone shared between a human hand and a robot hand",
+        "a radio dial tuning itself"
+      ]
+    },
+    {
+      "id": "ai-memory-price-surge",
+      "title": "AI Squeezes The Memory Chip",
+      "dimensions": [
+        "industry",
+        "society"
+      ],
+      "motifs": [
+        "a price tag climbing on an old gadget box",
+        "a tiny memory chip stacked impossibly tall"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The safety-worker resignation story (novelty 2 × magnitude 2 × breadth 3 = 12) and the courtroom AI-video ruling (novelty 3 × magnitude 2 × breadth 2 = 12) both clear the fresh threshold of 8, so today stands on its own rather than continuing yesterday's cloud-company and nurse-scheduler story.",
+  "motto": "Nobody's Policing Anybody",
+  "phrase": "A safety worker resigned from a top AI lab and called its culture broken. A court overturned a sentence after ruling that an AI-made video should not have been shown.",
+  "phraseAlternatives": [
+    "One employee quit a leading AI lab, warning that its safety culture is broken. One court decided an AI video had no place in its courtroom.",
+    "An AI safety insider walked out and called the culture broken. Nearby, a judge walked back a sentence over an AI video that went too far.",
+    "A safety worker quit an AI lab, saying it polices itself badly. The same week, a court ruled that AI-made evidence still needs real rules."
+  ],
+  "brief": {
+    "concept": "A tired worker walks out of a lab building carrying a small box labeled with nothing, and beside that scene a judge brings a gavel down next to a video screen marked with a large X and a torn paper falling from it.",
+    "metaphor": "Two institutions only fix their trust problem after something has already gone wrong.",
+    "cast": [
+      {
+        "who": "a tired safety researcher carrying a small box out of a lab building",
+        "kind": "person"
+      },
+      {
+        "who": "a plain lab building with its door standing open",
+        "kind": "institution"
+      },
+      {
+        "who": "a judge mid-swing with a gavel",
+        "kind": "person"
+      },
+      {
+        "who": "a video screen with a large X and a torn sentencing paper beside it",
+        "kind": "object"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Two scenes share a soft horizon line, no hard divider. Left: the researcher steps through the lab's open door, box in hand, a small crack shape floating above the roofline. Right: the judge's gavel is caught mid-strike beside the video screen, its X in the single highlight color, with the torn paper drifting toward the ground. Even spacing, generous white space, at most one short label if needed.",
+    "artType": "static",
+    "alt": "A tired person carries a small box out of a plain office building, while nearby a judge brings down a gavel beside a video screen marked with a large X and a scrap of torn paper falling from it."
+  },
+  "sourceIds": [
+    "feeds:f6f593b76583",
+    "feeds:801ec396652b",
+    "hackernews:2abad21a6a05",
+    "techmeme:6ce59928d0fc",
+    "hackernews:f2d260de0be3"
+  ],
+  "dimensions": {
+    "industry": 2,
+    "labor": 2,
+    "policy": 2,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 0
+  }
+}
