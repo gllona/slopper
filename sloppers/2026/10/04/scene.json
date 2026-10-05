@@ -1,0 +1,147 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {
+    "type": "split",
+    "horizon": 0.5,
+    "color": "bg",
+    "color2": "paper"
+  },
+  "elements": [
+    {
+      "id": "tray",
+      "component": "raw",
+      "at": {
+        "x": 0.56,
+        "y": 0.345
+      },
+      "scale": 0.85,
+      "props": {
+        "width": 300,
+        "height": 320
+      },
+      "svg": "<rect x=\"10\" y=\"255\" width=\"280\" height=\"50\" rx=\"14\" class=\"r-body-alt\"/><g transform=\"rotate(-10 64 175)\"><rect x=\"25\" y=\"120\" width=\"78\" height=\"110\" rx=\"8\" class=\"r-paper\"/><circle cx=\"64\" cy=\"150\" r=\"22\" class=\"r-accent-2\"/><rect x=\"55\" y=\"142\" width=\"8\" height=\"8\" class=\"r-ink\"/><rect x=\"67\" y=\"142\" width=\"8\" height=\"8\" class=\"r-ink\"/><line x1=\"64\" y1=\"128\" x2=\"64\" y2=\"112\" class=\"r-line\"/><circle cx=\"64\" cy=\"110\" r=\"5\" class=\"r-ink\"/></g><g transform=\"rotate(10 234 170)\"><rect x=\"195\" y=\"115\" width=\"78\" height=\"110\" rx=\"8\" class=\"r-paper\"/><circle cx=\"234\" cy=\"145\" r=\"22\" class=\"r-accent-2\"/><rect x=\"225\" y=\"137\" width=\"8\" height=\"8\" class=\"r-ink\"/><rect x=\"237\" y=\"137\" width=\"8\" height=\"8\" class=\"r-ink\"/><line x1=\"234\" y1=\"123\" x2=\"234\" y2=\"107\" class=\"r-line\"/><circle cx=\"234\" cy=\"105\" r=\"5\" class=\"r-ink\"/></g><rect x=\"108\" y=\"15\" width=\"90\" height=\"140\" rx=\"10\" class=\"r-paper\"/>"
+    },
+    {
+      "id": "worker",
+      "component": "human",
+      "at": {
+        "x": 0.24,
+        "y": 0.463
+      },
+      "scale": 0.95,
+      "props": {
+        "mood": "exhausted",
+        "pose": "point",
+        "holds": "none",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "stamp",
+      "component": "raw",
+      "attachTo": "worker",
+      "side": "right",
+      "offset": [
+        0,
+        30
+      ],
+      "scale": 0.65,
+      "rotate": -35,
+      "props": {
+        "width": 90,
+        "height": 110
+      },
+      "svg": "<rect x=\"30\" y=\"0\" width=\"22\" height=\"48\" rx=\"8\" class=\"r-body\"/><rect x=\"14\" y=\"42\" width=\"54\" height=\"18\" rx=\"7\" class=\"r-ink\"/><rect x=\"8\" y=\"62\" width=\"70\" height=\"34\" rx=\"10\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "label-rejected",
+      "component": "label",
+      "attachTo": "tray",
+      "side": "top",
+      "scale": 0.8,
+      "rotate": -5,
+      "props": {
+        "text": "Rejected",
+        "size": "md",
+        "kind": "tag",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "building",
+      "component": "raw",
+      "at": {
+        "x": 0.38,
+        "y": 0.758
+      },
+      "scale": 0.9,
+      "props": {
+        "width": 300,
+        "height": 400
+      },
+      "svg": "<rect x=\"20\" y=\"160\" width=\"260\" height=\"230\" class=\"r-body-alt\"/><path d=\"M0 160 L150 60 L300 160 Z\" class=\"r-ink\"/><rect x=\"55\" y=\"190\" width=\"28\" height=\"190\" class=\"r-accent-2\"/><rect x=\"136\" y=\"190\" width=\"28\" height=\"190\" class=\"r-accent-2\"/><rect x=\"217\" y=\"190\" width=\"28\" height=\"190\" class=\"r-accent-2\"/><rect x=\"90\" y=\"162\" width=\"120\" height=\"28\" rx=\"6\" class=\"r-paper\"/><rect x=\"145\" y=\"20\" width=\"10\" height=\"45\" class=\"r-line\"/>"
+    },
+    {
+      "id": "ladder",
+      "component": "raw",
+      "attachTo": "painter",
+      "side": "bottom",
+      "offset": [
+        -20,
+        -25
+      ],
+      "scale": 0.85,
+      "rotate": -4,
+      "props": {
+        "width": 140,
+        "height": 220
+      },
+      "svg": "<path d=\"M30 210 L60 20 L90 210\" class=\"r-line\" fill=\"none\"/><path d=\"M40 165 L80 165\" class=\"r-line\"/><path d=\"M47 120 L73 120\" class=\"r-line\"/><path d=\"M53 75 L67 75\" class=\"r-line\"/>"
+    },
+    {
+      "id": "painter",
+      "component": "human",
+      "at": {
+        "x": 0.7,
+        "y": 0.917
+      },
+      "scale": 0.85,
+      "flip": true,
+      "props": {
+        "mood": "proud",
+        "pose": "point",
+        "holds": "none",
+        "color": "body"
+      }
+    },
+    {
+      "id": "brush",
+      "component": "raw",
+      "attachTo": "painter",
+      "side": "left",
+      "scale": 0.75,
+      "rotate": -50,
+      "props": {
+        "width": 90,
+        "height": 130
+      },
+      "svg": "<rect x=\"37\" y=\"0\" width=\"16\" height=\"75\" rx=\"6\" class=\"r-body\"/><rect x=\"31\" y=\"73\" width=\"28\" height=\"16\" rx=\"4\" class=\"r-ink\"/><path d=\"M27 89 L63 89 L52 130 L38 130 Z\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "label-signname",
+      "component": "label",
+      "attachTo": "building",
+      "side": "top",
+      "scale": 0.75,
+      "rotate": 6,
+      "props": {
+        "text": "New Name",
+        "size": "md",
+        "kind": "tag",
+        "color": "accent"
+      }
+    }
+  ],
+  "alt": "A stacked two-panel print: on top, a tired worker swings a large stamp down onto a paper labeled \"Rejected\" as more papers with tiny robot heads overflow a tray; below, a proud painter on a ladder repaints a plain government building's sign, adding a longer, fancier label reading \"New Name\"."
+}

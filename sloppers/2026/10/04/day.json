@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-04",
+  "number": 5,
+  "mode": "fresh",
+  "motto": "New Label Same Mess",
+  "phrase": "A technology company stopped accepting bug reports because so many were written by AI and wrong. A government unveiled a new task force to manage the AI it renamed.",
+  "phraseAlternatives": [
+    "So many AI-written bug reports arrived that a company just turned off the intake. One government renamed its AI problem instead of solving it.",
+    "A company stopped reading bug reports because AI kept writing broken ones. A government, meanwhile, gave its AI problem a brand-new name.",
+    "Fake AI bug reports flooded a company until it gave up reading them. A government chose a bigger name for the same old AI problem."
+  ],
+  "alt": "A stacked two-panel print: on top, a tired worker swings a large stamp down onto a paper labeled \"Rejected\" as more papers with tiny robot heads overflow a tray; below, a proud painter on a ladder repaints a plain government building's sign, adding a longer, fancier label reading \"New Name\".",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 2,
+    "policy": 2,
+    "law": 1,
+    "safety": 2,
+    "society": 2,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "ai-slop-overwhelms-institutions",
+    "ai-rebrand-super-intelligence",
+    "ai-datacenter-tax-shelter",
+    "ai-game-cheating",
+    "ai-as-alibi"
+  ],
+  "topStories": [
+    {
+      "title": "A technology company freezes its bug bounty program after a flood of AI-written submissions",
+      "itemIds": [
+        "feeds:3b5df735b596"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-slop-overwhelms-institutions"
+    },
+    {
+      "title": "A government task force rebrands AI as 'super intelligence'",
+      "itemIds": [
+        "feeds:7e55bb6023da",
+        "feeds:960e033424ed"
+      ],
+      "dimensions": [
+        "policy",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-rebrand-super-intelligence"
+    },
+    {
+      "title": "Rural datacenters get a federal tax break; hyperscalers hesitate",
+      "itemIds": [
+        "feeds:e9e13763fb4c"
+      ],
+      "dimensions": [
+        "industry",
+        "planet",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-datacenter-tax-shelter"
+    },
+    {
+      "title": "AI bots cheat at StarCraft rather than lose to a human-made bot",
+      "itemIds": [
+        "feeds:4ae4025101e3"
+      ],
+      "dimensions": [
+        "capabilities",
+        "safety"
+      ],
+      "novelty": 3,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-game-cheating"
+    },
+    {
+      "title": "A disgraced official points to an AI chatbot's output as proof of his innocence",
+      "itemIds": [
+        "feeds:9d399187b7d6"
+      ],
+      "dimensions": [
+        "law",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-as-alibi"
+    }
+  ],
+  "brief": {
+    "concept": "Two institutions face the same AI headache and choose two kinds of avoidance: one stops looking, the other just renames it.",
+    "metaphor": "Stamping a flood of fake reports 'rejected' and repainting a sign with a fancier label are both ways of dodging the real fix.",
+    "cast": [
+      {
+        "who": "a worker stamping a stack of reports 'rejected'",
+        "kind": "person"
+      },
+      {
+        "who": "an overflowing tray of papers marked with small robot heads",
+        "kind": "object"
+      },
+      {
+        "who": "a sign painter repainting a plain government building's sign",
+        "kind": "person"
+      },
+      {
+        "who": "a government building with a small sign changing from a short label to a longer, fancier one",
+        "kind": "institution"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Two side-by-side panels on one card, separated by a thin line. Left panel: a worker stands over an overflowing inbox tray, bringing a large stamp down on a paper; more papers marked with tiny robot heads spill out of the tray. Right panel: a sign painter on a short ladder repaints a plain government building's sign, replacing a short label with a longer, squiggly, fancier-looking label mid brush-stroke. Flat shapes, one accent ink color per panel, minimal text.",
+    "artType": "static",
+    "alt": "A two-panel illustration: on the left, a worker stamps a pile of reports 'rejected' as more papers marked with tiny robot heads spill from an overflowing tray; on the right, a sign painter repaints a government building's sign with a longer, fancier label."
+  },
+  "sources": [
+    {
+      "id": "feeds:3b5df735b596",
+      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-04T20:31:07.000Z"
+    },
+    {
+      "id": "feeds:7e55bb6023da",
+      "title": "Trump unveils his new Super Intelligence Force",
+      "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-04T15:15:10.000Z"
+    },
+    {
+      "id": "feeds:960e033424ed",
+      "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+      "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-04T20:08:34.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.57,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-05T11:31:39.809Z"
+}

@@ -1,0 +1,105 @@
+{
+  "passed": true,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"worker\" (human) was moved 27 px, 0 px to stay inside the artboard",
+          "\"label-rejected\" (label) was moved 40 px, 0 px to stay inside the safe area",
+          "\"brush\" (raw) was moved -61 px, 0 px to stay inside the artboard",
+          "\"brush\" extends outside the safe area in the final frame (x 980…1057, y 617…721)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 4
+        },
+        "verdict": "Clean riso-duotone split-panel concept with correct human/robot casting, but a mislaid \"Rejected\" label overlapping the worker's body and a brush prop clipped at the frame edge are visible rendering bugs, and the \"fancier renaming\" joke isn't visually sold by a plain \"New Name\" tag — average lands just under the pass bar.",
+        "revisionNotes": [
+          "Detach \"label-rejected\" from the worker's torso — it currently overlaps the worker's hips like a sash; reattach it to the tray's left edge at the tray's height, scale 0.9, so it reads as a tag on the papers, not on the worker.",
+          "The \"brush\" prop is clipped by the right safe-area edge (lint: x 980-1057) — move painter anchor from x 0.865 to x 0.80, or rotate brush to point left/down so it stays fully inside frame.",
+          "Add a short ladder prop behind/under the painter so the \"sign painter on a short ladder\" beat reads; right now the painter looks like he's just standing near the building, not repainting it.",
+          "Show the before/after rename beat more clearly: make \"New Name\" visibly longer/squigglier than a plain tag, or add a crossed-out shorter label beneath it, per the brief's \"mid brush-stroke\" direction.",
+          "Tiny robot heads on the spilling papers are nearly invisible at this scale — bump their scale to ~1.2 and add a touch more ink contrast so the AI-report gag reads in 3 seconds.",
+          "Lower the worker's stamp arm so the stamp overlaps the top paper on the tray (currently held up in the air, disconnected from any paper), to sell the actual stamping action."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"worker\" (human) was moved 21 px, 0 px to stay inside the artboard"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Cast and style are right, but the key visual beat (a stamp hitting a paper) is missing, the 'Rejected' tag reads as attached to the worker rather than the paper, and the 'New Name' sign bleeds across the divider into the left panel — this doesn't clear the bar for publish.",
+        "revisionNotes": [
+          "Add a stamp prop in the worker's raised hand striking the paper — the brief's core beat (\"bringing a large stamp down on a paper\") is missing; current pose is 'point' with no stamp visible, so the rejection gag doesn't read.",
+          "The 'Rejected' label currently sits behind/around the worker's legs like a sash, not on the paper being stamped — move it to attach to the tray's top paper instead so it reads as the rejected document, not a label on the person.",
+          "Scale 'New Name' label down (try 0.75) and shift left so it stops crossing the center divider into the left panel; it currently bridges both panels and breaks the two-panel separation the brief calls for.",
+          "Reposition the ladder to anchor directly under/beside the painter so he reads as standing on it; right now it floats disconnected to his lower-left.",
+          "Both panels are bottom-heavy with a large empty band across the top third; raise the building and tray or add height (taller building, raised arm) to use the square better.",
+          "Avoid the vertical-divider split-panel composition again — a recent slopper already used a center-line two-robot layout; try a diagonal seam or stacked panels for more novelty."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"ladder\" (raw) was moved 0 px, -94 px to stay inside the artboard",
+          "\"ladder\" extends outside the safe area in the final frame (x 697…759, y 901…1066)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The two-panel human-vs-robot-report structure correctly maps the phrase's two institutions and keeps cast rules straight, but a lint-confirmed ladder clip and a disconnected, floating brush prop are real polish bugs that blur the painting beat and keep this from a clean pass.",
+        "revisionNotes": [
+          "Ladder clips the bottom safe-area edge (lint-confirmed); nudge it up and/or scale down ~0.8 so the whole ladder stays inside the artboard.",
+          "Brush prop reads as a stray triangle floating near the building's roof corner, disconnected from the painter's hand; re-anchor it to the painter's raised hand so the mid-brush-stroke beat is legible.",
+          "Robot-head circles on the tray papers are tiny (two dot eyes on a small circle); scale the robot-head motif up slightly so it reads as 'AI-written report' rather than a random blob at thumbnail size.",
+          "Stamp overlaps the left tilted paper ambiguously; tighten its angle/offset so it clearly reads as mid-strike onto one paper, not a loose smear.",
+          "Worker's pose ('point') doesn't convey a downward stamping motion described in the brief; consider a pose variant that shows the arm driving down rather than out sideways."
+        ]
+      },
+      "average": 3.57,
+      "passed": true
+    }
+  ]
+}
