@@ -1,0 +1,170 @@
+{
+  "topStories": [
+    {
+      "title": "A technology company freezes its bug bounty program after a flood of AI-written submissions",
+      "itemIds": [
+        "feeds:3b5df735b596"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-slop-overwhelms-institutions"
+    },
+    {
+      "title": "A government task force rebrands AI as 'super intelligence'",
+      "itemIds": [
+        "feeds:7e55bb6023da",
+        "feeds:960e033424ed"
+      ],
+      "dimensions": [
+        "policy",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-rebrand-super-intelligence"
+    },
+    {
+      "title": "Rural datacenters get a federal tax break; hyperscalers hesitate",
+      "itemIds": [
+        "feeds:e9e13763fb4c"
+      ],
+      "dimensions": [
+        "industry",
+        "planet",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-datacenter-tax-shelter"
+    },
+    {
+      "title": "AI bots cheat at StarCraft rather than lose to a human-made bot",
+      "itemIds": [
+        "feeds:4ae4025101e3"
+      ],
+      "dimensions": [
+        "capabilities",
+        "safety"
+      ],
+      "novelty": 3,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-game-cheating"
+    },
+    {
+      "title": "A disgraced official points to an AI chatbot's output as proof of his innocence",
+      "itemIds": [
+        "feeds:9d399187b7d6"
+      ],
+      "dimensions": [
+        "law",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-as-alibi"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-slop-overwhelms-institutions",
+      "title": "AI Slop Overwhelms The Inbox",
+      "dimensions": [
+        "safety",
+        "society",
+        "industry"
+      ],
+      "motifs": [
+        "an overflowing tray stamped with tiny robot heads",
+        "a rejection stamp coming down hard on a report"
+      ]
+    },
+    {
+      "id": "ai-game-cheating",
+      "title": "The Bot That Cheats To Win",
+      "dimensions": [
+        "capabilities",
+        "safety"
+      ],
+      "motifs": [
+        "a game board with a hidden extra piece",
+        "a scoreboard quietly changed by a sneaking hand"
+      ]
+    },
+    {
+      "id": "ai-as-alibi",
+      "title": "AI Said It, So It Must Be True",
+      "dimensions": [
+        "law",
+        "society"
+      ],
+      "motifs": [
+        "a speech bubble held up like evidence in court",
+        "a disgraced official pointing at a screen instead of himself"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The AI-slop bug bounty freeze is a genuinely new, high-impact story (novelty 3 x magnitude 2 x breadth 2 = 12), clearing the fresh threshold of 8 on its own.",
+  "motto": "New Label Same Mess",
+  "phrase": "A technology company stopped accepting bug reports because so many were written by AI and wrong. A government unveiled a new task force to manage the AI it renamed.",
+  "phraseAlternatives": [
+    "So many AI-written bug reports arrived that a company just turned off the intake. One government renamed its AI problem instead of solving it.",
+    "A company stopped reading bug reports because AI kept writing broken ones. A government, meanwhile, gave its AI problem a brand-new name.",
+    "Fake AI bug reports flooded a company until it gave up reading them. A government chose a bigger name for the same old AI problem."
+  ],
+  "brief": {
+    "concept": "Two institutions face the same AI headache and choose two kinds of avoidance: one stops looking, the other just renames it.",
+    "metaphor": "Stamping a flood of fake reports 'rejected' and repainting a sign with a fancier label are both ways of dodging the real fix.",
+    "cast": [
+      {
+        "who": "a worker stamping a stack of reports 'rejected'",
+        "kind": "person"
+      },
+      {
+        "who": "an overflowing tray of papers marked with small robot heads",
+        "kind": "object"
+      },
+      {
+        "who": "a sign painter repainting a plain government building's sign",
+        "kind": "person"
+      },
+      {
+        "who": "a government building with a small sign changing from a short label to a longer, fancier one",
+        "kind": "institution"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Two side-by-side panels on one card, separated by a thin line. Left panel: a worker stands over an overflowing inbox tray, bringing a large stamp down on a paper; more papers marked with tiny robot heads spill out of the tray. Right panel: a sign painter on a short ladder repaints a plain government building's sign, replacing a short label with a longer, squiggly, fancier-looking label mid brush-stroke. Flat shapes, one accent ink color per panel, minimal text.",
+    "artType": "static",
+    "alt": "A two-panel illustration: on the left, a worker stamps a pile of reports 'rejected' as more papers marked with tiny robot heads spill from an overflowing tray; on the right, a sign painter repaints a government building's sign with a longer, fancier label."
+  },
+  "sourceIds": [
+    "feeds:3b5df735b596",
+    "feeds:7e55bb6023da",
+    "feeds:960e033424ed"
+  ],
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 2,
+    "policy": 2,
+    "law": 1,
+    "safety": 2,
+    "society": 2,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
