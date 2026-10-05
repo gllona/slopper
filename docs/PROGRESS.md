@@ -43,6 +43,12 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 
 ## After launch: fixes
 
+- 2026-10-05: four runs "failed" between 19:33 and 21:20 UTC with *"The job was not acquired by Runner of type
+  hosted even after multiple attempts"*: GitHub had no free runners. Nothing was missed (Slopper #5 had been
+  published at 19:05 UTC and posted to Instagram; the failed runs were late backups and empty hourly checks).
+- 2026-10-05: workflows pinned to `ubuntu-24.04` (decision 46) ahead of GitHub moving `ubuntu-latest` to Ubuntu 26
+  on 2026-10-19. TODO later: try Ubuntu 26 on a branch with a dry run, then switch on purpose.
+
 - 2026-10-04: CI on Slopper #4's PR failed with Chromium "Unable to capture screenshot" in a test that runs the
   whole pipeline (fake Claude) while other test files also ran Chromium: a load-related flake, not the slopper.
   Fix: `screenshot()` in `harness/render.ts` retries that error up to 3 times (also protects the real daily run);

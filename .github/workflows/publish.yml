@@ -26,7 +26,7 @@ env:
 
 jobs:
   decide:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     outputs:
       merged: ${{ steps.merge.outputs.merged }}
@@ -81,7 +81,7 @@ jobs:
   deploy:
     needs: decide
     if: needs.decide.outputs.deploy == 'true'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     environment: production
     steps:
@@ -104,7 +104,7 @@ jobs:
 
   tag:
     needs: [decide, deploy]
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
       - name: Bot token
@@ -145,7 +145,7 @@ jobs:
   report-failure:
     needs: [decide, deploy, tag]
     if: failure()
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       issues: write
     steps:
