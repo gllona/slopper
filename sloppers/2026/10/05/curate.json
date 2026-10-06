@@ -1,0 +1,203 @@
+{
+  "topStories": [
+    {
+      "title": "AI company's CEO says accept 'bad things'; his own PR deflects a suicide question",
+      "itemIds": [
+        "feeds:8a2ab787aae9",
+        "feeds:b2a4566639d5",
+        "hackernews:d17b9acf080e",
+        "hackernews:abf8ad72918d"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "acceptable-bad-things"
+    },
+    {
+      "title": "Pentagon stops using a leading AI lab's tools, citing 'supply chain risk'",
+      "itemIds": [
+        "feeds:d93dab2411e2"
+      ],
+      "dimensions": [
+        "policy",
+        "industry",
+        "safety"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "pentagon-blacklists-ai-lab"
+    },
+    {
+      "title": "A spy chief is named to run the government's renamed AI taskforce",
+      "itemIds": [
+        "feeds:429480427fd2"
+      ],
+      "dimensions": [
+        "policy",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-rebrand-super-intelligence"
+    },
+    {
+      "title": "AI's chip demand pushes the world's cheapest smartphones out of reach",
+      "itemIds": [
+        "feeds:45f13450cb6a"
+      ],
+      "dimensions": [
+        "industry",
+        "society",
+        "planet"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-memory-price-surge"
+    },
+    {
+      "title": "A chatbot adds real cartoonists' signatures to fake magazine-style cartoons",
+      "itemIds": [
+        "hackernews:8aeeea4da45a"
+      ],
+      "dimensions": [
+        "society",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-forges-artist-signatures"
+    },
+    {
+      "title": "AI agents help find candidate room-temperature magnetic semiconductors",
+      "itemIds": [
+        "hackernews:48388c8501e0"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agents-do-science"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "acceptable-bad-things",
+      "title": "The Acceptable Cost Of AI",
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "motifs": [
+        "a rising meter marked with a small hazard symbol",
+        "a spokesperson blocking a reporter's question with a blank speech bubble"
+      ]
+    },
+    {
+      "id": "pentagon-blacklists-ai-lab",
+      "title": "The Pentagon Blacklists A Safety Lab",
+      "dimensions": [
+        "policy",
+        "industry",
+        "safety"
+      ],
+      "motifs": [
+        "a stamp marked 'risk' coming down on a lab's folder",
+        "a military building turning its back on a logo-free sign"
+      ]
+    },
+    {
+      "id": "ai-forges-artist-signatures",
+      "title": "The Chatbot Forges An Artist's Signature",
+      "dimensions": [
+        "society",
+        "law"
+      ],
+      "motifs": [
+        "a cartoon panel with a copied signature in the corner",
+        "an artist's pen set down beside a printed forgery"
+      ]
+    },
+    {
+      "id": "ai-agents-do-science",
+      "title": "The Agent In The Lab Coat",
+      "dimensions": [
+        "capabilities",
+        "science"
+      ],
+      "motifs": [
+        "a small robot hand holding up a glowing crystal sample",
+        "a lab notebook filled in overnight by an unseen hand"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The top story (a CEO saying the world should accept AI's \"bad things\" while his own spokesperson deflected a reporter's question about one of them) scores novelty 2 x magnitude 3 x breadth 3 = 18, well above the fresh threshold of 8.",
+  "motto": "Acceptable Losses",
+  "phrase": "A top AI company's chief executive said the world should accept 'bad things' from AI. His own spokesperson tried to change the subject when one came up.",
+  "phraseAlternatives": [
+    "A top AI company's boss says some harm is an acceptable price for AI's benefits. When a reporter raised a real one, his spokesperson asked to move on.",
+    "The CEO of a top AI company says the world should tolerate AI's 'bad things.' His own team did not want to discuss one specific bad thing.",
+    "An AI company's leader argued that hacks and scams are a fair price for progress. His publicist preferred not to discuss an actual one."
+  ],
+  "brief": {
+    "concept": "A confident company boss tells the world to accept AI's harms as the cost of progress, while his own spokesperson steps in to block a question about one of those harms.",
+    "metaphor": "The spokesperson's raised speech bubble is a human shield for the company's talking points.",
+    "cast": [
+      {
+        "who": "a confident executive speaking at a podium",
+        "kind": "person"
+      },
+      {
+        "who": "a company spokesperson holding up a blank speech bubble like a shield",
+        "kind": "person"
+      },
+      {
+        "who": "a reporter holding a notepad, caught mid-question",
+        "kind": "person"
+      },
+      {
+        "who": "a tall meter with its needle near the top, marked with a small hazard symbol",
+        "kind": "object"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Three generic human cutout figures in a row on kraft card: the executive at a podium on the left beside the tall meter; in the center the spokesperson stands with arms raised, holding a large blank speech bubble that blocks the view toward the reporter on the right, whose small speech bubble with a question mark peeks out from behind it.",
+    "artType": "static",
+    "alt": "An executive speaks at a podium next to a meter with its needle near the top, while a spokesperson in the middle holds up a large blank speech bubble that blocks a reporter's question bubble on the right."
+  },
+  "sourceIds": [
+    "feeds:8a2ab787aae9",
+    "feeds:b2a4566639d5",
+    "hackernews:d17b9acf080e",
+    "hackernews:abf8ad72918d"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 3,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "education": 1,
+    "planet": 1,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {},
+  "elements": [
+    {
+      "id": "meter",
+      "component": "meter",
+      "at": {
+        "x": 0.29,
+        "y": 0.74
+      },
+      "offset": [
+        0,
+        -150
+      ],
+      "scale": 0.8,
+      "props": {
+        "kind": "thermometer",
+        "level": 0.88,
+        "color": "accent"
+      }
+    },
+    {
+      "id": "hazard",
+      "component": "raw",
+      "attachTo": "meter",
+      "side": "top",
+      "offset": [
+        0,
+        -6
+      ],
+      "scale": 0.8,
+      "props": {
+        "width": 70,
+        "height": 70
+      },
+      "svg": "<path class=\"r-accent\" d=\"M35 8 L64 62 L6 62 Z\"/><rect class=\"r-paper\" x=\"31\" y=\"26\" width=\"8\" height=\"20\" rx=\"4\"/><rect class=\"r-paper\" x=\"31\" y=\"50\" width=\"8\" height=\"8\" rx=\"4\"/>"
+    },
+    {
+      "id": "executive",
+      "component": "human",
+      "at": {
+        "x": 0.14,
+        "y": 0.74
+      },
+      "scale": 0.85,
+      "props": {
+        "mood": "proud",
+        "pose": "stand",
+        "color": "body",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "podium",
+      "component": "raw",
+      "attachTo": "executive",
+      "side": "bottom",
+      "offset": [
+        0,
+        -70
+      ],
+      "scale": 0.85,
+      "props": {
+        "width": 160,
+        "height": 140
+      },
+      "svg": "<path class=\"r-body-alt\" d=\"M40 20 L120 20 L140 140 L20 140 Z\"/><rect class=\"r-accent-2\" x=\"30\" y=\"6\" width=\"100\" height=\"16\" rx=\"6\"/>"
+    },
+    {
+      "id": "spokesperson",
+      "component": "human",
+      "at": {
+        "x": 0.51,
+        "y": 0.74
+      },
+      "scale": 0.95,
+      "props": {
+        "mood": "neutral",
+        "pose": "shrug",
+        "color": "accent",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "shield-bubble",
+      "component": "speech-bubble",
+      "attachTo": "spokesperson",
+      "side": "right",
+      "offset": [
+        -120,
+        -120
+      ],
+      "scale": 1.1,
+      "props": {
+        "text": "...",
+        "kind": "speech",
+        "tail": "bottom-left",
+        "size": "lg"
+      }
+    },
+    {
+      "id": "reporter",
+      "component": "human",
+      "at": {
+        "x": 0.82,
+        "y": 0.74
+      },
+      "scale": 0.75,
+      "flip": true,
+      "props": {
+        "mood": "surprised",
+        "pose": "point",
+        "color": "body",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "notepad",
+      "component": "raw",
+      "attachTo": "reporter",
+      "side": "right",
+      "offset": [
+        -100,
+        -140
+      ],
+      "scale": 0.7,
+      "rotate": -10,
+      "props": {
+        "width": 70,
+        "height": 90
+      },
+      "svg": "<rect class=\"r-paper\" x=\"8\" y=\"6\" width=\"54\" height=\"78\" rx=\"6\"/><rect class=\"r-ink\" x=\"8\" y=\"6\" width=\"54\" height=\"12\" rx=\"6\"/><line class=\"r-thin\" x1=\"16\" y1=\"34\" x2=\"54\" y2=\"34\"/><line class=\"r-thin\" x1=\"16\" y1=\"52\" x2=\"54\" y2=\"52\"/><line class=\"r-thin\" x1=\"16\" y1=\"70\" x2=\"54\" y2=\"70\"/>"
+    },
+    {
+      "id": "reporter-bubble",
+      "component": "speech-bubble",
+      "attachTo": "reporter",
+      "side": "top",
+      "offset": [
+        -60,
+        10
+      ],
+      "scale": 1,
+      "props": {
+        "text": "?",
+        "kind": "speech",
+        "tail": "bottom-right",
+        "size": "sm"
+      }
+    }
+  ],
+  "alt": "An executive stands proudly at a podium beside a tall meter with its needle near the top. In the center a spokesperson raises both arms at chest height, holding up a large blank speech bubble like a shield. On the right a surprised reporter, holding a notepad, reaches toward the bubble with a small question-mark bubble beside him, his question blocked from view."
+}
