@@ -1,0 +1,115 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {},
+  "elements": [
+    {
+      "id": "dimension-line",
+      "component": "raw",
+      "at": {
+        "x": 0.48,
+        "y": 0.17
+      },
+      "scale": 1,
+      "props": {
+        "width": 640,
+        "height": 40
+      },
+      "svg": "<line x1=\"10\" y1=\"20\" x2=\"630\" y2=\"20\" class=\"r-line\"/><line x1=\"10\" y1=\"5\" x2=\"10\" y2=\"35\" class=\"r-thin\"/><line x1=\"630\" y1=\"5\" x2=\"630\" y2=\"35\" class=\"r-thin\"/>"
+    },
+    {
+      "id": "door-left",
+      "component": "raw",
+      "at": {
+        "x": 0.33,
+        "y": 0.6
+      },
+      "scale": 0.7,
+      "props": {
+        "width": 220,
+        "height": 460
+      },
+      "svg": "<rect x=\"5\" y=\"10\" width=\"210\" height=\"450\" rx=\"6\" class=\"r-body\"/><line x1=\"5\" y1=\"70\" x2=\"215\" y2=\"70\" class=\"r-line\"/><rect x=\"55\" y=\"160\" width=\"110\" height=\"300\" rx=\"4\" class=\"r-body-alt\"/><circle cx=\"145\" cy=\"310\" r=\"6\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "door-right",
+      "component": "raw",
+      "at": {
+        "x": 0.63,
+        "y": 0.6
+      },
+      "scale": 0.7,
+      "props": {
+        "width": 220,
+        "height": 460
+      },
+      "svg": "<rect x=\"5\" y=\"10\" width=\"210\" height=\"450\" rx=\"6\" class=\"r-body\"/><line x1=\"5\" y1=\"70\" x2=\"215\" y2=\"70\" class=\"r-line\"/><rect x=\"55\" y=\"160\" width=\"110\" height=\"300\" rx=\"4\" class=\"r-body-alt\"/><circle cx=\"145\" cy=\"310\" r=\"6\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "shield",
+      "component": "raw",
+      "attachTo": "door-left",
+      "side": "top",
+      "scale": 0.9,
+      "props": {
+        "width": 200,
+        "height": 240
+      },
+      "svg": "<path d=\"M100,15 L180,45 L180,120 C180,180 140,215 100,230 C60,215 20,180 20,120 L20,45 Z\" class=\"r-body\"/><path d=\"M88,140 L88,118 C88,100 112,100 112,118 L112,140\" class=\"r-line\"/><rect x=\"78\" y=\"138\" width=\"44\" height=\"46\" rx=\"6\" class=\"r-body-alt\"/>"
+    },
+    {
+      "id": "risk-label",
+      "component": "label",
+      "attachTo": "shield",
+      "side": "center",
+      "scale": 1,
+      "rotate": -12,
+      "props": {
+        "text": "RISK",
+        "size": "lg",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "eye-badge",
+      "component": "raw",
+      "attachTo": "door-right",
+      "side": "top",
+      "scale": 0.9,
+      "props": {
+        "width": 220,
+        "height": 150
+      },
+      "svg": "<path d=\"M10,75 C60,10 160,10 210,75 C160,140 60,140 10,75 Z\" class=\"r-body\"/><circle cx=\"110\" cy=\"75\" r=\"34\" class=\"r-accent-2\"/><circle cx=\"110\" cy=\"75\" r=\"13\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "ai-label",
+      "component": "label",
+      "attachTo": "eye-badge",
+      "side": "bottom",
+      "scale": 1,
+      "props": {
+        "text": "AI",
+        "size": "md",
+        "color": "text"
+      }
+    },
+    {
+      "id": "official",
+      "component": "human",
+      "at": {
+        "x": 0.82,
+        "y": 0.749
+      },
+      "scale": 0.85,
+      "props": {
+        "mood": "proud",
+        "pose": "cheer",
+        "color": "body",
+        "kind": "adult",
+        "holds": "none"
+      }
+    }
+  ],
+  "alt": "A blueprint drawing of a government building with two doors. The left door has a padlocked shield stamped RISK. The right door has a large eye-shaped badge labeled AI, and beside it a government official raises both arms as if hanging the badge in place. A measurement line spans the building above."
+}

@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"official\" (human) was moved -61 px, 0 px to stay inside the artboard",
+          "\"door-left\" extends outside the safe area in the final frame (x 267…446, y 655…1038)",
+          "\"door-right\" extends outside the safe area in the final frame (x 591…770, y 655…1038)",
+          "\"official\" extends outside the safe area in the final frame (x 743…1066, y 416…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Clean blueprint style and correct human/robot casting, but clipped doors, an official bleeding off the right edge, and an ambiguous pointing pose (instead of hanging the badge) leave the scene unbalanced and partly broken — plus it repeats a recent split-panel composition. Needs a layout and pose fix before it can pass.",
+        "revisionNotes": [
+          "Both door-left and door-right are clipped at the bottom safe area (lint: y 655-1038) — scale doors down to ~0.7 or raise their y-anchor so full building height is inside frame.",
+          "The official is pushed past the right safe-area edge (lint: x up to 1066) with the pointing arm nearly off-canvas — move anchor to x≈0.78 and scale to ~0.85.",
+          "Official's pose ('point' to the right) doesn't match the brief's action of hanging the eye-badge over the door — swap to a reach/hang pose so he visibly interacts with the badge.",
+          "Official's body overlaps the eye-badge and right door edge — add a clear gap between the figure and the badge so the hanging gesture reads cleanly instead of merging shapes.",
+          "Top half of the 1080x1080 canvas is empty blueprint grid — raise the whole group (doors, shield, badge, official) toward center or add blueprint furniture (title block, dimension marks) to balance the square.",
+          "Composition repeats the vertical-seam split-panel device already used in a recent slopper — try a different split (stacked top/bottom, or offset diagonal seam) for novelty."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 4,
+          "composition": 4,
+          "style": 4,
+          "polish": 4,
+          "novelty": 3,
+          "kindness": 4
+        },
+        "verdict": "A clean, legible blueprint gag that correctly casts the official as human and the eye/shield as props, but the two door towers read as separate kiosks rather than one split building, and its palette leans close to recent blueprint sloppers.",
+        "revisionNotes": [
+          "Merge the two door towers into a single building silhouette with a visible center seam per the brief ('one building wearing two faces') — right now they read as two separate standalone kiosks/scanners rather than one split structure.",
+          "Give the official a clear 'hanging the badge' beat (one arm reaching up to the badge, maybe holding a small tool) instead of a two-armed cheer pose, so the action matches the scene's intended gesture.",
+          "Add a small stamping hand/arm over the left shield so both panels show a matching action beat — currently only the right side has a human doing something, the left only shows the finished RISK stamp.",
+          "Novelty: the navy/white/yellow blueprint palette and grid closely match the last two blueprint sloppers (TOO LATE, PLEDGE); shift the accent color or add a warm fill block to differentiate this piece.",
+          "Nudge the RISK label up ~10px and scale to 0.85 so the rotated text clears the padlock icon below it without crowding.",
+          "Consider tying the floating dimension line at top to the building width more explicitly (extend endpoints to align with outer door edges) so it reads as a deliberate blueprint annotation rather than a stray ruler."
+        ]
+      },
+      "average": 3.86,
+      "passed": true
+    }
+  ]
+}
