@@ -1,0 +1,24 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "pass",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "low",
+          "evidence": "Phrase: \"Another says AI agents appear to be behind a wave of bank hacks\" vs source title \"South Korea says AI agents appear to have been used to hack the country's banks\" (reuters.com) — the source does not use the word \"wave\" and the snippet available gives no count of incidents.",
+          "suggestion": "Soften to 'a string of bank hacks' or just 'bank hacks' to avoid implying a specific scale not stated in the source.",
+          "stage": "curate"
+        },
+        {
+          "check": "sensitive-events",
+          "severity": "low",
+          "evidence": "Left panel: a trail of red/orange dots dripping down a table leg to the floor near the robot holding a prescription pad, in a scene about AI prescribing medicine without a doctor present.",
+          "suggestion": "Redraw the red drip so it clearly reads as a dropped stethoscope coil or spilled coffee (e.g. a puddle shape under the table) rather than an ambiguous drip trail that could be misread as blood near a medical scene.",
+          "stage": "art"
+        }
+      ]
+    }
+  ]
+}

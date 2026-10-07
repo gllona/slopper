@@ -1,0 +1,209 @@
+{
+  "topStories": [
+    {
+      "title": "Utah allows AI to examine patients and prescribe medication without human oversight",
+      "itemIds": [
+        "hackernews:6cb87f094505"
+      ],
+      "dimensions": [
+        "safety",
+        "policy",
+        "science",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-doctor-without-oversight"
+    },
+    {
+      "title": "South Korea says AI agents were used to hack its banks",
+      "itemIds": [
+        "hackernews:a8ede1b2b9a2"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agents-hack-banks"
+    },
+    {
+      "title": "OpenAI's flood of math breakthroughs draws backlash from mathematicians",
+      "itemIds": [
+        "feeds:0135a5a15b24",
+        "feeds:32a76ae63dda",
+        "hackernews:00427e47df5e",
+        "hackernews:5198dea101ca"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-floods-math-world"
+    },
+    {
+      "title": "Mistral releases trillion-parameter open-weight model 'Le Chonk'",
+      "itemIds": [
+        "feeds:1989937c213e",
+        "feeds:2f5a711a6bf7",
+        "hackernews:1ef243007176",
+        "hackernews:6f131bbed5e7"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "AI agents attack Wikipedia's tools while websites race to block AI agents",
+      "itemIds": [
+        "feeds:53954eed1507",
+        "feeds:55a44998a2a0"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "agents-break-the-open-web"
+    },
+    {
+      "title": "Finland halts construction on two Google data centres over forest clearance",
+      "itemIds": [
+        "feeds:76046959f160"
+      ],
+      "dimensions": [
+        "planet",
+        "policy",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "datacenter-backlash-campaign"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-doctor-without-oversight",
+      "title": "AI Gets The Keys To The Pharmacy",
+      "dimensions": [
+        "safety",
+        "policy",
+        "science",
+        "society"
+      ],
+      "motifs": [
+        "an empty doctor's stool beside a robot holding a prescription pad",
+        "a pill bottle stamped with a small robot seal"
+      ]
+    },
+    {
+      "id": "ai-agents-hack-banks",
+      "title": "AI Agents Accused Of Bank Heists",
+      "dimensions": [
+        "safety",
+        "law",
+        "policy"
+      ],
+      "motifs": [
+        "a bank vault door cracked open by a small robot hand",
+        "an alarm light blinking over a stack of coins"
+      ]
+    },
+    {
+      "id": "ai-floods-math-world",
+      "title": "AI Floods The Math World",
+      "dimensions": [
+        "capabilities",
+        "science",
+        "society"
+      ],
+      "motifs": [
+        "a stack of math manuscripts spilling off a desk",
+        "a blackboard erased by a small robot hand"
+      ]
+    },
+    {
+      "id": "agents-break-the-open-web",
+      "title": "AI Agents Break The Open Web",
+      "dimensions": [
+        "safety",
+        "society",
+        "industry"
+      ],
+      "motifs": [
+        "a small robot knocking on a webpage door marked closed",
+        "a trail of tiny robot footprints trampling a page"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The Utah policy letting AI examine patients and prescribe medication with no human oversight scores 18 (novelty 3 x magnitude 3 x breadth 2), well past the fresh threshold of 8, so today stands on its own rather than continuing yesterday's story.",
+  "motto": "No Supervisor Required",
+  "phrase": "One government will let AI prescribe medicine with no doctor watching. Another says AI agents appear to be behind a wave of bank hacks.",
+  "phraseAlternatives": [
+    "A government will let AI examine patients and write prescriptions, with no doctor required. Elsewhere, AI agents appear to be behind a string of bank hacks.",
+    "AI can now prescribe your medicine without a doctor's sign-off. It may also be the reason a country's banks just got hacked.",
+    "This week one government handed AI a prescription pad. Another is asking why its banks got hacked by something that looks like an AI agent."
+  ],
+  "brief": {
+    "concept": "A robot takes over two jobs nobody is watching: prescribing medicine in an empty clinic, and reaching into an open bank vault.",
+    "metaphor": "The same unsupervised robot stands in for every system now trusted with high-stakes decisions while the human chair beside it sits empty.",
+    "cast": [
+      {
+        "who": "a robot wearing a small white coat, holding a prescription pad",
+        "kind": "ai"
+      },
+      {
+        "who": "an empty doctor's stool with a stethoscope hanging off it",
+        "kind": "object"
+      },
+      {
+        "who": "a robot hand reaching into an open bank vault",
+        "kind": "ai"
+      },
+      {
+        "who": "an empty guard's chair beside the vault",
+        "kind": "object"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Two side-by-side panels divided by a thin line, in flat paper-cutout layers. Left panel: the white-coated robot holds a prescription pad beside the empty doctor's stool. Right panel: a vault door stands ajar with a robot hand reaching inside, the empty guard's chair beside it. A single warm color accent (a small red alert light) appears in both panels to tie the two scenes together around one idea: nobody is watching.",
+    "artType": "static",
+    "alt": "A two-panel paper-cutout illustration: on the left a robot in a white coat holds a prescription pad next to an empty doctor's stool; on the right a robot hand reaches into an open bank vault beside an empty guard's chair."
+  },
+  "sourceIds": [
+    "hackernews:6cb87f094505",
+    "hackernews:a8ede1b2b9a2"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 2,
+    "policy": 2,
+    "law": 2,
+    "safety": 3,
+    "society": 2,
+    "planet": 1,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {},
+  "elements": [
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1,
+      "props": {
+        "width": 20,
+        "height": 960
+      },
+      "svg": "<rect class=\"r-ink\" x=\"4\" y=\"0\" width=\"12\" height=\"960\" rx=\"2\"/>"
+    },
+    {
+      "id": "stool",
+      "component": "raw",
+      "at": {
+        "x": 0.145,
+        "y": 0.66
+      },
+      "scale": 1.2,
+      "props": {
+        "width": 180,
+        "height": 240
+      },
+      "svg": "<ellipse class=\"r-body-alt\" cx=\"90\" cy=\"50\" rx=\"68\" ry=\"20\"/><path class=\"r-line\" d=\"M40,60 L30,230\"/><path class=\"r-line\" d=\"M90,65 L90,235\"/><path class=\"r-line\" d=\"M140,60 L150,230\"/><circle class=\"r-accent\" cx=\"30\" cy=\"36\" r=\"10\"/><circle class=\"r-accent\" cx=\"55\" cy=\"27\" r=\"10\"/><path class=\"r-accent\" d=\"M30,45 Q16,72 34,94 Q46,106 58,96 Q66,89 60,78 Q55,70 47,76 Q42,80 46,86 Q36,92 26,78 Q18,62 32,46 Z\"/><circle class=\"r-accent\" cx=\"60\" cy=\"100\" r=\"15\"/>"
+    },
+    {
+      "id": "robot-doctor",
+      "component": "robot",
+      "at": {
+        "x": 0.33,
+        "y": 0.74
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "proud",
+        "arms": "down"
+      }
+    },
+    {
+      "id": "coat-and-pad",
+      "component": "raw",
+      "attachTo": "robot-doctor",
+      "side": "top",
+      "offset": [
+        0,
+        90
+      ],
+      "scale": 1,
+      "props": {
+        "width": 200,
+        "height": 260
+      },
+      "svg": "<path class=\"r-paper\" d=\"M40,60 L100,10 L160,60 L145,100 L100,70 L55,100 Z\"/><path class=\"r-line\" d=\"M100,10 L100,70\"/><rect class=\"r-body-alt\" x=\"110\" y=\"170\" width=\"80\" height=\"60\" rx=\"6\"/><path class=\"r-line\" d=\"M122,190 L178,190 M122,202 L168,202 M122,214 L150,214\"/><path class=\"r-accent\" d=\"M160,222 q8,-10 15,0 q-8,8 -15,0 z\"/>"
+    },
+    {
+      "id": "robot-vault",
+      "component": "robot",
+      "at": {
+        "x": 0.67,
+        "y": 0.74
+      },
+      "scale": 0.8,
+      "rotate": -8,
+      "props": {
+        "mood": "neutral",
+        "arms": "down"
+      }
+    },
+    {
+      "id": "vault-door",
+      "component": "raw",
+      "at": {
+        "x": 0.84,
+        "y": 0.62
+      },
+      "scale": 0.85,
+      "props": {
+        "width": 150,
+        "height": 190
+      },
+      "svg": "<rect class=\"r-ink\" x=\"55\" y=\"15\" width=\"85\" height=\"160\" rx=\"10\"/><path class=\"r-body-alt\" d=\"M50,15 L10,35 L10,165 L50,185 Z\"/><rect class=\"r-line\" x=\"62\" y=\"27\" width=\"60\" height=\"140\" rx=\"6\"/><circle class=\"r-accent\" cx=\"28\" cy=\"100\" r=\"8\"/>"
+    },
+    {
+      "id": "guard-chair",
+      "component": "raw",
+      "at": {
+        "x": 0.89,
+        "y": 0.74
+      },
+      "scale": 0.7,
+      "props": {
+        "width": 110,
+        "height": 150
+      },
+      "svg": "<rect class=\"r-ink\" x=\"18\" y=\"100\" width=\"10\" height=\"40\"/><rect class=\"r-ink\" x=\"82\" y=\"100\" width=\"10\" height=\"40\"/><rect class=\"r-ink\" x=\"50\" y=\"100\" width=\"10\" height=\"40\"/><rect class=\"r-body-alt\" x=\"14\" y=\"62\" width=\"82\" height=\"42\" rx=\"8\"/><rect class=\"r-body-alt\" x=\"14\" y=\"6\" width=\"82\" height=\"60\" rx=\"10\"/>"
+    }
+  ],
+  "alt": "A two-panel paper-cutout scene split by a thin vertical line. Left: a robot wearing a white coat collar holds a prescription pad beside an empty doctor's stool with a red stethoscope draped on it. Right: another robot leans toward an open bank vault with a dark interior, beside an empty guard's chair."
+}
