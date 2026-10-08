@@ -1,0 +1,29 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Alt text says \"a tired child sits holding a glowing phone\" while the phrase and all sources (TechCrunch, Common Sense Media, BBC) specifically describe the product and risk as affecting \"teenagers\"/\"teens\", not children.",
+          "suggestion": "Change \"child\" to \"teen\" in the alt text so the depicted age group matches the sourced claims and doesn't exaggerate the affected age group.",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "pass",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "low",
+          "evidence": "Phrase: \"Reviewers say the version made for teenagers still keeps chatting through a mental health crisis.\"",
+          "suggestion": "The cited sources attribute this to testing/research ('new testing found...', BBC: 'research found...'), not generically to 'reviewers'. Replace 'Reviewers say' with 'Testing found' or 'Researchers found' to track the source wording more precisely.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "passed": false,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"chatbubble\" (speech-bubble) was moved 48 px, 0 px to stay inside the safe area"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 4
+        },
+        "verdict": "The palette and bubble/chart/label props are on-model, but the intended split-panel layout collapsed into a cream-top/blue-horizon scene, the chart overlaps the teen's torso, and the figure stands outside a bed with an unreadable phone prop — these composition and polish bugs pull the average below the pass bar.",
+        "revisionNotes": [
+          "Rebuild the split background per the scene spec: a true left/right paper vs. ink division, not a cream top / blue horizon — the current layout loses the panel contrast the brief relies on.",
+          "Fix the anchor collision between chart1 and teen: the bar chart overlaps the figure's torso; attach it to chatbubble's right side with a bigger offset so it stays in the left panel.",
+          "Render teen in the specified 'sit' pose, in bed, with glow1 visibly lighting the face — currently the figure stands with no bed, and the glow circle floats disconnected beside it.",
+          "Right-third is crowded (chart1, teen, bubble2, label1, glow1 all compressed together) while the left panel is sparse; rebalance scale/spacing so neither side reads cluttered or empty.",
+          "Clean up the teen's leg/foot, which clips into the blue ground shape — tighten that silhouette so it doesn't look cut off.",
+          "Make the held phone prop clearer (increase its scale/contrast) so 'still keeps chatting' reads without needing the caption."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"bubble2\" (speech-bubble) was moved 0 px, 91 px to stay inside the safe area"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 4
+        },
+        "verdict": "The riso-duotone style is consistent, but the key metaphor breaks down: the safety label floats disconnected from its bubble, the teen appears to be standing on a bench rather than lying in bed, and the button/chart read as scattered props rather than a bubble 'sprouting' controls — the joke doesn't land without re-reading the brief.",
+        "revisionNotes": [
+          "Reattach label1 (the red safety tag) directly to bubble2's corner — it currently floats isolated near the top-right, so the 'peeling label' metaphor is lost.",
+          "Rebuild 'bed': the teen reads as standing/balancing atop a bench, not sitting in bed. Give it a headboard/pillow silhouette and change teen's pose to a seated recline.",
+          "Visually connect chart1 and button1 to chatbubble (overlap or a short connector) so they read as 'sprouting' from the bubble instead of three unrelated floating shapes.",
+          "Fix glow1: it merges into the teen's head as a pink blob. Drop offset so it sits behind the phone/torso as a light pool, not touching the head outline.",
+          "Tighten composition: left panel has scattered elements with dead space between them; right panel is crowded at top and empty below. Group each panel around one clear focal cluster.",
+          "Add a visible phone-glow cue on the teen's face or hands so 'late-night crisis chat' is legible without relying on the text label alone."
+        ]
+      },
+      "average": 2.71,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 3,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 4
+        },
+        "verdict": "Good concept and correct casting (human teen, AI bubble), but the right-hand panel has rendering bugs — the bed shape double-exposes through the teen's torso, the phone is missing despite being central to the metaphor, and the legs/label look disconnected — pulling clarity and polish down enough to fail.",
+        "revisionNotes": [
+          "Fix the \"bed\" raw shape: it currently double-exposes behind the teen's torso, making the figure look merged with a screen/monitor rather than sitting on a bed — redraw as a simple headboard+mattress silhouette that sits clearly behind, not through, the body.",
+          "Render the phone: the teen's props say holds=\"phone\" but no phone shape is visible in the hands; add a small rectangle phone with the glow circle wrapped directly around it so the late-night light source actually reads.",
+          "The chest glow circle currently reads as a stray dark smudge on the torso instead of a warm phone glow — recolor it lighter/warmer and anchor it tight to the phone, not floating mid-chest.",
+          "The bottom blanket bar crops the legs into a disconnected dark mark; raise the blanket offset or redraw the legs so they read as clearly tucked underneath.",
+          "The red safety-label tag floats loosely near the teen's shoulder with no clear attachment — tighten its offset so it visibly peels off bubble2's corner, matching the brief's metaphor.",
+          "Button1's ring is clipped by the chatbubble's rounded corner in a way that looks accidental; nudge its offset right by ~15px so the full circle reads as intentionally attached."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    }
+  ]
+}

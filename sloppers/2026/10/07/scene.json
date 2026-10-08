@@ -1,0 +1,156 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {},
+  "elements": [
+    {
+      "id": "chatbubble",
+      "component": "speech-bubble",
+      "at": "center-left",
+      "offset": [
+        20,
+        -70
+      ],
+      "scale": 1,
+      "props": {
+        "text": "New interface",
+        "kind": "speech",
+        "tail": "none",
+        "size": "lg"
+      }
+    },
+    {
+      "id": "button1",
+      "component": "raw",
+      "attachTo": "chatbubble",
+      "side": "right",
+      "offset": [
+        -25,
+        -55
+      ],
+      "scale": 0.9,
+      "props": {
+        "width": 120,
+        "height": 120
+      },
+      "svg": "<circle cx=\"60\" cy=\"60\" r=\"50\" class=\"r-accent\"/><circle cx=\"60\" cy=\"60\" r=\"18\" class=\"r-paper\"/>"
+    },
+    {
+      "id": "chart1",
+      "component": "chart",
+      "attachTo": "chatbubble",
+      "side": "bottom",
+      "offset": [
+        0,
+        -20
+      ],
+      "scale": 0.6,
+      "props": {
+        "type": "bar",
+        "values": [
+          0.2,
+          0.5,
+          0.4,
+          0.9
+        ],
+        "highlight": "max",
+        "frame": true
+      }
+    },
+    {
+      "id": "bed",
+      "component": "raw",
+      "at": "right-third",
+      "offset": [
+        0,
+        -160
+      ],
+      "scale": 1,
+      "props": {
+        "width": 420,
+        "height": 320
+      },
+      "svg": "<rect x=\"30\" y=\"10\" width=\"360\" height=\"230\" rx=\"26\" class=\"r-body\"/><rect x=\"75\" y=\"40\" width=\"150\" height=\"110\" rx=\"36\" class=\"r-paper\"/><rect x=\"0\" y=\"235\" width=\"420\" height=\"85\" rx=\"20\" class=\"r-paper\"/>"
+    },
+    {
+      "id": "teen",
+      "component": "human",
+      "at": "right-third",
+      "scale": 1,
+      "props": {
+        "pose": "sit",
+        "mood": "exhausted",
+        "holds": "phone",
+        "kind": "adult",
+        "color": "body"
+      }
+    },
+    {
+      "id": "blanket",
+      "component": "raw",
+      "attachTo": "teen",
+      "side": "bottom",
+      "offset": [
+        0,
+        -100
+      ],
+      "scale": 1,
+      "props": {
+        "width": 260,
+        "height": 120
+      },
+      "svg": "<rect x=\"10\" y=\"10\" width=\"240\" height=\"90\" rx=\"40\" class=\"r-accent-2\"/><path d=\"M40 55 H220\" class=\"r-line\"/>"
+    },
+    {
+      "id": "glow1",
+      "component": "raw",
+      "attachTo": "teen",
+      "side": "center",
+      "offset": [
+        35,
+        -30
+      ],
+      "scale": 0.5,
+      "props": {
+        "width": 90,
+        "height": 90
+      },
+      "svg": "<circle cx=\"45\" cy=\"45\" r=\"40\" class=\"r-glow\"/>"
+    },
+    {
+      "id": "bubble2",
+      "component": "speech-bubble",
+      "attachTo": "teen",
+      "side": "left",
+      "offset": [
+        -15,
+        -70
+      ],
+      "scale": 1,
+      "props": {
+        "text": "Old risks",
+        "kind": "speech",
+        "tail": "right",
+        "size": "md"
+      }
+    },
+    {
+      "id": "label1",
+      "component": "raw",
+      "attachTo": "bubble2",
+      "side": "bottom",
+      "offset": [
+        40,
+        -15
+      ],
+      "scale": 0.9,
+      "rotate": -16,
+      "props": {
+        "width": 140,
+        "height": 90
+      },
+      "svg": "<rect x=\"10\" y=\"15\" width=\"100\" height=\"60\" rx=\"10\" class=\"r-accent\"/><path d=\"M90 15 L135 2 L110 48 Z\" class=\"r-paper\"/>"
+    }
+  ],
+  "alt": "Split illustration: on the left a speech bubble sprouts a round button and a bar chart from its corners; on the right a tired teenager sits up in bed glowing from a phone, beside a matching speech bubble with a red safety label peeling off its corner."
+}
