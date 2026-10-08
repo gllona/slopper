@@ -1,0 +1,197 @@
+{
+  "date": "2026-10-06",
+  "number": 7,
+  "mode": "fresh",
+  "motto": "No Supervisor Required",
+  "phrase": "One government will let AI prescribe medicine with no doctor watching. Another says AI agents appear to be behind a wave of bank hacks.",
+  "phraseAlternatives": [
+    "A government will let AI examine patients and write prescriptions, with no doctor required. Elsewhere, AI agents appear to be behind a string of bank hacks.",
+    "AI can now prescribe your medicine without a doctor's sign-off. It may also be the reason a country's banks just got hacked.",
+    "This week one government handed AI a prescription pad. Another is asking why its banks got hacked by something that looks like an AI agent."
+  ],
+  "alt": "A two-panel paper-cutout scene split by a thin vertical line. Left: a robot wearing a white coat collar holds a prescription pad beside an empty doctor's stool with a red stethoscope draped on it. Right: another robot leans toward an open bank vault with a dark interior, beside an empty guard's chair.",
+  "artType": "static",
+  "style": "paper-cutout",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 2,
+    "policy": 2,
+    "law": 2,
+    "safety": 3,
+    "society": 2,
+    "planet": 1,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "ai-doctor-without-oversight",
+    "ai-agents-hack-banks",
+    "ai-floods-math-world",
+    "frontier-model-race",
+    "agents-break-the-open-web",
+    "datacenter-backlash-campaign"
+  ],
+  "topStories": [
+    {
+      "title": "Utah allows AI to examine patients and prescribe medication without human oversight",
+      "itemIds": [
+        "hackernews:6cb87f094505"
+      ],
+      "dimensions": [
+        "safety",
+        "policy",
+        "science",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-doctor-without-oversight"
+    },
+    {
+      "title": "South Korea says AI agents were used to hack its banks",
+      "itemIds": [
+        "hackernews:a8ede1b2b9a2"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agents-hack-banks"
+    },
+    {
+      "title": "OpenAI's flood of math breakthroughs draws backlash from mathematicians",
+      "itemIds": [
+        "feeds:0135a5a15b24",
+        "feeds:32a76ae63dda",
+        "hackernews:00427e47df5e",
+        "hackernews:5198dea101ca"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-floods-math-world"
+    },
+    {
+      "title": "Mistral releases trillion-parameter open-weight model 'Le Chonk'",
+      "itemIds": [
+        "feeds:1989937c213e",
+        "feeds:2f5a711a6bf7",
+        "hackernews:1ef243007176",
+        "hackernews:6f131bbed5e7"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "AI agents attack Wikipedia's tools while websites race to block AI agents",
+      "itemIds": [
+        "feeds:53954eed1507",
+        "feeds:55a44998a2a0"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "agents-break-the-open-web"
+    },
+    {
+      "title": "Finland halts construction on two Google data centres over forest clearance",
+      "itemIds": [
+        "feeds:76046959f160"
+      ],
+      "dimensions": [
+        "planet",
+        "policy",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "datacenter-backlash-campaign"
+    }
+  ],
+  "brief": {
+    "concept": "A robot takes over two jobs nobody is watching: prescribing medicine in an empty clinic, and reaching into an open bank vault.",
+    "metaphor": "The same unsupervised robot stands in for every system now trusted with high-stakes decisions while the human chair beside it sits empty.",
+    "cast": [
+      {
+        "who": "a robot wearing a small white coat, holding a prescription pad",
+        "kind": "ai"
+      },
+      {
+        "who": "an empty doctor's stool with a stethoscope hanging off it",
+        "kind": "object"
+      },
+      {
+        "who": "a robot hand reaching into an open bank vault",
+        "kind": "ai"
+      },
+      {
+        "who": "an empty guard's chair beside the vault",
+        "kind": "object"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Two side-by-side panels divided by a thin line, in flat paper-cutout layers. Left panel: the white-coated robot holds a prescription pad beside the empty doctor's stool. Right panel: a vault door stands ajar with a robot hand reaching inside, the empty guard's chair beside it. A single warm color accent (a small red alert light) appears in both panels to tie the two scenes together around one idea: nobody is watching.",
+    "artType": "static",
+    "alt": "A two-panel paper-cutout illustration: on the left a robot in a white coat holds a prescription pad next to an empty doctor's stool; on the right a robot hand reaches into an open bank vault beside an empty guard's chair."
+  },
+  "sources": [
+    {
+      "id": "hackernews:6cb87f094505",
+      "title": "Utah to let AI examine patients and prescribe medication without human oversight",
+      "url": "https://www.techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html",
+      "source": "hackernews",
+      "publisher": "techspot.com",
+      "publishedAt": "2026-10-06T17:01:52.000Z"
+    },
+    {
+      "id": "hackernews:a8ede1b2b9a2",
+      "title": "South Korea says AI agents appear to have been used to hack the country's banks",
+      "url": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
+      "source": "hackernews",
+      "publisher": "reuters.com",
+      "publishedAt": "2026-10-06T23:50:33.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.43,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-07T11:32:07.747Z"
+}
