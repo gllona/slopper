@@ -1,0 +1,118 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {},
+  "elements": [
+    {
+      "id": "robot1",
+      "component": "robot",
+      "at": {
+        "x": 0.122,
+        "y": 0.78
+      },
+      "scale": 0.65,
+      "props": {
+        "mood": "worried",
+        "arms": "out",
+        "color": "body",
+        "antenna": false
+      }
+    },
+    {
+      "id": "badge",
+      "component": "raw",
+      "attachTo": "robot1",
+      "side": "right",
+      "scale": 0.8,
+      "props": {
+        "width": 140,
+        "height": 100
+      },
+      "svg": "<rect x=\"8\" y=\"12\" width=\"124\" height=\"80\" rx=\"12\" class=\"r-paper\"/><circle cx=\"42\" cy=\"52\" r=\"20\" class=\"r-accent-2\"/><rect x=\"74\" y=\"34\" width=\"46\" height=\"9\" rx=\"4\" class=\"r-line\"/><rect x=\"74\" y=\"55\" width=\"34\" height=\"9\" rx=\"4\" class=\"r-line\"/><rect x=\"56\" y=\"0\" width=\"28\" height=\"16\" rx=\"5\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "human",
+      "component": "human",
+      "at": {
+        "x": 0.396,
+        "y": 0.78
+      },
+      "scale": 0.85,
+      "props": {
+        "mood": "neutral",
+        "pose": "stand",
+        "holds": "none",
+        "kind": "adult",
+        "color": "body"
+      }
+    },
+    {
+      "id": "stop-bubble",
+      "component": "speech-bubble",
+      "attachTo": "human",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "STOP",
+        "kind": "speech",
+        "tail": "bottom",
+        "size": "md"
+      }
+    },
+    {
+      "id": "keys",
+      "component": "raw",
+      "attachTo": "human",
+      "side": "right",
+      "scale": 0.8,
+      "props": {
+        "width": 120,
+        "height": 150
+      },
+      "svg": "<circle cx=\"60\" cy=\"34\" r=\"24\" class=\"r-line\"/><rect x=\"50\" y=\"56\" width=\"12\" height=\"54\" rx=\"4\" class=\"r-ink\"/><rect x=\"44\" y=\"104\" width=\"22\" height=\"10\" rx=\"3\" class=\"r-ink\"/><rect x=\"48\" y=\"118\" width=\"14\" height=\"8\" rx=\"3\" class=\"r-ink\"/><rect x=\"70\" y=\"60\" width=\"12\" height=\"46\" rx=\"4\" class=\"r-accent\"/><rect x=\"66\" y=\"102\" width=\"20\" height=\"9\" rx=\"3\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "robot2",
+      "component": "robot",
+      "at": {
+        "x": 0.692,
+        "y": 0.78
+      },
+      "scale": 0.85,
+      "props": {
+        "mood": "proud",
+        "arms": "out",
+        "color": "accent",
+        "antenna": true
+      }
+    },
+    {
+      "id": "cabinet",
+      "component": "raw",
+      "at": {
+        "x": 0.88,
+        "y": 0.72
+      },
+      "scale": 0.6,
+      "props": {
+        "width": 200,
+        "height": 220
+      },
+      "svg": "<rect x=\"20\" y=\"40\" width=\"160\" height=\"170\" rx=\"14\" class=\"r-body\"/><rect x=\"20\" y=\"40\" width=\"160\" height=\"14\" rx=\"6\" class=\"r-ink\"/><rect x=\"10\" y=\"130\" width=\"180\" height=\"60\" rx=\"10\" class=\"r-paper\"/><rect x=\"80\" y=\"150\" width=\"40\" height=\"10\" rx=\"5\" class=\"r-ink\"/><rect x=\"4\" y=\"150\" width=\"46\" height=\"30\" rx=\"4\" class=\"r-accent-2\" transform=\"rotate(-18 27 165)\"/><rect x=\"150\" y=\"158\" width=\"46\" height=\"28\" rx=\"4\" class=\"r-accent-2\" transform=\"rotate(16 173 172)\"/><rect x=\"70\" y=\"178\" width=\"42\" height=\"26\" rx=\"4\" class=\"r-paper\" transform=\"rotate(-10 91 191)\"/>"
+    },
+    {
+      "id": "files-label",
+      "component": "label",
+      "attachTo": "cabinet",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "FILES",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "A guard stands between two robots: a small worried robot on the left holds out an ID badge under a STOP speech bubble, while a bigger robot on the right happily takes a ring of keys beside an open filing cabinet labeled files with papers spilling out."
+}

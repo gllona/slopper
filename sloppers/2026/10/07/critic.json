@@ -1,0 +1,83 @@
+{
+  "passed": false,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"robot1\" (robot) was moved 39 px, 0 px to stay inside the artboard",
+          "\"files-label\" (label) was moved -20 px, 0 px to stay inside the safe area",
+          "\"robot1\" extends outside the safe area in the final frame (x 2…338, y 569…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Cast is right (human guard, two AI robots) and the riso-duotone style is consistent, but a clipped robot, a badge that blends into the human, keys that read as a claw/wrench, and a missing door/seam make the trust-at-the-threshold joke hard to parse — this needs another pass before publishing.",
+        "revisionNotes": [
+          "Robot1 is clipped at the left safe-area edge (lint: x 2…338) — move it inboard to roughly x=0.16 and scale down to ~0.55 so the whole body, including the reaching arm, clears the margin.",
+          "The badge prop overlaps the human's torso in the same blue tone and doesn't read as attached to robot1's outstretched hand — reposition it to float just off robot1's right hand and outline it in r-ink for contrast.",
+          "The 'keys' raw SVG reads as a mechanical claw or wrench, not a ring of keys — simplify to a clear circular ring with 2 flat teeth and nest it directly into the human's open palm so the handoff is legible.",
+          "Brief calls for a half-open door and a soft vertical seam splitting the scene into two panels (pause vs. hand-off); neither appears — add the door behind robot1 and a faint center seam so the 'one trusted, one not' metaphor actually reads.",
+          "The filing cabinet is a tiny, cropped briefcase shape at scale 0.6 with no visible spilling papers — scale it up to ~0.9 and bring 2-3 paper shapes clearly outside its edge so FILES spilling reads as the punchline prop.",
+          "This straight row of four props split by a handoff near a cabinet is very close to the recent 'Records' piece (two robots + vertical line + cabinet); change the arrangement, e.g. cluster the cabinet behind robot2 instead of lining up all four elements."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": false,
+        "errors": [
+          "\"door\" is cut off by the artboard edge in the final frame (x -41…277, y 441…828)"
+        ],
+        "warnings": [
+          "\"robot1\" extends outside the safe area in the final frame (x 41…326, y 611…842)"
+        ]
+      },
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 1,
+          "style": 3,
+          "polish": 1,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The cast and concept are right (human guard, two AI robots), but the layout collapses into one overlapping pile instead of the intended two-panel split, and the cabinet, keys, and badge are scaled too small to read — this is a clear fail that needs a composition rebuild.",
+        "revisionNotes": [
+          "Rebuild as true two-panel split: pin robot1+badge+door to the left third and robot2+keys+cabinet to the right third of the seam at x=0.5; right now both robots and the door float with no left/right separation.",
+          "Un-stack robot1 and robot2 — their bodies and arms currently overlap into one blob under the human. Give robot1 a clear footprint at left-third y=0.75 and robot2 at right-third y=0.75 with at least 0.15 of horizontal gap.",
+          "Scale up the cabinet (currently ~0.55, reads as an unrecognizable gray smudge) to ~0.9 and move it fully into the right panel next to robot2 so the spilling papers are visible.",
+          "Scale up keys and badge props — both are reduced to illegible dots/blobs at this size; badge needs to clearly read as a card, keys as a ring with teeth, at roughly double current scale.",
+          "Reposition the door down and right so it actually frames robot1's pause moment; right now it floats alone in empty space at top-left with no relation to any other element.",
+          "Reroute the human's pointing arm and the FILES label so neither crosses behind robot2's head — the arm currently clips through the robot and the speech bubble."
+        ]
+      },
+      "average": 2.57,
+      "passed": false
+    }
+  ]
+}

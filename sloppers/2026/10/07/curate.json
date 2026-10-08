@@ -1,0 +1,232 @@
+{
+  "topStories": [
+    {
+      "title": "Companies curb employees' use of a rival AI chatbot",
+      "itemIds": [
+        "hackernews:1baae7f6e5e8"
+      ],
+      "dimensions": [
+        "industry",
+        "labor"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "companies-ban-rival-chatbot"
+    },
+    {
+      "title": "Copilot gets deeper access to Windows, files, and new AI PCs",
+      "itemIds": [
+        "feeds:061e03434962",
+        "feeds:8e58b46e4ffd",
+        "feeds:b32071d1c22d",
+        "feeds:90ddad468bc3"
+      ],
+      "dimensions": [
+        "industry",
+        "capabilities",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "copilot-takes-the-keyboard"
+    },
+    {
+      "title": "Teen chatbot safeguards fail during mental health crises, research finds",
+      "itemIds": [
+        "feeds:c08d83d64560",
+        "feeds:e5ad34a02f40"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "education"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "teen-chatbot-safety-risk"
+    },
+    {
+      "title": "Pentagon fast-tracks military AI purchases with short pitch videos",
+      "itemIds": [
+        "feeds:af0398167d95"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "military-ai-fast-track"
+    },
+    {
+      "title": "AI firm offers free home repairs in exchange for robot training data",
+      "itemIds": [
+        "hackernews:c61c90a0ec07"
+      ],
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "robots-learn-the-trades"
+    },
+    {
+      "title": "ChatGPT launches a visual 'Intelligent UI' alongside a new model",
+      "itemIds": [
+        "feeds:cfab59c37a1b",
+        "feeds:e0500f3d01a0",
+        "feeds:89cc5f1e5389"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "chatbot-gets-a-face"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "companies-ban-rival-chatbot",
+      "title": "Companies Curb Employees' Use Of A Rival Chatbot",
+      "dimensions": [
+        "industry",
+        "labor"
+      ],
+      "motifs": [
+        "a turnstile slowing a rival chatbot's speech bubble",
+        "an employee badge swapped for an in-house robot badge"
+      ]
+    },
+    {
+      "id": "copilot-takes-the-keyboard",
+      "title": "The House Assistant Gets The Keys To The Files",
+      "dimensions": [
+        "industry",
+        "capabilities",
+        "safety"
+      ],
+      "motifs": [
+        "a robot hand reaching into an open file cabinet on a desktop screen",
+        "a keyboard with one enlarged key labeled with a robot icon"
+      ]
+    },
+    {
+      "id": "teen-chatbot-safety-risk",
+      "title": "A Chatbot's Teen Safeguards Fail Where It Matters Most",
+      "dimensions": [
+        "safety",
+        "society",
+        "education"
+      ],
+      "motifs": [
+        "a cracked guardrail sign beside a glowing phone screen",
+        "a speech bubble with a small warning label peeling off"
+      ]
+    },
+    {
+      "id": "military-ai-fast-track",
+      "title": "Military AI Buys Get Fast-Tracked",
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry"
+      ],
+      "motifs": [
+        "a stack of contracts speeding past a fast-forward stamp",
+        "a short hourglass beside a folder marked urgent"
+      ]
+    },
+    {
+      "id": "robots-learn-the-trades",
+      "title": "Robots Learn The Trades On Someone Else's Dime",
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "motifs": [
+        "a robot holding a wrench beside a free-service sign",
+        "a toolbox opening to reveal a camera recording everything"
+      ]
+    },
+    {
+      "id": "chatbot-gets-a-face",
+      "title": "The Chatbot Gets A Face",
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "society"
+      ],
+      "motifs": [
+        "a plain speech bubble sprouting buttons, charts, and tiny screens",
+        "a text answer morphing into a dashboard"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The teen-chatbot-safety story reaches relevance 18 (novelty 2 x magnitude 3 x breadth 3), well above the fresh threshold of 8, so today stands on its own rather than continuing yesterday's doctor/bank-hack thread.",
+  "motto": "Picking Favorites",
+  "phrase": "A technology company told employees to cut back on using a rival chatbot at work. The same week it gave its own chatbot more control over your files and computer.",
+  "phraseAlternatives": [
+    "One company doesn't fully trust a rival's chatbot with its own secrets. It trusts its own chatbot with your files, your folders, and your operating system.",
+    "A company told workers to scale back a competitor's chatbot, then handed its own chatbot the keys to your files.",
+    "Workers were told to cut back on chatting with the rival AI. Meanwhile the house AI got permission to open your files and click your buttons.",
+    "Trust your own robot, the company says, while quietly trusting it with more of your computer than ever."
+  ],
+  "brief": {
+    "concept": "A company slows employees' access to a rival AI chatbot while quietly handing its own chatbot the keys to your files.",
+    "metaphor": "Trusting the house robot with everything, while only partly trusting someone else's.",
+    "cast": [
+      {
+        "who": "an office guard holding up a hand at a half-open door",
+        "kind": "person"
+      },
+      {
+        "who": "a small robot pausing at the door, holding out an ID badge",
+        "kind": "ai"
+      },
+      {
+        "who": "a second robot being handed a large ring of keys by the same guard",
+        "kind": "ai"
+      },
+      {
+        "who": "an open filing cabinet labeled FILES spilling papers",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Two-panel split scene. Left panel: a human office guard holds up a hand at a half-open office door to pause a small robot, which holds out an ID badge. Right panel: the same guard hands a second robot a large ring of keys, standing beside an open filing cabinet labeled FILES with papers spilling out. A soft vertical seam divides the two panels.",
+    "artType": "static",
+    "alt": "An office guard holds up a hand to pause one small robot with an ID badge at a half-open door, while on the other side of the scene the same guard hands a second robot a large ring of keys next to an open filing cabinet labeled files."
+  },
+  "sourceIds": [
+    "hackernews:1baae7f6e5e8",
+    "feeds:061e03434962",
+    "feeds:8e58b46e4ffd",
+    "feeds:90ddad468bc3"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "safety": 2,
+    "society": 2,
+    "education": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": 0,
+    "calm_frantic": 1
+  }
+}

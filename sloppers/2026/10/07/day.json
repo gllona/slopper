@@ -1,0 +1,211 @@
+{
+  "date": "2026-10-07",
+  "number": 8,
+  "mode": "fresh",
+  "motto": "Picking Favorites",
+  "phrase": "A technology company told employees to cut back on using a rival chatbot at work. The same week it gave its own chatbot more control over your files and computer.",
+  "phraseAlternatives": [
+    "One company doesn't fully trust a rival's chatbot with its own secrets. It trusts its own chatbot with your files, your folders, and your operating system.",
+    "A company told workers to scale back a competitor's chatbot, then handed its own chatbot the keys to your files.",
+    "Workers were told to cut back on chatting with the rival AI. Meanwhile the house AI got permission to open your files and click your buttons.",
+    "Trust your own robot, the company says, while quietly trusting it with more of your computer than ever."
+  ],
+  "alt": "A guard stands between two robots: a small worried robot on the left holds out an ID badge under a STOP speech bubble, while a bigger robot on the right happily takes a ring of keys beside an open filing cabinet labeled files with papers spilling out.",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "safety": 2,
+    "society": 2,
+    "education": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": 0,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "companies-ban-rival-chatbot",
+    "copilot-takes-the-keyboard",
+    "teen-chatbot-safety-risk",
+    "military-ai-fast-track",
+    "robots-learn-the-trades",
+    "chatbot-gets-a-face"
+  ],
+  "topStories": [
+    {
+      "title": "Companies curb employees' use of a rival AI chatbot",
+      "itemIds": [
+        "hackernews:1baae7f6e5e8"
+      ],
+      "dimensions": [
+        "industry",
+        "labor"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "companies-ban-rival-chatbot"
+    },
+    {
+      "title": "Copilot gets deeper access to Windows, files, and new AI PCs",
+      "itemIds": [
+        "feeds:061e03434962",
+        "feeds:8e58b46e4ffd",
+        "feeds:b32071d1c22d",
+        "feeds:90ddad468bc3"
+      ],
+      "dimensions": [
+        "industry",
+        "capabilities",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "copilot-takes-the-keyboard"
+    },
+    {
+      "title": "Teen chatbot safeguards fail during mental health crises, research finds",
+      "itemIds": [
+        "feeds:c08d83d64560",
+        "feeds:e5ad34a02f40"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "education"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "teen-chatbot-safety-risk"
+    },
+    {
+      "title": "Pentagon fast-tracks military AI purchases with short pitch videos",
+      "itemIds": [
+        "feeds:af0398167d95"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "military-ai-fast-track"
+    },
+    {
+      "title": "AI firm offers free home repairs in exchange for robot training data",
+      "itemIds": [
+        "hackernews:c61c90a0ec07"
+      ],
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "robots-learn-the-trades"
+    },
+    {
+      "title": "ChatGPT launches a visual 'Intelligent UI' alongside a new model",
+      "itemIds": [
+        "feeds:cfab59c37a1b",
+        "feeds:e0500f3d01a0",
+        "feeds:89cc5f1e5389"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "chatbot-gets-a-face"
+    }
+  ],
+  "brief": {
+    "concept": "A company slows employees' access to a rival AI chatbot while quietly handing its own chatbot the keys to your files.",
+    "metaphor": "Trusting the house robot with everything, while only partly trusting someone else's.",
+    "cast": [
+      {
+        "who": "an office guard holding up a hand at a half-open door",
+        "kind": "person"
+      },
+      {
+        "who": "a small robot pausing at the door, holding out an ID badge",
+        "kind": "ai"
+      },
+      {
+        "who": "a second robot being handed a large ring of keys by the same guard",
+        "kind": "ai"
+      },
+      {
+        "who": "an open filing cabinet labeled FILES spilling papers",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Two-panel split scene. Left panel: a human office guard holds up a hand at a half-open office door to pause a small robot, which holds out an ID badge. Right panel: the same guard hands a second robot a large ring of keys, standing beside an open filing cabinet labeled FILES with papers spilling out. A soft vertical seam divides the two panels.",
+    "artType": "static",
+    "alt": "An office guard holds up a hand to pause one small robot with an ID badge at a half-open door, while on the other side of the scene the same guard hands a second robot a large ring of keys next to an open filing cabinet labeled files."
+  },
+  "sources": [
+    {
+      "id": "hackernews:1baae7f6e5e8",
+      "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+      "source": "hackernews",
+      "publisher": "rswebsols.com",
+      "publishedAt": "2026-10-07T18:49:40.000Z"
+    },
+    {
+      "id": "feeds:061e03434962",
+      "title": "Microsoft is giving Copilot more control over Windows and your files",
+      "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-07T18:01:20.000Z"
+    },
+    {
+      "id": "feeds:8e58b46e4ffd",
+      "title": "Everything announced at Microsoft’s Surface Laptop Ultra event",
+      "url": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-07T18:42:22.000Z"
+    },
+    {
+      "id": "feeds:90ddad468bc3",
+      "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+      "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-07T20:22:37.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 2.86,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-08T17:18:22.539Z"
+}
