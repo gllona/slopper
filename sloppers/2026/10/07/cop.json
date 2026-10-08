@@ -1,0 +1,17 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "pass",
+      "findings": [
+        {
+          "check": "sensitive-events",
+          "severity": "low",
+          "evidence": "Alt text: 'a thin rope net beneath them showing a wide tear' under a 'worried teenager' with a 'speech bubble cracked down the middle' — visual metaphor for failing teen-safety guardrails during mental health crises.",
+          "suggestion": "Keep this strictly as an abstract 'safety net/guardrail failing' metaphor (as currently drawn) rather than anything more literal about falling or self-harm; the satire should stay aimed at the chatbot maker's prioritization, not dramatize the teen's suffering.",
+          "stage": "art"
+        }
+      ]
+    }
+  ]
+}

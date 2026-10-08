@@ -1,0 +1,97 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "Kind, well-cast concept (robot for AI, human for the teen) with a tasteful style, but the two load-bearing props — the crowded chest icons and the torn safety net — don't render legibly, so the core joke doesn't land at a glance.",
+        "revisionNotes": [
+          "The chest-icons overlay reads as a blurry blob/cassette shape, not 'crowded tiny charts and buttons' — rebuild with distinct bar-chart rectangles and button circles at scale ~0.7-0.8 so the clutter metaphor is legible.",
+          "The torn net renders as a dark-blue X pattern that blends into the blue ground and reads as a fence, not a net under the teen — attach it directly beneath the teen's seat with lighter/contrasting line color and a clearer gap to show the tear.",
+          "Pull the cracked speech bubble down to sit directly over the teen's head with a tail pointing at them; right now it floats off to the side like an unrelated prop.",
+          "Scale the teen up slightly (currently feels like an afterthought next to the oversized robot) so the two halves read as a balanced before/after comparison.",
+          "Clean up the teen's sit pose — the legs/stool currently cross into a stray diagonal line that reads as a rendering glitch.",
+          "Background is a horizon split (cream sky / blue ground) rather than the brief's left/right split; if intentional, fine, but confirm it still separates the two halves as clearly as a vertical line would."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 3,
+          "kindness": 4
+        },
+        "verdict": "Casting and metaphor are sound (robot for the AI, human teen for the person, cracked bubble and torn net for the failure), but the net reads as abstract crosshatching rather than a clearly torn safety net, the pair's outstretched arms meet like a handshake instead of contrast, and the top third of the canvas is empty — average lands just under the 3.5 pass bar.</verdict>\n</invoke>\n",
+        "revisionNotes": [
+          "Vertical balance: both figures and props sit in the lower two-thirds, leaving the top third empty — scale the pair to ~1.3 and recenter vertically so the square is filled.",
+          "The robot's and teen's outstretched arms meet in the middle like a handshake, which reads as connection rather than contrast; shorten or angle the arms apart, or widen the gap between left-third and right-third anchors.",
+          "Torn-net component reads as an abstract crosshatch/fence rather than a net with a tear; thicken the r-line strokes and widen the center gap so the 'tear' is unmistakable at a glance.",
+          "The teen figure has no youth cues (same proportions as an adult); add a small scale reduction or a simple prop like a backpack strap so 'teenager' reads without needing the caption.",
+          "Split-panel robot-vs-human-divided-by-a-gap has appeared in multiple recent pieces (panel 1 and panel 6 of recent.png); vary the stance or add a diagonal element next time for better novelty."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"bot\" extends outside the safe area in the final frame (x 39…501, y 101…734)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 4
+        },
+        "verdict": "The split-panel concept (flashy robot vs. cracked, torn safety net for the teen) is sound and kind, but execution bugs undercut it: the teen's pose renders as a malformed standing figure rather than sitting, the backpack prop misreads as a second small robot, and the speech bubble floats disconnected from its owner — average score falls below the pass bar.",
+        "revisionNotes": [
+          "Fix the \"teen\" pose: it renders standing with an asymmetric/malformed leg instead of sitting on the net anchor — re-check the 'sit' pose rig so the figure clearly rests on the torn net.",
+          "Recolor the backpack raw-shape: its red accent pocket plus upward strap lines read as a second small robot with antenna/screen, echoing the bot's palette and muddying the human-vs-AI contrast. Use a neutral body color with no antenna-like lines.",
+          "Shorten the offset on cracked-bubble so its tail touches the teen's head directly; right now it floats with a visible gap and the tail points at empty space, leaving its owner ambiguous.",
+          "Rebalance the right half: bubble, teen, and net are spread with uneven vertical gaps against the single dense robot on the left — tighten vertical spacing or scale the net up slightly to cluster the right-side group.",
+          "Nudge bot's anchor from x 0.25 toward ~0.28 to clear the safe-area lint warning on the left arm.",
+          "Chest-icons scale and robot pose read clearly — keep as is."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    }
+  ]
+}

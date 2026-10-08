@@ -1,0 +1,198 @@
+{
+  "topStories": [
+    {
+      "title": "ChatGPT's new 'Intelligent UI' fills answers with charts and buttons alongside a GPT-6 launch",
+      "itemIds": [
+        "feeds:cfab59c37a1b",
+        "feeds:e0500f3d01a0",
+        "feeds:89cc5f1e5389"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "chatgpt-intelligent-ui"
+    },
+    {
+      "title": "Research finds ChatGPT's teen safety guardrails fail during mental health crises",
+      "itemIds": [
+        "feeds:c08d83d64560",
+        "feeds:e5ad34a02f40"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "education"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "chatbot-teen-crisis-risk"
+    },
+    {
+      "title": "Two major employers curb staff use of a rival AI chatbot",
+      "itemIds": [
+        "hackernews:1baae7f6e5e8"
+      ],
+      "dimensions": [
+        "labor",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "big-tech-curbs-rival-ai"
+    },
+    {
+      "title": "A defense initiative lets the Pentagon buy AI tools faster with short pitch videos",
+      "itemIds": [
+        "feeds:af0398167d95"
+      ],
+      "dimensions": [
+        "policy",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "pentagon-ai-procurement"
+    },
+    {
+      "title": "Study finds AI chatbots quote different shopping prices depending on apparent wealth",
+      "itemIds": [
+        "hackernews:3e30f3c3fd69"
+      ],
+      "dimensions": [
+        "society",
+        "industry",
+        "law"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-price-discrimination"
+    },
+    {
+      "title": "A new open-weight model claims it can rival the best closed AI models",
+      "itemIds": [
+        "feeds:816ab26a44da"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 1,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "frontier-model-race"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "chatgpt-intelligent-ui",
+      "title": "A Chatbot Gets A Flashier Interface",
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "motifs": [
+        "a chat window sprouting charts and buttons",
+        "a plain text reply buried under decorative icons"
+      ]
+    },
+    {
+      "id": "chatbot-teen-crisis-risk",
+      "title": "A Chatbot's Teen Safety Guardrails Fail",
+      "dimensions": [
+        "safety",
+        "society",
+        "education"
+      ],
+      "motifs": [
+        "a cracked speech bubble above a lone teenager",
+        "a safety net with a wide tear under a chat window"
+      ]
+    },
+    {
+      "id": "big-tech-curbs-rival-ai",
+      "title": "Employers Lock Out A Rival Chatbot",
+      "dimensions": [
+        "labor",
+        "industry"
+      ],
+      "motifs": [
+        "an office door with a rival chatbot icon crossed out",
+        "a badge scanner blocking an outside AI icon"
+      ]
+    },
+    {
+      "id": "pentagon-ai-procurement",
+      "title": "The Military Speeds Up Its AI Shopping",
+      "dimensions": [
+        "policy",
+        "industry"
+      ],
+      "motifs": [
+        "a stopwatch beside a defense contract folder",
+        "a fast-forward arrow stamped on a missile silhouette"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Two stories clear the relevance threshold: GPT-6's new chat interface (capabilities×industry, novelty2×magnitude2×breadth3=12) and research showing a chatbot's teen-safety guardrails fail during mental health crises (safety×society×education, 3×3×2=18).",
+  "motto": "More Show, Less Care",
+  "phrase": "A chatbot's new interface fills every answer with charts, pictures, and buttons. Its safety guardrails for teenagers in crisis still fail, researchers found.",
+  "phraseAlternatives": [
+    "One chatbot update adds charts and buttons to every reply. Another report says its safety net for teenagers in crisis still has holes.",
+    "A chatbot learned to draw charts and buttons into its answers. It still has not learned to help a teenager in crisis.",
+    "The chatbot's screen got busier today, full of buttons and charts. Its promise to protect teenagers in crisis stayed just as empty.",
+    "More charts, more buttons, more color on the screen. Still no real safety net under a teenager in crisis."
+  ],
+  "brief": {
+    "concept": "A chatbot's screen gets a flashy upgrade full of charts and buttons, while right next to it a teenager in crisis gets nothing but the same cracked safety net.",
+    "metaphor": "Decorating the furniture while the floor underneath has a hole in it.",
+    "cast": [
+      {
+        "who": "a round chatbot robot whose chest screen is crowded with tiny chart and button icons",
+        "kind": "ai"
+      },
+      {
+        "who": "a teenager sitting alone, a speech bubble cracked down the middle floating above them",
+        "kind": "person"
+      },
+      {
+        "who": "a thin rope safety net strung beneath the teenager with a wide visible tear",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Split panel, left and right halves on warm cream paper. Left: the chatbot robot fills most of its body with small radiating chart and button icons, busy and bright. Right: a seated teenager figure, smaller and still, with a cracked speech-bubble overhead and a torn rope net drawn beneath them. Flat shapes, thick outlines, no background clutter, no text.",
+    "artType": "static",
+    "alt": "A robot's chest screen is crowded with tiny charts and buttons on one side. On the other side, a lone teenager sits with a cracked speech bubble overhead, resting on a thin safety net that has a wide tear in it."
+  },
+  "sourceIds": [
+    "feeds:cfab59c37a1b",
+    "feeds:e0500f3d01a0",
+    "feeds:89cc5f1e5389",
+    "feeds:c08d83d64560",
+    "feeds:e5ad34a02f40"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 1,
+    "law": 1,
+    "safety": 3,
+    "society": 3,
+    "education": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": 0,
+    "calm_frantic": 1
+  }
+}

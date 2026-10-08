@@ -1,0 +1,83 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {
+    "type": "solid",
+    "color": "bg"
+  },
+  "elements": [
+    {
+      "id": "bot",
+      "component": "robot",
+      "at": "left-third",
+      "scale": 1.15,
+      "props": {
+        "mood": "proud",
+        "arms": "out",
+        "color": "accent",
+        "antenna": true
+      }
+    },
+    {
+      "id": "chest-icons",
+      "component": "raw",
+      "attachTo": "bot",
+      "side": "center",
+      "offset": [
+        0,
+        70
+      ],
+      "scale": 0.78,
+      "props": {
+        "width": 300,
+        "height": 240
+      },
+      "svg": "<g><rect class=\"r-paper\" x=\"20\" y=\"150\" width=\"26\" height=\"60\"/><rect class=\"r-paper\" x=\"58\" y=\"120\" width=\"26\" height=\"90\"/><rect class=\"r-paper\" x=\"96\" y=\"140\" width=\"26\" height=\"70\"/><rect class=\"r-paper\" x=\"134\" y=\"100\" width=\"26\" height=\"110\"/><circle class=\"r-paper\" cx=\"235\" cy=\"55\" r=\"26\"/><circle class=\"r-paper\" cx=\"235\" cy=\"120\" r=\"26\"/><circle class=\"r-paper\" cx=\"235\" cy=\"185\" r=\"26\"/></g>"
+    },
+    {
+      "id": "teen",
+      "component": "human",
+      "at": "right-third",
+      "scale": 1.15,
+      "props": {
+        "kind": "child",
+        "pose": "stand",
+        "mood": "worried",
+        "color": "body"
+      }
+    },
+    {
+      "id": "cracked-bubble",
+      "component": "raw",
+      "attachTo": "teen",
+      "side": "top",
+      "offset": [
+        0,
+        -15
+      ],
+      "scale": 1,
+      "props": {
+        "width": 200,
+        "height": 150
+      },
+      "svg": "<g><ellipse class=\"r-paper\" cx=\"100\" cy=\"55\" rx=\"90\" ry=\"48\"/><path class=\"r-paper\" d=\"M85 100 L100 140 L115 100 Z\"/><path class=\"r-line\" d=\"M100 5 L86 40 L112 56 L90 90 L104 130\"/></g>"
+    },
+    {
+      "id": "torn-net",
+      "component": "raw",
+      "attachTo": "teen",
+      "side": "bottom",
+      "offset": [
+        0,
+        15
+      ],
+      "scale": 1,
+      "props": {
+        "width": 260,
+        "height": 120
+      },
+      "svg": "<g><path class=\"r-line\" d=\"M0 120 L36 0\"/><path class=\"r-line\" d=\"M36 120 L73 0\"/><path class=\"r-line\" d=\"M73 120 L110 0\"/><path class=\"r-line\" d=\"M0 0 L36 120\"/><path class=\"r-line\" d=\"M36 0 L73 120\"/><path class=\"r-line\" d=\"M73 0 L110 120\"/><path class=\"r-line\" d=\"M150 120 L186 0\"/><path class=\"r-line\" d=\"M186 120 L223 0\"/><path class=\"r-line\" d=\"M223 120 L260 0\"/><path class=\"r-line\" d=\"M150 0 L186 120\"/><path class=\"r-line\" d=\"M186 0 L223 120\"/><path class=\"r-line\" d=\"M223 0 L260 120\"/><path class=\"r-line\" d=\"M110 35 L128 60 L112 82\"/><path class=\"r-line\" d=\"M150 45 L132 70 L148 90\"/></g>"
+    }
+  ],
+  "alt": "A proud robot on the left has a chest crowded with small bar-chart rectangles and round buttons. On the right, a worried teenager stands under a speech bubble cracked down the middle, with a thin rope net beneath them showing a wide tear."
+}
