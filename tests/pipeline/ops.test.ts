@@ -51,6 +51,20 @@ describe('publish eligibility (window mode, deadline 19:00 UTC = 14:00 in UTC-5)
     expect(decide(pr({ labels: ['slopper', 'approved'] }), { ...window, vetoMode: 'approve' }, now).eligible).toBe(true);
     expect(decide(pr(), { ...window, vetoMode: 'off' }, now).eligible).toBe(true);
   });
+  it('publishes one attempt per date: an approved one wins, then the newest (decision 47)', () => {
+    const late = at('2026-10-09T00:00:00Z');
+    const prs = [
+      pr({ number: 33, headRefName: 'slopper/2026-10-07', labels: ['slopper', 'approved'] }),
+      pr({ number: 35, headRefName: 'slopper/2026-10-07-3' }),
+      pr({ number: 40, headRefName: 'slopper/2026-10-08-2' }),
+      pr({ number: 41, headRefName: 'slopper/2026-10-08-3' }),
+    ];
+    const { eligible, all } = eligiblePrs(prs, window, late);
+    expect(eligible.map((d) => d.number)).toEqual([33, 41]);
+    expect(all.find((d) => d.number === 35)!.reason).toMatch(/\(#33\) is published instead/);
+    expect(all.find((d) => d.number === 40)!.reason).toMatch(/\(#41\) is published instead/);
+  });
+
   it('ignores non-slopper PRs and orders eligible ones by date', () => {
     const late = at('2026-09-29T00:00:00Z');
     const { eligible } = eligiblePrs(

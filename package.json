@@ -28,7 +28,8 @@
     "verify:sloppers": "tsx pipeline/ops/verify.ts",
     "eligible": "tsx pipeline/ops/eligibility.ts",
     "notify": "tsx pipeline/ops/notify.ts",
-    "backfill:jpeg": "tsx pipeline/ops/backfill-jpeg.ts"
+    "backfill:jpeg": "tsx pipeline/ops/backfill-jpeg.ts",
+    "attempt": "tsx pipeline/ops/attempts.ts"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",

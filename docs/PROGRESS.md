@@ -43,6 +43,13 @@ Status: ✅ done · 🟡 in progress · ⬜ not started · 🔒 waiting for Gork
 
 ## After launch: fixes
 
+- 2026-10-08: Slopper #8 was stuck: the regenerate limit (2) refused another try, and reopening an earlier attempt
+  (#33) failed because regenerating deleted and recreated the shared branch. Unblocked by pushing `pull/33/head`
+  back to `slopper/2026-10-07` and reopening #33 (published 19:04 Panama). Fix (decision 47): one branch per
+  attempt (`slopper/<date>-N`), regenerate keeps the branch and has no limit, the publisher picks one attempt per
+  date (approved first, then newest) and closes the others with their branches kept. Helper:
+  `pipeline/ops/attempts.ts` (`npm run attempt`).
+
 - 2026-10-05: four runs "failed" between 19:33 and 21:20 UTC with *"The job was not acquired by Runner of type
   hosted even after multiple attempts"*: GitHub had no free runners. Nothing was missed (Slopper #5 had been
   published at 19:05 UTC and posted to Instagram; the failed runs were late backups and empty hourly checks).

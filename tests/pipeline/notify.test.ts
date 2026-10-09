@@ -37,6 +37,10 @@ describe('telegram messages', () => {
   it('the title leads with the publication date', () => {
     expect(prMessage(info()).text.split('\n')[0]).toBe('🎨 <b>Slopper — 27 Sept 2026 — Out Of The Sandbox (news of 26 Sept)</b>');
   });
+  it('shows the attempt number for regenerations', () => {
+    expect(prMessage(info({ attempt: 3 })).text.split('\n')[0]).toMatch(/· attempt 3<\/b>$/);
+    expect(prMessage(info({ attempt: 1 })).text.split('\n')[0]).not.toMatch(/attempt/);
+  });
   it('escapes AI-written text for HTML mode', () => {
     expect(esc('<b>&')).toBe('&lt;b&gt;&amp;');
     const m = prMessage(info());

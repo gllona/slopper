@@ -1,5 +1,5 @@
 # Label "regenerate" on a daily slopper PR (repo owner only) → close it and generate that date again
-# (DESIGN §16.4). At most 2 regenerations per date, counted from closed PRs of the same branch.
+# (DESIGN §16.4, decision 47). No limit. The closed attempt keeps its branch, so it can be reopened and published.
 name: regenerate
 
 on:
@@ -35,13 +35,8 @@ jobs:
           BRANCH: ${{ github.event.pull_request.head.ref }}
         run: |
           set -euo pipefail
-          date="${BRANCH#slopper/}"
-          [[ "$date" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || { echo "::error::unexpected branch $BRANCH"; exit 1; }
-          closed=$(gh pr list --repo "$GITHUB_REPOSITORY" --head "$BRANCH" --state closed --json number --jq length)
-          if [ "$closed" -ge 2 ]; then
-            gh pr comment "$PR" --repo "$GITHUB_REPOSITORY" --body "Not regenerating: $date was already regenerated $closed times (maximum 2). Edit this PR by hand, or close it."
-            exit 0
-          fi
-          gh pr comment "$PR" --repo "$GITHUB_REPOSITORY" --body "Regenerating $date (attempt $((closed + 2)))."
-          gh pr close "$PR" --repo "$GITHUB_REPOSITORY" --delete-branch
+          [[ "$BRANCH" =~ ^slopper/([0-9]{4}-[0-9]{2}-[0-9]{2})(-[0-9]+)?$ ]] || { echo "::error::unexpected branch $BRANCH"; exit 1; }
+          date="${BASH_REMATCH[1]}"
+          gh pr comment "$PR" --repo "$GITHUB_REPOSITORY" --body "Regenerating $date: a new attempt will open as a new PR. This attempt is kept (its branch stays): reopen this PR to publish it instead."
+          gh pr close "$PR" --repo "$GITHUB_REPOSITORY"
           GH_TOKEN="$ACTIONS_TOKEN" gh workflow run generate.yml --repo "$GITHUB_REPOSITORY" --ref main -f date="$date"

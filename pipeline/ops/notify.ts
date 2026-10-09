@@ -65,6 +65,8 @@ export interface PrInfo {
   publishHourUTC: number;
   offset: number;
   siteUrl: string;
+  /** Attempt number (1 = first); shown when > 1. */
+  attempt?: number;
 }
 
 /** The public page of a slopper: its publication date (news date + 1), DESIGN decision 43. */
@@ -74,7 +76,7 @@ export function publicUrl(siteUrl: string, newsDate: string): string {
 
 export function prMessage(p: PrInfo): TelegramMessage {
   const d = p.day;
-  const title = slopperTitle(d.number, d.date, d.motto);
+  const title = slopperTitle(d.number, d.date, d.motto) + (p.attempt && p.attempt > 1 ? ` · attempt ${p.attempt}` : '');
   const dry = p.labels.includes('dry-run');
   const blocked = p.labels.includes('cop-hold') || p.labels.includes('critic-fail');
   let when: string;
@@ -185,6 +187,7 @@ async function main(): Promise<number> {
       workflow: { type: 'string' },
       'run-url': { type: 'string' },
       date: { type: 'string' },
+      attempt: { type: 'string' },
     },
   });
   const token = process.env.TELEGRAM_BOT_TOKEN ?? '';
@@ -196,7 +199,7 @@ async function main(): Promise<number> {
   let msg: TelegramMessage;
   switch (positionals[0]) {
     case 'pr':
-      msg = prMessage(readPrInfo(values.dir!, values['pr-url']!, values['image-url']!));
+      msg = prMessage({ ...readPrInfo(values.dir!, values['pr-url']!, values['image-url']!), attempt: Number(values.attempt ?? 1) || 1 });
       break;
     case 'published':
       msg = publishedMessage((values.dates ?? '').split(/\s+/).filter(Boolean), process.env.SITE_URL || 'https://slopper.logicos.org');
