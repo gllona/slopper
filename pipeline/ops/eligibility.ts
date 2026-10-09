@@ -1,6 +1,7 @@
 import { readFileSync } from 'node:fs';
 import type { Config } from '../schemas/config.ts';
 import { loadConfig } from '../util/config.ts';
+import { parseSlopperBranch } from './attempts.ts';
 
 /**
  * Which daily PRs may be published now (DESIGN §16.2, decision 29). Pure logic, fed by `gh pr list --json`.
@@ -19,6 +20,9 @@ export interface PrInfo {
 export interface Decision {
   number: number;
   date: string | null;
+  /** 1 for slopper/<date>, n for slopper/<date>-n (decision 47). */
+  attempt: number;
+  approved: boolean;
   eligible: boolean;
   reason: string;
 }
@@ -35,29 +39,48 @@ export function ciPassed(pr: PrInfo): boolean {
 
 export function decide(pr: PrInfo, rules: Rules, now: Date): Decision {
   const labels = new Set(pr.labels.map((l) => l.name));
-  const date = /^slopper\/(\d{4}-\d{2}-\d{2})$/.exec(pr.headRefName)?.[1] ?? null;
-  const no = (reason: string): Decision => ({ number: pr.number, date, eligible: false, reason });
+  const branch = parseSlopperBranch(pr.headRefName);
+  const date = branch?.date ?? null;
+  const attempt = branch?.attempt ?? 1;
+  const approved = labels.has('approved');
+  const no = (reason: string): Decision => ({ number: pr.number, date, attempt, approved, eligible: false, reason });
+  const yes = (reason: string): Decision => ({ number: pr.number, date, attempt, approved, eligible: true, reason });
   if (!labels.has('slopper') || !date) return no('not a daily slopper PR');
   if (labels.has('veto')) return no('vetoed');
   if (labels.has('dry-run')) return no('dry-run PR (pre-launch)');
-  const approved = labels.has('approved');
   const override = approved && labels.has('override');
   if (labels.has('cop-hold') && !override) return no('cop-hold (needs approved + override)');
   if (labels.has('critic-fail') && !override) return no('critic-fail (needs approved + override)');
   if (!ciPassed(pr)) return no('CI has not passed');
-  if (rules.vetoMode === 'off') return { number: pr.number, date, eligible: true, reason: 'veto mode off' };
-  if (rules.vetoMode === 'approve') return approved ? { number: pr.number, date, eligible: true, reason: 'approved' } : no('waiting for the approved label');
-  if (approved) return { number: pr.number, date, eligible: true, reason: 'approved early' };
+  if (rules.vetoMode === 'off') return yes('veto mode off');
+  if (rules.vetoMode === 'approve') return approved ? yes('approved') : no('waiting for the approved label');
+  if (approved) return yes('approved early');
   const created = new Date(pr.createdAt);
   const deadline = new Date(Date.UTC(created.getUTCFullYear(), created.getUTCMonth(), created.getUTCDate(), rules.publishHourUTC));
   const minAge = rules.vetoMinMinutes * 60_000;
   if (now < deadline) return no(`veto window open until ${deadline.toISOString()}`);
   if (now.getTime() - created.getTime() < minAge) return no(`PR younger than ${rules.vetoMinMinutes} minutes`);
-  return { number: pr.number, date, eligible: true, reason: 'veto window closed' };
+  return yes('veto window closed');
 }
 
+/**
+ * At most one slopper per date: if several attempts for a date are eligible, an approved one wins, then the
+ * newest attempt; the others wait (the publisher closes them after merging the winner, keeping their branches).
+ */
 export function eligiblePrs(prs: PrInfo[], rules: Rules, now: Date): { eligible: Decision[]; all: Decision[] } {
-  const all = prs.map((p) => decide(p, rules, now)).sort((a, b) => (a.date ?? '').localeCompare(b.date ?? ''));
+  const all = prs.map((p) => decide(p, rules, now)).sort((a, b) => (a.date ?? '').localeCompare(b.date ?? '') || a.attempt - b.attempt);
+  const winner = new Map<string, Decision>();
+  for (const d of all.filter((x) => x.eligible && x.date)) {
+    const w = winner.get(d.date!);
+    if (!w || (d.approved && !w.approved) || (d.approved === w.approved && d.attempt > w.attempt)) winner.set(d.date!, d);
+  }
+  for (const d of all) {
+    const w = d.date ? winner.get(d.date) : undefined;
+    if (d.eligible && w && w !== d) {
+      d.eligible = false;
+      d.reason = `another attempt for ${d.date} (#${w.number}) is published instead`;
+    }
+  }
   return { eligible: all.filter((d) => d.eligible), all };
 }
 

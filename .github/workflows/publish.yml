@@ -62,8 +62,15 @@ jobs:
           else
             for n in $numbers; do
               ref=$(gh pr view "$n" --repo "$GITHUB_REPOSITORY" --json headRefName --jq .headRefName)
+              d=$(npm run -s attempt -- date "$ref")
               gh pr merge "$n" --repo "$GITHUB_REPOSITORY" --squash --delete-branch
-              merged="$merged ${ref#slopper/}"
+              merged="$merged $d"
+              # one slopper per date: close the other open attempts for this date (their branches stay)
+              jq -r --arg d "$d" --argjson n "$n" \
+                '.[] | select(.number != $n) | select(.headRefName | test("^slopper/" + $d + "(-[0-9]+)?$")) | .number' prs.json |
+              while read -r other; do
+                gh pr close "$other" --repo "$GITHUB_REPOSITORY" --comment "Closed: #$n was published for $d. This attempt is kept (its branch stays)."
+              done
             done
           fi
           echo "merged=${merged# }" >> "$GITHUB_OUTPUT"

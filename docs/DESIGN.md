@@ -924,7 +924,7 @@ Triggers: `pull_request`, `push` to `main`. Typecheck, unit tests, schema valida
 
 ### 16.4 `regenerate.yml`
 
-Trigger: `pull_request` `labeled` with label `regenerate`, only if `github.actor` is the repo owner. Closes the current PR (comment: "Regenerating") and dispatches `generate.yml` for the same date. Maximum 2 regenerations per date (counted from closed PRs).
+Trigger: `pull_request` `labeled` with label `regenerate`, only if `github.actor` is the repo owner. Comments, closes the current PR **without deleting its branch**, and dispatches `generate.yml` for the same date. **No limit** on regenerations (decision 47). Each attempt has its own branch (`slopper/<date>`, `slopper/<date>-2`, …), so any closed attempt can be reopened and published; when one attempt for a date is published, `publish.yml` closes the other open attempts for that date (branches kept). If several attempts for a date are eligible, an `approved` one wins, then the newest.
 
 ### 16.5 `lessons.yml`
 
@@ -959,7 +959,7 @@ Your options:
 | Let it publish | Nothing | In `window` mode, publishes at the first hourly run after 19:00 UTC (≈ 14:05 your time) |
 | Publish now | Add label `approved` | Publishes at the next hourly run |
 | Block it | Add label `veto` (or close the PR) | Not published; yesterday's slopper stays |
-| Try again | Add label `regenerate` | New attempt, new PR (max 2 per date) |
+| Try again | Add label `regenerate` | New attempt, new PR (no limit). The old attempt stays: reopen its PR to publish it instead |
 | Leave feedback on it | Comment on the PR, or open an issue with label `great` / `bad` | Used by the weekly lessons job |
 
 In `approve` mode nothing publishes until you add `approved`.
@@ -1003,7 +1003,7 @@ In `approve` mode nothing publishes until you add `approved`.
 ### 17.6 Branches, merges, and tags
 
 - `main`: always deployable; the deployed site is built from `main`.
-- `slopper/YYYY-MM-DD`: daily PR branches, created and merged (squash) by bots; deleted after merge.
+- `slopper/YYYY-MM-DD` (first attempt) and `slopper/YYYY-MM-DD-N` (regenerations): daily PR branches created by the bot. The published attempt's branch is deleted at merge; other attempts' branches are kept.
 - `feat/…`, `fix/…`, `docs/…`: development branches (Claude Code sessions); Gorka reviews and merges.
 - Tags: `slopper-YYYY-MM-DD` for every published slopper; `harness-vX.Y.Z` for harness releases.
 
@@ -1245,6 +1245,7 @@ Build in this order. Each milestone ends with tests passing and a short demo.
 | 44 | **Instagram** (`@sloppertoday`): the `slopper-clock` Worker reads `/latest.json` every 15 minutes and posts each newly published slopper (square `still.jpg`, caption from the Cop-approved motto and phrase, alt text) through the free Instagram API with Instagram Login (Meta app in Development mode, account as Instagram Tester: no App Review). Instagram and Telegram credentials live only in Cloudflare (KV keeps the weekly-refreshed token, the last posted date, and retry counts; max 3 tries per slopper, Telegram on success and failure). One approval covers site and Instagram. TikTok (private-only until audited) and X (no free tier since 2026-02-06) were rejected for cost; iLands.ai deferred. |
 | 45 | **Casting rule:** people are human figures, AI is a robot (only for AI systems, or when the joke is that AI replaced someone); institutions are buildings, signs, or the people who run them; roles come from the situation, not costumes. Brief cast members carry a `kind` (`person` / `institution` / `ai` / `object`); Curate rejects a person or institution described as a robot; Art rejects a scene without a `human` when the cast has people; the critic scores coherence ≤ 2 for robots standing in for people. **Props stay improvised** raw shapes (no fixed prop components, no per-role figures: they would stereotype the actors): up to 5 raw shapes of 12 KB per scene. The Cop checks that paraphrases keep the nature of an accusation. Reason: Sloppers #1 and #2 drew AI leaders, researchers, and regulators as robots (9 robots vs 2 humans in the first 6 scenes). |
 | 46 | Workflows run on **`ubuntu-24.04`** instead of `ubuntu-latest`, which GitHub moves to Ubuntu 26 from 2026-10-19. Playwright's Chromium system dependencies and the font rendering of the art can change with the OS, so the upgrade will be a deliberate change tested with a dry run. |
+| 47 | **Keep every attempt; no regeneration limit.** Each attempt gets its own branch (`slopper/<date>`, `-2`, `-3`…); `regenerate` closes the PR but keeps the branch; publishing closes sibling attempts (branches kept); one slopper per date (an approved attempt wins, then the newest). Reason: on 2026-10-08 the 4th regeneration was refused by the old limit (2) and the earlier attempts could not be reopened because the shared branch had been recreated. |
 ## Appendix A — Voice candidates (reviewed)
 
 Reviewed by Gorka. **A** (approved) lines go into `knowledge/voice.md` as good examples. **D** (denied) lines go in as rejected examples (no reason given; treat them as "not the Slopper voice").
