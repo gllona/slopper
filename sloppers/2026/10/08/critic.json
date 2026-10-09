@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"rule-sign\" (label) was moved 0 px, -24 px to stay inside the safe area",
+          "\"exclaim\" extends outside the safe area in the final frame (x 861…867, y 39…67)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The split-panel idea reads clearly and the robot/building casting is correct, but a clipped exclamation mark, a nearly-invisible heart prop, an unbalanced diagonal composition, and strong repetition of the blueprint-split formula pull this below the bar — not ready to publish as-is.",
+        "revisionNotes": [
+          "The \"exclaim\" mark above the building is clipped by the top edge (lint confirms x 861-867, y 39-67 outside safe area) — reduce its offset or scale to 0.5 and nudge it down ~15px so it clears the border.",
+          "Brief calls for a thin vertical divider line splitting the frame; it's missing in the render, which weakens the two-company contrast — add the line component between x≈0.5.",
+          "The heart next to the \"Be Kind\" sign renders in a muted r-accent-2 tone that nearly disappears into the background — swap to r-accent (yellow) and scale to 1.0 so it reads as a prop, not a smudge.",
+          "Composition is top-left-empty/bottom-right-empty diagonal rather than a balanced split — raise the robot cluster toward center-left and drop the building toward center-right so both halves occupy similar vertical space.",
+          "Coin-stack chart reads as a plain dented rectangle, not coins — add 2-3 small circle outlines stacked along its base so the \"coin stack\" metaphor is legible, not just a bar chart.",
+          "This blueprint-plus-vertical-split-plus-robot layout closely echoes at least two other recent sloppers in the grid — vary the palette or try a non-split layout (e.g., robot and building sharing one ground line) next time for more novelty."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"rule-sign\" (label) was moved 0 px, -18 px to stay inside the safe area",
+          "\"punchline\" (label) was moved -147 px, 0 px to stay inside the safe area"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Left half reads cleanly, but the right half is cramped into the bottom corner with its label disconnected from its anchor and an ambiguous 'deflated' shape, plus the blueprint split-frame formula is repeating across recent sloppers. Needs a composition and novelty pass.",
+        "revisionNotes": [
+          "Rebalance halves: the coin-stack and building are scaled ~0.85 but pinned low-right (y=0.6–0.7), leaving the whole top-right quadrant empty while the robot dominates the left. Move coin-stack to x=0.78,y=0.55 and bump scale to ~1.1 so it matches the robot's visual weight.",
+          "The 'punchline' label was shoved -147px by the safe-area lint fix and now floats near the divider, disconnected from its attachTo anchor (coin-stack top). Re-anchor it directly above the coin-stack's new position, or drop to size 'sm' so it fits without relocating.",
+          "The coin-stack's 'caved in' top reads as an ambiguous scalloped crown shape rather than a deflated dent. Redraw the top ellipse as visibly sunken below the ring beneath it, keeping the single yellow highlight on the dent for the punchline.",
+          "Group building and coin-stack closer together (currently isolated with a gap) so the right half reads as one scene instead of two small floating props.",
+          "Novelty: this is the third recent slopper using a blueprint vertical split-frame with a robot on one side; vary the composition (diagonal divide, single panel, or a different style card) for the next piece.",
+          "Minor: the rule-sign label was nudged -18px to stay in the safe area and now sits close to the pole join; add a touch more offset so the sign box doesn't crowd the pole."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"rule-sign\" (label) was moved 0 px, -5 px to stay inside the safe area"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 4,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Clean, well-cast blueprint piece that reads clearly on the kindness side but needs the reader to lean on the \"Missing Billions\" text for the revenue side, with a missing divider line and a label that floats oddly far from its chart; passes, but just barely.",
+        "revisionNotes": [
+          "Add the thin vertical divider line between the two halves called for in the brief; without it the split-frame composition doesn't read and the left/right halves feel like two unrelated vignettes.",
+          "Anchor \"Missing Billions\" directly above the coin-stack's caved top (tighter offset, not floating near the top edge) so the label reads as a callout on the chart instead of disconnected text.",
+          "Exaggerate the caved-in dent on the coin stack (deepen the top ellipse or add a shadow line) so the 'deflated revenue' metaphor reads without relying on the text label.",
+          "Give the building a simple surprised brow/eye mark as the brief specifies ('looking surprised') — it currently reads as a neutral, empty shape.",
+          "Scale the building+coin-stack group up slightly (~1.1) or shift it to fill more of the right half; there's a lot of dead space top-right and the group feels small relative to the robot.",
+          "This is at least the third blueprint-grid, split-composition piece with a robot vs. institution pairing in the recent set — vary the palette or layout shape next time to avoid the format feeling templated."
+        ]
+      },
+      "average": 3.71,
+      "passed": true
+    }
+  ]
+}

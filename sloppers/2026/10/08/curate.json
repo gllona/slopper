@@ -1,0 +1,198 @@
+{
+  "topStories": [
+    {
+      "title": "Anthropic bans abusive treatment of Claude, updates usage policy",
+      "itemIds": [
+        "feeds:8d2d84fbc739",
+        "feeds:0b1ef97234c2"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "defending-the-chatbot"
+    },
+    {
+      "title": "OpenAI's revenue reportedly $20 billion below earlier projections",
+      "itemIds": [
+        "feeds:465c329509f8",
+        "hackernews:5601af0cee33"
+      ],
+      "dimensions": [
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-revenue-reality-check"
+    },
+    {
+      "title": "Fired OpenAI safety researchers dispute misconduct claims",
+      "itemIds": [
+        "feeds:f3da56c9d020"
+      ],
+      "dimensions": [
+        "safety",
+        "labor",
+        "policy"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-safety-self-policing"
+    },
+    {
+      "title": "USA Today sues OpenAI over alleged copyright infringement",
+      "itemIds": [
+        "feeds:e77d04198491"
+      ],
+      "dimensions": [
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "publishers-sue-ai-training"
+    },
+    {
+      "title": "Google launches a universal Gemini agent for work",
+      "itemIds": [
+        "feeds:9ad5730f9263",
+        "feeds:16755fadce6a"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "labor"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agent-controls-your-pc"
+    },
+    {
+      "title": "California moves to shut down robot-versus-human cage matches",
+      "itemIds": [
+        "feeds:1f624a2ed308"
+      ],
+      "dimensions": [
+        "society",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "robot-human-cage-match"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "defending-the-chatbot",
+      "title": "A Company Defends Its Chatbot From Abuse",
+      "dimensions": [
+        "safety",
+        "society",
+        "policy"
+      ],
+      "motifs": [
+        "a speech bubble wrapped in a small shield",
+        "a rulebook growing a new page with a heart icon"
+      ]
+    },
+    {
+      "id": "ai-revenue-reality-check",
+      "title": "The AI Revenue Reality Check",
+      "dimensions": [
+        "industry"
+      ],
+      "motifs": [
+        "a tall money chart deflating like a popped balloon",
+        "a glowing revenue projection shrinking back down"
+      ]
+    },
+    {
+      "id": "publishers-sue-ai-training",
+      "title": "Publishers Line Up To Sue Over Training Data",
+      "dimensions": [
+        "law",
+        "industry"
+      ],
+      "motifs": [
+        "a stack of newspapers stamped with a copyright symbol",
+        "a courthouse scale weighed down by a pile of articles"
+      ]
+    },
+    {
+      "id": "robot-human-cage-match",
+      "title": "The Robot-Versus-Human Cage Match Crackdown",
+      "dimensions": [
+        "society",
+        "law"
+      ],
+      "motifs": [
+        "a boxing ring with a human corner and a robot corner",
+        "a cease-and-desist letter taped to a ring post"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Two top stories clear the relevance threshold of 8: a lab's new rule protecting its chatbot from abuse (novelty 3 × magnitude 2 × breadth 2 = 12) and a lab's revenue turning out tens of billions smaller than claimed (novelty 2 × magnitude 3 × breadth 2 = 12).",
+  "motto": "Kindness Over Cash",
+  "phrase": "One AI company banned cruelty toward its chatbot. A report found another's revenue is twenty billion dollars smaller than claimed.",
+  "phraseAlternatives": [
+    "A lab banned cruelty toward its chatbot today. Another lab's revenue was reported to be twenty billion dollars smaller than it once claimed.",
+    "One company protects its chatbot's feelings with a new rule. A report says another company's revenue is twenty billion dollars smaller than claimed.",
+    "A chatbot gained new protection from abuse. A report says a revenue chart was twenty billion dollars smaller than claimed.",
+    "Today one AI company worried about hurt feelings. A new report says another is missing twenty billion dollars it claimed to have."
+  ],
+  "brief": {
+    "concept": "One lab adds a rule to protect its chatbot from cruelty, while another lab's revenue chart quietly deflates below its own hype.",
+    "metaphor": "Shielding a robot's feelings on one side, a money balloon losing its air on the other.",
+    "cast": [
+      {
+        "who": "a chatbot robot standing beside a small protective shield",
+        "kind": "ai"
+      },
+      {
+        "who": "a rule sign with a small heart icon, freshly posted near the robot",
+        "kind": "object"
+      },
+      {
+        "who": "a tall bar chart shaped like a stack of coins, its top caved in and deflated",
+        "kind": "object"
+      },
+      {
+        "who": "a plain company building standing beside the shrinking chart, looking surprised",
+        "kind": "institution"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split the frame with a thin vertical line. Left half: a small chatbot robot with a shield icon and a floating rule sign bearing a heart. Right half: a tall coin-stack bar chart with its top caved in, a plain building shape standing beside it. One yellow highlight marks the collapsed top of the chart as the punchline.",
+    "artType": "static",
+    "alt": "A blueprint-style illustration split in two: on the left a small robot chatbot stands beside a protective shield and a rule sign with a heart; on the right a tall stack-of-coins bar chart has its top caved in next to a plain, surprised-looking company building."
+  },
+  "sourceIds": [
+    "feeds:8d2d84fbc739",
+    "feeds:0b1ef97234c2",
+    "feeds:465c329509f8",
+    "hackernews:5601af0cee33"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 2,
+    "safety": 2,
+    "society": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
