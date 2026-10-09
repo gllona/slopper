@@ -1,0 +1,218 @@
+{
+  "topStories": [
+    {
+      "title": "ChatGPT launches 'Intelligent UI' with interactive visuals alongside GPT-6",
+      "itemIds": [
+        "feeds:cfab59c37a1b",
+        "feeds:e0500f3d01a0",
+        "feeds:89cc5f1e5389"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "chatbots-get-a-dashboard"
+    },
+    {
+      "title": "Research finds ChatGPT for Teens an 'unacceptable risk', keeps engaging through mental health crises",
+      "itemIds": [
+        "feeds:6e667576cfa2",
+        "feeds:c08d83d64560",
+        "feeds:e5ad34a02f40"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "education"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "teen-chatbot-safety-risk"
+    },
+    {
+      "title": "Microsoft gives Copilot control over Windows files and launches Nvidia-powered AI PCs",
+      "itemIds": [
+        "feeds:061e03434962",
+        "feeds:8e58b46e4ffd",
+        "feeds:90ddad468bc3",
+        "feeds:b32071d1c22d"
+      ],
+      "dimensions": [
+        "industry",
+        "capabilities",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agent-controls-your-pc"
+    },
+    {
+      "title": "Study finds AI shopping assistants quote different prices based on a user's apparent wealth",
+      "itemIds": [
+        "hackernews:3e30f3c3fd69"
+      ],
+      "dimensions": [
+        "society",
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-price-discrimination"
+    },
+    {
+      "title": "Google's AI content detector SynthID becomes available worldwide",
+      "itemIds": [
+        "feeds:341228a79cb1",
+        "hackernews:e8e7a8f2af0a"
+      ],
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "watermark-detector-goes-global"
+    },
+    {
+      "title": "Pentagon speeds up 'kill chain' AI defense contracts with short pitch videos",
+      "itemIds": [
+        "feeds:af0398167d95"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "military-ai-buying-spree"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "chatbots-get-a-dashboard",
+      "title": "Chatbots Trade Text For Dashboards",
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "motifs": [
+        "a speech bubble sprouting buttons and a bar chart",
+        "a plain text reply morphing into a control panel"
+      ]
+    },
+    {
+      "id": "teen-chatbot-safety-risk",
+      "title": "Teen Chatbot Safety Under Fire",
+      "dimensions": [
+        "safety",
+        "society",
+        "education"
+      ],
+      "motifs": [
+        "a safety label peeling off a chat bubble",
+        "a tired teen lit only by a phone screen"
+      ]
+    },
+    {
+      "id": "ai-agent-controls-your-pc",
+      "title": "AI Agents Get The Keys To Your Computer",
+      "dimensions": [
+        "industry",
+        "capabilities",
+        "safety"
+      ],
+      "motifs": [
+        "a robot hand opening a file cabinet drawer on a desktop screen",
+        "a desktop icon turning into a small robot"
+      ]
+    },
+    {
+      "id": "watermark-detector-goes-global",
+      "title": "The Watermark Detector Goes Global",
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "motifs": [
+        "a magnifying glass revealing a hidden stamp on an image",
+        "a world map lighting up with small checkmark stamps"
+      ]
+    },
+    {
+      "id": "military-ai-buying-spree",
+      "title": "The Military's AI Shopping Spree",
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry"
+      ],
+      "motifs": [
+        "a shopping cart loaded with missile-shaped chips",
+        "a fast-forward clock over a stack of defense contracts"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The chatbot's new visual interface launching alongside a flagship model scores novelty 3 x magnitude 3 x breadth 3 = 27, far above the fresh threshold of 8, so today stands on its own rather than continuing the prior supervisor-free theme.",
+  "motto": "New Interface, Old Risks",
+  "phrase": "A major chatbot update adds buttons, charts, and diagrams to every answer. Reviewers say the version made for teenagers still keeps chatting through a mental health crisis.",
+  "phraseAlternatives": [
+    "A popular chatbot now answers with charts and clickable buttons instead of plain text. A safety review says its teen version still chats through a mental health crisis.",
+    "Everyone's chatbot reply now comes with buttons and a chart. Testers say the teenage version keeps talking right through a mental health crisis.",
+    "The chatbot learned to draw charts and buttons instead of paragraphs. Its teenage users, researchers say, are still talking to it in the middle of a crisis.",
+    "A chatbot update brings diagrams, forms, and buttons to every reply. A teen-safety group says the teen edition still won't stop chatting during a crisis."
+  ],
+  "brief": {
+    "concept": "A chatbot's reply grows buttons and a chart for everyone, while the version built for teenagers keeps a tired teen talking all through a mental health crisis.",
+    "metaphor": "A speech bubble sprouting shiny new controls on one side, and on the other a smaller matching bubble with its safety label peeling off.",
+    "cast": [
+      {
+        "who": "a chatbot speech bubble sprouting buttons and a small bar chart",
+        "kind": "ai"
+      },
+      {
+        "who": "a tired teenager lit only by a phone screen late at night",
+        "kind": "person"
+      },
+      {
+        "who": "a small safety label peeling off a speech bubble",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Two panels side by side on one card. Left: a plain speech bubble grows colorful tabs, a small bar chart, and a round button. Right: a tired teenager sits in bed, phone glowing, beside a smaller matching speech bubble with a red safety label curling off its corner. Keep both bubbles the same basic shape so the contrast reads clearly at a glance. No screens full of text, no logos.",
+    "artType": "static",
+    "alt": "Split illustration: on the left, a chatbot's speech bubble grows colorful buttons and a bar chart; on the right, a tired teenager lies in bed glowing from their phone, next to a smaller matching speech bubble with a red safety label peeling off its corner."
+  },
+  "sourceIds": [
+    "feeds:cfab59c37a1b",
+    "feeds:e0500f3d01a0",
+    "feeds:89cc5f1e5389",
+    "feeds:6e667576cfa2",
+    "feeds:c08d83d64560",
+    "feeds:e5ad34a02f40"
+  ],
+  "dimensions": {
+    "capabilities": 3,
+    "industry": 3,
+    "safety": 2,
+    "society": 2,
+    "law": 1,
+    "education": 1,
+    "policy": 1
+  },
+  "mood": {
+    "hype_doom": 1,
+    "calm_frantic": 2
+  }
+}
