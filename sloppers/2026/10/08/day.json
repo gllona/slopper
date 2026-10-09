@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-08",
+  "number": 9,
+  "mode": "fresh",
+  "motto": "Be Nice To The Robot",
+  "phrase": "One AI company now bans users from being cruel to its chatbot. Another was revealed to have revenue twenty billion dollars smaller than earlier reports claimed.",
+  "phraseAlternatives": [
+    "A chatbot just got protection from abusive users. Its maker's bank account did not get the same protection from reality.",
+    "Some companies protect their robots from cruelty. Other companies get caught by reports on where twenty billion dollars went missing.",
+    "Be kind to the chatbot, one company said today. Investors just learned the revenue numbers were kinder than the real ones."
+  ],
+  "alt": "On the left, a speech bubble labeled SAFE wears a small yellow shield badge, floating clearly above a worried person whose raised fist stops well short of it, open blue space between them. On the right, a hand erases the top of a short bar chart down from a dotted line marking its old, taller height, with a label reading minus twenty billion dollars.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "law": 1,
+    "safety": 3,
+    "society": 3,
+    "education": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "ai-usage-policy-draws-lines",
+    "ai-safety-self-policing",
+    "ai-agent-gets-an-office-job",
+    "ai-squeezes-entry-level-jobs",
+    "ai-revenue-reality-check",
+    "ai-deepfakes-target-women-in-politics"
+  ],
+  "topStories": [
+    {
+      "title": "Anthropic bans cruelty toward its chatbot, updates misuse rules",
+      "itemIds": [
+        "feeds:8d2d84fbc739",
+        "feeds:0b1ef97234c2"
+      ],
+      "dimensions": [
+        "society",
+        "safety",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-usage-policy-draws-lines"
+    },
+    {
+      "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+      "itemIds": [
+        "feeds:f3da56c9d020"
+      ],
+      "dimensions": [
+        "safety",
+        "labor",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-safety-self-policing"
+    },
+    {
+      "title": "Google turns Gemini into an agent for office work",
+      "itemIds": [
+        "feeds:9ad5730f9263",
+        "feeds:16755fadce6a"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "labor"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agent-gets-an-office-job"
+    },
+    {
+      "title": "AI squeezes entry-level tech jobs for new graduates",
+      "itemIds": [
+        "gdelt:46e9d65c9e6a"
+      ],
+      "dimensions": [
+        "labor",
+        "education",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-squeezes-entry-level-jobs"
+    },
+    {
+      "title": "OpenAI's revenue reportedly $20 billion below prior projections",
+      "itemIds": [
+        "feeds:465c329509f8",
+        "hackernews:5601af0cee33"
+      ],
+      "dimensions": [
+        "industry",
+        "capabilities"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-revenue-reality-check"
+    },
+    {
+      "title": "Deepfakes target female EU lawmakers, who demand action",
+      "itemIds": [
+        "gdelt:49c87e7fab31"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "law",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-deepfakes-target-women-in-politics"
+    }
+  ],
+  "brief": {
+    "concept": "One AI company shields its chatbot from angry users, while nearby a company's own revenue chart quietly gets erased down to a smaller, truer size.",
+    "metaphor": "Protecting feelings is easy; protecting numbers from reality is not.",
+    "cast": [
+      {
+        "who": "a chatbot speech bubble wearing a small shield",
+        "kind": "ai"
+      },
+      {
+        "who": "a person's raised fist stopped just short of the bubble",
+        "kind": "person"
+      },
+      {
+        "who": "a tall bar chart labeled with a currency symbol",
+        "kind": "object"
+      },
+      {
+        "who": "a person's hand erasing the top of the bar chart shorter",
+        "kind": "person"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Left half: a speech bubble with a small shield icon on its surface, a human fist pulled back just short of touching it, suggesting a new rule stopped it. Right half: a tall bar chart on the blueprint grid, a hand mid-erase shrinking its top down to a shorter bar, with a dotted line and small yellow highlight marking where the old, taller height used to be.",
+    "artType": "static",
+    "alt": "On one side, a chatbot speech bubble wears a small shield that stops an angry fist. On the other side, a hand erases the top of a tall bar chart down to a much shorter bar, with a dotted line showing where the taller bar used to reach."
+  },
+  "sources": [
+    {
+      "id": "feeds:8d2d84fbc739",
+      "title": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-08T17:00:00.000Z"
+    },
+    {
+      "id": "feeds:0b1ef97234c2",
+      "title": "Anthropic changes usage policy to ban model abuse and election interference",
+      "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-08T18:16:24.000Z"
+    },
+    {
+      "id": "feeds:465c329509f8",
+      "title": "OpenAI’s revenue is reportedly $20 billion less than previously projected",
+      "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-08T18:19:42.000Z"
+    },
+    {
+      "id": "hackernews:5601af0cee33",
+      "title": "OpenAI annualised revenues $20B less than previously signalled",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+      "source": "hackernews",
+      "publisher": "cnbc.com",
+      "publishedAt": "2026-10-08T16:45:58.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.57,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-09T11:53:44.031Z"
+}

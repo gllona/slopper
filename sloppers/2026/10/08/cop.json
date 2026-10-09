@@ -1,0 +1,21 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"Another admitted its revenue is twenty billion dollars smaller than earlier reports claimed.\" Sources use \"reportedly,\" \"a new report claims,\" and \"previously signalled\" — none say the company itself admitted or confessed to the discrepancy; the figure comes from outside reporting, not a company statement.",
+          "suggestion": "Change \"admitted\" to a verb that matches the sourcing, e.g. \"Another is reported to have revenue twenty billion dollars smaller than earlier reports claimed\" or \"...was revealed to have revenue twenty billion smaller...\" — avoid implying the company itself confessed.",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "pass",
+      "findings": []
+    }
+  ]
+}
