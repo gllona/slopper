@@ -1,0 +1,112 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {},
+  "elements": [
+    {
+      "id": "bot",
+      "component": "robot",
+      "at": {
+        "x": 0.25,
+        "y": 0.74
+      },
+      "scale": 0.9,
+      "props": {
+        "mood": "happy",
+        "arms": "down",
+        "color": "body",
+        "antenna": true
+      }
+    },
+    {
+      "id": "shield",
+      "component": "raw",
+      "attachTo": "bot",
+      "side": "left",
+      "scale": 0.85,
+      "props": {
+        "width": 100,
+        "height": 120
+      },
+      "svg": "<path class=\"r-body\" d=\"M50 6 L92 22 V54 C92 90 70 110 50 116 C30 110 8 90 8 54 V22 Z\"/>"
+    },
+    {
+      "id": "heart",
+      "component": "raw",
+      "attachTo": "bot",
+      "side": "top",
+      "offset": [
+        0,
+        -40
+      ],
+      "scale": 1,
+      "props": {
+        "width": 70,
+        "height": 62
+      },
+      "svg": "<path class=\"r-accent\" d=\"M35 58 C20 46 6 34 6 20 C6 8 16 2 26 6 C31 8 34 12 35 16 C36 12 39 8 44 6 C54 2 64 8 64 20 C64 34 50 46 35 58 Z\"/>"
+    },
+    {
+      "id": "rule-sign",
+      "component": "label",
+      "attachTo": "bot",
+      "side": "bottom",
+      "offset": [
+        0,
+        40
+      ],
+      "scale": 1,
+      "props": {
+        "text": "Be Kind",
+        "size": "md",
+        "kind": "sign",
+        "color": "text"
+      }
+    },
+    {
+      "id": "building",
+      "component": "raw",
+      "at": {
+        "x": 0.59,
+        "y": 0.7
+      },
+      "scale": 1,
+      "props": {
+        "width": 150,
+        "height": 210
+      },
+      "svg": "<path class=\"r-line\" d=\"M10 60 L75 15 L140 60\"/><rect x=\"20\" y=\"60\" width=\"110\" height=\"140\" class=\"r-body\"/><rect x=\"40\" y=\"90\" width=\"26\" height=\"26\" class=\"r-body-alt\"/><rect x=\"84\" y=\"90\" width=\"26\" height=\"26\" class=\"r-body-alt\"/>"
+    },
+    {
+      "id": "coin-stack",
+      "component": "raw",
+      "at": {
+        "x": 0.78,
+        "y": 0.55
+      },
+      "scale": 1.1,
+      "props": {
+        "width": 160,
+        "height": 380
+      },
+      "svg": "<ellipse cx=\"80\" cy=\"350\" rx=\"70\" ry=\"22\" class=\"r-body\"/><ellipse cx=\"80\" cy=\"310\" rx=\"70\" ry=\"22\" class=\"r-body\"/><ellipse cx=\"80\" cy=\"270\" rx=\"70\" ry=\"22\" class=\"r-body\"/><circle cx=\"40\" cy=\"350\" r=\"10\" class=\"r-line\"/><circle cx=\"80\" cy=\"350\" r=\"10\" class=\"r-line\"/><circle cx=\"120\" cy=\"350\" r=\"10\" class=\"r-line\"/><line x1=\"10\" y1=\"270\" x2=\"10\" y2=\"222\" class=\"r-line\"/><line x1=\"150\" y1=\"270\" x2=\"150\" y2=\"222\" class=\"r-line\"/><ellipse cx=\"80\" cy=\"222\" rx=\"70\" ry=\"20\" class=\"r-line\"/><ellipse cx=\"80\" cy=\"252\" rx=\"54\" ry=\"15\" class=\"r-body-alt\"/><ellipse cx=\"80\" cy=\"246\" rx=\"16\" ry=\"6\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "punchline",
+      "component": "label",
+      "attachTo": "coin-stack",
+      "side": "top",
+      "offset": [
+        0,
+        -10
+      ],
+      "scale": 1,
+      "props": {
+        "text": "Missing Billions",
+        "size": "sm",
+        "color": "accent"
+      }
+    }
+  ],
+  "alt": "A blueprint illustration: a small robot stands with a shield and a heart above it, a sign below it reads \"Be Kind.\" To the right, a plain building stands near a tall coin-stack chart whose top is visibly caved in and recessed, marked with one yellow highlight, labeled \"Missing Billions.\""
+}

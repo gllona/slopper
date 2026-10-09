@@ -1,0 +1,29 @@
+{
+  "verdict": "revise",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"Another admitted its revenue is twenty billion dollars smaller than claimed.\" Sources state the shortfall was reported by outside outlets (\"a new report claims it's a whole lot less than that\", \"OpenAI's revenue is reportedly $20 billion less than previously projected\"), not that the company itself admitted or confessed to it.",
+          "suggestion": "Replace 'admitted' with a neutral verb that matches the sourcing, e.g. 'Another's revenue was reported to be twenty billion dollars smaller than claimed' or 'A report found another's revenue is twenty billion dollars smaller than claimed.'",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"A report found another's revenue is twenty billion dollars smaller than claimed.\"",
+          "suggestion": "Sources say the $20B gap is versus revenue that was \"previously projected\"/\"previously signalled\"/\"previously reported\" (i.e. reported by press/analysts), not a figure the company itself publicly claimed. Change \"than claimed\" to \"than previously reported\" to avoid implying the company itself touted a false number.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}

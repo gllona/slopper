@@ -1,0 +1,205 @@
+{
+  "date": "2026-10-08",
+  "number": 9,
+  "mode": "fresh",
+  "motto": "Kindness Over Cash",
+  "phrase": "One AI company banned cruelty toward its chatbot. A report found another's revenue is twenty billion dollars smaller than claimed.",
+  "phraseAlternatives": [
+    "A lab banned cruelty toward its chatbot today. Another lab's revenue was reported to be twenty billion dollars smaller than it once claimed.",
+    "One company protects its chatbot's feelings with a new rule. A report says another company's revenue is twenty billion dollars smaller than claimed.",
+    "A chatbot gained new protection from abuse. A report says a revenue chart was twenty billion dollars smaller than claimed.",
+    "Today one AI company worried about hurt feelings. A new report says another is missing twenty billion dollars it claimed to have."
+  ],
+  "alt": "A blueprint illustration: a small robot stands with a shield and a heart above it, a sign below it reads \"Be Kind.\" To the right, a plain building stands near a tall coin-stack chart whose top is visibly caved in and recessed, marked with one yellow highlight, labeled \"Missing Billions.\"",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 2,
+    "safety": 2,
+    "society": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "defending-the-chatbot",
+    "ai-revenue-reality-check",
+    "ai-safety-self-policing",
+    "publishers-sue-ai-training",
+    "ai-agent-controls-your-pc",
+    "robot-human-cage-match"
+  ],
+  "topStories": [
+    {
+      "title": "Anthropic bans abusive treatment of Claude, updates usage policy",
+      "itemIds": [
+        "feeds:8d2d84fbc739",
+        "feeds:0b1ef97234c2"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "defending-the-chatbot"
+    },
+    {
+      "title": "OpenAI's revenue reportedly $20 billion below earlier projections",
+      "itemIds": [
+        "feeds:465c329509f8",
+        "hackernews:5601af0cee33"
+      ],
+      "dimensions": [
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-revenue-reality-check"
+    },
+    {
+      "title": "Fired OpenAI safety researchers dispute misconduct claims",
+      "itemIds": [
+        "feeds:f3da56c9d020"
+      ],
+      "dimensions": [
+        "safety",
+        "labor",
+        "policy"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-safety-self-policing"
+    },
+    {
+      "title": "USA Today sues OpenAI over alleged copyright infringement",
+      "itemIds": [
+        "feeds:e77d04198491"
+      ],
+      "dimensions": [
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "publishers-sue-ai-training"
+    },
+    {
+      "title": "Google launches a universal Gemini agent for work",
+      "itemIds": [
+        "feeds:9ad5730f9263",
+        "feeds:16755fadce6a"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "labor"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agent-controls-your-pc"
+    },
+    {
+      "title": "California moves to shut down robot-versus-human cage matches",
+      "itemIds": [
+        "feeds:1f624a2ed308"
+      ],
+      "dimensions": [
+        "society",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "robot-human-cage-match"
+    }
+  ],
+  "brief": {
+    "concept": "One lab adds a rule to protect its chatbot from cruelty, while another lab's revenue chart quietly deflates below its own hype.",
+    "metaphor": "Shielding a robot's feelings on one side, a money balloon losing its air on the other.",
+    "cast": [
+      {
+        "who": "a chatbot robot standing beside a small protective shield",
+        "kind": "ai"
+      },
+      {
+        "who": "a rule sign with a small heart icon, freshly posted near the robot",
+        "kind": "object"
+      },
+      {
+        "who": "a tall bar chart shaped like a stack of coins, its top caved in and deflated",
+        "kind": "object"
+      },
+      {
+        "who": "a plain company building standing beside the shrinking chart, looking surprised",
+        "kind": "institution"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split the frame with a thin vertical line. Left half: a small chatbot robot with a shield icon and a floating rule sign bearing a heart. Right half: a tall coin-stack bar chart with its top caved in, a plain building shape standing beside it. One yellow highlight marks the collapsed top of the chart as the punchline.",
+    "artType": "static",
+    "alt": "A blueprint-style illustration split in two: on the left a small robot chatbot stands beside a protective shield and a rule sign with a heart; on the right a tall stack-of-coins bar chart has its top caved in next to a plain, surprised-looking company building."
+  },
+  "sources": [
+    {
+      "id": "feeds:8d2d84fbc739",
+      "title": "Anthropic bans ‘abusive or cruel behavior’ toward Claude",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-08T17:00:00.000Z"
+    },
+    {
+      "id": "feeds:0b1ef97234c2",
+      "title": "Anthropic changes usage policy to ban model abuse and election interference",
+      "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-08T18:16:24.000Z"
+    },
+    {
+      "id": "feeds:465c329509f8",
+      "title": "OpenAI’s revenue is reportedly $20 billion less than previously projected",
+      "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-08T18:19:42.000Z"
+    },
+    {
+      "id": "hackernews:5601af0cee33",
+      "title": "OpenAI annualised revenues $20B less than previously signalled",
+      "url": "https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html",
+      "source": "hackernews",
+      "publisher": "cnbc.com",
+      "publishedAt": "2026-10-08T16:45:58.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.71,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "revise"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-09T14:24:34.420Z"
+}
