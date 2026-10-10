@@ -1,0 +1,126 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {
+    "type": "split",
+    "horizon": 0.78,
+    "color": "bg",
+    "color2": "ink"
+  },
+  "elements": [
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1,
+      "props": {
+        "width": 12,
+        "height": 960
+      },
+      "svg": "<rect x=\"0\" y=\"0\" width=\"12\" height=\"960\" rx=\"6\" class=\"r-paper\"/>"
+    },
+    {
+      "id": "bot-proof",
+      "component": "robot",
+      "at": {
+        "x": 0.2,
+        "y": 0.78
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "proud",
+        "arms": "up",
+        "color": "accent",
+        "antenna": true
+      }
+    },
+    {
+      "id": "board",
+      "component": "raw",
+      "attachTo": "bot-proof",
+      "side": "top",
+      "scale": 0.8,
+      "props": {
+        "width": 360,
+        "height": 270
+      },
+      "svg": "<rect x=\"10\" y=\"10\" width=\"340\" height=\"240\" rx=\"18\" class=\"r-ink\"/><rect x=\"30\" y=\"206\" width=\"300\" height=\"16\" rx=\"8\" class=\"r-accent\"/><rect x=\"36\" y=\"30\" width=\"22\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-8 47 33)\"/><rect x=\"96\" y=\"30\" width=\"22\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(4 107 33)\"/><rect x=\"156\" y=\"30\" width=\"22\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-4 167 33)\"/><rect x=\"216\" y=\"30\" width=\"22\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(8 227 33)\"/><rect x=\"276\" y=\"30\" width=\"22\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-6 287 33)\"/><rect x=\"36\" y=\"48\" width=\"30\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-8 51 51)\"/><rect x=\"96\" y=\"48\" width=\"30\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(4 111 51)\"/><rect x=\"156\" y=\"48\" width=\"30\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-4 171 51)\"/><rect x=\"216\" y=\"48\" width=\"30\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(8 231 51)\"/><rect x=\"276\" y=\"48\" width=\"30\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-6 291 51)\"/><rect x=\"36\" y=\"66\" width=\"18\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-8 45 69)\"/><rect x=\"96\" y=\"66\" width=\"18\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(4 105 69)\"/><rect x=\"156\" y=\"66\" width=\"18\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-4 165 69)\"/><rect x=\"216\" y=\"66\" width=\"18\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(8 225 69)\"/><rect x=\"276\" y=\"66\" width=\"18\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-6 285 69)\"/><rect x=\"36\" y=\"84\" width=\"34\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-8 53 87)\"/><rect x=\"96\" y=\"84\" width=\"34\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(4 113 87)\"/><rect x=\"156\" y=\"84\" width=\"34\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-4 173 87)\"/><rect x=\"216\" y=\"84\" width=\"34\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(8 233 87)\"/><rect x=\"276\" y=\"84\" width=\"34\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-6 293 87)\"/><rect x=\"36\" y=\"102\" width=\"24\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-8 48 105)\"/><rect x=\"96\" y=\"102\" width=\"24\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(4 108 105)\"/><rect x=\"156\" y=\"102\" width=\"24\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-4 168 105)\"/><rect x=\"216\" y=\"102\" width=\"24\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(8 228 105)\"/><rect x=\"276\" y=\"102\" width=\"24\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-6 288 105)\"/><rect x=\"36\" y=\"120\" width=\"28\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-8 50 123)\"/><rect x=\"96\" y=\"120\" width=\"28\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(4 110 123)\"/><rect x=\"156\" y=\"120\" width=\"28\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-4 170 123)\"/><rect x=\"216\" y=\"120\" width=\"28\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(8 230 123)\"/><rect x=\"276\" y=\"120\" width=\"28\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-6 290 123)\"/><rect x=\"36\" y=\"138\" width=\"20\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-8 46 141)\"/><rect x=\"96\" y=\"138\" width=\"20\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(4 106 141)\"/><rect x=\"156\" y=\"138\" width=\"20\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-4 166 141)\"/><rect x=\"216\" y=\"138\" width=\"20\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(8 226 141)\"/><rect x=\"276\" y=\"138\" width=\"20\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-6 286 141)\"/><rect x=\"36\" y=\"156\" width=\"32\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-8 52 159)\"/><rect x=\"96\" y=\"156\" width=\"32\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(4 112 159)\"/><rect x=\"156\" y=\"156\" width=\"32\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-4 172 159)\"/><rect x=\"216\" y=\"156\" width=\"32\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(8 232 159)\"/><rect x=\"276\" y=\"156\" width=\"32\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-6 292 159)\"/><rect x=\"36\" y=\"174\" width=\"26\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-8 49 177)\"/><rect x=\"96\" y=\"174\" width=\"26\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(4 109 177)\"/><rect x=\"156\" y=\"174\" width=\"26\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-4 169 177)\"/><rect x=\"216\" y=\"174\" width=\"26\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(8 229 177)\"/><rect x=\"276\" y=\"174\" width=\"26\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-6 289 177)\"/><rect x=\"36\" y=\"192\" width=\"16\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-8 44 195)\"/><rect x=\"96\" y=\"192\" width=\"16\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(4 104 195)\"/><rect x=\"156\" y=\"192\" width=\"16\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-4 164 195)\"/><rect x=\"216\" y=\"192\" width=\"16\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(8 224 195)\"/><rect x=\"276\" y=\"192\" width=\"16\" height=\"6\" rx=\"3\" class=\"r-paper\" transform=\"rotate(-6 284 195)\"/><ellipse cx=\"70\" cy=\"258\" rx=\"7\" ry=\"3\" class=\"r-shade\"/><ellipse cx=\"115\" cy=\"263\" rx=\"5\" ry=\"2\" class=\"r-shade\"/><ellipse cx=\"160\" cy=\"257\" rx=\"9\" ry=\"3\" class=\"r-shade\"/><ellipse cx=\"205\" cy=\"262\" rx=\"6\" ry=\"2\" class=\"r-shade\"/><ellipse cx=\"250\" cy=\"258\" rx=\"8\" ry=\"3\" class=\"r-shade\"/><ellipse cx=\"295\" cy=\"263\" rx=\"5\" ry=\"2\" class=\"r-shade\"/>"
+    },
+    {
+      "id": "math-human",
+      "component": "human",
+      "at": {
+        "x": 0.39,
+        "y": 0.78
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "surprised",
+        "pose": "point",
+        "color": "body",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "bot-tip",
+      "component": "robot",
+      "at": {
+        "x": 0.83,
+        "y": 0.78
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "neutral",
+        "arms": "down",
+        "color": "body",
+        "antenna": false
+      }
+    },
+    {
+      "id": "calendar",
+      "component": "raw",
+      "attachTo": "bot-tip",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "width": 180,
+        "height": 220
+      },
+      "svg": "<circle cx=\"90\" cy=\"10\" r=\"6\" class=\"r-ink\"/><rect x=\"25\" y=\"8\" width=\"130\" height=\"12\" rx=\"5\" class=\"r-ink\"/><path d=\"M20,20 H160 V132 L148,148 L136,130 L124,150 L112,132 L100,152 L88,130 L76,148 L64,132 L52,150 L40,130 L28,146 L20,134 Z\" class=\"r-paper\"/><line x1=\"35\" y1=\"60\" x2=\"55\" y2=\"80\" class=\"r-thin\"/><line x1=\"55\" y1=\"60\" x2=\"35\" y2=\"80\" class=\"r-thin\"/><line x1=\"45\" y1=\"85\" x2=\"65\" y2=\"105\" class=\"r-thin\"/><line x1=\"65\" y1=\"85\" x2=\"45\" y2=\"105\" class=\"r-thin\"/><line x1=\"100\" y1=\"70\" x2=\"120\" y2=\"90\" class=\"r-thin\"/><line x1=\"120\" y1=\"70\" x2=\"100\" y2=\"90\" class=\"r-thin\"/><ellipse cx=\"30\" cy=\"40\" rx=\"6\" ry=\"2\" class=\"r-shade\"/><ellipse cx=\"130\" cy=\"45\" rx=\"7\" ry=\"2\" class=\"r-shade\"/><ellipse cx=\"90\" cy=\"115\" rx=\"8\" ry=\"3\" class=\"r-shade\"/><ellipse cx=\"50\" cy=\"120\" rx=\"5\" ry=\"2\" class=\"r-shade\"/><ellipse cx=\"115\" cy=\"100\" rx=\"6\" ry=\"2\" class=\"r-shade\"/>"
+    },
+    {
+      "id": "tipbox",
+      "component": "raw",
+      "attachTo": "bot-tip",
+      "side": "left",
+      "offset": [
+        -80,
+        110
+      ],
+      "scale": 0.8,
+      "props": {
+        "width": 140,
+        "height": 160
+      },
+      "svg": "<rect x=\"10\" y=\"60\" width=\"120\" height=\"90\" rx=\"14\" class=\"r-accent-2\"/><rect x=\"40\" y=\"66\" width=\"60\" height=\"10\" rx=\"4\" class=\"r-ink\"/><rect x=\"44\" y=\"26\" width=\"46\" height=\"36\" rx=\"5\" class=\"r-paper\" transform=\"rotate(-18 67 44)\"/>"
+    },
+    {
+      "id": "note-label",
+      "component": "label",
+      "attachTo": "tipbox",
+      "side": "bottom",
+      "scale": 0.8,
+      "props": {
+        "text": "Unnoticed",
+        "size": "md",
+        "kind": "tag",
+        "color": "accent"
+      }
+    }
+  ],
+  "alt": "Paper-cutout card split by a vertical divider. Left: an orange robot proudly fills a dense, overflowing chalkboard with equations while a human stares up with mouth open, pointing in disbelief. Right: a plain teal robot lowers a folded note into a tip box beside a torn, dust-speckled two-month calendar, with a small \"Unnoticed\" tag beneath the box."
+}

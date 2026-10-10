@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"note-label\" (label) was moved -111 px, 0 px to stay inside the safe area"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Casting is correct (human mathematician, two AI robots) and the paper-cutout style is consistent, but the right-panel robot and the human overlap into a confusing clipped blob straddling the divider, the calendar is too small to read, and a large empty green ground wastes composition—this doesn't clear the bar for publish-ready polish or clarity.",
+        "revisionNotes": [
+          "bot-tip and math-human clip into each other near the divider, forming an unreadable merged blob—move bot-tip fully onto 'right-third' (drop the -40px offset) and give math-human more breathing room on the left so each panel reads separately.",
+          "The label 'Unnoticed for months' cuts across both figures' legs (lint flagged it was shoved -111px to fit); re-anchor it directly under tipbox with clear padding instead of overlapping neighboring components.",
+          "Calendar at scale 0.9 in the corner reads as a stray scribble, not a torn two-month calendar—scale to ~1.3, add clearer torn-edge silhouette and visible dust cross-hatching, and give it its own clear space away from the divider.",
+          "Bottom half of the frame is an empty green ground shape with no story content—raise the horizon or add a small prop (e.g., chalk dust pile, police tip-line sign) so the lower half isn't wasted.",
+          "Keep left-panel elements (blackboard, bot-proof, math-human) strictly left of the divider and right-panel elements (bot-tip, tipbox, calendar) strictly right—right now they straddle the line and defeat the two-panel structure.",
+          "Vertical-divider split-panel layout plus the teal/cream/orange palette closely echoes two recent sloppers (robots split by a line; 'Records' tug-of-war)—try a different panel treatment, like a diagonal split or a single unified scene, for more novelty."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Fails: the cast is correctly handled (humans human, AI robotic) and kindness is fine, but the planned two-panel split was dropped in favor of one crowded row of seven elements, the 'Unnoticed' label overlaps three other components, the blackboard reads as a few scattered dashes rather than a flood of proofs, and stray dust/sign props misread as golf balls and a tee.",
+        "revisionNotes": [
+          "Composition: brief called for two panels split by a vertical divider; render merged everything into one crowded row of 7 elements (2 robots, human, blackboard, calendar, tipbox, dust, sign-post) — restore the divider, or cut 2-3 components to stay under the 3-4 element guideline.",
+          "Polish: the 'Unnoticed' label pill clips across the human's legs, the tipbox, and the right robot's leg — shrink it to scale 0.8 and anchor it directly under tipbox only, clear of the human and bot-tip.",
+          "Clarity: the blackboard's chalk marks are too sparse and uniform to read as 'a flood of new proofs' — densify the raw svg lines with more rows/varied lengths so the board looks genuinely overflowing.",
+          "Polish: the white circles at bot-proof's feet and the post+circle at bot-tip's feet read as golf balls and a golf tee, not chalk dust or a sign — redraw dust-pile as fine debris under the board, and rework tip-sign so it doesn't resemble sports props.",
+          "Coherence: pull tipbox and the folded note closer to bot-tip's lowered hand (currently floating mid-gap) so the 'slipping a note into the box' action is legible at a glance.",
+          "Novelty: the beige-sky/teal-ground palette and horizontal lineup near the horizon closely echo several recent pieces — try a different ground color or vertical staging to stand out."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 4,
+          "style": 4,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "A fair, kind two-panel gag with correct human/robot casting, but it leans on a split-divider layout already used in recent sloppers and a couple of props (abstract blackboard marks, unlabeled tip box, calendar X's) need clearer execution to sell the joke instantly.",
+        "revisionNotes": [
+          "Novelty: a vertical-divider split-panel card with a robot on each side has appeared in at least two recent sloppers; vary the framing (diagonal split, single continuous scene, or offset panels) so this doesn't read as a repeat layout.",
+          "Clarity: the blackboard's equation marks read as plain tally dashes/barcode, not proofs; vary the raw shapes (fraction bars, sigma squiggles, small circles) and scale them up so 'flood of new proofs' is legible.",
+          "Clarity: the tip box has no cue it's a police tip line (reads as a donation/suggestion box); add a small badge or star prop on the box so the second robot's action is unambiguous.",
+          "Polish: the 'Unnoticed' label straddles the center divider; move its anchor further right (e.g. x=0.85) so it sits fully in the right panel.",
+          "Clarity: the torn calendar's two X marks read like a ghost's eyes rather than crossed-off months; swap for strike marks across a few curling torn pages to better sell two months passing."
+        ]
+      },
+      "average": 3.57,
+      "passed": true
+    }
+  ]
+}
