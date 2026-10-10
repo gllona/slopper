@@ -1,0 +1,209 @@
+{
+  "topStories": [
+    {
+      "title": "An AI gave police a false homicide tip, undetected for two months",
+      "itemIds": [
+        "feeds:de701fe4a7e6",
+        "feeds:e51482db5c5f",
+        "hackernews:3bbfce9cd0c5"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-false-police-tip"
+    },
+    {
+      "title": "A drone strike destroys a Russian AI datacenter's training supercomputers",
+      "itemIds": [
+        "feeds:22c357986118"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "war-strikes-ai-datacenter"
+    },
+    {
+      "title": "A foreign campaign used a chatbot to plant fake articles in real US publications",
+      "itemIds": [
+        "hackernews:ffbcf6d4e738"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-generated-disinfo-campaign"
+    },
+    {
+      "title": "Publishing house staff revolt against growing AI use in their work",
+      "itemIds": [
+        "feeds:1f8200ea1360"
+      ],
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "publishers-ai-staff-revolt"
+    },
+    {
+      "title": "A flood of AI-made math results leaves mathematicians scrambling to verify them",
+      "itemIds": [
+        "feeds:0a056978c9b4",
+        "hackernews:ad0231bd8e73"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-floods-math-world"
+    },
+    {
+      "title": "A lab stands by its decision to fire three safety researchers",
+      "itemIds": [
+        "feeds:a3203d860574",
+        "feeds:45a47cdb928c",
+        "hackernews:f3da56c9d020"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "labor"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-safety-self-policing"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-false-police-tip",
+      "title": "An AI's False Tip To The Police",
+      "dimensions": [
+        "safety",
+        "law",
+        "society"
+      ],
+      "motifs": [
+        "a robot speaking into an old telephone at a tip-line desk",
+        "a small blinking message light nobody checks for months"
+      ]
+    },
+    {
+      "id": "war-strikes-ai-datacenter",
+      "title": "War Reaches The AI Datacenter",
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet"
+      ],
+      "motifs": [
+        "a drone silhouette over a smoking server rack",
+        "a world map with a cracked datacenter icon"
+      ]
+    },
+    {
+      "id": "ai-generated-disinfo-campaign",
+      "title": "A Foreign Campaign Writes With AI",
+      "dimensions": [
+        "safety",
+        "society",
+        "policy"
+      ],
+      "motifs": [
+        "a robot hand slipping a fake article into a stack of real newspapers",
+        "a puppet string pulling a newspaper headline"
+      ]
+    },
+    {
+      "id": "publishers-ai-staff-revolt",
+      "title": "Publishing Staff Push Back On AI",
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "motifs": [
+        "a human editor crossing out AI-written cover copy",
+        "a stack of book covers half robot-drawn, half hand-drawn"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Several stories independently clear the relevance threshold of 8 (novelty 3 × magnitude 2 × breadth 2 = 12): the false police tip, the drone strike on an AI datacenter, the AI-written disinformation campaign, and the publishing staff revolt all qualify, so today stands on its own.",
+  "motto": "Nobody Checked First",
+  "phrase": "An AI gave police a false tip about an unsolved murder, unnoticed for two months. Another AI dropped so many math results that mathematicians say checking them could take years.",
+  "phraseAlternatives": [
+    "A chatbot phoned police with a false tip about an unsolved murder, and no one noticed for months. Another model flooded mathematicians with results nobody has time to check.",
+    "An AI model gave police a false lead on an unsolved murder. Nobody caught it for two months, and mathematicians are still checking another AI's flood of new results.",
+    "A false AI tip sat unquestioned in a police file for two months. A flood of AI math results may sit unchecked for years.",
+    "Police trusted an AI tip for two months before learning it was false. Mathematicians now face years of checking another AI's pile of new results."
+  ],
+  "brief": {
+    "concept": "One AI gives police an unverified tip about a murder; another floods mathematicians with results nobody has time to verify.",
+    "metaphor": "An answer nobody double-checks: a phone tip no one hangs up on, and a paper flood no one can out-read.",
+    "cast": [
+      {
+        "who": "a robot speaking into an old telephone receiver at a police tip-line desk",
+        "kind": "ai"
+      },
+      {
+        "who": "a human police officer at a desk, looking away from a small blinking unchecked message light",
+        "kind": "person"
+      },
+      {
+        "who": "a second robot tipping an endless stream of papers out of a funnel",
+        "kind": "ai"
+      },
+      {
+        "who": "a tired human mathematician half-buried under the growing paper pile, holding up just one sheet",
+        "kind": "person"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Two side-by-side panels sharing one cream background. Left panel: a robot at a desk speaks into an old telephone; behind it, a human police officer sits under a small blinking light that stays unchecked. Right panel, mirrored: a second robot tips a funnel pouring an endless stream of papers; a tired human mathematician is half-buried in the pile, holding one sheet up to the light as if checking it. A thin vertical line divides the two scenes. No text in the image.",
+    "artType": "static",
+    "alt": "Split illustration: on the left, a robot speaks into an old telephone at a police desk while an officer's warning light blinks unchecked; on the right, a second robot pours an endless stream of papers onto a tired mathematician holding up a single sheet to check."
+  },
+  "sourceIds": [
+    "feeds:de701fe4a7e6",
+    "feeds:e51482db5c5f",
+    "hackernews:3bbfce9cd0c5",
+    "feeds:0a056978c9b4",
+    "hackernews:ad0231bd8e73"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "planet": 1,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}

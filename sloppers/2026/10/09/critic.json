@@ -1,0 +1,105 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"officer\" extends outside the safe area in the final frame (x 48…276, y 549…886)",
+          "\"mathy\" extends outside the safe area in the final frame (x 771…1065, y 471…907)",
+          "\"pile\" extends outside the safe area in the final frame (x 828…1008, y 934…1049)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 1,
+          "coherence": 2,
+          "composition": 1,
+          "style": 3,
+          "polish": 1,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The brief's two-panel phone-tip / paper-flood story never rendered: the divider is missing, the phone, funnel, light, sheet, and pile all float disconnected from the characters they belong to, and three elements clip outside the safe area — the joke is unreadable without reading the script.",
+        "revisionNotes": [
+          "Rebuild the two-panel split with the vertical divider line; right now all four characters sit in one undivided row with no panel separation, so the two stories (tip-line vs. paper flood) collapse into one confusing scene.",
+          "Attach the phone directly to tipbot's head so it reads as a receiver held to the ear — it currently floats disconnected above and to the left of both robots.",
+          "Anchor the funnel's spout right above floodbot's head with no gap, and route the paper stream down into the pile at mathy's feet so the pour is visibly connected end to end.",
+          "Move pile tight under mathy so the papers read as burying the character, and put the single sheet in mathy's raised hand instead of floating unattached near the top right.",
+          "Pull the blinking light in close to officer's head/shoulder per its attachTo — it currently reads as a stray ring floating near the center of the frame.",
+          "Fix limb overlaps: the left human's arm crosses into a red dot at its own throat, and mathy's arm overlaps floodbot's raised arm; also pull officer, mathy, and pile back inside the safe margin per the lint warnings."
+        ]
+      },
+      "average": 2.29,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"mathy\" extends outside the safe area in the final frame (x 806…1051, y 510…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "Fails: the floating, disconnected phone prop and the triumphant 'cheer' pose on the overwhelmed mathematician undercut the joke's clarity, and the composition repeats a vertical-divider device seen in recent sloppers while clipping the right edge.",
+        "revisionNotes": [
+          "The phone prop (offset [45,70], rotate -20) floats disconnected above tipbot's antenna instead of being held to its head — set tipbot's arms to a holding pose and re-anchor the receiver to its hand so it reads as a telephone, not a stray bone shape.",
+          "Mathy's pose 'cheer' renders as a triumphant, smiling victory pose, which contradicts the intended 'tired, half-buried, overwhelmed' mood — swap to a slumped/staggering pose so the overload joke reads instead of looking like a celebration.",
+          "Mathy clips the right safe-area edge (lint: x 806–1051) — move anchor to roughly x=0.80 and drop scale to ~0.7 so she sits fully inside frame.",
+          "The funnel's falling papers (upper right) and the paper pile under mathy are visually disconnected with a gap between them — extend the paper stream so it reads as one continuous flow into the pile.",
+          "Give the officer a clearer 'ignoring the light' cue — turn his head/body away from the blinking light rather than facing forward, so the 'unnoticed for two months' beat is legible.",
+          "This is at least the third recent slopper to use a straight vertical divider splitting two robot/human vignettes in a cream-and-blue duotone — try an asymmetric split or implied boundary instead of a literal centered line to freshen the composition."
+        ]
+      },
+      "average": 2.71,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"officer\" (human) was moved 2 px, 0 px to stay inside the artboard",
+          "\"paperflow\" extends outside the safe area in the final frame (x 820…1040, y 404…882)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "Correct human-vs-robot cast and polished duotone style, but key props fail: the phone floats unattached above the robot's head, the officer's pose reads as a handshake not inattention, the paper flood clips outside the safe area, and the whole scene is crammed into the bottom third of an empty canvas.",
+        "revisionNotes": [
+          "Rebalance the square: all four figures sit crammed in the bottom third, leaving the top ~60% empty cream. Scale all elements up ~1.15-1.3x and raise the whole group to y 0.55-0.8 to fill the frame.",
+          "Fix the safe-area clip flagged by lint: paperflow extends to x 820-1040/y 404-882 past the edge. Shift floodbot+paperflow left by ~60-80px or scale paperflow to 0.8 so the stream stays inside the frame.",
+          "The telephone prop floats above tipbot's head like an antenna instead of being held to an ear, so 'phone tip' doesn't read. Reattach it at tipbot's hand/ear side, drop the -15 rotate, scale to ~1.2 for legibility.",
+          "Officer's 'point' pose has his arm linking hand-to-hand with tipbot, reading as a handshake/high-five rather than an officer ignoring the robot. Turn officer's body away from tipbot and clear the hand overlap so the unchecked blinking light is the thing he's missing.",
+          "Mathy's held sheet clips directly over her face. Move the heldsheet offset to the side (e.g. offset [70,20] instead of [45,70]) so it reads as 'holding it up to check' without obscuring the head.",
+          "This blue/pink vertical-split riso-duotone composition is very close to two recent sloppers (the green vertical-divider robots and the 'Records' pink/blue split panel) - vary the layout shape or palette pairing next time."
+        ]
+      },
+      "average": 2.71,
+      "passed": false
+    }
+  ]
+}

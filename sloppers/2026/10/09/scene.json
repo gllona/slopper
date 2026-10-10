@@ -1,0 +1,152 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {
+    "type": "solid",
+    "color": "bg"
+  },
+  "elements": [
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1,
+      "props": {
+        "width": 20,
+        "height": 960
+      },
+      "svg": "<line class=\"r-line\" x1=\"10\" y1=\"0\" x2=\"10\" y2=\"960\" stroke-width=\"8\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "officer",
+      "component": "human",
+      "at": {
+        "x": 0.16,
+        "y": 0.78
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "neutral",
+        "pose": "stand",
+        "kind": "adult",
+        "holds": "none",
+        "color": "body"
+      }
+    },
+    {
+      "id": "light",
+      "component": "raw",
+      "attachTo": "officer",
+      "side": "top",
+      "offset": [
+        32,
+        -8
+      ],
+      "scale": 1,
+      "props": {
+        "width": 50,
+        "height": 50
+      },
+      "svg": "<circle class=\"r-glow\" cx=\"25\" cy=\"25\" r=\"22\"/><circle class=\"r-accent\" cx=\"25\" cy=\"25\" r=\"10\"/>"
+    },
+    {
+      "id": "tipbot",
+      "component": "robot",
+      "at": {
+        "x": 0.37,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "mood": "proud",
+        "arms": "out",
+        "color": "body",
+        "antenna": true
+      }
+    },
+    {
+      "id": "phone",
+      "component": "raw",
+      "attachTo": "tipbot",
+      "side": "top",
+      "offset": [
+        45,
+        70
+      ],
+      "scale": 1,
+      "rotate": -20,
+      "props": {
+        "width": 90,
+        "height": 60
+      },
+      "svg": "<circle class=\"r-body-alt\" cx=\"18\" cy=\"30\" r=\"15\"/><circle class=\"r-body-alt\" cx=\"72\" cy=\"30\" r=\"15\"/><rect class=\"r-body-alt\" x=\"18\" y=\"22\" width=\"54\" height=\"16\" rx=\"8\"/>"
+    },
+    {
+      "id": "floodbot",
+      "component": "robot",
+      "at": {
+        "x": 0.64,
+        "y": 0.78
+      },
+      "scale": 0.85,
+      "props": {
+        "mood": "proud",
+        "arms": "up",
+        "color": "body",
+        "antenna": true
+      }
+    },
+    {
+      "id": "funnel",
+      "component": "raw",
+      "attachTo": "floodbot",
+      "side": "top",
+      "offset": [
+        15,
+        0
+      ],
+      "scale": 1,
+      "props": {
+        "width": 130,
+        "height": 200
+      },
+      "svg": "<path class=\"r-body\" d=\"M5,5 L125,5 L80,60 L50,60 Z\"/><rect class=\"r-paper\" x=\"48\" y=\"70\" width=\"34\" height=\"18\" rx=\"4\"/><rect class=\"r-paper\" x=\"55\" y=\"95\" width=\"34\" height=\"18\" rx=\"4\"/><rect class=\"r-paper\" x=\"63\" y=\"122\" width=\"36\" height=\"18\" rx=\"4\"/><rect class=\"r-paper\" x=\"72\" y=\"150\" width=\"36\" height=\"18\" rx=\"4\"/><rect class=\"r-paper\" x=\"80\" y=\"178\" width=\"36\" height=\"18\" rx=\"4\"/>"
+    },
+    {
+      "id": "mathy",
+      "component": "human",
+      "at": {
+        "x": 0.86,
+        "y": 0.78
+      },
+      "scale": 0.78,
+      "props": {
+        "mood": "exhausted",
+        "pose": "cheer",
+        "kind": "adult",
+        "holds": "none",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "papers",
+      "component": "raw",
+      "attachTo": "mathy",
+      "side": "center",
+      "offset": [
+        -20,
+        0
+      ],
+      "scale": 1,
+      "props": {
+        "width": 220,
+        "height": 480
+      },
+      "svg": "<rect class=\"r-paper\" x=\"150\" y=\"40\" width=\"60\" height=\"80\" rx=\"6\"/><line class=\"r-thin\" x1=\"162\" y1=\"60\" x2=\"198\" y2=\"60\"/><line class=\"r-thin\" x1=\"162\" y1=\"80\" x2=\"198\" y2=\"80\"/><line class=\"r-thin\" x1=\"162\" y1=\"100\" x2=\"198\" y2=\"100\"/><rect class=\"r-paper\" x=\"55\" y=\"300\" width=\"110\" height=\"40\" rx=\"6\"/><rect class=\"r-paper\" x=\"40\" y=\"340\" width=\"140\" height=\"40\" rx=\"6\"/><rect class=\"r-paper\" x=\"25\" y=\"380\" width=\"170\" height=\"40\" rx=\"6\"/><rect class=\"r-paper\" x=\"10\" y=\"420\" width=\"200\" height=\"40\" rx=\"6\"/>"
+    }
+  ],
+  "alt": "Split image divided by a vertical line. Left: a police officer stands near a small blinking unread light while a robot holds an old telephone receiver to its head, smiling. Right: a second robot's funnel pours cascading paper sheets toward a tired, half-buried mathematician who weakly holds one sheet overhead."
+}

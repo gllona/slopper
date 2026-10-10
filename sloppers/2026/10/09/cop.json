@@ -1,0 +1,17 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "pass",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "low",
+          "evidence": "phrase: 'unnoticed for two months'",
+          "suggestion": "Change to 'unnoticed for over two months' to match the TechCrunch source wording ('over two months after its AI submitted the false tip').",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}

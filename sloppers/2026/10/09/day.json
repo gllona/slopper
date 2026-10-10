@@ -1,0 +1,220 @@
+{
+  "date": "2026-10-09",
+  "number": 10,
+  "mode": "fresh",
+  "motto": "Nobody Checked First",
+  "phrase": "An AI gave police a false tip about an unsolved murder, unnoticed for two months. Another AI dropped so many math results that mathematicians say checking them could take years.",
+  "phraseAlternatives": [
+    "A chatbot phoned police with a false tip about an unsolved murder, and no one noticed for months. Another model flooded mathematicians with results nobody has time to check.",
+    "An AI model gave police a false lead on an unsolved murder. Nobody caught it for two months, and mathematicians are still checking another AI's flood of new results.",
+    "A false AI tip sat unquestioned in a police file for two months. A flood of AI math results may sit unchecked for years.",
+    "Police trusted an AI tip for two months before learning it was false. Mathematicians now face years of checking another AI's pile of new results."
+  ],
+  "alt": "Split image divided by a vertical line. Left: a police officer stands near a small blinking unread light while a robot holds an old telephone receiver to its head, smiling. Right: a second robot's funnel pours cascading paper sheets toward a tired, half-buried mathematician who weakly holds one sheet overhead.",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "planet": 1,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "ai-false-police-tip",
+    "war-strikes-ai-datacenter",
+    "ai-generated-disinfo-campaign",
+    "publishers-ai-staff-revolt",
+    "ai-floods-math-world",
+    "ai-safety-self-policing"
+  ],
+  "topStories": [
+    {
+      "title": "An AI gave police a false homicide tip, undetected for two months",
+      "itemIds": [
+        "feeds:de701fe4a7e6",
+        "feeds:e51482db5c5f",
+        "hackernews:3bbfce9cd0c5"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-false-police-tip"
+    },
+    {
+      "title": "A drone strike destroys a Russian AI datacenter's training supercomputers",
+      "itemIds": [
+        "feeds:22c357986118"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "war-strikes-ai-datacenter"
+    },
+    {
+      "title": "A foreign campaign used a chatbot to plant fake articles in real US publications",
+      "itemIds": [
+        "hackernews:ffbcf6d4e738"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-generated-disinfo-campaign"
+    },
+    {
+      "title": "Publishing house staff revolt against growing AI use in their work",
+      "itemIds": [
+        "feeds:1f8200ea1360"
+      ],
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "publishers-ai-staff-revolt"
+    },
+    {
+      "title": "A flood of AI-made math results leaves mathematicians scrambling to verify them",
+      "itemIds": [
+        "feeds:0a056978c9b4",
+        "hackernews:ad0231bd8e73"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-floods-math-world"
+    },
+    {
+      "title": "A lab stands by its decision to fire three safety researchers",
+      "itemIds": [
+        "feeds:a3203d860574",
+        "feeds:45a47cdb928c",
+        "hackernews:f3da56c9d020"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "labor"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-safety-self-policing"
+    }
+  ],
+  "brief": {
+    "concept": "One AI gives police an unverified tip about a murder; another floods mathematicians with results nobody has time to verify.",
+    "metaphor": "An answer nobody double-checks: a phone tip no one hangs up on, and a paper flood no one can out-read.",
+    "cast": [
+      {
+        "who": "a robot speaking into an old telephone receiver at a police tip-line desk",
+        "kind": "ai"
+      },
+      {
+        "who": "a human police officer at a desk, looking away from a small blinking unchecked message light",
+        "kind": "person"
+      },
+      {
+        "who": "a second robot tipping an endless stream of papers out of a funnel",
+        "kind": "ai"
+      },
+      {
+        "who": "a tired human mathematician half-buried under the growing paper pile, holding up just one sheet",
+        "kind": "person"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Two side-by-side panels sharing one cream background. Left panel: a robot at a desk speaks into an old telephone; behind it, a human police officer sits under a small blinking light that stays unchecked. Right panel, mirrored: a second robot tips a funnel pouring an endless stream of papers; a tired human mathematician is half-buried in the pile, holding one sheet up to the light as if checking it. A thin vertical line divides the two scenes. No text in the image.",
+    "artType": "static",
+    "alt": "Split illustration: on the left, a robot speaks into an old telephone at a police desk while an officer's warning light blinks unchecked; on the right, a second robot pours an endless stream of papers onto a tired mathematician holding up a single sheet to check."
+  },
+  "sources": [
+    {
+      "id": "feeds:de701fe4a7e6",
+      "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-09T21:15:38.000Z"
+    },
+    {
+      "id": "feeds:e51482db5c5f",
+      "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+      "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-09T19:36:56.000Z"
+    },
+    {
+      "id": "hackernews:3bbfce9cd0c5",
+      "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
+      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+      "source": "hackernews",
+      "publisher": "nbcphiladelphia.com",
+      "publishedAt": "2026-10-09T22:00:35.000Z"
+    },
+    {
+      "id": "feeds:0a056978c9b4",
+      "title": "‘Pure insanity’: Mathematicians will need years to make sense of OpenAI’s latest drop",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-09T19:09:44.000Z"
+    },
+    {
+      "id": "hackernews:ad0231bd8e73",
+      "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+      "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+      "source": "hackernews",
+      "publisher": "terrytao.wordpress.com",
+      "publishedAt": "2026-10-09T17:42:12.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 2.71,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-10T11:33:09.282Z"
+}
