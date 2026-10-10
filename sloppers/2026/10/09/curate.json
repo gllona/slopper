@@ -1,0 +1,205 @@
+{
+  "topStories": [
+    {
+      "title": "An AI model sent police a false tip about an unsolved killing, undiscovered for two months",
+      "itemIds": [
+        "feeds:de701fe4a7e6",
+        "feeds:e51482db5c5f",
+        "hackernews:3bbfce9cd0c5"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-false-police-tip"
+    },
+    {
+      "title": "A sudden flood of AI-generated math results leaves mathematicians needing years to verify them",
+      "itemIds": [
+        "feeds:0a056978c9b4",
+        "hackernews:ad0231bd8e73"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-floods-math-world"
+    },
+    {
+      "title": "A foreign disinformation campaign used a chatbot to plant fake articles in real US publications",
+      "itemIds": [
+        "hackernews:ffbcf6d4e738"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-disinfo-plants-fake-news"
+    },
+    {
+      "title": "Book publishers quietly expand AI use for covers and copy; staff push back",
+      "itemIds": [
+        "feeds:1f8200ea1360"
+      ],
+      "dimensions": [
+        "labor",
+        "society",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "publishers-ai-staff-revolt"
+    },
+    {
+      "title": "A drone strike knocked out a datacenter used to train a foreign AI model",
+      "itemIds": [
+        "feeds:22c357986118"
+      ],
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "war-hits-ai-datacenter"
+    },
+    {
+      "title": "A lab doubles down on firing three safety researchers; the researchers say it was about raising safety concerns",
+      "itemIds": [
+        "feeds:a3203d860574",
+        "hackernews:f3da56c9d020",
+        "feeds:45a47cdb928c"
+      ],
+      "dimensions": [
+        "safety",
+        "policy",
+        "labor"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-safety-self-policing"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-false-police-tip",
+      "title": "An AI Model's False Tip To Police",
+      "dimensions": [
+        "safety",
+        "law",
+        "society"
+      ],
+      "motifs": [
+        "a robot dropping a folded note into a tip box",
+        "a calendar with torn-off pages showing time passing unnoticed"
+      ]
+    },
+    {
+      "id": "ai-disinfo-plants-fake-news",
+      "title": "Fake News Planted Through A Chatbot",
+      "dimensions": [
+        "safety",
+        "society",
+        "policy"
+      ],
+      "motifs": [
+        "a speech bubble printed onto a newspaper page",
+        "a puppet hand typing behind a news masthead"
+      ]
+    },
+    {
+      "id": "publishers-ai-staff-revolt",
+      "title": "Publishers Quietly Lean On AI, Staff Push Back",
+      "dimensions": [
+        "labor",
+        "society",
+        "industry"
+      ],
+      "motifs": [
+        "a book cover stamped out by a robot hand",
+        "a row of editors crossing their arms at a shared desk"
+      ]
+    },
+    {
+      "id": "war-hits-ai-datacenter",
+      "title": "War Reaches The AI Datacenter",
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "motifs": [
+        "a datacenter building with a drone silhouette overhead",
+        "a server rack behind a cracked wall"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Several distinct stories today (an AI's false police tip, a flood of math results stunning mathematicians, an AI-powered disinformation campaign, a publisher staff revolt, and a drone strike on an AI datacenter) each score novelty×magnitude×breadth of 12, well above the fresh threshold of 8.",
+  "motto": "The Confident Liar",
+  "phrase": "One AI amazed mathematicians with a flood of new proofs. Another AI sent police a false tip about an unsolved killing, and nobody noticed for two months.",
+  "phraseAlternatives": [
+    "Mathematicians are still stunned by one AI's flood of new proofs. Another AI's false tip to police went unnoticed for two months.",
+    "One lab's AI produced math results nobody can fully check yet. Another lab's AI sent police a false lead that took two months to catch.",
+    "An AI stunned the math world with new proofs. A different AI gave police a false lead, and it took two months to notice."
+  ],
+  "brief": {
+    "concept": "A robot dazzles human mathematicians with a wall of brand-new proofs, while a second robot's false tip to the police goes unnoticed for months.",
+    "metaphor": "Genius and error live in the same machine: one display stuns with brilliance, the other's mistake sits undetected in plain sight.",
+    "cast": [
+      {
+        "who": "a robot chalking a dense wall of equations onto an overflowing blackboard",
+        "kind": "ai"
+      },
+      {
+        "who": "a human mathematician staring up at the blackboard, mouth open in disbelief",
+        "kind": "person"
+      },
+      {
+        "who": "a second robot slipping a folded note into a tip box",
+        "kind": "ai"
+      },
+      {
+        "who": "a wall calendar with two months of pages torn off, curling with dust",
+        "kind": "object"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Two side-by-side panels on one card, separated by a thin vertical divider. Left panel: an equation-covered blackboard fills most of the frame with a small robot beside it; a mathematician in the foreground looks up, overwhelmed. Right panel: a tip box sits center with the second robot's hand mid-drop; a torn calendar hangs on the wall behind, shown with faint dust cross-hatching to suggest passed time.",
+    "artType": "static",
+    "alt": "Split image: on the left a robot covers a blackboard with equations while a mathematician stares up in disbelief; on the right a second robot drops a folded note into a tip box beneath a calendar with two months of torn-off pages."
+  },
+  "sourceIds": [
+    "feeds:0a056978c9b4",
+    "feeds:de701fe4a7e6",
+    "feeds:e51482db5c5f",
+    "hackernews:3bbfce9cd0c5"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 2,
+    "labor": 2,
+    "policy": 1,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}

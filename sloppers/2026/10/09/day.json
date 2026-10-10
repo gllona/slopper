@@ -1,0 +1,209 @@
+{
+  "date": "2026-10-09",
+  "number": 10,
+  "mode": "fresh",
+  "motto": "The Confident Liar",
+  "phrase": "One AI amazed mathematicians with a flood of new proofs. Another AI sent police a false tip about an unsolved killing, and nobody noticed for two months.",
+  "phraseAlternatives": [
+    "Mathematicians are still stunned by one AI's flood of new proofs. Another AI's false tip to police went unnoticed for two months.",
+    "One lab's AI produced math results nobody can fully check yet. Another lab's AI sent police a false lead that took two months to catch.",
+    "An AI stunned the math world with new proofs. A different AI gave police a false lead, and it took two months to notice."
+  ],
+  "alt": "Paper-cutout card split by a vertical divider. Left: an orange robot proudly fills a dense, overflowing chalkboard with equations while a human stares up with mouth open, pointing in disbelief. Right: a plain teal robot lowers a folded note into a tip box beside a torn, dust-speckled two-month calendar, with a small \"Unnoticed\" tag beneath the box.",
+  "artType": "static",
+  "style": "paper-cutout",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 2,
+    "labor": 2,
+    "policy": 1,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "ai-false-police-tip",
+    "ai-floods-math-world",
+    "ai-disinfo-plants-fake-news",
+    "publishers-ai-staff-revolt",
+    "war-hits-ai-datacenter",
+    "ai-safety-self-policing"
+  ],
+  "topStories": [
+    {
+      "title": "An AI model sent police a false tip about an unsolved killing, undiscovered for two months",
+      "itemIds": [
+        "feeds:de701fe4a7e6",
+        "feeds:e51482db5c5f",
+        "hackernews:3bbfce9cd0c5"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-false-police-tip"
+    },
+    {
+      "title": "A sudden flood of AI-generated math results leaves mathematicians needing years to verify them",
+      "itemIds": [
+        "feeds:0a056978c9b4",
+        "hackernews:ad0231bd8e73"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-floods-math-world"
+    },
+    {
+      "title": "A foreign disinformation campaign used a chatbot to plant fake articles in real US publications",
+      "itemIds": [
+        "hackernews:ffbcf6d4e738"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-disinfo-plants-fake-news"
+    },
+    {
+      "title": "Book publishers quietly expand AI use for covers and copy; staff push back",
+      "itemIds": [
+        "feeds:1f8200ea1360"
+      ],
+      "dimensions": [
+        "labor",
+        "society",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "publishers-ai-staff-revolt"
+    },
+    {
+      "title": "A drone strike knocked out a datacenter used to train a foreign AI model",
+      "itemIds": [
+        "feeds:22c357986118"
+      ],
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "war-hits-ai-datacenter"
+    },
+    {
+      "title": "A lab doubles down on firing three safety researchers; the researchers say it was about raising safety concerns",
+      "itemIds": [
+        "feeds:a3203d860574",
+        "hackernews:f3da56c9d020",
+        "feeds:45a47cdb928c"
+      ],
+      "dimensions": [
+        "safety",
+        "policy",
+        "labor"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-safety-self-policing"
+    }
+  ],
+  "brief": {
+    "concept": "A robot dazzles human mathematicians with a wall of brand-new proofs, while a second robot's false tip to the police goes unnoticed for months.",
+    "metaphor": "Genius and error live in the same machine: one display stuns with brilliance, the other's mistake sits undetected in plain sight.",
+    "cast": [
+      {
+        "who": "a robot chalking a dense wall of equations onto an overflowing blackboard",
+        "kind": "ai"
+      },
+      {
+        "who": "a human mathematician staring up at the blackboard, mouth open in disbelief",
+        "kind": "person"
+      },
+      {
+        "who": "a second robot slipping a folded note into a tip box",
+        "kind": "ai"
+      },
+      {
+        "who": "a wall calendar with two months of pages torn off, curling with dust",
+        "kind": "object"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Two side-by-side panels on one card, separated by a thin vertical divider. Left panel: an equation-covered blackboard fills most of the frame with a small robot beside it; a mathematician in the foreground looks up, overwhelmed. Right panel: a tip box sits center with the second robot's hand mid-drop; a torn calendar hangs on the wall behind, shown with faint dust cross-hatching to suggest passed time.",
+    "artType": "static",
+    "alt": "Split image: on the left a robot covers a blackboard with equations while a mathematician stares up in disbelief; on the right a second robot drops a folded note into a tip box beneath a calendar with two months of torn-off pages."
+  },
+  "sources": [
+    {
+      "id": "feeds:0a056978c9b4",
+      "title": "‘Pure insanity’: Mathematicians will need years to make sense of OpenAI’s latest drop",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-09T19:09:44.000Z"
+    },
+    {
+      "id": "feeds:de701fe4a7e6",
+      "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-09T21:15:38.000Z"
+    },
+    {
+      "id": "feeds:e51482db5c5f",
+      "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+      "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-09T19:36:56.000Z"
+    },
+    {
+      "id": "hackernews:3bbfce9cd0c5",
+      "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
+      "url": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+      "source": "hackernews",
+      "publisher": "nbcphiladelphia.com",
+      "publishedAt": "2026-10-09T22:00:35.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.57,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-10T14:22:58.701Z"
+}
