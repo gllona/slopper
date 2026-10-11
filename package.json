@@ -33,13 +33,13 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
-    "@anthropic-ai/claude-code": "^2.1.283",
-    "@types/node": "^26.6.3",
+    "@anthropic-ai/claude-code": "^2.1.294",
+    "@types/node": "^26.6.4",
     "@types/pngjs": "^6.0.5",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2",
-    "vitest": "^5.0.2",
-    "wrangler": "^4.141.0"
+    "vitest": "^5.0.3",
+    "wrangler": "^4.148.0"
   },
   "dependencies": {
     "fast-xml-parser": "^5.11.1",
