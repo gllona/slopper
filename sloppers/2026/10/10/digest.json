@@ -1,0 +1,385 @@
+{
+  "date": "2026-10-10",
+  "fetchedAt": "2026-10-11T11:08:04.148Z",
+  "sources": [
+    {
+      "source": "feeds",
+      "ok": true,
+      "count": 11
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "count": 6
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 13
+    },
+    {
+      "source": "gdelt",
+      "ok": false,
+      "count": 0,
+      "error": "all GDELT queries failed"
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "feeds:4328faa6539c",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
+      "snippet": "In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a \"set of nested black boxes\" whose advice and actions we simply accept or […]",
+      "publishedAt": "2026-10-10T22:10:17.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:4462a86643a1",
+      "source": "feeds",
+      "url": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+      "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
+      "snippet": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG. The label filed a lawsuit in September claiming that DistroKid has created…",
+      "publishedAt": "2026-10-10T18:52:07.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:a4095e3878d9",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+      "title": "Anthropic is cutting off its internal evaluations from the internet",
+      "snippet": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, the company detailed \"unintended model actions,\" including submitting a false tip regarding an unsolved murder, that led…",
+      "publishedAt": "2026-10-10T14:41:16.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:8d66594bfaf5",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+      "title": "AI agent makers are promising privacy — will they deliver?",
+      "snippet": "At this year's OpenAI DevDay, CEO Sam Altman unveiled the company's new AI agent Dots - and told the crowd that the company wants to \"set a new standard for privacy in frontier AI.\" OpenAI would spend the day taking veiled shots at Meta's Muse, its primary competitor, for failing to keep users'…",
+      "publishedAt": "2026-10-10T13:00:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:e0e850586f16",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals/",
+      "title": "AI Is Getting Really Good at Messing With Cybercriminals",
+      "snippet": "Anti-cybercrime initiatives are increasingly using AI to scam the scammers by tricking them into talking to lifelike bots that they think are real victims.",
+      "publishedAt": "2026-10-10T12:00:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:e3e71b588b88",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+      "snippet": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
+      "publishedAt": "2026-10-10T21:47:51.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:498030eadd31",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+      "snippet": "Is Apple hoping to get into the AI-generated podcast business?",
+      "publishedAt": "2026-10-10T19:50:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:8ae1f3582524",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+      "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
+      "snippet": "TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco. Over 300 startups will show what they’ve built to 10,000 tech leaders. Plus, 250+ speakers are ready to share insights across 200+ sessions. Register before doors open to save up to $100 and get a second pass at 50% off.",
+      "publishedAt": "2026-10-10T15:00:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:2640e3ae8dcd",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "snippet": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "publishedAt": "2026-10-10T14:00:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:4c4dce735e8a",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+      "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+      "snippet": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
+      "publishedAt": "2026-10-10T00:18:32.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:ca62e448b8be",
+      "source": "feeds",
+      "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo?at_medium=RSS&at_campaign=rss",
+      "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
+      "snippet": "Philadelphia police said the tip was \"flagged as spam\", but criticised the tech company for taking more than two months to detect and report the breach.",
+      "publishedAt": "2026-10-10T10:06:23.000Z",
+      "publisher": "BBC News",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:8d402f66eda2",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261010/p17",
+      "title": "Hundreds of old games were decompiled and ported to run on browsers in recent weeks, driven by Claude Opus 5.5; titles like GTA: Vice City and Halo: CE run well (Lewis Parker/Kotaku)",
+      "snippet": "Lewis Parker / Kotaku : Hundreds of old games were decompiled and ported to run on browsers in recent weeks, driven by Claude Opus 5.5; titles like GTA: Vice City and Halo: CE run well — Call of Duty: Black Ops, Halo: CE, Grand Theft Auto: Vice City, Skate 3 and many more titles have been…",
+      "publishedAt": "2026-10-10T19:45:00.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:c2e7dd644311",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261010/p16",
+      "title": "Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an acquihire to avoid antitrust scrutiny (Financial Times)",
+      "snippet": "Financial Times : Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an acquihire to avoid antitrust scrutiny — Donald Trump's administration hopes the company will rival cheap Chinese alternatives such as DeepSeek",
+      "publishedAt": "2026-10-10T19:08:43.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:d823713ea6ff",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261010/p14",
+      "title": "A look at a 1,700-member Slack run by Medicare agency CMS where Microsoft, OpenAI, and other companies help shape policy on AI apps and medical records access (CBS News)",
+      "snippet": "CBS News : A look at a 1,700-member Slack run by Medicare agency CMS where Microsoft, OpenAI, and other companies help shape policy on AI apps and medical records access — A cadre of elite techies, financiers, and high-level Trump administration officials have spent a year quietly charting an…",
+      "publishedAt": "2026-10-10T16:50:11.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:488db381dca0",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261010/p12",
+      "title": "How Anthropic co-founder Tom Brown used GOP ties to end a June standoff over model safety and win over Musk, brokering a $1.25B/month SpaceX compute deal (Wall Street Journal)",
+      "snippet": "Wall Street Journal : How Anthropic co-founder Tom Brown used GOP ties to end a June standoff over model safety and win over Musk, brokering a $1.25B/month SpaceX compute deal — Tom Brown is leveraging his Republican ties and business savvy to win over Washington and secure the computing power…",
+      "publishedAt": "2026-10-10T13:50:00.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:661926cdbc2b",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261010/p11",
+      "title": "Dozens of staff at HarperCollins, Simon & Schuster, Hachette: without author consent, publishers are quietly using AI to make back-cover copy, cover art, more (Adam Morgan/Wired)",
+      "snippet": "Adam Morgan / Wired : Dozens of staff at HarperCollins, Simon & Schuster, Hachette: without author consent, publishers are quietly using AI to make back-cover copy, cover art, more — Workers at three major publishing houses tell WIRED that LLMs are being used for publicity, cover art, back cover…",
+      "publishedAt": "2026-10-10T12:40:01.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:bfdf67529097",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261010/p10",
+      "title": "A look at Walmart's troubled push to automate its ~200 US warehouses, as it and partners like Symbotic face technical setbacks; Walmart owns 12.6% of Symbotic (Sarah Nassauer/Wall Street Journal)",
+      "snippet": "Sarah Nassauer / Wall Street Journal : A look at Walmart's troubled push to automate its ~200 US warehouses, as it and partners like Symbotic face technical setbacks; Walmart owns 12.6% of Symbotic — Machines programmed to sort merchandise in warehouses hit kinks with cardboard boxes and turkeys…",
+      "publishedAt": "2026-10-10T10:40:02.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:5c1db9239c15",
+      "source": "hackernews",
+      "url": "https://github.com/rociiu/talorys",
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "snippet": "298 points and 134 comments on Hacker News (https://news.ycombinator.com/item?id=50031614).",
+      "publishedAt": "2026-10-10T10:52:09.000Z",
+      "score": 298,
+      "publisher": "github.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:37fe306f80ef",
+      "source": "hackernews",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "snippet": "164 points and 105 comments on Hacker News (https://news.ycombinator.com/item?id=50035886).",
+      "publishedAt": "2026-10-10T18:48:35.000Z",
+      "score": 164,
+      "publisher": "ft.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:d3eeb0753ebb",
+      "source": "hackernews",
+      "url": "https://wsj.com/tech/ai/tom-brown-athropic-669005ad",
+      "title": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal",
+      "snippet": "134 points and 52 comments on Hacker News (https://news.ycombinator.com/item?id=50033678).",
+      "publishedAt": "2026-10-10T15:04:38.000Z",
+      "score": 134,
+      "publisher": "wsj.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:b451cad28797",
+      "source": "hackernews",
+      "url": "https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
+      "title": "My personal AI agent posted my bank details on company Slack",
+      "snippet": "61 points and 66 comments on Hacker News (https://news.ycombinator.com/item?id=50033517).",
+      "publishedAt": "2026-10-10T14:46:16.000Z",
+      "score": 61,
+      "publisher": "businessinsider.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:fb14a27553fd",
+      "source": "hackernews",
+      "url": "https://www.warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks/",
+      "title": "AI Data Centers Not Paying Their Costs, Will Keep Using NDAs and Seek Tax Breaks",
+      "snippet": "56 points and 8 comments on Hacker News (https://news.ycombinator.com/item?id=50031156).",
+      "publishedAt": "2026-10-10T09:30:03.000Z",
+      "score": 56,
+      "publisher": "warren.senate.gov",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:e25e7869900e",
+      "source": "hackernews",
+      "url": "https://metedata.substack.com/p/ai-is-throwing-a-roadside-picnic",
+      "title": "AI Is Throwing a Roadside Picnic",
+      "snippet": "47 points and 48 comments on Hacker News (https://news.ycombinator.com/item?id=50034363).",
+      "publishedAt": "2026-10-10T16:19:23.000Z",
+      "score": 47,
+      "publisher": "metedata.substack.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:4ccc034e9503",
+      "source": "hackernews",
+      "url": "https://www.reuters.com/world/us/anthropic-ai-model-submits-false-homicide-tip-police-website-2026-10-09/",
+      "title": "Anthropic discloses 2 months old fake tip to police among new rogue AI incidents",
+      "snippet": "41 points and 35 comments on Hacker News (https://news.ycombinator.com/item?id=50035550).",
+      "publishedAt": "2026-10-10T18:10:54.000Z",
+      "score": 41,
+      "publisher": "reuters.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:fa5cd199ec83",
+      "source": "hackernews",
+      "url": "https://deadsimpletech.com/blog/llms-arent-inevitable",
+      "title": "There's little that's \"inevitable\" about AI",
+      "snippet": "40 points and 95 comments on Hacker News (https://news.ycombinator.com/item?id=50032064).",
+      "publishedAt": "2026-10-10T12:04:04.000Z",
+      "score": 40,
+      "publisher": "deadsimpletech.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:af1cecab1358",
+      "source": "hackernews",
+      "url": "https://www.groundlevel-ai.com/p/anthropic-ai-consciousness-new-york-times-rabbi",
+      "title": "If AI is conscient, then we are making slaves",
+      "snippet": "33 points and 97 comments on Hacker News (https://news.ycombinator.com/item?id=50029681).",
+      "publishedAt": "2026-10-10T04:51:26.000Z",
+      "score": 33,
+      "publisher": "groundlevel-ai.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:2f274ea2dcfa",
+      "source": "hackernews",
+      "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
+      "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
+      "snippet": "33 points and 8 comments on Hacker News (https://news.ycombinator.com/item?id=50029330).",
+      "publishedAt": "2026-10-10T03:42:11.000Z",
+      "score": 33,
+      "publisher": "nytimes.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:6f08fc2a8cd9",
+      "source": "hackernews",
+      "url": "https://alexwang.ai/posts/put-a-price-on-breakthroughs/",
+      "title": "Put a price on breakthroughs",
+      "snippet": "32 points and 9 comments on Hacker News (https://news.ycombinator.com/item?id=50028982).",
+      "publishedAt": "2026-10-10T02:37:47.000Z",
+      "score": 32,
+      "publisher": "alexwang.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:959fc4775794",
+      "source": "hackernews",
+      "url": "https://variety.com/2026/tv/news/nicolas-cage-ai-waiver-amazon-spider-noir-1236907564/",
+      "title": "Nicolas Cage Refused to Sign Amazon AI Waiver: 'I'm Not an AI-Friendly Actor'",
+      "snippet": "29 points and 11 comments on Hacker News (https://news.ycombinator.com/item?id=50036390).",
+      "publishedAt": "2026-10-10T19:39:10.000Z",
+      "score": 29,
+      "publisher": "variety.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:2edbac87738b",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=50029896",
+      "title": "If AI keeps evolving,would you worry about your next generation's survival",
+      "snippet": "24 points and 47 comments on Hacker News (https://news.ycombinator.com/item?id=50029896).",
+      "publishedAt": "2026-10-10T05:33:21.000Z",
+      "score": 24,
+      "publisher": "news.ycombinator.com",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:e4ec1e84959a",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Cloudflare/clef",
+      "title": "Trending open model: Cloudflare/clef",
+      "snippet": "Task: image-text-to-text. 2011 likes, 14351 downloads.",
+      "publishedAt": "2026-09-30T21:15:35.000Z",
+      "score": 778,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:e2fde687321f",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+      "title": "Trending open model: Aleph-Alpha/Kolibri-1",
+      "snippet": "Task: text-generation. 878 likes, 12550 downloads.",
+      "publishedAt": "2026-10-02T05:54:02.000Z",
+      "score": 499,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:167c7efa09e6",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+      "title": "Trending open model: Qwen/Qwen-Image-2.1-Turbo",
+      "snippet": "Task: text-to-image. 489 likes, 4702 downloads.",
+      "publishedAt": "2026-10-09T04:50:01.000Z",
+      "score": 480,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    }
+  ]
+}

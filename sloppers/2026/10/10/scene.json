@@ -1,0 +1,181 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {
+    "type": "split",
+    "horizon": 0.5,
+    "color": "bg",
+    "color2": "paper"
+  },
+  "elements": [
+    {
+      "id": "exec",
+      "component": "human",
+      "at": {
+        "x": 0.09,
+        "y": 0.82
+      },
+      "scale": 0.85,
+      "props": {
+        "mood": "neutral",
+        "pose": "point",
+        "holds": "none",
+        "color": "body"
+      }
+    },
+    {
+      "id": "robot1",
+      "component": "robot",
+      "at": {
+        "x": 0.335,
+        "y": 0.82
+      },
+      "scale": 0.8,
+      "rotate": -6,
+      "props": {
+        "mood": "worried",
+        "arms": "down",
+        "antenna": true,
+        "color": "body"
+      }
+    },
+    {
+      "id": "warning-sign",
+      "component": "raw",
+      "attachTo": "robot1",
+      "side": "top",
+      "offset": [
+        -30,
+        -25
+      ],
+      "scale": 0.75,
+      "props": {
+        "width": 300,
+        "height": 180
+      },
+      "svg": "<rect x=\"20\" y=\"10\" width=\"260\" height=\"120\" rx=\"10\" class=\"r-body\"/><rect x=\"138\" y=\"130\" width=\"24\" height=\"40\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "sign-label",
+      "component": "label",
+      "attachTo": "warning-sign",
+      "side": "center",
+      "scale": 0.8,
+      "props": {
+        "text": "COMPROMISED",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": "center",
+      "scale": 1,
+      "props": {
+        "width": 20,
+        "height": 960
+      },
+      "svg": "<rect x=\"8\" y=\"0\" width=\"4\" height=\"960\" class=\"r-line\"/>"
+    },
+    {
+      "id": "cloud",
+      "component": "cloud",
+      "at": {
+        "x": 0.68,
+        "y": 0.2
+      },
+      "scale": 1,
+      "props": {
+        "mood": "none",
+        "size": "sm",
+        "dark": false,
+        "rain": false
+      }
+    },
+    {
+      "id": "socket",
+      "component": "raw",
+      "attachTo": "cloud",
+      "side": "bottom",
+      "scale": 1.1,
+      "props": {
+        "width": 100,
+        "height": 70
+      },
+      "svg": "<rect x=\"5\" y=\"5\" width=\"90\" height=\"60\" rx=\"12\" class=\"r-body\"/><rect x=\"28\" y=\"18\" width=\"10\" height=\"26\" rx=\"4\" transform=\"rotate(25 33 31)\" class=\"r-ink\"/><rect x=\"62\" y=\"18\" width=\"10\" height=\"26\" rx=\"4\" transform=\"rotate(-25 67 31)\" class=\"r-ink\"/><circle cx=\"50\" cy=\"50\" r=\"5\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "unplug-label",
+      "component": "label",
+      "attachTo": "cloud",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "UNPLUGGED",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "cord-pulled",
+      "component": "raw",
+      "attachTo": "socket",
+      "side": "bottom",
+      "scale": 1.15,
+      "rotate": -12,
+      "props": {
+        "width": 60,
+        "height": 200
+      },
+      "svg": "<rect x=\"20\" y=\"0\" width=\"20\" height=\"46\" rx=\"9\" class=\"r-accent\"/><rect x=\"2\" y=\"46\" width=\"20\" height=\"50\" rx=\"9\" transform=\"rotate(-18 12 71)\" class=\"r-accent\"/><rect x=\"24\" y=\"96\" width=\"20\" height=\"50\" rx=\"9\" transform=\"rotate(18 34 121)\" class=\"r-accent\"/><rect x=\"8\" y=\"150\" width=\"44\" height=\"30\" rx=\"8\" class=\"r-accent\"/><rect x=\"18\" y=\"180\" width=\"8\" height=\"18\" rx=\"3\" class=\"r-ink\"/><rect x=\"34\" y=\"180\" width=\"8\" height=\"18\" rx=\"3\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "worker",
+      "component": "human",
+      "at": {
+        "x": 0.68,
+        "y": 0.82
+      },
+      "scale": 0.85,
+      "props": {
+        "mood": "surprised",
+        "pose": "point",
+        "holds": "none",
+        "color": "body"
+      }
+    },
+    {
+      "id": "robot2",
+      "component": "robot",
+      "at": {
+        "x": 0.9,
+        "y": 0.82
+      },
+      "scale": 0.65,
+      "rotate": 0,
+      "opacity": 0.55,
+      "props": {
+        "mood": "sad",
+        "arms": "down",
+        "antenna": true,
+        "color": "body"
+      }
+    },
+    {
+      "id": "dangling-cord",
+      "component": "raw",
+      "attachTo": "robot2",
+      "side": "bottom",
+      "scale": 0.65,
+      "props": {
+        "width": 45,
+        "height": 75
+      },
+      "svg": "<rect x=\"14\" y=\"0\" width=\"17\" height=\"22\" rx=\"8\" class=\"r-accent-2\"/><rect x=\"10\" y=\"22\" width=\"15\" height=\"24\" rx=\"7\" class=\"r-accent-2\"/><rect x=\"16\" y=\"46\" width=\"13\" height=\"29\" rx=\"6\" class=\"r-accent-2\"/>"
+    }
+  ],
+  "alt": "A blueprint illustration split by a thin vertical line, deep blue on the left and lighter blue on the right. On the left, a person points at a sign reading COMPROMISED above a wary robot leaning back. On the right, a person points up at a yellow plug dangling from a cloud-shaped wall socket labeled UNPLUGGED, while a smaller, dimmed robot sits apart with its own pale cord hanging loose."
+}

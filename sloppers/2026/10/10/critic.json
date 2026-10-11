@@ -1,0 +1,104 @@
+{
+  "passed": false,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"sign-label\" (label) was moved 143 px, 0 px to stay inside the safe area",
+          "\"unplug-label\" (label) was moved -21 px, 28 px to stay inside the safe area",
+          "\"robot2\" extends outside the safe area in the final frame (x 771…1056, y 369…873)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 3,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Fails: the specified two-panel split never rendered (no divider, no second bg color), the sign-label got shoved off the sign by the safe-area fix leaving it blank, and the cord prop floats disconnected from the worker — plus robot2 clips the safe area per lint.",
+        "revisionNotes": [
+          "Add the two-panel split called for in the brief: thin vertical divider line and a paper/cream right-panel background, so the warning-sign beat and the unplugged-cord beat read as two separate situations instead of one flat row of four figures.",
+          "Re-anchor the sign-label text onto the sign board itself; the safe-area nudge shoved it 143px left, leaving the sign board blank and the words floating disconnected from what they're labeling.",
+          "Connect the cord-pulled prop to the worker: it currently floats below the cloud with no line to the worker's hand. Rotate/stretch it so it visibly runs from the socket to the worker's raised hand.",
+          "Pull robot2 inboard and/or scale down (x 0.83→0.78, scale 1.0→0.9) — lint flags it clipping the safe area at x771-1056, risking edge crop on phones.",
+          "Composition repeats a formula seen often in recent blueprint pieces (row of labeled figures with a vertical divider). Vary scale/stagger or panel shape so this entry stands apart.",
+          "Make the yellow highlight on the unplugged cord actually read as the single focal highlight the brief calls for — right now it's the same yellow as the worker's shirt and robot joints, so it doesn't pop as intended."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 3,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The human/robot cast and plain labels are on-voice, but the split-panel background never renders, the warning sign text is bisected by the divider line, hands overlap robot faces, and the 'pulled cord' is a tiny floating token disconnected from both socket and worker — the central unplug action doesn't read, so it falls short of publish quality.",
+        "revisionNotes": [
+          "Shift warning-sign left (reduce its x-offset or scale to ~0.75) so \"COMPROMISED\" doesn't straddle the center divider line — currently the white line bisects the text and makes it hard to read.",
+          "Apply the split background colors (bg on left, paper/cream on right) called for in the scene spec; the still is solid navy on both sides, losing the two-panel contrast that sells the 'warning vs. already happened' structure.",
+          "Fix exec's and worker's arm/pose: the point gesture currently pierces into robot1's and robot2's faces instead of reading as pointing at the sign/cord — pull the hand back off the robot's head.",
+          "Scale up and reposition cord-pulled so it visibly connects socket to worker's hand; right now it's a small disconnected row of yellow dots floating in empty space, so the 'pulling the cord' action doesn't read.",
+          "Swap the socket's raw SVG (currently reads as a pause/media icon with two vertical bars) for a clearer plug-socket shape with slot prongs.",
+          "Differentiate robot2's screen from robot1's (lower opacity or desaturate its lights) so 'screen dim' actually reads as powered-down versus robot1's active worried face."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"exec\" (human) was moved 102 px, 0 px to stay inside the artboard",
+          "\"unplug-label\" (label) was moved 0 px, 5 px to stay inside the safe area",
+          "\"robot2\" extends outside the safe area in the final frame (x 890…1054, y 569…886)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Fails: the right panel's unplug action is muddled (cord floats above the worker's head instead of connecting socket-to-hand or hand-to-robot), robot2 and its cord crop at the safe-area edge, the sign floats unheld, and the blueprint/vertical-divider composition repeats too closely across recent pieces.",
+        "revisionNotes": [
+          "Attach the COMPROMISED sign to exec's hand (side 'right' or 'top') instead of leaving it floating on an unconnected post above robot1 — right now the exec isn't holding anything.",
+          "Connect cord-pulled from the socket to the worker's hand instead of leaving the yellow segments dangling in empty space above the worker's head; as drawn it reads as sparks hitting the person, not a pulled plug.",
+          "Robot2 and its dangling-cord crop at the right/bottom safe-area edge (per lint: x 890-1054, y 569-886) — move robot2 to x ~0.82 and scale to ~0.55 so the cord fully clears the frame.",
+          "Enlarge and brighten robot2's dangling-cord (the actual 'already unplugged' punchline) — at current scale/opacity it's nearly invisible, while the brief calls it the joke's focal point.",
+          "Swap this vertical-divider blueprint composition for a different layout or palette: at least three of the last ten pieces already use a blue blueprint grid split by a thin vertical line with paired robots/humans.",
+          "Have the worker's pointing hand grip the pulled cord rather than touch robot2's antenna, so the action reads as 'pulling the plug' rather than 'poking the robot.'"
+        ]
+      },
+      "average": 3,
+      "passed": false
+    }
+  ]
+}

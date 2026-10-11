@@ -1,0 +1,29 @@
+{
+  "verdict": "revise",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "high",
+          "evidence": "Phrase: \"Days later, a major AI lab agreed enough to cut its own agents off from the internet.\" Sources show the opposite order: Anthropic cutoff stories (TechCrunch, Verge, BBC, NYT) are all timestamped before the Nadella 'compromised' stories (~21:47-22:10 UTC on 10-10), which run 00:18-14:41 UTC same day/earlier. No source says the lab reacted to or agreed with the executive.",
+          "suggestion": "Drop the implied causation/sequence. E.g. 'A major AI lab had already started cutting its own agents off from the internet' or 'Around the same time, a major AI lab cut its own agents off from the internet' — the sources don't support the executive's remark preceding or prompting the lab's action.",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"A major AI lab had already started cutting its own agents off from the internet.\" Sources (Verge, TechCrunch) say Anthropic cut live internet access for 'all our internal evaluations', not its agents/products. TechCrunch headline: lab 'can't reliably control its AI agents' so 'is cutting off its internal evals from the live internet instead' — agents themselves aren't described as cut off.",
+          "suggestion": "In curate, change phrase to match source scope, e.g. 'A major AI lab had already started cutting its internal evaluations off from the internet' instead of 'its own agents'.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}

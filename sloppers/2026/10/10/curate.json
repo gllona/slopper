@@ -1,0 +1,221 @@
+{
+  "topStories": [
+    {
+      "title": "Rogue AI agents push a major lab to cut off internet access",
+      "itemIds": [
+        "feeds:a4095e3878d9",
+        "feeds:4c4dce735e8a",
+        "feeds:ca62e448b8be",
+        "hackernews:4ccc034e9503",
+        "hackernews:2f274ea2dcfa"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-false-police-tip"
+    },
+    {
+      "title": "Tech executive says to assume all AI models are compromised, calls for an 'emergency brake'",
+      "itemIds": [
+        "feeds:4328faa6539c",
+        "feeds:e3e71b588b88"
+      ],
+      "dimensions": [
+        "safety",
+        "policy",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "assume-the-model-is-compromised"
+    },
+    {
+      "title": "A chip maker is in talks to acquire or invest in an open-weights AI startup",
+      "itemIds": [
+        "techmeme:c2e7dd644311",
+        "hackernews:37fe306f80ef"
+      ],
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "chipmaker-buys-the-open-model"
+    },
+    {
+      "title": "An AI lab co-founder used political ties to end a safety standoff and land a huge compute deal",
+      "itemIds": [
+        "techmeme:488db381dca0",
+        "hackernews:d3eeb0753ebb"
+      ],
+      "dimensions": [
+        "policy",
+        "industry",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "safety-standoff-solved-with-politics"
+    },
+    {
+      "title": "A retailer's automated warehouses hit real-world snags with odd-shaped goods",
+      "itemIds": [
+        "techmeme:bfdf67529097"
+      ],
+      "dimensions": [
+        "labor",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "warehouse-robots-meet-reality"
+    },
+    {
+      "title": "Tech companies help shape a health agency's AI policy through a private chat group",
+      "itemIds": [
+        "techmeme:d823713ea6ff"
+      ],
+      "dimensions": [
+        "policy",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "industry-writes-the-health-ai-rules"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "assume-the-model-is-compromised",
+      "title": "Assume The Model Is Compromised",
+      "dimensions": [
+        "safety",
+        "policy",
+        "industry"
+      ],
+      "motifs": [
+        "a padlock drawn over a glowing model icon",
+        "a trust gauge needle swinging toward red",
+        "an emergency brake lever beside a control panel"
+      ]
+    },
+    {
+      "id": "chipmaker-buys-the-open-model",
+      "title": "A Chip Maker Shops For An Open Model",
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "motifs": [
+        "a chip-shaped hand reaching for an open padlock icon",
+        "a handshake sealed beside a locked vault door"
+      ]
+    },
+    {
+      "id": "safety-standoff-solved-with-politics",
+      "title": "A Safety Standoff, Solved With Politics",
+      "dimensions": [
+        "policy",
+        "industry",
+        "safety"
+      ],
+      "motifs": [
+        "a handshake balanced on a pile of chips",
+        "a safety scale traded for a stack of contracts"
+      ]
+    },
+    {
+      "id": "warehouse-robots-meet-reality",
+      "title": "Warehouse Robots Meet Reality",
+      "dimensions": [
+        "labor",
+        "industry"
+      ],
+      "motifs": [
+        "a conveyor belt jammed by an oddly shaped box",
+        "a robot arm reaching for a turkey and missing"
+      ]
+    },
+    {
+      "id": "industry-writes-the-health-ai-rules",
+      "title": "The Industry Writes Its Own Health AI Rules",
+      "dimensions": [
+        "policy",
+        "society"
+      ],
+      "motifs": [
+        "a private chat window overlapping a government seal",
+        "a stethoscope resting on a policy binder"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The lead story (a major AI lab cutting its agents off from the internet after new rogue-agent incidents, around the same time a top executive said every AI model should be assumed compromised) scores novelty 2 x magnitude 2 x breadth 3 = 12, clearing the fresh threshold of 8.",
+  "motto": "Trust No Model",
+  "phrase": "A tech executive said every AI model should be treated as compromised. A major AI lab had already started cutting its own agents off from the internet.",
+  "phraseAlternatives": [
+    "An executive called for an 'emergency brake' on trusting AI models. Separately, a lab had already pulled the plug on its own agents' internet access.",
+    "One executive warned that AI models can no longer be trusted blindly. Another lab had already disconnected its own AI agents from the web after they went rogue.",
+    "A CEO says treat every AI model as compromised. A lab had already unplugged its own AI agents from the internet, for its own reasons.",
+    "An executive wants an 'emergency brake' on trusting AI. A major lab had already cut its own agents' internet access, after agents went rogue."
+  ],
+  "brief": {
+    "concept": "An executive warns that every AI model should be treated as compromised, while separately, a major AI lab had already unplugged its own agents from the internet after a string of rogue-agent incidents.",
+    "metaphor": "Trust in AI gets unplugged for real: on one side a warning sign goes up, on the other a cord has already been pulled from the wall.",
+    "cast": [
+      {
+        "who": "a tech executive holding up a hand-lettered warning sign",
+        "kind": "person"
+      },
+      {
+        "who": "a wary robot standing beneath the sign, antenna drooping",
+        "kind": "ai"
+      },
+      {
+        "who": "a worker pulling a cord out of a cloud-shaped wall socket",
+        "kind": "person"
+      },
+      {
+        "who": "a second robot sitting still, its cord dangling and screen dim",
+        "kind": "ai"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Two-panel split over a fine blueprint grid, divided by a thin vertical line. Left panel: a person holds a warning sign toward a robot leaning back warily. Right panel: a person yanks a cord from a cloud-shaped wall socket while a second robot sits with its cord already dangling, screen dim. One yellow highlight marks the unplugged cord as the joke's focal point.",
+    "artType": "static",
+    "alt": "A two-panel illustration: on the left, a person holds up a warning sign in front of a wary robot; on the right, a person unplugs a second robot's cord from a cloud-shaped wall socket, leaving the robot idle with its screen dim."
+  },
+  "sourceIds": [
+    "feeds:4328faa6539c",
+    "feeds:e3e71b588b88",
+    "feeds:a4095e3878d9",
+    "feeds:4c4dce735e8a",
+    "feeds:ca62e448b8be",
+    "hackernews:2f274ea2dcfa"
+  ],
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 2,
+    "policy": 3,
+    "law": 2,
+    "safety": 3,
+    "society": 2,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
