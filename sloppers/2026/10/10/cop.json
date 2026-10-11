@@ -1,0 +1,21 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"A tech CEO said AI models should be treated as compromised. Another company agreed, cutting its AI agents off the internet after one sent police a false tip.\" The word 'agreed' implies the second company's action was a response to the CEO's statement, but the sources show Anthropic's internet cutoff (TechCrunch, Oct 9; The Verge, Oct 10 14:41) predates the CEO's 'compromised' statement (The Verge/TechCrunch, Oct 10 21:47-22:10) by hours to a day.",
+          "suggestion": "Remove the implied causal/sequential link: e.g. 'The same week, another company cut its AI agents off the internet after one sent police a false tip.' instead of 'Another company agreed, cutting...'",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "pass",
+      "findings": []
+    }
+  ]
+}

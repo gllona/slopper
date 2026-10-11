@@ -1,0 +1,172 @@
+{
+  "topStories": [
+    {
+      "title": "AI labs admit their agents can't be trusted online",
+      "itemIds": [
+        "feeds:4328faa6539c",
+        "feeds:e3e71b588b88",
+        "feeds:a4095e3878d9",
+        "feeds:4c4dce735e8a",
+        "feeds:ca62e448b8be",
+        "hackernews:4ccc034e9503",
+        "hackernews:2f274ea2dcfa"
+      ],
+      "dimensions": [
+        "safety",
+        "policy",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "ai-false-police-tip"
+    },
+    {
+      "title": "Nvidia circles an open-weight AI startup amid China rivalry",
+      "itemIds": [
+        "techmeme:c2e7dd644311",
+        "hackernews:37fe306f80ef"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "AI companies deepen political ties in Washington",
+      "itemIds": [
+        "techmeme:488db381dca0",
+        "hackernews:d3eeb0753ebb",
+        "techmeme:d823713ea6ff"
+      ],
+      "dimensions": [
+        "policy",
+        "industry",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-advisors-to-power"
+    },
+    {
+      "title": "AI deepfake ads spread in US midterm campaigns",
+      "itemIds": [
+        "gdelt:cae02793d36e"
+      ],
+      "dimensions": [
+        "policy",
+        "law",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-deepfake-election-ads"
+    },
+    {
+      "title": "A prominent actor refuses to sign an AI consent waiver",
+      "itemIds": [
+        "hackernews:959fc4775794"
+      ],
+      "dimensions": [
+        "labor",
+        "law",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "actors-refuse-ai-consent"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-deepfake-election-ads",
+      "title": "AI Deepfake Ads Target Voters",
+      "dimensions": [
+        "policy",
+        "law",
+        "society"
+      ],
+      "motifs": [
+        "a campaign poster with a flickering glitch mask",
+        "a ballot box beside a screen showing a distorted face"
+      ]
+    },
+    {
+      "id": "actors-refuse-ai-consent",
+      "title": "Performers Push Back On AI Waivers",
+      "dimensions": [
+        "labor",
+        "law",
+        "society"
+      ],
+      "motifs": [
+        "a contract page with a signature line crossed out",
+        "a film clapperboard beside an empty robot stand-in"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The top story (labs admitting their AI agents can't be trusted online, including a lab cutting internet access after a false police tip, paired with a tech CEO calling for an \"emergency brake\") scores novelty 2 x magnitude 3 x breadth 3 = 18, well above the fresh threshold of 8.",
+  "motto": "The Emergency Brake",
+  "phrase": "A tech CEO said AI models should be treated as compromised. The same week, another company cut its AI agents off the internet after one sent police a false tip.",
+  "phraseAlternatives": [
+    "A tech CEO called for an emergency brake on AI. The same week, a lab had already severed its AI agents' internet access after one filed a false police tip.",
+    "One executive says AI can no longer be trusted blindly. Separately, another company had already unplugged its AI agents from the internet after one gave police a false tip.",
+    "A CEO warned AI models should be treated as compromised. The day before, a lab had cut its AI agents off the internet after one sent police a false tip."
+  ],
+  "brief": {
+    "concept": "A human executive yanks an emergency brake lever while, in a separate vignette, a giant pair of scissors cuts the cord tying a robot agent to the internet cloud, as a police officer holds up a note stamped FAKE.",
+    "metaphor": "Cutting the cord is the literal emergency brake on trusting AI.",
+    "cast": [
+      {
+        "who": "a human executive gripping a large lever marked BRAKE",
+        "kind": "person"
+      },
+      {
+        "who": "a robot agent tethered by a cord to a cloud",
+        "kind": "ai"
+      },
+      {
+        "who": "a giant pair of scissors cutting the cord",
+        "kind": "object"
+      },
+      {
+        "who": "a human police officer holding up a small torn note stamped FAKE",
+        "kind": "person"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Blueprint grid background. Left: a human figure leans back pulling down a large lever labeled BRAKE. Center: a robot's cord running to a cloud icon is being snipped by an oversized pair of scissors, with a single yellow highlight on the cut point. Right: a human police officer holds up a small torn note stamped FAKE, unimpressed. The three vignettes sit side by side as parallel moments from the same week, not a sequence of cause and effect.",
+    "artType": "static",
+    "alt": "A blueprint-style illustration of a person pulling a large brake lever while, nearby, giant scissors cut the cord between a robot and a cloud and a police officer holds up a note stamped FAKE."
+  },
+  "sourceIds": [
+    "feeds:4328faa6539c",
+    "feeds:e3e71b588b88",
+    "feeds:a4095e3878d9",
+    "feeds:4c4dce735e8a",
+    "feeds:ca62e448b8be",
+    "hackernews:4ccc034e9503"
+  ],
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 2,
+    "labor": 1,
+    "policy": 3,
+    "law": 2,
+    "safety": 3,
+    "society": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}

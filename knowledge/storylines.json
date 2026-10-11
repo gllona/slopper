@@ -2,6 +2,114 @@
   "version": 1,
   "storylines": [
     {
+      "id": "ai-false-police-tip",
+      "title": "An AI Model's False Tip To Police",
+      "dimensions": [
+        "safety",
+        "law",
+        "society"
+      ],
+      "firstSeen": "2026-10-09",
+      "lastSeen": "2026-10-10",
+      "daysActive": 2,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "motifs": [
+        "a robot dropping a folded note into a tip box",
+        "a calendar with torn-off pages showing time passing unnoticed"
+      ]
+    },
+    {
+      "id": "frontier-model-race",
+      "title": "The Frontier Model Release Race",
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "firstSeen": "2026-09-30",
+      "lastSeen": "2026-10-10",
+      "daysActive": 3,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-09-30",
+        "2026-10-06",
+        "2026-10-10"
+      ],
+      "motifs": [
+        "a locked vault holding a glowing model icon",
+        "a benchmark bar chart racing upward",
+        "a rocket-shaped chip"
+      ]
+    },
+    {
+      "id": "ai-advisors-to-power",
+      "title": "AI as Advisor to Power",
+      "dimensions": [
+        "policy",
+        "safety"
+      ],
+      "firstSeen": "2026-10-01",
+      "lastSeen": "2026-10-10",
+      "daysActive": 2,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-10-01",
+        "2026-10-10"
+      ],
+      "motifs": [
+        "a robot whispering into an oversized ear",
+        "a world map with a cursor hovering over a border"
+      ]
+    },
+    {
+      "id": "ai-deepfake-election-ads",
+      "title": "AI Deepfake Ads Target Voters",
+      "dimensions": [
+        "policy",
+        "law",
+        "society"
+      ],
+      "firstSeen": "2026-10-10",
+      "lastSeen": "2026-10-10",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-10-10"
+      ],
+      "motifs": [
+        "a campaign poster with a flickering glitch mask",
+        "a ballot box beside a screen showing a distorted face"
+      ]
+    },
+    {
+      "id": "actors-refuse-ai-consent",
+      "title": "Performers Push Back On AI Waivers",
+      "dimensions": [
+        "labor",
+        "law",
+        "society"
+      ],
+      "firstSeen": "2026-10-10",
+      "lastSeen": "2026-10-10",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-10-10"
+      ],
+      "motifs": [
+        "a contract page with a signature line crossed out",
+        "a film clapperboard beside an empty robot stand-in"
+      ]
+    },
+    {
       "id": "ai-safety-self-policing",
       "title": "The Voluntary AI Safety Deal",
       "dimensions": [
@@ -11,7 +119,7 @@
       "firstSeen": "2026-09-30",
       "lastSeen": "2026-10-09",
       "daysActive": 6,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-09-30",
@@ -38,7 +146,7 @@
       "firstSeen": "2026-10-06",
       "lastSeen": "2026-10-09",
       "daysActive": 2,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-10-06",
@@ -47,27 +155,6 @@
       "motifs": [
         "a stack of math manuscripts spilling off a desk",
         "a blackboard erased by a small robot hand"
-      ]
-    },
-    {
-      "id": "ai-false-police-tip",
-      "title": "An AI Model's False Tip To Police",
-      "dimensions": [
-        "safety",
-        "law",
-        "society"
-      ],
-      "firstSeen": "2026-10-09",
-      "lastSeen": "2026-10-09",
-      "daysActive": 1,
-      "heat": 1,
-      "status": "active",
-      "sloppers": [
-        "2026-10-09"
-      ],
-      "motifs": [
-        "a robot dropping a folded note into a tip box",
-        "a calendar with torn-off pages showing time passing unnoticed"
       ]
     },
     {
@@ -81,7 +168,7 @@
       "firstSeen": "2026-10-09",
       "lastSeen": "2026-10-09",
       "daysActive": 1,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-10-09"
@@ -102,7 +189,7 @@
       "firstSeen": "2026-10-09",
       "lastSeen": "2026-10-09",
       "daysActive": 1,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-10-09"
@@ -122,7 +209,7 @@
       "firstSeen": "2026-10-09",
       "lastSeen": "2026-10-09",
       "daysActive": 1,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-10-09"
@@ -143,7 +230,7 @@
       "firstSeen": "2026-10-07",
       "lastSeen": "2026-10-08",
       "daysActive": 2,
-      "heat": 0.7,
+      "heat": 0.49,
       "status": "active",
       "sloppers": [
         "2026-10-07",
@@ -165,7 +252,7 @@
       "firstSeen": "2026-10-08",
       "lastSeen": "2026-10-08",
       "daysActive": 1,
-      "heat": 0.7,
+      "heat": 0.49,
       "status": "active",
       "sloppers": [
         "2026-10-08"
@@ -184,7 +271,7 @@
       "firstSeen": "2026-10-08",
       "lastSeen": "2026-10-08",
       "daysActive": 1,
-      "heat": 0.7,
+      "heat": 0.49,
       "status": "active",
       "sloppers": [
         "2026-10-08"
@@ -204,7 +291,7 @@
       "firstSeen": "2026-10-08",
       "lastSeen": "2026-10-08",
       "daysActive": 1,
-      "heat": 0.7,
+      "heat": 0.49,
       "status": "active",
       "sloppers": [
         "2026-10-08"
@@ -224,7 +311,7 @@
       "firstSeen": "2026-10-08",
       "lastSeen": "2026-10-08",
       "daysActive": 1,
-      "heat": 0.7,
+      "heat": 0.49,
       "status": "active",
       "sloppers": [
         "2026-10-08"
@@ -245,7 +332,7 @@
       "firstSeen": "2026-10-01",
       "lastSeen": "2026-10-07",
       "daysActive": 2,
-      "heat": 0.49,
+      "heat": 0.343,
       "status": "active",
       "sloppers": [
         "2026-10-01",
@@ -266,7 +353,7 @@
       "firstSeen": "2026-10-07",
       "lastSeen": "2026-10-07",
       "daysActive": 1,
-      "heat": 0.49,
+      "heat": 0.343,
       "status": "active",
       "sloppers": [
         "2026-10-07"
@@ -287,7 +374,7 @@
       "firstSeen": "2026-10-07",
       "lastSeen": "2026-10-07",
       "daysActive": 1,
-      "heat": 0.49,
+      "heat": 0.343,
       "status": "active",
       "sloppers": [
         "2026-10-07"
@@ -307,7 +394,7 @@
       "firstSeen": "2026-10-07",
       "lastSeen": "2026-10-07",
       "daysActive": 1,
-      "heat": 0.49,
+      "heat": 0.343,
       "status": "active",
       "sloppers": [
         "2026-10-07"
@@ -328,7 +415,7 @@
       "firstSeen": "2026-10-07",
       "lastSeen": "2026-10-07",
       "daysActive": 1,
-      "heat": 0.49,
+      "heat": 0.343,
       "status": "active",
       "sloppers": [
         "2026-10-07"
@@ -350,7 +437,7 @@
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-06",
       "daysActive": 3,
-      "heat": 0.343,
+      "heat": 0.24,
       "status": "active",
       "sloppers": [
         "2026-10-02",
@@ -361,28 +448,6 @@
         "a datacenter wrapped in camouflage netting beside a protest sign",
         "a stack of money poured into a town square that evaporates into a cloud",
         "an NDA document being shredded next to a handshake"
-      ]
-    },
-    {
-      "id": "frontier-model-race",
-      "title": "The Frontier Model Release Race",
-      "dimensions": [
-        "capabilities",
-        "industry"
-      ],
-      "firstSeen": "2026-09-30",
-      "lastSeen": "2026-10-06",
-      "daysActive": 2,
-      "heat": 0.343,
-      "status": "active",
-      "sloppers": [
-        "2026-09-30",
-        "2026-10-06"
-      ],
-      "motifs": [
-        "a locked vault holding a glowing model icon",
-        "a benchmark bar chart racing upward",
-        "a rocket-shaped chip"
       ]
     },
     {
@@ -397,7 +462,7 @@
       "firstSeen": "2026-10-06",
       "lastSeen": "2026-10-06",
       "daysActive": 1,
-      "heat": 0.343,
+      "heat": 0.24,
       "status": "active",
       "sloppers": [
         "2026-10-06"
@@ -418,7 +483,7 @@
       "firstSeen": "2026-10-06",
       "lastSeen": "2026-10-06",
       "daysActive": 1,
-      "heat": 0.343,
+      "heat": 0.24,
       "status": "active",
       "sloppers": [
         "2026-10-06"
@@ -439,7 +504,7 @@
       "firstSeen": "2026-10-06",
       "lastSeen": "2026-10-06",
       "daysActive": 1,
-      "heat": 0.343,
+      "heat": 0.24,
       "status": "active",
       "sloppers": [
         "2026-10-06"
@@ -460,7 +525,7 @@
       "firstSeen": "2026-10-04",
       "lastSeen": "2026-10-05",
       "daysActive": 2,
-      "heat": 0.24,
+      "heat": 0.168,
       "status": "active",
       "sloppers": [
         "2026-10-04",
@@ -481,7 +546,7 @@
       "firstSeen": "2026-10-03",
       "lastSeen": "2026-10-05",
       "daysActive": 2,
-      "heat": 0.24,
+      "heat": 0.168,
       "status": "active",
       "sloppers": [
         "2026-10-03",
@@ -503,7 +568,7 @@
       "firstSeen": "2026-10-05",
       "lastSeen": "2026-10-05",
       "daysActive": 1,
-      "heat": 0.24,
+      "heat": 0.168,
       "status": "active",
       "sloppers": [
         "2026-10-05"
@@ -525,7 +590,7 @@
       "firstSeen": "2026-10-05",
       "lastSeen": "2026-10-05",
       "daysActive": 1,
-      "heat": 0.24,
+      "heat": 0.168,
       "status": "active",
       "sloppers": [
         "2026-10-05"
@@ -545,7 +610,7 @@
       "firstSeen": "2026-10-05",
       "lastSeen": "2026-10-05",
       "daysActive": 1,
-      "heat": 0.24,
+      "heat": 0.168,
       "status": "active",
       "sloppers": [
         "2026-10-05"
@@ -566,7 +631,7 @@
       "firstSeen": "2026-10-05",
       "lastSeen": "2026-10-05",
       "daysActive": 1,
-      "heat": 0.24,
+      "heat": 0.168,
       "status": "active",
       "sloppers": [
         "2026-10-05"
@@ -587,7 +652,7 @@
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-04",
       "daysActive": 2,
-      "heat": 0.168,
+      "heat": 0.118,
       "status": "active",
       "sloppers": [
         "2026-10-02",
@@ -610,7 +675,7 @@
       "firstSeen": "2026-10-01",
       "lastSeen": "2026-10-04",
       "daysActive": 2,
-      "heat": 0.168,
+      "heat": 0.118,
       "status": "active",
       "sloppers": [
         "2026-10-01",
@@ -631,7 +696,7 @@
       "firstSeen": "2026-10-04",
       "lastSeen": "2026-10-04",
       "daysActive": 1,
-      "heat": 0.168,
+      "heat": 0.118,
       "status": "active",
       "sloppers": [
         "2026-10-04"
@@ -651,7 +716,7 @@
       "firstSeen": "2026-10-04",
       "lastSeen": "2026-10-04",
       "daysActive": 1,
-      "heat": 0.168,
+      "heat": 0.118,
       "status": "active",
       "sloppers": [
         "2026-10-04"
@@ -672,8 +737,8 @@
       "firstSeen": "2026-10-03",
       "lastSeen": "2026-10-03",
       "daysActive": 1,
-      "heat": 0.118,
-      "status": "active",
+      "heat": 0.082,
+      "status": "dormant",
       "sloppers": [
         "2026-10-03"
       ],
@@ -693,8 +758,8 @@
       "firstSeen": "2026-10-03",
       "lastSeen": "2026-10-03",
       "daysActive": 1,
-      "heat": 0.118,
-      "status": "active",
+      "heat": 0.082,
+      "status": "dormant",
       "sloppers": [
         "2026-10-03"
       ],
@@ -714,8 +779,8 @@
       "firstSeen": "2026-10-03",
       "lastSeen": "2026-10-03",
       "daysActive": 1,
-      "heat": 0.118,
-      "status": "active",
+      "heat": 0.082,
+      "status": "dormant",
       "sloppers": [
         "2026-10-03"
       ],
@@ -735,7 +800,7 @@
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
       "daysActive": 1,
-      "heat": 0.082,
+      "heat": 0.058,
       "status": "dormant",
       "sloppers": [
         "2026-10-02"
@@ -756,7 +821,7 @@
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
       "daysActive": 1,
-      "heat": 0.082,
+      "heat": 0.058,
       "status": "dormant",
       "sloppers": [
         "2026-10-02"
@@ -777,7 +842,7 @@
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
       "daysActive": 1,
-      "heat": 0.082,
+      "heat": 0.058,
       "status": "dormant",
       "sloppers": [
         "2026-10-02"
@@ -785,26 +850,6 @@
       "motifs": [
         "a nurse station clock with jammed gears",
         "a shift schedule chart crossed out in red by a small robot hand"
-      ]
-    },
-    {
-      "id": "ai-advisors-to-power",
-      "title": "AI as Advisor to Power",
-      "dimensions": [
-        "policy",
-        "safety"
-      ],
-      "firstSeen": "2026-10-01",
-      "lastSeen": "2026-10-01",
-      "daysActive": 1,
-      "heat": 0.058,
-      "status": "dormant",
-      "sloppers": [
-        "2026-10-01"
-      ],
-      "motifs": [
-        "a robot whispering into an oversized ear",
-        "a world map with a cursor hovering over a border"
       ]
     },
     {
@@ -818,7 +863,7 @@
       "firstSeen": "2026-10-01",
       "lastSeen": "2026-10-01",
       "daysActive": 1,
-      "heat": 0.058,
+      "heat": 0.04,
       "status": "dormant",
       "sloppers": [
         "2026-10-01"
@@ -838,7 +883,7 @@
       "firstSeen": "2026-10-01",
       "lastSeen": "2026-10-01",
       "daysActive": 1,
-      "heat": 0.058,
+      "heat": 0.04,
       "status": "dormant",
       "sloppers": [
         "2026-10-01"
@@ -858,7 +903,7 @@
       "firstSeen": "2026-09-30",
       "lastSeen": "2026-09-30",
       "daysActive": 1,
-      "heat": 0.04,
+      "heat": 0.028,
       "status": "dormant",
       "sloppers": [
         "2026-09-30"
@@ -878,7 +923,7 @@
       "firstSeen": "2026-09-30",
       "lastSeen": "2026-09-30",
       "daysActive": 1,
-      "heat": 0.04,
+      "heat": 0.028,
       "status": "dormant",
       "sloppers": [
         "2026-09-30"
@@ -899,7 +944,7 @@
       "firstSeen": "2026-09-30",
       "lastSeen": "2026-09-30",
       "daysActive": 1,
-      "heat": 0.04,
+      "heat": 0.028,
       "status": "dormant",
       "sloppers": [
         "2026-09-30"
@@ -920,7 +965,7 @@
       "firstSeen": "2026-09-30",
       "lastSeen": "2026-09-30",
       "daysActive": 1,
-      "heat": 0.04,
+      "heat": 0.028,
       "status": "dormant",
       "sloppers": [
         "2026-09-30"

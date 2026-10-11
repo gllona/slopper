@@ -1,0 +1,101 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 2,
+          "style": 4,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The frame drops nearly all the load-bearing props from the brief — no brake lever, the scissors read as a stray crosshair, and the FAKE note is glued to the cloud instead of held by the officer — leaving two generic, near-identical flanking figures and a joke that doesn't land; it also recycles a recent blue/yellow composition. Fails.",
+        "revisionNotes": [
+          "Add the missing 'lever' component (BRAKE label) attached to the exec on the left-third — the emergency-brake half of the joke isn't in the frame at all.",
+          "Rebuild 'cord-cut' as a recognizable giant pair of scissors with a yellow glow at the cut point; right now it renders as a tiny crosshair icon that reads as a glitch, not a prop.",
+          "Reattach the 'note' (FAKE label) to the officer's raised hand at right-third instead of pasting it onto the side of the cloud — as placed it looks like a loose tag on the cloud, not something a person is holding up.",
+          "Differentiate exec and officer: give them distinct poses/holds (one gripping down on the lever, one raising the note) instead of two mirror-identical yellow-shirted figures with 'holds: none'.",
+          "Spread the three vignettes to left-third / center-third / right-third per the brief instead of clustering everything in the vertical center; there's a lot of dead space top and bottom of the square.",
+          "Palette/composition (blue grid bg + two yellow-shirted humans flanking a center figure) closely echoes a recent slopper panel; shift a pose or accent color to read as fresh."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"lever-label\" (label) was moved 23 px, 0 px to stay inside the safe area",
+          "\"officer\" extends outside the safe area in the final frame (x 676…1048, y 352…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Cast and concept are on-brief, but the three key actions are undersold: the exec isn't gripping the lever, the officer points off-frame instead of holding up the note (which floats disconnected near the cloud), and the officer clips the safe area — plus the layout repeats a recent blueprint-row template. Fails the average threshold.",
+        "revisionNotes": [
+          "Reconnect the \"lever\" to the exec's hand instead of floating beside his hip: attach it at his grip point, scale to ~1.5, and set his pose to \"pull\" with a backward lean so the BRAKE action reads without relying on the label.",
+          "The \"note\" (FAKE) currently floats up near the cloud, disconnected from the officer's hand — re-anchor it directly above the officer's raised hand and change his pose from \"point\" to a hold-up gesture so he's visibly displaying the tag.",
+          "Officer breaches the safe area on the right (lint: x 676-1048); pull him inward ~40-60px or drop scale to 1.0 so his arm clears the margin.",
+          "Scale the cord-scissors prop up to ~1.4 and brighten/enlarge the yellow spark at the cut point — at current size the \"giant scissors\" cutting the cord reads as a faint squiggle, not the key visual beat of the piece.",
+          "This three-figure, blueprint-grid, yellow-accent composition (person/robot/person in a row) closely repeats recent sloppers; stagger the vignettes or vary the palette accent so it doesn't read as a template reuse.",
+          "Give the exec a clear grip/lean pose so pulling the brake is obvious at a glance, rather than standing neutrally next to a small unrelated lever shape."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"exec\" (human) was moved 11 px, 0 px to stay inside the artboard"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 2,
+          "style": 3,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "Fails: the three parallel vignettes collapse into one cluttered center cluster where the BRAKE label is buried in the robot's head/spark glow and the giant scissors are nearly invisible, so the brake-lever/cut-cord/fake-note joke doesn't read in 3 seconds despite correct, kind casting.",
+        "revisionNotes": [
+          "The exec's -50px offset pushes it into the robot's space, and the lever (attached to exec's right side, scale 1.5) lands directly behind the robot's head — move exec back toward true left-third with no negative x-offset so the lever clears the robot.",
+          "The BRAKE label is only legible as 'RAKE' because it overlaps the yellow spark glow and the robot's antenna — separate the lever vignette from the cord-scissors vignette with real horizontal space.",
+          "The giant scissors are nearly invisible, buried behind the robot's head with only thin crossed lines showing — scale the cord-scissors prop up and offset it clear of the robot so the blades and handles read as scissors.",
+          "The FAKE note floats near the cloud rather than visibly in the officer's hand — switch officer's pose to a single raised arm pointing at the note so the attachment reads as 'holding it up', not a stray caption.",
+          "Re-stagger the three vignettes into distinct left/center/right thirds with visible gaps; right now exec, lever, bot, and scissors all overlap in one central cluster instead of reading as three parallel moments.",
+          "This blueprint navy/yellow palette with a robot flanked by two plain humans is close to several recent pieces (the 'TOO LATE' and 'Missing Billions' tiles) — vary the palette accent or figure arrangement to stand apart."
+        ]
+      },
+      "average": 2.43,
+      "passed": false
+    }
+  ]
+}

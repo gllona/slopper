@@ -1,0 +1,114 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {},
+  "elements": [
+    {
+      "id": "exec",
+      "component": "human",
+      "at": "left-third",
+      "offset": [
+        -75,
+        0
+      ],
+      "scale": 1.15,
+      "rotate": -6,
+      "props": {
+        "mood": "neutral",
+        "pose": "stand",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "lever",
+      "component": "raw",
+      "attachTo": "exec",
+      "side": "left",
+      "scale": 1,
+      "props": {
+        "width": 50,
+        "height": 220
+      },
+      "svg": "<path d='M5,205 A45,45 0 0 1 45,150' class='r-thin'/><path d='M20,200 L30,200 L26,15 L14,15 Z' class='r-body'/><circle cx='20' cy='15' r='14' class='r-body-alt'/><rect x='5' y='195' width='40' height='18' class='r-body'/><circle cx='25' cy='200' r='6' class='r-ink'/>"
+    },
+    {
+      "id": "lever-label",
+      "component": "label",
+      "attachTo": "lever",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "BRAKE",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "cloud",
+      "component": "cloud",
+      "at": "sky",
+      "scale": 1,
+      "props": {
+        "mood": "none",
+        "size": "md"
+      }
+    },
+    {
+      "id": "cord-scissors",
+      "component": "raw",
+      "attachTo": "cloud",
+      "side": "bottom",
+      "scale": 1,
+      "props": {
+        "width": 170,
+        "height": 110
+      },
+      "svg": "<circle cx='85' cy='13' r='15' class='r-glow'/><line x1='85' y1='0' x2='85' y2='13' class='r-line'/><line x1='85' y1='50' x2='71' y2='12' class='r-line'/><line x1='85' y1='50' x2='99' y2='12' class='r-line'/><circle cx='85' cy='50' r='7' class='r-ink'/><line x1='85' y1='50' x2='58' y2='86' class='r-line'/><line x1='85' y1='50' x2='112' y2='86' class='r-line'/><circle cx='58' cy='94' r='14' class='r-line'/><circle cx='112' cy='94' r='14' class='r-line'/>"
+    },
+    {
+      "id": "bot",
+      "component": "robot",
+      "at": "center-third",
+      "scale": 0.9,
+      "props": {
+        "mood": "worried",
+        "arms": "up",
+        "antenna": false
+      }
+    },
+    {
+      "id": "officer",
+      "component": "human",
+      "at": "right-third",
+      "offset": [
+        75,
+        0
+      ],
+      "scale": 1.15,
+      "props": {
+        "mood": "neutral",
+        "pose": "point",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "note",
+      "component": "label",
+      "attachTo": "officer",
+      "side": "top",
+      "offset": [
+        40,
+        -25
+      ],
+      "scale": 1,
+      "props": {
+        "text": "FAKE",
+        "size": "md",
+        "kind": "tag",
+        "color": "paper"
+      }
+    }
+  ],
+  "alt": "Blueprint-style scene in three parts: on the left a person braces while pulling an emergency brake lever labeled BRAKE; in the center giant scissors cut the cord between a cloud and a worried robot, with a yellow spark at the cut; on the right a police officer raises a note labeled FAKE."
+}

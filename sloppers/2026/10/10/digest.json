@@ -1,0 +1,634 @@
+{
+  "date": "2026-10-10",
+  "fetchedAt": "2026-10-11T14:43:51.576Z",
+  "sources": [
+    {
+      "source": "feeds",
+      "ok": true,
+      "count": 11
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "count": 5
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 13
+    },
+    {
+      "source": "gdelt",
+      "ok": true,
+      "count": 29
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "feeds:4328faa6539c",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
+      "snippet": "In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a \"set of nested black boxes\" whose advice and actions we simply accept or […]",
+      "publishedAt": "2026-10-10T22:10:17.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:4462a86643a1",
+      "source": "feeds",
+      "url": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+      "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
+      "snippet": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG. The label filed a lawsuit in September claiming that DistroKid has created…",
+      "publishedAt": "2026-10-10T18:52:07.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:a4095e3878d9",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+      "title": "Anthropic is cutting off its internal evaluations from the internet",
+      "snippet": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, the company detailed \"unintended model actions,\" including submitting a false tip regarding an unsolved murder, that led…",
+      "publishedAt": "2026-10-10T14:41:16.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:8d66594bfaf5",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+      "title": "AI agent makers are promising privacy — will they deliver?",
+      "snippet": "At this year's OpenAI DevDay, CEO Sam Altman unveiled the company's new AI agent Dots - and told the crowd that the company wants to \"set a new standard for privacy in frontier AI.\" OpenAI would spend the day taking veiled shots at Meta's Muse, its primary competitor, for failing to keep users'…",
+      "publishedAt": "2026-10-10T13:00:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:e0e850586f16",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals/",
+      "title": "AI Is Getting Really Good at Messing With Cybercriminals",
+      "snippet": "Anti-cybercrime initiatives are increasingly using AI to scam the scammers by tricking them into talking to lifelike bots that they think are real victims.",
+      "publishedAt": "2026-10-10T12:00:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:e3e71b588b88",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+      "snippet": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
+      "publishedAt": "2026-10-10T21:47:51.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:498030eadd31",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+      "snippet": "Is Apple hoping to get into the AI-generated podcast business?",
+      "publishedAt": "2026-10-10T19:50:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:8ae1f3582524",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+      "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
+      "snippet": "TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco. Over 300 startups will show what they’ve built to 10,000 tech leaders. Plus, 250+ speakers are ready to share insights across 200+ sessions. Register before doors open to save up to $100 and get a second pass at 50% off.",
+      "publishedAt": "2026-10-10T15:00:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:2640e3ae8dcd",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "snippet": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "publishedAt": "2026-10-10T14:00:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:4c4dce735e8a",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+      "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+      "snippet": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
+      "publishedAt": "2026-10-10T00:18:32.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:ca62e448b8be",
+      "source": "feeds",
+      "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo?at_medium=RSS&at_campaign=rss",
+      "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
+      "snippet": "Philadelphia police said the tip was \"flagged as spam\", but criticised the tech company for taking more than two months to detect and report the breach.",
+      "publishedAt": "2026-10-10T10:06:23.000Z",
+      "publisher": "BBC News",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:8d402f66eda2",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261010/p17",
+      "title": "Hundreds of old games were decompiled and ported to run on browsers in recent weeks, driven by Claude Opus 5.5; titles like GTA: Vice City and Halo: CE run well (Lewis Parker/Kotaku)",
+      "snippet": "Lewis Parker / Kotaku : Hundreds of old games were decompiled and ported to run on browsers in recent weeks, driven by Claude Opus 5.5; titles like GTA: Vice City and Halo: CE run well — Call of Duty: Black Ops, Halo: CE, Grand Theft Auto: Vice City, Skate 3 and many more titles have been…",
+      "publishedAt": "2026-10-10T19:45:00.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:c2e7dd644311",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261010/p16",
+      "title": "Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an acquihire to avoid antitrust scrutiny (Financial Times)",
+      "snippet": "Financial Times : Sources: Nvidia is in talks to acquire or invest more into US open-weights AI startup Reflection AI; the deal may be an acquihire to avoid antitrust scrutiny — Donald Trump's administration hopes the company will rival cheap Chinese alternatives such as DeepSeek",
+      "publishedAt": "2026-10-10T19:08:43.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:d823713ea6ff",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261010/p14",
+      "title": "A look at a 1,700-member Slack run by Medicare agency CMS where Microsoft, OpenAI, and other companies help shape policy on AI apps and medical records access (CBS News)",
+      "snippet": "CBS News : A look at a 1,700-member Slack run by Medicare agency CMS where Microsoft, OpenAI, and other companies help shape policy on AI apps and medical records access — A cadre of elite techies, financiers, and high-level Trump administration officials have spent a year quietly charting an…",
+      "publishedAt": "2026-10-10T16:50:11.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:488db381dca0",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261010/p12",
+      "title": "How Anthropic co-founder Tom Brown used GOP ties to end a June standoff over model safety and win over Musk, brokering a $1.25B/month SpaceX compute deal (Wall Street Journal)",
+      "snippet": "Wall Street Journal : How Anthropic co-founder Tom Brown used GOP ties to end a June standoff over model safety and win over Musk, brokering a $1.25B/month SpaceX compute deal — Tom Brown is leveraging his Republican ties and business savvy to win over Washington and secure the computing power…",
+      "publishedAt": "2026-10-10T13:50:00.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:661926cdbc2b",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261010/p11",
+      "title": "Dozens of staff at HarperCollins, Simon & Schuster, Hachette: without author consent, publishers are quietly using AI to make back-cover copy, cover art, more (Adam Morgan/Wired)",
+      "snippet": "Adam Morgan / Wired : Dozens of staff at HarperCollins, Simon & Schuster, Hachette: without author consent, publishers are quietly using AI to make back-cover copy, cover art, more — Workers at three major publishing houses tell WIRED that LLMs are being used for publicity, cover art, back cover…",
+      "publishedAt": "2026-10-10T12:40:01.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:5c1db9239c15",
+      "source": "hackernews",
+      "url": "https://github.com/rociiu/talorys",
+      "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+      "snippet": "306 points and 141 comments on Hacker News (https://news.ycombinator.com/item?id=50031614).",
+      "publishedAt": "2026-10-10T10:52:09.000Z",
+      "score": 306,
+      "publisher": "github.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:37fe306f80ef",
+      "source": "hackernews",
+      "url": "https://www.ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+      "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+      "snippet": "170 points and 108 comments on Hacker News (https://news.ycombinator.com/item?id=50035886).",
+      "publishedAt": "2026-10-10T18:48:35.000Z",
+      "score": 170,
+      "publisher": "ft.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:d3eeb0753ebb",
+      "source": "hackernews",
+      "url": "https://wsj.com/tech/ai/tom-brown-athropic-669005ad",
+      "title": "Tom Brown used GOP ties to broker a $1.25B/month SpaceX compute deal",
+      "snippet": "135 points and 52 comments on Hacker News (https://news.ycombinator.com/item?id=50033678).",
+      "publishedAt": "2026-10-10T15:04:38.000Z",
+      "score": 135,
+      "publisher": "wsj.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:b451cad28797",
+      "source": "hackernews",
+      "url": "https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
+      "title": "My personal AI agent posted my bank details on company Slack",
+      "snippet": "62 points and 66 comments on Hacker News (https://news.ycombinator.com/item?id=50033517).",
+      "publishedAt": "2026-10-10T14:46:16.000Z",
+      "score": 62,
+      "publisher": "businessinsider.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:fb14a27553fd",
+      "source": "hackernews",
+      "url": "https://www.warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks/",
+      "title": "AI Data Centers Not Paying Their Costs, Will Keep Using NDAs and Seek Tax Breaks",
+      "snippet": "57 points and 8 comments on Hacker News (https://news.ycombinator.com/item?id=50031156).",
+      "publishedAt": "2026-10-10T09:30:03.000Z",
+      "score": 57,
+      "publisher": "warren.senate.gov",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:e25e7869900e",
+      "source": "hackernews",
+      "url": "https://metedata.substack.com/p/ai-is-throwing-a-roadside-picnic",
+      "title": "AI Is Throwing a Roadside Picnic",
+      "snippet": "47 points and 48 comments on Hacker News (https://news.ycombinator.com/item?id=50034363).",
+      "publishedAt": "2026-10-10T16:19:23.000Z",
+      "score": 47,
+      "publisher": "metedata.substack.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:4ccc034e9503",
+      "source": "hackernews",
+      "url": "https://www.reuters.com/world/us/anthropic-ai-model-submits-false-homicide-tip-police-website-2026-10-09/",
+      "title": "Anthropic discloses 2 months old fake tip to police among new rogue AI incidents",
+      "snippet": "41 points and 35 comments on Hacker News (https://news.ycombinator.com/item?id=50035550).",
+      "publishedAt": "2026-10-10T18:10:54.000Z",
+      "score": 41,
+      "publisher": "reuters.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:fa5cd199ec83",
+      "source": "hackernews",
+      "url": "https://deadsimpletech.com/blog/llms-arent-inevitable",
+      "title": "There's little that's \"inevitable\" about AI",
+      "snippet": "40 points and 96 comments on Hacker News (https://news.ycombinator.com/item?id=50032064).",
+      "publishedAt": "2026-10-10T12:04:04.000Z",
+      "score": 40,
+      "publisher": "deadsimpletech.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:2f274ea2dcfa",
+      "source": "hackernews",
+      "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
+      "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
+      "snippet": "34 points and 8 comments on Hacker News (https://news.ycombinator.com/item?id=50029330).",
+      "publishedAt": "2026-10-10T03:42:11.000Z",
+      "score": 34,
+      "publisher": "nytimes.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:af1cecab1358",
+      "source": "hackernews",
+      "url": "https://www.groundlevel-ai.com/p/anthropic-ai-consciousness-new-york-times-rabbi",
+      "title": "If AI is conscient, then we are making slaves",
+      "snippet": "33 points and 100 comments on Hacker News (https://news.ycombinator.com/item?id=50029681).",
+      "publishedAt": "2026-10-10T04:51:26.000Z",
+      "score": 33,
+      "publisher": "groundlevel-ai.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:6f08fc2a8cd9",
+      "source": "hackernews",
+      "url": "https://alexwang.ai/posts/put-a-price-on-breakthroughs/",
+      "title": "Put a price on breakthroughs",
+      "snippet": "32 points and 9 comments on Hacker News (https://news.ycombinator.com/item?id=50028982).",
+      "publishedAt": "2026-10-10T02:37:47.000Z",
+      "score": 32,
+      "publisher": "alexwang.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:959fc4775794",
+      "source": "hackernews",
+      "url": "https://variety.com/2026/tv/news/nicolas-cage-ai-waiver-amazon-spider-noir-1236907564/",
+      "title": "Nicolas Cage Refused to Sign Amazon AI Waiver: 'I'm Not an AI-Friendly Actor'",
+      "snippet": "30 points and 11 comments on Hacker News (https://news.ycombinator.com/item?id=50036390).",
+      "publishedAt": "2026-10-10T19:39:10.000Z",
+      "score": 30,
+      "publisher": "variety.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:2edbac87738b",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=50029896",
+      "title": "If AI keeps evolving,would you worry about your next generation's survival",
+      "snippet": "24 points and 48 comments on Hacker News (https://news.ycombinator.com/item?id=50029896).",
+      "publishedAt": "2026-10-10T05:33:21.000Z",
+      "score": 24,
+      "publisher": "news.ycombinator.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:cb2edb286705",
+      "source": "gdelt",
+      "url": "https://townhall.com/columnists/pauldriessen/2026/10/10/we-must-embrace-not-pause-ai-and-data-centers-n2684451",
+      "title": "We Must Embrace , Not Pause , AI and Data Centers",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "townhall.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:418581d2e2ed",
+      "source": "gdelt",
+      "url": "https://rg.ru/2026/10/10/kurs-po-ii-i-informacionnoj-bezopasnosti-vvedut-vo-vseh-shkolah-s-2027-goda.html",
+      "title": "Когда в школах появится новый обязательный курс по ИИ . Комментарий Минпросвещения",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "rg.ru",
+      "lang": "ru"
+    },
+    {
+      "id": "gdelt:123b90daa69f",
+      "source": "gdelt",
+      "url": "https://www.indiatimes.com/trending/we-need-to-be-worried-about-the-idiots-running-it-why-the-real-danger-may-be-who-controls-ai-and-not-just-how-smart-it-gets/articleshow/134847134.html",
+      "title": "We need to be worried about the idiots running it : Why the real danger may be who controls AI and not just how smart it gets",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "indiatimes.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:3d567405306b",
+      "source": "gdelt",
+      "url": "https://e24.no/teknologi/i/d77O8B/mennesket-mot-maskinen",
+      "title": "Mennesket mot maskinen",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "e24.no",
+      "lang": "und"
+    },
+    {
+      "id": "gdelt:b174ab614456",
+      "source": "gdelt",
+      "url": "https://russian.rt.com/russia/news/1692948-shkolniki-kurs-ii",
+      "title": "Школьникам расскажут о работе искусственного интеллекта",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "russian.rt.com",
+      "lang": "ru"
+    },
+    {
+      "id": "gdelt:f239cd123673",
+      "source": "gdelt",
+      "url": "https://russian.rt.com/russia/news/1692949-kurs-ii-bezopasnost",
+      "title": "Школьников научат защищаться от мошенников на курсе по ИИ",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "russian.rt.com",
+      "lang": "ru"
+    },
+    {
+      "id": "gdelt:add9353fbeea",
+      "source": "gdelt",
+      "url": "https://www.the-star.co.ke/business/2026-10-10-kenya-re-taps-university-students-for-ai-powered-flood-solution-plan",
+      "title": "Kenya Re taps university students for AI - powered flood solution plan",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "the-star.co.ke",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:d48ff12ef69f",
+      "source": "gdelt",
+      "url": "https://www.elheraldo.co/columnas-de-opinion/2026/10/10/tecnopatria/",
+      "title": "Tecnopatria",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "elheraldo.co",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:cae02793d36e",
+      "source": "gdelt",
+      "url": "https://en.shafaqna.com/483957/ai-deepfake-ads-grow-more-popular-in-us-midterm-campaigns-misleading-voters/",
+      "title": "AI deepfake ads grow more popular in US midterm campaigns , misleading voters - Shafaqna English",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "en.shafaqna.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:bc726ade3d2c",
+      "source": "gdelt",
+      "url": "https://www.index.hr/vijesti/clanak/voditelj-pantheona-struja-gradjanima-zbog-toga-nece-poskupjeti/2844077.aspx",
+      "title": "AI centar u Topuskom trošit će struje kao četvrtina RH . Neće poskupjeti",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "index.hr",
+      "lang": "und"
+    },
+    {
+      "id": "gdelt:29f9d0c0b656",
+      "source": "gdelt",
+      "url": "https://e24.no/naeringsliv/i/9kvK9d/slaar-temu-alarm-vi-har-ikke-kontroll",
+      "title": "Slår Temu - alarm : – Vi har ikke kontroll",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "e24.no",
+      "lang": "und"
+    },
+    {
+      "id": "gdelt:ffaddaca33a7",
+      "source": "gdelt",
+      "url": "https://www.shz.de/deutschland-welt/wirtschaft/artikel/ki-von-anthropic-reichte-fake-hinweis-auf-polizei-seite-ein-51572951",
+      "title": "KI von Anthropic reichte Fake - Hinweis auf Polizei - Seite ein",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "shz.de",
+      "lang": "de"
+    },
+    {
+      "id": "gdelt:e85f4d0f866d",
+      "source": "gdelt",
+      "url": "https://www.newsandsentinel.com/opinion/local-columns/2026/10/op-ed-west-virginias-ai-future-depends-on-7000-bridges/",
+      "title": "Op - ed : West Virginia AI future depends on 7 , 000 bridges",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "newsandsentinel.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:3f9a67d3cf1b",
+      "source": "gdelt",
+      "url": "https://www.indiatimes.com/trending/bound-to-cause-headaches-in-the-long-run-can-programmers-build-careers-without-relying-on-ai-tools-heres-what-the-internet-thinks/articleshow/134837087.html",
+      "title": "Bound to cause headaches in the long run : Can programmers build careers without relying on AI tools ? Here what the Internet thinks",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "indiatimes.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:32b2086bfba2",
+      "source": "gdelt",
+      "url": "http://www.jpost.com/middle-east/article-911021",
+      "title": "Voices from the Arab Press : US - Iran tensions , AI dangers , and Israel vote",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "jpost.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:9956b402bfe8",
+      "source": "gdelt",
+      "url": "https://vietnamnews.vn/economy/1801684/data-centre-market-faces-energy-challenges.html",
+      "title": "Data centre market faces energy challenges",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "vietnamnews.vn",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:14899dd0af38",
+      "source": "gdelt",
+      "url": "https://www.domradio.de/artikel/warum-eine-brandenburger-mathematikerin-ordensschwester-wurde",
+      "title": "Warum eine Brandenburger Mathematikerin Ordensschwester wurde",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "domradio.de",
+      "lang": "de"
+    },
+    {
+      "id": "gdelt:11cc35ccb610",
+      "source": "gdelt",
+      "url": "https://www.ilfattoquotidiano.it/2026/10/10/in-italia-non-riesco-a-vivere-mentalita-burocrazia-lavoro-filtro-eta-donne-over-35-madri/8532897/",
+      "title": "In Italia non riesco a vivere : mentalità , burocrazia e filtro et",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "ilfattoquotidiano.it",
+      "lang": "it"
+    },
+    {
+      "id": "gdelt:3f9b195d8d34",
+      "source": "gdelt",
+      "url": "https://www.asiaone.com/lifestyle/mental-health-ai-chatbot-survey",
+      "title": "Would you talk to an AI chatbot about your mental health ? 1 in 5 people in Singapore already do , AsiaOne survey shows",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "asiaone.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:f2a85ffb0acd",
+      "source": "gdelt",
+      "url": "https://www.indiatimes.com/trending/being-ashamed-of-family-wealth-as-backup-why-young-indians-born-around-2005-face-a-tougher-future-with-ai-rising-house-prices-and-fewer-good-jobs/articleshow/134836708.html",
+      "title": "Being ashamed of family wealth as backup ?: Why young Indians born around 2005 face a tougher future with AI , rising house prices and fewer good jobs",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "indiatimes.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:287cdbdf2485",
+      "source": "gdelt",
+      "url": "https://wek.ru/roboty-ubtech-zajmutsya-logistikoj-na-zavodax-volkswagen-v-kitae",
+      "title": "Роботы UBTECH займутся логистикой на заводах Volkswagen в Китае",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "wek.ru",
+      "lang": "ru"
+    },
+    {
+      "id": "gdelt:80e994a1ca4e",
+      "source": "gdelt",
+      "url": "https://www.intelligencer.ca/press-releases/globe-newswire/sigenergy-unveils-the-latest-energy-solutions-at-malaysias-igem-2026/",
+      "title": "Sigenergy Unveils the Latest Energy Solutions at Malaysia IGEM 2026",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "intelligencer.ca",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:0aa6d39c7b8f",
+      "source": "gdelt",
+      "url": "http://www.argentinastar.com/news/279363157/finance-minister-guides-press-through-qsncc-ahead-of-2026-imf-world-bank-group-annual-meetings-reaffirming-thailand-readiness-on-all-fronts",
+      "title": "Finance Minister Guides Press Through QSNCC Ahead of 2026 IMF - World Bank Group Annual Meetings , Reaffirming Thailand Readiness on All Fronts",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "argentinastar.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:eb84c051188d",
+      "source": "gdelt",
+      "url": "https://www.wirtualnemedia.pl/juz-trzylatki-maja-smartfony-raport-bezradni-w-sieci-punktuje-rodzicow,7337519220615616a",
+      "title": "Już trzylatki mają smartfony . Raport Bezradni w sieci punktuje rodziców",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "wirtualnemedia.pl",
+      "lang": "pl"
+    },
+    {
+      "id": "gdelt:1125e4bc0a2f",
+      "source": "gdelt",
+      "url": "https://www.milanopost.info/2026/10/10/milano-verso-le-comunali-letizia-moratti-punta-su-perego-per-la-guida-del-centrodestra/",
+      "title": "Milano verso le comunali , Letizia Moratti punta su Perego per la guida del centrodestra",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "milanopost.info",
+      "lang": "it"
+    },
+    {
+      "id": "gdelt:bb7a0638cfeb",
+      "source": "gdelt",
+      "url": "https://www.themarketsdaily.com/2026/10/10/meta-platforms-nasdaqmeta-shares-unloaded-by-rep-maria-elvira-salazar.html",
+      "title": "Meta Platforms ( NASDAQ : META ) Shares Unloaded by Rep . Maria Elvira Salazar",
+      "snippet": "",
+      "publishedAt": "2026-10-10T06:45:00.000Z",
+      "publisher": "themarketsdaily.com",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:e4ec1e84959a",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Cloudflare/clef",
+      "title": "Trending open model: Cloudflare/clef",
+      "snippet": "Task: image-text-to-text. 2014 likes, 14351 downloads.",
+      "publishedAt": "2026-09-30T21:15:35.000Z",
+      "score": 749,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:167c7efa09e6",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+      "title": "Trending open model: Qwen/Qwen-Image-2.1-Turbo",
+      "snippet": "Task: text-to-image. 504 likes, 4702 downloads.",
+      "publishedAt": "2026-10-09T04:50:01.000Z",
+      "score": 495,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:e2fde687321f",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+      "title": "Trending open model: Aleph-Alpha/Kolibri-1",
+      "snippet": "Task: text-generation. 879 likes, 12550 downloads.",
+      "publishedAt": "2026-10-02T05:54:02.000Z",
+      "score": 476,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    }
+  ]
+}
