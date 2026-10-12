@@ -1,0 +1,150 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {
+    "type": "split",
+    "horizon": 0.78,
+    "color": "bg",
+    "color2": "accent2"
+  },
+  "elements": [
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1,
+      "props": {
+        "width": 10,
+        "height": 960
+      },
+      "svg": "<rect x=\"0\" y=\"0\" width=\"10\" height=\"960\" rx=\"4\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "bot",
+      "component": "robot",
+      "at": {
+        "x": 0.17,
+        "y": 0.78
+      },
+      "scale": 0.75,
+      "props": {
+        "mood": "neutral",
+        "arms": "up",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "person",
+      "component": "human",
+      "at": {
+        "x": 0.42,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "mood": "exhausted",
+        "pose": "sit",
+        "color": "body",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "meter",
+      "component": "meter",
+      "attachTo": "person",
+      "side": "top",
+      "offset": [
+        -40,
+        0
+      ],
+      "scale": 1,
+      "props": {
+        "kind": "tank",
+        "level": 0.15,
+        "color": "accent"
+      }
+    },
+    {
+      "id": "puzzle",
+      "component": "raw",
+      "attachTo": "person",
+      "side": "bottom",
+      "offset": [
+        0,
+        -30
+      ],
+      "scale": 1,
+      "props": {
+        "width": 200,
+        "height": 140
+      },
+      "svg": "<rect x=\"4\" y=\"4\" width=\"192\" height=\"132\" rx=\"14\" class=\"r-line\"/><rect x=\"18\" y=\"18\" width=\"78\" height=\"52\" class=\"r-accent\"/><rect x=\"18\" y=\"76\" width=\"78\" height=\"46\" class=\"r-accent-2\"/><rect x=\"104\" y=\"18\" width=\"78\" height=\"52\" class=\"r-thin\"/><rect x=\"104\" y=\"76\" width=\"78\" height=\"46\" class=\"r-thin\"/>"
+    },
+    {
+      "id": "shopper",
+      "component": "human",
+      "at": {
+        "x": 0.6,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "mood": "happy",
+        "pose": "point",
+        "color": "body",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "coins",
+      "component": "raw",
+      "attachTo": "shopper",
+      "side": "right",
+      "offset": [
+        15,
+        -150
+      ],
+      "scale": 1,
+      "props": {
+        "width": 150,
+        "height": 90
+      },
+      "svg": "<circle cx=\"35\" cy=\"45\" r=\"30\" class=\"r-accent\"/><circle cx=\"80\" cy=\"38\" r=\"30\" class=\"r-body\"/><circle cx=\"120\" cy=\"48\" r=\"28\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "artwork",
+      "component": "raw",
+      "at": {
+        "x": 0.84,
+        "y": 0.66
+      },
+      "scale": 1,
+      "props": {
+        "width": 140,
+        "height": 160
+      },
+      "svg": "<rect x=\"8\" y=\"8\" width=\"124\" height=\"144\" rx=\"12\" class=\"r-body-alt\"/><rect x=\"26\" y=\"26\" width=\"88\" height=\"108\" class=\"r-paper\"/><circle cx=\"70\" cy=\"80\" r=\"26\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "label",
+      "component": "label",
+      "attachTo": "artwork",
+      "side": "bottom",
+      "offset": [
+        0,
+        10
+      ],
+      "scale": 1,
+      "props": {
+        "text": "HUMAN MADE",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "Split image: on the left a pink robot reaches up with a raised arm toward a glowing meter drained nearly empty above a tired blue person slumped over a half-finished puzzle; on the right a smiling person holds out coins toward a small framed artwork stamped HUMAN MADE."
+}

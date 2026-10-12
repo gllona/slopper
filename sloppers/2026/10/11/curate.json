@@ -1,0 +1,185 @@
+{
+  "topStories": [
+    {
+      "title": "Study: brief AI use erodes people's ability to persist at hard tasks",
+      "itemIds": [
+        "hackernews:466960da748f"
+      ],
+      "dimensions": [
+        "society",
+        "education",
+        "science"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-erodes-persistence"
+    },
+    {
+      "title": "Buyers pay a premium for art made only by humans",
+      "itemIds": [
+        "hackernews:6d0e5e57d2db"
+      ],
+      "dimensions": [
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "human-premium-for-art"
+    },
+    {
+      "title": "Silicon Valley falls in line with the government's 'superintelligence' rebrand",
+      "itemIds": [
+        "feeds:ab761da48b43"
+      ],
+      "dimensions": [
+        "policy",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-rebrand-super-intelligence"
+    },
+    {
+      "title": "A well-known actor refuses further AI-linked work with a major studio",
+      "itemIds": [
+        "hackernews:9b834e7e0f6f"
+      ],
+      "dimensions": [
+        "labor",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "actors-refuse-ai-consent"
+    },
+    {
+      "title": "A widely shared post argues public understanding of AI capability is falling behind",
+      "itemIds": [
+        "hackernews:d16bd93ff857"
+      ],
+      "dimensions": [
+        "society",
+        "capabilities"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "capability-understanding-gap"
+    },
+    {
+      "title": "AI industry debates dropping NDAs to calm datacenter opponents",
+      "itemIds": [
+        "feeds:2b537537572c"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet"
+      ],
+      "novelty": 1,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-erodes-persistence",
+      "title": "AI Use Erodes Human Persistence",
+      "dimensions": [
+        "society",
+        "education",
+        "science"
+      ],
+      "motifs": [
+        "a chatbot tapping a drained willpower meter above a tired puzzle-solver",
+        "a half-finished puzzle abandoned beside a glowing phone"
+      ]
+    },
+    {
+      "id": "human-premium-for-art",
+      "title": "The Human Premium For Human-Made Art",
+      "dimensions": [
+        "society",
+        "industry"
+      ],
+      "motifs": [
+        "a price tag climbing beside a framed artwork stamped human made",
+        "a shopper dropping extra coins into a jar beside a human-made painting"
+      ]
+    },
+    {
+      "id": "capability-understanding-gap",
+      "title": "The Public Understanding Gap On AI Capability",
+      "dimensions": [
+        "society",
+        "capabilities"
+      ],
+      "motifs": [
+        "two speech bubbles of very different sizes facing each other",
+        "a graph with two lines pulling apart, one far higher than the other"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Two top stories reach relevance ≥8: a new study on AI eroding human persistence (novelty 3 × magnitude 2 × breadth 2 = 12) and Silicon Valley adopting the government's \"superintelligence\" rebrand (2×2×2=8), so today stands on its own rather than continuing the previous slopper.",
+  "motto": "The Human Premium",
+  "phrase": "AI now erodes people's drive to stick with hard problems, a new study found. Meanwhile buyers are paying extra for art made only by humans.",
+  "phraseAlternatives": [
+    "A new study says ten minutes with AI can weaken a person's grit. At the same time, buyers now pay a premium for art made entirely by humans.",
+    "AI chatbots can quietly drain people's patience for hard problems, researchers found. Shoppers, meanwhile, now pay more for art made by human hands.",
+    "Ten minutes of AI use can erode a person's grit, a study found. Across the market, human-made art now earns a premium."
+  ],
+  "brief": {
+    "concept": "A chatbot robot taps a glowing willpower meter down to empty above a tired person stuck on a puzzle, while a shopper nearby happily hands over extra coins for a small artwork stamped HUMAN MADE.",
+    "metaphor": "AI quietly drains human grit like a battery, even as the market starts paying more for things only a human hand made.",
+    "cast": [
+      {
+        "who": "a tired person sitting over a half-finished jigsaw puzzle",
+        "kind": "person"
+      },
+      {
+        "who": "a small chatbot robot resting a hand on a glowing meter above the person, draining it toward empty",
+        "kind": "ai"
+      },
+      {
+        "who": "a shopper holding out a handful of extra coins",
+        "kind": "person"
+      },
+      {
+        "who": "a small framed artwork stamped HUMAN MADE",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Two simple panels side by side on cream paper. Left panel: a tired person at a half-done puzzle, a meter above their head draining from full to empty as a small robot hand taps it down. Right panel: a shopper happily offering extra coins for a small framed artwork stamped HUMAN MADE. No more than 2 main elements per panel; only text in the image is the HUMAN MADE stamp.",
+    "artType": "static",
+    "alt": "Split image: on the left a robot drains a glowing willpower meter above a tired person stuck on a puzzle; on the right a shopper pays extra coins for a small artwork stamped HUMAN MADE."
+  },
+  "sourceIds": [
+    "hackernews:466960da748f",
+    "hackernews:6d0e5e57d2db"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 2,
+    "labor": 1,
+    "policy": 2,
+    "law": 1,
+    "safety": 1,
+    "society": 3,
+    "education": 1,
+    "planet": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": -1
+  }
+}

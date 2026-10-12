@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-11",
+  "number": 12,
+  "mode": "fresh",
+  "motto": "The Human Premium",
+  "phrase": "AI now erodes people's drive to stick with hard problems, a new study found. Meanwhile buyers are paying extra for art made only by humans.",
+  "phraseAlternatives": [
+    "A new study says ten minutes with AI can weaken a person's grit. At the same time, buyers now pay a premium for art made entirely by humans.",
+    "AI chatbots can quietly drain people's patience for hard problems, researchers found. Shoppers, meanwhile, now pay more for art made by human hands.",
+    "Ten minutes of AI use can erode a person's grit, a study found. Across the market, human-made art now earns a premium."
+  ],
+  "alt": "Split image: on the left a pink robot reaches up with a raised arm toward a glowing meter drained nearly empty above a tired blue person slumped over a half-finished puzzle; on the right a smiling person holds out coins toward a small framed artwork stamped HUMAN MADE.",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 2,
+    "labor": 1,
+    "policy": 2,
+    "law": 1,
+    "safety": 1,
+    "society": 3,
+    "education": 1,
+    "planet": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": -1
+  },
+  "storylines": [
+    "ai-erodes-persistence",
+    "human-premium-for-art",
+    "ai-rebrand-super-intelligence",
+    "actors-refuse-ai-consent",
+    "capability-understanding-gap",
+    "datacenter-backlash-campaign"
+  ],
+  "topStories": [
+    {
+      "title": "Study: brief AI use erodes people's ability to persist at hard tasks",
+      "itemIds": [
+        "hackernews:466960da748f"
+      ],
+      "dimensions": [
+        "society",
+        "education",
+        "science"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-erodes-persistence"
+    },
+    {
+      "title": "Buyers pay a premium for art made only by humans",
+      "itemIds": [
+        "hackernews:6d0e5e57d2db"
+      ],
+      "dimensions": [
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "human-premium-for-art"
+    },
+    {
+      "title": "Silicon Valley falls in line with the government's 'superintelligence' rebrand",
+      "itemIds": [
+        "feeds:ab761da48b43"
+      ],
+      "dimensions": [
+        "policy",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-rebrand-super-intelligence"
+    },
+    {
+      "title": "A well-known actor refuses further AI-linked work with a major studio",
+      "itemIds": [
+        "hackernews:9b834e7e0f6f"
+      ],
+      "dimensions": [
+        "labor",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "actors-refuse-ai-consent"
+    },
+    {
+      "title": "A widely shared post argues public understanding of AI capability is falling behind",
+      "itemIds": [
+        "hackernews:d16bd93ff857"
+      ],
+      "dimensions": [
+        "society",
+        "capabilities"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "capability-understanding-gap"
+    },
+    {
+      "title": "AI industry debates dropping NDAs to calm datacenter opponents",
+      "itemIds": [
+        "feeds:2b537537572c"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet"
+      ],
+      "novelty": 1,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    }
+  ],
+  "brief": {
+    "concept": "A chatbot robot taps a glowing willpower meter down to empty above a tired person stuck on a puzzle, while a shopper nearby happily hands over extra coins for a small artwork stamped HUMAN MADE.",
+    "metaphor": "AI quietly drains human grit like a battery, even as the market starts paying more for things only a human hand made.",
+    "cast": [
+      {
+        "who": "a tired person sitting over a half-finished jigsaw puzzle",
+        "kind": "person"
+      },
+      {
+        "who": "a small chatbot robot resting a hand on a glowing meter above the person, draining it toward empty",
+        "kind": "ai"
+      },
+      {
+        "who": "a shopper holding out a handful of extra coins",
+        "kind": "person"
+      },
+      {
+        "who": "a small framed artwork stamped HUMAN MADE",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Two simple panels side by side on cream paper. Left panel: a tired person at a half-done puzzle, a meter above their head draining from full to empty as a small robot hand taps it down. Right panel: a shopper happily offering extra coins for a small framed artwork stamped HUMAN MADE. No more than 2 main elements per panel; only text in the image is the HUMAN MADE stamp.",
+    "artType": "static",
+    "alt": "Split image: on the left a robot drains a glowing willpower meter above a tired person stuck on a puzzle; on the right a shopper pays extra coins for a small artwork stamped HUMAN MADE."
+  },
+  "sources": [
+    {
+      "id": "hackernews:466960da748f",
+      "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+      "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+      "source": "hackernews",
+      "publisher": "vcresearch.berkeley.edu",
+      "publishedAt": "2026-10-11T10:47:21.000Z"
+    },
+    {
+      "id": "hackernews:6d0e5e57d2db",
+      "title": "AI is creating a 'human premium' for art created by people",
+      "url": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
+      "source": "hackernews",
+      "publisher": "bbc.com",
+      "publishedAt": "2026-10-11T11:34:28.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-12T11:28:57.407Z"
+}

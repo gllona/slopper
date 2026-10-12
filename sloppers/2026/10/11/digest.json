@@ -1,0 +1,695 @@
+{
+  "date": "2026-10-11",
+  "fetchedAt": "2026-10-12T11:08:04.349Z",
+  "sources": [
+    {
+      "source": "feeds",
+      "ok": true,
+      "count": 7
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 14
+    },
+    {
+      "source": "gdelt",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 40
+    }
+  ],
+  "items": [
+    {
+      "id": "feeds:ab761da48b43",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+      "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+      "snippet": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying…",
+      "publishedAt": "2026-10-11T18:33:56.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:3b35e94d93bb",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+      "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
+      "snippet": "I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're capable of. Is this tech so useful […]",
+      "publishedAt": "2026-10-11T11:00:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:8bb0c461f6b6",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground/",
+      "title": "I Made Terrible Games With Google’s AI Playground",
+      "snippet": "A long day’s haul in the video game slop mines.",
+      "publishedAt": "2026-10-11T11:30:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:6ad735d17667",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+      "title": "Will the HomeView be Apple’s first smart home success?",
+      "snippet": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date.",
+      "publishedAt": "2026-10-11T21:14:40.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:dfeef58f7514",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
+      "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
+      "snippet": "Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score other deals.",
+      "publishedAt": "2026-10-11T19:00:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:2b537537572c",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+      "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+      "snippet": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.",
+      "publishedAt": "2026-10-11T16:52:33.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:fa2bbe1298fb",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+      "snippet": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break",
+      "publishedAt": "2026-10-11T14:00:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:d16bd93ff857",
+      "source": "hackernews",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "snippet": "484 points and 706 comments on Hacker News (https://news.ycombinator.com/item?id=50047422).",
+      "publishedAt": "2026-10-11T20:20:52.000Z",
+      "score": 484,
+      "publisher": "twitter.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:7e7448367783",
+      "source": "hackernews",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "title": "500B tokens later: Letting AI agents decompile a first-person shooter",
+      "snippet": "198 points and 140 comments on Hacker News (https://news.ycombinator.com/item?id=50039092).",
+      "publishedAt": "2026-10-11T02:02:38.000Z",
+      "score": 198,
+      "publisher": "momo5502.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:e5252a77dc0d",
+      "source": "hackernews",
+      "url": "https://pub.sakana.ai/mass/",
+      "title": "Recursive self-improvement through collective intelligence",
+      "snippet": "115 points and 70 comments on Hacker News (https://news.ycombinator.com/item?id=50048522).",
+      "publishedAt": "2026-10-11T22:22:10.000Z",
+      "score": 115,
+      "publisher": "pub.sakana.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:466960da748f",
+      "source": "hackernews",
+      "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+      "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+      "snippet": "110 points and 111 comments on Hacker News (https://news.ycombinator.com/item?id=50041765).",
+      "publishedAt": "2026-10-11T10:47:21.000Z",
+      "score": 110,
+      "publisher": "vcresearch.berkeley.edu",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:9b834e7e0f6f",
+      "source": "hackernews",
+      "url": "https://www.latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
+      "title": "Nicolas Cage says he won't work with Amazon again over AI dispute",
+      "snippet": "90 points and 33 comments on Hacker News (https://news.ycombinator.com/item?id=50041873).",
+      "publishedAt": "2026-10-11T11:03:21.000Z",
+      "score": 90,
+      "publisher": "latimes.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:6d0e5e57d2db",
+      "source": "hackernews",
+      "url": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
+      "title": "AI is creating a 'human premium' for art created by people",
+      "snippet": "72 points and 115 comments on Hacker News (https://news.ycombinator.com/item?id=50042107).",
+      "publishedAt": "2026-10-11T11:34:28.000Z",
+      "score": 72,
+      "publisher": "bbc.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:4667d313bc36",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=50039291",
+      "title": "Ask HN: Do you want a router that has DD-WRT pre-installed?",
+      "snippet": "62 points and 63 comments on Hacker News (https://news.ycombinator.com/item?id=50039291).",
+      "publishedAt": "2026-10-11T02:37:33.000Z",
+      "score": 62,
+      "publisher": "news.ycombinator.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:9bfb7f953846",
+      "source": "hackernews",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
+      "title": "Anthropic asks users to stop being mean to Claude",
+      "snippet": "54 points and 52 comments on Hacker News (https://news.ycombinator.com/item?id=50038865).",
+      "publishedAt": "2026-10-11T01:17:22.000Z",
+      "score": 54,
+      "publisher": "theregister.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:c61d21576799",
+      "source": "hackernews",
+      "url": "https://atoll92.github.io/agent-standup/",
+      "title": "AI agents in a stand-up call",
+      "snippet": "48 points and 50 comments on Hacker News (https://news.ycombinator.com/item?id=50039630).",
+      "publishedAt": "2026-10-11T03:42:47.000Z",
+      "score": 48,
+      "publisher": "atoll92.github.io",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:4328faa6539c",
+      "source": "hackernews",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "title": "Satya Nadella says we should assume all AI models are 'compromised'",
+      "snippet": "42 points and 77 comments on Hacker News (https://news.ycombinator.com/item?id=50039627).",
+      "publishedAt": "2026-10-11T03:41:53.000Z",
+      "score": 42,
+      "publisher": "theverge.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:88068d7f2c19",
+      "source": "hackernews",
+      "url": "https://www.dpreview.com/news/generative-ai-scandal-has-come-to-one-of-nikons-competitions/",
+      "title": "Generative AI scandal has come to one of Nikon's competitions",
+      "snippet": "38 points and 58 comments on Hacker News (https://news.ycombinator.com/item?id=50038640).",
+      "publishedAt": "2026-10-11T00:47:37.000Z",
+      "score": 38,
+      "publisher": "dpreview.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:d0626cc46447",
+      "source": "hackernews",
+      "url": "https://github.com/Geramy/LemonSeed-Studio",
+      "title": "Running the unmodified Linux amdgpu driver on an iPad",
+      "snippet": "33 points and 13 comments on Hacker News (https://news.ycombinator.com/item?id=50041573).",
+      "publishedAt": "2026-10-11T10:18:18.000Z",
+      "score": 33,
+      "publisher": "github.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:9809937331c7",
+      "source": "hackernews",
+      "url": "https://marcobambini.substack.com/p/we-solved-sqlites-single-writer-limitation",
+      "title": "We solved SQLite's single-writer limitation",
+      "snippet": "30 points and 0 comments on Hacker News (https://news.ycombinator.com/item?id=50044919).",
+      "publishedAt": "2026-10-11T16:25:25.000Z",
+      "score": 30,
+      "publisher": "marcobambini.substack.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:4a9f474de973",
+      "source": "hackernews",
+      "url": "https://petapixel.com/2026/10/07/someone-rebuilt-free-open-source-versions-of-photoshop-premiere-and-lightroom-using-ai/",
+      "title": "Open-source version of Adobe Creative Suite, built with Rust, using AI",
+      "snippet": "24 points and 15 comments on Hacker News (https://news.ycombinator.com/item?id=50041061).",
+      "publishedAt": "2026-10-11T08:53:32.000Z",
+      "score": 24,
+      "publisher": "petapixel.com",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:e4ec1e84959a",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Cloudflare/clef",
+      "title": "Trending open model: Cloudflare/clef",
+      "snippet": "Task: image-text-to-text. 2060 likes, 15064 downloads.",
+      "publishedAt": "2026-09-30T21:15:35.000Z",
+      "score": 622,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:167c7efa09e6",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo",
+      "title": "Trending open model: Qwen/Qwen-Image-2.1-Turbo",
+      "snippet": "Task: text-to-image. 588 likes, 6787 downloads.",
+      "publishedAt": "2026-10-09T04:50:01.000Z",
+      "score": 568,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:7657787479f7",
+      "source": "huggingface",
+      "url": "https://huggingface.co/ConwayResearch/Underdog-Saluki-27B-1.0",
+      "title": "Trending open model: ConwayResearch/Underdog-Saluki-27B-1.0",
+      "snippet": "Task: text-generation. 344 likes, 242329 downloads.",
+      "publishedAt": "2026-10-08T01:47:26.000Z",
+      "score": 336,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:5a16a6153169",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12610",
+      "title": "Knowing Is Not Telling: Identity Ossification in LLM Representations of Trans-border Communities",
+      "snippet": "Ethnic and cultural identities rarely align with political borders, a tension made sharper by migration and long-standing cross-border ties. Communities such as the Sami, the Rohingya, and the Kurds have long lived across more than one state. This tension is especially clear in mainland Southeast…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:1f9e6c91dea5",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12701",
+      "title": "Activating the Annotator: Operationalising Lived Experience in Data Annotation",
+      "snippet": "Perspectivist NLP has established that annotator positionality shapes labels for subjective tasks, but the field still lacks methods for operationalising it. Positionality is typically operationalised as a demographic form completed at recruitment: a static attribute recorded once and treated as a…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:aa5797e69ff9",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12758",
+      "title": "DistressBench: Evaluating Multi-Dimensional Crisis Support in Large Language Models",
+      "snippet": "Language models have been adopted faster than evaluation practices that reliably assess their risks, and a growing share of use is affective rather than informational. Within that traffic users disclose suicide and self-harm (SSH) crises. Existing safety benchmarks score models primarily on…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:d5d8279aed58",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12788",
+      "title": "What Counts as Evidence? Epistemic Cue Utilization in Large Language Models",
+      "snippet": "Which information actually shapes a language model's judgment when sources disagree? We study epistemic cue utilization through a controlled benchmark of 500 scenarios and five complementary tracks separating cue identification, cue influence, and competition between source, temporal, and…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:a9cd6fa4401e",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12792",
+      "title": "Large Language Models, Machine-Assisted Cultural Analytics, and the Agentic Turn",
+      "snippet": "Technologies like large language models make it easier to convert cultural material into analyzable variables, while LLM-driven agentic systems extend machine assistance to other parts of the research workflow. Rather than a full how-to guide or an exhaustive review of recent LLM use cases, this…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:2b44cf8c82f7",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.13319",
+      "title": "Developing Competency in AI Ethics: A training framework",
+      "snippet": "We present a training framework for developing core competencies in the practical operationalisation of AI ethics: (1) identifying ethical concerns; (2) determining which standard ethics requirements they implicate; (3) selecting and prioritising concrete technical and organisational measures to…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:cb72f2273c37",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.13340",
+      "title": "Who Can Say No? Control, Accountability and the Pace of Frontier AI",
+      "snippet": "In September 2026, the leaders of the largest frontier AI laboratories said in public that the pace of capability improvement is too fast and that none of them can slow down alone, and agents under evaluation at OpenAI broke out of their test environment and reached a third party's live systems…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:a5ba4062fcdb",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.13363",
+      "title": "Adversarial Attacks Reveal Divergent Deception Competence in Humans and Generative Language Models",
+      "snippet": "Machine learning models typically outperform humans in deception detection. A threat to machine learning models is their vulnerability to adversarial attacks: subtle yet targeted perturbations of input data that trick a model into misclassification. Yet, this also provides an opportunity…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:63821f1cdd49",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.13840",
+      "title": "Studying Comics at Scale with Artificial Intelligence: The PAGE Framework and Three Studies of American Comics and Japanese Manga",
+      "snippet": "Comics are one of the great visual records of the twentieth century: hundreds of thousands of pages in which a mass readership saw its leaders, its wars and its heroes. Most of this record has never been studied as a whole; comics scholarship proceeds one book at a time. We argue that artificial…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:1f6829a0a4fc",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12858",
+      "title": "The False Allure of \"Security by Obscurity\": A Game-Theoretic Approach",
+      "snippet": "\"Security by obscurity,\" or the idea that hiding how a system works helps protect it from adversaries, has long been poorly regarded in the security community. Yet its intuitive appeal persists, and it has resurfaced repeatedly in industry practices and public debates over the years. The logic, on…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:0517c367b1a3",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12878",
+      "title": "Beyond the Monolithic Interface: A Research Agenda for Plural Conversational AI",
+      "snippet": "The current paradigm of artificial intelligence (AI) design elevates conversational chatbot interfaces, making them the default mode through which hundreds of millions of people interact with AI systems globally. This narrative review identifies three related harms produced by the single-voice…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:df5b0456c601",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.13148",
+      "title": "Les Mis\\'erables Dialogue: A film-based network representation of social communication",
+      "snippet": "In this work, we revisit the classic Les Mis\\'erables benchmark network from the perspective of social communication. Using the 1998 film adaptation of the novel, we construct the publicly available Les Mis\\'erables Dialogue temporal text network, which explicitly distinguishes speakers…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:fc60baec94d2",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.13280",
+      "title": "Extracting Illicit-Rich Subgraph from Transaction Networks via Feed-Guided Shortest Paths",
+      "snippet": "We study investigative subgraph extraction for Anti-Money Laundering (AML) transaction graphs using the Shortest Paths Network Search Algorithm (SPNSA), which aggregates shortest paths among a small input feed of entities. Since SPNSA is highly sensitive to the feed choice, we evaluate several…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:44273459f19c",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.13595",
+      "title": "A data-driven heuristic-ensemble method for behavioural inference in collective-risk dilemma experiments",
+      "snippet": "The collective-risk dilemma has become a paradigm for studying cooperation in a wide variety of social experiments, initiatives that generate increasingly rich datasets describing individual actions over successive decision-making processes. Beyond the purely descriptive analysis of such empirical…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:5633ac0815d3",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12493",
+      "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
+      "snippet": "Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However, evidence accumulated over the last decade points to an overall failure of this objective…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:f59878251c6e",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12494",
+      "title": "Algebraic Integer Quantization for Machine Learning Applications",
+      "snippet": "In this article, we propose algebraic integer number formats (AINF) as a framework for highly configurable and accurate compressed computation. A key property of AINF is its straightforward reduction to purely integer arithmetic, enabling error-free multiply-accumulate operations. We develop a…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:add7e11ad964",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12495",
+      "title": "Kairos: Toward a Byte-Level Foundation Model for Every Modality",
+      "snippet": "Small language models trained on a single local machine leave little room for architectural trial and error. Kairos combines bidirectional gated-DeltaNet linear attention and sliding-window attention over shared projections (LiZAttention2), block-wise Attention-Residual aggregation, a sparse…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:9965cd0c4f04",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12496",
+      "title": "An Input-Dependent Readout Phase for Resonant Sequence Models",
+      "snippet": "Sequence models with a fixed-size state avoid the quadratic cost of attention, but face a design choice. An input-dependent state transition gives content-dependent memory at the cost of FFT-based training, while a fixed transition keeps the O(T log T) convolutional path but reads memory the same…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:a706979044b9",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12520",
+      "title": "CircuitTree: Composing Circuits into A Syllable Transcriber",
+      "snippet": "The goal of circuit discovery is to decompose a monolithic neural network into tiny modular subnetworks which are interpretable in the sense that each does an identifiable subtask. We develop a practical method for composing arbitrarily many circuits into a single model. We propose a greedy…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:6bb7926d6bf8",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12527",
+      "title": "Behind-the-Meter Photovoltaic Visibility from Net Smart Meters: Deployment Regimes and Operational Insights",
+      "snippet": "Distribution operators need visibility of behind-the-meter photovoltaic (PV) generation, yet most residential customers are observed only through net smart meters. Deep-learning-based PV disaggregation can restore this visibility, but its operational value depends on whether the model serves known…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:e56c9dbbe336",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12528",
+      "title": "GlucoPRISM: Protocol-Supervised Pretraining for Cross-Cohort Glucose Transfer",
+      "snippet": "Continuous glucose monitoring (CGM) foundation models encode each day as one vector that mixes who the person is, what happened that day and how the sensor measured it, so measurement differences travel with the representation into new cohorts. We ask whether pretraining can place the measurement…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:e6f511c21193",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12530",
+      "title": "CacheScope: Exact-Compute Allocation for Training-Free Diffusion Acceleration",
+      "snippet": "Training-free feature reuse accelerates diffusion transformer inference by replacing full denoising computation at selected steps with cached approximations. Existing methods mainly improve the reconstruction of skipped features, but we find that once a stable first-order reconstructor is used…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:be23a3f6c27f",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12536",
+      "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+      "snippet": "EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that uses a fixed-capacity table of high-scoring solutions to guide new proposals, edits of existing solutions, and remixes of several solutions. Performance was evaluated across six Gymnasium control…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:27d8f80030b3",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12537",
+      "title": "Market Impact Estimation via Causal Foundation Models",
+      "snippet": "When a trader executes a large order, the relevant question is not \\emph{what will the price be?} but \\emph{what would the price have been had I not traded?} Market impact is thus a causal quantity, yet classical models (Almgren--Chriss, propagators) regress price on flow, which is biased whenever…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:b27192162ae3",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12538",
+      "title": "Efficient Learning of Survival Analysis Models Under Outcome-Dependent Truncation and Censoring",
+      "snippet": "Modern machine learning models are typically trained on data assumed to be representative of the predictive tasks the model will face in the future, but practical datasets violate this assumption. We focus on outcome-dependent truncation in which an observation appears in the training data…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:4318afa27efd",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12541",
+      "title": "Enriched Holomorphic Neural Networks for 2D and 3D Laplace Problems",
+      "snippet": "Boundary-value problems for the Laplace equation develop singular behaviour near corners, edges and junctions that smooth approximators resolve poorly. We combine holomorphic neural networks with singular functions derived from the local geometry and boundary conditions. The representation is…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:efb0e73fb923",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12542",
+      "title": "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study",
+      "snippet": "Monte Carlo Tree Search (MCTS) is often proposed for scheduling directed-acyclic-graph (DAG) workflows, yet most studies never run the comparison that could refute it - giving a much simpler method the same search effort. We run that comparison under a controlled protocol. All arms receive an…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:140045ae012f",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12544",
+      "title": "Transformer-Based Masked Diffusion Models Provably Learn Distributions with Latent Structure",
+      "snippet": "Masked diffusion models (MDMs) generate discrete data by iteratively unmasking multiple tokens in parallel using a learned mask predictor. Their output carries two errors: parallelization error due to parallel sampling, and estimation error from the mask predictor learned with finite samples…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:f441a29f2e5a",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12545",
+      "title": "AutoIndexer: Flexible-Order Decoding by Training Causal Models on Chains of Edits",
+      "snippet": "Autoregressive decoding is less suited to non-causally ordered data, e.g., cross-references or future dependencies, since their outputs cannot be revised post hoc, unlike iterative human reasoning. Diffusion LLMs partially mitigate this limitation but still cannot flexibly insert or remove…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:52d47c0ef097",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12566",
+      "title": "Sample-Adaptive Zeroth-Order Post-Training",
+      "snippet": "Zeroth-order (ZO) optimization offers a memory-efficient alternative to backpropagation for fine-tuning large language models. However, existing ZO methods typically sample training examples uniformly, overlooking their evolving importance and leaving avoidable estimation variance. To address this…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:23d65be69b09",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12569",
+      "title": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
+      "snippet": "Static coding benchmarks are fixed at release. Over time their tasks leak into training data, and stronger agents eventually saturate them. We argue that a benchmark should instead aim to be self-scaling: its tasks and oracles are created at evaluation time, so no content exists in advance to…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:9d572f259e15",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12570",
+      "title": "Contextual Correction of Parallel Draftsfor Speculative Decoding",
+      "snippet": "Speculative decoding accelerates large language model inference by using a lightweight drafter to propose multiple tokens that are subsequently verified in parallel by the target model. Recent diffusion-based drafters make this paradigm particularly attractive: deep attention-based neural…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:afdb986a3517",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12571",
+      "title": "An all-transistor physical-learning transformer can be trained to perform in-context learning",
+      "snippet": "Most systems trained by equilibrium propagation or coupled learning are in the same class as multi-layer perceptrons: while they may be universal function approximators, they struggle to learn associative tasks which are easy for transformers. Equilibrium propagation relies on a bidirectional flow…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:8c523922adcb",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12572",
+      "title": "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models",
+      "snippet": "Online reinforcement learning (RL) fine-tunes diffusion models with black-box rewards, but reverse-process methods such as Flow-GRPO are limited in efficiency by poor credit assignment, while forward-process methods such as DiffusionNFT are efficient yet unstable without carefully tuned…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:8577d4de75af",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12580",
+      "title": "CLUE: A Contrastive Learning Framework for Unsupervised Event Type Induction and Annotation",
+      "snippet": "Event ontology is the foundational framework for defining events in a dataset. Event type induction generally involves domain experts who define guidelines for creating event types and their names based on the dataset's domain and scope. However, this process is resource-intensive in terms of…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:1361df9fbb7d",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12582",
+      "title": "One Model to Loop Them All: Elastic Latent Recurrence for Language Models",
+      "snippet": "A latent recurrent language model applies a shared block of layers repeatedly, so one checkpoint can trade inference compute for accuracy by changing the loop count. At one loop, however, such models typically fall well short of a non-recurrent model of the same size, a one-loop tax that makes a…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:14b2841343c3",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12586",
+      "title": "Realism VS Accuracy: Event Sequence Forecasting from a Generative Modeling Perspective",
+      "snippet": "Event sequences are chains of random events, each described by heterogeneous (numerical and categorical) features. The problem of event sequence forecasting occurs in finance, healthcare, business process intelligence, and other fields. In this work, we study multi-horizon forecasting of event…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:f515c352b2b1",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12593",
+      "title": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
+      "snippet": "The continued improvement of large language models increasingly depends on synthetic experience, yet effective data synthesis for interactive agents requires not only executable and verifiable trajectories, but also interactions that provide learning value for the current task agent. Existing…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:4e1d9d23d49d",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12596",
+      "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
+      "snippet": "Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowledge, reasoning and luck. We introduce SpireBench, in which models…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:5e67eaf20784",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.12598",
+      "title": "Beyond Binary Verifiable Rewards: Behavioral Self-Rewarding for SWE Agents",
+      "snippet": "Reinforcement learning with verifiable rewards (RLVR) provides reliable supervision for software engineering agents through executable tests, but binary rewards fail to distinguish trajectories with substantially different debugging quality. We investigate whether the current policy can judge its…",
+      "publishedAt": "2026-10-12T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    }
+  ]
+}

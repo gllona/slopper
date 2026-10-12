@@ -1,0 +1,103 @@
+{
+  "passed": false,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"label\" (label) was moved -81 px, 0 px to stay inside the safe area",
+          "\"bot\" extends outside the safe area in the final frame (x 51…317, y 477…842)",
+          "\"coins\" extends outside the safe area in the final frame (x 912…1055, y 438…506)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The casting and style are solid (robot for AI, humans for people, consistent riso-duotone look), but the mechanics of the joke don't connect: the robot's hand never reaches the meter, the two panels bleed into each other with overlapping hands and a puzzle that crosses the divider, and the coins clip the canvas edge — this needs a composition pass before it's ready to publish.",
+        "revisionNotes": [
+          "Robot's arms are up in a neutral/cheer pose, not touching the meter — the drain mechanic isn't shown. Give bot arms='reach' and move it to x≈0.25 so its hand visibly contacts the meter base.",
+          "The tired person's and shopper's hands overlap right at the divider, making the two 'panels' read as one merged scene with figures holding hands across the line. Pull shopper to x≈0.68 and keep its point gesture clear of the divider.",
+          "Coins clip the canvas edge (x912–1055 of 1080, per lint). Scale coins to 0.8 and move offset inward so they sit fully inside the safe area.",
+          "The puzzle crosses the divider into the right panel, breaking the two-panel split. Shift puzzle offset left so it stays fully in the left panel.",
+          "No gesture connects the shopper to the HUMAN MADE artwork — coins float near the top-right corner instead of being extended toward the frame. Move coins to the shopper's outstretched hand, aimed at the artwork.",
+          "This vertical-divider, human-vs-robot split layout is close to recent pieces ('Unnoticed', 'Records'); vary the panel framing (e.g. a counter/shelf split or diagonal horizon) next time."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"bot\" (robot) was moved 42 px, 0 px to stay inside the artboard",
+          "\"bot\" extends outside the safe area in the final frame (x 2…405, y 527…907)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 2,
+          "style": 3,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 4
+        },
+        "verdict": "The riso-duotone palette is consistent, but the brief's two-panel split was dropped in favor of one crowded row of 8 overlapping elements, the meter floats disconnected from the robot's drain gesture, and the robot is clipped at the left edge — the joke doesn't read in 3 seconds. Fails.",
+        "revisionNotes": [
+          "Rebuild as two actual panels with a divider, per the brief: left = bot + person + puzzle + meter, right = shopper + coins + artwork + label. Cap each panel at 2 main elements; right now 8 elements run together in one crowded row.",
+          "Connect the meter to the drain action: it floats isolated top-left with no line to the robot's hand and no tap gesture (arms are 'out', not reaching up). Move meter to attachTo person/top, and pose the robot arm reaching up to tap it.",
+          "Shift the robot right and/or scale it down (currently ~0.78) — lint confirms it's clipped at the left safe-area edge (x 2…405).",
+          "Separate the puzzle prop from the person's legs: the dark vertical bar currently fuses into the body creating an unreadable shape. Offset it further below/beside, not behind the legs.",
+          "Scale up the coins and move them into the shopper's hand — currently two tiny dots overlapping the artwork frame's corner, unreadable as 'coins' or as being handed over.",
+          "Reposition the HUMAN MADE label so it only sits under the artwork — it currently stretches across and overlaps both the shopper's and robot's legs."
+        ]
+      },
+      "average": 2.57,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The concept is on-brief (human person/shopper, robot only for AI) but the key visual links are missing: the meter floats unconnected above the robot, the puzzle is too small to read, and the coins have a rendering glitch — so the joke doesn't land within 3 seconds. Needs a revision pass before publishing.",
+        "revisionNotes": [
+          "Give the robot a raised arm reaching to the meter so the drain action reads; right now the meter floats disconnected near the top of the canvas with no visual link to the robot below it.",
+          "Scale the puzzle prop up (from 0.7) and move it right under/overlapping the person's lap so the half-colored/half-outline split reads as a puzzle; at current size it reads as a stray color swatch.",
+          "Fix the coins raw shape: one circle renders as a faint translucent ghost overlapping another, looking like a rendering bug; render all three as solid accent-color circles with clear spacing.",
+          "Reposition the HUMAN MADE label directly beneath the artwork frame; it currently sits beside/overlapping the shopper's raised arm and reads as attached to the person instead of the art.",
+          "Both panels leave large empty bands in the vertical middle of the frame; pull the meter and artwork down and the puzzle/coins up so elements cluster into one balanced focal zone per panel.",
+          "Clarify the seated person's pose — the single vertical line under the torso reads as a cane or stray leg rather than a sitting posture; add a visible stool/seat shape or bent-leg silhouette."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    }
+  ]
+}
