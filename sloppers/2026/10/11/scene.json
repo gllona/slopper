@@ -1,0 +1,163 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {
+    "type": "solid",
+    "color": "bg"
+  },
+  "elements": [
+    {
+      "id": "person",
+      "component": "human",
+      "at": {
+        "x": 0.17,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "mood": "exhausted",
+        "pose": "sit",
+        "holds": "none",
+        "color": "body"
+      }
+    },
+    {
+      "id": "puzzle",
+      "component": "raw",
+      "at": {
+        "x": 0.32,
+        "y": 0.7
+      },
+      "scale": 0.6,
+      "props": {
+        "width": 160,
+        "height": 160
+      },
+      "svg": "<rect x=\"10\" y=\"10\" width=\"65\" height=\"65\" rx=\"10\" class=\"r-body\"/><rect x=\"85\" y=\"10\" width=\"65\" height=\"65\" rx=\"10\" class=\"r-accent\"/><rect x=\"10\" y=\"85\" width=\"65\" height=\"65\" rx=\"10\" class=\"r-body-alt\"/><rect x=\"85\" y=\"85\" width=\"65\" height=\"65\" rx=\"10\" class=\"r-line\"/>"
+    },
+    {
+      "id": "helper-bot",
+      "component": "robot",
+      "at": {
+        "x": 0.49,
+        "y": 0.78
+      },
+      "scale": 0.6,
+      "flip": true,
+      "props": {
+        "mood": "happy",
+        "arms": "out",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "shortcut-arrow",
+      "component": "raw",
+      "attachTo": "helper-bot",
+      "side": "left",
+      "offset": [
+        20,
+        -10
+      ],
+      "scale": 0.4,
+      "props": {
+        "width": 160,
+        "height": 90
+      },
+      "svg": "<polygon points=\"150,20 150,70 90,70 90,90 15,45 90,0 90,20\" class=\"r-accent-2\"/>"
+    },
+    {
+      "id": "drive-meter",
+      "component": "meter",
+      "attachTo": "person",
+      "side": "top",
+      "offset": [
+        0,
+        -35
+      ],
+      "scale": 0.65,
+      "props": {
+        "kind": "bar",
+        "level": 0.15,
+        "color": "accent"
+      }
+    },
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.58,
+        "y": 0.5
+      },
+      "scale": 1,
+      "props": {
+        "width": 10,
+        "height": 760
+      },
+      "svg": "<rect x=\"1\" y=\"0\" width=\"8\" height=\"760\" rx=\"4\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "frame-human",
+      "component": "raw",
+      "at": {
+        "x": 0.74,
+        "y": 0.32
+      },
+      "scale": 0.9,
+      "props": {
+        "width": 320,
+        "height": 430
+      },
+      "svg": "<rect x=\"10\" y=\"10\" width=\"300\" height=\"300\" rx=\"16\" class=\"r-body-alt\"/><rect x=\"34\" y=\"34\" width=\"252\" height=\"252\" rx=\"10\" class=\"r-paper\"/><circle cx=\"160\" cy=\"160\" r=\"46\" class=\"r-accent\"/><circle cx=\"252\" cy=\"252\" r=\"28\" class=\"r-accent-2\"/><circle cx=\"238\" cy=\"236\" r=\"5\" class=\"r-ink\"/><circle cx=\"248\" cy=\"228\" r=\"5\" class=\"r-ink\"/><circle cx=\"260\" cy=\"226\" r=\"5\" class=\"r-ink\"/><circle cx=\"270\" cy=\"232\" r=\"5\" class=\"r-ink\"/><ellipse cx=\"252\" cy=\"258\" rx=\"16\" ry=\"10\" class=\"r-ink\"/><line x1=\"160\" y1=\"310\" x2=\"160\" y2=\"340\" class=\"r-thin\"/><rect x=\"130\" y=\"340\" width=\"60\" height=\"80\" rx=\"8\" class=\"r-accent\"/><circle cx=\"160\" cy=\"352\" r=\"6\" class=\"r-paper\"/>"
+    },
+    {
+      "id": "price-label-more",
+      "component": "label",
+      "attachTo": "frame-human",
+      "side": "bottom",
+      "offset": [
+        0,
+        14
+      ],
+      "scale": 1,
+      "props": {
+        "text": "costs more",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "frame-robot",
+      "component": "raw",
+      "at": {
+        "x": 0.8,
+        "y": 0.7
+      },
+      "scale": 0.42,
+      "props": {
+        "width": 240,
+        "height": 300
+      },
+      "svg": "<rect x=\"8\" y=\"8\" width=\"200\" height=\"200\" rx=\"14\" class=\"r-body-alt\"/><rect x=\"26\" y=\"26\" width=\"164\" height=\"164\" rx=\"8\" class=\"r-paper\"/><circle cx=\"108\" cy=\"108\" r=\"30\" class=\"r-accent\"/><circle cx=\"172\" cy=\"172\" r=\"20\" class=\"r-accent-2\"/><line x1=\"172\" y1=\"158\" x2=\"172\" y2=\"144\" class=\"r-thin\"/><circle cx=\"172\" cy=\"140\" r=\"4\" class=\"r-ink\"/><rect x=\"160\" y=\"164\" width=\"24\" height=\"16\" rx=\"3\" class=\"r-ink\"/><line x1=\"108\" y1=\"208\" x2=\"108\" y2=\"228\" class=\"r-thin\"/><rect x=\"88\" y=\"228\" width=\"40\" height=\"40\" rx=\"6\" class=\"r-accent\"/><circle cx=\"108\" cy=\"238\" r=\"4\" class=\"r-paper\"/>"
+    },
+    {
+      "id": "price-label-less",
+      "component": "label",
+      "attachTo": "frame-robot",
+      "side": "bottom",
+      "offset": [
+        0,
+        10
+      ],
+      "scale": 1,
+      "props": {
+        "text": "costs less",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "Split scene: on the left a tired person sits with a drooping meter above and an unfinished puzzle on the table beside them, while a small robot offers a shortcut arrow. On the right, a large framed artwork labeled costs more hangs above a much smaller robot-stamped artwork labeled costs less, the two sides separated by a thin vertical line."
+}

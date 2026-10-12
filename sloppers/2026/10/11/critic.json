@@ -1,0 +1,100 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The idea is legible and the cast is correctly human-vs-robot, but the robot clips directly through the person's body, the puzzle is nearly invisible, and the layout leaves a big empty zone while echoing the split-panel look used in several recent sloppers — this needs rework before publishing.",
+        "revisionNotes": [
+          "Fix the person/robot overlap: the robot's torso is clipping directly over the person's chest and arm, reading as a rendering bug. Move helper-bot further right (x ~0.55) or reduce its scale to 0.6 so it sits beside the person's shortcut-hand, not inside their body.",
+          "The puzzle is reduced to 4 tiny squares buried under the person's and robot's feet — scale it up to ~0.6 and offset it to the person's table-top (front of person, not overlapping the robot) so 'unfinished puzzle' actually reads.",
+          "Connect the shortcut-arrow to the robot's hand; right now there's a visible gap between the gray arrow and the robot, so the offer doesn't read as a single gesture.",
+          "Add a 'costs less' label under the small robot-sealed frame to mirror 'costs more' — right now only one side of the price contrast is labeled, weakening the right vignette's punchline.",
+          "Rebalance the frame: there's a large dead zone top-left and the left cluster is bottom-heavy while the artworks float upper-right; tighten the vertical gap or add a visible divider line consistent with the brief's 'two vignettes side by side' so the square reads as one balanced composition.",
+          "This split-panel-with-robot-cast layout is close to several recent sloppers (vertical divider + two mirrored figures); differentiate the composition or palette to stand out more."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"person\" extends outside the safe area in the final frame (x 50…317, y 446…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Just under the bar (avg ~3.4): the cast and concept are faithful to the brief and nothing is cruel, but the left vignette is crowded with overlapping elements, the split-line/cream-duotone composition repeats recent sloppers closely, and a lint-flagged safe-area clip and ambiguous handprint seal need cleanup.",
+        "revisionNotes": [
+          "Novelty: this cream duotone palette plus a straight center-vertical divider splitting two vignettes repeats recent sloppers ('Unnoticed', 'Records'). Switch to a less-used duotone (teal/green) and break the seam into a diagonal or offset line instead of dead-center vertical.",
+          "Composition: left vignette crowds 5 elements (person, puzzle, robot, shortcut-arrow, meter), over the 3-4 guideline. Drop the separate arrow shape and let the robot's 'arms out' gesture alone read as the offer.",
+          "Polish: lint flags 'person' breaching the safe area on the left edge. Shift the person anchor right (x: 0.17 to ~0.19-0.20) so the trailing hand clears the margin.",
+          "Polish: the frame-human corner seal reads as a paw print, not a human handprint, easily confused with the frame-robot's mechanical stamp. Redraw with 4-5 elongated finger strokes off a small palm shape.",
+          "Composition: drive-meter floats with a big gap above the person's head, weakening the link to 'determination dropping.' Pull it closer and add a small plain label like 'drive' beneath it.",
+          "Composition: helper-bot's left arm and the shortcut-arrow overlap/merge with the puzzle stack into one cluttered blob; add spacing or scale the arrow down so the props stay visually distinct."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"divider\" extends outside the safe area in the final frame (x 625…735, y 40…1040)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Correct human/robot casting and a clean riso-duotone finish, but the puzzle reads as finished rather than unfinished, the robot's hand offers nothing visible (no shortcut arrow), the divider breaches the safe area per the lint warning, and the split-vignette-with-divider layout closely repeats several recent sloppers — falls short of publish quality.",
+        "revisionNotes": [
+          "Give the puzzle (raw component 'puzzle') a visible gap — right now all 4 tiles are filled, so it reads finished, not 'unfinished', undercutting the whole left-side joke.",
+          "Add a 'shortcut arrow' prop to helper-bot's outstretched hand (brief calls for it); right now the hand just merges into the puzzle tile with nothing being offered.",
+          "Pull 'divider' in from x 0.63 and trim its height so it stays inside the safe area — lint flags it running y 40…1040, past the margin.",
+          "Scale up the handprint-stamp and robot-stamp icons inside frame-human/frame-robot (~1.3x) so the seal distinction is legible at thumbnail size instead of reading as a stray dot.",
+          "Clean up the dark diagonal shape crossing the person's legs (cane/stool prop) — it currently reads as an overlap artifact rather than a clear seat.",
+          "Recent sloppers (vertical-line split with cream/navy/pink duotone) have used this same divided-vignette layout repeatedly; try merging the two vignettes into one continuous scene or use a different separator (gap, color block) for more novelty."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    }
+  ]
+}
