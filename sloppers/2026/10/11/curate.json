@@ -1,0 +1,171 @@
+{
+  "topStories": [
+    {
+      "title": "Buyers now pay a 'human premium' for art not made by AI",
+      "itemIds": [
+        "hackernews:6d0e5e57d2db"
+      ],
+      "dimensions": [
+        "society",
+        "labor",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "human-art-premium"
+    },
+    {
+      "title": "Study finds short AI use weakens ability to persist at hard tasks",
+      "itemIds": [
+        "hackernews:466960da748f"
+      ],
+      "dimensions": [
+        "society",
+        "education",
+        "science"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-erodes-persistence"
+    },
+    {
+      "title": "Growing gap between expert and public understanding of AI capability",
+      "itemIds": [
+        "hackernews:d16bd93ff857"
+      ],
+      "dimensions": [
+        "capabilities",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "capability-understanding-gap"
+    },
+    {
+      "title": "Silicon Valley companies fall in line with the 'super intelligence' rebrand",
+      "itemIds": [
+        "feeds:ab761da48b43"
+      ],
+      "dimensions": [
+        "policy",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-rebrand-super-intelligence"
+    },
+    {
+      "title": "AI industry debates dropping NDAs to ease datacenter opposition",
+      "itemIds": [
+        "feeds:2b537537572c"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "human-art-premium",
+      "title": "Buyers Pay A Premium For Human-Made Art",
+      "dimensions": [
+        "society",
+        "labor",
+        "industry"
+      ],
+      "motifs": [
+        "a price tag rising beside a hand-signed canvas",
+        "a gallery label glowing warmer than the print beside it"
+      ]
+    },
+    {
+      "id": "ai-erodes-persistence",
+      "title": "AI Use Erodes The Ability To Persist",
+      "dimensions": [
+        "society",
+        "education",
+        "science"
+      ],
+      "motifs": [
+        "a determination meter draining after a short chat with AI",
+        "a half-finished puzzle beside a chatbot offering the last piece"
+      ]
+    },
+    {
+      "id": "capability-understanding-gap",
+      "title": "The Widening Gap In Understanding AI Capability",
+      "dimensions": [
+        "capabilities",
+        "society"
+      ],
+      "motifs": [
+        "two gauges drifting apart, one for experts and one for the public",
+        "a widening crack between two speech bubbles"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Two stories reached well above the fresh threshold of 8: buyers paying a premium for human-made art (novelty 3 x magnitude 2 x breadth 2 = 12) and new research that brief AI use weakens persistence (3 x 2 x 2 = 12), both genuinely new angles not covered in recent days.",
+  "motto": "The Human Premium",
+  "phrase": "People now pay more for art made by a human. New research found that ten minutes of AI help can weaken someone's ability to keep trying.",
+  "phraseAlternatives": [
+    "A report found people now pay more for art stamped not AI. A separate study found ten minutes of AI help can weaken someone's drive to keep trying.",
+    "Shoppers now pay extra for art made without AI. Researchers warn that a short dose of AI help can quietly weaken someone's will to finish hard things.",
+    "Human-made art is now worth more, buyers say. A new study finds that AI shortcuts can make it harder for people to keep trying on their own."
+  ],
+  "brief": {
+    "concept": "A shopper pays a premium for a hand-signed painting, while beside them a person reaching for the last piece of a puzzle watches a robot arm place it first.",
+    "metaphor": "People now pay more for human effort, even as AI quietly takes away the small struggles that build it.",
+    "cast": [
+      {
+        "who": "a shopper holding out coins for a hand-signed painting",
+        "kind": "person"
+      },
+      {
+        "who": "a framed painting with a small human handprint signature, labeled NOT AI",
+        "kind": "object"
+      },
+      {
+        "who": "a person reaching toward a nearly finished jigsaw puzzle",
+        "kind": "person"
+      },
+      {
+        "who": "a chatbot robot arm sliding the puzzle's last piece into place first",
+        "kind": "ai"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "A riso duotone diptych split by a thin vertical line, blue and fluorescent pink inks on cream paper. Left half: a shopper offers coins across a small counter toward a framed painting with a simple handprint signature and a small label reading NOT AI. Right half: a seated person's hand reaches for a nearly complete puzzle just as a robot arm slips in the last piece first; a small meter beside them dips low. Two shapes per half, flat color fills, only the words NOT AI appear on the image.",
+    "artType": "static",
+    "alt": "A shopper pays coins for a hand-signed painting labeled not ai. Beside them, a person reaching for the last puzzle piece watches a robot arm place it there first."
+  },
+  "sourceIds": [
+    "hackernews:6d0e5e57d2db",
+    "hackernews:466960da748f"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 2,
+    "labor": 1,
+    "policy": 2,
+    "society": 3,
+    "education": 2,
+    "planet": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": -1
+  }
+}

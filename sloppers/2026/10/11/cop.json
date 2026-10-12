@@ -1,0 +1,21 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "trademarks",
+          "severity": "medium",
+          "evidence": "Art label text \"HUMAN MADE\" (all caps) drawn on the painting badge, from textsInArt: [\"HUMAN MADE\"], originating from alt text \"labeled human made\"",
+          "suggestion": "Replace the badge text with a non-trademark phrase such as \"MADE BY HAND\" or \"NOT AI\" to avoid matching the registered apparel brand \"HUMAN MADE\" (NIGO's streetwear label), and update the alt text accordingly.",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "pass",
+      "findings": []
+    }
+  ]
+}
