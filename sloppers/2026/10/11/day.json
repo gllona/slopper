@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-11",
+  "number": 12,
+  "mode": "fresh",
+  "motto": "The Patience Premium",
+  "phrase": "Researchers found that ten minutes with AI can weaken your drive to keep trying. Meanwhile, some buyers now pay extra for art made with no AI at all.",
+  "phraseAlternatives": [
+    "A study says ten minutes with AI can make people give up sooner. Meanwhile, shoppers are now paying more for art with no AI involved.",
+    "AI use for a short while appears to weaken persistence, a new study found. Elsewhere, human-made art now earns a price premium over AI alternatives.",
+    "New research links brief AI use to lower persistence on hard tasks. At the same time, some art buyers pay more to know no AI touched the work."
+  ],
+  "alt": "Split scene: on the left a tired person sits with a drooping meter above and an unfinished puzzle on the table beside them, while a small robot offers a shortcut arrow. On the right, a large framed artwork labeled costs more hangs above a much smaller robot-stamped artwork labeled costs less, the two sides separated by a thin vertical line.",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 2,
+    "labor": 1,
+    "policy": 2,
+    "law": 1,
+    "society": 3,
+    "education": 2,
+    "planet": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": -1
+  },
+  "storylines": [
+    "ai-erodes-persistence",
+    "human-premium-for-art",
+    "ai-rebrand-super-intelligence",
+    "datacenter-backlash-campaign",
+    "capability-perception-gap",
+    "ai-photo-contest-scandal"
+  ],
+  "topStories": [
+    {
+      "title": "Study Links Brief AI Use To Lower Persistence",
+      "itemIds": [
+        "hackernews:466960da748f"
+      ],
+      "dimensions": [
+        "education",
+        "society",
+        "science"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-erodes-persistence"
+    },
+    {
+      "title": "A Premium Emerges For Human-Made Art",
+      "itemIds": [
+        "hackernews:6d0e5e57d2db"
+      ],
+      "dimensions": [
+        "society",
+        "labor",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "human-premium-for-art"
+    },
+    {
+      "title": "Tech Companies Adopt Government's AI Rebrand",
+      "itemIds": [
+        "feeds:ab761da48b43"
+      ],
+      "dimensions": [
+        "policy",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-rebrand-super-intelligence"
+    },
+    {
+      "title": "AI Industry Weighs Dropping NDAs With Datacenter Critics",
+      "itemIds": [
+        "feeds:2b537537572c"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "Public And Experts Split On What AI Can Do",
+      "itemIds": [
+        "hackernews:d16bd93ff857"
+      ],
+      "dimensions": [
+        "capabilities",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "capability-perception-gap"
+    },
+    {
+      "title": "Generative AI Images Found In A Photo Contest",
+      "itemIds": [
+        "hackernews:88068d7f2c19"
+      ],
+      "dimensions": [
+        "law",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-photo-contest-scandal"
+    }
+  ],
+  "brief": {
+    "concept": "A person slumps over an unfinished puzzle as a robot hand offers a shortcut, while nearby a human-made artwork fetches a taller price tag than its machine-made twin.",
+    "metaphor": "Giving up early on a hard task versus paying more for proof that something was made the slow, human way.",
+    "cast": [
+      {
+        "who": "a person slumped over an unfinished puzzle",
+        "kind": "person"
+      },
+      {
+        "who": "a robot hand holding out a shortcut arrow",
+        "kind": "ai"
+      },
+      {
+        "who": "a determination meter with its needle dropping low",
+        "kind": "object"
+      },
+      {
+        "who": "a framed artwork stamped with a human handprint seal and a tall price tag",
+        "kind": "object"
+      },
+      {
+        "who": "a smaller framed artwork stamped with a robot seal and a short price tag",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Two vignettes side by side, divided by a thin vertical line. Left: a person slumped at a table over an unfinished jigsaw puzzle, a robot hand entering from the edge offering a shortcut arrow, a small determination meter above it with the needle drooping. Right: two framed artworks hung on a wall, one larger bearing a human handprint seal with a tall price tag, one smaller bearing a robot seal with a short price tag.",
+    "artType": "static",
+    "alt": "Split illustration. On the left, a person slumps over an unfinished puzzle while a robot hand offers a shortcut arrow and a determination meter droops. On the right, a framed artwork with a human handprint seal carries a taller price tag than a smaller artwork stamped with a robot seal."
+  },
+  "sources": [
+    {
+      "id": "hackernews:466960da748f",
+      "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+      "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+      "source": "hackernews",
+      "publisher": "vcresearch.berkeley.edu",
+      "publishedAt": "2026-10-11T10:47:21.000Z"
+    },
+    {
+      "id": "hackernews:6d0e5e57d2db",
+      "title": "AI is creating a 'human premium' for art created by people",
+      "url": "https://www.bbc.com/news/articles/c5vgjm3gk7rzo",
+      "source": "hackernews",
+      "publisher": "bbc.com",
+      "publishedAt": "2026-10-11T11:34:28.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.43,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-12T16:15:28.504Z"
+}
