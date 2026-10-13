@@ -1,0 +1,159 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {},
+  "elements": [
+    {
+      "id": "joke-label",
+      "component": "label",
+      "at": "top-center",
+      "scale": 1,
+      "props": {
+        "text": "Fewer rules than milk",
+        "size": "lg",
+        "kind": "tag",
+        "color": "text"
+      }
+    },
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.6
+      },
+      "scale": 1,
+      "props": {
+        "width": 10,
+        "height": 700
+      },
+      "svg": "<path d=\"M5,0 L5,700\" class=\"r-line\"/>"
+    },
+    {
+      "id": "count-label",
+      "component": "label",
+      "at": {
+        "x": 0.27,
+        "y": 0.3
+      },
+      "scale": 1,
+      "props": {
+        "text": "1,000,000 robots",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "human",
+      "component": "human",
+      "at": {
+        "x": 0.12,
+        "y": 0.9
+      },
+      "scale": 0.6,
+      "props": {
+        "mood": "worried",
+        "pose": "stand",
+        "holds": "none",
+        "kind": "adult"
+      }
+    },
+    {
+      "id": "robot-near",
+      "component": "robot",
+      "at": {
+        "x": 0.27,
+        "y": 0.93
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "neutral",
+        "arms": "up"
+      }
+    },
+    {
+      "id": "robot-2",
+      "component": "robot",
+      "at": {
+        "x": 0.33,
+        "y": 0.76
+      },
+      "scale": 0.56,
+      "props": {
+        "mood": "neutral",
+        "arms": "up"
+      }
+    },
+    {
+      "id": "robot-3",
+      "component": "robot",
+      "at": {
+        "x": 0.38,
+        "y": 0.61
+      },
+      "scale": 0.38,
+      "props": {
+        "mood": "neutral",
+        "arms": "up"
+      }
+    },
+    {
+      "id": "robot-4",
+      "component": "robot",
+      "at": {
+        "x": 0.42,
+        "y": 0.49
+      },
+      "scale": 0.24,
+      "props": {
+        "mood": "neutral",
+        "arms": "up"
+      }
+    },
+    {
+      "id": "milk",
+      "component": "raw",
+      "at": {
+        "x": 0.62,
+        "y": 0.6
+      },
+      "scale": 1,
+      "props": {
+        "width": 200,
+        "height": 480
+      },
+      "svg": "<path d=\"M40,150 L85,95 L115,95 L160,150 L160,440 L40,440 Z\" class=\"r-body\"/><rect x=\"55\" y=\"172\" width=\"40\" height=\"20\" class=\"r-ink\"/><rect x=\"105\" y=\"172\" width=\"40\" height=\"20\" class=\"r-ink\"/><rect x=\"55\" y=\"205\" width=\"90\" height=\"14\" class=\"r-ink\"/><circle cx=\"75\" cy=\"245\" r=\"13\" class=\"r-ink\"/><circle cx=\"125\" cy=\"245\" r=\"11\" class=\"r-ink\"/><rect x=\"55\" y=\"275\" width=\"90\" height=\"14\" class=\"r-ink\"/><rect x=\"55\" y=\"340\" width=\"90\" height=\"14\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "robot-main",
+      "component": "robot",
+      "at": {
+        "x": 0.8,
+        "y": 0.9
+      },
+      "scale": 0.62,
+      "props": {
+        "mood": "neutral",
+        "arms": "down"
+      }
+    },
+    {
+      "id": "blank-label",
+      "component": "raw",
+      "attachTo": "robot-main",
+      "side": "top",
+      "offset": [
+        0,
+        -6
+      ],
+      "scale": 1,
+      "props": {
+        "width": 70,
+        "height": 44
+      },
+      "svg": "<rect x=\"5\" y=\"7\" width=\"60\" height=\"30\" rx=\"5\" class=\"r-accent\"/>"
+    }
+  ],
+  "alt": "Blueprint scene split by a thin vertical line. Left: a small worried human beside a line of four identical robots shrinking toward a vanishing point, captioned \"1,000,000 robots.\" Right: a blue milk carton covered in seven white safety labels stands next to a single robot wearing one blank yellow label. Top banner reads \"Fewer rules than milk.\""
+}
