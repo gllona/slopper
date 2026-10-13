@@ -1,0 +1,206 @@
+{
+  "date": "2026-10-12",
+  "number": 13,
+  "mode": "fresh",
+  "motto": "More Robots Than Rules",
+  "phrase": "A major retailer now runs over a million robot workers alongside its human staff. Meanwhile, a tech executive warned that AI still has fewer rules than milk.",
+  "phraseAlternatives": [
+    "One company now runs more robot workers than most nations have soldiers. A tech executive says AI still has fewer rules than milk.",
+    "A warehouse giant crossed a million robot workers this week. A tech executive says milk cartons carry more warning labels than AI does.",
+    "More than a million robots now work for one retailer. The same week, a tech leader said milk is better regulated than AI.",
+    "A retailer's robot workforce just passed a million. An executive pointed out that milk has more rules than artificial intelligence."
+  ],
+  "alt": "Blueprint scene split by a thin vertical line. Left: a small worried human beside a line of four identical robots shrinking toward a vanishing point, captioned \"1,000,000 robots.\" Right: a blue milk carton covered in seven white safety labels stands next to a single robot wearing one blank yellow label. Top banner reads \"Fewer rules than milk.\"",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 3,
+    "policy": 2,
+    "safety": 2,
+    "society": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "amazon-robot-workforce",
+    "ai-first-game-development",
+    "frontier-model-race",
+    "ai-less-regulated-than-milk",
+    "ai-self-replication-risk",
+    "open-source-ai-moratorium"
+  ],
+  "topStories": [
+    {
+      "title": "Amazon's robot workforce tops a million as human jobs shift",
+      "itemIds": [
+        "feeds:f5415e83edf8"
+      ],
+      "dimensions": [
+        "labor",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "amazon-robot-workforce"
+    },
+    {
+      "title": "Epic Games mandates AI-first development, no human-made art allowed",
+      "itemIds": [
+        "feeds:b9412986ffa5",
+        "hackernews:e58497308ea5"
+      ],
+      "dimensions": [
+        "labor",
+        "industry",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-first-game-development"
+    },
+    {
+      "title": "Meta launches frontier model Muse Wonder",
+      "itemIds": [
+        "feeds:fea53ac02855",
+        "feeds:0285152507d5",
+        "feeds:1e2db47d258d",
+        "hackernews:7758c02a15e3"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "Tech executive says AI is less regulated than milk, urges UK to lead on rules",
+      "itemIds": [
+        "feeds:3280ed302a3e",
+        "feeds:42cef8088682",
+        "hackernews:17d3cbe685fd"
+      ],
+      "dimensions": [
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-less-regulated-than-milk"
+    },
+    {
+      "title": "Research suggests AI models could self-replicate outside a datacenter",
+      "itemIds": [
+        "hackernews:bd039d8a938b"
+      ],
+      "dimensions": [
+        "safety",
+        "capabilities"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-self-replication-risk"
+    },
+    {
+      "title": "Open-source mapping project bans AI-written contributions",
+      "itemIds": [
+        "hackernews:b7a40a9ea7f0"
+      ],
+      "dimensions": [
+        "society",
+        "labor"
+      ],
+      "novelty": 3,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "open-source-ai-moratorium"
+    }
+  ],
+  "brief": {
+    "concept": "A warehouse packed with a long line of identical robot workers dwarfs one small human worker, while beside it a milk carton wears more safety labels than the single robot standing next to it.",
+    "metaphor": "Machines now outnumber people on the job, yet carry fewer safety rules than the milk in a refrigerator.",
+    "cast": [
+      {
+        "who": "a long row of identical robot workers stacking boxes in a warehouse",
+        "kind": "ai"
+      },
+      {
+        "who": "a single human worker standing small at the end of the row",
+        "kind": "person"
+      },
+      {
+        "who": "a milk carton covered in small safety labels and stamps",
+        "kind": "object"
+      },
+      {
+        "who": "a robot standing beside the carton wearing only one blank label",
+        "kind": "ai"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split scene, thin dividing line down the middle. Left: a warehouse aisle in one-point perspective with a repeating row of small identical robot shapes holding boxes shrinking to a vanishing point; one human figure stands alone at the near edge, clearly smaller than the robot line implies. Right: a tall milk carton covered in several small rectangular labels, next to a single robot shape wearing one plain blank label. Flat pale blueprint-blue fills, white outlines, one yellow highlight on the blank label.",
+    "artType": "static",
+    "alt": "A warehouse scene shows a long line of identical robot workers stacking boxes, dwarfing one small human worker at the end. Beside it, a milk carton covered in safety labels stands next to a single robot wearing only one blank label."
+  },
+  "sources": [
+    {
+      "id": "feeds:f5415e83edf8",
+      "title": "Amazon has over 1 million robot workers. What’s next for human employees?",
+      "url": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-10-12T12:43:10.000Z"
+    },
+    {
+      "id": "feeds:3280ed302a3e",
+      "title": "Microsoft president says UK is best placed to drive AI regulation",
+      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-12T15:31:19.000Z"
+    },
+    {
+      "id": "feeds:42cef8088682",
+      "title": "AI is less regulated than milk, says Microsoft president",
+      "url": "https://www.bbc.co.uk/news/articles/c6rmy7zmvx3lo?at_medium=RSS&at_campaign=rss",
+      "source": "feeds",
+      "publisher": "BBC News",
+      "publishedAt": "2026-10-12T07:47:37.000Z"
+    },
+    {
+      "id": "hackernews:17d3cbe685fd",
+      "title": "AI less regulated than milk, Microsoft president says in warning over safety",
+      "url": "https://www.theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
+      "source": "hackernews",
+      "publisher": "theguardian.com",
+      "publishedAt": "2026-10-12T12:46:52.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.29,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-13T11:27:21.288Z"
+}

@@ -1,0 +1,212 @@
+{
+  "topStories": [
+    {
+      "title": "Amazon's robot workforce tops a million as human jobs shift",
+      "itemIds": [
+        "feeds:f5415e83edf8"
+      ],
+      "dimensions": [
+        "labor",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "amazon-robot-workforce"
+    },
+    {
+      "title": "Epic Games mandates AI-first development, no human-made art allowed",
+      "itemIds": [
+        "feeds:b9412986ffa5",
+        "hackernews:e58497308ea5"
+      ],
+      "dimensions": [
+        "labor",
+        "industry",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-first-game-development"
+    },
+    {
+      "title": "Meta launches frontier model Muse Wonder",
+      "itemIds": [
+        "feeds:fea53ac02855",
+        "feeds:0285152507d5",
+        "feeds:1e2db47d258d",
+        "hackernews:7758c02a15e3"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "Tech executive says AI is less regulated than milk, urges UK to lead on rules",
+      "itemIds": [
+        "feeds:3280ed302a3e",
+        "feeds:42cef8088682",
+        "hackernews:17d3cbe685fd"
+      ],
+      "dimensions": [
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-less-regulated-than-milk"
+    },
+    {
+      "title": "Research suggests AI models could self-replicate outside a datacenter",
+      "itemIds": [
+        "hackernews:bd039d8a938b"
+      ],
+      "dimensions": [
+        "safety",
+        "capabilities"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-self-replication-risk"
+    },
+    {
+      "title": "Open-source mapping project bans AI-written contributions",
+      "itemIds": [
+        "hackernews:b7a40a9ea7f0"
+      ],
+      "dimensions": [
+        "society",
+        "labor"
+      ],
+      "novelty": 3,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "open-source-ai-moratorium"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "amazon-robot-workforce",
+      "title": "Amazon's Million-Robot Workforce",
+      "dimensions": [
+        "labor",
+        "industry",
+        "society"
+      ],
+      "motifs": [
+        "a warehouse floor filled with identical robot workers",
+        "a single human worker dwarfed at the end of a long robot line"
+      ]
+    },
+    {
+      "id": "ai-first-game-development",
+      "title": "Game Studios Go AI-First",
+      "dimensions": [
+        "labor",
+        "industry",
+        "society"
+      ],
+      "motifs": [
+        "a game studio desk with a paintbrush replaced by a robot hand",
+        "a delayed game calendar stamped AI FIRST"
+      ]
+    },
+    {
+      "id": "ai-less-regulated-than-milk",
+      "title": "AI Less Regulated Than Milk",
+      "dimensions": [
+        "policy"
+      ],
+      "motifs": [
+        "a milk carton covered in safety labels beside an unlabeled robot",
+        "a regulation rulebook with a single blank page"
+      ]
+    },
+    {
+      "id": "ai-self-replication-risk",
+      "title": "Can AI Copy Itself Without a Datacenter?",
+      "dimensions": [
+        "safety",
+        "capabilities"
+      ],
+      "motifs": [
+        "a robot duplicating itself outside a server room",
+        "a single server rack splitting into two glowing copies"
+      ]
+    },
+    {
+      "id": "open-source-ai-moratorium",
+      "title": "Open Source Says No To AI",
+      "dimensions": [
+        "society",
+        "labor"
+      ],
+      "motifs": [
+        "a contribution queue with a sign reading NO AI",
+        "a pull request stamped REJECTED by a human hand"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Amazon's million-robot workforce milestone (novelty 2 × magnitude 3 × breadth 3 = 18) clears the relevance threshold of 8 on its own, so today stands as its own story rather than continuing yesterday's persistence/art-premium theme.",
+  "motto": "More Robots Than Rules",
+  "phrase": "A major retailer now runs over a million robot workers alongside its human staff. Meanwhile, a tech executive warned that AI still has fewer rules than milk.",
+  "phraseAlternatives": [
+    "One company now runs more robot workers than most nations have soldiers. A tech executive says AI still has fewer rules than milk.",
+    "A warehouse giant crossed a million robot workers this week. A tech executive says milk cartons carry more warning labels than AI does.",
+    "More than a million robots now work for one retailer. The same week, a tech leader said milk is better regulated than AI.",
+    "A retailer's robot workforce just passed a million. An executive pointed out that milk has more rules than artificial intelligence."
+  ],
+  "brief": {
+    "concept": "A warehouse packed with a long line of identical robot workers dwarfs one small human worker, while beside it a milk carton wears more safety labels than the single robot standing next to it.",
+    "metaphor": "Machines now outnumber people on the job, yet carry fewer safety rules than the milk in a refrigerator.",
+    "cast": [
+      {
+        "who": "a long row of identical robot workers stacking boxes in a warehouse",
+        "kind": "ai"
+      },
+      {
+        "who": "a single human worker standing small at the end of the row",
+        "kind": "person"
+      },
+      {
+        "who": "a milk carton covered in small safety labels and stamps",
+        "kind": "object"
+      },
+      {
+        "who": "a robot standing beside the carton wearing only one blank label",
+        "kind": "ai"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split scene, thin dividing line down the middle. Left: a warehouse aisle in one-point perspective with a repeating row of small identical robot shapes holding boxes shrinking to a vanishing point; one human figure stands alone at the near edge, clearly smaller than the robot line implies. Right: a tall milk carton covered in several small rectangular labels, next to a single robot shape wearing one plain blank label. Flat pale blueprint-blue fills, white outlines, one yellow highlight on the blank label.",
+    "artType": "static",
+    "alt": "A warehouse scene shows a long line of identical robot workers stacking boxes, dwarfing one small human worker at the end. Beside it, a milk carton covered in safety labels stands next to a single robot wearing only one blank label."
+  },
+  "sourceIds": [
+    "feeds:f5415e83edf8",
+    "feeds:3280ed302a3e",
+    "feeds:42cef8088682",
+    "hackernews:17d3cbe685fd"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 3,
+    "policy": 2,
+    "safety": 2,
+    "society": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}

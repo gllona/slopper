@@ -1,0 +1,100 @@
+{
+  "passed": false,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"human\" extends outside the safe area in the final frame (x 31…185, y 588…907)",
+          "\"robot-main\" extends outside the safe area in the final frame (x 824…1025, y 453…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "Correct casting and clean blueprint style, but confirmed safe-area clipping on the human and right-hand robot, a cluttered overlapping robot cluster instead of a readable receding row, a milk carton shape that reads as a building, and a split-divider layout that closely echoes several recent sloppers pull the average below the bar.",
+        "revisionNotes": [
+          "Anchors: \"human\" sits at x≈0.1 and is flagged by the lint as crossing the left safe-area margin (x 31…185). Move it to x≈0.15 so the figure clears the border.",
+          "Anchors: \"robot-main\" on the right crosses the right safe margin (x 824…1025 per lint). Pull it to x≈0.8 or shrink scale slightly to 0.72 to keep the antenna and arm inside the safe area.",
+          "Components: robot-a/b/c overlap heads, antennae, and arms into a messy tangle rather than a clean receding row — increase the y-step between them and reduce x-overlap (or cut to two robots) so the one-point-perspective line the brief calls for is actually legible.",
+          "Props: the \"milk\" raw shape reads as a building or silo, not a carton — its peaked top and plain blue fill match the warehouse/building shapes used elsewhere in the series. Give it a tighter diagonal-cut peak and a lighter/white fill so it's unmistakably a milk carton at a glance.",
+          "Composition/novelty: a centered vertical divider splitting a blueprint scene into two panels has appeared in several recent sloppers (robots/paper-plane, RISK/AI doors, Records split) — swap the hard centerline for a diagonal split or an offset panel so this doesn't read as a near-repeat.",
+          "Scale: the title \"Fewer rules than milk\" only anchors the right panel's joke; the left panel's \"a million robot workers\" idea has no textual hook. Consider a small count label (e.g. \"1,000,000+\") near the robot row to tie the two halves together."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"robot-main\" extends outside the safe area in the final frame (x 700…1072, y 492…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 3,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The cast and concept are sound (robots for AI, human for the worker), but execution undercuts the joke: robot-main is clipped off the right edge, the milk carton's labels barely read against its own fill so the core \"few vs many labels\" contrast is lost, and only two robots stand in for a million, so the scale gag doesn't land. Needs another pass before publishing.",
+        "revisionNotes": [
+          "robot-main is clipped at the right edge (lint: x 700–1072 past the safe area) — anchor it closer to x=0.74 and scale to ~0.65 so the full body and blank label sit inside the frame.",
+          "Add the dividing line called for in the brief (thin vertical line near x=0.5) to separate the warehouse/human group from the milk-carton/robot pair; right now all four characters read as one crowded cluster instead of two vignettes.",
+          "The milk carton's labels are nearly invisible against its white body — boost contrast on the small rectangle/circle labels (r-paper vs base fill) so 5–6 labels clearly outnumber the robot's single blank tag; that contrast is the whole joke.",
+          "Only two robots stand in for '1,000,000 robots' — replace robot-far with a short receding row of 3–4 identical small robots along a one-point vanishing line so the scale gag actually reads as a long line, not a pair.",
+          "robot-far currently floats oddly above robot-near's shoulder with no ground anchor — place it further back on the perspective line (e.g. y=0.45) so it reads as 'distance' rather than a stray floating robot.",
+          "Split-scene blueprint layout and blue/cream palette are close to several recent pieces in the grid — vary the accent palette or framing so this one stands apart."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The split blueprint composition clearly labels both halves of the phrase in text, but the robot stack is a cluttered overlapping pile and the milk carton doesn't visually read as 'covered in labels,' and the layout repeats a divider-split motif seen in several recent pieces—average falls below the pass bar.",
+        "revisionNotes": [
+          "The diagonal robot stack (robot-near through robot-4) overlaps badly: raised arms and heads collide into the next robot's face. Space them further apart along the diagonal or stagger scale steps more (e.g. 0.8/0.55/0.35/0.2) so no body parts intersect.",
+          "The milk carton raw shape reads as a plain tower with a face (two circles + bars), not 'covered in labels.' Replace the circle pair with 3-4 small distinct rectangular label shapes stacked down the carton's side so the many-labels idea is legible without the caption.",
+          "The blank-label prop floats above robot-main's antenna instead of being worn on it; attach it to the chest/body like a tag, mirroring how the carton's labels sit on its surface, so the one-label-vs-many comparison reads directly.",
+          "Right panel has a lot of empty blueprint grid above the carton and robot-main; scale both up slightly or raise their anchors so the right half balances the busier, text-heavy left half.",
+          "This vertical-divider split-scene blueprint composition closely repeats at least two recent pieces (recent.png row2-col2 and row3-col3); vary the layout next time (horizontal split, single scene with inset) or shift the palette accent to stand apart."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    }
+  ]
+}
