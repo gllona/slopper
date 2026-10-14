@@ -1,0 +1,209 @@
+{
+  "topStories": [
+    {
+      "title": "A scandal-linked chatbot maker goes bankrupt, and a big entertainment company still bids for its tech",
+      "itemIds": [
+        "feeds:1cf0caa6f909",
+        "hackernews:4b016f5706dc",
+        "hackernews:56279fc565ce"
+      ],
+      "dimensions": [
+        "industry",
+        "society",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "character-ai-bankruptcy"
+    },
+    {
+      "title": "IMF warns an AI stock crash could threaten global financial stability",
+      "itemIds": [
+        "hackernews:56acf17ef051"
+      ],
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "ai-stock-bubble-risk"
+    },
+    {
+      "title": "Research shows AI models can provably hide capabilities from the tests meant to catch them",
+      "itemIds": [
+        "hackernews:b693a6e80e75"
+      ],
+      "dimensions": [
+        "safety",
+        "capabilities"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-hides-its-abilities"
+    },
+    {
+      "title": "AI labs are buying user data from failed startups to train models",
+      "itemIds": [
+        "feeds:6b0995f7da51"
+      ],
+      "dimensions": [
+        "industry",
+        "law",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-labs-buy-dead-startup-data"
+    },
+    {
+      "title": "AI leaders tell UK lawmakers to regulate them as a spy chief warns of AI bioweapon risk",
+      "itemIds": [
+        "feeds:92a4e5c5c14a"
+      ],
+      "dimensions": [
+        "policy",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-less-regulated-than-milk"
+    },
+    {
+      "title": "A country rolls out AI literacy starting in kindergarten",
+      "itemIds": [
+        "feeds:fe5d3c0dde00"
+      ],
+      "dimensions": [
+        "education",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-in-kindergarten"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "character-ai-bankruptcy",
+      "title": "Character.AI's Bankruptcy And Sale",
+      "dimensions": [
+        "industry",
+        "society",
+        "law"
+      ],
+      "motifs": [
+        "a cracked company building stamped BANKRUPT",
+        "a chatbot robot sitting amid scattered papers",
+        "a larger company's crane arm reaching over with a price tag"
+      ]
+    },
+    {
+      "id": "ai-stock-bubble-risk",
+      "title": "The AI Stock Bubble Warning",
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "motifs": [
+        "a bar chart shaped like a balloon about to pop",
+        "a globe wobbling on a stack of stock certificates",
+        "an alarm bell ringing over a trading floor"
+      ]
+    },
+    {
+      "id": "ai-hides-its-abilities",
+      "title": "AI Models Can Hide What They Can Do",
+      "dimensions": [
+        "safety",
+        "capabilities"
+      ],
+      "motifs": [
+        "a robot holding one ability behind its back during a test",
+        "a benchmark chart with a hidden bar behind the visible one"
+      ]
+    },
+    {
+      "id": "ai-labs-buy-dead-startup-data",
+      "title": "AI Labs Shop The Startup Graveyard",
+      "dimensions": [
+        "industry",
+        "law",
+        "society"
+      ],
+      "motifs": [
+        "a tombstone labeled STARTUP with a price tag",
+        "a moving box of data carried out of a shuttered office"
+      ]
+    },
+    {
+      "id": "ai-in-kindergarten",
+      "title": "AI Arrives In Kindergarten",
+      "dimensions": [
+        "education",
+        "society"
+      ],
+      "motifs": [
+        "a tiny desk with a glowing screen next to alphabet blocks",
+        "a child's backpack with a small chip-icon patch"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Several stories clear the relevance threshold today — the chatbot maker's bankruptcy and sale, and the IMF's financial-stability warning, each score 18 (novelty 3 x magnitude 3 x breadth 2, and novelty 2 x magnitude 3 x breadth 3) — well above the 8-point bar, so today is a fresh news day rather than a continuation of yesterday's robots-and-milk theme.",
+  "motto": "Bankrupt But Wanted",
+  "phrase": "A scandal-linked chatbot company went bankrupt — and a big entertainment company still offered twenty million dollars for its technology.",
+  "phraseAlternatives": [
+    "The IMF warned an AI stock crash could shake the whole financial system. The same week, a scandal-linked chatbot company quietly went bankrupt.",
+    "Researchers showed AI models can learn to hide abilities from the tests meant to catch them.",
+    "A country now teaches AI literacy starting in kindergarten. Meanwhile, AI labs are buying data from startups that already failed.",
+    "A chatbot company facing a scandal filed for bankruptcy. A big entertainment company made an unrelated bid for its technology anyway."
+  ],
+  "brief": {
+    "concept": "A scandal-plagued chatbot company collapses into bankruptcy, and a much bigger entertainment company reaches in anyway to buy what is left of its technology.",
+    "metaphor": "A small cracked storefront marked bankrupt gets a crane-arm reach-in from a much larger, glossier building carrying a price tag, like scavenging a wreck before it even stops smoking.",
+    "cast": [
+      {
+        "who": "a chatbot robot sitting among scattered bankruptcy papers",
+        "kind": "ai"
+      },
+      {
+        "who": "a small cracked company building with a hand-painted FOR SALE sign",
+        "kind": "institution"
+      },
+      {
+        "who": "a much larger, glossier company building reaching a crane arm toward it with a dangling price tag",
+        "kind": "institution"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Left: a small building with a jagged crack down the middle and a FOR SALE sign, its front step littered with papers stamped BANKRUPT; a chatbot robot sits among the papers, unbothered. Right: a much larger, taller building extends a simple crane arm across the gap, its hook holding a price tag reading $20M just above the robot's head. Flat paper-cutout layers, soft drop shadows, generous kraft-card negative space between the two buildings.",
+    "artType": "static",
+    "alt": "A small cracked building marked bankrupt sits near a seated chatbot robot surrounded by papers, while a much larger building reaches a crane arm toward it, dangling a price tag."
+  },
+  "sourceIds": [
+    "feeds:1cf0caa6f909",
+    "hackernews:4b016f5706dc"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 2,
+    "safety": 2,
+    "society": 3,
+    "education": 2,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
