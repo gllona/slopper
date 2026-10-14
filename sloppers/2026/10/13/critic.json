@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "Clear, kind, and reasonably fresh staging of the metaphor, but the BANKRUPT stamp overlapping the bot's hands/torso is a visible rendering bug that should be fixed before publishing; it narrowly passes on average.",
+        "revisionNotes": [
+          "Fix the overlap: the 'BANKRUPT' label sits directly across the bot's torso/hands, with the orange hand circles cutting into the red text. Reposition the stamp offset further above the papers, clear of the bot's silhouette.",
+          "Pose the bot sitting (per brief: 'sits among papers, unbothered') instead of standing on top of the paper pile — a seated pose reads calmer and matches the 'wreckage' metaphor better.",
+          "Scale the papers prop up from 0.6 to ~0.8 so the scattered BANKRUPT papers read as a visible messy pile instead of disappearing under the bot's feet.",
+          "Nudge the price-tag label offset left by ~10-15px so the '$20M' tag clears the big building's left edge instead of touching/overlapping its facade.",
+          "Consider lengthening the crane-arm reach slightly so the hook visibly bridges the gap toward the small building/bot, selling the 'reaching in' beat from the brief more strongly."
+        ]
+      },
+      "average": 3.71,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "verdict": "revise",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"A chatbot company linked to scandal filed for bankruptcy. A big entertainment company still offered twenty million dollars for its technology.\" Juxtaposing the scandal and the bankruptcy back-to-back implies the scandal caused the bankruptcy, but the sources don't establish that causal link — the Character.AI blog post announcing Chapter 11 doesn't attribute the filing to the scandal, and the Ars Technica piece treats the scandal and the Disney offer as separate facts.",
+          "suggestion": "Rephrase to avoid implying causation, e.g. \"A scandal-linked chatbot company went bankrupt — and a big entertainment company still offered twenty million dollars for its technology,\" making clear the bankruptcy and the scandal are not claimed to be cause-and-effect.",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "sensitive-events",
+          "severity": "medium",
+          "evidence": "Motto \"Bankrupt But Wanted\" paired with phrase \"A scandal-linked chatbot company went bankrupt\" — the source (Ars Technica) specifies the scandal as a company \"linked to child suicide,\" a real tragedy involving a victim. The phrase's euphemism (\"scandal-linked\") hides this, but the motto's \"Wanted\" pun risks reading as a flippant double-entendre (wanted for sale / wanted for wrongdoing) layered over a wrongful-death scandal.",
+          "suggestion": "Curate should confirm the satire is aimed only at the institutions (the bankrupt company's hypocrisy, the buyer's opportunism), not the underlying tragedy, and reconsider the 'Wanted' wordplay given what it's built on (e.g. retitle to something like 'Bankrupt But Still a Bargain' that can't be read as a joke about the death/abuse allegations). Do not add further specificity about the suicide/abuse angle to the phrase or art.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}
