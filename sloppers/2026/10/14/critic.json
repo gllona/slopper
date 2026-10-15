@@ -1,0 +1,98 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The split-building/magnifying-glass metaphor from the brief didn't survive the render: the 'eye' reads as a floating balloon, the building is a server rack, the paper-roll recorder and eight-seal documents are too small and isolated to register, so the joke needs a close reading of the phrase rather than reading from the art alone. Fails.",
+        "revisionNotes": [
+          "Rebuild the eye/magnifying-glass raw shape (currently a plain circle on a stick) into a recognizable magnifying glass, scale ~1.4, and angle it down at the worker so 'the company watches its own meeting room' actually reads instead of looking like a balloon on a wire.",
+          "The building component rendered as a server-rack datacenter, losing the brief's 'one company building split down the middle with a meeting-room cutaway'; swap to a building/room silhouette so the split-building metaphor survives.",
+          "Scale up the paperroll prop (now a near-invisible pink capsule balanced on the rack) to ~1.5 and attach it into the worker's hands, so 'hiding a recorder in a roll of paper' is legible as a beat.",
+          "Documents/eight-seals prop is tiny and stranded at the bottom-right corner (0.86, 0.84); scale to ~1.3 and move it closer to the shield/bubble group so it doesn't read as an afterthought.",
+          "Background is a horizontal wave dividing cream from blue, not the vertical split-down-the-middle called for in the brief; switch to a true vertical divide so left/right halves of the same building are clear.",
+          "Add a thin connecting line or arrow from the magnifying glass to the bubble+shield group to tie 'watching inward' and 'unguarded front door' into one read."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "Split-building idea and correct human/AI casting are sound, but the recorder-in-paper prop that makes the joke legible is missing, the seal-stamped documents drifted into the worker's half, and the chatbot bubble floats outside the building — it reads as generic \"surveillance vs. shield,\" not the specific joke. Does not pass today.",
+        "revisionNotes": [
+          "Re-add the paperroll component (recorder tucked in paper) attached to the worker's right hand at scale 1.5 — it's absent from the final render, removing the inciting action of the joke.",
+          "Reposition the documents (eight-seal stack) to attach to the shield's left side as scripted; currently it overlaps the worker's meeting-room box and the center divider instead of sitting on the right half.",
+          "Anchor the 'Hi' speech bubble inside the building's right-third so it sits within the roofline, instead of floating above/outside the structure — it currently breaks the one-building composition.",
+          "Cut or redirect the dashed arrow from the eye/magnifying-glass component: as drawn it points across to the chatbot bubble, implying the company IS watching that side, which contradicts the 'leaves the front door unguarded' metaphor.",
+          "Rebalance left vs right halves — left is crowded (room, worker, stray documents) and right is sparse (door, shield); redistribute the 4 elements evenly across the split.",
+          "Scale up the seal circles on the documents slightly so 'eight' reads as a countable detail at thumbnail size."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"eye\" (raw) was moved 0 px, 27 px to stay inside the artboard"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The split-building setup and correct human/AI casting are solid, but a misplaced paperroll prop lands on the wrong side of the divider and clutters the right half, burying the cracked-shield and eight-seal gags so the second half of the joke doesn't read — fails on clarity, composition, and polish.",
+        "revisionNotes": [
+          "The recorder-in-paper prop should sit beside the worker (left-third) but renders on the right side, jammed into the documents/shield cluster — reattach it to the worker's right side inside the left room so the 'hiding a recorder' gag is visible next to the person hiding it.",
+          "Right half is a muddled stack: speech bubble, shield, documents, and the stray paperroll all overlap with little margin — space them out (shield ~y0.55, documents ~y0.75, 40-60px gaps) so each silhouette reads separately.",
+          "The shield's 'crack' is just a thin fold line and barely reads as damage — widen the jagged split and offset the two halves slightly so 'cracked shield' is unambiguous at a glance.",
+          "The eight-seal document stamp row is buried behind the shield/paperroll clutter and unreadable at this scale — pull it fully clear of overlapping shapes so the eight dots are countable.",
+          "Worker's 'worried' mood reads closer to neutral — sharpen the eyebrow angle and mouth curve so the expression is legible in 3 seconds.",
+          "The inner box framing the worker (surveillance target) is a nice touch but crowds the room edges — scale it to ~0.9 or recenter, and consider dropping it on the right half to contrast 'watched' vs 'ignored'."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    }
+  ]
+}

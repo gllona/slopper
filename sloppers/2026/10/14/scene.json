@@ -1,0 +1,119 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {
+    "type": "solid",
+    "color": "bg"
+  },
+  "elements": [
+    {
+      "id": "building",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.78
+      },
+      "offset": [
+        0,
+        -240
+      ],
+      "scale": 1,
+      "props": {
+        "width": 820,
+        "height": 480
+      },
+      "svg": "<rect class=\"r-body-alt\" x=\"30\" y=\"20\" width=\"760\" height=\"440\" rx=\"22\"/><rect class=\"r-ink\" x=\"405\" y=\"20\" width=\"12\" height=\"440\"/><rect class=\"r-paper\" x=\"70\" y=\"140\" width=\"300\" height=\"260\" rx=\"16\"/><line class=\"r-thin\" x1=\"110\" y1=\"330\" x2=\"340\" y2=\"330\"/><rect class=\"r-line\" x=\"560\" y=\"250\" width=\"180\" height=\"210\" rx=\"14\"/><rect class=\"r-shade\" x=\"574\" y=\"264\" width=\"152\" height=\"182\" rx=\"10\"/>"
+    },
+    {
+      "id": "eye",
+      "component": "raw",
+      "at": {
+        "x": 0.42,
+        "y": 0.27
+      },
+      "scale": 1.4,
+      "rotate": -6,
+      "props": {
+        "width": 560,
+        "height": 260
+      },
+      "svg": "<circle class=\"r-paper\" cx=\"110\" cy=\"170\" r=\"78\"/><circle class=\"r-thin\" cx=\"85\" cy=\"140\" r=\"18\"/><rect class=\"r-ink\" x=\"-13\" y=\"0\" width=\"26\" height=\"100\" rx=\"13\" transform=\"translate(165,115) rotate(-40)\"/><line class=\"r-thin\" x1=\"185\" y1=\"140\" x2=\"500\" y2=\"90\" stroke-dasharray=\"14 10\"/><path class=\"r-ink\" d=\"M500,90 L478,82 L482,104 Z\"/>"
+    },
+    {
+      "id": "worker",
+      "component": "human",
+      "at": "left-third",
+      "scale": 1,
+      "props": {
+        "mood": "worried",
+        "pose": "stand",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "paperroll",
+      "component": "raw",
+      "attachTo": "worker",
+      "side": "right",
+      "offset": [
+        20,
+        -40
+      ],
+      "scale": 1.5,
+      "props": {
+        "width": 160,
+        "height": 100
+      },
+      "svg": "<rect class=\"r-paper\" x=\"10\" y=\"25\" width=\"120\" height=\"50\" rx=\"25\"/><ellipse class=\"r-body-alt\" cx=\"130\" cy=\"50\" rx=\"16\" ry=\"25\"/><rect class=\"r-accent\" x=\"96\" y=\"36\" width=\"28\" height=\"24\" rx=\"6\"/><circle class=\"r-ink\" cx=\"110\" cy=\"48\" r=\"4\"/>"
+    },
+    {
+      "id": "bubble",
+      "component": "speech-bubble",
+      "at": {
+        "x": 0.78,
+        "y": 0.3
+      },
+      "scale": 1.2,
+      "props": {
+        "text": "Hi",
+        "kind": "speech",
+        "tail": "bottom",
+        "size": "lg"
+      }
+    },
+    {
+      "id": "shield",
+      "component": "raw",
+      "attachTo": "bubble",
+      "side": "bottom",
+      "offset": [
+        0,
+        14
+      ],
+      "scale": 1.15,
+      "props": {
+        "width": 150,
+        "height": 170
+      },
+      "svg": "<path class=\"r-paper\" d=\"M75,10 L135,42 L124,128 L75,160 L26,128 L15,42 Z\"/><path class=\"r-line\" d=\"M75,10 L64,66 L88,96 L62,138 L75,160\"/>"
+    },
+    {
+      "id": "documents",
+      "component": "raw",
+      "attachTo": "shield",
+      "side": "left",
+      "offset": [
+        -24,
+        8
+      ],
+      "scale": 1.3,
+      "props": {
+        "width": 190,
+        "height": 150
+      },
+      "svg": "<rect class=\"r-body-alt\" x=\"20\" y=\"64\" width=\"150\" height=\"22\" rx=\"5\"/><rect class=\"r-body-alt\" x=\"14\" y=\"42\" width=\"150\" height=\"22\" rx=\"5\"/><rect class=\"r-paper\" x=\"8\" y=\"14\" width=\"150\" height=\"28\" rx=\"6\"/><circle class=\"r-accent\" cx=\"22\" cy=\"28\" r=\"6\"/><circle class=\"r-accent\" cx=\"40\" cy=\"28\" r=\"6\"/><circle class=\"r-accent\" cx=\"58\" cy=\"28\" r=\"6\"/><circle class=\"r-accent\" cx=\"76\" cy=\"28\" r=\"6\"/><circle class=\"r-accent\" cx=\"94\" cy=\"28\" r=\"6\"/><circle class=\"r-accent\" cx=\"112\" cy=\"28\" r=\"6\"/><circle class=\"r-accent\" cx=\"130\" cy=\"28\" r=\"6\"/><circle class=\"r-accent\" cx=\"148\" cy=\"28\" r=\"6\"/>"
+    }
+  ],
+  "alt": "A company building is split down the middle by a thick divider. On the left, a large magnifying glass tilts down into a cutaway meeting room, watching a worried worker tuck a recorder into a roll of paper. A dashed line reaches toward the right, where a chatbot speech bubble stands behind a cracked shield next to documents stamped with eight seals, beside the building's open front door."
+}

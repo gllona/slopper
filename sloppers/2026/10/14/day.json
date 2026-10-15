@@ -1,0 +1,202 @@
+{
+  "date": "2026-10-14",
+  "number": 15,
+  "mode": "fresh",
+  "motto": "Watching The Wrong Thing",
+  "phrase": "A hidden recorder turned up in an AI company's meeting room, and an engineer now faces spy charges. The same company is being sued by eight states over child safety.",
+  "phraseAlternatives": [
+    "One safety team warned that small AI models could copy themselves through smart devices. Critics said the bigger risk is that basic security is still missing.",
+    "Researchers showed it is still easy to trick two major image AI tools into making non-consensual nude pictures.",
+    "One company now lets AI question its own job applicants. Nearby, job seekers increasingly use AI to make their resumes look better than they are."
+  ],
+  "alt": "A company building is split down the middle by a thick divider. On the left, a large magnifying glass tilts down into a cutaway meeting room, watching a worried worker tuck a recorder into a roll of paper. A dashed line reaches toward the right, where a chatbot speech bubble stands behind a cracked shield next to documents stamped with eight seals, beside the building's open front door.",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 2,
+    "labor": 2,
+    "policy": 2,
+    "law": 3,
+    "safety": 3,
+    "society": 3,
+    "education": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "teen-chatbot-safety-risk",
+    "openai-engineer-spy-case",
+    "ai-self-replication-risk",
+    "ai-stock-bubble-risk",
+    "ai-nude-safeguard-failures",
+    "ai-job-market-both-sides"
+  ],
+  "topStories": [
+    {
+      "title": "Eight States Sue OpenAI Over Child Safety",
+      "itemIds": [
+        "feeds:e2c2841e6169"
+      ],
+      "dimensions": [
+        "law",
+        "policy",
+        "society",
+        "education"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "teen-chatbot-safety-risk"
+    },
+    {
+      "title": "Hidden Recorder Leads To Spy Charges For AI Engineer",
+      "itemIds": [
+        "feeds:75aa40e09bad",
+        "feeds:7e04e8ad3130"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "openai-engineer-spy-case"
+    },
+    {
+      "title": "Self-Replication Warning Meets Security Skepticism",
+      "itemIds": [
+        "feeds:ea9491c23d8d",
+        "hackernews:9fb3a1527c69",
+        "hackernews:10b445005929"
+      ],
+      "dimensions": [
+        "safety",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-self-replication-risk"
+    },
+    {
+      "title": "Banks Try To Offload AI Datacenter Debt",
+      "itemIds": [
+        "hackernews:6ab4ba1e1cde",
+        "hackernews:fa9bd89576a0"
+      ],
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-stock-bubble-risk"
+    },
+    {
+      "title": "Image AI Tools Still Easy To Trick Into Nudes",
+      "itemIds": [
+        "feeds:37d82df9fe7c"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-nude-safeguard-failures"
+    },
+    {
+      "title": "AI Shows Up On Both Sides Of Hiring",
+      "itemIds": [
+        "feeds:a135ef26b5e8",
+        "feeds:6f8ce0765a38"
+      ],
+      "dimensions": [
+        "labor",
+        "education",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-job-market-both-sides"
+    }
+  ],
+  "brief": {
+    "concept": "An AI company discovers a hidden recorder inside its own meeting room and presses spy charges against an engineer, while the very same company is sued by eight states for failing to keep children safe on its chatbot.",
+    "metaphor": "The company watches its own walls for a spy but leaves its front door, where children use its chatbot, unguarded.",
+    "cast": [
+      {
+        "who": "a human worker tucking a small recording device into a roll of paper",
+        "kind": "person"
+      },
+      {
+        "who": "a company building pointing a giant magnifying glass inward at its own meeting room",
+        "kind": "institution"
+      },
+      {
+        "who": "a chatbot speech bubble with a cracked shield propped in front of it",
+        "kind": "ai"
+      },
+      {
+        "who": "a stack of legal documents stamped with eight small official seals",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Split the scene down the middle of one long company building. Left half: a cutaway meeting room where a magnifying-glass beam from the building's eye points at a worker hiding a recorder in a paper roll on a table. Right half: the same building's other side holds a large chatbot speech bubble with a cracked shield in front of it, and a stack of papers stamped with eight seals leaning against the wall. Keep to these four elements; minimal text.",
+    "artType": "static",
+    "alt": "A single company building is split in half. On one side, it shines a magnifying glass into its own meeting room, where a worker hides a small recorder inside a roll of paper. On the other side, a chatbot speech bubble stands behind a cracked shield next to a stack of legal papers stamped with eight seals."
+  },
+  "sources": [
+    {
+      "id": "feeds:75aa40e09bad",
+      "title": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
+      "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-10-14T16:41:49.000Z"
+    },
+    {
+      "id": "feeds:7e04e8ad3130",
+      "title": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
+      "url": "https://www.bbc.co.uk/news/articles/cm04054ykqqqo?at_medium=RSS&at_campaign=rss",
+      "source": "feeds",
+      "publisher": "BBC News",
+      "publishedAt": "2026-10-14T15:54:04.000Z"
+    },
+    {
+      "id": "feeds:e2c2841e6169",
+      "title": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-14T21:11:28.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.29,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-15T11:32:39.451Z"
+}

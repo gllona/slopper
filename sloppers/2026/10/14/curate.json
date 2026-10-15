@@ -1,0 +1,194 @@
+{
+  "topStories": [
+    {
+      "title": "Eight States Sue OpenAI Over Child Safety",
+      "itemIds": [
+        "feeds:e2c2841e6169"
+      ],
+      "dimensions": [
+        "law",
+        "policy",
+        "society",
+        "education"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "teen-chatbot-safety-risk"
+    },
+    {
+      "title": "Hidden Recorder Leads To Spy Charges For AI Engineer",
+      "itemIds": [
+        "feeds:75aa40e09bad",
+        "feeds:7e04e8ad3130"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "openai-engineer-spy-case"
+    },
+    {
+      "title": "Self-Replication Warning Meets Security Skepticism",
+      "itemIds": [
+        "feeds:ea9491c23d8d",
+        "hackernews:9fb3a1527c69",
+        "hackernews:10b445005929"
+      ],
+      "dimensions": [
+        "safety",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-self-replication-risk"
+    },
+    {
+      "title": "Banks Try To Offload AI Datacenter Debt",
+      "itemIds": [
+        "hackernews:6ab4ba1e1cde",
+        "hackernews:fa9bd89576a0"
+      ],
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-stock-bubble-risk"
+    },
+    {
+      "title": "Image AI Tools Still Easy To Trick Into Nudes",
+      "itemIds": [
+        "feeds:37d82df9fe7c"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-nude-safeguard-failures"
+    },
+    {
+      "title": "AI Shows Up On Both Sides Of Hiring",
+      "itemIds": [
+        "feeds:a135ef26b5e8",
+        "feeds:6f8ce0765a38"
+      ],
+      "dimensions": [
+        "labor",
+        "education",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-job-market-both-sides"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "openai-engineer-spy-case",
+      "title": "The Hidden Recorder And The Spy Charges",
+      "dimensions": [
+        "safety",
+        "law",
+        "policy"
+      ],
+      "motifs": [
+        "a magnifying glass pointed at a company's own meeting room",
+        "a tiny recorder hidden inside a roll of paper",
+        "a locked door guarded from outside but open from within"
+      ]
+    },
+    {
+      "id": "ai-nude-safeguard-failures",
+      "title": "Image AI Safeguards Keep Failing",
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "motifs": [
+        "a cracked shield in front of a chatbot speech bubble",
+        "a padlock dangling open beside an image frame"
+      ]
+    },
+    {
+      "id": "ai-job-market-both-sides",
+      "title": "AI On Both Sides Of The Job Interview",
+      "dimensions": [
+        "labor",
+        "education",
+        "society"
+      ],
+      "motifs": [
+        "a human sitting across from a chatbot interviewer",
+        "a resume stack half-written by a robot hand"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Two top stories (eight states suing over child safety, and the engineer's spy-charge arrest) each score relevance 12, clearing the fresh threshold of 8, so today stands on its own rather than following yesterday's bankruptcy story.",
+  "motto": "Watching The Wrong Thing",
+  "phrase": "A hidden recorder turned up in an AI company's meeting room, and an engineer now faces spy charges. The same company is being sued by eight states over child safety.",
+  "phraseAlternatives": [
+    "One safety team warned that small AI models could copy themselves through smart devices. Critics said the bigger risk is that basic security is still missing.",
+    "Researchers showed it is still easy to trick two major image AI tools into making non-consensual nude pictures.",
+    "One company now lets AI question its own job applicants. Nearby, job seekers increasingly use AI to make their resumes look better than they are."
+  ],
+  "brief": {
+    "concept": "An AI company discovers a hidden recorder inside its own meeting room and presses spy charges against an engineer, while the very same company is sued by eight states for failing to keep children safe on its chatbot.",
+    "metaphor": "The company watches its own walls for a spy but leaves its front door, where children use its chatbot, unguarded.",
+    "cast": [
+      {
+        "who": "a human worker tucking a small recording device into a roll of paper",
+        "kind": "person"
+      },
+      {
+        "who": "a company building pointing a giant magnifying glass inward at its own meeting room",
+        "kind": "institution"
+      },
+      {
+        "who": "a chatbot speech bubble with a cracked shield propped in front of it",
+        "kind": "ai"
+      },
+      {
+        "who": "a stack of legal documents stamped with eight small official seals",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Split the scene down the middle of one long company building. Left half: a cutaway meeting room where a magnifying-glass beam from the building's eye points at a worker hiding a recorder in a paper roll on a table. Right half: the same building's other side holds a large chatbot speech bubble with a cracked shield in front of it, and a stack of papers stamped with eight seals leaning against the wall. Keep to these four elements; minimal text.",
+    "artType": "static",
+    "alt": "A single company building is split in half. On one side, it shines a magnifying glass into its own meeting room, where a worker hides a small recorder inside a roll of paper. On the other side, a chatbot speech bubble stands behind a cracked shield next to a stack of legal papers stamped with eight seals."
+  },
+  "sourceIds": [
+    "feeds:75aa40e09bad",
+    "feeds:7e04e8ad3130",
+    "feeds:e2c2841e6169"
+  ],
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 2,
+    "labor": 2,
+    "policy": 2,
+    "law": 3,
+    "safety": 3,
+    "society": 3,
+    "education": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
