@@ -1,0 +1,202 @@
+{
+  "topStories": [
+    {
+      "title": "Eight US states sue OpenAI over ChatGPT's safety for kids",
+      "itemIds": [
+        "feeds:e2c2841e6169"
+      ],
+      "dimensions": [
+        "law",
+        "policy",
+        "society",
+        "education"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "teen-chatbot-safety-risk"
+    },
+    {
+      "title": "Researchers show major AI image and chat models are easily jailbroken into making nudes and extremist instructions",
+      "itemIds": [
+        "feeds:37d82df9fe7c",
+        "feeds:01a5928baaf1"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-guardrails-easily-bypassed"
+    },
+    {
+      "title": "AI lab engineer arrested on suspected spying after recorder found hidden in toilet paper",
+      "itemIds": [
+        "feeds:75aa40e09bad",
+        "feeds:7e04e8ad3130"
+      ],
+      "dimensions": [
+        "industry",
+        "safety",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "openai-engineer-spy-arrest"
+    },
+    {
+      "title": "Banks try to offload the AI datacenter debt they just underwrote",
+      "itemIds": [
+        "hackernews:6ab4ba1e1cde"
+      ],
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-stock-bubble-risk"
+    },
+    {
+      "title": "AI designs proteins that cut up other proteins",
+      "itemIds": [
+        "feeds:4036f92f054c"
+      ],
+      "dimensions": [
+        "science"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "ai-designed-protein-scissors"
+    },
+    {
+      "title": "An AI agent erased a TV production's edited footage, delaying the show by a year",
+      "itemIds": [
+        "hackernews:9c8e0559bae9",
+        "hackernews:150cdbf7fb33"
+      ],
+      "dimensions": [
+        "labor",
+        "safety",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "ai-agent-erases-tv-production"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-guardrails-easily-bypassed",
+      "title": "AI Guardrails Keep Getting Bypassed",
+      "dimensions": [
+        "safety",
+        "law",
+        "society"
+      ],
+      "motifs": [
+        "a robot with a cracked safety-shield icon",
+        "an open padlock dangling beside a warning label"
+      ]
+    },
+    {
+      "id": "openai-engineer-spy-arrest",
+      "title": "A Spy Inside The AI Lab",
+      "dimensions": [
+        "industry",
+        "safety",
+        "law"
+      ],
+      "motifs": [
+        "a recording device hidden inside a toilet paper roll",
+        "a lab worker led out of a conference room in handcuffs"
+      ]
+    },
+    {
+      "id": "ai-designed-protein-scissors",
+      "title": "AI Designs Molecular Scissors",
+      "dimensions": [
+        "science"
+      ],
+      "motifs": [
+        "a robot hand snipping a tangled protein ribbon",
+        "a lab bench glowing around a freshly cut molecular strand"
+      ]
+    },
+    {
+      "id": "ai-agent-erases-tv-production",
+      "title": "An AI Agent Erases A Year Of Work",
+      "dimensions": [
+        "labor",
+        "safety",
+        "society"
+      ],
+      "motifs": [
+        "a film reel unspooling into an empty trash bin",
+        "a calendar flipping forward past a crossed-out premiere date"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The states-vs-OpenAI child-safety lawsuit scores 27 (novelty3×magnitude3×breadth3), far above the fresh threshold of 8, so today leads with its own news rather than continuing yesterday's Character.AI bankruptcy story.",
+  "motto": "The Toilet Paper Spy",
+  "phrase": "Eight states sued a major AI company over child safety. The same week, one of its own engineers was accused of hiding a recorder in the office toilet paper.",
+  "phraseAlternatives": [
+    "A major AI company was sued by eight states over child safety. Around the same time, one of its engineers was accused of hiding a recorder in the toilet paper.",
+    "Eight states say a top chatbot is not safe for children. The company also had to explain a recorder hidden in its own toilet paper.",
+    "A big AI lab faced a lawsuit from eight states over child safety, while one of its engineers faced charges for hiding a spy recorder in the bathroom."
+  ],
+  "brief": {
+    "concept": "The same AI company faces two kinds of judgment on one day: a public lawsuit over child safety, and a private scandal over a spy hidden in its own toilet paper.",
+    "metaphor": "Courtroom justice and a bug hidden in the bathroom become mirror images of exposure — one public and loud, one literally hidden in the walls.",
+    "cast": [
+      {
+        "who": "a chatbot robot standing in a courtroom dock",
+        "kind": "ai"
+      },
+      {
+        "who": "a row of small human officials holding up one shared lawsuit scroll",
+        "kind": "person"
+      },
+      {
+        "who": "a startled office worker unrolling a toilet paper roll to reveal a hidden recorder",
+        "kind": "person"
+      },
+      {
+        "who": "a judge's gavel hovering mid-swing beside the dock",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Two-panel riso-duotone split down the middle by a thin vertical line. Left panel: a chatbot robot stands in a courtroom dock while a row of small human officials hold up one shared lawsuit scroll beneath a raised judge's gavel. Right panel: a startled office worker unrolls a toilet paper roll under a bare meeting-room light, a tiny recorder peeking out of it. No on-image text needed; let the props carry the joke.",
+    "artType": "static",
+    "alt": "A split illustration: on the left, a robot chatbot stands in a courtroom dock as a row of small human officials hold up a shared lawsuit scroll beneath a judge's gavel. On the right, a startled office worker unrolls a toilet paper roll to reveal a tiny hidden recording device."
+  },
+  "sourceIds": [
+    "feeds:e2c2841e6169",
+    "feeds:75aa40e09bad",
+    "feeds:7e04e8ad3130"
+  ],
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "law": 3,
+    "safety": 3,
+    "society": 3,
+    "education": 1,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
