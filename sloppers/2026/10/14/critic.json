@@ -1,0 +1,101 @@
+{
+  "passed": false,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"bot\" extends outside the safe area in the final frame (x 58…310, y 312…799)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 2,
+          "style": 3,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 4
+        },
+        "verdict": "The toilet-paper/recorder prop merges into the wrong figure and leaves the worker empty-handed, the panel split renders as a horizontal sky/sand line instead of the vertical courtroom/office divide, and the gavel and scroll float with no supporting dock — the right-side punchline is essentially unreadable, so this doesn't pass.",
+        "revisionNotes": [
+          "Reposition the tproll (toilet roll + recorder) to attach cleanly to the worker (x≈0.72) instead of overlapping/merging with the official near the robot — the recorder prop is buried under the official's sign and the worker is left empty-handed, so the right-panel punchline doesn't read.",
+          "Background renders as a horizontal sky/sand split, not the specified vertical two-panel split down the middle — switch to a vertical divider so courtroom (left) and office (right) read as two distinct scenes.",
+          "The lawsuit scroll is just a blank floating rectangle with no scroll shape or dock structure around the robot — shape it like a rolled scroll and add a light dock/box frame behind the robot.",
+          "The gavel floats alone in empty sky with no bench or dock to swing over — move it to roughly x=0.3, y=0.35, directly above/beside the robot's dock.",
+          "Shift 'bot' anchor from x=0.17 to x≈0.22 — lint flags it crowding the left safe margin (x 58–310).",
+          "Give the worker a clear two-handed 'unrolling' pose holding the toilet roll instead of an empty shrug, so the prop and the character match."
+        ]
+      },
+      "average": 2.71,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"tproll\" (raw) was moved -84 px, 0 px to stay inside the artboard",
+          "\"tproll\" extends outside the safe area in the final frame (x 946…1063, y 513…696)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Correct casting (robot for AI, humans for people) but the courtroom and toilet-paper gags both fail to read: the gavel/scroll are unidentifiable floating shapes, the dock is hidden behind the robot, the toilet roll is clipped off the safe area, and the recorder reveal is invisible — this doesn't clear the bar for publishing today.",
+        "revisionNotes": [
+          "The \"tproll\" is clipped by the right edge (lint: x 946–1063 outside safe area) — anchor it at x:0.65 and scale to 0.8 so the whole roll and its recorder sit inside the frame.",
+          "The official and worker reach across the central divider and hold hands, which breaks the two-panel split and reads as an unrelated family moment — remove the cross-divider hand link so each panel stays self-contained.",
+          "The \"gavel\" and \"scroll\" raw shapes are unreadable (look like a lipstick and a pill bottle floating in empty sky) — redraw the gavel with a clear mallet head and handle, hovering beside the dock mid-swing, and attach the scroll directly above the official's raised hands instead of floating free.",
+          "The \"dock\" courtroom box is invisible behind the robot's legs — raise the dock's front rail above the robot's base or widen its margins so the box reads as a distinct courtroom prop.",
+          "No recorder is visible in the toilet-paper roll, so the right panel's reveal gag doesn't land — add a small dark recorder with a blinking light peeking out of the tube opening.",
+          "The center-divider split with mirrored robot/human figures repeats a layout seen in several recent sloppers (blue two-figure splits, RISK-vs-AI panel) — try a different panel treatment such as a horizontal or diagonal split for more novelty."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 4,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "Fails: the scroll prop critical to the \"lawsuit\" half never renders and the official's cheering pose reads as celebration rather than litigation, so the top panel doesn't convey a child-safety lawsuit within 3 seconds; the gavel and hidden recorder are also too ambiguous to parse quickly.",
+        "revisionNotes": [
+          "The scroll prop attached to 'official' isn't rendering in the final frame — the raised hands point at empty cream background instead of a lawsuit scroll, which guts the top half's joke entirely. Fix the attachment so it actually appears above the hands.",
+          "Swap official's mood/pose from 'proud'/'cheer' to something sterner (e.g. 'stern' + 'present', arms raising a scroll overhead rather than raised empty in celebration) — a victory-cheer pose reads as winning a prize, not filing a child-safety lawsuit.",
+          "Redesign the 'gavel' raw shape: give it a clear rectangular mallet head distinct from a thin round handle instead of the current pink paddle/flag silhouette at scale 1, rotate -25, which doesn't read as a judge's gavel at a glance.",
+          "The 'dock' box reads as a bathtub or crib, not a courtroom witness stand — add vertical bar/paneling lines on the front rail and raise its height around the robot so the courtroom cue is unambiguous.",
+          "The recorder inside the toilet-paper roll (id tproll) is a plain nested circle that reads as a button or eye — add a small blinking red light and an antenna nub at scale ~1.0 so it unmistakably reads as a hidden recording device.",
+          "Top-left quadrant is nearly empty while the robot/gavel/official cluster sits center-right — shift the bot and dock group left-third (anchor x ~0.22) to balance the panel and fill the dead space."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    }
+  ]
+}
