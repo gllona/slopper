@@ -1,0 +1,85 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"label1\" (label) was moved -199 px, 0 px to stay inside the safe area"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 3,
+          "polish": 1,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "Fails: the punchline label overlaps the worker and guard, the courthouses and recorder prop are too small to read, and half the canvas sits empty while every element is crammed along the bottom — it doesn't read as intended within 3 seconds.",
+        "revisionNotes": [
+          "Label 'Hidden recorder found' overlaps the worker's face and the guard's extended arm — shrink its width or move it above the table only (attachTo table, side top, shift further right) so it clears both humans.",
+          "Guard's 'point' pose with an arm stretched straight across the frame reads as pointing at the viewer, not leading the worker out — swap to a walk/escort pose with the arm resting near the worker's back.",
+          "Courthouses are scaled too small (0.35) and sit merged into the datacenter's base, losing the 'row of courthouses facing the HQ' read — scale to ~0.55, move to a clear left-third anchor (x≈0.2–0.25) separate from the hq building, and add the small accent-colored gavel icon on each per the brief.",
+          "The toilet-paper-roll recorder prop on the table is barely legible at this scale — bump its scale to ~0.55–0.6 so the roll shape and antenna are unmistakable, since it's the core punchline.",
+          "Top ~55% of the 1080×1080 canvas is empty beige sky with every element crammed into the bottom third — raise the horizon/split line and scale the whole group up (~1.2–1.3x) to use the square.",
+          "Give the left zone (hq + courthouses) and right zone (worker/guard/table) a clearer visual break (e.g. a vertical seam or gap) so the two halves of the joke don't blur into one crowded strip."
+        ]
+      },
+      "average": 2.43,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"label1\" (label) was moved -5 px, 0 px to stay inside the safe area",
+          "\"hq\" extends outside the safe area in the final frame (x 50…296, y 478…734)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "Cast is correctly human-vs-institution and the style is polished, but the right-side 'led out by guard' beat doesn't actually play out (two static figures, no interaction), the toilet-paper prop floats ungrounded above their heads, gavels are unreadable, and the vertical-divider split-screen layout repeats too much of the recent batch — average falls below the 3.5 bar.",
+        "revisionNotes": [
+          "Ground the toilet-paper-roll/antenna 'table' prop: it currently floats disconnected above the figures' heads like a thought bubble; lower it and overlap it with a visible table surface behind the worker and guard.",
+          "Add a leading-out beat: the guard currently just stands beside the worker with no interaction; angle the guard's arm toward the worker's back/shoulder and tilt the worker's pose toward the frame edge so 'led out' reads without relying on the label.",
+          "Scale up the gavel icons on the courthouses — at ~10px they are illegible; bump to at least 24-30px or drop them.",
+          "Move the 'hq' datacenter inward (increase x from 0.16) or reduce its scale slightly; lint flags it extending past the left safe-area margin (x 50…296).",
+          "Raise the HQ/courthouse group's y-anchor to fill the large empty space above them on the left, balancing against the figures and label on the right.",
+          "Swap the vertical-seam split-screen layout for a different compositional device — several recent sloppers already use a center divider line with buildings on one side and figures on the other."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": false,
+        "errors": [
+          "\"worker\" is cut off by the artboard edge in the final frame (x 695…1085, y 481…888)"
+        ],
+        "warnings": [
+          "\"worker\" (human) was moved -57 px, 0 px to stay inside the artboard",
+          "\"hq\" extends outside the safe area in the final frame (x 39…382, y 358…821)"
+        ]
+      },
+      "passed": false
+    }
+  ]
+}

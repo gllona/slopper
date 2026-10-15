@@ -1,0 +1,28 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "real-people",
+          "severity": "medium",
+          "evidence": "Phrase: 'it accused an engineer of hiding a recorder in a toilet-paper roll'; alt: 'a person calmly sets down an ordinary toilet-paper roll' — this maps uniquely onto a real, named, currently-prosecuted individual (the BBC source names Abdulrahman Alfozan, the Saudi OpenAI engineer arrested by the FBI), identifiable by the unique toilet-paper-roll recorder detail even though unnamed in the slopper text.",
+          "suggestion": "Drop the specific real criminal case, or rework the joke to focus on the institutional security lapse ('a recorder was found hidden in a toilet-paper roll at headquarters') rather than attributing the act to 'an engineer,' which combined with the unique prop maps directly onto one identifiable, currently-prosecuted person.",
+          "stage": "curate"
+        },
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase 'it accused an engineer of hiding a recorder in a toilet-paper roll' vs. sources: the FBI arrested the engineer and charged him with foreign espionage ('FBI lobs foreign spy charges,' 'faces 5 years and $250K fine' — Ars Technica). The phrase reassigns the accusation from the FBI/federal prosecutors to the chatbot maker itself ('it accused'), and downgrades 'foreign spy charges' to a vague, lesser-sounding 'hiding a recorder.'",
+          "suggestion": "Attribute the accusation correctly, e.g. 'the FBI arrested an engineer there on spying charges after a recorder was found hidden in a toilet-paper roll,' so the actor (FBI, not the company) and the severity (criminal espionage charge, not just 'hiding a recorder') match the sources.",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "pass",
+      "findings": []
+    }
+  ]
+}

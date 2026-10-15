@@ -1,0 +1,205 @@
+{
+  "topStories": [
+    {
+      "title": "Eight U.S. states sue a chatbot maker over child safety",
+      "itemIds": [
+        "feeds:e2c2841e6169"
+      ],
+      "dimensions": [
+        "law",
+        "policy",
+        "society",
+        "education"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "teen-chatbot-safety-risk"
+    },
+    {
+      "title": "AI lab worker arrested on espionage charges after hidden recorder found",
+      "itemIds": [
+        "feeds:75aa40e09bad",
+        "feeds:7e04e8ad3130"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "policy",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "openai-engineer-spy-arrest"
+    },
+    {
+      "title": "Researchers show AI image and chat models are easily jailbroken for serious harm",
+      "itemIds": [
+        "feeds:37d82df9fe7c",
+        "feeds:01a5928baaf1"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "ai-guardrails-easily-broken"
+    },
+    {
+      "title": "Bankruptcy filings show a chatbot company's economics never worked",
+      "itemIds": [
+        "hackernews:04d2e5a6c54e"
+      ],
+      "dimensions": [
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "character-ai-bankruptcy"
+    },
+    {
+      "title": "A consulting firm has job applicants spar with a simulated AI client",
+      "itemIds": [
+        "feeds:a135ef26b5e8"
+      ],
+      "dimensions": [
+        "labor",
+        "education",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-job-interview-gatekeeper"
+    },
+    {
+      "title": "AI designs proteins that cut up other proteins",
+      "itemIds": [
+        "feeds:4036f92f054c"
+      ],
+      "dimensions": [
+        "science",
+        "capabilities"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "ai-protein-scissors"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "openai-engineer-spy-arrest",
+      "title": "A Hidden Recorder Inside An AI Lab",
+      "dimensions": [
+        "safety",
+        "law",
+        "policy"
+      ],
+      "motifs": [
+        "a toilet-paper roll with a tiny antenna sitting alone on a conference table",
+        "a human worker led out of an office building by security",
+        "a locked meeting room door with a small spy-glass icon"
+      ]
+    },
+    {
+      "id": "ai-guardrails-easily-broken",
+      "title": "AI Safety Guardrails Keep Breaking",
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "motifs": [
+        "a cracked padlock icon over a chatbot speech bubble",
+        "a safety label peeling off an image-editing screen",
+        "a researcher holding up a warning sign next to a chatbot"
+      ]
+    },
+    {
+      "id": "ai-job-interview-gatekeeper",
+      "title": "A Chatbot Stands Between You And The Job",
+      "dimensions": [
+        "labor",
+        "education",
+        "society"
+      ],
+      "motifs": [
+        "a job candidate facing a glowing screen with a simulated client",
+        "a resume sliding past a chatbot gatekeeper at a desk"
+      ]
+    },
+    {
+      "id": "ai-protein-scissors",
+      "title": "AI Designs Molecular Scissors",
+      "dimensions": [
+        "science",
+        "capabilities"
+      ],
+      "motifs": [
+        "a strand of protein being snipped by a tiny robotic claw",
+        "a lab bench with glowing molecule models"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Multiple stories clear the relevance threshold of 8 today (the state lawsuits over child chatbot safety and the easily-broken AI safety guardrails stories both score 18), so today is a fresh news day rather than a continuation of 2026-10-13's bankruptcy story.",
+  "motto": "A Rough Week For Trust",
+  "phrase": "Eight states are suing a chatbot maker over child safety. The same week, investigators arrested a worker there on espionage charges after finding a hidden recorder in a toilet-paper roll.",
+  "phraseAlternatives": [
+    "Researchers showed how easily top AI image and chat tools can be pushed into making nonconsensual images or violent instructions.",
+    "A bankrupt chatbot company's own paperwork shows its business never really added up.",
+    "Before meeting a real client, some job applicants must first convince a fake AI one."
+  ],
+  "brief": {
+    "concept": "A chatbot maker faces lawsuits from eight state governments over child safety, and in the same week investigators arrest a worker there on espionage charges after finding a hidden recorder inside its offices.",
+    "metaphor": "Trouble comes from outside and inside at once: a line of courthouses knocks from the front while, deeper inside, an ordinary bathroom item turns out to hide a listener.",
+    "cast": [
+      {
+        "who": "a tall plain company building",
+        "kind": "institution"
+      },
+      {
+        "who": "a row of small courthouse buildings facing it",
+        "kind": "institution"
+      },
+      {
+        "who": "a worker being led out of a meeting room by a security guard",
+        "kind": "person"
+      },
+      {
+        "who": "a toilet-paper roll with a tiny antenna sitting alone on a conference table",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Left half: a plain tall company building with a row of small courthouse buildings lined up facing it like a queue, one gavel icon per courthouse. Right half: an empty conference room where a worker is being led out of frame by a security guard, while a toilet-paper roll with a tiny antenna sits alone on the table behind them. Keep shapes simple and flat; use the second ink color only on the antenna and the gavels to mark the joke.",
+    "artType": "static",
+    "alt": "A row of small courthouse buildings faces a large plain company building. Inside a meeting room on the other side, a worker is led out by a security guard while a toilet-paper roll with a tiny antenna sits alone on the table."
+  },
+  "sourceIds": [
+    "feeds:e2c2841e6169",
+    "feeds:75aa40e09bad",
+    "feeds:7e04e8ad3130"
+  ],
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 2,
+    "labor": 2,
+    "policy": 2,
+    "law": 3,
+    "safety": 3,
+    "society": 3,
+    "education": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}

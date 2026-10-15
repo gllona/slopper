@@ -1,0 +1,114 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {},
+  "elements": [
+    {
+      "id": "seam",
+      "component": "raw",
+      "at": {
+        "x": 0.504,
+        "y": 0.52
+      },
+      "scale": 1,
+      "props": {
+        "width": 10,
+        "height": 880
+      },
+      "svg": "<line class=\"r-thin\" x1=\"5\" y1=\"0\" x2=\"5\" y2=\"880\"/>"
+    },
+    {
+      "id": "hq",
+      "component": "datacenter",
+      "at": {
+        "x": 0.16,
+        "y": 0.68
+      },
+      "scale": 0.72,
+      "props": {
+        "racks": 3,
+        "lights": "on",
+        "steam": false,
+        "fans": false
+      }
+    },
+    {
+      "id": "courthouses",
+      "component": "raw",
+      "at": {
+        "x": 0.38,
+        "y": 0.6074
+      },
+      "scale": 0.6,
+      "props": {
+        "width": 310,
+        "height": 260
+      },
+      "svg": "<g transform=\"translate(0,0)\"><polygon class=\"r-body-alt\" points=\"0,150 75,95 150,150\"/><rect class=\"r-paper\" x=\"10\" y=\"150\" width=\"130\" height=\"90\"/><line class=\"r-line\" x1=\"35\" y1=\"150\" x2=\"35\" y2=\"240\"/><line class=\"r-line\" x1=\"65\" y1=\"150\" x2=\"65\" y2=\"240\"/><line class=\"r-line\" x1=\"95\" y1=\"150\" x2=\"95\" y2=\"240\"/><line class=\"r-line\" x1=\"125\" y1=\"150\" x2=\"125\" y2=\"240\"/><rect class=\"r-shade\" x=\"0\" y=\"240\" width=\"150\" height=\"14\"/><rect class=\"r-accent\" x=\"62\" y=\"65\" width=\"26\" height=\"10\" rx=\"4\"/><rect class=\"r-accent\" x=\"70\" y=\"48\" width=\"10\" height=\"26\" rx=\"4\"/></g><g transform=\"translate(160,0)\"><polygon class=\"r-body-alt\" points=\"0,150 75,95 150,150\"/><rect class=\"r-paper\" x=\"10\" y=\"150\" width=\"130\" height=\"90\"/><line class=\"r-line\" x1=\"35\" y1=\"150\" x2=\"35\" y2=\"240\"/><line class=\"r-line\" x1=\"65\" y1=\"150\" x2=\"65\" y2=\"240\"/><line class=\"r-line\" x1=\"95\" y1=\"150\" x2=\"95\" y2=\"240\"/><line class=\"r-line\" x1=\"125\" y1=\"150\" x2=\"125\" y2=\"240\"/><rect class=\"r-shade\" x=\"0\" y=\"240\" width=\"150\" height=\"14\"/><rect class=\"r-accent\" x=\"62\" y=\"65\" width=\"26\" height=\"10\" rx=\"4\"/><rect class=\"r-accent\" x=\"70\" y=\"48\" width=\"10\" height=\"26\" rx=\"4\"/></g>"
+    },
+    {
+      "id": "table",
+      "component": "raw",
+      "at": {
+        "x": 0.7,
+        "y": 0.205
+      },
+      "scale": 0.58,
+      "props": {
+        "width": 280,
+        "height": 220
+      },
+      "svg": "<rect class=\"r-body-alt\" x=\"20\" y=\"160\" width=\"240\" height=\"20\" rx=\"6\"/><rect class=\"r-line\" x=\"40\" y=\"180\" width=\"14\" height=\"36\"/><rect class=\"r-line\" x=\"226\" y=\"180\" width=\"14\" height=\"36\"/><rect class=\"r-paper\" x=\"100\" y=\"90\" width=\"80\" height=\"70\" rx=\"20\"/><ellipse class=\"r-shade\" cx=\"140\" cy=\"125\" rx=\"18\" ry=\"24\"/><line class=\"r-line\" x1=\"140\" y1=\"90\" x2=\"140\" y2=\"40\"/><circle class=\"r-accent\" cx=\"140\" cy=\"36\" r=\"10\"/>"
+    },
+    {
+      "id": "worker",
+      "component": "human",
+      "at": {
+        "x": 0.63,
+        "y": 0.68
+      },
+      "scale": 0.95,
+      "props": {
+        "mood": "worried",
+        "pose": "stand",
+        "color": "body",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "guard",
+      "component": "human",
+      "at": {
+        "x": 0.84,
+        "y": 0.68
+      },
+      "scale": 1,
+      "props": {
+        "mood": "neutral",
+        "pose": "stand",
+        "color": "body",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "label1",
+      "component": "label",
+      "at": {
+        "x": 0.69,
+        "y": 0.11
+      },
+      "attachTo": "table",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "Hidden recorder found",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "A tall plain company building faces a short row of small courthouses, each topped with a tiny pink gavel icon. To the side, a guard leads a worried worker away from an empty table, where an ordinary toilet-paper roll with a small antenna sits alone, labeled \"Hidden recorder found.\""
+}

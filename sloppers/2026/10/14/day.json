@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-14",
+  "number": 15,
+  "mode": "fresh",
+  "motto": "A Rough Week For Trust",
+  "phrase": "Eight states are suing a chatbot maker over child safety. The same week, investigators arrested a worker there on espionage charges after finding a hidden recorder in a toilet-paper roll.",
+  "phraseAlternatives": [
+    "Researchers showed how easily top AI image and chat tools can be pushed into making nonconsensual images or violent instructions.",
+    "A bankrupt chatbot company's own paperwork shows its business never really added up.",
+    "Before meeting a real client, some job applicants must first convince a fake AI one."
+  ],
+  "alt": "A tall plain company building faces a short row of small courthouses, each topped with a tiny pink gavel icon. To the side, a guard leads a worried worker away from an empty table, where an ordinary toilet-paper roll with a small antenna sits alone, labeled \"Hidden recorder found.\"",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 2,
+    "labor": 2,
+    "policy": 2,
+    "law": 3,
+    "safety": 3,
+    "society": 3,
+    "education": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "teen-chatbot-safety-risk",
+    "openai-engineer-spy-arrest",
+    "ai-guardrails-easily-broken",
+    "character-ai-bankruptcy",
+    "ai-job-interview-gatekeeper",
+    "ai-protein-scissors"
+  ],
+  "topStories": [
+    {
+      "title": "Eight U.S. states sue a chatbot maker over child safety",
+      "itemIds": [
+        "feeds:e2c2841e6169"
+      ],
+      "dimensions": [
+        "law",
+        "policy",
+        "society",
+        "education"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "teen-chatbot-safety-risk"
+    },
+    {
+      "title": "AI lab worker arrested on espionage charges after hidden recorder found",
+      "itemIds": [
+        "feeds:75aa40e09bad",
+        "feeds:7e04e8ad3130"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "policy",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "openai-engineer-spy-arrest"
+    },
+    {
+      "title": "Researchers show AI image and chat models are easily jailbroken for serious harm",
+      "itemIds": [
+        "feeds:37d82df9fe7c",
+        "feeds:01a5928baaf1"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "ai-guardrails-easily-broken"
+    },
+    {
+      "title": "Bankruptcy filings show a chatbot company's economics never worked",
+      "itemIds": [
+        "hackernews:04d2e5a6c54e"
+      ],
+      "dimensions": [
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "character-ai-bankruptcy"
+    },
+    {
+      "title": "A consulting firm has job applicants spar with a simulated AI client",
+      "itemIds": [
+        "feeds:a135ef26b5e8"
+      ],
+      "dimensions": [
+        "labor",
+        "education",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-job-interview-gatekeeper"
+    },
+    {
+      "title": "AI designs proteins that cut up other proteins",
+      "itemIds": [
+        "feeds:4036f92f054c"
+      ],
+      "dimensions": [
+        "science",
+        "capabilities"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "ai-protein-scissors"
+    }
+  ],
+  "brief": {
+    "concept": "A chatbot maker faces lawsuits from eight state governments over child safety, and in the same week investigators arrest a worker there on espionage charges after finding a hidden recorder inside its offices.",
+    "metaphor": "Trouble comes from outside and inside at once: a line of courthouses knocks from the front while, deeper inside, an ordinary bathroom item turns out to hide a listener.",
+    "cast": [
+      {
+        "who": "a tall plain company building",
+        "kind": "institution"
+      },
+      {
+        "who": "a row of small courthouse buildings facing it",
+        "kind": "institution"
+      },
+      {
+        "who": "a worker being led out of a meeting room by a security guard",
+        "kind": "person"
+      },
+      {
+        "who": "a toilet-paper roll with a tiny antenna sitting alone on a conference table",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Left half: a plain tall company building with a row of small courthouse buildings lined up facing it like a queue, one gavel icon per courthouse. Right half: an empty conference room where a worker is being led out of frame by a security guard, while a toilet-paper roll with a tiny antenna sits alone on the table behind them. Keep shapes simple and flat; use the second ink color only on the antenna and the gavels to mark the joke.",
+    "artType": "static",
+    "alt": "A row of small courthouse buildings faces a large plain company building. Inside a meeting room on the other side, a worker is led out by a security guard while a toilet-paper roll with a tiny antenna sits alone on the table."
+  },
+  "sources": [
+    {
+      "id": "feeds:e2c2841e6169",
+      "title": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-14T21:11:28.000Z"
+    },
+    {
+      "id": "feeds:75aa40e09bad",
+      "title": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
+      "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-10-14T16:41:49.000Z"
+    },
+    {
+      "id": "feeds:7e04e8ad3130",
+      "title": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
+      "url": "https://www.bbc.co.uk/news/articles/cm04054ykqqqo?at_medium=RSS&at_campaign=rss",
+      "source": "feeds",
+      "publisher": "BBC News",
+      "publishedAt": "2026-10-14T15:54:04.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 2.86,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-15T18:08:42.809Z"
+}
