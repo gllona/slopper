@@ -1,0 +1,212 @@
+{
+  "topStories": [
+    {
+      "title": "Regulators investigate OpenAI and Anthropic after AI risk was dismissed as a hoax",
+      "itemIds": [
+        "feeds:ff09edf07750"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "law",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ftc-ai-security-probe"
+    },
+    {
+      "title": "Top court rules that AI-generated child abuse images are real crimes, not a gray area",
+      "itemIds": [
+        "hackernews:69ed6763d9f7"
+      ],
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-csam-legal-precedent"
+    },
+    {
+      "title": "A chatbot's browser extension now reads your open tabs, and the company targets ads using your phone number and email",
+      "itemIds": [
+        "feeds:b8427233bceb",
+        "hackernews:5c7fbeb54643",
+        "hackernews:5d68de73f5b9"
+      ],
+      "dimensions": [
+        "society",
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "chatgpt-knows-everything"
+    },
+    {
+      "title": "A social network and a computer maker release a new open-weight AI model built to run on home computers",
+      "itemIds": [
+        "feeds:8845c0eef99a",
+        "feeds:8243c9a70d3f",
+        "hackernews:499fcbd081b8"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "Call center jobs keep shrinking even though humans still outperform AI on real calls",
+      "itemIds": [
+        "hackernews:3e3d62ddc0e9"
+      ],
+      "dimensions": [
+        "labor",
+        "capabilities"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "call-center-humans-outperform-ai"
+    },
+    {
+      "title": "AI-faked images spread everywhere, from celebrity posts to a world leader's own photo op",
+      "itemIds": [
+        "feeds:f2da7337d6e7",
+        "feeds:bae44bb837e7"
+      ],
+      "dimensions": [
+        "society",
+        "law",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-fake-images-spread-everywhere"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ftc-ai-security-probe",
+      "title": "Regulators Investigate AI Security Harms",
+      "dimensions": [
+        "policy",
+        "safety",
+        "law"
+      ],
+      "motifs": [
+        "a magnifying glass hovering over a cracked security shield",
+        "a stamp marked HOAX pressed over a warning label"
+      ]
+    },
+    {
+      "id": "ai-csam-legal-precedent",
+      "title": "Courts Rule AI-Made Abuse Images Are Real Crimes",
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "motifs": [
+        "a gavel coming down beside a glitching image icon",
+        "a courthouse scale weighing a screen against a law book"
+      ]
+    },
+    {
+      "id": "chatgpt-knows-everything",
+      "title": "A Chatbot Reaches Into Your Tabs And Your Ads",
+      "dimensions": [
+        "society",
+        "law",
+        "industry"
+      ],
+      "motifs": [
+        "a speech bubble peeking through a row of browser tabs",
+        "a targeted ad bubble stamped with a phone icon"
+      ]
+    },
+    {
+      "id": "call-center-humans-outperform-ai",
+      "title": "Humans Still Win The Phone Call",
+      "dimensions": [
+        "labor",
+        "capabilities"
+      ],
+      "motifs": [
+        "a human headset glowing beside a dimmer robot headset",
+        "a scoreboard favoring the human operator"
+      ]
+    },
+    {
+      "id": "ai-fake-images-spread-everywhere",
+      "title": "Fake AI Images Reach The Top",
+      "dimensions": [
+        "society",
+        "law",
+        "policy"
+      ],
+      "motifs": [
+        "a photo frame with a flickering glitch corner",
+        "a magnifying glass catching a pixel seam in an official photo"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Industry led the last three days, so non-industry stories only need relevance 5 to trigger fresh. The FTC-probe story (policy/safety/law) scores novelty 3 x magnitude 2 x breadth 3 = 18, well past that threshold.",
+  "motto": "The Hoax Investigation",
+  "phrase": "A government called AI's risks a hoax. Its own regulators are now checking if those risks already hurt people.",
+  "phraseAlternatives": [
+    "A government dismissed AI's dangers as a hoax. Its own watchdog is now checking if that hoax already hurt people.",
+    "One official called AI risk a hoax. The agency meant to protect the public is now investigating that same risk.",
+    "A hoax, said one government about AI danger. A formal probe, said its own regulators, about that same danger.",
+    "AI's risks were called a hoax by officials. Investigators work down the hall, checking if the hoax left real damage."
+  ],
+  "brief": {
+    "concept": "A government calls AI danger a hoax, while its own regulators quietly investigate whether that very danger already hurt people.",
+    "metaphor": "Denial and investigation side by side: a bold HOAX stamp sits right next to the cracked shield the regulators are inspecting.",
+    "cast": [
+      {
+        "who": "a government official pressing a large stamp marked HOAX onto a warning sign",
+        "kind": "person"
+      },
+      {
+        "who": "a second official holding a magnifying glass up to a cracked security shield",
+        "kind": "person"
+      },
+      {
+        "who": "a plain company building with the cracked shield mounted on its front",
+        "kind": "institution"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Blueprint-style technical scene on a grid. Left: a human official presses a large stamp reading HOAX over a yellow warning triangle. Right: a second human official holds a magnifying glass up to a cracked shield icon mounted on a plain building facade. A thin dotted line connects the HOAX stamp to the cracked shield, tying the denial to the inspection. One yellow highlight marks the crack in the shield as the visual punchline.",
+    "artType": "static",
+    "alt": "A government official presses a stamp reading HOAX onto a warning sign, while another official holds a magnifying glass up to a cracked security shield mounted on a plain company building, with a dotted line connecting the two scenes."
+  },
+  "sourceIds": [
+    "feeds:ff09edf07750"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 3,
+    "safety": 3,
+    "society": 3
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}

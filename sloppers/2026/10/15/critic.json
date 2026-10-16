@@ -1,0 +1,102 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"stamp\" (raw) was moved 39 px, 0 px to stay inside the artboard",
+          "\"hoax-label\" (label) was moved 42 px, 0 px to stay inside the safe area",
+          "\"stamp\" extends outside the safe area in the final frame (x 11…137, y 522…659)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "The blueprint palette and correct human/institution casting work, but a disconnected, clipped HOAX stamp, overlapping arms between the two officials, an isolated connector line, and a top-heavy empty composition keep the joke from landing cleanly, and the two-humans-plus-building layout feels close to recent pieces.",
+        "revisionNotes": [
+          "The stamp (raw, attached to official1) is clipped by the left safe-area edge per the lint warning (x 11-137) — move it right/scale to 0.7 so it sits fully inside the frame.",
+          "The stamp is a loose prop floating by the triangle; official1's hand doesn't touch it. Re-anchor the stamp to official1's held hand and overlap it onto the warning sign so the 'pressing' action actually reads.",
+          "official1's right arm and official2's torso overlap/merge at the shared boundary — widen the gap between official1 (x 0.38) and official2 (x 0.55) by ~0.05-0.08 or adjust arm angle to avoid the clip.",
+          "The connector dotted line sits isolated in empty sky at y 0.28 with nothing near it — drop it lower (y ~0.45-0.5) so it visibly runs from the stamp to the cracked shield, tying denial to investigation.",
+          "Top half of the 1080 square is empty background while all cast and props crowd the bottom third; rebalance by raising the building/shield group or enlarging the sign+stamp group vertically.",
+          "Cast and layout (two humans + institution building with shield icon, blueprint grid) closely echo several recent pieces — vary the focal prop or pose set (e.g., the shrug/point combo) to read as fresh."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "The denial-vs-investigation metaphor and human casting are solid, but a disconnected floating stamp, a near-empty top half of the frame, and a shield icon/blue-blueprint layout that closely echoes recent sloppers pull the average below the bar — fails today.",
+        "revisionNotes": [
+          "The stamp (and HOAX label) float unattached near official1's hand with no contact on the warning sign below — give official1 a 'holds: stamp' prop or reposition the stamp at scale ~0.65 so it visibly presses onto the triangle; right now the 'stamping' beat doesn't read.",
+          "Top ~40% of the frame (above y≈0.45) is empty blueprint grid with no elements — raise the building to a taller anchor (y offset further negative) or add a second prop up high so the square is used edge to edge, not just the bottom half.",
+          "Official2's pointing arm and the attached magnifying glass overlap at the same anchor, reading like a clipped extra limb — drop the 'point' pose's straight arm line or shorten it so only the magnifying glass prop extends toward the shield.",
+          "The cracked-shield icon on the building duplicates the shield graphic already used in a recent blue-blueprint slopper ('RISK' tile) — swap it for a different punchline prop (cracked gauge, cracked badge, cracked certificate) to avoid repeating the cast.",
+          "Four of the last twelve sloppers already use this exact blue-grid blueprint background with a building-plus-two-officials layout — vary palette or composition (e.g., cream background, different anchor layout) so this piece doesn't blend into the recent set.",
+          "Scale the warning sign (triangle) up slightly and anchor it directly under the stamp's downward motion so the denial beat (stamp over warning) reads as one connected action rather than two separate floating props."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"building\" (raw) was moved 0 px, -267 px to stay inside the artboard",
+          "\"building\" extends outside the safe area in the final frame (x 754…1014, y 226…1076)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 2,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The denial-vs-investigation idea is legible in outline, but the key investigating gesture (magnifying glass) never renders, the building clips past the safe margin, and the blueprint-plus-two-officials template repeats recent pieces closely enough to feel familiar rather than fresh.",
+        "revisionNotes": [
+          "Render the missing magnifying-glass prop on official2 (attachTo official2, side right) — it's specified in the scene but absent from the still, so the 'regulators checking' half of the joke has no visual action, just a worried bystander.",
+          "Reroute the dashed connector so it doesn't graze official2's head/cheek; anchor its right end at the glass tip instead of passing behind the face.",
+          "Shift 'building' left ~60-80px and/or scale it down slightly (currently 850px tall at scale 1) to clear the right and bottom safe-area margins flagged by the lint warnings.",
+          "Add a small AI cue (a chip/circuit glyph on the warning sign or shield) so the art signals 'AI risk' on its own, without relying on the caption.",
+          "This blueprint-rays background plus two flat-color humans and a building template closely echoes several of the last six sloppers; vary the background treatment (grid-only, no rays) or the layout (vertical stack instead of left-right triptych) to read as fresh."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    }
+  ]
+}
