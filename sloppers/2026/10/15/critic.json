@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"official\" extends outside the safe area in the final frame (x 51…381, y 395…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The cast and concept are sound, but the left vignette's key beat — the robot flagging a mismatched detail in a photo the official is holding — doesn't actually connect (empty cheering hands, a disconnected floating photo/flag, no highlighted detail), and the layout closely repeats a recurring divided-blueprint template from recent sloppers, pulling the average below the passing bar.",
+        "revisionNotes": [
+          "Give \"official\" a holds prop for the photo (brief calls for \"proudly holding up a framed photo\") instead of pose \"cheer\" with empty raised hands and a photo floating disconnected above-left — attach the photo directly to the raised hands.",
+          "Reattach \"flag\" onto the photo itself marking a specific mismatched detail inside it, and add the brief's single yellow highlight on that detail; right now the flag just sits atop the frame with nothing visibly flagged.",
+          "Fix the lint-flagged safe-area breach: shift \"official\" (and its attached photo) right/down or drop scale from 1.05 to ~0.95 so the group clears the left/top safe margins.",
+          "Change \"detector\" robot pose from arms-out/surprised to one arm reaching toward the flagged photo detail, so the pointing action in the brief actually reads.",
+          "Lower or enlarge \"magnifier\" so its circle visually overlaps dc1/dc2 (per brief \"framing the document... over the buildings\") instead of hovering in empty space above them.",
+          "The center-divider, blue-grid, human+robot-vs-buildings layout closely repeats several recent sloppers (Unnoticed, RISK, TOO LATE) — try an asymmetric or overlapping split instead of a straight vertical line for more novelty."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Correct cast and clean blueprint style, but the joke doesn't land: the flagged photo detail is too small to read, the photo looks fused to the official's head, and the robot's arm bridges oddly to the right side, all crammed into a bottom strip with empty sky above. Fails.",
+        "revisionNotes": [
+          "Attach the photo frame to the official's raised hands instead of letting it clip onto/overlap the head — right now the pose reads as a merged photo-head, not 'holding up a photo'.",
+          "Scale up the flagged yellow mismatch square and flag inside the photo (currently only ~12px) — it's the whole punchline and is unreadable at this size.",
+          "Give the robot a short flag/pointer aimed directly at the photo's flagged detail instead of the long diagonal arm stretching to the magnifier; that arm currently fuses the two vignettes and muddles which story is which.",
+          "Add the thin vertical divider line from the brief between official+detector (left) and buildings+magnifier (right), and raise the whole group so it uses the upper two-thirds of the frame — right now everything sits on one baseline with a large empty sky.",
+          "Pull the magnifying glass back so its rim clears the first datacenter's roofline instead of overlapping it; it should hover and frame the buildings, not intersect them.",
+          "Vary the composition away from 'figures lined up along the bottom edge on a blueprint grid' — that exact pattern (plus buildings-under-glass) already appears in two recent tiles ('RISK', 'TOO LATE')."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 4,
+          "style": 4,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Casting and style are solid (human official, AI-only robot, institution as plain buildings) and the two-vignette split maps cleanly enough onto the two-part phrase, but a disconnected flag prop and a very familiar blueprint-grid-with-divider layout hold it back; it clears the bar narrowly.",
+        "revisionNotes": [
+          "Attach the flag directly to the detector's raised arm (anchor to hand, scale ~0.9) so it visibly touches the yellow mismatch patch on the photo — right now the flag floats unconnected in the gap between robot and photo.",
+          "Drop the small baked-in flag/circle icon inside the photo's raw svg (near the sun shape) — having two separate flag-like marks (one in the photo art, one held by the robot) muddies the 'detector flags the fake' beat.",
+          "The magnifying glass over the right vignette reads as a separate floating icon rather than inspecting the datacenters below it — move it down/left to roughly x=0.78, y=0.55 and overlap the racks so the OPEN probe visibly frames the buildings.",
+          "Novelty is low: this is at least the third recent slopper using a blueprint grid split by a thin vertical divider into two vignettes — vary the layout (drop the divider, use a shared ground line, or shift the accent color off yellow) so it doesn't read as a repeat.",
+          "Scale the framed photo down from 1.1 to ~0.9 so it sits clear of the top-left safe margin instead of crowding the corner."
+        ]
+      },
+      "average": 3.57,
+      "passed": true
+    }
+  ]
+}

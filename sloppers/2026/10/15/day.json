@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-15",
+  "number": 16,
+  "mode": "fresh",
+  "motto": "Flagged By Its Own Kind",
+  "phrase": "Regulators opened a probe into top AI companies over security incidents. That same week, a government leader's own edited photo was flagged as AI-made — by an AI detector.",
+  "phraseAlternatives": [
+    "A government leader shared a photo that turned out to be AI-edited, flagged by an AI detector — the same week regulators began probing top AI firms over security incidents.",
+    "One agency started investigating top AI companies over security incidents. Another AI tool caught a government leader's own photo quietly faking reality.",
+    "AI companies are being investigated over security incidents that may have harmed people. Meanwhile, AI itself just caught a government leader editing a photo.",
+    "A government leader's own photo got flagged as AI fakery. The same week, regulators opened a probe into major AI companies over security incidents."
+  ],
+  "alt": "A blueprint illustration split by a thin vertical line. On the left, a government official raises a framed landscape photo high overhead while a small robot below points a short yellow flag at a large highlighted mismatched patch on the photo. On the right, two plain office buildings stand on the ground while a magnifying glass hovers clear above them, framing a document labeled OPEN.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 2,
+    "labor": 2,
+    "policy": 2,
+    "law": 3,
+    "safety": 3,
+    "society": 3,
+    "education": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "ai-csam-legal-precedent",
+    "open-weight-model-runs-on-macs",
+    "ai-edited-photo-caught",
+    "ftc-ai-safety-probe",
+    "humans-beat-ai-call-centers",
+    "ai-floods-math-world"
+  ],
+  "topStories": [
+    {
+      "title": "Top Court Rules AI-Generated Child Abuse Images Are Still Child Abuse Images",
+      "itemIds": [
+        "hackernews:69ed6763d9f7"
+      ],
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-csam-legal-precedent"
+    },
+    {
+      "title": "Meta And Apple Partner On An Open-Weight AI Model Built For Macs",
+      "itemIds": [
+        "feeds:8845c0eef99a",
+        "feeds:8243c9a70d3f",
+        "hackernews:499fcbd081b8"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "open-weight-model-runs-on-macs"
+    },
+    {
+      "title": "A Government Leader's AI-Edited Photo Gets Flagged By An AI Detector",
+      "itemIds": [
+        "feeds:bae44bb837e7"
+      ],
+      "dimensions": [
+        "policy",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-edited-photo-caught"
+    },
+    {
+      "title": "Regulators Open A Security Probe Into Two Major AI Companies",
+      "itemIds": [
+        "feeds:ff09edf07750"
+      ],
+      "dimensions": [
+        "policy",
+        "law",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ftc-ai-safety-probe"
+    },
+    {
+      "title": "Humans Still Outperform AI On Call Center Calls, Even As Jobs Decline",
+      "itemIds": [
+        "hackernews:3e3d62ddc0e9"
+      ],
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "humans-beat-ai-call-centers"
+    },
+    {
+      "title": "A Foundation Funds Help For Mathematicians Navigating The AI Era",
+      "itemIds": [
+        "hackernews:e4e4088e2634"
+      ],
+      "dimensions": [
+        "education",
+        "science",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-floods-math-world"
+    }
+  ],
+  "brief": {
+    "concept": "The same week regulators opened a security-incident probe into two major AI companies, a government leader's own edited photo got caught as AI-made — by an AI detector.",
+    "metaphor": "A detector built to catch fakes ends up catching the very people who are supposed to write the rules, while a second investigation quietly circles the companies accused of the underlying mess.",
+    "cast": [
+      {
+        "who": "a government official proudly holding up a framed photo",
+        "kind": "person"
+      },
+      {
+        "who": "a small boxy AI detector robot pointing a flag at a mismatched detail in the photo",
+        "kind": "ai"
+      },
+      {
+        "who": "two identical plain office buildings standing side by side",
+        "kind": "institution"
+      },
+      {
+        "who": "a large magnifying glass hovering over the buildings, framing a document stamped OPEN",
+        "kind": "object"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Two vignettes divided by a thin vertical line, drawn in blueprint style on a blue grid. Left: a human official holds a framed photo; a small AI-detector robot beside it points a flag at a mismatched detail, marked with blueprint's single yellow highlight. Right: two identical plain institution buildings sit under a large magnifying glass framing a probe document stamped OPEN. Keep shapes as crisp outlines, minimal text (OPEN only).",
+    "artType": "static",
+    "alt": "A split illustration. On the left, a government official holds up a framed photo while a small robot detector points a flag at a mismatched detail highlighted in yellow. On the right, a large magnifying glass hovers over two identical office buildings, framing a document stamped OPEN."
+  },
+  "sources": [
+    {
+      "id": "feeds:bae44bb837e7",
+      "title": "Trump posts AI-edited photo to brag about White House restoration work",
+      "url": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-15T21:09:33.000Z"
+    },
+    {
+      "id": "feeds:ff09edf07750",
+      "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
+      "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-10-15T15:43:24.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.57,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-16T16:31:12.266Z"
+}
