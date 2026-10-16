@@ -1,0 +1,144 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {
+    "type": "grid"
+  },
+  "elements": [
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1,
+      "props": {
+        "width": 6,
+        "height": 960
+      },
+      "svg": "<line x1=\"3\" y1=\"0\" x2=\"3\" y2=\"960\" class=\"r-line\"/>"
+    },
+    {
+      "id": "official",
+      "component": "human",
+      "at": {
+        "x": 0.19,
+        "y": 0.74
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "proud",
+        "pose": "cheer",
+        "holds": "none",
+        "kind": "adult"
+      }
+    },
+    {
+      "id": "photo",
+      "component": "raw",
+      "attachTo": "official",
+      "side": "top",
+      "offset": [
+        0,
+        -15
+      ],
+      "scale": 1.1,
+      "props": {
+        "width": 240,
+        "height": 200
+      },
+      "svg": "<rect x=\"6\" y=\"6\" width=\"228\" height=\"188\" class=\"r-paper\"/><rect x=\"20\" y=\"20\" width=\"200\" height=\"160\" class=\"r-body-alt\"/><polyline points=\"20,150 70,95 110,125 150,70 220,150\" class=\"r-line\"/><circle cx=\"180\" cy=\"50\" r=\"16\" class=\"r-line\"/><rect x=\"85\" y=\"90\" width=\"60\" height=\"60\" class=\"r-accent\"/><line x1=\"145\" y1=\"90\" x2=\"145\" y2=\"35\" class=\"r-line\" stroke-width=\"4\"/><polygon points=\"145,35 195,50 145,65\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "detector",
+      "component": "robot",
+      "at": {
+        "x": 0.4,
+        "y": 0.74
+      },
+      "scale": 0.62,
+      "props": {
+        "mood": "surprised",
+        "arms": "down",
+        "antenna": true,
+        "color": "body"
+      }
+    },
+    {
+      "id": "flag",
+      "component": "raw",
+      "attachTo": "detector",
+      "side": "top",
+      "offset": [
+        -20,
+        0
+      ],
+      "scale": 0.8,
+      "props": {
+        "width": 140,
+        "height": 110
+      },
+      "svg": "<line x1=\"20\" y1=\"100\" x2=\"110\" y2=\"20\" class=\"r-line\" stroke-width=\"6\"/><polygon points=\"110,20 140,8 112,55\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "dc1",
+      "component": "datacenter",
+      "at": {
+        "x": 0.66,
+        "y": 0.74
+      },
+      "scale": 0.55,
+      "props": {
+        "racks": 2,
+        "lights": "on",
+        "steam": false,
+        "fans": false
+      }
+    },
+    {
+      "id": "dc2",
+      "component": "datacenter",
+      "at": {
+        "x": 0.84,
+        "y": 0.74
+      },
+      "scale": 0.46,
+      "props": {
+        "racks": 2,
+        "lights": "on",
+        "steam": false,
+        "fans": false
+      }
+    },
+    {
+      "id": "magnifier",
+      "component": "raw",
+      "at": {
+        "x": 0.76,
+        "y": 0.4
+      },
+      "scale": 0.95,
+      "rotate": -8,
+      "props": {
+        "width": 260,
+        "height": 260
+      },
+      "svg": "<circle cx=\"110\" cy=\"110\" r=\"84\" class=\"r-shade\"/><rect x=\"60\" y=\"72\" width=\"100\" height=\"76\" class=\"r-body-alt\"/><circle cx=\"110\" cy=\"110\" r=\"88\" class=\"r-line\"/><line x1=\"168\" y1=\"168\" x2=\"226\" y2=\"226\" class=\"r-line\"/>"
+    },
+    {
+      "id": "open-label",
+      "component": "label",
+      "attachTo": "magnifier",
+      "side": "center",
+      "scale": 1,
+      "props": {
+        "text": "OPEN",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "A blueprint illustration split by a thin vertical line. On the left, a government official raises a framed landscape photo high overhead while a small robot below points a short yellow flag at a large highlighted mismatched patch on the photo. On the right, two plain office buildings stand on the ground while a magnifying glass hovers clear above them, framing a document labeled OPEN."
+}

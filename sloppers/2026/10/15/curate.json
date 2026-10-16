@@ -1,0 +1,212 @@
+{
+  "topStories": [
+    {
+      "title": "Top Court Rules AI-Generated Child Abuse Images Are Still Child Abuse Images",
+      "itemIds": [
+        "hackernews:69ed6763d9f7"
+      ],
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-csam-legal-precedent"
+    },
+    {
+      "title": "Meta And Apple Partner On An Open-Weight AI Model Built For Macs",
+      "itemIds": [
+        "feeds:8845c0eef99a",
+        "feeds:8243c9a70d3f",
+        "hackernews:499fcbd081b8"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "open-weight-model-runs-on-macs"
+    },
+    {
+      "title": "A Government Leader's AI-Edited Photo Gets Flagged By An AI Detector",
+      "itemIds": [
+        "feeds:bae44bb837e7"
+      ],
+      "dimensions": [
+        "policy",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-edited-photo-caught"
+    },
+    {
+      "title": "Regulators Open A Security Probe Into Two Major AI Companies",
+      "itemIds": [
+        "feeds:ff09edf07750"
+      ],
+      "dimensions": [
+        "policy",
+        "law",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ftc-ai-safety-probe"
+    },
+    {
+      "title": "Humans Still Outperform AI On Call Center Calls, Even As Jobs Decline",
+      "itemIds": [
+        "hackernews:3e3d62ddc0e9"
+      ],
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "humans-beat-ai-call-centers"
+    },
+    {
+      "title": "A Foundation Funds Help For Mathematicians Navigating The AI Era",
+      "itemIds": [
+        "hackernews:e4e4088e2634"
+      ],
+      "dimensions": [
+        "education",
+        "science",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-floods-math-world"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-csam-legal-precedent",
+      "title": "A Top Court Closes The AI Loophole On Child Abuse Images",
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "motifs": [
+        "a courthouse beside a shield reading SAME LAW",
+        "a loophole-shaped door swinging shut"
+      ]
+    },
+    {
+      "id": "open-weight-model-runs-on-macs",
+      "title": "An Open-Weight Model Built To Run On Home Computers",
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "motifs": [
+        "two company buildings shaking hands over a glowing chip",
+        "a model icon shrinking to fit inside a laptop outline"
+      ]
+    },
+    {
+      "id": "ai-edited-photo-caught",
+      "title": "A Leader's AI-Edited Photo Gets Caught By A Detector",
+      "dimensions": [
+        "policy",
+        "society"
+      ],
+      "motifs": [
+        "a magnifying glass revealing a mismatched detail in an official photo",
+        "a small detector robot holding up a flag"
+      ]
+    },
+    {
+      "id": "ftc-ai-safety-probe",
+      "title": "Regulators Open A Security Probe Into Major AI Firms",
+      "dimensions": [
+        "policy",
+        "law",
+        "safety"
+      ],
+      "motifs": [
+        "a magnifying glass hovering over two company buildings",
+        "a probe document stamped OPEN"
+      ]
+    },
+    {
+      "id": "humans-beat-ai-call-centers",
+      "title": "Humans Still Win The Call, Even As Jobs Shrink",
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "motifs": [
+        "a human headset outscoring a robot headset on a scoreboard",
+        "a shrinking call-center floor plan"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Several independent top stories clear the fresh threshold on their own: a top court's CSAM ruling (law/safety/society, no industry tag, relevance 18) and a government leader's AI-edited photo caught by an AI detector (policy/society, relevance 12) both pass the lowered threshold of 5 for non-industry stories, while the FTC probe and the Meta-Apple model launch each reach 12.",
+  "motto": "Flagged By Its Own Kind",
+  "phrase": "Regulators opened a probe into top AI companies over security incidents. That same week, a government leader's own edited photo was flagged as AI-made — by an AI detector.",
+  "phraseAlternatives": [
+    "A government leader shared a photo that turned out to be AI-edited, flagged by an AI detector — the same week regulators began probing top AI firms over security incidents.",
+    "One agency started investigating top AI companies over security incidents. Another AI tool caught a government leader's own photo quietly faking reality.",
+    "AI companies are being investigated over security incidents that may have harmed people. Meanwhile, AI itself just caught a government leader editing a photo.",
+    "A government leader's own photo got flagged as AI fakery. The same week, regulators opened a probe into major AI companies over security incidents."
+  ],
+  "brief": {
+    "concept": "The same week regulators opened a security-incident probe into two major AI companies, a government leader's own edited photo got caught as AI-made — by an AI detector.",
+    "metaphor": "A detector built to catch fakes ends up catching the very people who are supposed to write the rules, while a second investigation quietly circles the companies accused of the underlying mess.",
+    "cast": [
+      {
+        "who": "a government official proudly holding up a framed photo",
+        "kind": "person"
+      },
+      {
+        "who": "a small boxy AI detector robot pointing a flag at a mismatched detail in the photo",
+        "kind": "ai"
+      },
+      {
+        "who": "two identical plain office buildings standing side by side",
+        "kind": "institution"
+      },
+      {
+        "who": "a large magnifying glass hovering over the buildings, framing a document stamped OPEN",
+        "kind": "object"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Two vignettes divided by a thin vertical line, drawn in blueprint style on a blue grid. Left: a human official holds a framed photo; a small AI-detector robot beside it points a flag at a mismatched detail, marked with blueprint's single yellow highlight. Right: two identical plain institution buildings sit under a large magnifying glass framing a probe document stamped OPEN. Keep shapes as crisp outlines, minimal text (OPEN only).",
+    "artType": "static",
+    "alt": "A split illustration. On the left, a government official holds up a framed photo while a small robot detector points a flag at a mismatched detail highlighted in yellow. On the right, a large magnifying glass hovers over two identical office buildings, framing a document stamped OPEN."
+  },
+  "sourceIds": [
+    "feeds:bae44bb837e7",
+    "feeds:ff09edf07750"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 2,
+    "labor": 2,
+    "policy": 2,
+    "law": 3,
+    "safety": 3,
+    "society": 3,
+    "education": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
