@@ -1,0 +1,24 @@
+{
+  "verdict": "hold",
+  "rounds": [
+    {
+      "verdict": "hold",
+      "findings": [
+        {
+          "check": "sensitive-events",
+          "severity": "high",
+          "evidence": "Phrase: 'An app store cracked down on AI apps that create abuse images. That same week, police said the accused maker was a state's own deputy attorney general.' Motto: 'The Enforcer, Now Accused.'",
+          "suggestion": "This entire concept is built on a real AI-generated child sexual abuse material (CSAM) criminal case. The 'irony' framing treats a child-abuse-imagery prosecution as a punchline, which is not satire aimed at an institution or trend but dark humor riding on a case with child victims. No rewrite of the phrase, motto, or art can make this an acceptable topic for the slopper; the whole idea should be dropped and a different story selected.",
+          "stage": "curate"
+        },
+        {
+          "check": "real-people",
+          "severity": "high",
+          "evidence": "\"police said the accused maker was a state's own deputy attorney general\" combined with alt text \"a proud official raises both arms holding up a star badge\" and the Ars Technica source identifying a specific NJ deputy attorney general arrested for producing AI CSAM.",
+          "suggestion": "The phrasing is an unmistakable, specific description of one real, identifiable official currently facing serious criminal allegations (not a generic role like 'a big lab' or 'a CEO'). Depicting this person, even without naming them, as a smiling, celebratory figure is not fixable by softening the wording while keeping the story's specificity; this is another reason the story should not run.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}

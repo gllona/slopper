@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-16",
+  "number": 17,
+  "mode": "fresh",
+  "motto": "The Enforcer, Now Accused",
+  "phrase": "An app store cracked down on AI apps that create abuse images. That same week, police said the accused maker was a state's own deputy attorney general.",
+  "phraseAlternatives": [
+    "A phone app store banned AI tools that generate abuse images this week. Police say a state's own deputy attorney general was behind exactly that.",
+    "One app store moved to block AI-made abuse images. The person police accuse of creating them works as a state's deputy attorney general.",
+    "An app store tightened its rules against AI abuse imagery. Police say the accused maker held the job of state deputy attorney general."
+  ],
+  "alt": "Paper-cutout scene: a worried robot marked with a red X stands inside an archway gate under a red BANNED tag; to the right, a proud official raises both arms holding up a star badge, with thick angled handcuffs resting on the ground between the two figures.",
+  "artType": "static",
+  "style": "paper-cutout",
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "law": 3,
+    "safety": 3,
+    "society": 3
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "apple-polices-ai-nudify-apps",
+    "ai-csam-official-hypocrisy",
+    "ai-agents-hack-banks",
+    "meta-scrapes-publishers-for-free",
+    "ai-benchmarks-miss-real-work",
+    "ai-stock-bubble-risk"
+  ],
+  "topStories": [
+    {
+      "title": "An app store cracks down on AI nudify apps",
+      "itemIds": [
+        "techmeme:c4321f07047d"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "apple-polices-ai-nudify-apps"
+    },
+    {
+      "title": "A state deputy attorney general accused of producing AI-made abuse images",
+      "itemIds": [
+        "feeds:b3c5710f8042"
+      ],
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-csam-official-hypocrisy"
+    },
+    {
+      "title": "AI agents autonomously breach a crypto wallet, websites, and corporate systems",
+      "itemIds": [
+        "feeds:5b95b356b53e",
+        "feeds:43f5d9299a92"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "ai-agents-hack-banks"
+    },
+    {
+      "title": "A platform rewrites commercial terms to train AI on publishers for free",
+      "itemIds": [
+        "feeds:96acdef40d3e",
+        "feeds:ee0bead85204"
+      ],
+      "dimensions": [
+        "law",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "meta-scrapes-publishers-for-free"
+    },
+    {
+      "title": "Study finds most US work hours fall outside what AI benchmarks measure",
+      "itemIds": [
+        "hackernews:2fb4b159fd89"
+      ],
+      "dimensions": [
+        "labor",
+        "capabilities",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-benchmarks-miss-real-work"
+    },
+    {
+      "title": "A major AI lab is given the highest 'junk' credit rating",
+      "itemIds": [
+        "hackernews:b6009c1d6466"
+      ],
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-stock-bubble-risk"
+    }
+  ],
+  "brief": {
+    "concept": "An app store blocks AI apps built to create abuse images, the same week police accuse a state's own deputy attorney general of making exactly that.",
+    "metaphor": "The guard posted at the door turns out to be hiding the same contraband he was told to stop.",
+    "cast": [
+      {
+        "who": "an app store gate",
+        "kind": "institution"
+      },
+      {
+        "who": "a small robot icon marked with a crossing-out X",
+        "kind": "ai"
+      },
+      {
+        "who": "a government official holding up a badge",
+        "kind": "person"
+      },
+      {
+        "who": "a pair of handcuffs resting beside the badge",
+        "kind": "object"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Two-panel paper-cutout collage on kraft card. Left panel: a flat paper app-store gate shape stamps a red-paper 'BANNED' tag over a small cut-paper robot icon marked with an X beside it. Right panel: a paper-cutout government official holds up a cut badge shape; a pair of handcuffs rests beside them, each layer casting a soft paper shadow. Keep the only on-image text to the single word BANNED on the stamp.",
+    "artType": "static",
+    "alt": "A two-panel paper-cutout illustration: on the left, an app store gate stamps a red BANNED tag beside a small robot icon marked with an X; on the right, a government official holds up a badge next to a pair of handcuffs."
+  },
+  "sources": [
+    {
+      "id": "techmeme:c4321f07047d",
+      "title": "Apple updates App Review Guidelines to crack down on AI nudify apps and apps that reveal undocumented capabilities, like nudification, after app review (Marcus Mendes/9to5Mac)",
+      "url": "https://www.techmeme.com/261016/p26",
+      "source": "techmeme",
+      "publisher": "Techmeme",
+      "publishedAt": "2026-10-16T23:45:01.000Z"
+    },
+    {
+      "id": "feeds:b3c5710f8042",
+      "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
+      "url": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-10-16T20:20:07.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.86,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "hold"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-17T13:01:33.605Z"
+}
