@@ -1,0 +1,96 @@
+{
+  "passed": true,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"handcuffs\" extends outside the safe area in the final frame (x 937…1024, y 854…892)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 3,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 4
+        },
+        "verdict": "Fails: the handcuffs — essential to the 'accused' half of the joke — are tiny and clipped outside the safe area, and the badge floats disconnected above the official's head instead of being held, so composition and polish drag the average below the bar despite a fresh palette and correct human/robot casting.",
+        "revisionNotes": [
+          "Handcuffs are clipped outside the safe area (lint: x 937–1024, y 854–892) and read as near-invisible at this scale — move the 'handcuffs' prop to roughly x 0.78–0.80, keep the same y, scale up to ~1.0, and confirm it sits fully inside the frame with margin.",
+          "The badge floats disconnected above the official's head instead of being held up; set official's 'holds' prop to the badge and raise one arm so the hand visibly grips it — right now it reads as a hat or thought bubble, not an accusation.",
+          "Large empty tan sky above the gate/robot unbalances the frame — raise the ground horizon or enlarge the gate component slightly to fill the upper-left and give the left side a stronger focal weight to match the official on the right.",
+          "Brief calls for a two-panel collage (divider or distinct card backgrounds); current scene reads as one continuous backdrop, which weakens the 'two scenes, same week' structure — add a visible seam or panel break between gate+robot and official+handcuffs.",
+          "Once handcuffs and badge are fixed, re-check clarity: the 'accused' half of the joke (badge + handcuffs = officer facing arrest) should be legible within 3 seconds, not require a close look at a corner prop."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 4
+        },
+        "verdict": "The cast is correctly handled (human official, robot for AI) and the left-panel 'banned app' beat reads, but the right panel's key action - the official holding up a badge, tied to the same banned robot - doesn't visually connect, and the handcuffs/badge icons are ambiguous at a glance; this needs another pass before publishing.",
+        "revisionNotes": [
+          "The gate floats isolated top-left with no visual link to the BANNED stamp on the robot below; move it directly above/behind the bot or add a stamp-arm/ink mark connecting gate to tag so the 'gate bans the app' action reads on its own.",
+          "The official's extended arm doesn't reach the badge shape - set the badge as a held prop (holds: badge) positioned at the hand, scale ~1.0, instead of a floating icon with a gap, so 'holds up a badge' actually reads.",
+          "The handcuffs (two plain circles + bar) read as eyeglasses at thumbnail size; thicken the rings, add a hinge/chain detail, or angle them so the silhouette is unmistakably cuffs.",
+          "The badge renders as a red shield with a white minus/dash, which reads as a warning or 'no' icon rather than a badge; redesign with a star or rounded-shield-with-seal shape to avoid that confusion.",
+          "Top-right quadrant is sparse next to the floating badge while the gate feels orphaned top-left; rebalance scale/anchors so both panels have a comparable visual weight and a clear single focal point.",
+          "A vertical-divider split with figures on either side is close to a recent composition; vary the split (diagonal seam, staggered panel heights) to read as fresher against recent work."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 4,
+          "style": 4,
+          "polish": 4,
+          "novelty": 4,
+          "kindness": 4
+        },
+        "verdict": "A clean, correctly-cast paper-cutout piece (robot banned, human official in trouble) that passes, but the gate shape reads ambiguously and the official's cheerful pose next to handcuffs muddies rather than sharpens the irony.",
+        "revisionNotes": [
+          "The white arch behind the robot doesn't read as an \"app store gate\" — give it a clearer door/threshold cue (knob, screen rectangle, frame) so the institution is legible on its own.",
+          "The badge floats disconnected above the official's head instead of in a raised hand; attach it directly to the hand (side: right-hand or similar) so the 'holding up a badge' beat is unambiguous.",
+          "Official's open 'cheer' mood reads as celebration, which undercuts the accused/handcuffs irony — try mood 'smug' or 'confident' instead of a wide grin, so the badge-then-cuffs juxtaposition reads as foreshadowing, not a party.",
+          "Add a thin dividing element (vertical line, seam in the kraft card) between the robot/gate and the official/handcuffs so the brief's 'two-panel' structure is visible at a glance rather than implied only by left/right placement.",
+          "The X-mark and BANNED tag cluster tightly over the robot's chest and head — nudge the tag up or the X scale down slightly so they don't visually merge into one mark."
+        ]
+      },
+      "average": 3.86,
+      "passed": true
+    }
+  ]
+}

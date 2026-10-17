@@ -1,0 +1,104 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {},
+  "elements": [
+    {
+      "id": "gate",
+      "component": "raw",
+      "at": {
+        "x": 0.2037,
+        "y": 0.5093
+      },
+      "scale": 1,
+      "props": {
+        "width": 260,
+        "height": 480
+      },
+      "svg": "<path d=\"M30,480 L30,180 A100,100 0 0 1 230,180 L230,480 Z\" class=\"r-body-alt\"/><rect x=\"30\" y=\"300\" width=\"200\" height=\"16\" rx=\"5\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "bot",
+      "component": "robot",
+      "at": "left-third",
+      "scale": 0.95,
+      "props": {
+        "mood": "worried",
+        "arms": "down",
+        "color": "body",
+        "antenna": false
+      }
+    },
+    {
+      "id": "xmark",
+      "component": "raw",
+      "attachTo": "bot",
+      "side": "center",
+      "scale": 0.55,
+      "props": {
+        "width": 220,
+        "height": 300
+      },
+      "svg": "<rect x=\"95\" y=\"0\" width=\"30\" height=\"300\" rx=\"10\" transform=\"rotate(45 110 150)\" class=\"r-accent\"/><rect x=\"95\" y=\"0\" width=\"30\" height=\"300\" rx=\"10\" transform=\"rotate(-45 110 150)\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "stamp",
+      "component": "label",
+      "attachTo": "bot",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "BANNED",
+        "size": "md",
+        "kind": "tag",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "official",
+      "component": "human",
+      "at": "right-third",
+      "scale": 0.95,
+      "props": {
+        "mood": "proud",
+        "pose": "cheer",
+        "color": "body",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "badge",
+      "component": "raw",
+      "attachTo": "official",
+      "side": "top",
+      "offset": [
+        0,
+        8
+      ],
+      "scale": 1,
+      "rotate": -6,
+      "props": {
+        "width": 160,
+        "height": 160
+      },
+      "svg": "<circle cx=\"80\" cy=\"80\" r=\"70\" class=\"r-accent\"/><path d=\"M80,44 L88.82,67.86 L114.24,68.88 L94.27,84.63 L101.16,109.12 L80,95 L58.84,109.12 L65.73,84.63 L45.76,68.88 L71.18,67.86 Z\" class=\"r-paper\"/>"
+    },
+    {
+      "id": "handcuffs",
+      "component": "raw",
+      "at": {
+        "x": 0.54,
+        "y": 0.655
+      },
+      "scale": 1,
+      "rotate": -15,
+      "props": {
+        "width": 220,
+        "height": 140
+      },
+      "svg": "<circle cx=\"60\" cy=\"70\" r=\"34\" class=\"r-ink\"/><circle cx=\"60\" cy=\"70\" r=\"17\" class=\"r-body-alt\"/><circle cx=\"160\" cy=\"70\" r=\"34\" class=\"r-ink\"/><circle cx=\"160\" cy=\"70\" r=\"17\" class=\"r-body-alt\"/><rect x=\"92\" y=\"56\" width=\"36\" height=\"28\" rx=\"10\" class=\"r-ink\"/><rect x=\"146\" y=\"34\" width=\"24\" height=\"20\" rx=\"5\" class=\"r-accent\"/>"
+    }
+  ],
+  "alt": "Paper-cutout scene: a worried robot marked with a red X stands inside an archway gate under a red BANNED tag; to the right, a proud official raises both arms holding up a star badge, with thick angled handcuffs resting on the ground between the two figures."
+}
