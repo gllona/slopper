@@ -1,0 +1,102 @@
+{
+  "passed": false,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"bot\" (robot) was moved 68 px, 0 px to stay inside the artboard",
+          "\"stop-label\" (label) was moved -33 px, 0 px to stay inside the safe area",
+          "\"bot\" extends outside the safe area in the final frame (x 2…441, y 385…799)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "Correct cast (robot only for AI, humans for people) and a clean paper-cutout style, but two key props — the coin chest and the STOP lever — never actually render, gutting the 'wallets' and 'blocked lever' beats the joke depends on; combined with a clipped robot hand and touching labels, this isn't ready to publish.",
+        "revisionNotes": [
+          "The coin-shaped chest (id: chest, attached to bot's right side) never renders — restore it so the robot is clearly prying something open; right now its arms are just out with nothing in front of them, so the 'wallets' half of the metaphor is missing.",
+          "The STOP lever (id: lever, attached to official's right side) is also missing its pole/knob — only the floating STOP tag shows, so there's no object for the scroll to be blocking; render the shaft and knob under the label.",
+          "Robot's left hand (orange circle) sits right at the canvas edge (x≈2px per lint) — nudge bot's anchor right or scale to ~0.8 so the whole figure stays inside the safe area.",
+          "STOP and BILL label bubbles touch/overlap each other — add ~20-30px gap between them so each reads as a distinct tag rather than one merged shape.",
+          "Brief calls for a two-panel split with a clear gap/divider; currently it reads as one continuous ground line. Add a vertical rule or widen the gutter between the houses and the official to separate the two beats.",
+          "Large empty cream headroom (top ~35% of frame) feels unused — lower the cast slightly or add a small sky accent to balance the square."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "Cast and tone are right (robot for AI, humans/institution for people), but the central joke mechanic — the bill scroll physically blocking the STOP lever — never actually renders as touching or blocking, and secondary props (houses, coin chest, lever shape) are too small or malformed to read, so the piece needs a close look rather than landing in three seconds.",
+        "revisionNotes": [
+          "The scroll never appears between the official's reaching hand and the STOP lever as the brief calls for — move/rescale it to sit at roughly x 0.75, visibly wedged against the lever's handle, so the 'bill blocks the stop' joke actually reads.",
+          "The row of houses (scale 0.5 at x 0.48) is too small to register as houses or show a broken-open door — scale to ~0.9 and give the open-door accent a bolder color/larger shape so the break-in reads.",
+          "The coin chest has no visible glow or coin shapes, so it reads as a plain lunchbox — scale it up to ~0.8 and keep the glow circle visible so it reads as a chest of coins/wallet.",
+          "The lever renders as a flat red capsule on the ground instead of a pole-and-handle shape — rebuild with a clear vertical rod and round STOP handle so it reads at a glance.",
+          "The official's pointing arm stretches unnaturally far across the right panel, reading as a broken limb rather than a reach — shorten it to a natural proportion.",
+          "The vertical divider line is nearly invisible against the cream background — thicken it or raise contrast so the two-panel split described in the brief is legible."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"bot\" extends outside the safe area in the final frame (x 33…291, y 491…734)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The two-panel metaphor is clever and well-cast (robot for AI, human official, building for the company), but overlapping shapes — the chest blob fused into the house roofs, and the BILL tag/scroll tangled with the lever and official's hand — plus a safe-area breach on the robot push this below publishable polish; average score falls just under the pass bar.",
+        "revisionNotes": [
+          "Chest overlaps doors: the crowbar bar and coin-glow circle attached to \"bot\" cross into the \"doors\" house roofs, fusing into one unreadable blob — shift chest offset left/down (e.g. offset [-10,20]) or scale to 0.6 so it sits clearly beside the robot with a gap before the houses.",
+          "Robot breaches the safe area on the left (lint: x 33…291): pull \"bot\" anchor right to x~0.18 or set arms to a narrower pose so the left hand clears the ~54px margin.",
+          "Right panel is cluttered: STOP tag, lever pole, BILL tag, scroll, and the official's hand all overlap in a tight column — space STOP and BILL vertically further apart and move \"scroll\" down-right so it visibly slides from the building toward the lever instead of crossing the pole diagonally.",
+          "The scroll shape (accent pill + two circles) doesn't read as a rolled scroll at this scale/angle — simplify to a clearer rolled-paper silhouette or scale to 1.0 and reduce rotation so the BILL label sits on a legible shape.",
+          "Open-door house: the orange diamond is small and easy to miss — scale it up slightly or add a thin ink outline so \"one door hanging open\" reads at a glance.",
+          "Once chest/doors and scroll/lever are disentangled, confirm the three-house row and chest glow don't touch; keep a visible gap matching the divider's clean-split intent."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "verdict": "revise",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "high",
+          "evidence": "Phrase: \"An AI model broke into a crypto wallet and several websites alone. Days later, a top AI lab pitched a bill...\" + motto \"The Rule-Breaker Writes The Rules.\" Hacking source (Ars Technica) is about OpenAI; bill-pitching source (Techmeme/Politico) is about Anthropic — different companies, but phrasing/motto imply the same lab did both.",
+          "suggestion": "Rewrite so it doesn't imply the bill-pitching lab is the same entity whose model did the hacking, e.g. \"AI models have broken into wallets and websites on their own. Meanwhile, AI labs are pitching bills to limit the government's power to block their models.\" Adjust the motto to not assert the rule-breaker and rule-writer are the same actor.",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"AI labs are pitching bills to limit the government's power to block their models.\" The only source for this (Techmeme/Politico) describes a single lab, Anthropic, pitching a single safety bill — not an industry-wide pattern of multiple labs pitching bills.",
+          "suggestion": "Change to singular/generic to match the one sourced instance, e.g. \"Meanwhile, one AI lab is pitching a bill to limit the government's power to block its models.\" Avoid implying multiple labs and multiple bills when only one instance is sourced.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}
