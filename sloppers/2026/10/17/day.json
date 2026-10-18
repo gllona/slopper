@@ -1,0 +1,173 @@
+{
+  "date": "2026-10-17",
+  "number": 18,
+  "mode": "fresh",
+  "motto": "Doors Closed, Eyes Open",
+  "phrase": "AI agents promise to book your dinner and clear your inbox. One major retailer uses a similar AI to watch warehouse workers for signs of a union.",
+  "phraseAlternatives": [
+    "Everyone is building an AI agent that can book your dinner or clean your inbox. One retailer uses a similar AI to flag warehouse workers who might want a union.",
+    "The web is closing its doors to AI agents built to browse and shop for you. Elsewhere, a similar AI watches warehouse workers for signs of a union.",
+    "Help here, watching there: the AI built to run your errands has a cousin that watches warehouse workers for signs of organizing a union."
+  ],
+  "alt": "A split image: on the left a small robot knocks on a plain door marked CLOSED. On the right a warehouse worker holding a flyer looks up at a round-eyed sensor mounted on the ceiling, watching them.",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 3,
+    "policy": 1,
+    "law": 2,
+    "safety": 2,
+    "society": 3
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "agents-break-the-open-web",
+    "ai-tracks-union-risk",
+    "distillation-attack-steals-keys",
+    "meta-scrapes-publishers-for-free",
+    "ai-reshapes-its-own-workforce"
+  ],
+  "topStories": [
+    {
+      "title": "Websites closing their doors to AI agents",
+      "itemIds": [
+        "feeds:b82a05a94858"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "agents-break-the-open-web"
+    },
+    {
+      "title": "A retailer uses AI to flag union risk in warehouses",
+      "itemIds": [
+        "hackernews:70c6ae129d22"
+      ],
+      "dimensions": [
+        "labor",
+        "society",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-tracks-union-risk"
+    },
+    {
+      "title": "A coding agent breach exposes keys via a 'distillation attack'",
+      "itemIds": [
+        "techmeme:e760fd636e4e"
+      ],
+      "dimensions": [
+        "safety",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "distillation-attack-steals-keys"
+    },
+    {
+      "title": "Meta removes language that enabled AI scraping of news sites",
+      "itemIds": [
+        "feeds:92df48cab0ea",
+        "feeds:5eb559e50fd7",
+        "techmeme:f3ebb29a15bd"
+      ],
+      "dimensions": [
+        "law",
+        "industry",
+        "society"
+      ],
+      "novelty": 1,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "meta-scrapes-publishers-for-free"
+    },
+    {
+      "title": "An AI lab's workforce shifts: fewer juniors, more meetings",
+      "itemIds": [
+        "feeds:ec0f189f0b04"
+      ],
+      "dimensions": [
+        "labor",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-reshapes-its-own-workforce"
+    }
+  ],
+  "brief": {
+    "concept": "A small robot agent knocks hopefully on a door shaped like a webpage marked CLOSED, while in a second scene a warehouse worker holding a union flyer looks up at a ceiling-mounted robot sensor watching them.",
+    "metaphor": "The same helpful AI wears two faces: locked out when it tries to be useful on the open web, welcomed in when it is put to work watching people.",
+    "cast": [
+      {
+        "who": "a small robot agent knocking on a plain door marked CLOSED",
+        "kind": "ai"
+      },
+      {
+        "who": "a closed sign hanging above the doorway",
+        "kind": "object"
+      },
+      {
+        "who": "a warehouse worker holding a small flyer, glancing upward",
+        "kind": "person"
+      },
+      {
+        "who": "a ceiling-mounted robot sensor with one round watchful eye pointed down",
+        "kind": "ai"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Two simple vignettes side by side, separated by a thin vertical line. Left: a small robot raises one hand to knock on a plain door with a CLOSED sign above it. Right: a warehouse worker stands in an aisle, holding a small flyer, looking up at an overhead sensor robot whose single round eye points straight down at them. No other text in the image.",
+    "artType": "static",
+    "alt": "A split illustration. On the left, a small robot knocks on a plain door marked CLOSED. On the right, a warehouse worker holding a flyer looks up at a round-eyed sensor mounted on the ceiling, watching them."
+  },
+  "sources": [
+    {
+      "id": "feeds:b82a05a94858",
+      "title": "Websites are closing their doors to AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-17T13:00:00.000Z"
+    },
+    {
+      "id": "hackernews:70c6ae129d22",
+      "title": "Amazon uses AI to monitor union risk in UK warehouses",
+      "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+      "source": "hackernews",
+      "publisher": "opendemocracy.net",
+      "publishedAt": "2026-10-17T16:04:23.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.57,
+    "iterations": 1
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-18T15:10:59.038Z"
+}

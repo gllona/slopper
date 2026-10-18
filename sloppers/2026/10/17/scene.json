@@ -1,0 +1,80 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {
+    "type": "split",
+    "color": "bg",
+    "color2": "accent2"
+  },
+  "elements": [
+    {
+      "id": "door1",
+      "component": "raw",
+      "at": {
+        "x": 0.4,
+        "y": 0.586
+      },
+      "scale": 1,
+      "props": {
+        "width": 220,
+        "height": 420
+      },
+      "svg": "<rect class=\"r-body\" x=\"10\" y=\"10\" width=\"200\" height=\"400\" rx=\"18\"/><circle class=\"r-ink\" cx=\"170\" cy=\"210\" r=\"12\"/>"
+    },
+    {
+      "id": "sign1",
+      "component": "label",
+      "attachTo": "door1",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "CLOSED",
+        "size": "lg",
+        "kind": "tag",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "robot1",
+      "component": "robot",
+      "at": {
+        "x": 0.16,
+        "y": 0.78
+      },
+      "scale": 0.85,
+      "props": {
+        "mood": "neutral",
+        "arms": "up"
+      }
+    },
+    {
+      "id": "human1",
+      "component": "human",
+      "at": {
+        "x": 0.72,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "pose": "stand",
+        "mood": "worried",
+        "holds": "sign"
+      }
+    },
+    {
+      "id": "sensor1",
+      "component": "raw",
+      "at": {
+        "x": 0.72,
+        "y": 0.15
+      },
+      "scale": 1,
+      "props": {
+        "width": 200,
+        "height": 160
+      },
+      "svg": "<rect class=\"r-ink\" x=\"90\" y=\"0\" width=\"20\" height=\"26\"/><rect class=\"r-body\" x=\"30\" y=\"26\" width=\"140\" height=\"66\" rx=\"24\"/><circle class=\"r-paper\" cx=\"100\" cy=\"96\" r=\"30\"/><circle class=\"r-ink\" cx=\"100\" cy=\"104\" r=\"15\"/>"
+    }
+  ],
+  "alt": "A split image: on the left a small robot knocks on a plain door marked CLOSED. On the right a warehouse worker holding a flyer looks up at a round-eyed sensor mounted on the ceiling, watching them."
+}

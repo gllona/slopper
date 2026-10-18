@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"robot1\" extends outside the safe area in the final frame (x 22…324, y 428…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Correct, kind casting (robot-for-AI, human-for-worker) and a clean left-side gag, but the right vignette's surveillance beat is muted without a gaze cue, the planned vertical divider is missing, and the robot breaches the safe area — a passing but shaky piece that needs a composition tighten-up.",
+        "revisionNotes": [
+          "Give human1 a clear upward gaze (tilt head, eyes up) or add a thin dotted sightline from sensor1's eye to the worker so the 'being watched' beat reads instantly instead of requiring the caption.",
+          "robot1 breaches the safe area per lint (x 22…324) — nudge it to x≈0.20 or drop scale to 0.8 so its raised arm clears the margin.",
+          "Brief called for a thin vertical divider between the two vignettes; none is rendered, so the piece reads as one busy scene rather than an intentional two-panel contrast — add the divider or otherwise visually separate left/right.",
+          "sign1 renders as a tall blank picket sign on a stick rather than a small flyer; scale it down (~0.6) and hold it at chest height to match 'flyer' and reduce clutter on the right third.",
+          "Door-and-split-palette motifs (OPEN door, RISK/AI doors) recur in recent sloppers — vary the ground/prop silhouette next time for freshness."
+        ]
+      },
+      "average": 3.57,
+      "passed": true
+    }
+  ]
+}
