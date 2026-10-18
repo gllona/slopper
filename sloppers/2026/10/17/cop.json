@@ -1,0 +1,17 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "pass",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "low",
+          "evidence": "Source 2 snippet reads only '168 points and 58 comments on Hacker News (https://news.ycombinator.com/item?id=50132278)' with no article text; the claim 'watch warehouse workers for signs of a union' is only supported by the source's title, not by substantive snippet content.",
+          "suggestion": "Curate stage should pull an actual excerpt from the opendemocracy article body (not the HN discussion metadata) to more solidly back the claim before publishing.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}
