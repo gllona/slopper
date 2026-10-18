@@ -1,0 +1,100 @@
+{
+  "passed": false,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 3,
+          "polish": 1,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The human closing the door is rendered directly on top of the robot, and the sign's CLOSED text overlaps the robot's face, turning a simple three-beat joke into an illegible overlapping blob — this fails on polish and clarity alone.",
+        "revisionNotes": [
+          "The human 'closer' at x=0.39 overlaps almost exactly with the robot at left-third; move the human to sit right in the nearest doorway opening (around x=0.50) so it reads as emerging from the door, not standing inside the robot.",
+          "The CLOSED label attached to the human's sign sits on top of the robot's face and the robot's own CLOSED-reading area, making both unreadable; offset the flip-sign label further right/up so it clears the robot's head entirely.",
+          "Scale the doors component up (currently reads as three short stubby rectangles) — brief calls for a row of doorways at varying heights that read as entrances; try scale 1.2-1.3 and raise them so the tops don't crowd the CLOSED labels above them.",
+          "The shopping bag is drawn disconnected and floating to the robot's far left instead of swinging from its hand; reduce the offset so it reads as attached/carried.",
+          "Increase spacing between the 'closedb' and 'closedc' labels and their doors so no sign overlaps a neighboring shape.",
+          "Once the overlap is fixed, confirm the robot's worried expression and antenna cursor-badge are visible — right now the badge is lost behind the overlapping human and sign."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The cast and concept work (robot shopper vs. human closing a door), but the nearest doorway, the human, and the robot are smashed into one illegible overlapping cluster with a stray cursor badge and a mis-placed CLOSED label — this reads as a rendering bug, not a staged scene, and drags the average below the bar.",
+        "revisionNotes": [
+          "The nearest doorway is almost entirely hidden behind the overlapping robot and human figures — pull the robot (left-third) and the 'closer' human apart with a clearer gap so door #1's frame is visible as its own doorway, not a collision of shapes.",
+          "Render 'closer' as just an arm/hand poking out of the doorway per the brief, or shrink and re-anchor the full human body so it sits inside door #1's silhouette instead of spilling into the street next to the robot.",
+          "The rotated 'flipsign' CLOSED label overlaps the robot's antenna and the cursor-arrow badge — move it clear of the robot's head, or reduce its rotate/offset so the three overlapping elements don't read as a rendering glitch.",
+          "Scale the cursor-arrow badge down and anchor it visibly on the robot (e.g. chest or shoulder) instead of floating disconnected in the sky above the cluster.",
+          "Left-center of the frame is overcrowded (robot + bag + human + sign + badge) while the right two-thirds only holds two door shapes — widen the spacing so the composition reads as a row of three doors with even visual weight."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"bag\" (raw) was moved 20 px, 0 px to stay inside the artboard",
+          "\"closedc\" (label) was moved -5 px, 0 px to stay inside the safe area",
+          "\"bag\" extends outside the safe area in the final frame (x 13…72, y 627…704)",
+          "\"door1\" extends outside the safe area in the final frame (x 349…559, y 647…1047)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 5,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The cast and metaphor are clean and kind (robot agent, human closer), but overlapping CLOSED tags, a confusing blank mid-flip sign, elements clipped at the safe-area edges, a half-empty top, and a palette/composition that closely echoes a recent doors-themed slopper pull the average below the bar.",
+        "revisionNotes": [
+          "Separate the two overlapping CLOSED tags: 'flipsign' (attached to closer) and 'closedb' (on door2) currently cross each other — move flipsign's offset left/down or shrink its rotate so there's a visible gap.",
+          "The blank sign the human holds (holds:'sign') reads as empty; attach the 'CLOSED' text directly onto that placard instead of a separate floating rotated label, so the mid-flip beat is legible.",
+          "Pull 'bag' fully inside the safe margin (offset it further right or scale the robot group) — it's currently clipped at the left edge per the lint warning.",
+          "Raise door1's bottom edge or reduce its height slightly so it stays inside the safe area (currently extends to y=1047, flagged by lint).",
+          "The top ~50% of the frame is flat empty cream with no secondary element — raise the horizon or add one small prop (cloud, awning) to use the square more intentionally instead of pushing everything into the bottom band.",
+          "This door-row/gatekeeping composition (navy-cream duotone, vertical door rectangles, robot vs. human) closely echoes the recent 'RISK/AI doors' slopper — vary the door shape (arches, windows) or palette to read as fresh."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    }
+  ]
+}

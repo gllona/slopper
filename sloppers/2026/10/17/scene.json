@@ -1,0 +1,169 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {
+    "type": "sky-ground",
+    "horizon": 0.78,
+    "color": "bg",
+    "color2": "accent2"
+  },
+  "elements": [
+    {
+      "id": "robot",
+      "component": "robot",
+      "at": {
+        "x": 0.16,
+        "y": 0.78
+      },
+      "scale": 0.85,
+      "props": {
+        "mood": "worried",
+        "arms": "down",
+        "color": "body",
+        "antenna": true
+      }
+    },
+    {
+      "id": "bag",
+      "component": "raw",
+      "attachTo": "robot",
+      "side": "left",
+      "offset": [
+        12,
+        35
+      ],
+      "scale": 0.85,
+      "props": {
+        "width": 90,
+        "height": 100
+      },
+      "svg": "<path class=\"r-accent\" d=\"M10,30 L80,30 L74,95 L16,95 Z\"/><path class=\"r-line\" d=\"M25,30 Q25,4 45,4 Q65,4 65,30\"/>"
+    },
+    {
+      "id": "badge",
+      "component": "raw",
+      "attachTo": "robot",
+      "side": "right",
+      "offset": [
+        -70,
+        -75
+      ],
+      "scale": 0.3,
+      "props": {
+        "width": 60,
+        "height": 60
+      },
+      "svg": "<path class=\"r-accent\" d=\"M10,8 L50,28 L32,34 L40,52 L30,56 L22,38 L10,50 Z\"/>"
+    },
+    {
+      "id": "door1",
+      "component": "raw",
+      "at": {
+        "x": 0.42,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "width": 230,
+        "height": 430
+      },
+      "svg": "<rect class=\"r-body\" x=\"10\" y=\"20\" width=\"210\" height=\"400\" rx=\"22\"/><rect class=\"r-ink\" x=\"26\" y=\"36\" width=\"178\" height=\"368\" rx=\"16\"/><circle class=\"r-accent\" cx=\"196\" cy=\"230\" r=\"9\"/>"
+    },
+    {
+      "id": "closer",
+      "component": "human",
+      "at": {
+        "x": 0.42,
+        "y": 0.78
+      },
+      "scale": 0.55,
+      "props": {
+        "mood": "neutral",
+        "pose": "stand",
+        "holds": "sign",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "flipsign",
+      "component": "label",
+      "attachTo": "closer",
+      "side": "right",
+      "offset": [
+        0,
+        -20
+      ],
+      "scale": 1,
+      "rotate": -10,
+      "props": {
+        "text": "CLOSED",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    },
+    {
+      "id": "door2",
+      "component": "raw",
+      "at": {
+        "x": 0.659,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "width": 180,
+        "height": 360
+      },
+      "svg": "<rect class=\"r-body\" x=\"10\" y=\"20\" width=\"160\" height=\"330\" rx=\"20\"/><rect class=\"r-ink\" x=\"26\" y=\"36\" width=\"128\" height=\"298\" rx=\"14\"/><circle class=\"r-accent\" cx=\"150\" cy=\"190\" r=\"8\"/>"
+    },
+    {
+      "id": "closedb",
+      "component": "label",
+      "attachTo": "door2",
+      "side": "top",
+      "offset": [
+        0,
+        -10
+      ],
+      "scale": 1,
+      "props": {
+        "text": "CLOSED",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    },
+    {
+      "id": "door3",
+      "component": "raw",
+      "at": {
+        "x": 0.84,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "width": 160,
+        "height": 300
+      },
+      "svg": "<rect class=\"r-body\" x=\"10\" y=\"20\" width=\"140\" height=\"270\" rx=\"18\"/><rect class=\"r-ink\" x=\"24\" y=\"34\" width=\"112\" height=\"242\" rx=\"12\"/><circle class=\"r-accent\" cx=\"130\" cy=\"160\" r=\"7\"/>"
+    },
+    {
+      "id": "closedc",
+      "component": "label",
+      "attachTo": "door3",
+      "side": "top",
+      "offset": [
+        0,
+        -10
+      ],
+      "scale": 1,
+      "props": {
+        "text": "CLOSED",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "A small worried robot with a shopping bag and a chest badge approaches a row of three separate doorways. A person stands inside the nearest, tallest doorway reaching out to flip its hanging sign to CLOSED, while the two shorter doorways further down the row already show CLOSED signs."
+}

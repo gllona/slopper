@@ -1,0 +1,193 @@
+{
+  "topStories": [
+    {
+      "title": "The Open Web Starts Closing Its Doors To AI Agents",
+      "itemIds": [
+        "feeds:b82a05a94858"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "agents-break-the-open-web"
+    },
+    {
+      "title": "A Coding Agent's Breach Exposes Thousands Of Users' API Keys",
+      "itemIds": [
+        "techmeme:e760fd636e4e"
+      ],
+      "dimensions": [
+        "safety",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "opencode-distillation-breach"
+    },
+    {
+      "title": "Amazon's AI Flags Union Risk In UK Warehouses",
+      "itemIds": [
+        "hackernews:70c6ae129d22"
+      ],
+      "dimensions": [
+        "labor",
+        "safety",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "amazon-union-surveillance"
+    },
+    {
+      "title": "A Quantum Chip Clears A Major Error-Correction Hurdle",
+      "itemIds": [
+        "techmeme:882adc37f722"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "quantum-error-correction-breakthrough"
+    },
+    {
+      "title": "A Platform Walks Back Scraping Language After Backlash",
+      "itemIds": [
+        "feeds:92df48cab0ea",
+        "feeds:5eb559e50fd7",
+        "techmeme:f3ebb29a15bd"
+      ],
+      "dimensions": [
+        "law",
+        "industry",
+        "society"
+      ],
+      "novelty": 1,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "meta-scrapes-publishers-for-free"
+    },
+    {
+      "title": "An AI Lab's Own Workforce Gets Less Junior, More Meetings",
+      "itemIds": [
+        "feeds:ec0f189f0b04"
+      ],
+      "dimensions": [
+        "labor",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "ai-lab-workforce-shift"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "opencode-distillation-breach",
+      "title": "A Coding Agent's Breach Leaks User API Keys",
+      "dimensions": [
+        "safety",
+        "industry"
+      ],
+      "motifs": [
+        "a small padlock cracking open beside a coding terminal window",
+        "a trail of key-shaped tokens siphoned into a second robot's cup"
+      ]
+    },
+    {
+      "id": "amazon-union-surveillance",
+      "title": "Amazon's AI Flags Union Risk In Warehouses",
+      "dimensions": [
+        "labor",
+        "safety",
+        "society"
+      ],
+      "motifs": [
+        "a warehouse wall lit up with a worker risk heat-map",
+        "a small camera-eyed robot scanning a union flyer"
+      ]
+    },
+    {
+      "id": "quantum-error-correction-breakthrough",
+      "title": "A Quantum Chip Clears An Error-Correction Hurdle",
+      "dimensions": [
+        "capabilities",
+        "science"
+      ],
+      "motifs": [
+        "a quantum chip glowing while swarming error marks shrink to a few dots",
+        "a meter needle dropping forty times lower"
+      ]
+    },
+    {
+      "id": "ai-lab-workforce-shift",
+      "title": "An AI Lab's Own Workforce Gets Less Junior, More Meetings",
+      "dimensions": [
+        "labor",
+        "industry"
+      ],
+      "motifs": [
+        "a shrinking row of junior desks beside a growing meeting table",
+        "a calendar filling with meeting blocks inside a lab building"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Three stories clear relevance 12 (novelty×magnitude×breadth ≥8): the open web closing its doors to AI agents, a coding agent's breach exposing thousands of users' API keys, and Amazon's AI flagging union risk in UK warehouses — all well past the fresh threshold of 8.",
+  "motto": "The Web Pushes Back",
+  "phrase": "AI agents promised to browse, book, and shop for you everywhere online. The web just started showing more of them the door.",
+  "phraseAlternatives": [
+    "Autonomous agents were built to go anywhere online for you. This week, more of the internet told them to turn back.",
+    "AI agents can now shop, book, and browse on their own. More websites are deciding they would rather not host the shopper.",
+    "The pitch for AI agents was that they could do anything online for you. Online is increasingly saying no thanks.",
+    "Agents were supposed to open every door on the internet. Instead, more doors are closing on the agents."
+  ],
+  "brief": {
+    "concept": "An AI agent built to shop, book, and browse for people walks up to a row of website doors, and one more swings shut just as it arrives.",
+    "metaphor": "The open web as a street of doorways that are, one by one, deciding to lock out the agent.",
+    "cast": [
+      {
+        "who": "a small AI agent robot carrying a half-full shopping bag, with a blinking cursor-arrow badge",
+        "kind": "ai"
+      },
+      {
+        "who": "a row of plain doorways standing for different websites, each with a hanging OPEN/CLOSED sign",
+        "kind": "object"
+      },
+      {
+        "who": "a human hand reaching out from the nearest doorway to flip its sign from OPEN to CLOSED",
+        "kind": "person"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Wide, calm street scene. The robot agent enters from the left, mid-step, bag swinging. Three simple doorway shapes stand in a row to the right, each at a slightly different height. The nearest door's sign is caught mid-flip by a human hand poking out from inside; the other two doors already show CLOSED. Plenty of flat cream paper background, thick duotone outlines, no clutter beyond the three required elements.",
+    "artType": "static",
+    "alt": "A small robot carrying a shopping bag walks toward a row of doorways. A hand reaches out from the nearest doorway to flip its hanging sign from OPEN to CLOSED just as the robot arrives."
+  },
+  "sourceIds": [
+    "feeds:b82a05a94858"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 1,
+    "law": 1,
+    "safety": 2,
+    "society": 3,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 0
+  }
+}

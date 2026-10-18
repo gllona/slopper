@@ -1,0 +1,249 @@
+{
+  "date": "2026-10-17",
+  "fetchedAt": "2026-10-18T11:07:57.652Z",
+  "sources": [
+    {
+      "source": "feeds",
+      "ok": true,
+      "count": 6
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "count": 4
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 9
+    },
+    {
+      "source": "gdelt",
+      "ok": false,
+      "count": 0,
+      "error": "all GDELT queries failed"
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "feeds:92df48cab0ea",
+      "source": "feeds",
+      "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+      "title": "Meta removes language that may have allowed it to scrape news sites",
+      "snippet": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such domains, web…",
+      "publishedAt": "2026-10-17T15:04:36.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:b82a05a94858",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "title": "Websites are closing their doors to AI agents",
+      "snippet": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet…",
+      "publishedAt": "2026-10-17T13:00:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:6939311ee3e4",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/why-ai-isnt-ready-to-tackle-our-convoluted-genomes/",
+      "title": "Why AI Isn’t Ready to Tackle Our Convoluted Genomes",
+      "snippet": "The DNA inside our cells isn’t just a series of instructions, but something far more dynamic. Like scientists, AI models don't yet have the data to properly decode it.",
+      "publishedAt": "2026-10-17T09:00:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:5eb559e50fd7",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "title": "Meta removes language that raised scraping and AI training concerns",
+      "snippet": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+      "publishedAt": "2026-10-17T21:31:32.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:ec0f189f0b04",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "snippet": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+      "publishedAt": "2026-10-17T20:21:19.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:f1da4b6eb4e4",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "snippet": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+      "publishedAt": "2026-10-17T18:48:08.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:882adc37f722",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261017/p19",
+      "title": "Google says \"magic state cultivation\" works in practice on its Willow quantum processor, calling it a breakthrough that reduces errors by about 40x (Google)",
+      "snippet": "Google : Google says “magic state cultivation” works in practice on its Willow quantum processor, calling it a breakthrough that reduces errors by about 40x — We've shown that magic state cultivation works on Google Quantum AI hardware. — Google Quantum AI has demonstratively opened …",
+      "publishedAt": "2026-10-17T23:35:01.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:e760fd636e4e",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261017/p18",
+      "title": "Anomaly Innovations, behind coding agent OpenCode, says a breach hit ~1.4% of OpenCode Console users and their API keys, in a \"large scale distillation attack\" (Walter Schulze/Startup Fortune)",
+      "snippet": "Walter Schulze / Startup Fortune : Anomaly Innovations, behind coding agent OpenCode, says a breach hit ~1.4% of OpenCode Console users and their API keys, in a “large scale distillation attack” — A large-scale distillation attack against the company behind the open-source coding agent OpenCode…",
+      "publishedAt": "2026-10-17T20:50:01.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:f3ebb29a15bd",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261017/p14",
+      "title": "Meta removes ToS language that suggested it could scrape websites \"associated with\" business accounts, saying it applied only to \"ads and business products\" (Terrence O'Brien/The Verge)",
+      "snippet": "Terrence O'Brien / The Verge : Meta removes ToS language that suggested it could scrape websites “associated with” business accounts, saying it applied only to “ads and business products” — Language that experts say allowed the scraping of news sites to train its AI has been removed from Meta's…",
+      "publishedAt": "2026-10-17T15:50:02.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:eca4ccbf1bca",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261017/p13",
+      "title": "DeepSeek releases V4.1-Flash-1017, an update it says offers \"stronger benchmark performance, faster task completion, and shorter outputs\" than its predecessor (Saritha Rai/Bloomberg)",
+      "snippet": "Saritha Rai / Bloomberg : DeepSeek releases V4.1-Flash-1017, an update it says offers “stronger benchmark performance, faster task completion, and shorter outputs” than its predecessor — DeepSeek released an update of its AI model this weekend that it says is faster and leaner, ramping …",
+      "publishedAt": "2026-10-17T15:00:37.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:cac24968e5aa",
+      "source": "hackernews",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "snippet": "870 points and 659 comments on Hacker News (https://news.ycombinator.com/item?id=50129045).",
+      "publishedAt": "2026-10-17T08:21:25.000Z",
+      "score": 1095,
+      "publisher": "huggingface.co",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:5cf8bc3a52e1",
+      "source": "hackernews",
+      "url": "https://llmspeed.dev/",
+      "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+      "snippet": "297 points and 82 comments on Hacker News (https://news.ycombinator.com/item?id=50127979).",
+      "publishedAt": "2026-10-17T04:36:53.000Z",
+      "score": 297,
+      "publisher": "llmspeed.dev",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:70c6ae129d22",
+      "source": "hackernews",
+      "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+      "title": "Amazon uses AI to monitor union risk in UK warehouses",
+      "snippet": "165 points and 58 comments on Hacker News (https://news.ycombinator.com/item?id=50132278).",
+      "publishedAt": "2026-10-17T16:04:23.000Z",
+      "score": 165,
+      "publisher": "opendemocracy.net",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:9ce1d661b5d8",
+      "source": "hackernews",
+      "url": "https://github.com/openai/codex/issues/25921",
+      "title": "Codex Desktop continuously generates Crashpad pending dumps",
+      "snippet": "134 points and 56 comments on Hacker News (https://news.ycombinator.com/item?id=50133231).",
+      "publishedAt": "2026-10-17T17:45:08.000Z",
+      "score": 134,
+      "publisher": "github.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:b18601d71892",
+      "source": "hackernews",
+      "url": "https://www.lemonde.fr/en/international/article/2026/10/17/israeli-settlers-attack-european-diplomatic-cars-in-west-bank-beat-french-mayor-say-witnesses_6758711_4.html",
+      "title": "Israeli settlers attack European diplomatic cars in West Bank beat French mayor",
+      "snippet": "131 points and 18 comments on Hacker News (https://news.ycombinator.com/item?id=50133274).",
+      "publishedAt": "2026-10-17T17:49:10.000Z",
+      "score": 131,
+      "publisher": "lemonde.fr",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:cc944646af06",
+      "source": "hackernews",
+      "url": "https://mihaisplace.com/blog/ai-can-write-the-code-who-verifies-it",
+      "title": "AI Can Write the Code. Who Verifies It?",
+      "snippet": "27 points and 63 comments on Hacker News (https://news.ycombinator.com/item?id=50133713).",
+      "publishedAt": "2026-10-17T18:31:30.000Z",
+      "score": 27,
+      "publisher": "mihaisplace.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:af4b7e88df06",
+      "source": "hackernews",
+      "url": "https://twitter.com/beeechimblind/status/2111227318534279501",
+      "title": "Israel makes propaganda video featuring AI generated IAMDDB without her consent",
+      "snippet": "25 points and 2 comments on Hacker News (https://news.ycombinator.com/item?id=50134241).",
+      "publishedAt": "2026-10-17T19:26:43.000Z",
+      "score": 25,
+      "publisher": "twitter.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:d09e3887f2a1",
+      "source": "hackernews",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning",
+      "title": "AI lab offers free plumbing and HVAC repairs to train AI robots",
+      "snippet": "20 points and 11 comments on Hacker News (https://news.ycombinator.com/item?id=50132550).",
+      "publishedAt": "2026-10-17T16:35:35.000Z",
+      "score": 20,
+      "publisher": "tomshardware.com",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:e7b2c4bb55de",
+      "source": "huggingface",
+      "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+      "title": "Trending open model: openbmb/MiniCPM-V-4.7-35B-A3B",
+      "snippet": "Task: image-text-to-text. 915 likes, 57935 downloads.",
+      "publishedAt": "2026-10-07T07:07:30.000Z",
+      "score": 733,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:5a9bda72c1d1",
+      "source": "huggingface",
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+      "title": "Trending open model: black-forest-labs/flux-3-image-klein-comfy",
+      "snippet": "Task: image-to-image. 725 likes, 338036 downloads.",
+      "publishedAt": "2026-10-14T12:00:13.000Z",
+      "score": 577,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    }
+  ]
+}
