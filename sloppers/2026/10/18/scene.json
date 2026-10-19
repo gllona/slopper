@@ -1,0 +1,162 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {},
+  "elements": [
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1,
+      "props": {
+        "width": 40,
+        "height": 900
+      },
+      "svg": "<line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"900\" class=\"r-line\" stroke-dasharray=\"16 12\"/>"
+    },
+    {
+      "id": "building",
+      "component": "raw",
+      "at": {
+        "x": 0.23,
+        "y": 0.78
+      },
+      "offset": [
+        0,
+        -286
+      ],
+      "scale": 1.1,
+      "props": {
+        "width": 380,
+        "height": 520
+      },
+      "svg": "<rect x=\"0\" y=\"40\" width=\"380\" height=\"30\" class=\"r-body-alt\"/><rect x=\"10\" y=\"60\" width=\"360\" height=\"450\" class=\"r-body\"/><rect x=\"60\" y=\"150\" width=\"70\" height=\"70\" class=\"r-thin\"/><rect x=\"60\" y=\"260\" width=\"70\" height=\"70\" class=\"r-thin\"/><rect x=\"270\" y=\"250\" width=\"90\" height=\"260\" class=\"r-body-alt\"/><path d=\"M270,250 A260,260 0 0 0 10,510\" class=\"r-thin\"/><line x1=\"270\" y1=\"510\" x2=\"10\" y2=\"510\" class=\"r-line\"/>"
+    },
+    {
+      "id": "bot",
+      "component": "robot",
+      "at": {
+        "x": 0.17,
+        "y": 0.78
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "happy",
+        "arms": "down",
+        "color": "body",
+        "antenna": true
+      }
+    },
+    {
+      "id": "desk",
+      "component": "raw",
+      "at": {
+        "x": 0.17,
+        "y": 0.78
+      },
+      "offset": [
+        0,
+        -41
+      ],
+      "scale": 0.75,
+      "props": {
+        "width": 200,
+        "height": 110
+      },
+      "svg": "<rect x=\"10\" y=\"10\" width=\"180\" height=\"18\" class=\"r-body-alt\"/><rect x=\"20\" y=\"28\" width=\"14\" height=\"80\" class=\"r-line\"/><rect x=\"166\" y=\"28\" width=\"14\" height=\"80\" class=\"r-line\"/>"
+    },
+    {
+      "id": "inspector",
+      "component": "human",
+      "at": {
+        "x": 0.39,
+        "y": 0.78
+      },
+      "scale": 0.9,
+      "props": {
+        "mood": "neutral",
+        "pose": "stand",
+        "color": "body",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "badge",
+      "component": "raw",
+      "attachTo": "inspector",
+      "side": "right",
+      "offset": [
+        -5,
+        -95
+      ],
+      "scale": 0.45,
+      "props": {
+        "width": 140,
+        "height": 140
+      },
+      "svg": "<rect x=\"58\" y=\"8\" width=\"24\" height=\"26\" rx=\"4\" class=\"r-line\"/><rect x=\"10\" y=\"28\" width=\"120\" height=\"100\" rx=\"12\" class=\"r-paper\"/><circle cx=\"45\" cy=\"62\" r=\"20\" class=\"r-body-alt\"/><rect x=\"78\" y=\"48\" width=\"42\" height=\"10\" class=\"r-ink\"/><rect x=\"78\" y=\"68\" width=\"32\" height=\"8\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "dial",
+      "component": "raw",
+      "at": {
+        "x": 0.796,
+        "y": 0.26
+      },
+      "scale": 0.8,
+      "props": {
+        "width": 300,
+        "height": 300
+      },
+      "svg": "<circle cx=\"150\" cy=\"150\" r=\"130\" class=\"r-body\"/><path d=\"M105.5,27.8 A130,130 0 0 1 194.5,27.8 L187.6,46.6 A110,110 0 0 0 112.4,46.6 Z\" class=\"r-accent\"/><line x1=\"150\" y1=\"150\" x2=\"128\" y2=\"266\" class=\"r-line\" stroke-width=\"10\"/><circle cx=\"150\" cy=\"150\" r=\"14\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "spokesperson",
+      "component": "human",
+      "at": "right-third",
+      "scale": 0.9,
+      "props": {
+        "mood": "proud",
+        "pose": "point",
+        "color": "body",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "label-open",
+      "component": "label",
+      "at": {
+        "x": 0.25,
+        "y": 0.1
+      },
+      "scale": 1,
+      "props": {
+        "text": "OPEN DOOR",
+        "size": "md",
+        "kind": "tag",
+        "color": "paper"
+      }
+    },
+    {
+      "id": "label-bar",
+      "component": "label",
+      "at": {
+        "x": 0.8,
+        "y": 0.1
+      },
+      "scale": 1,
+      "props": {
+        "text": "HIGH BAR",
+        "size": "md",
+        "kind": "tag",
+        "color": "accent"
+      }
+    }
+  ],
+  "alt": "A blueprint illustration split by a dashed vertical line. Left: a building with an open door; a small robot sits at a desk inside while a person with a badge on their chest walks toward the door. Right: a person points proudly up at a wall dial whose needle rests near empty, with only a thin zone marked yellow at the very top."
+}

@@ -1,0 +1,166 @@
+{
+  "date": "2026-10-18",
+  "number": 19,
+  "mode": "fresh",
+  "motto": "Open Door High Bar",
+  "phrase": "A top AI lab lets an outside watchdog publish freely. Its own safety bill only kicks in after fifty deaths or a billion dollars in damage.",
+  "phraseAlternatives": [
+    "A lab gave an outside watchdog free rein to publish. Its own safety bill waits for fifty deaths or a billion dollars in damage.",
+    "An AI lab lets a watchdog roam freely inside. Its proposed law only wakes up after fifty deaths or a billion dollars in damage.",
+    "One lab opens its doors wide to an outside watchdog. The safety law it wrote only starts after fifty deaths or a billion dollars in damage."
+  ],
+  "alt": "A blueprint illustration split by a dashed vertical line. Left: a building with an open door; a small robot sits at a desk inside while a person with a badge on their chest walks toward the door. Right: a person points proudly up at a wall dial whose needle rests near empty, with only a thin zone marked yellow at the very top.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "policy": 3,
+    "safety": 2,
+    "industry": 2,
+    "labor": 2,
+    "law": 2,
+    "society": 3,
+    "planet": 1,
+    "education": 1,
+    "capabilities": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 0
+  },
+  "storylines": [
+    "ai-safety-self-policing",
+    "delivery-robot-protest",
+    "datacenter-backlash-campaign",
+    "ai-companion-double-standard"
+  ],
+  "topStories": [
+    {
+      "title": "An AI Lab Polices Itself, Then Writes Its Own Law",
+      "itemIds": [
+        "feeds:3055ac5eec49",
+        "feeds:33da8aabe6e1",
+        "hackernews:f1dca3f89f46"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "ai-safety-self-policing"
+    },
+    {
+      "title": "A Woman Is Arrested For Blocking A Delivery Robot",
+      "itemIds": [
+        "feeds:8c1ef342124a"
+      ],
+      "dimensions": [
+        "labor",
+        "society",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "delivery-robot-protest"
+    },
+    {
+      "title": "Data Centers Court Kids With Field Trips",
+      "itemIds": [
+        "feeds:4469c7e8f753"
+      ],
+      "dimensions": [
+        "planet",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "Adult Creators Question Why An AI Companion Can Flirt And They Can't",
+      "itemIds": [
+        "feeds:c3f7831580c3"
+      ],
+      "dimensions": [
+        "labor",
+        "society",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "ai-companion-double-standard"
+    }
+  ],
+  "brief": {
+    "concept": "An AI lab throws its own door wide open for an outside watchdog to walk in past its chatbot, while across the room it points proudly at a safety-law dial that only reacts once the needle nearly maxes out.",
+    "metaphor": "Self-policing looks generous up close, but the rule it wrote for everyone else only switches on after a catastrophe.",
+    "cast": [
+      {
+        "who": "a plain institution building, front door open",
+        "kind": "institution"
+      },
+      {
+        "who": "a small chatbot robot seated at a desk just inside the doorway",
+        "kind": "ai"
+      },
+      {
+        "who": "a human inspector stepping through the open doorway, holding up a badge",
+        "kind": "person"
+      },
+      {
+        "who": "a large wall-mounted dial with its needle resting near empty and a tiny red zone at the very top",
+        "kind": "object"
+      },
+      {
+        "who": "a human spokesperson standing beside the dial, pointing at it proudly",
+        "kind": "person"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split frame. Left half: the open doorway of the building with the inspector stepping in, the small chatbot robot seated at a desk just inside. Right half: the spokesperson pointing at the wall dial, needle near zero, one yellow highlight on the tiny red zone at the very top. Flat blueprint linework on grid, pale translucent fills.",
+    "artType": "static",
+    "alt": "A blueprint-style illustration split in two. On the left, a person with a badge walks through an open doorway of a plain building, passing a small chatbot robot seated at a desk inside. On the right, a person points proudly at a wall-mounted dial whose needle sits near empty, with only a tiny zone at the very top marked in yellow."
+  },
+  "sources": [
+    {
+      "id": "feeds:3055ac5eec49",
+      "title": "Anthropic gives outside AI watchdog “employee-like” access",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-10-18T16:25:19.000Z"
+    },
+    {
+      "id": "hackernews:f1dca3f89f46",
+      "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "source": "hackernews",
+      "publisher": "tomshardware.com",
+      "publishedAt": "2026-10-18T14:30:27.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.43,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-19T11:31:24.837Z"
+}

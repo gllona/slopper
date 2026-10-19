@@ -1,0 +1,101 @@
+{
+  "passed": false,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 2,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Correct casting (humans for people, robot for the AI) and kind tone, but the split-frame device never renders — flat solid background with no grid — and a disconnected floating badge plus a celebratory inspector pose muddy the joke; average falls below passing.",
+        "revisionNotes": [
+          "Render the background as the specified left/right split (bg navy / paper cream) with blueprint grid — the still is solid navy throughout, erasing the visual divide between the 'open door' and 'high bar' halves and losing the blueprint grid texture.",
+          "The badge prop floats disconnected above and between the two people, reading as a stray shield/trophy icon rather than something the inspector is holding up; attach it to the inspector's raised hand at the same scale.",
+          "Swap the inspector's 'cheer' pose (both arms up, big smile) for one that actually shows presenting ID while stepping forward — cheer reads as celebrating, not showing credentials at a door.",
+          "Pull the inspector/bot/building cluster toward the left third and the spokesperson/dial cluster toward the right third so the split-frame composition the brief calls for is legible as two scenes, not one group of three figures.",
+          "Add a small raw-shape desk under or beside the bot so it reads as 'seated at a desk just inside the doorway' as specified, instead of standing alone in the door frame.",
+          "Palette/layout (navy blueprint, vertical split, OPEN label, buildings) is close to a recent slopper in the gallery; vary the accent treatment or split orientation to read as fresh."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"label-open\" (label) was moved 0 px, 9 px to stay inside the safe area",
+          "\"label-bar\" (label) was moved 0 px, 9 px to stay inside the safe area"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "The dial half reads clearly, but the chatbot and desk are nearly hidden behind the inspector's legs, and both figures' outstretched arms plus a stray badge blur the split-frame into one confused scene. This blueprint layout is also heavily reused recently. Needs revision before publishing.",
+        "revisionNotes": [
+          "Separate 'bot' and 'desk' from 'inspector': they share nearly the same anchor (x=0.37 vs left-third), so the chatbot is occluded by the inspector's legs. Move bot/desk to x≈0.17 and scale bot up to 0.8 so the seated chatbot reads clearly before the inspector passes it.",
+          "Inspector and spokesperson both use pose='point' with arms reaching toward each other across the mid-line, and the badge (attached to inspector's arm) ends up floating near the spokesperson. Switch inspector's pose to 'walk' and move the badge offset to sit near their own chest.",
+          "Add a visible vertical divider (line or gutter) between the two halves per the brief's 'split frame' composition so each side reads as its own beat, not one shared scene.",
+          "Once un-occluded, confirm the desk's raw-shape silhouette (surface + two legs) is still readable at scale 0.55 next to the enlarged bot.",
+          "Keep the dial as is — needle resting low-left with the yellow zone isolated at the very top reads clearly as 'barely reacts until near-max'.",
+          "This blue blueprint, split-frame-with-dial-or-figures layout has appeared in several recent pieces; vary the palette or drop the vertical split next time to avoid repetition."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"building\" extends outside the safe area in the final frame (x 39…457, y 314…831)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Cast and concept are coherent (robot for the AI, humans for the inspector and spokesperson), but the floating disconnected badge prop, the building bleeding past the safe area, and a composition that closely echoes recent split-frame blueprint pieces drag the average below passing.",
+        "revisionNotes": [
+          "Reattach the badge prop directly to the inspector's raised hand/chest (offset it close to the torso, scale ~0.6); right now it floats as a disconnected square near the divider line and reads as stray clutter, not a held badge.",
+          "Shift the building anchor left-edge inward (x from 0.23 toward 0.20, scale 0.95-1.0) to pull it back inside the safe area per the lint warning; right now it risks cropping on phone frames.",
+          "This split-frame blueprint layout (dashed vertical divider, robot on one side, pointing human on the other, tag labels top corners) is very close to at least two recent sloppers; try a single continuous scene or a different divider treatment so it doesn't read as a template repeat.",
+          "Right half feels sparse with a tall empty gap above the dial; scale the dial to ~1.0 and move the spokesperson up closer to it, or add a small plinth/stand prop to use the vertical space.",
+          "The dial's tiny top-of-arc yellow zone is the whole joke but is too subtle to read at a glance; thicken the yellow arc and consider a tiny threshold label (e.g. '$1B') so the punchline lands without a close look.",
+          "Give the inspector a slightly more neutral-to-pleasant expression walking in (current face reads mildly annoyed), since the brief frames this as the lab proudly welcoming the watchdog."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    }
+  ]
+}

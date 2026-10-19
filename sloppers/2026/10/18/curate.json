@@ -1,0 +1,153 @@
+{
+  "topStories": [
+    {
+      "title": "An AI Lab Polices Itself, Then Writes Its Own Law",
+      "itemIds": [
+        "feeds:3055ac5eec49",
+        "feeds:33da8aabe6e1",
+        "hackernews:f1dca3f89f46"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "ai-safety-self-policing"
+    },
+    {
+      "title": "A Woman Is Arrested For Blocking A Delivery Robot",
+      "itemIds": [
+        "feeds:8c1ef342124a"
+      ],
+      "dimensions": [
+        "labor",
+        "society",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "delivery-robot-protest"
+    },
+    {
+      "title": "Data Centers Court Kids With Field Trips",
+      "itemIds": [
+        "feeds:4469c7e8f753"
+      ],
+      "dimensions": [
+        "planet",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "Adult Creators Question Why An AI Companion Can Flirt And They Can't",
+      "itemIds": [
+        "feeds:c3f7831580c3"
+      ],
+      "dimensions": [
+        "labor",
+        "society",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "ai-companion-double-standard"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "delivery-robot-protest",
+      "title": "A Protester Blocks A Delivery Robot",
+      "dimensions": [
+        "labor",
+        "society",
+        "law"
+      ],
+      "motifs": [
+        "a protester standing in a delivery robot's path",
+        "a disorderly-conduct ticket taped to a robot's wheel"
+      ]
+    },
+    {
+      "id": "ai-companion-double-standard",
+      "title": "An AI Companion Gets Away With What Humans Can't",
+      "dimensions": [
+        "labor",
+        "society",
+        "law"
+      ],
+      "motifs": [
+        "a chatbot speech bubble winking while a human creator's account gets flagged",
+        "two identical rule books, one stamped exempt for the robot"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The Anthropic self-policing story (outside watchdog gets employee-like publishing access, plus a proposed safety bill that only triggers after 50 deaths or $1B in damage) scores at the top of novelty, magnitude, and breadth, clearing the fresh threshold on its own, so today opens a new thread rather than continuing \"Doors Closed, Eyes Open.\"",
+  "motto": "Open Door High Bar",
+  "phrase": "A top AI lab lets an outside watchdog publish freely. Its own safety bill only kicks in after fifty deaths or a billion dollars in damage.",
+  "phraseAlternatives": [
+    "A lab gave an outside watchdog free rein to publish. Its own safety bill waits for fifty deaths or a billion dollars in damage.",
+    "An AI lab lets a watchdog roam freely inside. Its proposed law only wakes up after fifty deaths or a billion dollars in damage.",
+    "One lab opens its doors wide to an outside watchdog. The safety law it wrote only starts after fifty deaths or a billion dollars in damage."
+  ],
+  "brief": {
+    "concept": "An AI lab throws its own door wide open for an outside watchdog to walk in past its chatbot, while across the room it points proudly at a safety-law dial that only reacts once the needle nearly maxes out.",
+    "metaphor": "Self-policing looks generous up close, but the rule it wrote for everyone else only switches on after a catastrophe.",
+    "cast": [
+      {
+        "who": "a plain institution building, front door open",
+        "kind": "institution"
+      },
+      {
+        "who": "a small chatbot robot seated at a desk just inside the doorway",
+        "kind": "ai"
+      },
+      {
+        "who": "a human inspector stepping through the open doorway, holding up a badge",
+        "kind": "person"
+      },
+      {
+        "who": "a large wall-mounted dial with its needle resting near empty and a tiny red zone at the very top",
+        "kind": "object"
+      },
+      {
+        "who": "a human spokesperson standing beside the dial, pointing at it proudly",
+        "kind": "person"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split frame. Left half: the open doorway of the building with the inspector stepping in, the small chatbot robot seated at a desk just inside. Right half: the spokesperson pointing at the wall dial, needle near zero, one yellow highlight on the tiny red zone at the very top. Flat blueprint linework on grid, pale translucent fills.",
+    "artType": "static",
+    "alt": "A blueprint-style illustration split in two. On the left, a person with a badge walks through an open doorway of a plain building, passing a small chatbot robot seated at a desk inside. On the right, a person points proudly at a wall-mounted dial whose needle sits near empty, with only a tiny zone at the very top marked in yellow."
+  },
+  "sourceIds": [
+    "feeds:3055ac5eec49",
+    "hackernews:f1dca3f89f46"
+  ],
+  "dimensions": {
+    "policy": 3,
+    "safety": 2,
+    "industry": 2,
+    "labor": 2,
+    "law": 2,
+    "society": 3,
+    "planet": 1,
+    "education": 1,
+    "capabilities": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 0
+  }
+}
