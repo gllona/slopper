@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-18",
+  "number": 19,
+  "mode": "fresh",
+  "motto": "Open Door, High Bar",
+  "phrase": "An AI company let an outside watchdog publish about it freely. Its own proposed safety law only kicks in after fifty deaths or a billion dollars in damage.",
+  "phraseAlternatives": [
+    "A lab opened its doors to an outside watchdog, no approval needed. Its own safety bill waits for fifty deaths or a billion-dollar disaster first.",
+    "One company trusts an outside watchdog with full access to its secrets. Its proposed law trusts disaster to happen first.",
+    "An AI company gave critics free rein to publish whatever they find. Its safety bill only turns on after fifty deaths or a billion dollars in losses.",
+    "A safety-minded AI company welcomes outside scrutiny with open arms. Its own safety law prefers to wait for a catastrophe.",
+    "The watchdog can publish anything, any time, about the company. The company's own safety bill waits for fifty deaths or a billion dollars in damage."
+  ],
+  "alt": "An AI company's building has its front door propped open with an auditor walking in holding a book, while on the other side of a dividing line a tall gauge shows an extremely high yellow safety mark and a small robot crouches to duck easily underneath the bar below it.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "industry": 3,
+    "labor": 2,
+    "policy": 3,
+    "law": 2,
+    "safety": 2,
+    "society": 3,
+    "planet": 2,
+    "education": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": -1
+  },
+  "storylines": [
+    "ai-safety-self-policing",
+    "character-ai-bankruptcy",
+    "protester-arrested-blocking-robot",
+    "ai-agent-double-standard-adult-content",
+    "datacenter-backlash-campaign",
+    "ai-stock-bubble-risk"
+  ],
+  "topStories": [
+    {
+      "title": "An AI Lab Gives A Watchdog Real Teeth While Its Own Safety Bill Waits For Disaster",
+      "itemIds": [
+        "feeds:3055ac5eec49",
+        "hackernews:f1dca3f89f46"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-safety-self-policing"
+    },
+    {
+      "title": "An Entertainment Giant Agrees To Hire The Majority Of A Bankrupt Chatbot Company's Staff",
+      "itemIds": [
+        "feeds:71e1590c6c97"
+      ],
+      "dimensions": [
+        "labor",
+        "industry"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "character-ai-bankruptcy"
+    },
+    {
+      "title": "A Protester Is Arrested For Blocking A Delivery Robot",
+      "itemIds": [
+        "feeds:8c1ef342124a"
+      ],
+      "dimensions": [
+        "labor",
+        "society",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "protester-arrested-blocking-robot"
+    },
+    {
+      "title": "Adult Performers Ask Why An AI Agent Can Flirt When They Can't",
+      "itemIds": [
+        "feeds:c3f7831580c3"
+      ],
+      "dimensions": [
+        "society",
+        "labor",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "ai-agent-double-standard-adult-content"
+    },
+    {
+      "title": "The Datacenter Industry Courts Children With Field Trips",
+      "itemIds": [
+        "feeds:4469c7e8f753"
+      ],
+      "dimensions": [
+        "planet",
+        "industry",
+        "education",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "AI Stock Bubble Warnings Grow As Electric Bills Rise",
+      "itemIds": [
+        "hackernews:ac3cdb3aa986",
+        "hackernews:e8c65a76570d"
+      ],
+      "dimensions": [
+        "industry",
+        "planet",
+        "policy"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-stock-bubble-risk"
+    }
+  ],
+  "brief": {
+    "concept": "An AI company props its front door wide open for an outside auditor to walk straight in, while on the other side of the scene a small robot slips easily under a safety bar set at an extremely high threshold.",
+    "metaphor": "An open door for outside scrutiny beside a safety gate raised so high that almost nothing can trip it.",
+    "cast": [
+      {
+        "who": "an AI company's building with its front door propped wide open",
+        "kind": "institution"
+      },
+      {
+        "who": "an outside auditor stepping through the open door with a notepad",
+        "kind": "person"
+      },
+      {
+        "who": "a tall safety threshold meter set at a very high mark",
+        "kind": "object"
+      },
+      {
+        "who": "a small robot casually slipping underneath the raised safety bar",
+        "kind": "ai"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split the frame in two. Left half: the institution building with its door wide open, the auditor walking in freely, notepad in hand. Right half: the tall threshold meter, its mark drawn near the top, with the small robot ducking easily under the bar below it. One yellow highlight picks out the high mark on the meter to center the joke. Keep shapes simple, outline-heavy, on the blueprint grid.",
+    "artType": "static",
+    "alt": "An AI company's building has its door propped wide open for an outside auditor to walk in freely, while on the other side a small robot easily slips under a safety bar set at an extremely high threshold."
+  },
+  "sources": [
+    {
+      "id": "feeds:3055ac5eec49",
+      "title": "Anthropic gives outside AI watchdog “employee-like” access",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-10-18T16:25:19.000Z"
+    },
+    {
+      "id": "hackernews:f1dca3f89f46",
+      "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+      "source": "hackernews",
+      "publisher": "tomshardware.com",
+      "publishedAt": "2026-10-18T14:30:27.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.57,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-19T17:18:10.483Z"
+}
