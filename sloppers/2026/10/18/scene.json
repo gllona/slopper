@@ -1,0 +1,149 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {
+    "type": "grid",
+    "color": "bg",
+    "color2": "accent2"
+  },
+  "elements": [
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.57,
+        "y": 0.5
+      },
+      "scale": 1,
+      "props": {
+        "width": 20,
+        "height": 900
+      },
+      "svg": "<line x1=\"10\" y1=\"0\" x2=\"10\" y2=\"900\" class=\"r-line\"/>"
+    },
+    {
+      "id": "hq",
+      "component": "datacenter",
+      "at": {
+        "x": 0.19,
+        "y": 0.82
+      },
+      "scale": 0.85,
+      "props": {
+        "racks": 2,
+        "lights": "busy",
+        "steam": false,
+        "fans": false
+      }
+    },
+    {
+      "id": "door",
+      "component": "raw",
+      "attachTo": "hq",
+      "side": "right",
+      "offset": [
+        8,
+        0
+      ],
+      "scale": 1,
+      "props": {
+        "width": 110,
+        "height": 220
+      },
+      "svg": "<rect x=\"10\" y=\"10\" width=\"85\" height=\"200\" rx=\"4\" class=\"r-line\"/><rect x=\"14\" y=\"14\" width=\"12\" height=\"185\" rx=\"2\" class=\"r-body\" transform=\"rotate(55 14 14)\"/><circle cx=\"14\" cy=\"14\" r=\"5\" class=\"r-ink\"/><rect x=\"91\" y=\"100\" width=\"8\" height=\"26\" rx=\"2\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "open-label",
+      "component": "label",
+      "attachTo": "hq",
+      "side": "top",
+      "offset": [
+        0,
+        -10
+      ],
+      "scale": 1,
+      "props": {
+        "text": "OPEN DOOR",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "auditor",
+      "component": "human",
+      "at": {
+        "x": 0.48,
+        "y": 0.82
+      },
+      "scale": 0.58,
+      "props": {
+        "mood": "neutral",
+        "pose": "stand",
+        "holds": "book"
+      }
+    },
+    {
+      "id": "threshold",
+      "component": "meter",
+      "at": {
+        "x": 0.72,
+        "y": 0.64
+      },
+      "scale": 1.3,
+      "props": {
+        "kind": "thermometer",
+        "level": 0.92,
+        "color": "body"
+      }
+    },
+    {
+      "id": "cap",
+      "component": "raw",
+      "attachTo": "threshold",
+      "side": "top",
+      "offset": [
+        0,
+        -10
+      ],
+      "scale": 1,
+      "props": {
+        "width": 260,
+        "height": 44
+      },
+      "svg": "<rect x=\"10\" y=\"12\" width=\"240\" height=\"20\" rx=\"6\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "high-label",
+      "component": "label",
+      "attachTo": "cap",
+      "side": "top",
+      "offset": [
+        0,
+        -8
+      ],
+      "scale": 1,
+      "props": {
+        "text": "HIGH BAR",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "bot",
+      "component": "robot",
+      "at": {
+        "x": 0.85,
+        "y": 0.82
+      },
+      "scale": 0.55,
+      "rotate": -15,
+      "props": {
+        "mood": "happy",
+        "arms": "down"
+      }
+    }
+  ],
+  "alt": "An AI company's building has its front door propped open with an auditor walking in holding a book, while on the other side of a dividing line a tall gauge shows an extremely high yellow safety mark and a small robot crouches to duck easily underneath the bar below it."
+}

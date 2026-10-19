@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 1,
+          "style": 3,
+          "polish": 1,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Fails: the split-frame metaphor collapses into a cluttered center-left cluster where the robot overlaps the auditor instead of ducking under the bar, the 'door' reads as rooftop tanks, and the meter is clipped at the corner, so the joke doesn't land without a key.",
+        "revisionNotes": [
+          "Rebuild as true left/right split per brief: building+auditor fully in left half, meter+robot fully in right half — currently all four elements are clumped center-left.",
+          "Move the robot from its overlap with the auditor to right-third, actually ducking under the HIGH BAR — right now it's standing beside the human instead of near the meter, so the core joke isn't drawn.",
+          "Redraw the 'door': the two rooftop cylinders under OPEN DOOR read as tanks/vents, not a propped-open door. Use a simple door-shaped raw component at the building's side.",
+          "Reposition the threshold meter and its yellow cap/HIGH BAR label fully inside the safe area — the meter is clipped by the bottom-right corner and the yellow bar floats disconnected, overlapping the auditor's head.",
+          "Add clear spacing between auditor, robot, and building — robot's head currently overlaps the auditor's torso and the HIGH BAR text crosses the auditor's face.",
+          "Differentiate from the recent OPEN-labeled blueprint split-composition slopper (same palette/layout) — vary line weight, accent color, or camera framing."
+        ]
+      },
+      "average": 2.29,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 3,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The cast and metaphor are on-brief, but the missing background split, a disconnected 'HIGH BAR' bar, an ambiguous door prop, and an upright (not ducking) robot weaken the read, and the composition echoes a recent blueprint piece closely enough to hurt novelty — average lands below the pass bar.",
+        "revisionNotes": [
+          "Add the vertical split/divider between the two halves — the scene calls for a left/right background split (bg vs paper) but the render is a single flat blue field, so the 'two standards side by side' structure is lost.",
+          "Reattach the 'cap' yellow bar directly onto the threshold meter (e.g. attachTo threshold, side top) instead of offset -200/-20 to its left; right now the HIGH BAR label floats disconnected above the robot, so the meter and the bar read as two unrelated props.",
+          "Give the robot a crouching/ducking pose (bend legs, lower torso) instead of standing upright with a -8 rotate; as drawn it just stands under a sign rather than visibly slipping under a barrier.",
+          "Redesign the 'door' raw shape — the thin rotated 60x12 plank behind the auditor reads as a sign or board, not an open door; add a hinge line or door-frame notch so it's legible as a door swung open.",
+          "Fill more of the empty upper two-thirds of the canvas (add the blueprint grid texture seen in other pieces, or raise prop scale) so the composition isn't just a row of small icons on a mostly empty square.",
+          "This split-screen 'OPEN label + datacenter + human + robot on a blueprint grid' formula is very close to a recent slopper; vary the layout (e.g. stacked instead of side-by-side, different prop silhouettes) to read as fresh."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 4,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Clean blueprint execution with correct human/robot casting and a readable split metaphor, but the \"slipping under the bar\" action is only implied rather than staged, the top of the frame sits empty, and the blue-grid split-screen template is starting to repeat across recent sloppers.",
+        "revisionNotes": [
+          "The bot leans beside the thermometer's bulb rather than passing under the yellow 'HIGH BAR' cap near the top; move bot to roughly x=0.80,y=0.6 directly beneath the cap, rotate -25, so the ducking-under gag reads in one glance.",
+          "Top third of the frame (y=0 to ~0.35) is empty grid on both sides; scale hq and threshold to ~1.0 or add a small blueprint annotation (dimension arrow, measurement ticks) to use that space with intent.",
+          "Auditor sits in a blank gap right of the open door rather than mid-stride through it; attach auditor to hq's door side with a small offset so the walking-in beat is unambiguous.",
+          "This is at least the third recent slopper on the same blue blueprint grid with a thin vertical divider splitting two labeled zones (compare the 'OPEN' and 'BRAKE/FAKE' pieces) - vary palette or ditch the split-screen template next time.",
+          "Cap/HIGH BAR reads as a floating sign disconnected from the thermometer's fill line; nudge the cap down to touch the top of the mercury column so it clearly marks the gauge's own threshold tick."
+        ]
+      },
+      "average": 3.57,
+      "passed": true
+    }
+  ]
+}
