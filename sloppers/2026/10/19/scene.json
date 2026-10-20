@@ -1,0 +1,115 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {
+    "type": "split",
+    "horizon": 0.74
+  },
+  "elements": [
+    {
+      "id": "bot",
+      "component": "robot",
+      "at": "left-third",
+      "scale": 1,
+      "props": {
+        "mood": "neutral",
+        "arms": "down",
+        "antenna": true
+      }
+    },
+    {
+      "id": "note",
+      "component": "raw",
+      "attachTo": "bot",
+      "side": "top",
+      "offset": [
+        35,
+        -15
+      ],
+      "scale": 0.85,
+      "props": {
+        "width": 170,
+        "height": 130
+      },
+      "svg": "<rect x=\"10\" y=\"10\" width=\"150\" height=\"110\" rx=\"8\" class=\"r-paper\"/><path d=\"M120 10 L160 10 L160 50 Z\" class=\"r-body-alt\"/><line x1=\"25\" y1=\"45\" x2=\"130\" y2=\"45\" class=\"r-thin\"/><line x1=\"25\" y1=\"63\" x2=\"130\" y2=\"63\" class=\"r-thin\"/><line x1=\"25\" y1=\"81\" x2=\"95\" y2=\"81\" class=\"r-thin\"/>"
+    },
+    {
+      "id": "label-note",
+      "component": "label",
+      "attachTo": "note",
+      "side": "top",
+      "offset": [
+        0,
+        -10
+      ],
+      "scale": 1,
+      "props": {
+        "text": "NO REGULATOR",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "bigco",
+      "component": "raw",
+      "at": {
+        "x": 0.675,
+        "y": 0.518
+      },
+      "scale": 1,
+      "props": {
+        "width": 520,
+        "height": 560
+      },
+      "svg": "<rect x=\"300\" y=\"140\" width=\"190\" height=\"380\" rx=\"4\" class=\"r-accent\"/><rect x=\"330\" y=\"170\" width=\"30\" height=\"40\" class=\"r-paper\"/><rect x=\"390\" y=\"170\" width=\"30\" height=\"40\" class=\"r-paper\"/><rect x=\"330\" y=\"240\" width=\"30\" height=\"40\" class=\"r-paper\"/><rect x=\"390\" y=\"240\" width=\"30\" height=\"40\" class=\"r-paper\"/><rect x=\"330\" y=\"310\" width=\"30\" height=\"40\" class=\"r-paper\"/><rect x=\"390\" y=\"310\" width=\"30\" height=\"40\" class=\"r-paper\"/><rect x=\"330\" y=\"380\" width=\"30\" height=\"40\" class=\"r-paper\"/><rect x=\"390\" y=\"380\" width=\"30\" height=\"40\" class=\"r-paper\"/><rect x=\"385\" y=\"60\" width=\"24\" height=\"80\" class=\"r-ink\"/><rect x=\"147\" y=\"60\" width=\"238\" height=\"28\" class=\"r-ink\"/><line x1=\"147\" y1=\"88\" x2=\"147\" y2=\"190\" class=\"r-line\"/><circle cx=\"147\" cy=\"198\" r=\"10\" class=\"r-line\"/><line x1=\"147\" y1=\"208\" x2=\"147\" y2=\"230\" class=\"r-line\"/><g transform=\"rotate(8 147 251)\"><rect x=\"117\" y=\"230\" width=\"60\" height=\"42\" rx=\"6\" class=\"r-paper\"/><circle cx=\"132\" cy=\"251\" r=\"5\" class=\"r-ink\"/><line x1=\"141\" y1=\"251\" x2=\"167\" y2=\"251\" class=\"r-thin\"/></g>"
+    },
+    {
+      "id": "cracked",
+      "component": "raw",
+      "at": {
+        "x": 0.57,
+        "y": 0.62
+      },
+      "scale": 1,
+      "props": {
+        "width": 240,
+        "height": 280
+      },
+      "svg": "<rect x=\"20\" y=\"80\" width=\"200\" height=\"190\" rx=\"4\" class=\"r-body-alt\"/><rect x=\"45\" y=\"100\" width=\"35\" height=\"30\" class=\"r-accent-2\"/><rect x=\"120\" y=\"100\" width=\"35\" height=\"30\" class=\"r-accent-2\"/><rect x=\"45\" y=\"150\" width=\"35\" height=\"30\" class=\"r-accent-2\"/><rect x=\"120\" y=\"150\" width=\"35\" height=\"30\" class=\"r-accent-2\"/><rect x=\"45\" y=\"200\" width=\"35\" height=\"30\" class=\"r-accent-2\"/><rect x=\"120\" y=\"200\" width=\"35\" height=\"30\" class=\"r-accent-2\"/><path d=\"M120 80 L95 140 L135 180 L100 230 L120 270\" fill=\"none\" class=\"r-line\"/>"
+    },
+    {
+      "id": "papers",
+      "component": "raw",
+      "at": {
+        "x": 0.78,
+        "y": 0.885
+      },
+      "scale": 0.75,
+      "rotate": 8,
+      "props": {
+        "width": 200,
+        "height": 140
+      },
+      "svg": "<g transform=\"rotate(14 100 70)\"><rect x=\"40\" y=\"40\" width=\"120\" height=\"70\" rx=\"6\" class=\"r-body-alt\"/></g><g transform=\"rotate(6 100 65)\"><rect x=\"35\" y=\"30\" width=\"120\" height=\"70\" rx=\"6\" class=\"r-paper\"/></g><g transform=\"rotate(-4 95 60)\"><rect x=\"30\" y=\"20\" width=\"120\" height=\"70\" rx=\"6\" class=\"r-body-alt\"/></g><line x1=\"50\" y1=\"35\" x2=\"120\" y2=\"35\" class=\"r-thin\"/><line x1=\"50\" y1=\"48\" x2=\"110\" y2=\"48\" class=\"r-thin\"/>"
+    },
+    {
+      "id": "label-papers",
+      "component": "label",
+      "attachTo": "papers",
+      "side": "top",
+      "offset": [
+        0,
+        -10
+      ],
+      "scale": 1,
+      "props": {
+        "text": "LAWSUITS",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "A calm robot chatbot stands at left with a small folded note peeking from behind its head, reading NO REGULATOR. To the right, a tall orange company swings a crane that lifts a smaller, cracked white chatbot building by a price tag, while a stack of papers labeled LAWSUITS slides away below, untouched."
+}

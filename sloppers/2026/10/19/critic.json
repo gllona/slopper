@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The cast and concept are sound (robot for the AI, buildings for the institutions, no humans misdrawn), but execution is muddled: the acquiring building clips straight through the robot, the hidden note floats disconnected near the top edge instead of tucking behind the bot, and the crane arm/price tag are too thin and small to register as a crane lifting a purchase.",
+        "revisionNotes": [
+          "The orange 'takeover' building overlaps and clips the robot's torso, arm, and legs — shift the building group right (e.g. x=0.72) and shrink or reposition the bot so the two don't collide; keep the bot clean in the left-third per the brief.",
+          "The hidden note is floating disconnected near the top edge, far from the bot it's supposed to be 'tucked behind' — re-anchor it close to the robot's head/shoulder (smaller offset) so the hiding gesture reads.",
+          "The crane arm is a single thin stroke that reads as a wire or flagpole, not a crane — rebuild it as a chunky paper-cutout arm shape, scale ~1.3, with visible thickness.",
+          "The price tag at the hook is nearly invisible at this size — scale it to ~1.4 and give it a clear tag silhouette (string + rectangle) so 'lifting by the price tag' is legible.",
+          "The 'NO REGULATOR' headline sits right on top of the floating note, competing for the same space — once the note moves down near the bot, keep the label directly under the note so the pairing is unambiguous.",
+          "Overall the left cluster (bot + note + building) is dense while the right side (crane hook + cracked building + papers) is sparse — rebalance so each half carries roughly equal visual weight."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 4,
+          "style": 4,
+          "polish": 4,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "A narrow pass: the paper-cutout execution is clean and the cast is correctly used, but the 'hidden' note is the most prominent element on the page (undercutting the secrecy joke) and the crane doesn't visibly grip what it's lifting, plus the layout echoes a formula seen repeatedly in recent sloppers.",
+        "revisionNotes": [
+          "Shrink and re-tuck the 'note' so it peeks from behind the robot's shoulder (attach side 'left'/'back', scale ~0.5) instead of floating above its head as the biggest element in frame — right now the 'secret' note is the loudest thing on the page, undercutting the joke.",
+          "Drop or shrink the 'NO REGULATOR' label so it reads like a glimpse of hidden text, not a headline; a giant label above the note defeats the 'secretly told' premise.",
+          "Make the crane read as a crane: thicken the arm, add a visible claw/hook shape gripping the cracked building itself (not just a dangling price tag in empty air) so the 'lifting' action is legible in under 3 seconds.",
+          "Anchor the price tag directly to the cracked building (overlap or attach it to the building's roof) rather than leaving it floating between the two structures.",
+          "Vary the formula from recent sloppers: several past pieces use the same 'character + bold label overhead + boxy institution on the right' layout (see recent.png panels 2, 6, 9) — try a different palette balance or framing device to feel less templated.",
+          "Tighten the dead space between the crane line and the ground; the upper-right quadrant feels sparse compared to the dense left cluster."
+        ]
+      },
+      "average": 3.57,
+      "passed": true
+    }
+  ]
+}
