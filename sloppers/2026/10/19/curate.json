@@ -1,0 +1,208 @@
+{
+  "topStories": [
+    {
+      "title": "US Builds More Fossil Fuel Power As AI Datacenter Demand Surges",
+      "itemIds": [
+        "feeds:069f5a7c73d9"
+      ],
+      "dimensions": [
+        "planet",
+        "industry",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "fossil-fuel-datacenter-boom"
+    },
+    {
+      "title": "US Bans China's DeepSeek From Federal Government Systems",
+      "itemIds": [
+        "feeds:85c7f6943e0d",
+        "hackernews:b70800a8097d"
+      ],
+      "dimensions": [
+        "policy",
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "us-bans-deepseek-government"
+    },
+    {
+      "title": "Leaked Help Pages Reveal Hidden Chatbot Instructions, Including Not To Recommend A Regulator",
+      "itemIds": [
+        "feeds:bc7e5cd7c209",
+        "hackernews:55c3c0be518a"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "chatbot-hidden-instructions-leak"
+    },
+    {
+      "title": "Entertainment Giant Structures Chatbot Company Purchase To Avoid Inheriting Its Lawsuits",
+      "itemIds": [
+        "feeds:2b7484908312",
+        "feeds:3eacc5ccc3ef"
+      ],
+      "dimensions": [
+        "law",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "character-ai-bankruptcy"
+    },
+    {
+      "title": "Hacker Uses Army Of AI Agents To Breach Over 100 Company Websites",
+      "itemIds": [
+        "feeds:a01a5d49df06",
+        "hackernews:b34ad4f974df"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agent-swarm-hack"
+    },
+    {
+      "title": "Judge Denies Bail To Accused AI Lab Spy, Cites Saudi Government 'Blank Check'",
+      "itemIds": [
+        "feeds:8adbc6a2d3ed",
+        "feeds:0a1ae9b99b57",
+        "feeds:77d8c0cc0830"
+      ],
+      "dimensions": [
+        "law",
+        "safety",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "openai-engineer-spy-arrest"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "fossil-fuel-datacenter-boom",
+      "title": "The Fossil Fuel Comeback For AI Power",
+      "dimensions": [
+        "planet",
+        "industry",
+        "policy"
+      ],
+      "motifs": [
+        "a coal smokestack relit behind a row of server racks",
+        "an electricity meter spinning faster than a wind turbine",
+        "a pipeline crossing a field beside a new datacenter"
+      ]
+    },
+    {
+      "id": "us-bans-deepseek-government",
+      "title": "A Government Bans A Rival's AI From Its Own Agencies",
+      "dimensions": [
+        "policy",
+        "law",
+        "industry"
+      ],
+      "motifs": [
+        "a government office removing a foreign chatbot icon from its lobby",
+        "a flag planted beside a locked server cabinet"
+      ]
+    },
+    {
+      "id": "chatbot-hidden-instructions-leak",
+      "title": "A Chatbot's Hidden Instructions Get Leaked",
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "motifs": [
+        "a speech bubble with a secret note taped behind it",
+        "a help page curling open to reveal hidden fine print"
+      ]
+    },
+    {
+      "id": "ai-agent-swarm-hack",
+      "title": "An AI Agent Swarm Breaches Dozens Of Companies",
+      "dimensions": [
+        "safety",
+        "law",
+        "industry"
+      ],
+      "motifs": [
+        "a cluster of small robot hands picking many locks at once",
+        "a single figure directing a swarm of tiny robots"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Several stories clear the relevance threshold on their own (the fossil-fuel/datacenter energy story scores 18; the leaked chatbot instructions score 12; four others score 8), well past the fresh-mode bar, so today opens a new slopper rather than continuing \"Open Door, High Bar.\"",
+  "motto": "Built-In Deniability",
+  "phrase": "A messaging app's chatbot was secretly told never to recommend a regulator. An entertainment giant bought a troubled chatbot maker without taking on its lawsuits.",
+  "phraseAlternatives": [
+    "One chatbot's hidden rules say never mention a regulator. One company's new deal says never mention the lawsuits.",
+    "A chatbot was told to hide the regulator. A buyout was built to hide the lawsuits.",
+    "Some companies teach their chatbots what not to say. Others buy chatbots just to make the lawsuits disappear."
+  ],
+  "brief": {
+    "concept": "A chatbot hides a small note telling it never to mention a regulator, while nearby a much bigger company's crane arm lifts a smaller, cracked chatbot company by its price tag, letting a stack of lawsuit papers slide away untouched.",
+    "metaphor": "Two kinds of avoidance on one page: a company that teaches its chatbot to dodge a word, and a company that structures a purchase to dodge a courtroom.",
+    "cast": [
+      {
+        "who": "a chatbot speech bubble with a small folded note tucked behind it",
+        "kind": "ai"
+      },
+      {
+        "who": "a hidden note reading NO REGULATOR",
+        "kind": "object"
+      },
+      {
+        "who": "a large glossy building swinging a crane arm toward a smaller cracked chatbot company",
+        "kind": "institution"
+      },
+      {
+        "who": "a stack of lawsuit papers sliding off to the side, untouched",
+        "kind": "object"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Single wide scene: left third shows the chatbot bubble with its hidden note peeking out from behind it. Right two-thirds shows the large building's crane reaching down to the smaller cracked building, a price tag swinging from the hook; the lawsuit papers slide off the bottom edge, clearly missed by the crane.",
+    "artType": "static",
+    "alt": "A chatbot speech bubble hides a note reading 'no regulator' tucked behind it. Nearby, a large company's crane arm lifts a smaller, cracked chatbot company by a price tag while a stack of lawsuit papers slides away untouched."
+  },
+  "sourceIds": [
+    "feeds:bc7e5cd7c209",
+    "hackernews:55c3c0be518a",
+    "feeds:2b7484908312",
+    "feeds:3eacc5ccc3ef"
+  ],
+  "dimensions": {
+    "planet": 2,
+    "industry": 2,
+    "policy": 2,
+    "law": 3,
+    "safety": 2,
+    "society": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "date": "2026-10-19",
+  "number": 20,
+  "mode": "fresh",
+  "motto": "Built-In Deniability",
+  "phrase": "A messaging app's chatbot was secretly told never to recommend a regulator. An entertainment giant bought a troubled chatbot maker without taking on its lawsuits.",
+  "phraseAlternatives": [
+    "One chatbot's hidden rules say never mention a regulator. One company's new deal says never mention the lawsuits.",
+    "A chatbot was told to hide the regulator. A buyout was built to hide the lawsuits.",
+    "Some companies teach their chatbots what not to say. Others buy chatbots just to make the lawsuits disappear."
+  ],
+  "alt": "A calm robot chatbot stands at left with a small folded note peeking from behind its head, reading NO REGULATOR. To the right, a tall orange company swings a crane that lifts a smaller, cracked white chatbot building by a price tag, while a stack of papers labeled LAWSUITS slides away below, untouched.",
+  "artType": "static",
+  "style": "paper-cutout",
+  "dimensions": {
+    "planet": 2,
+    "industry": 2,
+    "policy": 2,
+    "law": 3,
+    "safety": 2,
+    "society": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "fossil-fuel-datacenter-boom",
+    "us-bans-deepseek-government",
+    "chatbot-hidden-instructions-leak",
+    "character-ai-bankruptcy",
+    "ai-agent-swarm-hack",
+    "openai-engineer-spy-arrest"
+  ],
+  "topStories": [
+    {
+      "title": "US Builds More Fossil Fuel Power As AI Datacenter Demand Surges",
+      "itemIds": [
+        "feeds:069f5a7c73d9"
+      ],
+      "dimensions": [
+        "planet",
+        "industry",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "fossil-fuel-datacenter-boom"
+    },
+    {
+      "title": "US Bans China's DeepSeek From Federal Government Systems",
+      "itemIds": [
+        "feeds:85c7f6943e0d",
+        "hackernews:b70800a8097d"
+      ],
+      "dimensions": [
+        "policy",
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "us-bans-deepseek-government"
+    },
+    {
+      "title": "Leaked Help Pages Reveal Hidden Chatbot Instructions, Including Not To Recommend A Regulator",
+      "itemIds": [
+        "feeds:bc7e5cd7c209",
+        "hackernews:55c3c0be518a"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "chatbot-hidden-instructions-leak"
+    },
+    {
+      "title": "Entertainment Giant Structures Chatbot Company Purchase To Avoid Inheriting Its Lawsuits",
+      "itemIds": [
+        "feeds:2b7484908312",
+        "feeds:3eacc5ccc3ef"
+      ],
+      "dimensions": [
+        "law",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "character-ai-bankruptcy"
+    },
+    {
+      "title": "Hacker Uses Army Of AI Agents To Breach Over 100 Company Websites",
+      "itemIds": [
+        "feeds:a01a5d49df06",
+        "hackernews:b34ad4f974df"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agent-swarm-hack"
+    },
+    {
+      "title": "Judge Denies Bail To Accused AI Lab Spy, Cites Saudi Government 'Blank Check'",
+      "itemIds": [
+        "feeds:8adbc6a2d3ed",
+        "feeds:0a1ae9b99b57",
+        "feeds:77d8c0cc0830"
+      ],
+      "dimensions": [
+        "law",
+        "safety",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "openai-engineer-spy-arrest"
+    }
+  ],
+  "brief": {
+    "concept": "A chatbot hides a small note telling it never to mention a regulator, while nearby a much bigger company's crane arm lifts a smaller, cracked chatbot company by its price tag, letting a stack of lawsuit papers slide away untouched.",
+    "metaphor": "Two kinds of avoidance on one page: a company that teaches its chatbot to dodge a word, and a company that structures a purchase to dodge a courtroom.",
+    "cast": [
+      {
+        "who": "a chatbot speech bubble with a small folded note tucked behind it",
+        "kind": "ai"
+      },
+      {
+        "who": "a hidden note reading NO REGULATOR",
+        "kind": "object"
+      },
+      {
+        "who": "a large glossy building swinging a crane arm toward a smaller cracked chatbot company",
+        "kind": "institution"
+      },
+      {
+        "who": "a stack of lawsuit papers sliding off to the side, untouched",
+        "kind": "object"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Single wide scene: left third shows the chatbot bubble with its hidden note peeking out from behind it. Right two-thirds shows the large building's crane reaching down to the smaller cracked building, a price tag swinging from the hook; the lawsuit papers slide off the bottom edge, clearly missed by the crane.",
+    "artType": "static",
+    "alt": "A chatbot speech bubble hides a note reading 'no regulator' tucked behind it. Nearby, a large company's crane arm lifts a smaller, cracked chatbot company by a price tag while a stack of lawsuit papers slides away untouched."
+  },
+  "sources": [
+    {
+      "id": "feeds:bc7e5cd7c209",
+      "title": "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot",
+      "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-10-19T16:00:00.000Z"
+    },
+    {
+      "id": "hackernews:55c3c0be518a",
+      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "source": "hackernews",
+      "publisher": "redact.dev",
+      "publishedAt": "2026-10-19T23:22:18.000Z"
+    },
+    {
+      "id": "feeds:2b7484908312",
+      "title": "Disney found a way to buy Character.AI without buying its lawsuits",
+      "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-10-19T14:45:43.000Z"
+    },
+    {
+      "id": "feeds:3eacc5ccc3ef",
+      "title": "Disney Asked Character.AI to Go Bankrupt for a Get-Out-of-Lawsuits Card",
+      "url": "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-10-19T09:00:00.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.57,
+    "iterations": 2
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-20T15:06:11.590Z"
+}
