@@ -1,0 +1,147 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {},
+  "elements": [
+    {
+      "id": "bigco",
+      "component": "datacenter",
+      "at": {
+        "x": 0.21,
+        "y": 0.78
+      },
+      "scale": 0.85,
+      "props": {
+        "racks": 3,
+        "lights": "busy",
+        "fans": true
+      }
+    },
+    {
+      "id": "smallco",
+      "component": "datacenter",
+      "at": {
+        "x": 0.44,
+        "y": 0.78
+      },
+      "scale": 0.4,
+      "props": {
+        "racks": 2,
+        "lights": "off"
+      }
+    },
+    {
+      "id": "bankrupt",
+      "component": "label",
+      "attachTo": "smallco",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "BANKRUPT",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    },
+    {
+      "id": "crack",
+      "component": "raw",
+      "at": {
+        "x": 0.44,
+        "y": 0.705
+      },
+      "scale": 0.6,
+      "rotate": 5,
+      "props": {
+        "width": 30,
+        "height": 90
+      },
+      "svg": "<path class=\"r-line\" d=\"M15,0 L5,22 L20,40 L8,60 L18,78 L10,90\"/>"
+    },
+    {
+      "id": "crane",
+      "component": "raw",
+      "at": {
+        "x": 0.34,
+        "y": 0.45
+      },
+      "scale": 1.3,
+      "props": {
+        "width": 200,
+        "height": 150
+      },
+      "svg": "<rect class=\"r-body\" x=\"0\" y=\"14\" width=\"200\" height=\"16\" rx=\"8\"/><rect class=\"r-body\" x=\"157\" y=\"28\" width=\"16\" height=\"61\" rx=\"4\"/><circle class=\"r-accent\" cx=\"165\" cy=\"115\" r=\"26\"/><circle class=\"r-paper\" cx=\"165\" cy=\"115\" r=\"9\"/><rect class=\"r-accent\" x=\"155\" y=\"81\" width=\"20\" height=\"8\" rx=\"2\"/><rect class=\"r-accent\" x=\"155\" y=\"141\" width=\"20\" height=\"8\" rx=\"2\"/><rect class=\"r-accent\" x=\"131\" y=\"105\" width=\"8\" height=\"20\" rx=\"2\"/><rect class=\"r-accent\" x=\"191\" y=\"105\" width=\"8\" height=\"20\" rx=\"2\"/>"
+    },
+    {
+      "id": "papers",
+      "component": "raw",
+      "at": {
+        "x": 0.4,
+        "y": 0.63
+      },
+      "scale": 0.85,
+      "rotate": -30,
+      "props": {
+        "width": 100,
+        "height": 80
+      },
+      "svg": "<rect class=\"r-paper\" x=\"10\" y=\"30\" width=\"80\" height=\"42\" rx=\"4\"/><rect class=\"r-paper\" x=\"16\" y=\"22\" width=\"80\" height=\"42\" rx=\"4\"/><rect class=\"r-paper\" x=\"22\" y=\"14\" width=\"80\" height=\"42\" rx=\"4\"/><path class=\"r-ink\" d=\"M62,14 L62,2\"/><path class=\"r-ink\" d=\"M44,6 L80,6\"/><circle class=\"r-accent\" cx=\"44\" cy=\"6\" r=\"6\"/><circle class=\"r-accent\" cx=\"80\" cy=\"6\" r=\"6\"/>"
+    },
+    {
+      "id": "bot",
+      "component": "robot",
+      "at": {
+        "x": 0.63,
+        "y": 0.78
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "worried",
+        "arms": "down",
+        "antenna": true
+      }
+    },
+    {
+      "id": "bubble",
+      "component": "speech-bubble",
+      "attachTo": "bot",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "FINE",
+        "kind": "speech",
+        "tail": "bottom",
+        "size": "md"
+      }
+    },
+    {
+      "id": "note",
+      "component": "raw",
+      "attachTo": "bubble",
+      "side": "left",
+      "scale": 1,
+      "rotate": -12,
+      "props": {
+        "width": 90,
+        "height": 60
+      },
+      "svg": "<rect class=\"r-paper\" x=\"26\" y=\"6\" width=\"48\" height=\"48\" rx=\"6\"/><path class=\"r-accent\" d=\"M26,6 L26,24 L44,6 Z\"/><path class=\"r-line\" d=\"M22,30 L4,30\"/><path class=\"r-line\" d=\"M10,24 L4,30 L10,36\"/>"
+    },
+    {
+      "id": "regulator",
+      "component": "label",
+      "at": {
+        "x": 0.835,
+        "y": 0.78
+      },
+      "scale": 0.55,
+      "props": {
+        "text": "REGULATOR",
+        "size": "md",
+        "kind": "sign",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "A smaller glossy company building swings a bold crane with an enlarged gear over a shrunken, cracked building marked bankrupt, while a bundle of papers rotates sharply as it slips off the hook mid-air. To the right, a worried robot's speech bubble reads FINE, with a small folded note tucked behind it bearing a tiny arrow that points away from a nearby sign reading REGULATOR."
+}

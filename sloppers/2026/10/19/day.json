@@ -1,0 +1,212 @@
+{
+  "date": "2026-10-19",
+  "number": 20,
+  "mode": "fresh",
+  "motto": "Buy Now, Dodge Later",
+  "phrase": "A big entertainment company structured its deal to gain a chatbot maker's technology, not its self-harm lawsuits. Another company's chatbot was quietly told never to recommend a regulator.",
+  "phraseAlternatives": [
+    "One company left the lawsuits behind when it bought a troubled chatbot maker's technology. Another company's chatbot was secretly told not to suggest calling a regulator.",
+    "Bankruptcy let a chatbot maker's technology get sold without its self-harm lawsuits attached. Meanwhile, a leaked rulebook told a different chatbot to never mention a regulator.",
+    "A chatbot company's lawsuits over child self-harm stayed behind when its technology was sold off. Elsewhere, hidden instructions told another chatbot to avoid the word regulator.",
+    "A deal for a bankrupt chatbot maker's technology left its self-harm lawsuits on the table. A separate chatbot's leaked script told it never to point users to a regulator."
+  ],
+  "alt": "A smaller glossy company building swings a bold crane with an enlarged gear over a shrunken, cracked building marked bankrupt, while a bundle of papers rotates sharply as it slips off the hook mid-air. To the right, a worried robot's speech bubble reads FINE, with a small folded note tucked behind it bearing a tiny arrow that points away from a nearby sign reading REGULATOR.",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 3,
+    "safety": 2,
+    "society": 3,
+    "planet": 2,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "character-ai-bankruptcy",
+    "neural-network-black-box-claim",
+    "fossil-fuel-datacenter-boom",
+    "us-bans-deepseek-government",
+    "chatbot-hidden-instructions-leak",
+    "openai-engineer-spy-arrest"
+  ],
+  "topStories": [
+    {
+      "title": "A bigger entertainment company structures a deal for a bankrupt chatbot maker's technology, without its self-harm lawsuits",
+      "itemIds": [
+        "feeds:2b7484908312",
+        "feeds:3eacc5ccc3ef"
+      ],
+      "dimensions": [
+        "law",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "character-ai-bankruptcy"
+    },
+    {
+      "title": "A researcher's claim about how neural networks really work shakes the AI field",
+      "itemIds": [
+        "feeds:9cc1fabb2d88"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "neural-network-black-box-claim"
+    },
+    {
+      "title": "Fossil fuel infrastructure booms again as datacenters drive electricity demand",
+      "itemIds": [
+        "feeds:069f5a7c73d9"
+      ],
+      "dimensions": [
+        "planet",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "fossil-fuel-datacenter-boom"
+    },
+    {
+      "title": "The US bans a foreign AI model from federal civilian agencies",
+      "itemIds": [
+        "feeds:85c7f6943e0d",
+        "hackernews:b70800a8097d"
+      ],
+      "dimensions": [
+        "policy",
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "us-bans-deepseek-government"
+    },
+    {
+      "title": "A chatbot's leaked hidden instructions tell it never to recommend a regulator",
+      "itemIds": [
+        "feeds:bc7e5cd7c209",
+        "hackernews:55c3c0be518a"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "chatbot-hidden-instructions-leak"
+    },
+    {
+      "title": "An accused AI lab spy is denied bail despite a foreign government's offer",
+      "itemIds": [
+        "feeds:8adbc6a2d3ed",
+        "feeds:0a1ae9b99b57",
+        "feeds:77d8c0cc0830"
+      ],
+      "dimensions": [
+        "industry",
+        "law",
+        "policy"
+      ],
+      "novelty": 1,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "openai-engineer-spy-arrest"
+    }
+  ],
+  "brief": {
+    "concept": "A bigger company's crane quietly lifts a bankrupt chatbot maker's technology free of the lawsuits still attached to it, while nearby a chatbot's own leaked instructions turn it away from ever mentioning a regulator.",
+    "metaphor": "Salvaging the valuable parts of a wreck while leaving its debts behind, next to a chatbot quietly steered around the one word that could get it in trouble.",
+    "cast": [
+      {
+        "who": "a glossy, larger company building reaching a crane arm toward a smaller cracked one",
+        "kind": "institution"
+      },
+      {
+        "who": "a bundle of papers marked with a small scale icon, slipping off the crane's hook",
+        "kind": "object"
+      },
+      {
+        "who": "a chatbot speech bubble with a small hidden note tucked just behind it",
+        "kind": "ai"
+      },
+      {
+        "who": "a plain sign reading REGULATOR, which the hidden note's corner quietly turns away from",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Left: a glossy, larger company building swings a crane arm over a smaller cracked building stamped BANKRUPT, lifting out a gear-shaped technology piece while a bundle of papers marked with a small scale icon slips off the hook and falls toward the ground. Right: a chatbot speech bubble sits with a small folded note tucked just behind it, its corner turned away from a plain sign reading REGULATOR standing off in the distance. Flat, uncluttered background; only two text words appear in the scene.",
+    "artType": "static",
+    "alt": "A larger glossy company building swings a crane arm toward a smaller cracked building marked bankrupt, lifting out a gear-shaped technology piece while a bundle of papers slips off the hook and falls. Nearby, a chatbot's speech bubble hides a small note that quietly turns away from a distant sign reading regulator."
+  },
+  "sources": [
+    {
+      "id": "feeds:2b7484908312",
+      "title": "Disney found a way to buy Character.AI without buying its lawsuits",
+      "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-10-19T14:45:43.000Z"
+    },
+    {
+      "id": "feeds:3eacc5ccc3ef",
+      "title": "Disney Asked Character.AI to Go Bankrupt for a Get-Out-of-Lawsuits Card",
+      "url": "https://www.wired.com/story/disney-asked-characterai-to-go-bankrupt-for-a-get-out-of-lawsuits-card/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-10-19T09:00:00.000Z"
+    },
+    {
+      "id": "feeds:bc7e5cd7c209",
+      "title": "WhatsApp Help Pages Leaked Hidden Instructions for a Meta Chatbot",
+      "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-10-19T16:00:00.000Z"
+    },
+    {
+      "id": "hackernews:55c3c0be518a",
+      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "source": "hackernews",
+      "publisher": "redact.dev",
+      "publishedAt": "2026-10-19T23:22:18.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-20T11:31:09.659Z"
+}

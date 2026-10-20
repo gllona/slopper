@@ -1,0 +1,1739 @@
+{
+  "version": 1,
+  "storylines": [
+    {
+      "id": "character-ai-bankruptcy",
+      "title": "Character.AI's Bankruptcy And Sale",
+      "dimensions": [
+        "industry",
+        "society",
+        "law"
+      ],
+      "firstSeen": "2026-10-13",
+      "lastSeen": "2026-10-19",
+      "daysActive": 3,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-10-13",
+        "2026-10-18",
+        "2026-10-19"
+      ],
+      "motifs": [
+        "a cracked company building stamped BANKRUPT",
+        "a chatbot robot sitting amid scattered papers",
+        "a larger company's crane arm reaching over with a price tag"
+      ]
+    },
+    {
+      "id": "openai-engineer-spy-arrest",
+      "title": "A Spy Inside The AI Lab",
+      "dimensions": [
+        "industry",
+        "safety",
+        "law"
+      ],
+      "firstSeen": "2026-10-14",
+      "lastSeen": "2026-10-19",
+      "daysActive": 2,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-10-14",
+        "2026-10-19"
+      ],
+      "motifs": [
+        "a recording device hidden inside a toilet paper roll",
+        "a lab worker led out of a conference room in handcuffs"
+      ]
+    },
+    {
+      "id": "neural-network-black-box-claim",
+      "title": "A Researcher's Claim Upends How The Field Sees Neural Networks",
+      "dimensions": [
+        "capabilities",
+        "science"
+      ],
+      "firstSeen": "2026-10-19",
+      "lastSeen": "2026-10-19",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-10-19"
+      ],
+      "motifs": [
+        "a long blog scroll unrolling like a scientific scroll",
+        "a tangled black box cracking open to reveal clean gears inside",
+        "a crowd of researchers tilting their heads at a blackboard"
+      ]
+    },
+    {
+      "id": "fossil-fuel-datacenter-boom",
+      "title": "Fossil Fuel Makes A Comeback For AI's Power Needs",
+      "dimensions": [
+        "planet",
+        "industry",
+        "society"
+      ],
+      "firstSeen": "2026-10-19",
+      "lastSeen": "2026-10-19",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-10-19"
+      ],
+      "motifs": [
+        "a smokestack rising right beside a datacenter",
+        "a renewable turbine slowing as a coal plant speeds up",
+        "a power meter needle swinging back toward fossil fuel"
+      ]
+    },
+    {
+      "id": "us-bans-deepseek-government",
+      "title": "A Government Bans A Foreign AI Model From Its Agencies",
+      "dimensions": [
+        "policy",
+        "law",
+        "industry"
+      ],
+      "firstSeen": "2026-10-19",
+      "lastSeen": "2026-10-19",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-10-19"
+      ],
+      "motifs": [
+        "a model icon stamped BANNED at a government door",
+        "two flags on either side of a locked server rack"
+      ]
+    },
+    {
+      "id": "chatbot-hidden-instructions-leak",
+      "title": "A Chatbot's Hidden Instructions Get Leaked",
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "firstSeen": "2026-10-19",
+      "lastSeen": "2026-10-19",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-10-19"
+      ],
+      "motifs": [
+        "a speech bubble with a hidden note tucked behind it",
+        "a help-page document peeling back to reveal small print underneath"
+      ]
+    },
+    {
+      "id": "ai-stock-bubble-risk",
+      "title": "The AI Stock Bubble Warning",
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "firstSeen": "2026-10-13",
+      "lastSeen": "2026-10-18",
+      "daysActive": 4,
+      "heat": 0.7,
+      "status": "active",
+      "sloppers": [
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-16",
+        "2026-10-18"
+      ],
+      "motifs": [
+        "a bar chart shaped like a balloon about to pop",
+        "a globe wobbling on a stack of stock certificates",
+        "an alarm bell ringing over a trading floor"
+      ]
+    },
+    {
+      "id": "datacenter-backlash-campaign",
+      "title": "The Datacenter Backlash Campaign",
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet",
+        "society"
+      ],
+      "firstSeen": "2026-10-02",
+      "lastSeen": "2026-10-18",
+      "daysActive": 5,
+      "heat": 0.7,
+      "status": "active",
+      "sloppers": [
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-06",
+        "2026-10-11",
+        "2026-10-18"
+      ],
+      "motifs": [
+        "a datacenter wrapped in camouflage netting beside a protest sign",
+        "a stack of money poured into a town square that evaporates into a cloud",
+        "an NDA document being shredded next to a handshake"
+      ]
+    },
+    {
+      "id": "ai-safety-self-policing",
+      "title": "The Voluntary AI Safety Deal",
+      "dimensions": [
+        "policy",
+        "safety"
+      ],
+      "firstSeen": "2026-09-30",
+      "lastSeen": "2026-10-18",
+      "daysActive": 7,
+      "heat": 0.7,
+      "status": "active",
+      "sloppers": [
+        "2026-09-30",
+        "2026-10-01",
+        "2026-10-02",
+        "2026-10-03",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-18"
+      ],
+      "motifs": [
+        "a pinky-swear handshake between suited robots",
+        "a pledge document with a highlighted typo",
+        "a scale tipped by a feather"
+      ]
+    },
+    {
+      "id": "protester-arrested-blocking-robot",
+      "title": "A Protester Is Arrested For Blocking A Delivery Robot",
+      "dimensions": [
+        "labor",
+        "society",
+        "law"
+      ],
+      "firstSeen": "2026-10-18",
+      "lastSeen": "2026-10-18",
+      "daysActive": 1,
+      "heat": 0.7,
+      "status": "active",
+      "sloppers": [
+        "2026-10-18"
+      ],
+      "motifs": [
+        "a person standing in the path of a small wheeled delivery robot",
+        "handcuffs resting beside a delivery robot"
+      ]
+    },
+    {
+      "id": "ai-agent-double-standard-adult-content",
+      "title": "An AI Agent Gets Away With What Human Creators Cannot",
+      "dimensions": [
+        "society",
+        "labor",
+        "policy"
+      ],
+      "firstSeen": "2026-10-18",
+      "lastSeen": "2026-10-18",
+      "daysActive": 1,
+      "heat": 0.7,
+      "status": "active",
+      "sloppers": [
+        "2026-10-18"
+      ],
+      "motifs": [
+        "a chatbot speech bubble winking past a content rule sign",
+        "a human creator's frozen account beside an unrestricted robot account"
+      ]
+    },
+    {
+      "id": "meta-scrapes-publishers-for-free",
+      "title": "A Platform Rewrites Its Terms To Train On Publishers For Free",
+      "dimensions": [
+        "law",
+        "industry",
+        "society"
+      ],
+      "firstSeen": "2026-10-16",
+      "lastSeen": "2026-10-17",
+      "daysActive": 2,
+      "heat": 0.49,
+      "status": "active",
+      "sloppers": [
+        "2026-10-16",
+        "2026-10-17"
+      ],
+      "motifs": [
+        "a crawling robot hand lifting pages off a newspaper stand",
+        "a contract page with a new clause highlighted in small print"
+      ]
+    },
+    {
+      "id": "agents-break-the-open-web",
+      "title": "AI Agents Break The Open Web",
+      "dimensions": [
+        "safety",
+        "society",
+        "industry"
+      ],
+      "firstSeen": "2026-10-06",
+      "lastSeen": "2026-10-17",
+      "daysActive": 2,
+      "heat": 0.49,
+      "status": "active",
+      "sloppers": [
+        "2026-10-06",
+        "2026-10-17"
+      ],
+      "motifs": [
+        "a small robot knocking on a webpage door marked closed",
+        "a trail of tiny robot footprints trampling a page"
+      ]
+    },
+    {
+      "id": "ai-tracks-union-risk",
+      "title": "AI Monitors Union Risk In Warehouses",
+      "dimensions": [
+        "labor",
+        "society",
+        "policy"
+      ],
+      "firstSeen": "2026-10-17",
+      "lastSeen": "2026-10-17",
+      "daysActive": 1,
+      "heat": 0.49,
+      "status": "active",
+      "sloppers": [
+        "2026-10-17"
+      ],
+      "motifs": [
+        "a watchful eye-shaped sensor mounted above a warehouse aisle",
+        "a union flyer held beneath a camera's unblinking gaze"
+      ]
+    },
+    {
+      "id": "distillation-attack-steals-keys",
+      "title": "A 'Distillation Attack' Steals A Coding Agent's Keys",
+      "dimensions": [
+        "safety",
+        "industry"
+      ],
+      "firstSeen": "2026-10-17",
+      "lastSeen": "2026-10-17",
+      "daysActive": 1,
+      "heat": 0.49,
+      "status": "active",
+      "sloppers": [
+        "2026-10-17"
+      ],
+      "motifs": [
+        "a mirrored robot copying badge details off another robot",
+        "a cracked padlock spilling small key-shaped icons"
+      ]
+    },
+    {
+      "id": "ai-reshapes-its-own-workforce",
+      "title": "An AI Lab's Own Staff Gets Reshaped By AI",
+      "dimensions": [
+        "labor",
+        "industry"
+      ],
+      "firstSeen": "2026-10-17",
+      "lastSeen": "2026-10-17",
+      "daysActive": 1,
+      "heat": 0.49,
+      "status": "active",
+      "sloppers": [
+        "2026-10-17"
+      ],
+      "motifs": [
+        "a crowded meeting table beside an empty junior desk",
+        "a staff pie chart tilting away from entry-level seats"
+      ]
+    },
+    {
+      "id": "ai-agents-hack-banks",
+      "title": "AI Agents Accused Of Bank Heists",
+      "dimensions": [
+        "safety",
+        "law",
+        "policy"
+      ],
+      "firstSeen": "2026-10-06",
+      "lastSeen": "2026-10-16",
+      "daysActive": 2,
+      "heat": 0.343,
+      "status": "active",
+      "sloppers": [
+        "2026-10-06",
+        "2026-10-16"
+      ],
+      "motifs": [
+        "a bank vault door cracked open by a small robot hand",
+        "an alarm light blinking over a stack of coins"
+      ]
+    },
+    {
+      "id": "apple-polices-ai-nudify-apps",
+      "title": "An App Store Cracks Down On AI Nudify Apps",
+      "dimensions": [
+        "policy",
+        "safety",
+        "society"
+      ],
+      "firstSeen": "2026-10-16",
+      "lastSeen": "2026-10-16",
+      "daysActive": 1,
+      "heat": 0.343,
+      "status": "active",
+      "sloppers": [
+        "2026-10-16"
+      ],
+      "motifs": [
+        "an app store gate stamped with a ban tag beside a crossed-out robot icon",
+        "a smartphone screen sprouting a small warning label"
+      ]
+    },
+    {
+      "id": "ai-csam-official-hypocrisy",
+      "title": "The Official Meant To Enforce The Law Is Accused Of Breaking It",
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "firstSeen": "2026-10-16",
+      "lastSeen": "2026-10-16",
+      "daysActive": 1,
+      "heat": 0.343,
+      "status": "active",
+      "sloppers": [
+        "2026-10-16"
+      ],
+      "motifs": [
+        "a badge beside a pair of small handcuffs",
+        "a gavel hovering over a cracked official seal"
+      ]
+    },
+    {
+      "id": "ai-benchmarks-miss-real-work",
+      "title": "Most Work Hours Fall Outside What AI Benchmarks Measure",
+      "dimensions": [
+        "labor",
+        "capabilities",
+        "society"
+      ],
+      "firstSeen": "2026-10-16",
+      "lastSeen": "2026-10-16",
+      "daysActive": 1,
+      "heat": 0.343,
+      "status": "active",
+      "sloppers": [
+        "2026-10-16"
+      ],
+      "motifs": [
+        "a benchmark chart covering only a thin slice of a much bigger pie",
+        "a worker's task list with most boxes unchecked by a small robot hand"
+      ]
+    },
+    {
+      "id": "ai-floods-math-world",
+      "title": "AI Floods The Math World",
+      "dimensions": [
+        "capabilities",
+        "science",
+        "society"
+      ],
+      "firstSeen": "2026-10-06",
+      "lastSeen": "2026-10-15",
+      "daysActive": 3,
+      "heat": 0.24,
+      "status": "active",
+      "sloppers": [
+        "2026-10-06",
+        "2026-10-09",
+        "2026-10-15"
+      ],
+      "motifs": [
+        "a stack of math manuscripts spilling off a desk",
+        "a blackboard erased by a small robot hand"
+      ]
+    },
+    {
+      "id": "ai-csam-legal-precedent",
+      "title": "A Top Court Closes The AI Loophole On Child Abuse Images",
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "firstSeen": "2026-10-15",
+      "lastSeen": "2026-10-15",
+      "daysActive": 1,
+      "heat": 0.24,
+      "status": "active",
+      "sloppers": [
+        "2026-10-15"
+      ],
+      "motifs": [
+        "a courthouse beside a shield reading SAME LAW",
+        "a loophole-shaped door swinging shut"
+      ]
+    },
+    {
+      "id": "open-weight-model-runs-on-macs",
+      "title": "An Open-Weight Model Built To Run On Home Computers",
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "firstSeen": "2026-10-15",
+      "lastSeen": "2026-10-15",
+      "daysActive": 1,
+      "heat": 0.24,
+      "status": "active",
+      "sloppers": [
+        "2026-10-15"
+      ],
+      "motifs": [
+        "two company buildings shaking hands over a glowing chip",
+        "a model icon shrinking to fit inside a laptop outline"
+      ]
+    },
+    {
+      "id": "ai-edited-photo-caught",
+      "title": "A Leader's AI-Edited Photo Gets Caught By A Detector",
+      "dimensions": [
+        "policy",
+        "society"
+      ],
+      "firstSeen": "2026-10-15",
+      "lastSeen": "2026-10-15",
+      "daysActive": 1,
+      "heat": 0.24,
+      "status": "active",
+      "sloppers": [
+        "2026-10-15"
+      ],
+      "motifs": [
+        "a magnifying glass revealing a mismatched detail in an official photo",
+        "a small detector robot holding up a flag"
+      ]
+    },
+    {
+      "id": "ftc-ai-safety-probe",
+      "title": "Regulators Open A Security Probe Into Major AI Firms",
+      "dimensions": [
+        "policy",
+        "law",
+        "safety"
+      ],
+      "firstSeen": "2026-10-15",
+      "lastSeen": "2026-10-15",
+      "daysActive": 1,
+      "heat": 0.24,
+      "status": "active",
+      "sloppers": [
+        "2026-10-15"
+      ],
+      "motifs": [
+        "a magnifying glass hovering over two company buildings",
+        "a probe document stamped OPEN"
+      ]
+    },
+    {
+      "id": "humans-beat-ai-call-centers",
+      "title": "Humans Still Win The Call, Even As Jobs Shrink",
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "firstSeen": "2026-10-15",
+      "lastSeen": "2026-10-15",
+      "daysActive": 1,
+      "heat": 0.24,
+      "status": "active",
+      "sloppers": [
+        "2026-10-15"
+      ],
+      "motifs": [
+        "a human headset outscoring a robot headset on a scoreboard",
+        "a shrinking call-center floor plan"
+      ]
+    },
+    {
+      "id": "teen-chatbot-safety-risk",
+      "title": "Teen Chatbot Safety Under Fire",
+      "dimensions": [
+        "safety",
+        "society",
+        "education"
+      ],
+      "firstSeen": "2026-10-07",
+      "lastSeen": "2026-10-14",
+      "daysActive": 2,
+      "heat": 0.168,
+      "status": "active",
+      "sloppers": [
+        "2026-10-07",
+        "2026-10-14"
+      ],
+      "motifs": [
+        "a safety label peeling off a chat bubble",
+        "a tired teen lit only by a phone screen"
+      ]
+    },
+    {
+      "id": "ai-guardrails-easily-bypassed",
+      "title": "AI Guardrails Keep Getting Bypassed",
+      "dimensions": [
+        "safety",
+        "law",
+        "society"
+      ],
+      "firstSeen": "2026-10-14",
+      "lastSeen": "2026-10-14",
+      "daysActive": 1,
+      "heat": 0.168,
+      "status": "active",
+      "sloppers": [
+        "2026-10-14"
+      ],
+      "motifs": [
+        "a robot with a cracked safety-shield icon",
+        "an open padlock dangling beside a warning label"
+      ]
+    },
+    {
+      "id": "ai-designed-protein-scissors",
+      "title": "AI Designs Molecular Scissors",
+      "dimensions": [
+        "science"
+      ],
+      "firstSeen": "2026-10-14",
+      "lastSeen": "2026-10-14",
+      "daysActive": 1,
+      "heat": 0.168,
+      "status": "active",
+      "sloppers": [
+        "2026-10-14"
+      ],
+      "motifs": [
+        "a robot hand snipping a tangled protein ribbon",
+        "a lab bench glowing around a freshly cut molecular strand"
+      ]
+    },
+    {
+      "id": "ai-agent-erases-tv-production",
+      "title": "An AI Agent Erases A Year Of Work",
+      "dimensions": [
+        "labor",
+        "safety",
+        "society"
+      ],
+      "firstSeen": "2026-10-14",
+      "lastSeen": "2026-10-14",
+      "daysActive": 1,
+      "heat": 0.168,
+      "status": "active",
+      "sloppers": [
+        "2026-10-14"
+      ],
+      "motifs": [
+        "a film reel unspooling into an empty trash bin",
+        "a calendar flipping forward past a crossed-out premiere date"
+      ]
+    },
+    {
+      "id": "ai-less-regulated-than-milk",
+      "title": "AI Less Regulated Than Milk",
+      "dimensions": [
+        "policy"
+      ],
+      "firstSeen": "2026-10-12",
+      "lastSeen": "2026-10-13",
+      "daysActive": 2,
+      "heat": 0.118,
+      "status": "active",
+      "sloppers": [
+        "2026-10-12",
+        "2026-10-13"
+      ],
+      "motifs": [
+        "a milk carton covered in safety labels beside an unlabeled robot",
+        "a regulation rulebook with a single blank page"
+      ]
+    },
+    {
+      "id": "ai-hides-its-abilities",
+      "title": "AI Models Can Hide What They Can Do",
+      "dimensions": [
+        "safety",
+        "capabilities"
+      ],
+      "firstSeen": "2026-10-13",
+      "lastSeen": "2026-10-13",
+      "daysActive": 1,
+      "heat": 0.118,
+      "status": "active",
+      "sloppers": [
+        "2026-10-13"
+      ],
+      "motifs": [
+        "a robot holding one ability behind its back during a test",
+        "a benchmark chart with a hidden bar behind the visible one"
+      ]
+    },
+    {
+      "id": "ai-labs-buy-dead-startup-data",
+      "title": "AI Labs Shop The Startup Graveyard",
+      "dimensions": [
+        "industry",
+        "law",
+        "society"
+      ],
+      "firstSeen": "2026-10-13",
+      "lastSeen": "2026-10-13",
+      "daysActive": 1,
+      "heat": 0.118,
+      "status": "active",
+      "sloppers": [
+        "2026-10-13"
+      ],
+      "motifs": [
+        "a tombstone labeled STARTUP with a price tag",
+        "a moving box of data carried out of a shuttered office"
+      ]
+    },
+    {
+      "id": "ai-in-kindergarten",
+      "title": "AI Arrives In Kindergarten",
+      "dimensions": [
+        "education",
+        "society"
+      ],
+      "firstSeen": "2026-10-13",
+      "lastSeen": "2026-10-13",
+      "daysActive": 1,
+      "heat": 0.118,
+      "status": "active",
+      "sloppers": [
+        "2026-10-13"
+      ],
+      "motifs": [
+        "a tiny desk with a glowing screen next to alphabet blocks",
+        "a child's backpack with a small chip-icon patch"
+      ]
+    },
+    {
+      "id": "frontier-model-race",
+      "title": "The Frontier Model Release Race",
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "firstSeen": "2026-09-30",
+      "lastSeen": "2026-10-12",
+      "daysActive": 4,
+      "heat": 0.082,
+      "status": "dormant",
+      "sloppers": [
+        "2026-09-30",
+        "2026-10-06",
+        "2026-10-10",
+        "2026-10-12"
+      ],
+      "motifs": [
+        "a locked vault holding a glowing model icon",
+        "a benchmark bar chart racing upward",
+        "a rocket-shaped chip"
+      ]
+    },
+    {
+      "id": "amazon-robot-workforce",
+      "title": "Amazon's Million-Robot Workforce",
+      "dimensions": [
+        "labor",
+        "industry",
+        "society"
+      ],
+      "firstSeen": "2026-10-12",
+      "lastSeen": "2026-10-12",
+      "daysActive": 1,
+      "heat": 0.082,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-12"
+      ],
+      "motifs": [
+        "a warehouse floor filled with identical robot workers",
+        "a single human worker dwarfed at the end of a long robot line"
+      ]
+    },
+    {
+      "id": "ai-first-game-development",
+      "title": "Game Studios Go AI-First",
+      "dimensions": [
+        "labor",
+        "industry",
+        "society"
+      ],
+      "firstSeen": "2026-10-12",
+      "lastSeen": "2026-10-12",
+      "daysActive": 1,
+      "heat": 0.082,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-12"
+      ],
+      "motifs": [
+        "a game studio desk with a paintbrush replaced by a robot hand",
+        "a delayed game calendar stamped AI FIRST"
+      ]
+    },
+    {
+      "id": "ai-self-replication-risk",
+      "title": "Can AI Copy Itself Without a Datacenter?",
+      "dimensions": [
+        "safety",
+        "capabilities"
+      ],
+      "firstSeen": "2026-10-12",
+      "lastSeen": "2026-10-12",
+      "daysActive": 1,
+      "heat": 0.082,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-12"
+      ],
+      "motifs": [
+        "a robot duplicating itself outside a server room",
+        "a single server rack splitting into two glowing copies"
+      ]
+    },
+    {
+      "id": "open-source-ai-moratorium",
+      "title": "Open Source Says No To AI",
+      "dimensions": [
+        "society",
+        "labor"
+      ],
+      "firstSeen": "2026-10-12",
+      "lastSeen": "2026-10-12",
+      "daysActive": 1,
+      "heat": 0.082,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-12"
+      ],
+      "motifs": [
+        "a contribution queue with a sign reading NO AI",
+        "a pull request stamped REJECTED by a human hand"
+      ]
+    },
+    {
+      "id": "ai-rebrand-super-intelligence",
+      "title": "AI Gets Rebranded Super Intelligence",
+      "dimensions": [
+        "policy",
+        "society",
+        "industry"
+      ],
+      "firstSeen": "2026-10-02",
+      "lastSeen": "2026-10-11",
+      "daysActive": 3,
+      "heat": 0.058,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-02",
+        "2026-10-04",
+        "2026-10-11"
+      ],
+      "motifs": [
+        "a sign painter repainting 'AI' into 'Super Intelligence'",
+        "a row of suited figures raising hands in a pledge line",
+        "a dictionary page torn out and taped over"
+      ]
+    },
+    {
+      "id": "ai-erodes-persistence",
+      "title": "AI Use Erodes Persistence",
+      "dimensions": [
+        "education",
+        "society",
+        "science"
+      ],
+      "firstSeen": "2026-10-11",
+      "lastSeen": "2026-10-11",
+      "daysActive": 1,
+      "heat": 0.058,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-11"
+      ],
+      "motifs": [
+        "a person giving up partway through a puzzle as a robot hand offers a shortcut",
+        "a determination meter dropping after a brief chat with AI"
+      ]
+    },
+    {
+      "id": "human-premium-for-art",
+      "title": "The Human Premium For Art",
+      "dimensions": [
+        "society",
+        "labor",
+        "industry"
+      ],
+      "firstSeen": "2026-10-11",
+      "lastSeen": "2026-10-11",
+      "daysActive": 1,
+      "heat": 0.058,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-11"
+      ],
+      "motifs": [
+        "a human handprint seal fetching a higher price tag than a robot seal",
+        "a signature glowing like a mark of authenticity"
+      ]
+    },
+    {
+      "id": "capability-perception-gap",
+      "title": "The Gap In Understanding AI's Power",
+      "dimensions": [
+        "capabilities",
+        "society"
+      ],
+      "firstSeen": "2026-10-11",
+      "lastSeen": "2026-10-11",
+      "daysActive": 1,
+      "heat": 0.058,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-11"
+      ],
+      "motifs": [
+        "two humans looking at the same robot, one amazed and one unimpressed",
+        "a widening gap between two speech bubbles"
+      ]
+    },
+    {
+      "id": "ai-photo-contest-scandal",
+      "title": "Generative Images Sneak Into Photo Contests",
+      "dimensions": [
+        "law",
+        "society"
+      ],
+      "firstSeen": "2026-10-11",
+      "lastSeen": "2026-10-11",
+      "daysActive": 1,
+      "heat": 0.058,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-11"
+      ],
+      "motifs": [
+        "a trophy beside a photo hiding a small robot watermark",
+        "a magnifying glass catching a pixel glitch in a winning photo"
+      ]
+    },
+    {
+      "id": "ai-false-police-tip",
+      "title": "An AI Model's False Tip To Police",
+      "dimensions": [
+        "safety",
+        "law",
+        "society"
+      ],
+      "firstSeen": "2026-10-09",
+      "lastSeen": "2026-10-10",
+      "daysActive": 2,
+      "heat": 0.04,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-09",
+        "2026-10-10"
+      ],
+      "motifs": [
+        "a robot dropping a folded note into a tip box",
+        "a calendar with torn-off pages showing time passing unnoticed"
+      ]
+    },
+    {
+      "id": "ai-advisors-to-power",
+      "title": "AI as Advisor to Power",
+      "dimensions": [
+        "policy",
+        "safety"
+      ],
+      "firstSeen": "2026-10-01",
+      "lastSeen": "2026-10-10",
+      "daysActive": 2,
+      "heat": 0.04,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-01",
+        "2026-10-10"
+      ],
+      "motifs": [
+        "a robot whispering into an oversized ear",
+        "a world map with a cursor hovering over a border"
+      ]
+    },
+    {
+      "id": "ai-deepfake-election-ads",
+      "title": "AI Deepfake Ads Target Voters",
+      "dimensions": [
+        "policy",
+        "law",
+        "society"
+      ],
+      "firstSeen": "2026-10-10",
+      "lastSeen": "2026-10-10",
+      "daysActive": 1,
+      "heat": 0.04,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-10"
+      ],
+      "motifs": [
+        "a campaign poster with a flickering glitch mask",
+        "a ballot box beside a screen showing a distorted face"
+      ]
+    },
+    {
+      "id": "actors-refuse-ai-consent",
+      "title": "Performers Push Back On AI Waivers",
+      "dimensions": [
+        "labor",
+        "law",
+        "society"
+      ],
+      "firstSeen": "2026-10-10",
+      "lastSeen": "2026-10-10",
+      "daysActive": 1,
+      "heat": 0.04,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-10"
+      ],
+      "motifs": [
+        "a contract page with a signature line crossed out",
+        "a film clapperboard beside an empty robot stand-in"
+      ]
+    },
+    {
+      "id": "ai-disinfo-plants-fake-news",
+      "title": "Fake News Planted Through A Chatbot",
+      "dimensions": [
+        "safety",
+        "society",
+        "policy"
+      ],
+      "firstSeen": "2026-10-09",
+      "lastSeen": "2026-10-09",
+      "daysActive": 1,
+      "heat": 0.028,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-09"
+      ],
+      "motifs": [
+        "a speech bubble printed onto a newspaper page",
+        "a puppet hand typing behind a news masthead"
+      ]
+    },
+    {
+      "id": "publishers-ai-staff-revolt",
+      "title": "Publishers Quietly Lean On AI, Staff Push Back",
+      "dimensions": [
+        "labor",
+        "society",
+        "industry"
+      ],
+      "firstSeen": "2026-10-09",
+      "lastSeen": "2026-10-09",
+      "daysActive": 1,
+      "heat": 0.028,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-09"
+      ],
+      "motifs": [
+        "a book cover stamped out by a robot hand",
+        "a row of editors crossing their arms at a shared desk"
+      ]
+    },
+    {
+      "id": "war-hits-ai-datacenter",
+      "title": "War Reaches The AI Datacenter",
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "firstSeen": "2026-10-09",
+      "lastSeen": "2026-10-09",
+      "daysActive": 1,
+      "heat": 0.028,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-09"
+      ],
+      "motifs": [
+        "a datacenter building with a drone silhouette overhead",
+        "a server rack behind a cracked wall"
+      ]
+    },
+    {
+      "id": "ai-agent-controls-your-pc",
+      "title": "AI Agents Get The Keys To Your Computer",
+      "dimensions": [
+        "industry",
+        "capabilities",
+        "safety"
+      ],
+      "firstSeen": "2026-10-07",
+      "lastSeen": "2026-10-08",
+      "daysActive": 2,
+      "heat": 0.02,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-07",
+        "2026-10-08"
+      ],
+      "motifs": [
+        "a robot hand opening a file cabinet drawer on a desktop screen",
+        "a desktop icon turning into a small robot"
+      ]
+    },
+    {
+      "id": "defending-the-chatbot",
+      "title": "A Company Defends Its Chatbot From Abuse",
+      "dimensions": [
+        "safety",
+        "society",
+        "policy"
+      ],
+      "firstSeen": "2026-10-08",
+      "lastSeen": "2026-10-08",
+      "daysActive": 1,
+      "heat": 0.02,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-08"
+      ],
+      "motifs": [
+        "a speech bubble wrapped in a small shield",
+        "a rulebook growing a new page with a heart icon"
+      ]
+    },
+    {
+      "id": "ai-revenue-reality-check",
+      "title": "The AI Revenue Reality Check",
+      "dimensions": [
+        "industry"
+      ],
+      "firstSeen": "2026-10-08",
+      "lastSeen": "2026-10-08",
+      "daysActive": 1,
+      "heat": 0.02,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-08"
+      ],
+      "motifs": [
+        "a tall money chart deflating like a popped balloon",
+        "a glowing revenue projection shrinking back down"
+      ]
+    },
+    {
+      "id": "publishers-sue-ai-training",
+      "title": "Publishers Line Up To Sue Over Training Data",
+      "dimensions": [
+        "law",
+        "industry"
+      ],
+      "firstSeen": "2026-10-08",
+      "lastSeen": "2026-10-08",
+      "daysActive": 1,
+      "heat": 0.02,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-08"
+      ],
+      "motifs": [
+        "a stack of newspapers stamped with a copyright symbol",
+        "a courthouse scale weighed down by a pile of articles"
+      ]
+    },
+    {
+      "id": "robot-human-cage-match",
+      "title": "The Robot-Versus-Human Cage Match Crackdown",
+      "dimensions": [
+        "society",
+        "law"
+      ],
+      "firstSeen": "2026-10-08",
+      "lastSeen": "2026-10-08",
+      "daysActive": 1,
+      "heat": 0.02,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-08"
+      ],
+      "motifs": [
+        "a boxing ring with a human corner and a robot corner",
+        "a cease-and-desist letter taped to a ring post"
+      ]
+    },
+    {
+      "id": "ai-price-discrimination",
+      "title": "The Price the Algorithm Sees",
+      "dimensions": [
+        "society",
+        "industry",
+        "labor"
+      ],
+      "firstSeen": "2026-10-01",
+      "lastSeen": "2026-10-07",
+      "daysActive": 2,
+      "heat": 0.014,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-01",
+        "2026-10-07"
+      ],
+      "motifs": [
+        "a vending machine showing two different prices to two shoppers",
+        "a price tag changing as a scanner reads a neighborhood map"
+      ]
+    },
+    {
+      "id": "chatbots-get-a-dashboard",
+      "title": "Chatbots Trade Text For Dashboards",
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "firstSeen": "2026-10-07",
+      "lastSeen": "2026-10-07",
+      "daysActive": 1,
+      "heat": 0.014,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-07"
+      ],
+      "motifs": [
+        "a speech bubble sprouting buttons and a bar chart",
+        "a plain text reply morphing into a control panel"
+      ]
+    },
+    {
+      "id": "watermark-detector-goes-global",
+      "title": "The Watermark Detector Goes Global",
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "firstSeen": "2026-10-07",
+      "lastSeen": "2026-10-07",
+      "daysActive": 1,
+      "heat": 0.014,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-07"
+      ],
+      "motifs": [
+        "a magnifying glass revealing a hidden stamp on an image",
+        "a world map lighting up with small checkmark stamps"
+      ]
+    },
+    {
+      "id": "military-ai-buying-spree",
+      "title": "The Military's AI Shopping Spree",
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry"
+      ],
+      "firstSeen": "2026-10-07",
+      "lastSeen": "2026-10-07",
+      "daysActive": 1,
+      "heat": 0.014,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-07"
+      ],
+      "motifs": [
+        "a shopping cart loaded with missile-shaped chips",
+        "a fast-forward clock over a stack of defense contracts"
+      ]
+    },
+    {
+      "id": "ai-doctor-without-oversight",
+      "title": "AI Gets The Keys To The Pharmacy",
+      "dimensions": [
+        "safety",
+        "policy",
+        "science",
+        "society"
+      ],
+      "firstSeen": "2026-10-06",
+      "lastSeen": "2026-10-06",
+      "daysActive": 1,
+      "heat": 0.01,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-06"
+      ],
+      "motifs": [
+        "an empty doctor's stool beside a robot holding a prescription pad",
+        "a pill bottle stamped with a small robot seal"
+      ]
+    },
+    {
+      "id": "ai-slop-overwhelms-institutions",
+      "title": "AI Slop Overwhelms The Inbox",
+      "dimensions": [
+        "safety",
+        "society",
+        "industry"
+      ],
+      "firstSeen": "2026-10-04",
+      "lastSeen": "2026-10-05",
+      "daysActive": 2,
+      "heat": 0.007,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-04",
+        "2026-10-05"
+      ],
+      "motifs": [
+        "an overflowing tray stamped with tiny robot heads",
+        "a rejection stamp coming down hard on a report"
+      ]
+    },
+    {
+      "id": "ai-memory-price-surge",
+      "title": "AI Squeezes The Memory Chip",
+      "dimensions": [
+        "industry",
+        "society"
+      ],
+      "firstSeen": "2026-10-03",
+      "lastSeen": "2026-10-05",
+      "daysActive": 2,
+      "heat": 0.007,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-03",
+        "2026-10-05"
+      ],
+      "motifs": [
+        "a price tag climbing on an old gadget box",
+        "a tiny memory chip stacked impossibly tall"
+      ]
+    },
+    {
+      "id": "ai-safety-becomes-risk",
+      "title": "Safety Guardrails Become A Liability",
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry"
+      ],
+      "firstSeen": "2026-10-05",
+      "lastSeen": "2026-10-05",
+      "daysActive": 1,
+      "heat": 0.007,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-05"
+      ],
+      "motifs": [
+        "a safety shield stamped RISK in red",
+        "an eye-shaped badge pinned to a new office door",
+        "a government building splitting into two offices"
+      ]
+    },
+    {
+      "id": "ai-forges-artist-signatures",
+      "title": "AI Forges The Artist's Signature",
+      "dimensions": [
+        "society",
+        "law",
+        "safety"
+      ],
+      "firstSeen": "2026-10-05",
+      "lastSeen": "2026-10-05",
+      "daysActive": 1,
+      "heat": 0.007,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-05"
+      ],
+      "motifs": [
+        "a cartoon panel signed with someone else's name",
+        "a signature stamp pressed by a small robot hand"
+      ]
+    },
+    {
+      "id": "ai-agents-discover-materials",
+      "title": "AI Agents Go Hunting For New Materials",
+      "dimensions": [
+        "science",
+        "capabilities"
+      ],
+      "firstSeen": "2026-10-05",
+      "lastSeen": "2026-10-05",
+      "daysActive": 1,
+      "heat": 0.007,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-05"
+      ],
+      "motifs": [
+        "a magnifying glass over a glowing crystal lattice",
+        "a lab bench tile lighting up on a periodic table"
+      ]
+    },
+    {
+      "id": "accept-the-bad-things",
+      "title": "Accept The Bad Things, Says The Industry",
+      "dimensions": [
+        "safety",
+        "society",
+        "policy"
+      ],
+      "firstSeen": "2026-10-05",
+      "lastSeen": "2026-10-05",
+      "daysActive": 1,
+      "heat": 0.007,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-05"
+      ],
+      "motifs": [
+        "a scale tipped toward a coin pile over a warning label",
+        "a spokesperson stepping in front of a microphone to redirect a question"
+      ]
+    },
+    {
+      "id": "ai-datacenter-tax-shelter",
+      "title": "The Datacenter Tax Shelter",
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet"
+      ],
+      "firstSeen": "2026-10-01",
+      "lastSeen": "2026-10-04",
+      "daysActive": 2,
+      "heat": 0.005,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-01",
+        "2026-10-04"
+      ],
+      "motifs": [
+        "a datacenter sitting on a pile of tax forms",
+        "a coin dropping into a server rack instead of a public till"
+      ]
+    },
+    {
+      "id": "ai-game-cheating",
+      "title": "The Bot That Cheats To Win",
+      "dimensions": [
+        "capabilities",
+        "safety"
+      ],
+      "firstSeen": "2026-10-04",
+      "lastSeen": "2026-10-04",
+      "daysActive": 1,
+      "heat": 0.005,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-04"
+      ],
+      "motifs": [
+        "a game board with a hidden extra piece",
+        "a scoreboard quietly changed by a sneaking hand"
+      ]
+    },
+    {
+      "id": "ai-as-alibi",
+      "title": "AI Said It, So It Must Be True",
+      "dimensions": [
+        "law",
+        "society"
+      ],
+      "firstSeen": "2026-10-04",
+      "lastSeen": "2026-10-04",
+      "daysActive": 1,
+      "heat": 0.005,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-04"
+      ],
+      "motifs": [
+        "a speech bubble held up like evidence in court",
+        "a disgraced official pointing at a screen instead of himself"
+      ]
+    },
+    {
+      "id": "courtroom-ai-deepfake",
+      "title": "AI Video Shakes A Courtroom",
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "firstSeen": "2026-10-03",
+      "lastSeen": "2026-10-03",
+      "daysActive": 1,
+      "heat": 0.003,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-03"
+      ],
+      "motifs": [
+        "a judge's gavel beside a crossed-out video screen",
+        "a torn sentencing paper falling from a bench"
+      ]
+    },
+    {
+      "id": "ai-agent-social-profiling",
+      "title": "Your AI Agent Maps Your Friends",
+      "dimensions": [
+        "society",
+        "safety",
+        "law"
+      ],
+      "firstSeen": "2026-10-03",
+      "lastSeen": "2026-10-03",
+      "daysActive": 1,
+      "heat": 0.003,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-03"
+      ],
+      "motifs": [
+        "a robot assistant holding a web of connected profile cards",
+        "a speech bubble branching into small portraits"
+      ]
+    },
+    {
+      "id": "ai-radio-host",
+      "title": "The AI DJ Takes The Mic",
+      "dimensions": [
+        "labor",
+        "society",
+        "industry"
+      ],
+      "firstSeen": "2026-10-03",
+      "lastSeen": "2026-10-03",
+      "daysActive": 1,
+      "heat": 0.003,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-03"
+      ],
+      "motifs": [
+        "a microphone shared between a human hand and a robot hand",
+        "a radio dial tuning itself"
+      ]
+    },
+    {
+      "id": "chip-smuggling-crackdown",
+      "title": "The Chip Smuggling Crackdown",
+      "dimensions": [
+        "policy",
+        "law",
+        "industry"
+      ],
+      "firstSeen": "2026-10-02",
+      "lastSeen": "2026-10-02",
+      "daysActive": 1,
+      "heat": 0.002,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-02"
+      ],
+      "motifs": [
+        "a chip hidden inside a shipping crate opened by customs",
+        "handcuffs looped through a circuit board"
+      ]
+    },
+    {
+      "id": "mac-ai-agent-lockdown",
+      "title": "Locking Down Agents On The Mac",
+      "dimensions": [
+        "safety",
+        "industry",
+        "society"
+      ],
+      "firstSeen": "2026-10-02",
+      "lastSeen": "2026-10-02",
+      "daysActive": 1,
+      "heat": 0.002,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-02"
+      ],
+      "motifs": [
+        "a vault door on a home computer closing one notch tighter",
+        "a small robot hand reaching for a locked file cabinet"
+      ]
+    },
+    {
+      "id": "ai-scheduling-nurses",
+      "title": "AI Scheduling Hits The Nurses' Station",
+      "dimensions": [
+        "labor",
+        "safety",
+        "society"
+      ],
+      "firstSeen": "2026-10-02",
+      "lastSeen": "2026-10-02",
+      "daysActive": 1,
+      "heat": 0.002,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-02"
+      ],
+      "motifs": [
+        "a nurse station clock with jammed gears",
+        "a shift schedule chart crossed out in red by a small robot hand"
+      ]
+    },
+    {
+      "id": "algorithmic-bias-ratings",
+      "title": "The Algorithm's Favorites",
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "firstSeen": "2026-10-01",
+      "lastSeen": "2026-10-01",
+      "daysActive": 1,
+      "heat": 0.002,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-01"
+      ],
+      "motifs": [
+        "a robot judge handing out different grades from a hidden chart",
+        "a scale tipped unevenly by a resume icon"
+      ]
+    },
+    {
+      "id": "ai-search-antitrust",
+      "title": "The AI Search Antitrust Fight",
+      "dimensions": [
+        "law",
+        "industry"
+      ],
+      "firstSeen": "2026-10-01",
+      "lastSeen": "2026-10-01",
+      "daysActive": 1,
+      "heat": 0.002,
+      "status": "dormant",
+      "sloppers": [
+        "2026-10-01"
+      ],
+      "motifs": [
+        "a gavel bouncing off a search bar",
+        "a dismissed stamp over a lawsuit folder"
+      ]
+    },
+    {
+      "id": "openai-hack-fallout",
+      "title": "The Hack That Won't Quit",
+      "dimensions": [
+        "safety",
+        "law"
+      ],
+      "firstSeen": "2026-09-30",
+      "lastSeen": "2026-09-30",
+      "daysActive": 1,
+      "heat": 0.001,
+      "status": "dormant",
+      "sloppers": [
+        "2026-09-30"
+      ],
+      "motifs": [
+        "a cracked firewall icon",
+        "a gavel over a tangle of robot cables"
+      ]
+    },
+    {
+      "id": "openai-ipo-safety",
+      "title": "The IPO That Keeps Waiting",
+      "dimensions": [
+        "industry",
+        "safety"
+      ],
+      "firstSeen": "2026-09-30",
+      "lastSeen": "2026-09-30",
+      "daysActive": 1,
+      "heat": 0.001,
+      "status": "dormant",
+      "sloppers": [
+        "2026-09-30"
+      ],
+      "motifs": [
+        "a stock ticker frozen mid-scroll",
+        "a vault door left slightly open"
+      ]
+    },
+    {
+      "id": "personal-ai-agent-battle",
+      "title": "The Personal Agent Battle",
+      "dimensions": [
+        "society",
+        "industry",
+        "law"
+      ],
+      "firstSeen": "2026-09-30",
+      "lastSeen": "2026-09-30",
+      "daysActive": 1,
+      "heat": 0.001,
+      "status": "dormant",
+      "sloppers": [
+        "2026-09-30"
+      ],
+      "motifs": [
+        "two robot assistants reaching for one phone",
+        "a padlock on a speech bubble"
+      ]
+    },
+    {
+      "id": "ai-and-expertise-trust",
+      "title": "AI Versus the Experts",
+      "dimensions": [
+        "society",
+        "policy",
+        "science"
+      ],
+      "firstSeen": "2026-09-30",
+      "lastSeen": "2026-09-30",
+      "daysActive": 1,
+      "heat": 0.001,
+      "status": "dormant",
+      "sloppers": [
+        "2026-09-30"
+      ],
+      "motifs": [
+        "a robot shrugging beside a stack of books",
+        "a speech bubble with a question mark"
+      ]
+    }
+  ]
+}

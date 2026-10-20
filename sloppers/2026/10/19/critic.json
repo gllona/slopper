@@ -1,0 +1,100 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"regulator\" (label) was moved -26 px, 0 px to stay inside the safe area",
+          "\"bigco\" extends outside the safe area in the final frame (x 45…387, y 446…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 4
+        },
+        "verdict": "The dual metaphor — a crane rescuing tech while lawsuit papers fall away, and a chatbot's hidden note turning from a regulator — barely registers; the crane's hook is buried under a label, the papers look static, and the note/sign have no visual connection, leaving two generic server buildings and an isolated robot as the main takeaway. Fails the 3-second read.",
+        "revisionNotes": [
+          "The crane's hook/gear piece is hidden behind the BANKRUPT label — move the label to smallco's left side (not top) or raise the hook above the label layer so the lifted gear reads as a distinct shape.",
+          "The papers bundle sits on the small building's roof instead of falling off the hook — move it lower (y ~0.68) and steepen its rotation (~-30°) so it reads as slipping and falling toward the ground.",
+          "Lint flags bigco clipping the left safe-area edge — shift its anchor right (x 0.22-0.26) or scale it to 0.9 so the whole building fits in frame.",
+          "The hidden note and REGULATOR sign are too far apart with no visual link — bring regulator closer (x ~0.78) and angle the note's folded corner clearly away from it, or add a small eyeline/arrow.",
+          "The core metaphor (crane rescuing tech from lawsuit debt) doesn't read at a glance — enlarge the hook/gear shape (scale ~1.3) and make the crane arm a bolder, more distinct silhouette against the buildings' thin rack lines.",
+          "The two datacenter buildings look like near-twins — shrink smallco further (scale ~0.45) or add a visible crack prop so 'smaller, broken' contrasts clearly with 'bigger, glossy'."
+        ]
+      },
+      "average": 2.71,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The dual metaphor is present in the brief sense but poorly legible: the crane/papers/bankrupt cluster overlaps into a muddled left side while the right side is oddly empty, and the key visual beats (gear being salvaged, note steering away from REGULATOR) are too subtle to read in 3 seconds — not ready to publish.",
+        "revisionNotes": [
+          "Detach the BANKRUPT label from the crane pulley — it currently overlaps the crane's vertical arm/hook, reading as one broken shape instead of a tag on the small building.",
+          "Reposition smallco (cracked bankrupt datacenter) so it isn't hidden behind the robot's leg; shift it to x~0.40 and scale to 0.5 so the crack prop is actually visible.",
+          "Redraw the 'papers' prop near the crane hook — it reads as a stray tilted card, not a falling bundle with a scale icon; make it a clear slipping stack with a visible scale glyph on its trajectory below the hook.",
+          "Close the large dead space between the robot and the REGULATOR sign (roughly x 0.7–0.95 is empty); bring the sign in to x~0.72 or add a small ground element to balance the square.",
+          "Scale the hidden note to ~1.3 and lengthen/bolden its arrow so the 'turning away from REGULATOR' gag reads at a glance instead of requiring a zoom-in.",
+          "The gear/tech piece being lifted is ambiguous (reads as a plain pulley wheel) — add visible gear teeth so it clearly shows 'technology' being salvaged."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"bigco\" extends outside the safe area in the final frame (x 5…341, y 526…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The lawsuit-dodging crane/bankruptcy half reads fairly clearly, but the \"hidden note\" that's supposed to turn the chatbot away from REGULATOR is mis-anchored and visually fuses with the crane, so the second half of the joke doesn't land — plus the left datacenter clips the safe area. Fails; needs a layout fix before publishing.",
+        "revisionNotes": [
+          "The \"note\" overlaps the crane's beam/hook at nearly the same coordinates (x≈380–505, y≈310–390), reading as part of the crane rather than the chatbot's hidden instruction — re-anchor it tight to the bubble's left edge at scale ~1.0, clear of the crane's bounding box.",
+          "Once separated, aim the note's arrow at the REGULATOR sign (or move the sign closer, x≈0.72) so the \"turned away from regulator\" beat is legible without reading the phrase.",
+          "\"bigco\" (left datacenter) clips the safe area per the lint warning (x 5…341) — shift it right toward x≈0.2 and/or scale to ~0.72 so it sits fully inside the frame.",
+          "The left (crane/bankruptcy) and right (robot/regulator) halves read as two unrelated vignettes; add a connecting prop or shared sightline to tie the two-part joke together.",
+          "Consider swapping one datacenter silhouette for a different institution shape — racks-plus-tag-label recurs often in recent sloppers and this scene leans on it twice (bigco and smallco)."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    }
+  ]
+}

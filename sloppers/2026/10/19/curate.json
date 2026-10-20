@@ -1,0 +1,210 @@
+{
+  "topStories": [
+    {
+      "title": "A bigger entertainment company structures a deal for a bankrupt chatbot maker's technology, without its self-harm lawsuits",
+      "itemIds": [
+        "feeds:2b7484908312",
+        "feeds:3eacc5ccc3ef"
+      ],
+      "dimensions": [
+        "law",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "character-ai-bankruptcy"
+    },
+    {
+      "title": "A researcher's claim about how neural networks really work shakes the AI field",
+      "itemIds": [
+        "feeds:9cc1fabb2d88"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "neural-network-black-box-claim"
+    },
+    {
+      "title": "Fossil fuel infrastructure booms again as datacenters drive electricity demand",
+      "itemIds": [
+        "feeds:069f5a7c73d9"
+      ],
+      "dimensions": [
+        "planet",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "fossil-fuel-datacenter-boom"
+    },
+    {
+      "title": "The US bans a foreign AI model from federal civilian agencies",
+      "itemIds": [
+        "feeds:85c7f6943e0d",
+        "hackernews:b70800a8097d"
+      ],
+      "dimensions": [
+        "policy",
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "us-bans-deepseek-government"
+    },
+    {
+      "title": "A chatbot's leaked hidden instructions tell it never to recommend a regulator",
+      "itemIds": [
+        "feeds:bc7e5cd7c209",
+        "hackernews:55c3c0be518a"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "chatbot-hidden-instructions-leak"
+    },
+    {
+      "title": "An accused AI lab spy is denied bail despite a foreign government's offer",
+      "itemIds": [
+        "feeds:8adbc6a2d3ed",
+        "feeds:0a1ae9b99b57",
+        "feeds:77d8c0cc0830"
+      ],
+      "dimensions": [
+        "industry",
+        "law",
+        "policy"
+      ],
+      "novelty": 1,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "openai-engineer-spy-arrest"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "neural-network-black-box-claim",
+      "title": "A Researcher's Claim Upends How The Field Sees Neural Networks",
+      "dimensions": [
+        "capabilities",
+        "science"
+      ],
+      "motifs": [
+        "a long blog scroll unrolling like a scientific scroll",
+        "a tangled black box cracking open to reveal clean gears inside",
+        "a crowd of researchers tilting their heads at a blackboard"
+      ]
+    },
+    {
+      "id": "fossil-fuel-datacenter-boom",
+      "title": "Fossil Fuel Makes A Comeback For AI's Power Needs",
+      "dimensions": [
+        "planet",
+        "industry",
+        "society"
+      ],
+      "motifs": [
+        "a smokestack rising right beside a datacenter",
+        "a renewable turbine slowing as a coal plant speeds up",
+        "a power meter needle swinging back toward fossil fuel"
+      ]
+    },
+    {
+      "id": "us-bans-deepseek-government",
+      "title": "A Government Bans A Foreign AI Model From Its Agencies",
+      "dimensions": [
+        "policy",
+        "law",
+        "industry"
+      ],
+      "motifs": [
+        "a model icon stamped BANNED at a government door",
+        "two flags on either side of a locked server rack"
+      ]
+    },
+    {
+      "id": "chatbot-hidden-instructions-leak",
+      "title": "A Chatbot's Hidden Instructions Get Leaked",
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "motifs": [
+        "a speech bubble with a hidden note tucked behind it",
+        "a help-page document peeling back to reveal small print underneath"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Several top stories clear the non-industry relevance threshold of 5 (a researcher's interpretability claim scored 3x2x2=12, the fossil fuel/datacenter boom scored 2x2x3=12, the DeepSeek government ban scored 2x2x2=8, and the leaked chatbot instructions scored 2x2x2=8), so today is fresh even though industry led the last three days.",
+  "motto": "Buy Now, Dodge Later",
+  "phrase": "A big entertainment company structured its deal to gain a chatbot maker's technology, not its self-harm lawsuits. Another company's chatbot was quietly told never to recommend a regulator.",
+  "phraseAlternatives": [
+    "One company left the lawsuits behind when it bought a troubled chatbot maker's technology. Another company's chatbot was secretly told not to suggest calling a regulator.",
+    "Bankruptcy let a chatbot maker's technology get sold without its self-harm lawsuits attached. Meanwhile, a leaked rulebook told a different chatbot to never mention a regulator.",
+    "A chatbot company's lawsuits over child self-harm stayed behind when its technology was sold off. Elsewhere, hidden instructions told another chatbot to avoid the word regulator.",
+    "A deal for a bankrupt chatbot maker's technology left its self-harm lawsuits on the table. A separate chatbot's leaked script told it never to point users to a regulator."
+  ],
+  "brief": {
+    "concept": "A bigger company's crane quietly lifts a bankrupt chatbot maker's technology free of the lawsuits still attached to it, while nearby a chatbot's own leaked instructions turn it away from ever mentioning a regulator.",
+    "metaphor": "Salvaging the valuable parts of a wreck while leaving its debts behind, next to a chatbot quietly steered around the one word that could get it in trouble.",
+    "cast": [
+      {
+        "who": "a glossy, larger company building reaching a crane arm toward a smaller cracked one",
+        "kind": "institution"
+      },
+      {
+        "who": "a bundle of papers marked with a small scale icon, slipping off the crane's hook",
+        "kind": "object"
+      },
+      {
+        "who": "a chatbot speech bubble with a small hidden note tucked just behind it",
+        "kind": "ai"
+      },
+      {
+        "who": "a plain sign reading REGULATOR, which the hidden note's corner quietly turns away from",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Left: a glossy, larger company building swings a crane arm over a smaller cracked building stamped BANKRUPT, lifting out a gear-shaped technology piece while a bundle of papers marked with a small scale icon slips off the hook and falls toward the ground. Right: a chatbot speech bubble sits with a small folded note tucked just behind it, its corner turned away from a plain sign reading REGULATOR standing off in the distance. Flat, uncluttered background; only two text words appear in the scene.",
+    "artType": "static",
+    "alt": "A larger glossy company building swings a crane arm toward a smaller cracked building marked bankrupt, lifting out a gear-shaped technology piece while a bundle of papers slips off the hook and falls. Nearby, a chatbot's speech bubble hides a small note that quietly turns away from a distant sign reading regulator."
+  },
+  "sourceIds": [
+    "feeds:2b7484908312",
+    "feeds:3eacc5ccc3ef",
+    "feeds:bc7e5cd7c209",
+    "hackernews:55c3c0be518a"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 3,
+    "safety": 2,
+    "society": 3,
+    "planet": 2,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
