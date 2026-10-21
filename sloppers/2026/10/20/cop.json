@@ -1,0 +1,21 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"a music platform removed fifty million AI tracks it called slop\" vs. source: \"Spotify says it has removed more than 50 million songs considered AI-generated slop or spam from user recommendations\" (The Verge).",
+          "suggestion": "Clarify that the tracks were removed from recommendations/visibility, not deleted from the platform entirely, e.g. \"pulled fifty million AI tracks it called slop from its recommendations.\"",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "pass",
+      "findings": []
+    }
+  ]
+}

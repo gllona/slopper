@@ -1,0 +1,187 @@
+{
+  "date": "2026-10-20",
+  "number": 21,
+  "mode": "fresh",
+  "motto": "Oversharing By Design",
+  "phrase": "A chatbot app's shared chats turned out to be public, exposing personal secrets. The same week, a music platform pulled fifty million AI tracks it called slop from its recommendations.",
+  "phraseAlternatives": [
+    "A chat app's sharing feature leaked personal and business secrets onto the open web. A music service spent the year pulling fifty million AI tracks it called slop from recommendations.",
+    "Thousands of private chatbot conversations turned out to be searchable online. Meanwhile, a streaming platform pulled fifty million tracks it labeled AI slop from its recommendations.",
+    "A chatbot's share button exposed private conversations to search engines. A streaming platform, less forgiving, pulled fifty million tracks it called AI slop from its recommendations."
+  ],
+  "alt": "A two-panel riso print divided by a thin vertical line. On the left, a worried robot's cracked SHARE speech bubble sprays note papers up toward a web shape. On the right, a person turns a dial away from a pile of identical music-track icons while a swept dashed arrow carries them down into a bin labeled SLOP.",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "education": 1,
+    "planet": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 0
+  },
+  "storylines": [
+    "meta-muse-privacy-leak",
+    "meta-scrapes-publishers-for-free",
+    "platforms-purge-ai-slop",
+    "anthropic-ipo-countdown",
+    "ai-deepfakes-target-children"
+  ],
+  "topStories": [
+    {
+      "title": "A Chat App's Shared Conversations Leak Publicly",
+      "itemIds": [
+        "feeds:5d7a67d65647",
+        "feeds:3eb4d1ab20fd"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "meta-muse-privacy-leak"
+    },
+    {
+      "title": "A Platform Tries To Dodge Blame For Training Data",
+      "itemIds": [
+        "feeds:6a7ad8e441e6",
+        "feeds:b614f4ca6dbd"
+      ],
+      "dimensions": [
+        "law",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "meta-scrapes-publishers-for-free"
+    },
+    {
+      "title": "A Music Platform Pulls Fifty Million AI Slop Tracks From Recommendations",
+      "itemIds": [
+        "feeds:d8e521589f50"
+      ],
+      "dimensions": [
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "platforms-purge-ai-slop"
+    },
+    {
+      "title": "An AI Lab's Rocky Road To IPO",
+      "itemIds": [
+        "feeds:eacbe85de5f0",
+        "hackernews:f861b9291f6f",
+        "feeds:11c7e6dde0dc"
+      ],
+      "dimensions": [
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "anthropic-ipo-countdown"
+    },
+    {
+      "title": "Deepfake Tools Target Schoolchildren",
+      "itemIds": [
+        "gdelt:5db8ad7ef200",
+        "gdelt:ddc044587aff"
+      ],
+      "dimensions": [
+        "safety",
+        "education",
+        "society",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-deepfakes-target-children"
+    }
+  ],
+  "brief": {
+    "concept": "A chatbot's SHARE button springs a leak like a cracked pipe, spraying private notes across the open web, while nearby a person adjusts a recommendation dial, sweeping a mountain of duplicate music-track icons out of its glow.",
+    "metaphor": "Sharing as a broken pipe spraying secrets outward; cleanup as a dial turned away from unwanted machine-made clutter.",
+    "cast": [
+      {
+        "who": "a chatbot speech bubble with a SHARE button, cracked like a leaking pipe",
+        "kind": "ai"
+      },
+      {
+        "who": "small note-shaped papers spilling from the crack into an open network shape",
+        "kind": "object"
+      },
+      {
+        "who": "a person turning a recommendation dial away from a pile of identical round track icons",
+        "kind": "person"
+      },
+      {
+        "who": "a bin marked SLOP catching the swept tracks",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Two vignettes side by side on one card, separated by a thin divider. Left: a speech bubble with a SHARE arrow cracks and sprays small note papers toward a web/network shape in the background. Right: a person turns a recommendation dial away from a pile of identical round track icons, sweeping some into a bin labeled SLOP. Only text in the image: SHARE and SLOP.",
+    "artType": "static",
+    "alt": "A two-panel illustration: on the left, a speech bubble marked SHARE cracks and leaks small notes into a web shape; on the right, a person turns a recommendation dial away from a pile of duplicate music-track icons, sweeping some into a bin marked SLOP."
+  },
+  "sources": [
+    {
+      "id": "feeds:5d7a67d65647",
+      "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+      "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-10-20T12:33:13.000Z"
+    },
+    {
+      "id": "feeds:3eb4d1ab20fd",
+      "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
+      "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-20T18:07:34.000Z"
+    },
+    {
+      "id": "feeds:d8e521589f50",
+      "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
+      "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-20T14:18:37.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.43,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-21T11:49:27.975Z"
+}
