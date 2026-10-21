@@ -1,0 +1,139 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {
+    "type": "split",
+    "horizon": 0.78,
+    "color": "paper",
+    "color2": "accent2"
+  },
+  "elements": [
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1,
+      "props": {
+        "width": 10,
+        "height": 800
+      },
+      "svg": "<line class=\"r-thin\" x1=\"5\" y1=\"10\" x2=\"5\" y2=\"790\"/>"
+    },
+    {
+      "id": "network",
+      "component": "raw",
+      "at": {
+        "x": 0.38,
+        "y": 0.14
+      },
+      "scale": 1,
+      "props": {
+        "width": 220,
+        "height": 160
+      },
+      "svg": "<line class=\"r-thin\" x1=\"110\" y1=\"100\" x2=\"40\" y2=\"35\"/><line class=\"r-thin\" x1=\"110\" y1=\"100\" x2=\"185\" y2=\"45\"/><line class=\"r-thin\" x1=\"110\" y1=\"100\" x2=\"195\" y2=\"125\"/><line class=\"r-thin\" x1=\"110\" y1=\"100\" x2=\"30\" y2=\"125\"/><circle class=\"r-body-alt\" cx=\"110\" cy=\"100\" r=\"18\"/><circle class=\"r-body-alt\" cx=\"40\" cy=\"35\" r=\"12\"/><circle class=\"r-body-alt\" cx=\"185\" cy=\"45\" r=\"12\"/><circle class=\"r-body-alt\" cx=\"195\" cy=\"125\" r=\"12\"/><circle class=\"r-body-alt\" cx=\"30\" cy=\"125\" r=\"12\"/>"
+    },
+    {
+      "id": "bot",
+      "component": "robot",
+      "at": {
+        "x": 0.22,
+        "y": 0.78
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "worried",
+        "arms": "up"
+      }
+    },
+    {
+      "id": "bubble",
+      "component": "speech-bubble",
+      "attachTo": "bot",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "SHARE",
+        "kind": "shout",
+        "size": "lg",
+        "tail": "bottom"
+      }
+    },
+    {
+      "id": "crack",
+      "component": "raw",
+      "at": {
+        "x": 0.34,
+        "y": 0.32
+      },
+      "scale": 1,
+      "props": {
+        "width": 200,
+        "height": 150
+      },
+      "svg": "<path class=\"r-line\" d=\"M20 140 L45 110 L25 90 L55 60\"/><rect class=\"r-paper\" x=\"62\" y=\"88\" width=\"38\" height=\"26\" rx=\"4\" transform=\"rotate(-14 81 101)\"/><rect class=\"r-paper\" x=\"104\" y=\"56\" width=\"38\" height=\"26\" rx=\"4\" transform=\"rotate(12 123 69)\"/><rect class=\"r-accent\" x=\"142\" y=\"28\" width=\"32\" height=\"22\" rx=\"4\" transform=\"rotate(-10 158 39)\"/><circle class=\"r-ink\" cx=\"178\" cy=\"14\" r=\"5\"/><circle class=\"r-ink\" cx=\"192\" cy=\"32\" r=\"4\"/><path class=\"r-line\" d=\"M118 68 Q158 38 188 8\"/><polygon class=\"r-ink\" points=\"180,4 198,10 184,20\"/>"
+    },
+    {
+      "id": "human",
+      "component": "human",
+      "at": {
+        "x": 0.61,
+        "y": 0.78
+      },
+      "scale": 0.85,
+      "props": {
+        "mood": "neutral",
+        "pose": "point",
+        "color": "body",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "dial",
+      "component": "raw",
+      "at": {
+        "x": 0.66,
+        "y": 0.68
+      },
+      "scale": 1,
+      "props": {
+        "width": 120,
+        "height": 120
+      },
+      "svg": "<circle class=\"r-body-alt\" cx=\"60\" cy=\"60\" r=\"52\"/><line class=\"r-thin\" x1=\"60\" y1=\"10\" x2=\"60\" y2=\"20\"/><line class=\"r-thin\" x1=\"60\" y1=\"100\" x2=\"60\" y2=\"110\"/><line class=\"r-thin\" x1=\"10\" y1=\"60\" x2=\"20\" y2=\"60\"/><line class=\"r-thin\" x1=\"100\" y1=\"60\" x2=\"110\" y2=\"60\"/><rect class=\"r-ink\" x=\"57\" y=\"16\" width=\"6\" height=\"44\" rx=\"3\" transform=\"rotate(-42 60 60)\"/><circle class=\"r-accent\" cx=\"60\" cy=\"60\" r=\"9\"/>"
+    },
+    {
+      "id": "trackflow",
+      "component": "raw",
+      "at": {
+        "x": 0.82,
+        "y": 0.47
+      },
+      "scale": 1,
+      "props": {
+        "width": 200,
+        "height": 640
+      },
+      "svg": "<circle class=\"r-body-alt\" cx=\"47\" cy=\"140\" r=\"24\"/><rect class=\"r-ink\" x=\"39\" y=\"138\" width=\"3\" height=\"10\"/><rect class=\"r-ink\" x=\"45\" y=\"131\" width=\"3\" height=\"17\"/><rect class=\"r-ink\" x=\"51\" y=\"140\" width=\"3\" height=\"8\"/><circle class=\"r-body-alt\" cx=\"102\" cy=\"140\" r=\"24\"/><rect class=\"r-ink\" x=\"94\" y=\"138\" width=\"3\" height=\"10\"/><rect class=\"r-ink\" x=\"100\" y=\"131\" width=\"3\" height=\"17\"/><rect class=\"r-ink\" x=\"106\" y=\"140\" width=\"3\" height=\"8\"/><circle class=\"r-body-alt\" cx=\"157\" cy=\"140\" r=\"24\"/><rect class=\"r-ink\" x=\"149\" y=\"138\" width=\"3\" height=\"10\"/><rect class=\"r-ink\" x=\"155\" y=\"131\" width=\"3\" height=\"17\"/><rect class=\"r-ink\" x=\"161\" y=\"140\" width=\"3\" height=\"8\"/><circle class=\"r-body-alt\" cx=\"74\" cy=\"92\" r=\"24\"/><rect class=\"r-ink\" x=\"66\" y=\"90\" width=\"3\" height=\"10\"/><rect class=\"r-ink\" x=\"72\" y=\"83\" width=\"3\" height=\"17\"/><rect class=\"r-ink\" x=\"78\" y=\"92\" width=\"3\" height=\"8\"/><circle class=\"r-body-alt\" cx=\"130\" cy=\"92\" r=\"24\"/><rect class=\"r-ink\" x=\"122\" y=\"90\" width=\"3\" height=\"10\"/><rect class=\"r-ink\" x=\"128\" y=\"83\" width=\"3\" height=\"17\"/><rect class=\"r-ink\" x=\"134\" y=\"92\" width=\"3\" height=\"8\"/><circle class=\"r-body-alt\" cx=\"102\" cy=\"47\" r=\"24\"/><rect class=\"r-ink\" x=\"94\" y=\"45\" width=\"3\" height=\"10\"/><rect class=\"r-ink\" x=\"100\" y=\"38\" width=\"3\" height=\"17\"/><rect class=\"r-ink\" x=\"106\" y=\"47\" width=\"3\" height=\"8\"/><path class=\"r-line\" d=\"M102 170 C170 260 40 360 100 450\" stroke-dasharray=\"14 10\"/><polygon class=\"r-ink\" points=\"84 440 118 448 96 470\"/><path class=\"r-accent\" d=\"M30 470 L170 470 L148 610 L52 610 Z\"/>"
+    },
+    {
+      "id": "binlabel",
+      "component": "label",
+      "at": {
+        "x": 0.82,
+        "y": 0.58
+      },
+      "scale": 1,
+      "props": {
+        "text": "SLOP",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "A two-panel riso print divided by a thin vertical line. On the left, a worried robot's cracked SHARE speech bubble sprays note papers up toward a web shape. On the right, a person turns a dial away from a pile of identical music-track icons while a swept dashed arrow carries them down into a bin labeled SLOP."
+}

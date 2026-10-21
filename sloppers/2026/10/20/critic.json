@@ -1,0 +1,97 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"dial\" extends outside the safe area in the final frame (x 924…1064, y 555…695)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Casting and palette are fine, but the dial clips outside the safe area, the leak and sweep metaphors are too faint/disconnected to read quickly, and the right side feels like a crowded stack rather than one clear beat — average comes in under the bar.",
+        "revisionNotes": [
+          "Dial is clipped at the right edge/safe area (lint: x 924-1064, y 555-695) — scale it to ~0.85 and shift left-third within the person's reach so it isn't cut off.",
+          "The leak metaphor is too subtle: the crack/confetti bits floating above the bubble read as a random squiggle, not a spray of secrets — scale them up and route them visibly toward the network shape.",
+          "Right side stacks pile, dial, SLOP tag, and bin in a disconnected vertical column — add a short swept-motion line or arrow from the pile toward the bin so the 'sweeping away' action is legible.",
+          "Brief calls for a thin divider between the two vignettes; currently there's no visual separation, so the leak story and the dial/bin story blur into one busy scene — add a vertical rule or clearer gap at the midline.",
+          "The pile circles read as coins/buttons, not duplicate AI music tracks — add a small note/waveform glyph inside each circle so 'music-track icons' is recognizable.",
+          "Clean up the overlap where the person's pointing arm crosses the torso (a stray reddish sliver near the shoulder) for a crisper pose."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "A solid two-panel concept with correct casting, but the right panel's arm/dial/bin overlap reads as a rendering glitch and muddies the 'turning the dial' action, dragging the average just under passing.",
+        "revisionNotes": [
+          "Fix the overlap where the human's arm runs straight into the SLOP bin's label — shorten/angle the 'point' arm so the hand visibly lands on the dial's rim instead of merging with the bin text.",
+          "The dial component is clipped behind the human's torso and legs; move it to x≈0.64, y≈0.70 (clear of the body) and scale to 1.1 so the turning action reads.",
+          "Swap the inner glyph on the track-pile circles (currently small bar-chart bars) for a music-note shape so the pile reads unambiguously as duplicate music tracks, not generic analytics.",
+          "Scale the network/web graphic to ~1.15; at current size the thin lines read as scribbles until you look closely, weakening the 'leak' destination.",
+          "Add more separation between the dial-turn gesture and the sweep-into-bin dashed line so the two actions (turning away vs. sweeping) don't visually collapse into one stroke."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Left vignette lands cleanly, but the divider literally cuts through the human figure and the dial floats disconnected from the pointing hand, muddying the right-side metaphor and the overall polish — this narrowly fails the bar today.",
+        "revisionNotes": [
+          "Move the \"human\" anchor off the divider: shift x from 0.5 to ~0.56 so the thin vertical divider line doesn't pierce straight through the figure's head and torso — currently the line visibly bisects the body, a polish bug.",
+          "Pull the \"dial\" closer to the human's pointing hand (e.g. anchor it near x=0.56, y=0.75) and scale it to ~1.3 so the hand reads as touching/turning it, instead of floating near the arm as an unrelated clock shape.",
+          "Rotate the dial's needle to point away from the trackflow pile (toward the left, away from x=0.85) so \"turning the dial away from the pile\" reads in under 3 seconds without close inspection.",
+          "Tighten the trackflow pile into a denser, more obviously identical grid of note-circles (reduce scatter) so \"duplicate AI slop tracks\" is legible at a glance.",
+          "This split-card-with-vertical-divider plus person/robot pairing is close in structure to recent cards (the open-door/high-bar and costs-more/costs-less sloppers) — try an angled or torn divider, or a top/bottom split, to differentiate the layout next time.",
+          "Left vignette (cracked SHARE bubble spilling papers into the network) reads clearly and can stay as-is."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    }
+  ]
+}

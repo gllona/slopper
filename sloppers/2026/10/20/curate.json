@@ -1,0 +1,191 @@
+{
+  "topStories": [
+    {
+      "title": "A Chat App's Shared Conversations Leak Publicly",
+      "itemIds": [
+        "feeds:5d7a67d65647",
+        "feeds:3eb4d1ab20fd"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "meta-muse-privacy-leak"
+    },
+    {
+      "title": "A Platform Tries To Dodge Blame For Training Data",
+      "itemIds": [
+        "feeds:6a7ad8e441e6",
+        "feeds:b614f4ca6dbd"
+      ],
+      "dimensions": [
+        "law",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "meta-scrapes-publishers-for-free"
+    },
+    {
+      "title": "A Music Platform Pulls Fifty Million AI Slop Tracks From Recommendations",
+      "itemIds": [
+        "feeds:d8e521589f50"
+      ],
+      "dimensions": [
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "platforms-purge-ai-slop"
+    },
+    {
+      "title": "An AI Lab's Rocky Road To IPO",
+      "itemIds": [
+        "feeds:eacbe85de5f0",
+        "hackernews:f861b9291f6f",
+        "feeds:11c7e6dde0dc"
+      ],
+      "dimensions": [
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "anthropic-ipo-countdown"
+    },
+    {
+      "title": "Deepfake Tools Target Schoolchildren",
+      "itemIds": [
+        "gdelt:5db8ad7ef200",
+        "gdelt:ddc044587aff"
+      ],
+      "dimensions": [
+        "safety",
+        "education",
+        "society",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-deepfakes-target-children"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "meta-muse-privacy-leak",
+      "title": "A Chat App's Private Conversations Go Public",
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "motifs": [
+        "a speech bubble marked SHARE leaking small notes into an open web",
+        "a padlock left open beside a stack of personal documents",
+        "a magnifying glass finding a private chat bubble sitting in public"
+      ]
+    },
+    {
+      "id": "platforms-purge-ai-slop",
+      "title": "Platforms Start Pulling AI Slop From Recommendations",
+      "dimensions": [
+        "society",
+        "industry"
+      ],
+      "motifs": [
+        "a recommendation dial turning away from a wall of duplicate icons",
+        "a person sweeping a pile of duplicate track icons into a bin"
+      ]
+    },
+    {
+      "id": "anthropic-ipo-countdown",
+      "title": "An AI Lab's Rocky Road To IPO",
+      "dimensions": [
+        "industry"
+      ],
+      "motifs": [
+        "a company building reaching for a shared cloud socket already taken",
+        "a stock certificate climbing beside a straining compute meter"
+      ]
+    },
+    {
+      "id": "ai-deepfakes-target-children",
+      "title": "Deepfake Tools Target Schoolchildren",
+      "dimensions": [
+        "safety",
+        "education",
+        "society",
+        "law"
+      ],
+      "motifs": [
+        "a schoolyard fence with a glitching photo caught on the wire",
+        "a watchdog badge raising a flag beside a small deepfake icon"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The chat-leak story reaches novelty 3 x magnitude 2 x breadth 3 = 18, well past the threshold of 8, so today stands on its own rather than continuing yesterday's thread.",
+  "motto": "Oversharing By Design",
+  "phrase": "A chatbot app's shared chats turned out to be public, exposing personal secrets. The same week, a music platform pulled fifty million AI tracks it called slop from its recommendations.",
+  "phraseAlternatives": [
+    "A chat app's sharing feature leaked personal and business secrets onto the open web. A music service spent the year pulling fifty million AI tracks it called slop from recommendations.",
+    "Thousands of private chatbot conversations turned out to be searchable online. Meanwhile, a streaming platform pulled fifty million tracks it labeled AI slop from its recommendations.",
+    "A chatbot's share button exposed private conversations to search engines. A streaming platform, less forgiving, pulled fifty million tracks it called AI slop from its recommendations."
+  ],
+  "brief": {
+    "concept": "A chatbot's SHARE button springs a leak like a cracked pipe, spraying private notes across the open web, while nearby a person adjusts a recommendation dial, sweeping a mountain of duplicate music-track icons out of its glow.",
+    "metaphor": "Sharing as a broken pipe spraying secrets outward; cleanup as a dial turned away from unwanted machine-made clutter.",
+    "cast": [
+      {
+        "who": "a chatbot speech bubble with a SHARE button, cracked like a leaking pipe",
+        "kind": "ai"
+      },
+      {
+        "who": "small note-shaped papers spilling from the crack into an open network shape",
+        "kind": "object"
+      },
+      {
+        "who": "a person turning a recommendation dial away from a pile of identical round track icons",
+        "kind": "person"
+      },
+      {
+        "who": "a bin marked SLOP catching the swept tracks",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Two vignettes side by side on one card, separated by a thin divider. Left: a speech bubble with a SHARE arrow cracks and sprays small note papers toward a web/network shape in the background. Right: a person turns a recommendation dial away from a pile of identical round track icons, sweeping some into a bin labeled SLOP. Only text in the image: SHARE and SLOP.",
+    "artType": "static",
+    "alt": "A two-panel illustration: on the left, a speech bubble marked SHARE cracks and leaks small notes into a web shape; on the right, a person turns a recommendation dial away from a pile of duplicate music-track icons, sweeping some into a bin marked SLOP."
+  },
+  "sourceIds": [
+    "feeds:5d7a67d65647",
+    "feeds:3eb4d1ab20fd",
+    "feeds:d8e521589f50"
+  ],
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "education": 1,
+    "planet": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 0
+  }
+}
