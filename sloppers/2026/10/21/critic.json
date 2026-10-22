@@ -1,0 +1,95 @@
+{
+  "passed": false,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The left-side patch/crack gag reads fine, but the right side falls apart: the doorway is nearly invisible against the background, the two workers merge into one overlapping blob, the sign looks like a stray floating plank, and the contract sits in the wrong spot to read as 'left behind' — this doesn't clear the bar for publishing today.",
+        "revisionNotes": [
+          "The doorway on the right is nearly invisible against the matching dark-blue background — give it a lighter outline/fill so the jambs read as a frame, and shift it to x~0.80 so both verts stay clear of the edge and of the workers.",
+          "Worker1 and worker2 overlap into a single merged silhouette instead of 'a line walking out' — spread them to x=0.76 and x=0.90 with a small gap.",
+          "Worker1's sign renders as a detached blue rectangle floating above the heads, not a held sign — attach it to the hand at scale ~0.4 beside the body instead of behind/above it.",
+          "The star-stamped contract/desk sits in the middle of the scene next to the robot's tool, not behind the departing workers — move it to x~0.72 so it reads as left behind near the door.",
+          "The patch tool in the robot's hand reads as a megaphone or flashlight, not a repair tool — simplify the raw shape to a recognizable wrench/patch silhouette.",
+          "This split-blueprint-with-sign-carrying-human composition is close to recent pieces (the 'OPEN' blueprint split and the sign-holding human in 'CLOSED') — vary the layout (diagonal split, different highlight placement) or palette accent to stand apart."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The split blueprint scene is legible at a glance for the patch side, but the patch tool floats disconnected from the robot's hand, the worker's blank sign muddies the quiet-walkout beat, and the wall-crack/robot/sign composition is too close to a recent piece — it doesn't clear the bar today.",
+        "revisionNotes": [
+          "Attach the patch-tool directly to the robot's hand anchor; right now it floats orphaned mid-crack, disconnected from either robot arm, so the 'robot holding a patch tool' beat doesn't read.",
+          "Swap worker1's prop from 'sign' to a folded note as the brief specifies; the blank blue sign reads as a protest placard, not a quiet walkout, and it clips the doorway's right edge.",
+          "Composition repeats recent work: a tilted cracking wall + robot + sign-holding figure already ran (recent.png row1 col2), and the blueprint split-scene door motif also ran (row1 col3); differentiate the wall angle/palette or the door treatment so this doesn't read as a reskin.",
+          "The desk and star-stamped contract (scale 0.4, squeezed between robot and doorway) are too small to register as 'left behind' at a glance; scale it up or give it more clear space.",
+          "Give the two workers a walking pose (or stagger their spacing) instead of static 'stand'; right now they read as waiting in line at a scanner rather than exiting mid-stride."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The cast and metaphor read correctly (robot for AI, humans for workers), but a bottom-heavy layout with a mostly empty top half, a near-invisible patch tool, an ambiguous bell icon, and a worker scale mismatch that reads as adult-and-child pull the average below passing, and the cracked-wall/door-walkout motifs feel recycled from recent pieces.",
+        "revisionNotes": [
+          "Elements cluster in the bottom ~45% of the frame, leaving the top half empty grid; raise anchors (wall y~0.45, robot y~0.65, door y~0.5) or scale the whole group up 1.15x to fill the square, and consider a vertical divider line at x~0.6 to make the two-thirds/one-third split explicit.",
+          "Worker2 at scale 0.34 next to worker1 at scale 0.5 reads as a parent and child, not two office peers walking out together; bring worker2 up to ~0.45 scale.",
+          "The patch-tool prop attached to the robot's left side is nearly invisible against the body/background; shift its offset further left/down and brighten its class so the 'scrambling to patch' action is legible.",
+          "The alarm icon above the crack reads as a hard hat, not a ringing bell; redraw with a bell dome plus clapper/ring lines to match the brief's alarm beat.",
+          "This cracked-wall-plus-door-walkout combo recycles motifs already used in recent pieces (cracked building, open door with departing figures); swap in a fresh prop treatment for one half next time to stand apart.",
+          "Tighten the gap between desk and doorway so the right-third reads as one connected office beat rather than three separately floating props."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    }
+  ]
+}

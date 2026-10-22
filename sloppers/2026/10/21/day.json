@@ -1,0 +1,204 @@
+{
+  "date": "2026-10-21",
+  "number": 22,
+  "mode": "fresh",
+  "motto": "Patches And Protests",
+  "phrase": "AI tools helped uncover a critical flaw now threatening millions of websites. The same week, workers at a major tech company quit over its AI contracts with the military.",
+  "phraseAlternatives": [
+    "AI uncovered a critical flaw now threatening millions of websites. The same week, workers at a major tech company quit over its military AI contracts.",
+    "A security flaw found by AI is panicking the internet. Elsewhere, some workers quit rather than help build AI for the military.",
+    "Millions of websites are patching a flaw AI helped uncover. Meanwhile, some workers decided a military AI contract was one job too many."
+  ],
+  "alt": "A blueprint scene: a tilted wall of code blocks has a yellow jagged crack and a small bell above it, while a worried robot stands beside it holding a patch tool. To the right, two staggered office workers walk out through a swinging open door, the lead one holding a folded note, past a desk with a star-stamped contract left behind.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 2,
+    "labor": 2,
+    "policy": 2,
+    "law": 2,
+    "safety": 3,
+    "society": 2,
+    "planet": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "ai-finds-critical-php-flaw",
+    "datacenter-backlash-campaign",
+    "meta-muse-privacy-leak",
+    "google-staff-resign-military-ai",
+    "ai-makes-managing-harder"
+  ],
+  "topStories": [
+    {
+      "title": "AI Uncovers A Critical PHP Vulnerability Threatening The Web",
+      "itemIds": [
+        "feeds:185ddfadabff",
+        "feeds:65d1f116dfc0",
+        "feeds:8ac07a322dc8",
+        "hackernews:f657f4339f7b"
+      ],
+      "dimensions": [
+        "safety",
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "ai-finds-critical-php-flaw"
+    },
+    {
+      "title": "Datacenter Pollution Report Lands As Judge Blocks EPA Dismissal Of Pollution Lawsuits",
+      "itemIds": [
+        "feeds:17599bc8ce45",
+        "hackernews:6aee166d84aa",
+        "feeds:f7a9a56faea7"
+      ],
+      "dimensions": [
+        "planet",
+        "law",
+        "policy",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "A Chat App's Privacy Leak Gets A Postscript: Feature Suspended, 10M Users Still Shopping",
+      "itemIds": [
+        "feeds:06eb000c5ab8",
+        "feeds:367be8246006"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "meta-muse-privacy-leak"
+    },
+    {
+      "title": "Tech Workers Resign Over AI Military Contracts",
+      "itemIds": [
+        "hackernews:00980f6a1373"
+      ],
+      "dimensions": [
+        "labor",
+        "policy",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "google-staff-resign-military-ai"
+    },
+    {
+      "title": "Survey: AI Adoption Makes It Harder For Managers To Evaluate Work",
+      "itemIds": [
+        "feeds:44f6ff9d4a47"
+      ],
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-makes-managing-harder"
+    }
+  ],
+  "brief": {
+    "concept": "A robot scrambles to patch a spreading crack in a wall built from the internet's code while, just next door, a line of human workers quietly walks out of an office over a military contract.",
+    "metaphor": "A software security hole is drawn as a literal crack splitting open a brick wall of code; a labor walkout is drawn as workers leaving through a door, with the contract left behind on an empty desk.",
+    "cast": [
+      {
+        "who": "a robot reaching into a cracking wall built from small code-block bricks, holding a patch tool",
+        "kind": "ai"
+      },
+      {
+        "who": "an alarm bell ringing above the spreading crack",
+        "kind": "object"
+      },
+      {
+        "who": "a small line of office workers walking out through a doorway, one carrying a folded note",
+        "kind": "person"
+      },
+      {
+        "who": "a contract page stamped with a small star, left behind on an empty desk",
+        "kind": "object"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split scene on a blueprint grid. Left two-thirds: a wall of small square code-blocks cracks open, the robot reaches in with a patch tool, an alarm bell rings above in the one highlight color. Right third: a plain doorway where a few human figures walk out in a line, with one empty desk behind them holding the star-stamped contract page. No text beyond small alarm lines.",
+    "artType": "static",
+    "alt": "On one side, a robot patches a cracking wall made of code blocks under a ringing alarm bell. On the other side, a few office workers walk out through a doorway, leaving a star-stamped contract behind on an empty desk."
+  },
+  "sources": [
+    {
+      "id": "feeds:185ddfadabff",
+      "title": "‘This Is Not a Drill’: Critical PHP Vulnerabilities Are Setting the Internet on Fire",
+      "url": "https://www.wired.com/story/this-is-not-a-drill-2-php-vulnerabilities-are-setting-the-internet-on-fire/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-10-21T14:26:19.000Z"
+    },
+    {
+      "id": "feeds:65d1f116dfc0",
+      "title": "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
+      "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-21T17:59:12.000Z"
+    },
+    {
+      "id": "feeds:8ac07a322dc8",
+      "title": "Websites taken down worldwide as critical cyber-security update issued",
+      "url": "https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&at_campaign=rss",
+      "source": "feeds",
+      "publisher": "BBC News",
+      "publishedAt": "2026-10-21T19:54:57.000Z"
+    },
+    {
+      "id": "hackernews:f657f4339f7b",
+      "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "source": "hackernews",
+      "publisher": "wiz.io",
+      "publishedAt": "2026-10-21T13:43:19.000Z"
+    },
+    {
+      "id": "hackernews:00980f6a1373",
+      "title": "Google staff resign in backlash over its AI contracts with military",
+      "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+      "source": "hackernews",
+      "publisher": "bbc.com",
+      "publishedAt": "2026-10-21T19:14:21.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.43,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-22T16:35:23.870Z"
+}

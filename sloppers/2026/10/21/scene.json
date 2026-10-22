@@ -1,0 +1,149 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {
+    "type": "grid"
+  },
+  "elements": [
+    {
+      "id": "wall",
+      "component": "raw",
+      "at": {
+        "x": 0.21,
+        "y": 0.57
+      },
+      "scale": 0.85,
+      "rotate": -10,
+      "props": {
+        "width": 300,
+        "height": 540
+      },
+      "svg": "<path d=\"M105,75 C105,28 195,28 195,75 L203,86 L97,86 Z\" class=\"r-body-alt\"/><rect x=\"138\" y=\"86\" width=\"24\" height=\"9\" class=\"r-body-alt\"/><circle cx=\"150\" cy=\"101\" r=\"6\" class=\"r-ink\"/><path d=\"M97,50 Q86,65 97,80\" class=\"r-thin\"/><path d=\"M203,50 Q214,65 203,80\" class=\"r-thin\"/><rect x=\"0\" y=\"120\" width=\"300\" height=\"420\" rx=\"6\" class=\"r-line\"/><line x1=\"75\" y1=\"120\" x2=\"75\" y2=\"540\" class=\"r-thin\"/><line x1=\"150\" y1=\"120\" x2=\"150\" y2=\"540\" class=\"r-thin\"/><line x1=\"225\" y1=\"120\" x2=\"225\" y2=\"540\" class=\"r-thin\"/><line x1=\"0\" y1=\"204\" x2=\"300\" y2=\"204\" class=\"r-thin\"/><line x1=\"0\" y1=\"288\" x2=\"300\" y2=\"288\" class=\"r-thin\"/><line x1=\"0\" y1=\"372\" x2=\"300\" y2=\"372\" class=\"r-thin\"/><line x1=\"0\" y1=\"456\" x2=\"300\" y2=\"456\" class=\"r-thin\"/><path d=\"M175,130 L150,204 L182,288 L140,372 L172,456 L155,535 L130,535 L155,456 L122,372 L164,288 L128,204 L150,130 Z\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "alert",
+      "component": "label",
+      "attachTo": "wall",
+      "side": "top",
+      "offset": [
+        0,
+        -12
+      ],
+      "scale": 1,
+      "props": {
+        "text": "ALERT",
+        "size": "md",
+        "color": "text"
+      }
+    },
+    {
+      "id": "robot",
+      "component": "robot",
+      "at": {
+        "x": 0.47,
+        "y": 0.8
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "worried",
+        "arms": "down",
+        "color": "body"
+      }
+    },
+    {
+      "id": "patch-tool",
+      "component": "raw",
+      "attachTo": "robot",
+      "side": "left",
+      "offset": [
+        10,
+        40
+      ],
+      "scale": 0.5,
+      "rotate": -15,
+      "props": {
+        "width": 100,
+        "height": 160
+      },
+      "svg": "<rect x=\"42\" y=\"45\" width=\"16\" height=\"70\" class=\"r-body\"/><path d=\"M30,10 L70,10 L70,30 L58,30 L58,45 L42,45 L42,30 L30,30 Z\" class=\"r-body\"/><circle cx=\"50\" cy=\"135\" r=\"20\" class=\"r-body\"/><circle cx=\"50\" cy=\"135\" r=\"9\" class=\"r-body-alt\"/>"
+    },
+    {
+      "id": "desk",
+      "component": "raw",
+      "at": {
+        "x": 0.67,
+        "y": 0.73
+      },
+      "scale": 0.8,
+      "props": {
+        "width": 220,
+        "height": 200
+      },
+      "svg": "<rect x=\"5\" y=\"130\" width=\"210\" height=\"18\" class=\"r-body\"/><rect x=\"25\" y=\"148\" width=\"14\" height=\"46\" class=\"r-body\"/><rect x=\"181\" y=\"148\" width=\"14\" height=\"46\" class=\"r-body\"/><rect x=\"35\" y=\"8\" width=\"150\" height=\"110\" class=\"r-paper\"/><line x1=\"50\" y1=\"30\" x2=\"170\" y2=\"30\" class=\"r-thin\"/><line x1=\"50\" y1=\"46\" x2=\"170\" y2=\"46\" class=\"r-thin\"/><line x1=\"50\" y1=\"62\" x2=\"140\" y2=\"62\" class=\"r-thin\"/><path d=\"M110,78 L117,94 L134,94 L120,104 L126,121 L110,111 L94,121 L100,104 L86,94 L103,94 Z\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "doorway",
+      "component": "raw",
+      "at": {
+        "x": 0.86,
+        "y": 0.628
+      },
+      "scale": 0.8,
+      "props": {
+        "width": 220,
+        "height": 480
+      },
+      "svg": "<rect x=\"30\" y=\"0\" width=\"14\" height=\"480\" class=\"r-ink\"/><rect x=\"176\" y=\"0\" width=\"14\" height=\"480\" class=\"r-ink\"/><rect x=\"30\" y=\"0\" width=\"160\" height=\"14\" class=\"r-ink\"/><rect x=\"44\" y=\"14\" width=\"132\" height=\"466\" class=\"r-shade\"/><g transform=\"rotate(58 170 30)\"><rect x=\"166\" y=\"30\" width=\"8\" height=\"260\" class=\"r-body\"/><circle cx=\"170\" cy=\"284\" r=\"5\" class=\"r-ink\"/></g><circle cx=\"170\" cy=\"30\" r=\"5\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "worker1",
+      "component": "human",
+      "at": {
+        "x": 0.815,
+        "y": 0.8
+      },
+      "scale": 0.5,
+      "rotate": 7,
+      "props": {
+        "mood": "neutral",
+        "pose": "stand",
+        "holds": "none",
+        "color": "body"
+      }
+    },
+    {
+      "id": "note",
+      "component": "raw",
+      "attachTo": "worker1",
+      "side": "left",
+      "offset": [
+        -8,
+        -55
+      ],
+      "scale": 0.5,
+      "rotate": -8,
+      "props": {
+        "width": 70,
+        "height": 56
+      },
+      "svg": "<rect x=\"8\" y=\"10\" width=\"50\" height=\"36\" rx=\"2\" class=\"r-paper\"/><path d=\"M8,10 L28,10 L8,26 Z\" class=\"r-shade\"/><line x1=\"16\" y1=\"28\" x2=\"50\" y2=\"28\" class=\"r-thin\"/><line x1=\"16\" y1=\"36\" x2=\"44\" y2=\"36\" class=\"r-thin\"/>"
+    },
+    {
+      "id": "worker2",
+      "component": "human",
+      "at": {
+        "x": 0.905,
+        "y": 0.785
+      },
+      "scale": 0.34,
+      "rotate": -5,
+      "props": {
+        "mood": "neutral",
+        "pose": "stand",
+        "holds": "none",
+        "color": "body"
+      }
+    }
+  ],
+  "alt": "A blueprint scene: a tilted wall of code blocks has a yellow jagged crack and a small bell above it, while a worried robot stands beside it holding a patch tool. To the right, two staggered office workers walk out through a swinging open door, the lead one holding a folded note, past a desk with a star-stamped contract left behind."
+}
