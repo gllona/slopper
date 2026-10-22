@@ -1,0 +1,17 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "pass",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "low",
+          "evidence": "phrase: 'AI tools helped uncover a critical flaw' (singular) while sources describe 'two serious vulnerabilities' (Wired) and 'ancient holes' (plural, TechCrunch)",
+          "suggestion": "Change 'a critical flaw' to 'critical flaws' to match the sources' plural framing.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}
