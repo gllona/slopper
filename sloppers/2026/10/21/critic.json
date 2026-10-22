@@ -1,0 +1,96 @@
+{
+  "passed": false,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 4,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Reads as \"found a problem / hid a problem\" broadly, but neither robot performs its defining gesture — the magnifier floats unheld and the MONITOR switch sits untouched — so the 'secretly disabled it' beat doesn't land, and mismatched robot scale/pose weakens the intended parallel; also too close to recent blueprint-robot sloppers.",
+        "revisionNotes": [
+          "Attach the switch to the denier robot's hand/arm (reaching behind its back) instead of floating beside its hip — right now nothing shows it touching MONITOR, so the 'secretly flipped it off' beat is lost.",
+          "Match inspector and denier to the same scale and base standing pose per the brief ('keep both robots the same size and posture'); right now denier is larger with arms down while inspector is smaller with both arms raised, breaking the 'same tech, two outcomes' contrast.",
+          "Put the magnifying glass into one of the inspector's hands and angle it to touch the warning-triangle block directly — it currently floats in the gap between robot and wall with both arms raised overhead, not reading as 'holding a magnifying glass up to the wall.'",
+          "Clarify the switch's on/off state: add a visible two-position track (ON at top, OFF at bottom) or a dotted ghost knob showing it moved, since the current slider reads as a generic dial.",
+          "Tighten vertical composition — pull the wall and robot group upward and reduce the large empty grid band below the feet so the square feels used rather than bottom-heavy.",
+          "Swap the recurring robot silhouette and blueprint-grid backdrop for a different prop or palette accent; both appear near-identically in several recent sloppers, hurting freshness."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 3,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The split blueprint concept and robot cast are on-brief, but the key storytelling props fail: the magnifying glass floats disconnected from the inspector robot, the MONITOR label clips behind the denier robot's body, and neither robot's pose shows the 'arm behind the back' secrecy, so the punchline doesn't read in 3 seconds. Fails on clarity, composition, and polish.",
+        "revisionNotes": [
+          "Reattach the magnifying glass to the inspector robot's hand (set arms to a raised/holding pose); right now it floats disconnected over the wall, overlapping the warning triangle into an illegible smudge.",
+          "Fix the switch: it's invisible against the robot body and the MONITOR label clips behind the denier robot's torso ('MONITOR' is cut off and unreadable) — move the label fully below the switch shape, clear of the robot.",
+          "Pose the denier robot with its right arm bent behind its back toward the switch; both robots currently stand identically with arms straight down, so the 'secretly flipping a switch' beat doesn't read at all.",
+          "Enlarge and reposition the code wall toward the left third at a bigger scale — it reads small and crowded against a large empty blue field below it, unbalancing the split composition.",
+          "Give the two robots more breathing room (move denier robot to roughly x:0.80); they're nearly touching, reading as clutter instead of a clean side-by-side contrast.",
+          "Separate the crack/warning-triangle stamp from the magnifier circle so the cracked block reads as its own clear element, not an overlapping tangle."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The two-robot contrast reads in broad strokes, but the switch being secretly flipped renders as an illegible scribble wedged between the robots' overlapping arms, and the magnifying glass floats disconnected from the inspector's hand, blurring the joke's mechanism and pulling the average below passing.",
+        "revisionNotes": [
+          "Reattach the magnifying glass to the inspector robot's hand — right now it floats mid-wall, disconnected from his reaching arm, reading as a stray prop.",
+          "Redraw the switch/lever as a clear, larger toggle (scale ~1.4) placed fully behind the denier robot's back; currently it renders as an illegible scribble wedged between the two robots' legs.",
+          "Separate the two robots' arms — their hands currently overlap/merge near the center, making it look like they're touching rather than each independently performing its own action.",
+          "Move or duplicate the 'MONITOR' label closer to the switch itself instead of bottom-center between both robots, so it's clearly tied to the denier's action, not ambiguous.",
+          "The top two-thirds of the frame above the robots is empty blueprint grid with no secondary detail; add a small annotation or title plate to balance the bottom-heavy composition.",
+          "Vary the split-scene vertical blueprint template for future pieces — several recent sloppers already use this two-panel duality layout with similar robot posture."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    }
+  ]
+}
