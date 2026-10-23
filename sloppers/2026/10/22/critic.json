@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "Passes: the core joke (robot's taller diagnosis bar vs. the worried human doctor's shorter one) reads instantly with correct human/robot casting, but the background datacenter-and-drought vignette is too small and ambiguous to land, and a stray line visibly wires the window to the robot's chest like a rendering bug.",
+        "revisionNotes": [
+          "Remove the stray vertical line running from the window pane down into the robot's chest dot — it reads as a rendering glitch linking the two, not an intended prop.",
+          "Anchor the window-back/window-frame group lower and larger (e.g. scale 1.15, at y:0.2) so it sits flush against the characters instead of floating with a big gap above their heads.",
+          "The tree stumps and dry well in the window read as unlabeled dots and a stick at this scale — enlarge the stumps and give the well a visible rim/circle so the drought half of the joke survives a phone-size glance.",
+          "Give the well its own distinct shape separate from the protest flag (e.g. a ring plus a crossbar) so it doesn't collapse into 'flag on a hill'.",
+          "Minor: the human's orange shirt matches the taller (robot-side) bar's color — swap the chart's bar colors or the human's shirt tone so the color coding doesn't momentarily point the wrong way before pose/position clarifies it."
+        ]
+      },
+      "average": 3.71,
+      "passed": true
+    }
+  ]
+}

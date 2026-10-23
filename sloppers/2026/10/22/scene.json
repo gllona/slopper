@@ -1,0 +1,85 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {
+    "type": "solid",
+    "color": "paper"
+  },
+  "elements": [
+    {
+      "id": "window-back",
+      "component": "raw",
+      "at": "top-center",
+      "scale": 1,
+      "props": {
+        "width": 480,
+        "height": 260
+      },
+      "svg": "<rect x=\"0\" y=\"0\" width=\"480\" height=\"195\" class=\"r-body-alt\"/><polygon points=\"0,260 0,195 120,178 260,190 480,175 480,260\" class=\"r-body\"/><circle cx=\"35\" cy=\"235\" r=\"13\" class=\"r-ink\"/><circle cx=\"190\" cy=\"228\" r=\"12\" class=\"r-ink\"/><circle cx=\"410\" cy=\"238\" r=\"13\" class=\"r-ink\"/><circle cx=\"90\" cy=\"210\" r=\"20\" class=\"r-ink\"/><circle cx=\"90\" cy=\"210\" r=\"11\" class=\"r-body-alt\"/><line x1=\"150\" y1=\"165\" x2=\"150\" y2=\"200\" class=\"r-line\"/><rect x=\"150\" y=\"150\" width=\"34\" height=\"20\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "dc",
+      "component": "datacenter",
+      "at": {
+        "x": 0.58,
+        "y": 0.255
+      },
+      "scale": 0.34,
+      "props": {
+        "racks": 3,
+        "lights": "busy"
+      }
+    },
+    {
+      "id": "window-frame",
+      "component": "raw",
+      "at": "top-center",
+      "scale": 1,
+      "props": {
+        "width": 480,
+        "height": 260
+      },
+      "svg": "<rect x=\"4\" y=\"4\" width=\"472\" height=\"252\" rx=\"14\" ry=\"14\" class=\"r-line\" fill=\"none\"/><line x1=\"240\" y1=\"4\" x2=\"240\" y2=\"256\" class=\"r-line\"/>"
+    },
+    {
+      "id": "dochuman",
+      "component": "human",
+      "at": "left-third",
+      "scale": 1,
+      "props": {
+        "mood": "worried",
+        "pose": "shrug",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "chart1",
+      "component": "chart",
+      "at": {
+        "x": 0.5,
+        "y": 0.62
+      },
+      "scale": 0.85,
+      "props": {
+        "type": "bar",
+        "values": [
+          0.4,
+          0.95
+        ],
+        "highlight": "max",
+        "frame": true
+      }
+    },
+    {
+      "id": "docrobot",
+      "component": "robot",
+      "at": "right-third",
+      "scale": 1,
+      "props": {
+        "mood": "proud",
+        "arms": "up"
+      }
+    }
+  ],
+  "alt": "A proud robot doctor raises its arms beside a bar chart with a tall highlighted bar, while a worried human doctor shrugs beside the chart's shorter bar. Behind them, through a window, a datacenter sits on a hillside of tree stumps on one side and a dry well with a small red protest flag on the other."
+}

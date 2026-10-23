@@ -1,0 +1,179 @@
+{
+  "topStories": [
+    {
+      "title": "AI Diagnostic Tool Claims To Out-Diagnose Doctors",
+      "itemIds": [
+        "feeds:facf9055c9b2",
+        "feeds:dedf2896ecdb"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science",
+        "labor",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-diagnosis-beats-doctors"
+    },
+    {
+      "title": "Datacenter Backlash Reaches Elections And Felled Forests",
+      "itemIds": [
+        "feeds:851b90166049",
+        "hackernews:f4625da7f163",
+        "gdelt:ba00bfe1709f",
+        "gdelt:4c27a2562639",
+        "gdelt:dc6d95194875",
+        "gdelt:cd060655c7e4",
+        "gdelt:eb334a46b09e"
+      ],
+      "dimensions": [
+        "planet",
+        "policy",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "OpenAI's Valuation Cut And Record AI Lobbying",
+      "itemIds": [
+        "techmeme:ba52d803a84b",
+        "feeds:b514b87bc64d",
+        "feeds:70a308e69d26"
+      ],
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-money-and-lobbying"
+    },
+    {
+      "title": "State-Linked Hackers Use AI Agents To Breach Thousands Of Companies",
+      "itemIds": [
+        "feeds:d6886caf5396"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agent-swarm-hack"
+    },
+    {
+      "title": "A Critical Web Flaw Keeps Spreading Globally",
+      "itemIds": [
+        "feeds:4120829e1df6",
+        "feeds:33f67ca2a6cd",
+        "feeds:b5f81ed6a3a2",
+        "feeds:79367bb8b6c8"
+      ],
+      "dimensions": [
+        "safety",
+        "industry",
+        "policy"
+      ],
+      "novelty": 1,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-finds-critical-php-flaw"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-diagnosis-beats-doctors",
+      "title": "An AI Tool Claims To Out-Diagnose Doctors",
+      "dimensions": [
+        "capabilities",
+        "science",
+        "labor",
+        "society"
+      ],
+      "motifs": [
+        "a robot doctor holding a diagnosis chart with a taller bar than a human doctor's",
+        "a stethoscope hanging on a robot's neck beside an empty doctor's stool"
+      ]
+    },
+    {
+      "id": "ai-money-and-lobbying",
+      "title": "AI Labs' Valuations And Lobbying Both Hit Records",
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "motifs": [
+        "a stack of money shrinking just before reaching an IPO door",
+        "a company building handing bundles of cash through a government window"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Two stories clear the relevance threshold of 8: the claim that an AI tool out-diagnoses doctors (novelty 3 x magnitude 2 x breadth 3 = 18), and the datacenter backlash now reaching elections and causing deforestation abroad (2 x 2 x 3 = 12).",
+  "motto": "The Diagnosis And The Drought",
+  "phrase": "An AI tool claims to diagnose better than doctors. Nearby, towns are fighting data centers over felled forests and drained water.",
+  "phraseAlternatives": [
+    "One AI claims to out-diagnose doctors. The towns near its rivals' data centers are losing trees and water.",
+    "A new AI tool says it beats doctors at hard diagnoses. Meanwhile, data centers are draining wells and felling forests nearby.",
+    "AI promises sharper diagnoses than doctors give. The land feeding its data centers tells a thirstier story.",
+    "An AI system claims to diagnose better than doctors can. Outside its data centers, forests are gone and wells are dry."
+  ],
+  "brief": {
+    "concept": "A robot doctor proudly holds up a diagnosis chart with a taller bar than a human doctor's, while through a window behind them a small datacenter sits on a hillside of tree stumps beside a dry well.",
+    "metaphor": "The diagnosis chart rises like a boast; the stumps and the dry well are the quiet bill behind it.",
+    "cast": [
+      {
+        "who": "a robot doctor in a white coat holding up a diagnosis chart with a tall bar",
+        "kind": "ai"
+      },
+      {
+        "who": "a human doctor standing beside a shorter bar on the same chart",
+        "kind": "person"
+      },
+      {
+        "who": "a datacenter seen through a window, standing on a hillside of tree stumps",
+        "kind": "object"
+      },
+      {
+        "who": "a dry well with a small protest sign beside the datacenter",
+        "kind": "object"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "One split scene: in the foreground, a robot doctor and a human doctor stand before a shared bar chart, the robot's bar taller. Through a window behind them, a small datacenter sits on a stump-covered hill beside a dry well with a tiny protest sign. Keep it to these four shapes plus the window frame.",
+    "artType": "static",
+    "alt": "A robot doctor holds up a chart showing a taller bar than the human doctor standing beside it. Through a window behind them, a datacenter sits on a hillside covered in tree stumps next to a dry well with a small protest sign."
+  },
+  "sourceIds": [
+    "feeds:facf9055c9b2",
+    "feeds:dedf2896ecdb",
+    "feeds:851b90166049",
+    "gdelt:dc6d95194875",
+    "gdelt:cd060655c7e4",
+    "hackernews:f4625da7f163"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "law": 1,
+    "safety": 2,
+    "society": 2,
+    "planet": 3,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": 0,
+    "calm_frantic": 1
+  }
+}

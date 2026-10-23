@@ -1,0 +1,1806 @@
+{
+  "date": "2026-10-22",
+  "fetchedAt": "2026-10-23T11:08:29.766Z",
+  "sources": [
+    {
+      "source": "feeds",
+      "ok": true,
+      "count": 32
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "count": 2
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 19
+    },
+    {
+      "source": "gdelt",
+      "ok": true,
+      "count": 40
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "count": 40
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 40
+    }
+  ],
+  "items": [
+    {
+      "id": "feeds:1f0340c15a9c",
+      "source": "feeds",
+      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+      "title": "Designing an AI serving harness built to last",
+      "snippet": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context…",
+      "publishedAt": "2026-10-22T21:17:29.000Z",
+      "publisher": "MIT Technology Review",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:e0f446591b9f",
+      "source": "feeds",
+      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+      "title": "The Foundations of Scalable AI",
+      "snippet": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and…",
+      "publishedAt": "2026-10-22T18:48:04.000Z",
+      "publisher": "MIT Technology Review",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:62a31ba8c793",
+      "source": "feeds",
+      "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+      "title": "Making the case for context-aware AI",
+      "snippet": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As…",
+      "publishedAt": "2026-10-22T10:00:00.000Z",
+      "publisher": "MIT Technology Review",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:98bc8365428f",
+      "source": "feeds",
+      "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+      "title": "AI’s hidden storage bill: What inference leaves behind",
+      "snippet": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s…",
+      "publishedAt": "2026-10-22T08:41:18.000Z",
+      "publisher": "MIT Technology Review",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:4120829e1df6",
+      "source": "feeds",
+      "url": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
+      "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
+      "snippet": "Hackers were already probing the bug before defenders were told it existed.",
+      "publishedAt": "2026-10-22T15:25:02.000Z",
+      "publisher": "Ars Technica",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:0d4362161a99",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "title": "Canva’s first AI image model plans designs before generating them",
+      "snippet": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater…",
+      "publishedAt": "2026-10-22T21:51:25.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:758ad3e03cd3",
+      "source": "feeds",
+      "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+      "title": "Meta’s AI could still scrape news sites, legal experts say",
+      "snippet": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to restrict the 'associated with your products or services'…",
+      "publishedAt": "2026-10-22T20:32:05.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:c2d830bedfdc",
+      "source": "feeds",
+      "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+      "title": "Meta turns Muse sharing back on",
+      "snippet": "Meta has re-enabled Muse sharing after security researchers had reported that public conversation links could be easy to find. The researchers said they had been able to find Muse pages like a marketing company's internal revenue review and a small business owner's loan application. Researchers at…",
+      "publishedAt": "2026-10-22T20:24:04.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:6da689edd9f3",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+      "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
+      "snippet": "Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merger! The degree to which you find this merger compelling likely has to do with the…",
+      "publishedAt": "2026-10-22T19:45:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:393c8b8df11d",
+      "source": "feeds",
+      "url": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels",
+      "title": "Discord now formats Markdown previews right",
+      "snippet": "Discord's latest update released today has a big improvement for Markdown previews: they should now render correctly instead of with \"a bunch of symbols,\" according to the company. LLMs and AI agents often rely on Markdown files for instructions and context, so these improved previews could be…",
+      "publishedAt": "2026-10-22T18:58:19.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:e86baa9dcf5c",
+      "source": "feeds",
+      "url": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
+      "title": "In Meta’s version of the future, I’ll have my Muse call your Muse",
+      "snippet": "Mark Zuckerberg is barrelling toward a future in which an autonomous network of AI agents will run our lives - shopping for us, working for us, talking to other people's AI agents for us. Are humans ready for this very specific and unrelenting vision of a life in which we communicate primarily…",
+      "publishedAt": "2026-10-22T18:15:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:facf9055c9b2",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
+      "title": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
+      "snippet": "For years, AI leaders have touted healthcare as one of the clearest examples of where their technology will improve lives. Now \"it is finally here,\" Microsoft AI CEO Mustafa Suleyman tells The Verge. The company claims to have developed an AI-powered tool it says can diagnose conditions up to four…",
+      "publishedAt": "2026-10-22T18:00:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:58c5f9b6d792",
+      "source": "feeds",
+      "url": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+      "title": "Someone hacked the Switch 2 by using an old game and AI",
+      "snippet": "The Nintendo Switch 2 has apparently been jailbroken, and a modder has already shown the console running a custom version of Mario Kart World featuring new playable characters like Cinnamoroll, the red Angry Bird, Peter Griffin, and Steve from Minecraft. OpenAI's Codex helped make this \"ns2jb\"…",
+      "publishedAt": "2026-10-22T17:21:31.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:ae2f1c282472",
+      "source": "feeds",
+      "url": "https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
+      "title": "Wildwood’s director says AI is ‘antithetical to everything that we are at this studio’",
+      "snippet": "Wildwood is the most ambitious film yet from Laika, the stop-motion studio best known for the likes of Coraline and ParaNorman. It's a sprawling fantasy adventure that took five years to complete. The process involved more 230 puppets - including 36 of the main character Prue alone - which were…",
+      "publishedAt": "2026-10-22T16:16:15.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:70a308e69d26",
+      "source": "feeds",
+      "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+      "title": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
+      "snippet": "It was a busy summer for AI lobbyists. Anthropic, OpenAI, and Nvidia each had their highest-spending lobbying quarter between July and September, federal disclosures show. Nvidia spent the most of the group at $2.2 million, followed by Anthropic's $2.1 million and OpenAI's $1.5 million. Compared…",
+      "publishedAt": "2026-10-22T15:50:30.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:32cf45ef299c",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/aged-intelligence-society-interview/",
+      "title": "The Social Society Helping Women Join the AI Boom",
+      "snippet": "WIRED spoke with the founders of the Aged Intelligence Society, a fast-growing events startup that brings women together to “solve midlife problems using frontier tools.”",
+      "publishedAt": "2026-10-22T19:56:32.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:d4f53eec6659",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/meet-mori-a-cute-robot-mushroom-that-doesnt-really-say-or-do-anything/",
+      "title": "Meet Mori, a Cute Robot Mushroom That Doesn’t Really Say (or Do) Anything",
+      "snippet": "Step one in convincing people to live with robots with cameras on their faces? Disguise them as cute home decor.",
+      "publishedAt": "2026-10-22T13:00:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:98687087355c",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
+      "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
+      "snippet": "The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health.",
+      "publishedAt": "2026-10-22T10:00:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:33f67ca2a6cd",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/",
+      "title": "Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched",
+      "snippet": "Amazon Web Services logged attempts to leverage the internet-melting PHP2Shell bugs four days ago. They’re now being “broadly exploited” across the internet.",
+      "publishedAt": "2026-10-22T02:24:17.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:b514b87bc64d",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+      "snippet": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
+      "publishedAt": "2026-10-22T22:08:24.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:662e68277c63",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "snippet": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+      "publishedAt": "2026-10-22T19:07:09.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:575971a63ca3",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "snippet": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+      "publishedAt": "2026-10-22T19:00:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:317abcdd1b20",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "title": "Canva releases its first image generation model",
+      "snippet": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
+      "publishedAt": "2026-10-22T19:00:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:dedf2896ecdb",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+      "snippet": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself.",
+      "publishedAt": "2026-10-22T18:43:53.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:d6886caf5396",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+      "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+      "snippet": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
+      "publishedAt": "2026-10-22T16:47:17.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:39a33fb977ec",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "title": "Uber puts all 30,000 employees on ChatGPT Work",
+      "snippet": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
+      "publishedAt": "2026-10-22T16:00:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:2f32a876015e",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+      "title": "Spotify’s current AI bet is about being the music service that agents choose",
+      "snippet": "Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service.",
+      "publishedAt": "2026-10-22T15:03:58.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:f674cb3a2ea4",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+      "title": "Claude Duet app is Anthropic’s bet on agents",
+      "snippet": "Claude Duet is available through waitlist for Pro and Max plan users.",
+      "publishedAt": "2026-10-22T13:53:26.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:af6992a3f135",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
+      "title": "Nirva raises $33M for a pendant that only listens to you",
+      "snippet": "Nirva will ship its $249 ambient AI pendant by the end of the year.",
+      "publishedAt": "2026-10-22T13:26:52.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:b5f81ed6a3a2",
+      "source": "feeds",
+      "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
+      "title": "What is PHP and why did it spark a global cyber-security scramble?",
+      "snippet": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
+      "publishedAt": "2026-10-22T11:15:58.000Z",
+      "publisher": "BBC News",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:79367bb8b6c8",
+      "source": "feeds",
+      "url": "https://www.bbc.co.uk/news/videos/c6y8lvg2p50po?at_medium=RSS&at_campaign=rss",
+      "title": "'500 new vulnerabilities' found in government, says AI minister",
+      "snippet": "",
+      "publishedAt": "2026-10-22T10:08:44.000Z",
+      "publisher": "BBC News",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:851b90166049",
+      "source": "feeds",
+      "url": "https://restofworld.org/2026/ai-datacenters-water-resistance-global/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "title": "Big Tech’s thirst for water is sparking a global resistance",
+      "snippet": "In his new book “Hyperscale: The Ambition and Excess of Big Tech’s Data Empires,” writer Paris Marx examines how local communities are resisting the growing demand for water to cool data centers.",
+      "publishedAt": "2026-10-22T10:00:00.000Z",
+      "publisher": "Rest of World",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:3fd1c73d2cf6",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261022/p56",
+      "title": "a16z rebrands a16z Crypto as a16z Frontier and expands the fund's scope to back startups developing AI, robotics, and other emerging technologies (Camila Grigera Naón/Fortune)",
+      "snippet": "Camila Grigera Naón / Fortune : a16z rebrands a16z Crypto as a16z Frontier and expands the fund's scope to back startups developing AI, robotics, and other emerging technologies — In 2018, Andreessen Horowitz made a splash in the venture capital world by launching a spin-off dedicated to digital…",
+      "publishedAt": "2026-10-22T23:05:43.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:ba52d803a84b",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261022/p55",
+      "title": "Sources: OpenAI has cut its valuation target to $1.25T, down from the $1.4T valuation it pitched earlier this month, after facing resistance from some investors (Financial Times)",
+      "snippet": "Financial Times : Sources: OpenAI has cut its valuation target to $1.25T, down from the $1.4T valuation it pitched earlier this month, after facing resistance from some investors — AI lab floated $1.4tn price tag earlier this month, according to documents seen by the FT — OpenAI has cut its…",
+      "publishedAt": "2026-10-22T22:35:33.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:e528ef46221b",
+      "source": "hackernews",
+      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "title": "Every AI model has the same \"controversial\" take on humans",
+      "snippet": "445 points and 449 comments on Hacker News (https://news.ycombinator.com/item?id=50197313).",
+      "publishedAt": "2026-10-22T16:08:00.000Z",
+      "score": 445,
+      "publisher": "modelcompare.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:6eb73169f84c",
+      "source": "hackernews",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "snippet": "410 points and 195 comments on Hacker News (https://news.ycombinator.com/item?id=50198675).",
+      "publishedAt": "2026-10-22T17:44:06.000Z",
+      "score": 410,
+      "publisher": "github.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:6172089eff8b",
+      "source": "hackernews",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "snippet": "354 points and 209 comments on Hacker News (https://news.ycombinator.com/item?id=50202217).",
+      "publishedAt": "2026-10-22T22:54:43.000Z",
+      "score": 354,
+      "publisher": "anthropic.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:ae075890f071",
+      "source": "hackernews",
+      "url": "https://www.phoronix.com/news/LKML-New-Trend-Vulnerabilities",
+      "title": "Several Linux kernel vulnerabilities accidentally posted to public mailing list",
+      "snippet": "248 points and 90 comments on Hacker News (https://news.ycombinator.com/item?id=50193804).",
+      "publishedAt": "2026-10-22T11:12:37.000Z",
+      "score": 248,
+      "publisher": "phoronix.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:4d0a18eaa787",
+      "source": "hackernews",
+      "url": "https://github.com/maxilevi/project-hedra/tree/pre-ai",
+      "title": "Hedra is a 3D open world game I wrote from scratch while in highschool",
+      "snippet": "207 points and 40 comments on Hacker News (https://news.ycombinator.com/item?id=50199389).",
+      "publishedAt": "2026-10-22T18:44:36.000Z",
+      "score": 207,
+      "publisher": "github.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:39f0af155c70",
+      "source": "hackernews",
+      "url": "https://arxiv.org/abs/2610.27251",
+      "title": "AI and the Enclosure of the Scientific Commons",
+      "snippet": "135 points and 77 comments on Hacker News (https://news.ycombinator.com/item?id=50199230).",
+      "publishedAt": "2026-10-22T18:28:16.000Z",
+      "score": 135,
+      "publisher": "arxiv.org",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:f4625da7f163",
+      "source": "hackernews",
+      "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+      "title": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+      "snippet": "85 points and 54 comments on Hacker News (https://news.ycombinator.com/item?id=50200843).",
+      "publishedAt": "2026-10-22T20:51:23.000Z",
+      "score": 85,
+      "publisher": "abcnews.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:2638bb9a279f",
+      "source": "hackernews",
+      "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+      "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+      "snippet": "85 points and 43 comments on Hacker News (https://news.ycombinator.com/item?id=50198940).",
+      "publishedAt": "2026-10-22T18:02:54.000Z",
+      "score": 85,
+      "publisher": "biograph.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:6ff66be1cb22",
+      "source": "hackernews",
+      "url": "https://www.typeui.sh/micro-interactions",
+      "title": "Show HN: UI micro interactions prompts for AI",
+      "snippet": "77 points and 43 comments on Hacker News (https://news.ycombinator.com/item?id=50199290).",
+      "publishedAt": "2026-10-22T18:32:57.000Z",
+      "score": 77,
+      "publisher": "typeui.sh",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:7502ffe393ce",
+      "source": "hackernews",
+      "url": "https://github.com/dsmurrell/onkey",
+      "title": "Show HN: OnKey – I'm a bad singer, so I built an app to show where I'm off-key",
+      "snippet": "69 points and 34 comments on Hacker News (https://news.ycombinator.com/item?id=50195488).",
+      "publishedAt": "2026-10-22T14:04:44.000Z",
+      "score": 69,
+      "publisher": "github.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:e6d31108e588",
+      "source": "hackernews",
+      "url": "https://jamesyu.org/award-winning-ai-literature/",
+      "title": "Award-winning AI literature",
+      "snippet": "62 points and 73 comments on Hacker News (https://news.ycombinator.com/item?id=50199232).",
+      "publishedAt": "2026-10-22T18:28:26.000Z",
+      "score": 62,
+      "publisher": "jamesyu.org",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:e202046e8fa9",
+      "source": "hackernews",
+      "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+      "title": "AI compute is the new oil–and needs a new market",
+      "snippet": "46 points and 48 comments on Hacker News (https://news.ycombinator.com/item?id=50202671).",
+      "publishedAt": "2026-10-22T23:45:16.000Z",
+      "score": 46,
+      "publisher": "economist.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:c98b1968a4ff",
+      "source": "hackernews",
+      "url": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model/",
+      "title": "Achieving AI-style reasoning without an LLM",
+      "snippet": "46 points and 31 comments on Hacker News (https://news.ycombinator.com/item?id=50192868).",
+      "publishedAt": "2026-10-22T08:46:58.000Z",
+      "score": 46,
+      "publisher": "fleetingswallow.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:00038fdfc06b",
+      "source": "hackernews",
+      "url": "https://www.cnn.com/2026/10/21/climate/cop31-un-climate-report-emissions-gap",
+      "title": "UN says breaching 1.5C warming limit is 'imminent and unavoidable'",
+      "snippet": "43 points and 23 comments on Hacker News (https://news.ycombinator.com/item?id=50202609).",
+      "publishedAt": "2026-10-22T23:37:50.000Z",
+      "score": 43,
+      "publisher": "cnn.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:c60b6649b014",
+      "source": "hackernews",
+      "url": "https://firstformoney.com/united-airlines-ceo-calls-for-national-wealth-tax-inheritance-tax-i-would-pay-them/",
+      "title": "United Airlines CEO Calls for National Wealth Tax",
+      "snippet": "38 points and 23 comments on Hacker News (https://news.ycombinator.com/item?id=50199277).",
+      "publishedAt": "2026-10-22T18:31:35.000Z",
+      "score": 38,
+      "publisher": "firstformoney.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:e4466844f090",
+      "source": "hackernews",
+      "url": "https://www.frontiersin.org/news/2026/10/16/mini-brain-organoids-reading-braille-biohybrid-computing-frontiers-artificial-intelligence",
+      "title": "Mini brain organoids ‘reading’ Braille key step towards biohybrid computing",
+      "snippet": "37 points and 48 comments on Hacker News (https://news.ycombinator.com/item?id=50197450).",
+      "publishedAt": "2026-10-22T16:16:45.000Z",
+      "score": 37,
+      "publisher": "frontiersin.org",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:bda3efc6ef8b",
+      "source": "hackernews",
+      "url": "https://www.etsy.com/seller-handbook/article/1522733284810",
+      "title": "Important updates to AI use on Etsy",
+      "snippet": "35 points and 1 comments on Hacker News (https://news.ycombinator.com/item?id=50196604).",
+      "publishedAt": "2026-10-22T15:18:17.000Z",
+      "score": 35,
+      "publisher": "etsy.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:e6a2cdcd124f",
+      "source": "hackernews",
+      "url": "https://olivergrabner.com/research/pokemon/",
+      "title": "LLM agents play Pokemon showdown",
+      "snippet": "31 points and 17 comments on Hacker News (https://news.ycombinator.com/item?id=50190334).",
+      "publishedAt": "2026-10-22T02:13:48.000Z",
+      "score": 31,
+      "publisher": "olivergrabner.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:17599bc8ce45",
+      "source": "hackernews",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
+      "title": "Data centers could erase decades of air quality gains",
+      "snippet": "30 points and 1 comments on Hacker News (https://news.ycombinator.com/item?id=50189978).",
+      "publishedAt": "2026-10-22T01:28:14.000Z",
+      "score": 30,
+      "publisher": "theverge.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:7b5af51e08bc",
+      "source": "gdelt",
+      "url": "https://www.fox10phoenix.com/news/health-insurance-costs-continue-rising-american-workers-new-survey-finds",
+      "title": "Health insurance costs continue rising for American workers , new survey finds",
+      "snippet": "",
+      "publishedAt": "2026-10-22T15:30:00.000Z",
+      "publisher": "fox10phoenix.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:f5aba8a795d8",
+      "source": "gdelt",
+      "url": "https://www.newson6.com/oklahoma-elections/mike-mazzei-priorities-governor-oklahoma",
+      "title": "What are Mike Mazzei priorities if elected Oklahoma governor ?",
+      "snippet": "",
+      "publishedAt": "2026-10-22T02:00:00.000Z",
+      "publisher": "newson6.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:ed9f67e24d60",
+      "source": "gdelt",
+      "url": "https://en.antaranews.com/news/437193/indonesia-boosts-national-electricity-capacity-to-support-ai-growth",
+      "title": "Indonesia boosts national electricity capacity to support AI growth",
+      "snippet": "",
+      "publishedAt": "2026-10-22T08:30:00.000Z",
+      "publisher": "en.antaranews.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:1d15836f70e0",
+      "source": "gdelt",
+      "url": "https://www.ahaber.com.tr/gundem/2026/10/22/yokten-ucretsiz-egitim-hamlesi",
+      "title": "Gençlere ve kariyerine yön vermek isteyenlere büyük fırsat ! YÖKten 16 modülde ücretsiz eğitim imkanı",
+      "snippet": "",
+      "publishedAt": "2026-10-22T17:15:00.000Z",
+      "publisher": "ahaber.com.tr",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:5e272e91bb7a",
+      "source": "gdelt",
+      "url": "https://en.antaranews.com/news/437177/indonesias-rights-minister-says-development-must-be-felt-by-public",
+      "title": "Indonesia rights minister says development must be felt by public",
+      "snippet": "",
+      "publishedAt": "2026-10-22T04:45:00.000Z",
+      "publisher": "en.antaranews.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:1b4061f07df2",
+      "source": "gdelt",
+      "url": "https://www.trthaber.com/haber/egitim/dijital-universite-platformu-16-modulde-ucretsiz-egitime-basliyor-960916.html",
+      "title": "Dijital Üniversite Platformu 16 modülde ücretsiz eğitime başlıyor",
+      "snippet": "",
+      "publishedAt": "2026-10-22T16:15:00.000Z",
+      "publisher": "trthaber.com",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:ba00bfe1709f",
+      "source": "gdelt",
+      "url": "http://www.idahostatejournal.com/psa/data-center-backlash-set-to-sway-midterm-elections/article_42d290db-c6de-4ee6-83da-04ba208c1b7f.html",
+      "title": "Data center backlash set to sway midterm elections",
+      "snippet": "",
+      "publishedAt": "2026-10-22T23:30:00.000Z",
+      "publisher": "idahostatejournal.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:f4fea26d8650",
+      "source": "gdelt",
+      "url": "https://www.haberler.com/guncel/yok-un-dijital-universite-platformu-16-modulde-20354588-haberi/",
+      "title": "YÖK ün Dijital Üniversite Platformu 16 modülde ücretsiz eğitime başvuru açtı",
+      "snippet": "",
+      "publishedAt": "2026-10-22T08:15:00.000Z",
+      "publisher": "haberler.com",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:ac83003ee80e",
+      "source": "gdelt",
+      "url": "https://www.telegraf.rs/vesti/srbija/4418569-studenti-ftn-a-plasirali-se-u-finale-medjunarodnog-takmicenja-u-kini",
+      "title": "Studenti FTN - a plasirali se u finale međunarodnog takmičenja u Kini",
+      "snippet": "",
+      "publishedAt": "2026-10-22T03:15:00.000Z",
+      "publisher": "telegraf.rs",
+      "lang": "und"
+    },
+    {
+      "id": "gdelt:4e3290b9197f",
+      "source": "gdelt",
+      "url": "https://www.hani.co.kr/arti/international/america/1283631.html",
+      "title": "브라질 대선 보이지 않는 심판 은 메타 ?… 유엔도 편향성 우려",
+      "snippet": "",
+      "publishedAt": "2026-10-22T06:45:00.000Z",
+      "publisher": "hani.co.kr",
+      "lang": "ko"
+    },
+    {
+      "id": "gdelt:012694a46834",
+      "source": "gdelt",
+      "url": "https://www.libertaddigital.com/libremercado/2026-10-22/de-que-han-hablado-von-der-leyen-y-bill-gates-en-su-reunion-privada-7480545/",
+      "title": "¿ De qué han hablado Von der Leyen y Bill Gates en su reunión privada ?",
+      "snippet": "",
+      "publishedAt": "2026-10-22T17:30:00.000Z",
+      "publisher": "libertaddigital.com",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:2ea3d2c8db47",
+      "source": "gdelt",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=04247606645615544&mediaCodeNo=257",
+      "title": "라이트재단 · ADB , 보건 AI 중저소득국 확산 방안 논의",
+      "snippet": "",
+      "publishedAt": "2026-10-22T06:00:00.000Z",
+      "publisher": "edaily.co.kr",
+      "lang": "ko"
+    },
+    {
+      "id": "gdelt:e99a0439ef6c",
+      "source": "gdelt",
+      "url": "https://www.memurlar.net/haber/1181772/yok-un-dijital-universite-platformu-nda-yeni-donem-16-modulde-ucretsiz-egitim.html",
+      "title": "YÖK ün Dijital Üniversite Platformunda Yeni Dönem : 16 Modülde Ücretsiz Eðitim",
+      "snippet": "",
+      "publishedAt": "2026-10-22T12:15:00.000Z",
+      "publisher": "memurlar.net",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:935fa5119fa2",
+      "source": "gdelt",
+      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003277717&PAGE_CD=N0002&BLCK_NO=&CMPT_CD=M0147",
+      "title": "진보당 노동개악 , 초광역특구법안 즉각 철회",
+      "snippet": "",
+      "publishedAt": "2026-10-22T06:00:00.000Z",
+      "publisher": "ohmynews.com",
+      "lang": "ko"
+    },
+    {
+      "id": "gdelt:4c5756fd44ac",
+      "source": "gdelt",
+      "url": "https://www.zazoom.it/2026-10-22/cosi-la-crisi-energetica-frenera-gli-investimenti-in-intelligenza-artificiale-agentica-e-robotica-umanoide-nelle-imprese-italiane/19834409/",
+      "title": "Così la crisi energetica frenerà gli investimenti in intelligenza artificiale agentica e robotica umanoide nelle imprese italiane",
+      "snippet": "",
+      "publishedAt": "2026-10-22T16:00:00.000Z",
+      "publisher": "zazoom.it",
+      "lang": "it"
+    },
+    {
+      "id": "gdelt:b66996ea449d",
+      "source": "gdelt",
+      "url": "https://www.wcax.com/2026/10/22/vip-layoffs-raise-questions-about-ais-role-changing-vermont-workforce/",
+      "title": "VIP layoffs raise questions about AI role in changing Vermont workforce",
+      "snippet": "",
+      "publishedAt": "2026-10-22T23:00:00.000Z",
+      "publisher": "wcax.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:861372bd8714",
+      "source": "gdelt",
+      "url": "https://rnv.gob.ve/venezuela-isabel-iturria-impulsa-ia-etica-soberana/",
+      "title": "Isabel Iturria impulsa una IA ética y soberana",
+      "snippet": "",
+      "publishedAt": "2026-10-22T23:45:00.000Z",
+      "publisher": "rnv.gob.ve",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:1cee6c312c72",
+      "source": "gdelt",
+      "url": "https://www.wahpetondailynews.com/news/local/district-25-candidates-discuss-property-taxes-workforce-at-forum",
+      "title": "District 25 candidates discuss property taxes , workforce at forum",
+      "snippet": "",
+      "publishedAt": "2026-10-22T21:30:00.000Z",
+      "publisher": "wahpetondailynews.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:53ce694c964c",
+      "source": "gdelt",
+      "url": "https://rg.ru/2026/10/22/rg-uznala-kak-prohodiat-kursy-po-rabote-s-ii-dlia-uchitelej.html",
+      "title": "Учителя России проходят курсы по работе с ИИ . Зачем это нужно и что дает ?",
+      "snippet": "",
+      "publishedAt": "2026-10-22T10:30:00.000Z",
+      "publisher": "rg.ru",
+      "lang": "ru"
+    },
+    {
+      "id": "gdelt:8a362c9a5dd7",
+      "source": "gdelt",
+      "url": "https://www.thehindu.com/news/cities/Visakhapatnam/green-visakha-seeks-time-bound-environmental-commitments-from-poll-candidates-in-visakhapatnam/article71611020.ece",
+      "title": "Green Visakha seeks time - bound environmental commitments from poll candidates in Visakhapatnam",
+      "snippet": "",
+      "publishedAt": "2026-10-22T11:30:00.000Z",
+      "publisher": "thehindu.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:ed6caea080df",
+      "source": "gdelt",
+      "url": "https://www.mcall.com/2026/10/22/pa-lawmakers-approve-school-cell-phone-ban-but-punt-on-skill-games-data-centers/",
+      "title": "Pa . lawmakers approve school cell phone ban but punt on skill games , data centers",
+      "snippet": "",
+      "publishedAt": "2026-10-22T17:30:00.000Z",
+      "publisher": "mcall.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:fba19ddedb7c",
+      "source": "gdelt",
+      "url": "https://www.hindustantimes.com/india-news/22-of-indian-college-students-have-started-businesses-43-aspire-to-survey-101792642503792.html",
+      "title": "22 % of Indian college students have started businesses , 43 % aspire to : Survey",
+      "snippet": "",
+      "publishedAt": "2026-10-22T04:45:00.000Z",
+      "publisher": "hindustantimes.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:dc6d95194875",
+      "source": "gdelt",
+      "url": "https://mignews.com/news/disasters/v-finlyandii-vozmusheny-google-vyrubil-250-tysyach-derevev-pod-data-centr.html",
+      "title": "В Финляндии возмущены : Google вырубил 250 тысяч деревьев под дата - центр | MigNews - Новости Израиля и Мира на русском языке",
+      "snippet": "",
+      "publishedAt": "2026-10-22T18:15:00.000Z",
+      "publisher": "mignews.com",
+      "lang": "ru"
+    },
+    {
+      "id": "gdelt:11362475fc01",
+      "source": "gdelt",
+      "url": "https://pln-pskov.ru/authors/ddozor/601082.html",
+      "title": "« Дневной дозор »: Нужен ли школьникам обязательный курс про ИИ ?",
+      "snippet": "",
+      "publishedAt": "2026-10-22T15:00:00.000Z",
+      "publisher": "pln-pskov.ru",
+      "lang": "ru"
+    },
+    {
+      "id": "gdelt:600b3ad7b969",
+      "source": "gdelt",
+      "url": "https://www.rts.rs/vesti/izbori-2026/6067739/aleksandar-vucic-izbori-2026-parlament.html",
+      "title": "Вучић : Просечна плата ће бити 1 . 500 , а пензије 800 евра , желим владу са 12 министарстава и већа улагања у здравство",
+      "snippet": "",
+      "publishedAt": "2026-10-22T18:30:00.000Z",
+      "publisher": "rts.rs",
+      "lang": "und"
+    },
+    {
+      "id": "gdelt:ffeba1da1983",
+      "source": "gdelt",
+      "url": "https://www.toscanamedianews.it/pontedera-gruppo-lupi-il-futuro-nellia-fisica.htm",
+      "title": "Seminari Gruppo Lupi , lIA fisica nel futuro del lavoro",
+      "snippet": "",
+      "publishedAt": "2026-10-22T18:15:00.000Z",
+      "publisher": "toscanamedianews.it",
+      "lang": "it"
+    },
+    {
+      "id": "gdelt:a35c9e2fcc81",
+      "source": "gdelt",
+      "url": "https://www.biobiochile.cl/noticias/opinion/tu-voz/2026/10/22/lo-que-aprendimos-sobre-el-futuro-de-la-ia-en-el-world-summit-ai-de-amsterdam.shtml",
+      "title": "Lo que aprendimos sobre el futuro de la IA en el World Summit AI de Ámsterdam | Opinión",
+      "snippet": "",
+      "publishedAt": "2026-10-22T19:15:00.000Z",
+      "publisher": "biobiochile.cl",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:4c27a2562639",
+      "source": "gdelt",
+      "url": "https://www.cnet.com/news/politics/polls-experts-ai-data-centers-midterm-voting/",
+      "title": "AI and Data Centers Will Impact Midterm Voting , According to Experts",
+      "snippet": "",
+      "publishedAt": "2026-10-22T01:15:00.000Z",
+      "publisher": "cnet.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:7683d8f1b84a",
+      "source": "gdelt",
+      "url": "https://vcia.abril.com.br/trabalho/consultoria-oferece-5-mil-vagas-em-curso-online-e-gratuito-sobre-agentes-de-ia/",
+      "title": "Consultoria oferece 5 mil vagas em curso online e gratuito sobre agentes de IA",
+      "snippet": "",
+      "publishedAt": "2026-10-22T00:45:00.000Z",
+      "publisher": "vcia.abril.com.br",
+      "lang": "pt"
+    },
+    {
+      "id": "gdelt:60ba4c42b1f0",
+      "source": "gdelt",
+      "url": "https://www.ilpost.it/2026/10/22/barclays-elimina-5-mila-posti-lavoro/",
+      "title": "La banca Barclays ha in programma di sostituire migliaia di lavoratori con sistemi dintelligenza artificiale",
+      "snippet": "",
+      "publishedAt": "2026-10-22T14:45:00.000Z",
+      "publisher": "ilpost.it",
+      "lang": "it"
+    },
+    {
+      "id": "gdelt:eb334a46b09e",
+      "source": "gdelt",
+      "url": "https://www.europapress.es/aragon/noticia-valle-cree-real-decreto-centros-datos-prohibicion-facto-economia-sector-20261022161740.html",
+      "title": "Valle cree que el Real Decreto de centros de datos es una prohibición de facto a la economía del sector",
+      "snippet": "",
+      "publishedAt": "2026-10-22T15:30:00.000Z",
+      "publisher": "europapress.es",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:27de4e0adf28",
+      "source": "gdelt",
+      "url": "https://www.stiripesurse.ro/mediul-de-afaceri-pune-lupa-pe-programul-guvernului-niculescu-principalul-risc-este-finantarea-de-unde-vin-banii-pentru-marile-promisiuni_3930110",
+      "title": "Mediul de afaceri pune lupa pe programul Guvernului Niculescu : „ Principalul risc este finanțarea . De unde vin banii pentru marile promisiuni",
+      "snippet": "",
+      "publishedAt": "2026-10-22T04:45:00.000Z",
+      "publisher": "stiripesurse.ro",
+      "lang": "und"
+    },
+    {
+      "id": "gdelt:d2b74ff00de5",
+      "source": "gdelt",
+      "url": "https://www.toscanamedianews.it/valdera/pontedera-seminari-gruppo-lupi-il-futuro-e-intelligenza-artificiale-fisica.htm",
+      "title": "Seminari Gruppo Lupi , il futuro è lintelligenza artificiale fisica",
+      "snippet": "",
+      "publishedAt": "2026-10-22T13:45:00.000Z",
+      "publisher": "toscanamedianews.it",
+      "lang": "it"
+    },
+    {
+      "id": "gdelt:996a521e089e",
+      "source": "gdelt",
+      "url": "https://www.aei.org/economics/the-federal-reserve-at-a-time-of-uncertainty/",
+      "title": "The Federal Reserve at a Time of Uncertainty",
+      "snippet": "",
+      "publishedAt": "2026-10-22T21:15:00.000Z",
+      "publisher": "aei.org",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:1d75a219d404",
+      "source": "gdelt",
+      "url": "https://c-level.folha.uol.com.br/ia/2026/10/fmi-e-ocde-alertam-que-ia-podera-ampliar-disparidade-entre-paises-ricos-e-pobres.shtml",
+      "title": "FMI e OCDE alertam que IA poderá ampliar disparidade entre países ricos e pobres",
+      "snippet": "",
+      "publishedAt": "2026-10-22T17:30:00.000Z",
+      "publisher": "c-level.folha.uol.com.br",
+      "lang": "pt"
+    },
+    {
+      "id": "gdelt:95262be01f42",
+      "source": "gdelt",
+      "url": "https://www.oslobodjenje.ba/vijesti/bbc/makron-optuzuje-strane-lidere-da-iskoriscavaju-nemire-u-francuskoj-v32olat2/",
+      "title": "Makron optužuje strane lidere da iskorišćavaju nemire u Francuskoj",
+      "snippet": "",
+      "publishedAt": "2026-10-22T09:45:00.000Z",
+      "publisher": "oslobodjenje.ba",
+      "lang": "und"
+    },
+    {
+      "id": "gdelt:8af24b7a2d6e",
+      "source": "gdelt",
+      "url": "https://www.poslovni.hr/svijet/otkrivena-ozbiljna-sigurnosna-prijetnja-drzave-diljem-svijeta-gase-web-stranice-4560612",
+      "title": "Otkrivena ozbiljna sigurnosna prijetnja : Države diljem svijeta gase web stranice",
+      "snippet": "",
+      "publishedAt": "2026-10-22T07:00:00.000Z",
+      "publisher": "poslovni.hr",
+      "lang": "und"
+    },
+    {
+      "id": "gdelt:cd060655c7e4",
+      "source": "gdelt",
+      "url": "https://www.berliner-zeitung.de/article/google-finnland-ki-rechenzentren-waldrodung-umweltschaeden-10521120",
+      "title": "Google : 400 . 000 Bäume für KI - Rechenzentren in Finnland gefällt – Umweltalarm",
+      "snippet": "",
+      "publishedAt": "2026-10-22T19:15:00.000Z",
+      "publisher": "berliner-zeitung.de",
+      "lang": "de"
+    },
+    {
+      "id": "gdelt:914200ccb0fd",
+      "source": "gdelt",
+      "url": "https://www.laleggepertutti.it/838429_ia-chi-non-spiega-le-decisioni-rischia-1-milione-di-multa",
+      "title": "IA , chi non spiega le decisioni rischia 1 milione di multa",
+      "snippet": "",
+      "publishedAt": "2026-10-22T10:30:00.000Z",
+      "publisher": "laleggepertutti.it",
+      "lang": "it"
+    },
+    {
+      "id": "huggingface:cac24968e5aa",
+      "source": "huggingface",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "title": "Trending open model: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "snippet": "Task: image-text-to-text. 2463 likes, 57715 downloads.",
+      "publishedAt": "2026-10-17T02:40:38.000Z",
+      "score": 2117,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:5a9bda72c1d1",
+      "source": "huggingface",
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+      "title": "Trending open model: black-forest-labs/flux-3-image-klein-comfy",
+      "snippet": "Task: image-to-image. 1339 likes, 534837 downloads.",
+      "publishedAt": "2026-10-14T12:00:13.000Z",
+      "score": 684,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:6c5b89fb0ac8",
+      "source": "huggingface",
+      "url": "https://huggingface.co/RecursiveSI/flint",
+      "title": "Trending open model: RecursiveSI/flint",
+      "snippet": "Task: text-generation. 604 likes, 1904 downloads.",
+      "publishedAt": "2026-10-21T14:20:58.000Z",
+      "score": 592,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:d55e01a42324",
+      "source": "huggingface",
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+      "title": "Trending open model: OpenMOSS-Team/MOSS-Image-SFT",
+      "snippet": "Task: text-to-image. 615 likes, 7658 downloads.",
+      "publishedAt": "2026-10-11T07:01:17.000Z",
+      "score": 539,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:36f5a9f6ff05",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.28402",
+      "title": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
+      "snippet": "As streaming video generation advances, enabling real-time interaction with generated video is becoming increasingly important. We introduce StreamEval, a unified benchmark for interactive streaming video generation spanning five tasks: avatar dialogue, avatar performance, world generation…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 414,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:609f8bcf76a1",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Comfy-Org/MOSS-Image",
+      "title": "Trending open model: Comfy-Org/MOSS-Image",
+      "snippet": "383 likes, 1606363 downloads.",
+      "publishedAt": "2026-10-16T12:42:32.000Z",
+      "score": 360,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:f5b4a943446f",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.29989",
+      "title": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation",
+      "snippet": "Autoregressive video diffusion models generate videos chunk by chunk, yet producing plausible continuations does not guarantee that they capture how scenes evolve. Under teacher forcing, strong temporal redundancy may allow local visual continuity to serve as a shortcut for current-chunk…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 149,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:eeef217a1b62",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.29997",
+      "title": "DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations",
+      "snippet": "Despite recent progress in dexterous reference tracking, existing models focus primarily on single-hand manipulation and a limited range of interactions, leaving the bimanual dexterous behaviors common in real life unaddressed. The scarcity of contact-rich bimanual manipulation data and the…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 142,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:0f1cd46063b5",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.26659",
+      "title": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
+      "snippet": "Spatial intelligence requires agents to actively acquire visual evidence and integrate observations into a coherent representation of the three-dimensional world. Yet spatial question answering offers limited evidence of whether models can construct accurate metric maps through autonomous…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 138,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:1811713abe12",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.21114",
+      "title": "Spectral-Spatial Interpretation",
+      "snippet": "Post-hoc image explanations usually show where a model looks using spatial heatmaps or indicate which channels matter using global channel scores. These separate views are limiting for multispectral data because channel relevance is often spatially localized and physically meaningful. We introduce…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 128,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:03d047e1c63e",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.28577",
+      "title": "Cache Engineering for Agents",
+      "snippet": "Large Language Model (LLM) agents can handle increasingly complex tasks, navigating long trajectories of observations and actions. As these trajectories grow, key-value (KV) cache I/O and storage become the dominant cost. Trajectories can also exceed the LLM's maximum context length, requiring…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 127,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:43d18d3aecfa",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.11942",
+      "title": "Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents",
+      "snippet": "A login screen that appears after a tap on Sign in is expected; the same screen after a tap on View order is an attack. For GUI agents, safety is therefore a property of the transition rather than of the screen, and a monitor that inspects only screens can be defeated by reusing a legitimate one…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 106,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:0d45daf21723",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.26828",
+      "title": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
+      "snippet": "Agent learning is shifting from learning from human data toward learning through interaction with the world. However, scaling such learning directly in real-world computer systems is challenging and can introduce substantial security risks. We therefore propose Agent World Model in the Wild…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 68,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:1df6ea20f3e4",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.28698",
+      "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+      "snippet": "Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 55,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:c37b9145daca",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.20538",
+      "title": "PrismaCoder: Pushing the Boundaries of Open Multimodal Code Intelligence through Decomposed Rubric Synthesis",
+      "snippet": "Multimodal code intelligence connects the symbolic world of programs with the visual world their execution creates. Interest in this capability is burgeoning, as models are increasingly asked to produce charts, webpages, animations, and semi-structured documents. Recently, proprietary models have…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 54,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:4428c872a95c",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.17860",
+      "title": "Socratic Skill Learning: Interleaving Teaching and Practice for Transferable Agent Skills",
+      "snippet": "Agent Skills improve LLM agents by making task knowledge reusable across sessions. Learning transferable Skills requires evidence about a procedure and its conditions of use, which a successful task attempt can leave untested. We introduce Socratic Skill Learning (SSL), which interleaves expert…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 34,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:9b234474ac8f",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.29722",
+      "title": "Retrieval Augmented Generation Compositionality",
+      "snippet": "Retrieval Augmented Generation (RAG) grounds large language models in external knowledge. Modern pipelines combine embedding, chunking, retrieval, reranking, query augmentation, context compression, and agentic verification, yet these techniques are typically evaluated one at a time. It remains…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 31,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:af38fe1c9195",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.29680",
+      "title": "TraceForge: Distilling with Your Own Thinking",
+      "snippet": "Using an LLM to generate training data for another is among the most general ways to train one, and it remains common practice. Some frontier teams have closed that route for their own models: what comes back is an answer, or a short summary, without the detailed reasoning trace behind it. That is…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 30,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:1f7bfb882534",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.28589",
+      "title": "AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics",
+      "snippet": "Agentic robotics systems combine planners with robot harnesses to perform complex manipulation tasks. Recent work improves these systems through better harnesses and external memory, but relies on powerful closed-source models as planners and does not improve the planners' own capabilities. In…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 28,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:22b6544a0447",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.29968",
+      "title": "CulturalRiddles: A Multicultural Benchmark of Riddles",
+      "snippet": "As LLMs expand their language coverage, evaluating how well they understand and represent diverse cultures becomes increasingly important. However, many benchmarks remain English-centric, with limited cultural coverage and a focus on factual knowledge over its application in real-world cultural…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 25,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:d6fd29a9b6ea",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.30120",
+      "title": "ALPS: Visual State Encoders for World Models",
+      "snippet": "World models turn visual representations into predictions and actions. We argue that their visual foundation should combine physical-state information, native language alignment, and pixel reconstruction, so that a single representation can support prediction, instruction, and inspection. However…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 24,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:f2f662ee0c1c",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.29357",
+      "title": "Memory-Centric Continual Learning for AI Agents",
+      "snippet": "Autonomous agents powered by foundation models can reason, plan, and use tools, but their fixed weights and context limits hinder sustained learning from experience over long-term deployment. While external memory systems attempt to bridge this gap, they mostly act as passive retrieval caches…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 23,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:c59d76572e3a",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.29545",
+      "title": "PACE: Periodic and Channel-Aligned Encoding of Four-Bit Recurrent States",
+      "snippet": "Linear-attention language models keep their context in a recurrent state of fixed size, where an inference system stores one copy of this state for every sequence it decodes at the same time. Storing the state at lower precision therefore lets more sequences share an accelerator. Existing state…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 20,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:9d996558f607",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.30108",
+      "title": "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
+      "snippet": "Multimodal agents (MMAs) sustain interaction through reasoning, memory, tools, and feedback, most visibly as computer-use agents, while robotic systems (RSs) couple sensing and actuation under physical dynamics. We define multimodal embodied agents (MMEAs) as goal-directed systems that couple…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 20,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:f3712ab3a1c7",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.19376",
+      "title": "DeLoop: Repeated Actions as Self-Supervision for Long-Horizon Agents",
+      "snippet": "Language-model agents that run long tasks often redo work they have already done: they re-issue a tool call they made earlier and get back exactly the same observation, a step that adds no new information. We identify this failure as a loop. Loops appear natively in Qwen, Llama, and Gemini agents…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 20,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:f584c3a9ddf3",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.27592",
+      "title": "Real In, Real Out: What If We Only Use Real Data for Scene Text Editing?",
+      "snippet": "Aiming to modify textual content while preserving the original style, Scene Text Editing (STE) has significant practical value in many applications. STE typically requires paired images before and after editing for training. However, recent approaches rely heavily on synthetic paired data and…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 20,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:fc4008b5dc3a",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.29458",
+      "title": "Harness Scaling for Generalizable Agentic Reinforcement Learning",
+      "snippet": "Agent harnesses have become a central component of modern agentic systems, shaping how models use tools, manage context, and coordinate long-horizon interaction. Realizing the benefits of these harnesses depends on how effectively the underlying model can make use of them, motivating reinforcement…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 20,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:989a2f892d73",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.28887",
+      "title": "Building AI Research Teams for Autonomous Discovery of Linear Attention Architectures",
+      "snippet": "Autonomous agents can increasingly propose ideas, modify code, and run experiments, creating an opportunity to accelerate scientific discovery using teams of collaborative AI researchers. To escape local minima in the discovery, we propose to encourage orthogonal exploration by constructing the…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 18,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:277e7152563c",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.29560",
+      "title": "From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation",
+      "snippet": "Vision-language-action (VLA) models achieve strong performance across embodied manipulation tasks by unifying visual understanding, language conditioning, and action generation. However, long-horizon tasks can involve non-Markovian dependencies: successful decisions may require retaining task…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 16,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:553a7873d788",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.30023",
+      "title": "RealMe: Immersive Volumetric Video from Minimal Captures",
+      "snippet": "This paper addresses the problem of creating immersive volumetric videos from sparse and low-resolution capture resources. Conventional dense multi-view reconstruction methods can produce high-quality volumetric videos, but their reliance on costly capture setups makes them impractical in…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 16,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:1f795a4e71d6",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.30128",
+      "title": "Think Harder Where It Matters: Item-Level Adaptive Recursion for Sequential Recommendation",
+      "snippet": "Existing sequential recommenders usually allocate a fixed computational budget to every item in a user's interaction history, regardless of the item's contribution to the final prediction. We challenge this de facto design with two diagnostic findings. (1) Non-uniform computational need: items…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 16,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:94877f516820",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.28711",
+      "title": "Qwen-Audio-3.1-ASR Technical Report",
+      "snippet": "We present Qwen-Audio-3.1-ASR, a family of audio-language models that builds upon its predecesor Qwen-Audio-3.0-ASR with improved speech recognition and expanded capabilities in speaker-diarized transcription and general audio understanding. The family retains support for 30 languages and 16…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 16,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:c761302a62d8",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.30136",
+      "title": "Agentic World Action Models",
+      "snippet": "Recent world action models provide visual foresight and future prediction for robot manipulation, but lack explicit mechanisms for compositional skill reuse. Agentic robotics combines code-based planning and reasoning with reusable skills, but often lacks predictive grounding in physical dynamics…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 16,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:149917fdf7eb",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.13177",
+      "title": "CompactSplat: Spatially Adaptive Gaussian Distribution for Feedforward Scene Reconstruction",
+      "snippet": "Reconstructing 3D scenes from sparse views without per-scene optimization remains highly challenging, especially for recovering accurate geometry and fine textures. While recent feedforward approaches leverage generalizable 3D Gaussian Splatting (3DGS) for scene generation, they typically assign…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 15,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:b0c5c079f1ad",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.28763",
+      "title": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?",
+      "snippet": "Frontier coding agents are increasingly framed as end-to-end automated researchers, and ML for science offers a demanding test of that promise: improving a scientific model often requires domain insight beyond routine ML engineering. We introduce Agent4Sci, a long-horizon testbed for measuring how…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 15,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:284e3032d4dc",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.21204",
+      "title": "Entertain, then Cancel: How Thinking Makes Reasoning Models Read Some and Or Literally",
+      "snippet": "When a speaker says ``some students passed'', listeners infer that not all of them did. Reasoning models now let users decide how long a model thinks before it answers, but we do not know what extra thinking does to such everyday inferences. We study this directly: we keep a model's weights fixed…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 15,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:90001b0ffe39",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.29441",
+      "title": "Sparsity Should Be ALLOTted by Output: Training-Free Allocation of Block-Sparse Attention for Video Diffusion Transformers",
+      "snippet": "Full 3D attention is costly in video Diffusion Transformers. Block-sparse attention reduces this cost by computing only selected attention blocks. However, existing methods either overlook the potential to optimize sparsity allocation or rely on heuristic rules or local metrics to guide it. In…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 15,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:656e24c78b2e",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.29784",
+      "title": "Evolving with Open Worlds: Towards Recursive Self-Improvement for Future Forecasting",
+      "snippet": "Most contemporary artificial intelligence (AI) systems are released with frozen parameters and improve through external updates, whereas an ideal system would keep improving from its own experience, a capacity we call recursive self-improvement (RSI). Yet studying RSI requires an environment that…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 14,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:a0df5e7cf99d",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.29317",
+      "title": "SpatialBrain: Spatial Intelligence Growing from Experience",
+      "snippet": "Spatial reasoning requires more than access to geometric tools: a reasoner must decide when direct observation is sufficient and when to reconstruct, measure, or change reference frames. We present SpatialBrain, a framework that retains experience about these decisions while keeping its…",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "score": 13,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:72fce9413bbd",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30152",
+      "title": "The EU AI Act Beyond Europe: A Practical Readiness Framework for Non-EU Organisations. Comparative Evidence from Four African Countries",
+      "snippet": "The EU Artificial Intelligence Act has implications for organizations within Europe as well as organisations outside the European Union where they provide AI-enabled services to EU clients, use European vendors, participate in EU-facing supply chains, or generate outputs that are used in the EU…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:60235403af52",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30297",
+      "title": "Gender, Sexual Orientation, and the One-Year Refugee Bar: A Computational Study of Bill C-12 and Canadian Refugee Adjudication",
+      "snippet": "In March 2026, Bill C-12 amended the Immigration and Refugee Protection Act to make refugee claims ineligible for referral to the Refugee Protection Division where they are made more than one year after the claimant's first entry to Canada. Affected claimants are diverted to a Pre-Removal Risk…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:32a2597d22fb",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30363",
+      "title": "Probing and Steering for Safety-Relevant Behaviours in Large Language Models",
+      "snippet": "Activation probes are computed directions in a language model's residual stream, used both to detect safety-relevant behaviours and, by adding their direction back into the stream, to steer them. We explore how the main design choices behind such probes interact, within one pipeline, on one model…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:b61a0c0b6614",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30402",
+      "title": "Prefigured forgetting. Memory, the right to be forgotten and artificial intelligence",
+      "snippet": "This inaugural keynote lecture surveys the state of the art of the right to be forgotten and examines how it is being transformed by artificial intelligence. Drawing on cognitive science, philosophy and the social sciences, it treats forgetting as a constitutive function of memory, and recalls…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:3406434191b5",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30512",
+      "title": "Behind Aggregate Scores: What Systematically Varying Arena-Hard's LLM Judge Reveals",
+      "snippet": "LLM judges are used to determine which of two answers is better. Trusting these verdicts requires knowing how repeatable they are and how much they depend on the judge's instructions. We show that similar aggregate scores can conceal substantial changes in individual verdicts, both when the same…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:45c1020f01d7",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30549",
+      "title": "AI-Native Academia Should Build a Community Verification Layer",
+      "snippet": "This paper argues that AI-native academia should build a Community Verification Layer: interoperable, policy-governed infrastructure that converts researchers' routine reading and checking into persistent, claim- and version-linked evidence, while routing scarce deeper verification toward…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:cfe4b4fe4752",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30596",
+      "title": "DLT Terms 100: a learner's glossary based on ISO 22739:2024",
+      "snippet": "We propose ``DLT Terms 100'' aimed at improving literacy regarding blockchain (distributed ledger technology: DLT). The pace of DLT's social implementation has been slower than initially expected, partly due to a shortage of engineers and literate individuals. In particular, the discrepancy…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:27a29be9b832",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30690",
+      "title": "From Clinical Judgment to Checkable Rules: Clinician-Led Guardrails for Mental-Health Chatbots",
+      "snippet": "Large language models (LLMs) deployed in mental-health contexts can be evaluated for safety failures, but the resulting judgments are often difficult to inspect or explain. Common approaches to improving safety rely on prompt engineering, LLM-as-a-Judge, and Constitutional AI. In this work, we…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:b2c4bb798156",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30785",
+      "title": "Invisibilization as a Source of Probability Bias in Language Models",
+      "snippet": "Language models are aligned to avoid using protected attributes such as race, ethnicity, and gender to inform their responses. Therefore, they increasingly refuse or hedge when such attributes appear in a prompt. However, if a system must decide how much to learn from what people tell it, it is…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:09525e96f174",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30803",
+      "title": "What Lies Beyond Perception: A Partition Theory of the Limits of AI Evaluation and Oversight",
+      "snippet": "Replacing the judge can move a benchmark score, and models can be trained to hide capabilities. Both put the evaluator in question: what can it certify? We develop a partition theory of evaluation from one principle: judgement is bounded by perception. An agent's discrimination is the partition of…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:721e81ff8831",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30900",
+      "title": "Silicon Samples Match the Answers but Not the Respondents",
+      "snippet": "Silicon sampling generates survey respondents by having a large language model (LLM) answer a survey as a person with given demographic attributes, and the resulting synthetic populations are increasingly used in place of human ones. Existing evaluations focus on individual-answer accuracy…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:43b491e49eeb",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31030",
+      "title": "What Does AI Success Look Like? A Mixed-Methods Analysis of Supranational AI Governance Instruments",
+      "snippet": "In the last decade and in particular since 2018, supranational institutions have published policies, guidelines, and most recently regulations to govern development and use of Artificial Intelligence (AI). This paper aims to investigate the themes and dimensions of ``AI success'' set forth by…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:02175f23af4c",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31116",
+      "title": "A Grammar of French Civil Cassation: A Ground-Level Dataset and Tool",
+      "snippet": "This paper presents a dataset of 121,536 ground-reasons pairs across 86,464 rulings of the five civil chambers of the French Court of Cassation (2016-2025). An appeal on points of law cannot itself be appealed and often decides a case for good. Understanding how the Court rules is thus crucial and…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:8ebc12f94105",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31354",
+      "title": "ClinGuard: a governance framework for reliable, transparent, and auditable clinical coordination",
+      "snippet": "ClinGuard is a model-agnostic governance framework that treats clinical coordination as patient-scoped, policy-bound transactions rather than free text. An independent sentinel layer validates and governs agent-proposed actions, escalates when needed, and executes approved actions through…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:956af63045ef",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31380",
+      "title": "AI Risk Ontologies for the EU AI Act Compliance: AIRO, VAIR, and their Integration with DPV",
+      "snippet": "As the use of AI, and consequently its harms, becomes more prevalent, the global discourse around AI has become increasingly risk-aware. With new risks emerging more frequently than ever, a key challenge is how to represent, document, and catalogue AI risks in an effective, interoperable, and…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:a00b39b04e04",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31586",
+      "title": "Would an LLM Match into a Residency? Uncertainty, Reasoning and Image Use of Open Language Models on the Spanish MIR Examination",
+      "snippet": "Accuracy on medical examinations is common evidence offered for the clinical use of language models, yet a health system that intends to run an open model on its own hardware needs to know considerably more: whether the model recognizes when it is likely to be wrong, whether medical fine-tuning…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:2e90d7396d91",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30148",
+      "title": "Do Machine Learning-Guided Proactive Full Capacity Protocols Mitigate Emergency Department Overcrowding? A Simulation-Based Evaluation",
+      "snippet": "Objective: Emergency department (ED) overcrowding threatens care quality, yet Full Capacity Protocols (FCPs) are typically activated only after crowding thresholds have been exceeded. This study evaluated whether machine learning-guided proactive FCP activation improves ED crowding control…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:6a62c29a6602",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30182",
+      "title": "Detecting AI Training in Datacentre Power",
+      "snippet": "AI governance agreements require methods to detect large model training runs on a monitored computing cluster, without trusting the operator. We develop a method to detect synchronous model training in facility-level power by Viterbi tracking of the wandering iteration cadence. On simulated…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:28cb8bd63f15",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30307",
+      "title": "The Customer Is the Builder: How AI Coding Agents Are Rewriting the Economics of Software",
+      "snippet": "AI coding agents could change whether organizations buy software or build the functionality they need. We focus on organizations and professional buyers whose domain knowledge can help them specify and evaluate tools for their work. We define the software substitution frontier as the functions…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:de198f146a66",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30413",
+      "title": "X-pressing Intimacy: Mental Health Disclosure After Twitter Acquisition",
+      "snippet": "Social media platforms provide spaces for individuals to disclose mental health experiences and seek support, yet how these disclosures evolve during major shifts in platform governance remains unclear. We examine mental health self-disclosure surrounding Elon Musk's October 2022 acquisition of…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:e762c0116a31",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30752",
+      "title": "The Delegation Divide: An Open Index of AI-Agent Delegability across Occupations and Countries",
+      "snippet": "35.2% of task time in world employment is at least partly delegable to AI agents in 2026, and only 2.5% can be handed over in full. Existing measures score exposure to generative AI, mostly for the United States. We build the Agent Delegability Index (ADI): two language models rate all 18,796…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:f62fcecbcc43",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31165",
+      "title": "Network topology shapes consensus and vulnerability in LLM populations",
+      "snippet": "As large language models (LLMs) are deployed in interacting populations, their collective behaviour depends not only on the models but also on who interacts with whom. Studies of convention formation in LLM populations have mainly tested well-mixed interactions. We place policies extracted from…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:bae30a2985b7",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31335",
+      "title": "What the submission does not show: Complexifying cognitive offloading in students' mathematical work with LLMs",
+      "snippet": "A common concern is that using large language models (LLMs) lets students offload mathematical work that tasks are designed to elicit. Yet such claims often rest on outcomes (e.g., submitted solutions), rather than on evidence of students' work with LLMs. We followed 23 first-year linear algebra…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:d493f00e386a",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31344",
+      "title": "Making Generative AI Workable at Work: Accountability, Localization, and Representation in Kenyan and Nigerian Small Businesses",
+      "snippet": "Generative AI is widely framed as democratizing skilled work by lowering the barrier to producing professional output. Drawing on 21 semi-structured interviews with 27 workers across 21 small and medium-sized businesses (SMBs) in Kenya and Nigeria (July to October 2023), we find that availability…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:e12defe37431",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31588",
+      "title": "VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act",
+      "snippet": "Institutions that deploy large language models in regulated settings often need technical evidence of responsible AI practices before approving a deployment. COMPL-AI provides a technical interpretation of the EU AI Act that organises this evidence under six principle groups and eighteen technical…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:5d193cc1f396",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30151",
+      "title": "The Cost of Saying Hello: An Empirical Study of Handshake Overhead in AI Agent Communication Protocols",
+      "snippet": "Every interaction between AI agents begins with a handshake: the initiating agent must locate its counterpart, learn what it can do, and establish a session before the first useful message can be sent. Surveys of agent communication protocols name handshake overhead as an efficiency criterion, yet…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:1f3dc93fdcc8",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30154",
+      "title": "baseVultra: Compact Nonlinear Recurrence with Reallocated Capacity",
+      "snippet": "Nonlinear recurrent networks remain useful for streaming sequence modeling, yet gated cell design is still dominated by LSTM and GRU. We study whether recurrent computation can be reallocated away from gate transforms and toward candidate generation. We propose baseVultra, a compact recurrent cell…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:ab36928c7a56",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30157",
+      "title": "MCP vs CLI for AI Agents: A Comparative Analysis of Tool Integration Strategies for Autonomous Systems",
+      "snippet": "AI agents require interfaces to interact with external systems such as files, APIs, databases, and cloud services. Two competing paradigms have emerged: CLI (Command Line Interface), where agents execute shell commands directly, and MCP (Model Context Protocol), a structured JSON-RPC protocol…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:c0d1207e061d",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30158",
+      "title": "Lighthouse: On Building a Trustworthy Digital Assistant for Exploring History with Civil Rights Archives",
+      "snippet": "Artificial intelligence (AI), as a decision-support aid, provides new tools for studying history effectively using multimodal data, including text, images, and audio. We present, to our knowledge, the first digital assistant named Lighthouse--commonly called a chatbot--for exploring the Civil…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:4841ec6bc1c7",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30161",
+      "title": "TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents",
+      "snippet": "Many Indian banks serve customers through FAQ pages and scripted chatbots. Assistants based on language models could respond faster and carry out requests such as blocking a card, but only if they give correct information and follow the bank's rules. These rules prescribe a procedure, a set of…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:a8c733088527",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30162",
+      "title": "FusionEval: Benchmarking Model Fusion for Large Language Models",
+      "snippet": "Model fusion aims to integrate the capabilities of multi-expert models into a single model. Existing evaluations offer limited coverage of reasoning with long chains of thought and tool use, while strong average performance can mask substantial losses in individual expert capabilities. We…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:1eabd72a2a9a",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30170",
+      "title": "Accelerating Wildfire Hazard Mapping Across Canada with an AI Surrogate Modelling Framework",
+      "snippet": "Canada's increasing wildfire activity requires frequent national hazard mapping to guide proactive mitigation, including fuel management, land-use planning, infrastructure protection, and evacuation routing. However, process-based wildfire simulation frameworks (e.g., BurnP3 and BurnP3+) rely on…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:fb9c71a9050a",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30173",
+      "title": "Neural Networks with Differentiable Belief-Function Layers",
+      "snippet": "Yager's 1987 rule of combination $\\boxplus$ was proposed on epistemic grounds: under high conflict, mass should be redistributed to ignorance rather than renormalised onto the class simplex. We observe that backpropagation needs the same rule: Dempster's normaliser $(1{-}\\kappa)^{-1}$, where…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:161bc7f3e738",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30176",
+      "title": "When Stable and Preferred Semantics Agree: A Path-Based Approach",
+      "snippet": "We investigate structural conditions under which preferred and stable semantics agree in abstract argumentation frameworks. Our approach is based on suitably chosen sets of paths in the attack graph and binary relations induced by them. We establish a general path-based criterion for semantic…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:0aead24dfc3a",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30205",
+      "title": "Feedback That Backfires in Games: Do LLM Players Repeat the Move They Just Watched Fail?",
+      "snippet": "When an LLM agent's move fails, the harness writes the move and the failure message into the transcript and asks again. In tool calling, this record makes small models more likely to repeat the failed action. We test whether the same holds in games (Sokoban, Connect Four, Othello), where a move…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:7070b65bc178",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30206",
+      "title": "MoEZip: Routing-Aware KV Cache Compression for Sparse Mixture-of-Experts LLMs",
+      "snippet": "Mixture-of-Experts (MoE) language models scale model capacity efficiently by activating a small subset of parameters per token. However, in long-context inference, memory remains a major bottleneck because the KV cache grows linearly with sequence length. Existing KV cache compression methods…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:e24e6f5d77b0",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30207",
+      "title": "Spectral Uncertainty Decomposition for Sparse Bayesian Learning",
+      "snippet": "Estimating distributed neural sources from M/EEG measurements is an ill-posed inverse problem where principled uncertainty quantification remains challenging. The usual conditional Gaussian posterior covariance does not explicitly distinguish uncertainty along likelihood-visible source directions…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:72ecbaa02ed9",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30211",
+      "title": "Prediction Is Not Calibration: Item Parameter Recovery and Representation Coupling in Knowledge Tracing",
+      "snippet": "Knowledge tracing (KT) models can estimate item parameters through an item response decoder trained solely for next-response prediction, yet predictive accuracy does not guarantee parameter recovery. We study 2PL, GPCM, and NRM decoders paired with LSTM, Transformer, and DKVMN encoders…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:5c353291947b",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30215",
+      "title": "AI Mindmeld: A Latent Interconnect Protocol",
+      "snippet": "LLMs can act as scientific agents using tools to consult specialists and run experiments. Yet specialist information must enter their context, generally as text, images, audio or video: a bottleneck between models with rich, high-dimensional representations. We advocate direct representation…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:369a9035e60f",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.30220",
+      "title": "When Reconstruction Is Not Enough: Doubly Robust Counterfactual and Interventional Mediation Analysis with Learned Multimodal Representations",
+      "snippet": "Learned representations of high-dimensional multimodal health records are increasingly used to adjust for confounding, yet they are usually trained to reconstruct the data rather than preserve the information that causal identification requires. We study counterfactual outcomes under alternative…",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    }
+  ]
+}
