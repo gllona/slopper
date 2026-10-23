@@ -1,0 +1,221 @@
+{
+  "date": "2026-10-22",
+  "number": 23,
+  "mode": "fresh",
+  "motto": "The Diagnosis And The Drought",
+  "phrase": "An AI tool claims to diagnose better than doctors. Nearby, towns are fighting data centers over felled forests and drained water.",
+  "phraseAlternatives": [
+    "One AI claims to out-diagnose doctors. The towns near its rivals' data centers are losing trees and water.",
+    "A new AI tool says it beats doctors at hard diagnoses. Meanwhile, data centers are draining wells and felling forests nearby.",
+    "AI promises sharper diagnoses than doctors give. The land feeding its data centers tells a thirstier story.",
+    "An AI system claims to diagnose better than doctors can. Outside its data centers, forests are gone and wells are dry."
+  ],
+  "alt": "A proud robot doctor raises its arms beside a bar chart with a tall highlighted bar, while a worried human doctor shrugs beside the chart's shorter bar. Behind them, through a window, a datacenter sits on a hillside of tree stumps on one side and a dry well with a small red protest flag on the other.",
+  "artType": "static",
+  "style": "paper-cutout",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "law": 1,
+    "safety": 2,
+    "society": 2,
+    "planet": 3,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": 0,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "ai-diagnosis-beats-doctors",
+    "datacenter-backlash-campaign",
+    "ai-money-and-lobbying",
+    "ai-agent-swarm-hack",
+    "ai-finds-critical-php-flaw"
+  ],
+  "topStories": [
+    {
+      "title": "AI Diagnostic Tool Claims To Out-Diagnose Doctors",
+      "itemIds": [
+        "feeds:facf9055c9b2",
+        "feeds:dedf2896ecdb"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science",
+        "labor",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-diagnosis-beats-doctors"
+    },
+    {
+      "title": "Datacenter Backlash Reaches Elections And Felled Forests",
+      "itemIds": [
+        "feeds:851b90166049",
+        "hackernews:f4625da7f163",
+        "gdelt:ba00bfe1709f",
+        "gdelt:4c27a2562639",
+        "gdelt:dc6d95194875",
+        "gdelt:cd060655c7e4",
+        "gdelt:eb334a46b09e"
+      ],
+      "dimensions": [
+        "planet",
+        "policy",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "OpenAI's Valuation Cut And Record AI Lobbying",
+      "itemIds": [
+        "techmeme:ba52d803a84b",
+        "feeds:b514b87bc64d",
+        "feeds:70a308e69d26"
+      ],
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-money-and-lobbying"
+    },
+    {
+      "title": "State-Linked Hackers Use AI Agents To Breach Thousands Of Companies",
+      "itemIds": [
+        "feeds:d6886caf5396"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agent-swarm-hack"
+    },
+    {
+      "title": "A Critical Web Flaw Keeps Spreading Globally",
+      "itemIds": [
+        "feeds:4120829e1df6",
+        "feeds:33f67ca2a6cd",
+        "feeds:b5f81ed6a3a2",
+        "feeds:79367bb8b6c8"
+      ],
+      "dimensions": [
+        "safety",
+        "industry",
+        "policy"
+      ],
+      "novelty": 1,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-finds-critical-php-flaw"
+    }
+  ],
+  "brief": {
+    "concept": "A robot doctor proudly holds up a diagnosis chart with a taller bar than a human doctor's, while through a window behind them a small datacenter sits on a hillside of tree stumps beside a dry well.",
+    "metaphor": "The diagnosis chart rises like a boast; the stumps and the dry well are the quiet bill behind it.",
+    "cast": [
+      {
+        "who": "a robot doctor in a white coat holding up a diagnosis chart with a tall bar",
+        "kind": "ai"
+      },
+      {
+        "who": "a human doctor standing beside a shorter bar on the same chart",
+        "kind": "person"
+      },
+      {
+        "who": "a datacenter seen through a window, standing on a hillside of tree stumps",
+        "kind": "object"
+      },
+      {
+        "who": "a dry well with a small protest sign beside the datacenter",
+        "kind": "object"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "One split scene: in the foreground, a robot doctor and a human doctor stand before a shared bar chart, the robot's bar taller. Through a window behind them, a small datacenter sits on a stump-covered hill beside a dry well with a tiny protest sign. Keep it to these four shapes plus the window frame.",
+    "artType": "static",
+    "alt": "A robot doctor holds up a chart showing a taller bar than the human doctor standing beside it. Through a window behind them, a datacenter sits on a hillside covered in tree stumps next to a dry well with a small protest sign."
+  },
+  "sources": [
+    {
+      "id": "feeds:facf9055c9b2",
+      "title": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-22T18:00:00.000Z"
+    },
+    {
+      "id": "feeds:dedf2896ecdb",
+      "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-22T18:43:53.000Z"
+    },
+    {
+      "id": "feeds:851b90166049",
+      "title": "Big Tech’s thirst for water is sparking a global resistance",
+      "url": "https://restofworld.org/2026/ai-datacenters-water-resistance-global/?utm_source=rss&utm_medium=rss&utm_campaign=feeds",
+      "source": "feeds",
+      "publisher": "Rest of World",
+      "publishedAt": "2026-10-22T10:00:00.000Z"
+    },
+    {
+      "id": "gdelt:dc6d95194875",
+      "title": "В Финляндии возмущены : Google вырубил 250 тысяч деревьев под дата - центр | MigNews - Новости Израиля и Мира на русском языке",
+      "url": "https://mignews.com/news/disasters/v-finlyandii-vozmusheny-google-vyrubil-250-tysyach-derevev-pod-data-centr.html",
+      "source": "gdelt",
+      "publisher": "mignews.com",
+      "publishedAt": "2026-10-22T18:15:00.000Z"
+    },
+    {
+      "id": "gdelt:cd060655c7e4",
+      "title": "Google : 400 . 000 Bäume für KI - Rechenzentren in Finnland gefällt – Umweltalarm",
+      "url": "https://www.berliner-zeitung.de/article/google-finnland-ki-rechenzentren-waldrodung-umweltschaeden-10521120",
+      "source": "gdelt",
+      "publisher": "berliner-zeitung.de",
+      "publishedAt": "2026-10-22T19:15:00.000Z"
+    },
+    {
+      "id": "hackernews:f4625da7f163",
+      "title": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+      "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+      "source": "hackernews",
+      "publisher": "abcnews.com",
+      "publishedAt": "2026-10-22T20:51:23.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.71,
+    "iterations": 1
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-23T11:18:14.008Z"
+}
