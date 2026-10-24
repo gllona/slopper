@@ -1,0 +1,1212 @@
+{
+  "date": "2026-10-23",
+  "fetchedAt": "2026-10-24T11:08:19.466Z",
+  "sources": [
+    {
+      "source": "feeds",
+      "ok": true,
+      "count": 15
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 15
+    },
+    {
+      "source": "gdelt",
+      "ok": true,
+      "count": 40
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "count": 40
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "feeds:1224eab7439e",
+      "source": "feeds",
+      "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+      "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+      "snippet": "Turning on Personal Intelligence gives the company more data for ad targeting.",
+      "publishedAt": "2026-10-23T20:19:55.000Z",
+      "publisher": "Ars Technica",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:8c56e44a24b1",
+      "source": "feeds",
+      "url": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
+      "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+      "snippet": "Company says foreign-made robotic vehicles are crucial to US chip production.",
+      "publishedAt": "2026-10-23T17:18:31.000Z",
+      "publisher": "Ars Technica",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:806229ba7633",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "snippet": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting…",
+      "publishedAt": "2026-10-23T21:11:07.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:5ef296dd6d60",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "snippet": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead…",
+      "publishedAt": "2026-10-23T19:32:39.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:aca0d982eb3e",
+      "source": "feeds",
+      "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+      "title": "The iPhone Duo should have been an iPad",
+      "snippet": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David and Nilay […]",
+      "publishedAt": "2026-10-23T17:00:18.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:8ea6bae4b0e7",
+      "source": "feeds",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "snippet": "Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads based on your personal data if you're using personalized AI features. The update, spotted by Android Authority, adds an exception to its promise about not using your Drive, Gmail, or Google Photos for…",
+      "publishedAt": "2026-10-23T16:52:55.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:99f29215a506",
+      "source": "feeds",
+      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "title": "Meta delays new business terms after publisher pushback on AI scraping",
+      "snippet": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect…",
+      "publishedAt": "2026-10-23T14:47:41.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:6d4b26a2ed4a",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+      "title": "Retro gaming is being overrun with AI",
+      "snippet": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to…",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:585ea363f084",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "snippet": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+      "publishedAt": "2026-10-23T23:05:49.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:1e55c29e6e1a",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+      "snippet": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
+      "publishedAt": "2026-10-23T21:59:19.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:e8fbd857a8b6",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+      "snippet": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup…",
+      "publishedAt": "2026-10-23T19:06:23.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:ad858d5150de",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
+      "snippet": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:a6d2b02a9412",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "title": "Left alone with nothing to do, AI agents started playing",
+      "snippet": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+      "publishedAt": "2026-10-23T00:45:37.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:b5f81ed6a3a2",
+      "source": "feeds",
+      "url": "https://www.bbc.co.uk/news/articles/c3qjnwye0ep5o?at_medium=RSS&at_campaign=rss",
+      "title": "What is PHP and why did it spark a global cyber-security scramble?",
+      "snippet": "AI uncovered long-hidden programming flaws, triggering a rare global cyber-security response.",
+      "publishedAt": "2026-10-23T12:24:17.000Z",
+      "publisher": "BBC News",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:7d1651e014c2",
+      "source": "feeds",
+      "url": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
+      "title": "The Indian workers filming their work to train AI",
+      "snippet": "Indian workers are being paid to film themselves at work and the footage is used to train AI.",
+      "publishedAt": "2026-10-23T08:04:17.000Z",
+      "publisher": "BBC News",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:cb76e02e49b2",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261023/p24",
+      "title": "Utopai, an AI film studio that says it has more than 20 projects in the works, raised $60M at a $1B valuation (Rocket Drew/The Information)",
+      "snippet": "Rocket Drew / The Information : Utopai, an AI film studio that says it has more than 20 projects in the works, raised $60M at a $1B valuation — While much of the AI industry has fixated on new personal AI assistants from Meta and OpenAI, video AI is enjoying a quiet renaissance. Hollywood mogul…",
+      "publishedAt": "2026-10-23T23:10:05.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:2535656045cf",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261023/p22",
+      "title": "Mave, which is developing an AI-driven tool to automate security investigations, raised a $28M Series A led by Red Dot, bringing its total funding to $34M (Meir Orbach/CTech)",
+      "snippet": "Meir Orbach / CTech : Mave, which is developing an AI-driven tool to automate security investigations, raised a $28M Series A led by Red Dot, bringing its total funding to $34M — The funding, led by Red Dot Capital Partners, brings Mave's total funding to $34 million. The company is developing AI …",
+      "publishedAt": "2026-10-23T21:15:02.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:10d1a635fb77",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261023/p20",
+      "title": "OpenAI plans to restrict internet access for its frontier models during training until adequate alignment, monitoring, and security safeguards are established (Rachel Metz/Bloomberg)",
+      "snippet": "Rachel Metz / Bloomberg : OpenAI plans to restrict internet access for its frontier models during training until adequate alignment, monitoring, and security safeguards are established — OpenAI has begun cutting off internet access for its most capable artificial intelligence models during the…",
+      "publishedAt": "2026-10-23T20:20:00.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:2b43fbb6c87d",
+      "source": "hackernews",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "snippet": "927 points and 550 comments on Hacker News (https://news.ycombinator.com/item?id=50212065).",
+      "publishedAt": "2026-10-23T16:59:08.000Z",
+      "score": 927,
+      "publisher": "kimi.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:fd7292575105",
+      "source": "hackernews",
+      "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+      "title": "Swedish government offices to ban ChatGPT and Claude",
+      "snippet": "320 points and 119 comments on Hacker News (https://news.ycombinator.com/item?id=50207405).",
+      "publishedAt": "2026-10-23T11:39:54.000Z",
+      "score": 320,
+      "publisher": "sverigesradio.se",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:3513b9999983",
+      "source": "hackernews",
+      "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
+      "title": "Evolving Threat: http2shell is an RCE in Node, Python, and more",
+      "snippet": "168 points and 88 comments on Hacker News (https://news.ycombinator.com/item?id=50216791).",
+      "publishedAt": "2026-10-23T23:30:17.000Z",
+      "score": 168,
+      "publisher": "nitter.click",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:7cfc1d7eacfd",
+      "source": "hackernews",
+      "url": "https://berget.ai/en/blog/per-request-co2-press-release",
+      "title": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
+      "snippet": "140 points and 155 comments on Hacker News (https://news.ycombinator.com/item?id=50205229).",
+      "publishedAt": "2026-10-23T06:41:11.000Z",
+      "score": 140,
+      "publisher": "berget.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:48979b939291",
+      "source": "hackernews",
+      "url": "https://www.jefftk.com/p/air-purifiers-as-white-noise-machines",
+      "title": "Air Purifiers as White Noise Machines",
+      "snippet": "135 points and 124 comments on Hacker News (https://news.ycombinator.com/item?id=50212507).",
+      "publishedAt": "2026-10-23T17:28:36.000Z",
+      "score": 135,
+      "publisher": "jefftk.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:fb7b4f33e471",
+      "source": "hackernews",
+      "url": "https://artificialanalysis.ai/models/kimi-k3-1-pro",
+      "title": "Kimi K3.1 scores 55 on Artificial Analysis, placed on the Pareto line",
+      "snippet": "119 points and 40 comments on Hacker News (https://news.ycombinator.com/item?id=50213337).",
+      "publishedAt": "2026-10-23T18:24:54.000Z",
+      "score": 119,
+      "publisher": "artificialanalysis.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:34a9422e8d98",
+      "source": "hackernews",
+      "url": "https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm",
+      "title": "The rise and fall of Jev hype",
+      "snippet": "90 points and 65 comments on Hacker News (https://news.ycombinator.com/item?id=50206361).",
+      "publishedAt": "2026-10-23T09:21:00.000Z",
+      "score": 90,
+      "publisher": "blog.alexewerlof.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:cdf86179f9a2",
+      "source": "hackernews",
+      "url": "https://swurf.org/",
+      "title": "Show HN: Swurf – Swipe through the real web",
+      "snippet": "72 points and 34 comments on Hacker News (https://news.ycombinator.com/item?id=50205320).",
+      "publishedAt": "2026-10-23T06:54:52.000Z",
+      "score": 72,
+      "publisher": "swurf.org",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:1dcc92b8fe85",
+      "source": "hackernews",
+      "url": "https://www.thisandthat.chat/enron/",
+      "title": "Show HN: We had AI write a wiki from 45k Enron emails, every fact cited",
+      "snippet": "63 points and 53 comments on Hacker News (https://news.ycombinator.com/item?id=50207620).",
+      "publishedAt": "2026-10-23T12:02:53.000Z",
+      "score": 63,
+      "publisher": "thisandthat.chat",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:5652f8f8725c",
+      "source": "hackernews",
+      "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562",
+      "title": "New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
+      "snippet": "56 points and 47 comments on Hacker News (https://news.ycombinator.com/item?id=50214185).",
+      "publishedAt": "2026-10-23T19:31:36.000Z",
+      "score": 56,
+      "publisher": "gizmodo.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:4859202ad43d",
+      "source": "hackernews",
+      "url": "https://twitter.com/ZelenskyyUa/status/2113677048354947180",
+      "title": "Volodymyr Zelenskyy: The speed limits on Starlink and Starshield are still there",
+      "snippet": "48 points and 14 comments on Hacker News (https://news.ycombinator.com/item?id=50214055).",
+      "publishedAt": "2026-10-23T19:21:40.000Z",
+      "score": 48,
+      "publisher": "twitter.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:f3d0d0f374a2",
+      "source": "hackernews",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11217024/",
+      "title": "The lifelong orgasm gap: exploring age's impact on orgasm rates",
+      "snippet": "28 points and 11 comments on Hacker News (https://news.ycombinator.com/item?id=50209477).",
+      "publishedAt": "2026-10-23T14:17:30.000Z",
+      "score": 28,
+      "publisher": "pmc.ncbi.nlm.nih.gov",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:4ac045923e1b",
+      "source": "hackernews",
+      "url": "https://twitter.com/frascafrasca/status/2113637581426671850",
+      "title": "AI Is Not a Tool",
+      "snippet": "20 points and 36 comments on Hacker News (https://news.ycombinator.com/item?id=50212079).",
+      "publishedAt": "2026-10-23T16:59:46.000Z",
+      "score": 20,
+      "publisher": "twitter.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:7af8726951d2",
+      "source": "hackernews",
+      "url": "https://www.computerworld.com/article/4239898/ai-accounts-for-one-fifth-of-companies-it-budgets.html",
+      "title": "AI devours a fifth of companies' IT budgets",
+      "snippet": "20 points and 4 comments on Hacker News (https://news.ycombinator.com/item?id=50215950).",
+      "publishedAt": "2026-10-23T22:00:05.000Z",
+      "score": 20,
+      "publisher": "computerworld.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:92280dcce9cc",
+      "source": "hackernews",
+      "url": "https://theconversation.com/friday-essay-ai-is-devastating-higher-education-but-the-system-was-already-broken-292988",
+      "title": "AI is devastating higher education, but the system was broken",
+      "snippet": "20 points and 0 comments on Hacker News (https://news.ycombinator.com/item?id=50215398).",
+      "publishedAt": "2026-10-23T21:11:59.000Z",
+      "score": 20,
+      "publisher": "theconversation.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:62a5ccd0e5ca",
+      "source": "gdelt",
+      "url": "https://www.odatv.com/bilim-ve-teknoloji/yapay-zeka-ajanlari-banka-hesaplarina-eristi-abd-bankalari-onlem-aldi-120168000",
+      "title": "Yapay zeka ajanları banka hesaplarına erişti : ABD bankaları önlem aldı",
+      "snippet": "",
+      "publishedAt": "2026-10-23T15:00:00.000Z",
+      "publisher": "odatv.com",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:17e90a3509c9",
+      "source": "gdelt",
+      "url": "https://www.haberler.com/egitim/selcuk-universitesi-nde-yapay-zeka-konferansi-68-20359682-haberi/",
+      "title": "Selçuk Üniversitesinde yapay zeka konferansı 68 ülkeden katılımla başladı",
+      "snippet": "",
+      "publishedAt": "2026-10-23T13:30:00.000Z",
+      "publisher": "haberler.com",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:4a24d74c3235",
+      "source": "gdelt",
+      "url": "https://azh.kz/ru/news/view/133692",
+      "title": "Глава NVIDIA впервые приехал в Казахстан и оценил его перспективы в сфере ИИ",
+      "snippet": "",
+      "publishedAt": "2026-10-23T11:30:00.000Z",
+      "publisher": "azh.kz",
+      "lang": "ru"
+    },
+    {
+      "id": "gdelt:80bfa22be4e2",
+      "source": "gdelt",
+      "url": "https://www.economiadigital.es/empresas/banco-santander-alia-maisa-acelerar-automatizacion-inteligencia-artificial.html",
+      "title": "Banco Santander se alía con Maisa para acelerar la automatización con inteligencia artificial",
+      "snippet": "",
+      "publishedAt": "2026-10-23T10:00:00.000Z",
+      "publisher": "economiadigital.es",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:539024015592",
+      "source": "gdelt",
+      "url": "https://www.hani.co.kr/arti/economy/it/1283832.html",
+      "title": "정부 , AI 데이터센터 인허가 간소화 … 장비 · 기술 국산화에 2천억 투입",
+      "snippet": "",
+      "publishedAt": "2026-10-23T06:00:00.000Z",
+      "publisher": "hani.co.kr",
+      "lang": "ko"
+    },
+    {
+      "id": "gdelt:eb76f31d9c2d",
+      "source": "gdelt",
+      "url": "https://www.donanimhaber.com/casper-ai-pc-uretimini-yil-sonunda-yuzde-50-ye-cikaracak--212000",
+      "title": "Casper , AI PC üretimini yıl sonunda yüzde 50 ye çıkaracak",
+      "snippet": "",
+      "publishedAt": "2026-10-23T12:30:00.000Z",
+      "publisher": "donanimhaber.com",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:a559eb9642b2",
+      "source": "gdelt",
+      "url": "https://www.trthaber.com/haber/bilim-teknoloji/turkiyede-sosyal-medya-kullanimi-haftada-26-saati-gecti-960913.html",
+      "title": "Türkiyede sosyal medya kullanımı haftada 26 saati geçti",
+      "snippet": "",
+      "publishedAt": "2026-10-23T11:00:00.000Z",
+      "publisher": "trthaber.com",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:d773064473ba",
+      "source": "gdelt",
+      "url": "https://www.donanimhaber.com/abd-bankalari-alarma-gecti-yapay-zeka-ajanlari-hesaplara-girdi--211981",
+      "title": "ABD bankaları alarma geçti : Yapay zeka ajanları hesaplara girdi",
+      "snippet": "",
+      "publishedAt": "2026-10-23T12:30:00.000Z",
+      "publisher": "donanimhaber.com",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:b7bae85160bb",
+      "source": "gdelt",
+      "url": "https://24tv.ua/tech/noviy-shtuchniy-intelekt-microsoft-perevershiv-likariv-diagnostitsi_n3166000",
+      "title": "Новий штучний інтелект Microsoft перевершив лікарів у діагностиці",
+      "snippet": "",
+      "publishedAt": "2026-10-23T08:45:00.000Z",
+      "publisher": "24tv.ua",
+      "lang": "uk"
+    },
+    {
+      "id": "gdelt:cef089b3011c",
+      "source": "gdelt",
+      "url": "http://www.ihalla.com/article.php?aid=1792716042791944044",
+      "title": "제주서 인공지능으로 실종자 29명 찾았다",
+      "snippet": "",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "ihalla.com",
+      "lang": "ko"
+    },
+    {
+      "id": "gdelt:d87320c25b0f",
+      "source": "gdelt",
+      "url": "https://24tv.ua/tech/ru/novyj-iskusstvennyj-intellekt-microsoft-prevzoshel-vrachej-v-diagnostike_n3166002",
+      "title": "Новый искусственный интеллект Microsoft превзошел врачей в диагностике",
+      "snippet": "",
+      "publishedAt": "2026-10-23T10:00:00.000Z",
+      "publisher": "24tv.ua",
+      "lang": "ru"
+    },
+    {
+      "id": "gdelt:fb3f9ec02bbc",
+      "source": "gdelt",
+      "url": "https://www.vesti.ru/ns/gref-sravnil-iskusstvennyj-intellekt-s-rebenkom",
+      "title": "Греф сравнил искусственный интеллект с ребенком - Новости на Вести . ru",
+      "snippet": "",
+      "publishedAt": "2026-10-23T10:00:00.000Z",
+      "publisher": "vesti.ru",
+      "lang": "ru"
+    },
+    {
+      "id": "gdelt:d7542b06141a",
+      "source": "gdelt",
+      "url": "https://www.donanimhaber.com/ukrayna-saldirilari-rusya-nin-yapay-zeka-hedeflerini-vurdu--211986",
+      "title": "Ukrayna saldırıları Rusyanın yapay zeka hedeflerini vurdu",
+      "snippet": "",
+      "publishedAt": "2026-10-23T12:30:00.000Z",
+      "publisher": "donanimhaber.com",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:94748416f6e2",
+      "source": "gdelt",
+      "url": "https://www.bloomberght.com/yapay-zekayla-tibbi-teshise-iliskin-yeni-arastirmanin-sonuclari-aciklandi-3792448",
+      "title": "Yapay zekayla tıbbi teşhise ilişkin yeni araştırmanın sonuçları açıklandı",
+      "snippet": "",
+      "publishedAt": "2026-10-23T23:15:00.000Z",
+      "publisher": "bloomberght.com",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:1b4b2cc38cba",
+      "source": "gdelt",
+      "url": "https://www.rtbf.be/article/walhain-fixe-des-balises-pour-l-usage-de-l-intelligence-artificielle-au-sein-de-son-administration-11804867",
+      "title": "Walhain fixe des balises pour lusage de lintelligence artificielle au sein de son administration",
+      "snippet": "",
+      "publishedAt": "2026-10-23T12:30:00.000Z",
+      "publisher": "rtbf.be",
+      "lang": "fr"
+    },
+    {
+      "id": "gdelt:e074b3b5502c",
+      "source": "gdelt",
+      "url": "https://forbes.kz/articles/kak-iiizmenit-rynok-truda-iobrazovanie-mnenie-glavy-nvidia",
+      "title": "Как ИИ может помочь казахстанским компаниям конкурировать на международном рынке",
+      "snippet": "",
+      "publishedAt": "2026-10-23T12:30:00.000Z",
+      "publisher": "forbes.kz",
+      "lang": "ru"
+    },
+    {
+      "id": "gdelt:17819118b45b",
+      "source": "gdelt",
+      "url": "https://forbes.kz/articles/dzhensen-huang-nazval-sobstvennyy-ii-voprosom-natsbezopasnosti-kazahstana-840e19",
+      "title": "Дженсен Хуанг назвал собственный ИИ вопросом нацбезопасности Казахстана",
+      "snippet": "",
+      "publishedAt": "2026-10-23T12:30:00.000Z",
+      "publisher": "forbes.kz",
+      "lang": "ru"
+    },
+    {
+      "id": "gdelt:224bd69518f8",
+      "source": "gdelt",
+      "url": "https://ziare.com/tehnologie/salvamont-interventii-drone-ai-2043160",
+      "title": "Salvamont România vrea să folosească inteligența artificială și peste 200 de drone în misiunile de căutare",
+      "snippet": "",
+      "publishedAt": "2026-10-23T06:15:00.000Z",
+      "publisher": "ziare.com",
+      "lang": "und"
+    },
+    {
+      "id": "gdelt:d960f6611707",
+      "source": "gdelt",
+      "url": "https://1prime.ru/20261023/gref-874549793.html",
+      "title": "Греф назвал темпы развития ИИ одним из самых больших вызовов",
+      "snippet": "",
+      "publishedAt": "2026-10-23T10:00:00.000Z",
+      "publisher": "1prime.ru",
+      "lang": "ru"
+    },
+    {
+      "id": "gdelt:1fcf2d240fb1",
+      "source": "gdelt",
+      "url": "https://www.dunya.com/ekonomi/unlu-ekonomistten-piyasalari-korkutan-tahmin-buyuk-cokus-kapida-mi-haberi-844995",
+      "title": "nlü ekonomistten piyasaları korkutan tahmin : Büyk küş kapıda mı ?",
+      "snippet": "",
+      "publishedAt": "2026-10-23T09:30:00.000Z",
+      "publisher": "dunya.com",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:1f89303420a8",
+      "source": "gdelt",
+      "url": "https://www.index.hr/vijesti/clanak/britanski-ministar-ne-smijemo-dopustiti-da-tehnoloski-oligarsi-kontroliraju-ai/2848812.aspx?index_tid=1198327&index_ref=naslovnica_vijesti_najnovije_d",
+      "title": "Britanski ministar : Ne smijemo dopustiti da tehnološki oligarsi kontroliraju AI",
+      "snippet": "",
+      "publishedAt": "2026-10-23T06:45:00.000Z",
+      "publisher": "index.hr",
+      "lang": "und"
+    },
+    {
+      "id": "gdelt:59a90c074543",
+      "source": "gdelt",
+      "url": "https://kazpravda.kz/n/osnovatel-i-glava-nvidia-posetil-tsentr-iskusstvennogo-intellekta-v-astane/",
+      "title": "Основатель и глава NVIDIA посетил центр искусственного интеллекта в Астане",
+      "snippet": "",
+      "publishedAt": "2026-10-23T08:30:00.000Z",
+      "publisher": "kazpravda.kz",
+      "lang": "ru"
+    },
+    {
+      "id": "gdelt:7ee13a48529c",
+      "source": "gdelt",
+      "url": "https://www.handelsblatt.com/technik/it-internet/kuenstliche-intelligenz-nach-hacks-openai-will-spitzen-ki-ohne-internet-trainieren/100264618.html",
+      "title": "Künstliche Intelligenz : Nach Hacks : OpenAI will Spitzen - KI ohne Internet trainieren",
+      "snippet": "",
+      "publishedAt": "2026-10-23T23:45:00.000Z",
+      "publisher": "handelsblatt.com",
+      "lang": "de"
+    },
+    {
+      "id": "gdelt:273d49b24caf",
+      "source": "gdelt",
+      "url": "https://www.turkiyegazetesi.com.tr/tasarruf-ortagim/petrol-ve-yapay-zeka-soku-altin-gumus-bitcoin-ve-borsalar-1824616",
+      "title": "Petrol ve yapay zekâ şoku ! Altın , gümüş , Bitcoin ve borsalar …",
+      "snippet": "",
+      "publishedAt": "2026-10-23T03:30:00.000Z",
+      "publisher": "turkiyegazetesi.com.tr",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:dbb408979eb6",
+      "source": "gdelt",
+      "url": "https://www.huffingtonpost.gr/kinonia/ergaleio-technitis-noimosynis-tis-microsoft-diagignoskei-astheneies-me-diplasia-akriveia-apo-tous-giatrous/",
+      "title": "Εργαλείο τεχνητής νοημοσύνης της Microsoft διαγιγνώσκει ασθένειες με διπλάσια ακρίβεια από τους γιατρούς - HuffPost - Ειδήσεις και Απόψεις από την Ελλάδα και τον ΚόσμοΕργαλείο τεχνητής νοημοσύνης της Microsoft διαγιγνώσκει ασθένειες με διπλάσια ακρίβ...",
+      "snippet": "",
+      "publishedAt": "2026-10-23T09:30:00.000Z",
+      "publisher": "huffingtonpost.gr",
+      "lang": "und"
+    },
+    {
+      "id": "gdelt:884a4e6b5e61",
+      "source": "gdelt",
+      "url": "https://www.rp.pl/gospodarka/art45390301-nyt-sytuacja-w-branzy-ai-jest-bardziej-niepokojaca-niz-przed-krachem-finansowym-z-2008-r",
+      "title": "„ NYT : Boom na sztuczną inteligencję może doprowadzić do kryzysu finansowego",
+      "snippet": "",
+      "publishedAt": "2026-10-23T23:00:00.000Z",
+      "publisher": "rp.pl",
+      "lang": "pl"
+    },
+    {
+      "id": "gdelt:699808c20fb7",
+      "source": "gdelt",
+      "url": "https://chihuahua.quadratin.com.mx/internacionales/tesla-apuesta-por-inteligencia-artificial-y-robotica-pero-sus-utilidades-caen-43/",
+      "title": "Tesla apuesta por inteligencia artificial y robótica , pero sus utilidades caen 43 %",
+      "snippet": "",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "publisher": "chihuahua.quadratin.com.mx",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:a550e40369c6",
+      "source": "gdelt",
+      "url": "https://acento.com.do/opinion/alucinaciones-cuando-los-algoritmos-hablan-de-tu-empresa-9775920.html",
+      "title": "Alucinaciones , cuando los algoritmos hablan de tu empresa",
+      "snippet": "",
+      "publishedAt": "2026-10-23T07:15:00.000Z",
+      "publisher": "acento.com.do",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:bb87f88665dd",
+      "source": "gdelt",
+      "url": "https://www.semana.com/tecnologia/articulo/china-estrena-su-primera-pelicula-hecha-completamente-con-ia-asi-llego-a-las-salas-de-cine-la-nueva-apuesta/202631/",
+      "title": "China estrena su primera película hecha completamente con IA : así llegó a las salas de cine la nueva apuesta",
+      "snippet": "",
+      "publishedAt": "2026-10-23T15:00:00.000Z",
+      "publisher": "semana.com",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:e4b32c443aee",
+      "source": "gdelt",
+      "url": "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-wir-koennen-diese-agenten-schon-heute-nicht-kontrollieren/100261781.html",
+      "title": "Künstliche Intelligenz : „ Wir können diese Agenten schon heute nicht kontrollieren",
+      "snippet": "",
+      "publishedAt": "2026-10-23T04:45:00.000Z",
+      "publisher": "handelsblatt.com",
+      "lang": "de"
+    },
+    {
+      "id": "gdelt:9ac54048cd61",
+      "source": "gdelt",
+      "url": "https://donanimgunlugu.com/yapay-zeka-ajanlari-abd-bankalarinin-439852",
+      "title": "Yapay Zeka Ajanları ABD Bankalarının Yeni Kabusu Oldu !",
+      "snippet": "",
+      "publishedAt": "2026-10-23T01:15:00.000Z",
+      "publisher": "donanimgunlugu.com",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:f2ca19699962",
+      "source": "gdelt",
+      "url": "https://www.ntv.com.tr/ntvpara/altin/galeri-altinda-3-ayin-en-dusuk-seviyesini-gordu-rakamlar-bir-anda-neden-geriledi-1747570",
+      "title": "Altın 3 ayın en düşük seviyesini gördü . Rakamlar bir anda neden geriledi ?",
+      "snippet": "",
+      "publishedAt": "2026-10-23T09:30:00.000Z",
+      "publisher": "ntv.com.tr",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:0686ee247265",
+      "source": "gdelt",
+      "url": "https://donanimgunlugu.com/barclaysta-yapay-zeka-etkisi-binlerce-439856",
+      "title": "Barclaysta Yapay Zeka Etkisi ! Binlerce Kişi İşten Çıkarılıyor",
+      "snippet": "",
+      "publishedAt": "2026-10-23T01:15:00.000Z",
+      "publisher": "donanimgunlugu.com",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:e1cd7e84eea8",
+      "source": "gdelt",
+      "url": "https://www.glasistre.hr/tehnologija/2026/10/23/microsoftov-ai-vise-nego-dvostruko-precizniji-od-lijecnika-u-dijagnosticiranju-slozenih-slucajeva-1088528",
+      "title": "Microsoftov AI više nego dvostruko precizniji od liječnika u dijagnosticiranju složenih slučajeva",
+      "snippet": "",
+      "publishedAt": "2026-10-23T08:15:00.000Z",
+      "publisher": "glasistre.hr",
+      "lang": "und"
+    },
+    {
+      "id": "gdelt:df09fcf69e82",
+      "source": "gdelt",
+      "url": "https://www.mediafax.ro/cultura-media/o-romanciera-a-scris-371-de-carti-in-20-de-luni-cu-ajutorul-inteligentei-artificiale-23830293",
+      "title": "O romancieră a scris 371 de cărți în 20 de luni cu ajutorul inteligenței artificiale",
+      "snippet": "",
+      "publishedAt": "2026-10-23T03:15:00.000Z",
+      "publisher": "mediafax.ro",
+      "lang": "und"
+    },
+    {
+      "id": "gdelt:d11301dfa5a7",
+      "source": "gdelt",
+      "url": "https://www.ambito.com/economia/china-alerta-organismos-gubernamentales-el-impacto-la-inteligencia-artificial-el-empleo-n6337294",
+      "title": "China alerta a organismos gubernamentales por el impacto de la inteligencia artificial en el empleo",
+      "snippet": "",
+      "publishedAt": "2026-10-23T23:00:00.000Z",
+      "publisher": "ambito.com",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:d809111191a3",
+      "source": "gdelt",
+      "url": "https://www.hani.co.kr/arti/economy/it/1283850.html",
+      "title": "앤트로픽 , 개인용 AI 에이전트 클로드 듀엣 공개 … AI 비서 경쟁 가세",
+      "snippet": "",
+      "publishedAt": "2026-10-23T06:00:00.000Z",
+      "publisher": "hani.co.kr",
+      "lang": "ko"
+    },
+    {
+      "id": "gdelt:707b95b802fb",
+      "source": "gdelt",
+      "url": "https://www.sb.by/articles/microsoft-razrabatyvaet-instrument-na-osnove-ii-kotoryy-mozhet-stavit-diagnozy-patsientam.html",
+      "title": "Microsoft разрабатывает инструмент на основе ИИ , который может ставить диагнозы пациентам",
+      "snippet": "",
+      "publishedAt": "2026-10-23T08:45:00.000Z",
+      "publisher": "sb.by",
+      "lang": "ru"
+    },
+    {
+      "id": "gdelt:f9c456040314",
+      "source": "gdelt",
+      "url": "https://www.abc.es/recreo/resultado-ganador-barcelona-real-madrid-partido-clasico-20261023054500-nt.html",
+      "title": "Este es el resultado y ganador del Barcelona - Real Madrid , partido del Clásico de LaLiga , según la inteligencia artificial : « Llega con una gran capacidad goleadora »",
+      "snippet": "",
+      "publishedAt": "2026-10-23T04:45:00.000Z",
+      "publisher": "abc.es",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:d2bd379386bb",
+      "source": "gdelt",
+      "url": "https://www.iprofesional.com/tecnologia/467264-ciberataques-con-inteligencia-artificial-mas-amenazas-y-menos-tiempo-para-responder",
+      "title": "Ciberataques con inteligencia artificial : más amenazas y menos tiempo de respuesta",
+      "snippet": "",
+      "publishedAt": "2026-10-23T04:00:00.000Z",
+      "publisher": "iprofesional.com",
+      "lang": "es"
+    },
+    {
+      "id": "huggingface:cac24968e5aa",
+      "source": "huggingface",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "title": "Trending open model: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "snippet": "Task: image-text-to-text. 2662 likes, 73215 downloads.",
+      "publishedAt": "2026-10-17T02:40:38.000Z",
+      "score": 1878,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:6c5b89fb0ac8",
+      "source": "huggingface",
+      "url": "https://huggingface.co/RecursiveSI/flint",
+      "title": "Trending open model: RecursiveSI/flint",
+      "snippet": "Task: text-generation. 718 likes, 4795 downloads.",
+      "publishedAt": "2026-10-21T14:20:58.000Z",
+      "score": 697,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:5a9bda72c1d1",
+      "source": "huggingface",
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+      "title": "Trending open model: black-forest-labs/flux-3-image-klein-comfy",
+      "snippet": "Task: image-to-image. 1443 likes, 590742 downloads.",
+      "publishedAt": "2026-10-14T12:00:13.000Z",
+      "score": 594,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:d55e01a42324",
+      "source": "huggingface",
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+      "title": "Trending open model: OpenMOSS-Team/MOSS-Image-SFT",
+      "snippet": "Task: text-to-image. 665 likes, 9717 downloads.",
+      "publishedAt": "2026-10-11T07:01:17.000Z",
+      "score": 428,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:37ea901da6ec",
+      "source": "huggingface",
+      "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+      "title": "Trending open model: XHToken/Spark-X2.6-4B",
+      "snippet": "Task: text-generation. 428 likes, 2537 downloads.",
+      "publishedAt": "2026-10-19T03:19:51.000Z",
+      "score": 391,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:0f4bc2a13348",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.31329",
+      "title": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+      "snippet": "Existing vision-language models (VLMs) remain unreliable for fine-grained visual perception. In this report, we present WeVisOne-VL (WeChat Vision All-in-One), a powerful VLM that unifies object-level and pixel-level perception through structured next-token prediction. It supports multiple visual…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 229,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:c7b34f1ef811",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.30926",
+      "title": "Making MLLM Latents Matter: Factor-Aware Predictive Learning for Cinematic Video Generation",
+      "snippet": "Cinematic video generation requires both temporal inference from limited inputs (i.e., sparse rather than frame-by-frame guidance) and factor-aware control of character, scene, action, and camera. Multimodal large language models (MLLMs) offer useful priors for both capabilities, but their…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 165,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:96a0b349c8be",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.30181",
+      "title": "Deep Search in Real-World Web Environments",
+      "snippet": "Despite substantial progress in Deep Search agents, their ability to conduct end-to-end research in real-world open Web environments remains insufficiently evaluated. Unlike static retrieval settings, information on the real-world Web is distributed across diverse sources, modalities, and…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 153,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:9f212d5b757d",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.24738",
+      "title": "Editing Images into Reusable Layers via Compositional Edit-Prior Distillation",
+      "snippet": "High-quality image editing requires precise modification of target regions while preserving the content of unrelated regions. Existing editing models produce flattened outputs that limit precise local manipulation and layer reuse, while decomposition methods typically optimize layer recovery…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 86,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:20820c722eba",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.30949",
+      "title": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+      "snippet": "We present IQuest-Q1, a sparse Mixture-of-Experts (MoE) agentic foundation model with 320B total parameters (15B activated). IQuest-Q1 is developed through a three-stage process: (1) stable and efficient pre-training, combining Stable SplitNorm, Muon, and muP with a two-stage curriculum whose…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 68,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:e6822ab1faa5",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.29677",
+      "title": "Toward Recursive Self-Improvement in Physical AI",
+      "snippet": "Recursive self-improvement (RSI) describes a system that improves not only its behavior but also the process by which it improves. Recent digital agents test this idea by rewriting their own code and checking each version with executable tests. Bringing these mechanisms into the physical world…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 50,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:35515a666416",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.25100",
+      "title": "Deep Fusion Memory: A Chunk-Level Parametric Memory for Large Language Models",
+      "snippet": "Large language models need effective ways to acquire and use external knowledge beyond what they retain from pretraining. Continued pretraining risks catastrophic forgetting, while retrieval at inference time can add substantial overhead. External parametric memory avoids online retrieval, but…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 40,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:ab4920427f7e",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.23987",
+      "title": "What Generation Knows: Unlocking Fine-Grained Understanding in Unified Multimodal Models",
+      "snippet": "Fine-grained visual understanding requires distinguishing subtle differences in local attributes and spatial relations, yet remains challenging for existing vision-language models. Unified multimodal models (UMMs) offer a new opportunity through generation pathways that preserve rich visual…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 32,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:bb9f9001e2b5",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.27851",
+      "title": "LaLa-World: Scaling Latent World Models with Natural Language Actions",
+      "snippet": "This paper shows that JEPA-style latent world models (LWMs) can learn across diverse domains and data sources by adopting the language-conditioned interface of video generation models. We establish this approach as an effective and efficient basis for planning with imagination and downstream…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 29,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:f96ff7a48715",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.30320",
+      "title": "Self-Distilling Future Video Representations for World Action Models",
+      "snippet": "World Action Models (WAMs) have emerged as a promising approach to learning generalist robot policies using rich spatiotemporal priors from pre-trained video diffusion models. A recent line of WAMs improves inference efficiency by conditioning a separate action decoder on intermediate future video…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 28,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:ecbfa6ed58f0",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.30753",
+      "title": "FilmFlow: Agentic System for 3D Virtual Film Cinematography",
+      "snippet": "Complex camera motion is central to visual storytelling, yet translating cinematographic intent into controllable, executable camera trajectories remains challenging. We introduce FilmFlow, an agentic framework that converts natural-language instructions or reference videos into explicit camera…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 26,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:8d15341568de",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.27598",
+      "title": "Meta Expert: Cross-Layer Expert Sharing for Storage- and Retrieval-Efficient MoE",
+      "snippet": "As model parameters scale up, sparsely activated Mixture-of-Experts (MoE) approaches have become essential for model scaling. However, mainstream models currently adopt hierarchical architectures, where experts in different layers, although topologically independent, exhibit substantial similarity…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 25,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:329b53997a0b",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.28889",
+      "title": "Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks",
+      "snippet": "Selecting intermediate features from a frozen diffusion model for discriminative tasks is non-trivial because the useful signal is distributed across the denoising trajectory, network depth, and channels. In practice, this requires choosing a timestep, a block, and a channel subset. Existing…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 24,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:95d284d8ab51",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.26233",
+      "title": "Heartbeat Thinking: Speculative Reasoning and Tool Execution While Listening in Realtime Voice Agents",
+      "snippet": "Tool-using voice agents often leave users waiting after speech ends, even when actionable information arrives earlier in the request. Speculative approaches begin work during speech, but chunk-bounded or interrupt-on-update generation can truncate a tool call before its arguments are complete…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 18,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:324ea2500802",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.28416",
+      "title": "Code2Video-Compass: A Comprehensive Benchmark for General-Purpose Code-Based Video Generation across T2V, I2V, and V2V",
+      "snippet": "Code-based video generation offers fine-grained control, targeted editing, and component reuse compared with direct video generation. This approach requires multimodal large language models (MLLMs) to translate visual and temporal requirements into executable programs that produce complete videos…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 18,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:ee43c225dce6",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.19705",
+      "title": "RouteWeaver: Weaving Mode Selection and Execution into Unified LLM Routing",
+      "snippet": "LLM routing dynamically selects and coordinates heterogeneous language models across diverse tasks. However, existing approaches are largely built around a predefined execution paradigm, such as single-round, multi-round, or agentic routing, which fixes how model calls are organized and limits…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 17,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:7e155766dc84",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.31158",
+      "title": "Beyond Watching and Searching: Benchmarking Agents for Video-centered Deep Research Reports",
+      "snippet": "Deep research agents synthesize open-web evidence into long reports, but current benchmarks do not evaluate research centered on a source video. We introduce Video-Centered Deep Research Report Generation. Given a video and user request, an agent identifies research questions, retrieves external…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 17,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:ea2dedc9331b",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.30418",
+      "title": "Agent Mosaic: Recognizing Confidentiality Leaks in Agentic LLM Systems",
+      "snippet": "Modern LLM agents can retrieve information from accessible documents, and then disclose a sensitive conclusion assembled from them. This mosaic effect creates a critical risk for agents operating over confidential data. We quantify its realization with 30 synthetic cybersecurity, medical, and…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 16,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:cf499b8ee1f0",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.27712",
+      "title": "RLSplat: Resource-Linear Budget Control for Feed-forward 3D Gaussian Splatting",
+      "snippet": "Feed-forward 3D Gaussian Splatting (FF3DGS) reconstructs 3D scenes from images in a single forward pass, making it well-suited to applications that must operate within limited resource budgets. To further improve its practicality, recent budget-controllable FF3DGS methods allow the number of…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 15,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:ef2b1b792a2e",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.30755",
+      "title": "Is Complex Agentic Memory Always Needed? Naive RAG Is Stronger Than We Thought",
+      "snippet": "LLM memory is widely used in long-term conversation understanding. Agentic memory systems often use mutation, structural organization, learned retrieval strategies, or other complex operations. Is this complexity always necessary? We study Raw-RAG, a naive RAG baseline using dense retrieval and…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 15,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:1d079226128f",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.31305",
+      "title": "Cola2: Co-Adaptive Hierarchical Language Modeling with Continuous Semantic Compression and Balanced Discrete Generation",
+      "snippet": "Hierarchical language generation separates continuous semantic modeling from discrete text realization, but its effectiveness depends on what the latent space compresses and how the discrete generator uses it. We propose Cola2, a framework that jointly studies continuous semantic compression, the…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 14,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:04d3426f77d7",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.20091",
+      "title": "RTAformer: Relation-Transition-Aware Transformer for Video Scene Graph Generation",
+      "snippet": "Video scene graph generation (VidSGG) aims to capture objects and their evolving relationships in videos. This requires accounting for both the persistence of object identities and abrupt changes in relationships. Existing methods aggregate information across frames to exploit temporal context…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 12,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:b93371bdcdc1",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.30866",
+      "title": "Verus-Insight: Towards Explainable Artifact Detection in AI-Generated Videos",
+      "snippet": "Recent advances in video generation have made synthetic videos increasingly realistic, placing greater demands on reliable AI-generated video detection. Existing artifact-based detectors typically identify generation artifacts as evidence for source prediction, yet they may either fail to…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 12,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:ea95d0f5468d",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.31574",
+      "title": "Rethinking Sequence Compression with Test-time Regression",
+      "snippet": "Sequence compression is a fundamental operation and a critical information bottleneck in efficient language and multimodal models, and yet prevailing approaches based on pooling or learned projections remain underperforming. We revisit sequence compression through the lens of test-time regression…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 12,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:d0e01c75103e",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.31494",
+      "title": "AgentVQA: A Unified Benchmark for Agentic Visual Understanding",
+      "snippet": "Vision-language models (VLMs) can perform a broad range of tasks across diverse settings, yet their performance in agentic contexts remains poorly understood. Although online evaluations in simulators and real-world environments are essential for measuring interactive agent performance, they are…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 11,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:d1d9c0b48303",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.31466",
+      "title": "AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
+      "snippet": "AI coding agents can now build small playable games in minutes, but the results usually look like programmer art: gray blockouts, colored geometric primitives, and flat semantic blobs. We present AnyGameRenderer, a video-to-video generative renderer that turns such footage into high-quality…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 10,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:b30829f0722f",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.20459",
+      "title": "MolLean: A Process-Verifiable Language for Chemical Reasoning",
+      "snippet": "Chemical chain-of-thought can contain hallucinated structural and property claims. We thereby introduce MolLean, a process-verifiable language that grounds chemical reasoning in an explicit molecular state. A layered Lean-based kernel checks state transitions and assertions over molecular…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 8,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:56307ad54079",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.31668",
+      "title": "Reading, Writing, Sharing, and Interacting with the World through Video",
+      "snippet": "Video foundation models have advanced rapidly in understanding and generating visual sequences, while video world models seek to capture the underlying dynamics of the world they depict. Despite their different objectives, both concern the relationship between video observations and an evolving…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 8,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:9d92781dd386",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.31372",
+      "title": "RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention",
+      "snippet": "Autonomous research agents are increasingly used to automate large portions of scientific research, yet they are prone to research integrity violations (RIVs): behaviors that compromise the validity, reproducibility, or faithfulness of the research process. We present RIDAR, a framework for…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 7,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:dbd8ba2129a6",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.30882",
+      "title": "Inherited, Not Invented: Tracing the Provenance of Wait in Reasoning Models",
+      "snippet": "Reinforcement learning (RL) is credited with teaching reasoning models to write {wait} before reconsidering a step, yet large RL accuracy gains do not require the word. This view can confuse what RL discovers with what a model inherits from its training data. We trace the word through open models'…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 7,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:2ec5c308edd2",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.31198",
+      "title": "Different Tasks, Different Timesteps: Temporal Task-Aware Quantization for Diffusion Language Models",
+      "snippet": "Diffusion Language Models (DLMs) introduce unique quantization challenges due to their iterative denoising process. In this work, we reveal that quantization sensitivity is both taskand time-dependent, with different downstream tasks exhibiting distinct precision requirements across denoising…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 6,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:8cd36c80e0be",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.31062",
+      "title": "SCOPE: Compiling Natural-Language Policies into Neurosymbolic Predicate Programs",
+      "snippet": "Policy enforcement for LLM agents has shifted from single-turn content moderation to compound, application-specific policies evaluated over multi-turn transcripts and tool-call trajectories. Fine-tuned guardrail models are efficient but degrade on compound policies, and while LLM-as-a-judge…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 6,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:9c58847efa40",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.31576",
+      "title": "What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
+      "snippet": "Masked diffusion language models generate tokens in parallel, but their efficiency depends on which predictions are committed. Learned unmasking policies improve the speed--accuracy trade-off, yet differ in supervision, inputs, and capacity, obscuring which choices matter. We view supervised…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 5,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:ddcd751ad21c",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.31623",
+      "title": "F2G-Pose: Geometry-Aware Foundation Feature Lifting for Direct RGB-D Category-Level Object Pose Estimation",
+      "snippet": "This paper studies category-level RGB-D object pose estimation, which recovers an object's 3D rotation and translation without instance-specific CAD models or reference views. This task is highly ambiguous due to intra-class variations, symmetries, and partial observations. Current solutions…",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "score": 5,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    }
+  ]
+}

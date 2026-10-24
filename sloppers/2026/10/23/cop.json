@@ -1,0 +1,29 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"Another company opened your inbox to feed its AI ads.\" Source (Ars Technica/The Verge): the updated privacy policy says Gmail/Photos data \"might be used\" for ad targeting, and only if the user enables the opt-in \"Personal Intelligence\" feature.",
+          "suggestion": "Revise to preserve the conditional, opt-in nature of the change, e.g. \"Another company updated its policy so your inbox could feed its AI ads\" or \"...said it may start using your inbox to feed its AI ads,\" rather than stating as a completed, unconditional action.",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "pass",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "low",
+          "evidence": "Phrase: \"One AI lab sealed its smartest models away from the internet, citing hacking risks.\" Sources specify this restriction applies to the training phase (\"restrict internet access for its frontier models during training\" — Techmeme/Bloomberg; \"will no longer train its AI models on the live internet\" — TechCrunch), not a blanket, ongoing seal on the deployed models.",
+          "suggestion": "Optionally tighten to something like \"sealed its smartest models' training off from the internet\" to keep the training-specific scope explicit, matching the sources more precisely.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}

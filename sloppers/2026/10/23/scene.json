@@ -1,0 +1,162 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {
+    "type": "split",
+    "color": "bg",
+    "color2": "paper"
+  },
+  "elements": [
+    {
+      "id": "cloud1",
+      "component": "cloud",
+      "at": {
+        "x": 0.22,
+        "y": 0.16
+      },
+      "scale": 1,
+      "props": {
+        "mood": "none",
+        "size": "sm"
+      }
+    },
+    {
+      "id": "cord1",
+      "component": "raw",
+      "attachTo": "cloud1",
+      "side": "bottom",
+      "scale": 1,
+      "props": {
+        "width": 50,
+        "height": 110
+      },
+      "svg": "<path class=\"r-line\" d=\"M25 0 L25 55 L14 70 L25 95\" fill=\"none\" stroke-width=\"6\"/><circle class=\"r-accent\" cx=\"25\" cy=\"98\" r=\"13\"/>"
+    },
+    {
+      "id": "vault1",
+      "component": "raw",
+      "at": {
+        "x": 0.27,
+        "y": 0.6
+      },
+      "scale": 1,
+      "props": {
+        "width": 300,
+        "height": 480
+      },
+      "svg": "<rect x=\"20\" y=\"20\" width=\"260\" height=\"440\" rx=\"10\" class=\"r-shade\"/><rect x=\"20\" y=\"20\" width=\"260\" height=\"440\" rx=\"10\" class=\"r-line\" stroke-width=\"6\"/><line x1=\"20\" y1=\"20\" x2=\"280\" y2=\"460\" class=\"r-thin\"/><line x1=\"280\" y1=\"20\" x2=\"20\" y2=\"460\" class=\"r-thin\"/>"
+    },
+    {
+      "id": "vaultbot",
+      "component": "robot",
+      "at": {
+        "x": 0.27,
+        "y": 0.78
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "worried",
+        "arms": "down",
+        "antenna": true,
+        "color": "body"
+      }
+    },
+    {
+      "id": "sealed-label",
+      "component": "label",
+      "attachTo": "vault1",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "SEALED",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "envelope1",
+      "component": "raw",
+      "at": {
+        "x": 0.83,
+        "y": 0.68
+      },
+      "scale": 1,
+      "props": {
+        "width": 220,
+        "height": 180
+      },
+      "svg": "<rect x=\"10\" y=\"60\" width=\"200\" height=\"110\" rx=\"6\" class=\"r-body\" stroke-width=\"5\"/><path d=\"M10 60 L110 130 L210 60\" class=\"r-line\" fill=\"none\" stroke-width=\"5\"/><path d=\"M10 60 L30 2 L190 2 L210 60\" class=\"r-line\" fill=\"none\" stroke-width=\"5\"/>"
+    },
+    {
+      "id": "person1",
+      "component": "human",
+      "at": {
+        "x": 0.55,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "mood": "neutral",
+        "pose": "stand",
+        "holds": "none",
+        "kind": "adult"
+      }
+    },
+    {
+      "id": "peeker",
+      "component": "robot",
+      "attachTo": "person1",
+      "side": "top",
+      "offset": [
+        35,
+        -40
+      ],
+      "scale": 0.4,
+      "props": {
+        "mood": "happy",
+        "arms": "out",
+        "antenna": true,
+        "color": "accent"
+      }
+    },
+    {
+      "id": "megaphone1",
+      "component": "raw",
+      "attachTo": "peeker",
+      "side": "right",
+      "scale": 1,
+      "props": {
+        "width": 130,
+        "height": 90
+      },
+      "svg": "<path d=\"M10 45 L55 25 L105 15 L105 75 L55 65 Z\" class=\"r-body\" stroke-width=\"4\"/><circle cx=\"25\" cy=\"45\" r=\"8\" class=\"r-line\" fill=\"none\" stroke-width=\"3\"/><path d=\"M115 28 L129 18 M118 45 L131 45 M115 62 L129 72\" class=\"r-thin\" fill=\"none\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "switch1",
+      "component": "raw",
+      "attachTo": "envelope1",
+      "side": "left",
+      "scale": 1,
+      "props": {
+        "width": 90,
+        "height": 80
+      },
+      "svg": "<rect x=\"10\" y=\"20\" width=\"70\" height=\"36\" rx=\"18\" class=\"r-body-alt\" stroke-width=\"4\"/><circle cx=\"28\" cy=\"38\" r=\"15\" class=\"r-body\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "off-label",
+      "component": "label",
+      "attachTo": "switch1",
+      "side": "bottom",
+      "scale": 1,
+      "props": {
+        "text": "OFF",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "A robot sits sealed inside a glass vault, its cord unplugged from a cloud above, labeled SEALED. Beside it, a person stands next to an open envelope inbox while a small robot peeks over their shoulder holding a megaphone, next to a toggle switch marked OFF."
+}
