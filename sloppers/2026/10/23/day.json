@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-23",
+  "number": 24,
+  "mode": "fresh",
+  "motto": "Walled Off And Wide Open",
+  "phrase": "One AI lab sealed its smartest models away from the internet, citing hacking risks. Another company updated its policy so your inbox could feed its AI ads.",
+  "phraseAlternatives": [
+    "A top AI lab cut its newest models off the internet to stay safe. A tech company said your email could soon feed its AI ads.",
+    "An AI lab shut its models away from online risk. Another firm said your inbox may soon feed AI-targeted ads.",
+    "The smartest AI models just lost their internet access, for safety. Your inbox may soon gain an AI reader, for ads.",
+    "One company is protecting its AI from the open internet. Another wants your open inbox to train its ads, if you opt in."
+  ],
+  "alt": "A robot sits sealed inside a glass vault, its cord unplugged from a cloud above, labeled SEALED. Beside it, a person stands next to an open envelope inbox while a small robot peeks over their shoulder holding a megaphone, next to a toggle switch marked OFF.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 2,
+    "labor": 2,
+    "policy": 2,
+    "law": 2,
+    "safety": 2,
+    "society": 3,
+    "planet": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "ai-labs-cut-internet-access",
+    "google-mines-personal-data-for-ai-ads",
+    "ai-trains-on-filmed-workers",
+    "ai-emissions-vary-by-grid",
+    "governments-ban-chatbots-in-office",
+    "meta-scrapes-publishers-for-free"
+  ],
+  "topStories": [
+    {
+      "title": "A Big AI Lab Trains Its Frontier Models Without Live Internet Access",
+      "itemIds": [
+        "feeds:806229ba7633",
+        "feeds:585ea363f084",
+        "techmeme:10d1a635fb77",
+        "gdelt:7ee13a48529c"
+      ],
+      "dimensions": [
+        "capabilities",
+        "safety",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-labs-cut-internet-access"
+    },
+    {
+      "title": "A Platform Updates Its Privacy Policy So Email And Photos Could Fuel AI Ad Targeting",
+      "itemIds": [
+        "feeds:1224eab7439e",
+        "feeds:8ea6bae4b0e7"
+      ],
+      "dimensions": [
+        "society",
+        "law",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "google-mines-personal-data-for-ai-ads"
+    },
+    {
+      "title": "Workers Are Paid To Film Themselves At Work So Footage Can Train AI",
+      "itemIds": [
+        "feeds:7d1651e014c2"
+      ],
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-trains-on-filmed-workers"
+    },
+    {
+      "title": "The Same AI Request Emits 8.5 Times More CO2 In One Place Than Another",
+      "itemIds": [
+        "hackernews:7cfc1d7eacfd"
+      ],
+      "dimensions": [
+        "planet",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-emissions-vary-by-grid"
+    },
+    {
+      "title": "A National Government Moves To Ban Two Major Chatbots From Its Own Offices",
+      "itemIds": [
+        "hackernews:fd7292575105"
+      ],
+      "dimensions": [
+        "policy",
+        "law",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "governments-ban-chatbots-in-office"
+    },
+    {
+      "title": "A Platform Delays New Business Terms After Publisher Pushback On AI Scraping",
+      "itemIds": [
+        "feeds:99f29215a506"
+      ],
+      "dimensions": [
+        "law",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "meta-scrapes-publishers-for-free"
+    }
+  ],
+  "brief": {
+    "concept": "A lab seals its most advanced AI model inside a glass vault, unplugging it from the open internet, while across the scene a person's inbox envelope grows a small AI robot peeking out, holding an ad-shaped megaphone, with a dotted line to an opt-in switch nearby.",
+    "metaphor": "Locking away a thing you fear while quietly adding a door to a thing you were supposed to protect.",
+    "cast": [
+      {
+        "who": "a robot sealed inside a glass vault, its cord unplugged from a cloud shape",
+        "kind": "ai"
+      },
+      {
+        "who": "a cloud shape with a simple network icon, a loose cord dangling beside it",
+        "kind": "object"
+      },
+      {
+        "who": "a person standing beside an open envelope-shaped inbox",
+        "kind": "person"
+      },
+      {
+        "who": "a small robot peering over the person's shoulder, holding a megaphone shaped like a price tag",
+        "kind": "ai"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Two panels split by a thin vertical line. Left: a robot sealed inside a glass vault, a loose cord dangling from a cloud shape above it to show a severed connection. Right: a person stands beside an open envelope-shaped inbox; a small robot peeks over their shoulder holding a megaphone shaped like a price tag, aimed at the inbox, with a small switch labeled 'ON' beside them to show the feature is optional. Keep shapes simple, one yellow highlight on the unplugged cord.",
+    "artType": "static",
+    "alt": "A two-panel illustration: on the left, a robot sits sealed inside a glass vault with its cord unplugged from a cloud shape above. On the right, a person stands beside an open envelope-shaped inbox and a small switch, while a small robot peers over their shoulder holding a megaphone shaped like a price tag."
+  },
+  "sources": [
+    {
+      "id": "feeds:806229ba7633",
+      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-23T21:11:07.000Z"
+    },
+    {
+      "id": "feeds:585ea363f084",
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-23T23:05:49.000Z"
+    },
+    {
+      "id": "techmeme:10d1a635fb77",
+      "title": "OpenAI plans to restrict internet access for its frontier models during training until adequate alignment, monitoring, and security safeguards are established (Rachel Metz/Bloomberg)",
+      "url": "https://www.techmeme.com/261023/p20",
+      "source": "techmeme",
+      "publisher": "Techmeme",
+      "publishedAt": "2026-10-23T20:20:00.000Z"
+    },
+    {
+      "id": "feeds:1224eab7439e",
+      "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+      "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-10-23T20:19:55.000Z"
+    },
+    {
+      "id": "feeds:8ea6bae4b0e7",
+      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-23T16:52:55.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.14,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-24T11:49:03.351Z"
+}

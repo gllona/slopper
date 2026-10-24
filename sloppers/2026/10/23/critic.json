@@ -1,0 +1,81 @@
+{
+  "passed": false,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 3,
+          "polish": 4,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The locked-vault side reads instantly, but the right side's floating, disconnected megaphone and the missing two-panel split (a core piece of the brief) blur the second half of the joke and echo the studio's overused blueprint look — needs another pass before publishing.",
+        "revisionNotes": [
+          "Render the two-panel split (vertical divider line + second 'paper' background color on the right) called for in the brief — the whole canvas is currently one flat blue, so the 'Walled Off And Wide Open' contrast the composition depends on is lost.",
+          "Rotate megaphone1 to aim down-right at envelope1 instead of out into empty canvas space, and add the dotted line to switch1 so the ad-robot visibly connects to the inbox and the opt-in toggle.",
+          "Reshape megaphone1's raw svg into a price-tag silhouette (small loop top + flat tag body) instead of a generic speaker horn so it reads as an ad, not just noise.",
+          "Drop or recolor the extra yellow fills (peeker's body, person1's shirt) — the brief calls for a single yellow highlight on cord1's accent dot, and the repeated yellow dilutes that cue.",
+          "Tighten switch1's anchor closer to envelope1 (reduce gap, scale to ~1.2) so the OFF toggle reads as part of the inbox rather than a floating prop near person1's foot.",
+          "Scale up and shift the peeker/megaphone cluster slightly toward person1 (offset closer, scale 1.1) to fill the empty upper-right quadrant and give the right side a clearer focal point."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": false,
+        "errors": [
+          "\"panel-bg\" is cut off by the artboard edge in the final frame (x 500…1110, y -30…1110)"
+        ],
+        "warnings": [
+          "\"cloud1\" extends outside the safe area in the final frame (x 117…366, y 53…202)"
+        ]
+      },
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"cloud1\" extends outside the safe area in the final frame (x 96…345, y 42…191)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Cast and core two-panel metaphor are right, but the ad megaphone prop is unclear (looks like a disconnected floating flag), the cloud clips the safe area, the small robot overlaps the person's face awkwardly, and the split-screen blueprint look repeats recent pieces too closely — average lands below the 3.5 pass bar.",
+        "revisionNotes": [
+          "The price-tag megaphone (megaphone1) reads as a stray floating flag, not a prop held by the peeker robot aimed at the inbox — attach it directly to the robot's arm/hand and angle it so the tip clearly points at envelope-switch.",
+          "cloud1 clips outside the safe area per lint warning (x 96…345, y 42…191) — scale it down or shift it inward so the whole shape sits inside the margin.",
+          "peeker robot sits on top of person1's head with legs crossing the face, which reads as clipping rather than 'peering over the shoulder' — reattach at side: right with a smaller offset so it rests beside the shoulder, not on the skull.",
+          "Brief calls for a thin vertical divider between the two panels; none is present, so the left/right split relies only on spacing — add a simple vertical line component to anchor the two-panel composition.",
+          "Scale up or restyle the price-tag shape (clearer notch/tag silhouette) so it unmistakably reads as a megaphone-shaped price tag, since this prop carries the 'ads' half of the joke.",
+          "Composition (blueprint palette, split screen, robot+human+cloud+envelope cast) closely echoes several recent pieces (door/OPEN panel, CLOSED robot) — vary panel proportions or accent placement to stand apart."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    }
+  ]
+}

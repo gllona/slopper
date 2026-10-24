@@ -1,0 +1,220 @@
+{
+  "topStories": [
+    {
+      "title": "A Big AI Lab Trains Its Frontier Models Without Live Internet Access",
+      "itemIds": [
+        "feeds:806229ba7633",
+        "feeds:585ea363f084",
+        "techmeme:10d1a635fb77",
+        "gdelt:7ee13a48529c"
+      ],
+      "dimensions": [
+        "capabilities",
+        "safety",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-labs-cut-internet-access"
+    },
+    {
+      "title": "A Platform Updates Its Privacy Policy So Email And Photos Could Fuel AI Ad Targeting",
+      "itemIds": [
+        "feeds:1224eab7439e",
+        "feeds:8ea6bae4b0e7"
+      ],
+      "dimensions": [
+        "society",
+        "law",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "google-mines-personal-data-for-ai-ads"
+    },
+    {
+      "title": "Workers Are Paid To Film Themselves At Work So Footage Can Train AI",
+      "itemIds": [
+        "feeds:7d1651e014c2"
+      ],
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-trains-on-filmed-workers"
+    },
+    {
+      "title": "The Same AI Request Emits 8.5 Times More CO2 In One Place Than Another",
+      "itemIds": [
+        "hackernews:7cfc1d7eacfd"
+      ],
+      "dimensions": [
+        "planet",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-emissions-vary-by-grid"
+    },
+    {
+      "title": "A National Government Moves To Ban Two Major Chatbots From Its Own Offices",
+      "itemIds": [
+        "hackernews:fd7292575105"
+      ],
+      "dimensions": [
+        "policy",
+        "law",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "governments-ban-chatbots-in-office"
+    },
+    {
+      "title": "A Platform Delays New Business Terms After Publisher Pushback On AI Scraping",
+      "itemIds": [
+        "feeds:99f29215a506"
+      ],
+      "dimensions": [
+        "law",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "meta-scrapes-publishers-for-free"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-labs-cut-internet-access",
+      "title": "AI Labs Cut Frontier Models Off The Internet",
+      "dimensions": [
+        "safety",
+        "capabilities",
+        "industry"
+      ],
+      "motifs": [
+        "a robot sealed in a glass vault with its cord unplugged from a cloud",
+        "a locked door between a model and a globe-shaped network",
+        "a padlock clicking shut around a training room"
+      ]
+    },
+    {
+      "id": "google-mines-personal-data-for-ai-ads",
+      "title": "A Platform Opens Personal Data For AI-Targeted Ads",
+      "dimensions": [
+        "society",
+        "law",
+        "industry"
+      ],
+      "motifs": [
+        "an envelope with a price-tag robot peeking out beside an opt-in switch",
+        "a photo album sprouting advertising arrows",
+        "a privacy promise with a new exception in small print"
+      ]
+    },
+    {
+      "id": "ai-trains-on-filmed-workers",
+      "title": "Workers Are Filmed To Train AI",
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "motifs": [
+        "a worker holding a small camera pointed at their own daily tasks",
+        "a reel of everyday footage feeding into a robot's eye"
+      ]
+    },
+    {
+      "id": "ai-emissions-vary-by-grid",
+      "title": "The Same AI Query, A Different Carbon Cost",
+      "dimensions": [
+        "planet",
+        "industry"
+      ],
+      "motifs": [
+        "two speech bubbles, one trailing a thick smokestack, one a thin wisp",
+        "a world map colored by how dirty each power grid is"
+      ]
+    },
+    {
+      "id": "governments-ban-chatbots-in-office",
+      "title": "Governments Ban Chatbots From Their Own Offices",
+      "dimensions": [
+        "policy",
+        "law",
+        "society"
+      ],
+      "motifs": [
+        "a government office door with two chatbot icons crossed out",
+        "a BANNED stamp over a speech bubble inside a government building"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Two stories clear the relevance threshold of 8 today: a big lab cutting frontier models off the live internet (novelty 3 x magnitude 2 x breadth 2 = 12) and a platform updating its policy to allow AI ad targeting on Gmail/Photos data (novelty 3 x magnitude 2 x breadth 3 = 18), so today stands on its own.",
+  "motto": "Walled Off And Wide Open",
+  "phrase": "One AI lab sealed its smartest models away from the internet, citing hacking risks. Another company updated its policy so your inbox could feed its AI ads.",
+  "phraseAlternatives": [
+    "A top AI lab cut its newest models off the internet to stay safe. A tech company said your email could soon feed its AI ads.",
+    "An AI lab shut its models away from online risk. Another firm said your inbox may soon feed AI-targeted ads.",
+    "The smartest AI models just lost their internet access, for safety. Your inbox may soon gain an AI reader, for ads.",
+    "One company is protecting its AI from the open internet. Another wants your open inbox to train its ads, if you opt in."
+  ],
+  "brief": {
+    "concept": "A lab seals its most advanced AI model inside a glass vault, unplugging it from the open internet, while across the scene a person's inbox envelope grows a small AI robot peeking out, holding an ad-shaped megaphone, with a dotted line to an opt-in switch nearby.",
+    "metaphor": "Locking away a thing you fear while quietly adding a door to a thing you were supposed to protect.",
+    "cast": [
+      {
+        "who": "a robot sealed inside a glass vault, its cord unplugged from a cloud shape",
+        "kind": "ai"
+      },
+      {
+        "who": "a cloud shape with a simple network icon, a loose cord dangling beside it",
+        "kind": "object"
+      },
+      {
+        "who": "a person standing beside an open envelope-shaped inbox",
+        "kind": "person"
+      },
+      {
+        "who": "a small robot peering over the person's shoulder, holding a megaphone shaped like a price tag",
+        "kind": "ai"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Two panels split by a thin vertical line. Left: a robot sealed inside a glass vault, a loose cord dangling from a cloud shape above it to show a severed connection. Right: a person stands beside an open envelope-shaped inbox; a small robot peeks over their shoulder holding a megaphone shaped like a price tag, aimed at the inbox, with a small switch labeled 'ON' beside them to show the feature is optional. Keep shapes simple, one yellow highlight on the unplugged cord.",
+    "artType": "static",
+    "alt": "A two-panel illustration: on the left, a robot sits sealed inside a glass vault with its cord unplugged from a cloud shape above. On the right, a person stands beside an open envelope-shaped inbox and a small switch, while a small robot peers over their shoulder holding a megaphone shaped like a price tag."
+  },
+  "sourceIds": [
+    "feeds:806229ba7633",
+    "feeds:585ea363f084",
+    "techmeme:10d1a635fb77",
+    "feeds:1224eab7439e",
+    "feeds:8ea6bae4b0e7"
+  ],
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 2,
+    "labor": 2,
+    "policy": 2,
+    "law": 2,
+    "safety": 2,
+    "society": 3,
+    "planet": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
