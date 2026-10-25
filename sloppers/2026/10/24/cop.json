@@ -1,0 +1,29 @@
+{
+  "verdict": "revise",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: 'Half of its students missed that goal' — but the source states the ~50% miss rate is specific to 'K-8 students' and specifically 'in math', not the school network's students generally.",
+          "suggestion": "Narrow the claim to match the source's scope, e.g. 'Half its K-8 students missed that goal in math' instead of the unqualified 'Half of its students missed that goal.'",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"the same week economists found no AI payoff outside tech\" — but the only cited source for this claim is a single analysis by Torsten Slok, chief economist at Apollo Global Management (plus Apollo's own repost of the same piece), not a finding from multiple economists.",
+          "suggestion": "Replace \"economists found\" with something scoped to the single source, e.g. \"an economist found\" or \"Apollo's economist found,\" so the claim doesn't imply broader economist consensus than the source supports.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}

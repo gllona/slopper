@@ -1,0 +1,196 @@
+{
+  "date": "2026-10-24",
+  "number": 25,
+  "mode": "fresh",
+  "motto": "Twice As Fast, Zero Payoff",
+  "phrase": "A school network claims AI teaches kids twice as fast. Half its K-8 students missed that goal in math — the same week economists found no AI payoff outside tech.",
+  "phraseAlternatives": [
+    "One school network says its AI helps kids learn twice as fast. New data show half its K-8 students fell short in math — and so has the wider economy.",
+    "A school claims AI makes learning twice as fast. Half its K-8 students missed the mark in math, just as economists found AI still is not paying off outside tech.",
+    "Outside the classroom and outside the tech industry, AI's biggest promises are not yet adding up, according to this week's data and economics."
+  ],
+  "alt": "Split scene: on the left a robot tutor holds a bar chart labeled 2X overhead while one small child cheers above a thick dashed goal line and another sits worried below it. On the right, an office building glows pink behind its roof as a stream of coins funnels in from above, with a flat line chart labeled FLAT floating higher up beside the coin stream.",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "law": 1,
+    "safety": 2,
+    "society": 3,
+    "education": 2,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "ai-no-productivity-payoff",
+    "ai-school-results-gap",
+    "ai-models-split-on-politics",
+    "ai-and-the-creative-job-losses",
+    "platforms-scan-for-violence-threats",
+    "states-require-ai-ad-labels"
+  ],
+  "topStories": [
+    {
+      "title": "AI Shows No Clear Economic Payoff Outside Tech",
+      "itemIds": [
+        "techmeme:1a049d1ae328",
+        "hackernews:d76a689c9204"
+      ],
+      "dimensions": [
+        "industry",
+        "labor"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-no-productivity-payoff"
+    },
+    {
+      "title": "A School Network's AI Claims Don't Match The Data",
+      "itemIds": [
+        "techmeme:cf0cdaa3680e"
+      ],
+      "dimensions": [
+        "education",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-school-results-gap"
+    },
+    {
+      "title": "AI Models Split Along Political Lines",
+      "itemIds": [
+        "feeds:833d5d33c61d"
+      ],
+      "dimensions": [
+        "society",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-models-split-on-politics"
+    },
+    {
+      "title": "Creative Industry Job Losses Raise AI Questions",
+      "itemIds": [
+        "hackernews:1369780d96b3"
+      ],
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-and-the-creative-job-losses"
+    },
+    {
+      "title": "A Platform's AI-And-Human Team Flags Violence Threats",
+      "itemIds": [
+        "techmeme:3a2afeff6863"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "platforms-scan-for-violence-threats"
+    },
+    {
+      "title": "A State Requires Labels On AI-Generated Ads",
+      "itemIds": [
+        "feeds:f6c0a8a3f01d"
+      ],
+      "dimensions": [
+        "law",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "states-require-ai-ad-labels"
+    }
+  ],
+  "brief": {
+    "concept": "A school's AI tutor promises to double how fast children learn, but only half the class reaches the goal line, while in a parallel scene a company keeps feeding coins into a glowing AI box without its profit arrow ever rising.",
+    "metaphor": "A classroom goal line that half the students don't reach stands in for every AI promise that outruns its results.",
+    "cast": [
+      {
+        "who": "a robot tutor holding up a chart with a tall dotted goal line",
+        "kind": "ai"
+      },
+      {
+        "who": "a row of small human students at desks, some reaching the goal line and some sitting well below it",
+        "kind": "person"
+      },
+      {
+        "who": "an office building pouring a steady stream of coins into a glowing box marked AI",
+        "kind": "institution"
+      },
+      {
+        "who": "a flat profit arrow beside the coin stream, staying level instead of rising",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Split the frame in two. Left half: a classroom scene with the robot tutor presenting the goal-line chart to seated human students, a clear dotted line cutting the chart in half. Right half: the office building pouring coins into the glowing AI box, with the flat arrow drawn beside it at a constant height. Keep each half simple with only 2 elements; limit on-image text to '2X' on the chart and nothing else.",
+    "artType": "static",
+    "beats": [],
+    "alt": "A robot tutor holds up a chart with a dotted goal line; some small human students sit above it and some below. Beside this, an office building pours coins into a glowing box marked AI while a flat arrow next to it stays level."
+  },
+  "sources": [
+    {
+      "id": "techmeme:cf0cdaa3680e",
+      "title": "A look at Alpha School, a network of private schools that claims to teach kids 2x as fast using AI; data shows ~50% of K-8 students missed this goal in math (Dana Goldstein/New York Times)",
+      "url": "https://www.techmeme.com/261024/p7",
+      "source": "techmeme",
+      "publisher": "Techmeme",
+      "publishedAt": "2026-10-24T17:25:04.000Z"
+    },
+    {
+      "id": "techmeme:1a049d1ae328",
+      "title": "Outside of tech there has been no financial payoff to US companies for using AI, now viewed as a margin-hurting cost center, as VC-backed firms burn more tokens (Torsten Slok/Apollo Global Management)",
+      "url": "https://www.techmeme.com/261024/p9",
+      "source": "techmeme",
+      "publisher": "Techmeme",
+      "publishedAt": "2026-10-24T21:30:01.000Z"
+    },
+    {
+      "id": "hackernews:d76a689c9204",
+      "title": "No signs of AI payoff outside the tech sector",
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "source": "hackernews",
+      "publisher": "apollo.com",
+      "publishedAt": "2026-10-24T19:47:19.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.86,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "revise"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-25T11:47:28.142Z"
+}
