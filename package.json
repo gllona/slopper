@@ -32,14 +32,14 @@
     "attempt": "tsx pipeline/ops/attempts.ts"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.6",
-    "@anthropic-ai/claude-code": "^2.1.283",
-    "@types/node": "^26.6.3",
+    "@11ty/eleventy": "^3.1.7",
+    "@anthropic-ai/claude-code": "^2.1.308",
+    "@types/node": "^26.6.5",
     "@types/pngjs": "^6.0.5",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2",
-    "vitest": "^5.0.2",
-    "wrangler": "^4.141.0"
+    "vitest": "^5.0.5",
+    "wrangler": "^4.151.3"
   },
   "dependencies": {
     "fast-xml-parser": "^5.11.1",
