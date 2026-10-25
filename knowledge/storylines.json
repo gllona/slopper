@@ -2,6 +2,127 @@
   "version": 1,
   "storylines": [
     {
+      "id": "ai-no-productivity-payoff",
+      "title": "No Clear Economic Payoff From AI Outside Tech",
+      "dimensions": [
+        "industry",
+        "labor"
+      ],
+      "firstSeen": "2026-10-24",
+      "lastSeen": "2026-10-24",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-10-24"
+      ],
+      "motifs": [
+        "a company ledger with a cost column climbing and a profit column flat",
+        "a token-shaped meter burning money without turning a gear"
+      ]
+    },
+    {
+      "id": "ai-school-results-gap",
+      "title": "A School's AI Learning Claims Meet The Data",
+      "dimensions": [
+        "education",
+        "society"
+      ],
+      "firstSeen": "2026-10-24",
+      "lastSeen": "2026-10-24",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-10-24"
+      ],
+      "motifs": [
+        "a classroom chart with a dotted goal line half the seats don't reach",
+        "a report card with a glowing AI stamp beside an unchanged grade"
+      ]
+    },
+    {
+      "id": "ai-models-split-on-politics",
+      "title": "AI Models Split Along Political Lines",
+      "dimensions": [
+        "society",
+        "policy"
+      ],
+      "firstSeen": "2026-10-24",
+      "lastSeen": "2026-10-24",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-10-24"
+      ],
+      "motifs": [
+        "two chatbot speech bubbles pointing toward opposite ballot boxes",
+        "a voting machine marked by two different robot hands"
+      ]
+    },
+    {
+      "id": "ai-and-the-creative-job-losses",
+      "title": "Creative Industry Job Losses Raise AI Questions",
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "firstSeen": "2026-10-24",
+      "lastSeen": "2026-10-24",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-10-24"
+      ],
+      "motifs": [
+        "an empty director's chair beside a film reel turning into a robot hand",
+        "a paintbrush snapped in half next to a steady robot brush"
+      ]
+    },
+    {
+      "id": "platforms-scan-for-violence-threats",
+      "title": "A Platform's AI-And-Human Team Flags Violence Threats",
+      "dimensions": [
+        "safety",
+        "society",
+        "policy"
+      ],
+      "firstSeen": "2026-10-24",
+      "lastSeen": "2026-10-24",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-10-24"
+      ],
+      "motifs": [
+        "a social feed scanned by a robot eye searching for a warning sign",
+        "a human reviewer double-checking a flagged post beside a robot screen"
+      ]
+    },
+    {
+      "id": "states-require-ai-ad-labels",
+      "title": "A State Requires Labels On AI-Generated Ads",
+      "dimensions": [
+        "law",
+        "policy"
+      ],
+      "firstSeen": "2026-10-24",
+      "lastSeen": "2026-10-24",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-10-24"
+      ],
+      "motifs": [
+        "a government seal stamping a label onto an ad screen",
+        "a video ad frame marked with a small AI-MADE tag"
+      ]
+    },
+    {
       "id": "meta-scrapes-publishers-for-free",
       "title": "A Platform Rewrites Its Terms To Train On Publishers For Free",
       "dimensions": [
@@ -12,7 +133,7 @@
       "firstSeen": "2026-10-16",
       "lastSeen": "2026-10-23",
       "daysActive": 4,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-10-16",
@@ -36,7 +157,7 @@
       "firstSeen": "2026-10-23",
       "lastSeen": "2026-10-23",
       "daysActive": 1,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-10-23"
@@ -58,7 +179,7 @@
       "firstSeen": "2026-10-23",
       "lastSeen": "2026-10-23",
       "daysActive": 1,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-10-23"
@@ -79,7 +200,7 @@
       "firstSeen": "2026-10-23",
       "lastSeen": "2026-10-23",
       "daysActive": 1,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-10-23"
@@ -99,7 +220,7 @@
       "firstSeen": "2026-10-23",
       "lastSeen": "2026-10-23",
       "daysActive": 1,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-10-23"
@@ -120,7 +241,7 @@
       "firstSeen": "2026-10-23",
       "lastSeen": "2026-10-23",
       "daysActive": 1,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-10-23"
@@ -142,7 +263,7 @@
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-22",
       "daysActive": 7,
-      "heat": 0.7,
+      "heat": 0.49,
       "status": "active",
       "sloppers": [
         "2026-10-02",
@@ -170,7 +291,7 @@
       "firstSeen": "2026-10-21",
       "lastSeen": "2026-10-22",
       "daysActive": 2,
-      "heat": 0.7,
+      "heat": 0.49,
       "status": "active",
       "sloppers": [
         "2026-10-21",
@@ -193,7 +314,7 @@
       "firstSeen": "2026-10-19",
       "lastSeen": "2026-10-22",
       "daysActive": 2,
-      "heat": 0.7,
+      "heat": 0.49,
       "status": "active",
       "sloppers": [
         "2026-10-19",
@@ -216,7 +337,7 @@
       "firstSeen": "2026-10-22",
       "lastSeen": "2026-10-22",
       "daysActive": 1,
-      "heat": 0.7,
+      "heat": 0.49,
       "status": "active",
       "sloppers": [
         "2026-10-22"
@@ -236,7 +357,7 @@
       "firstSeen": "2026-10-22",
       "lastSeen": "2026-10-22",
       "daysActive": 1,
-      "heat": 0.7,
+      "heat": 0.49,
       "status": "active",
       "sloppers": [
         "2026-10-22"
@@ -257,7 +378,7 @@
       "firstSeen": "2026-10-20",
       "lastSeen": "2026-10-21",
       "daysActive": 2,
-      "heat": 0.49,
+      "heat": 0.343,
       "status": "active",
       "sloppers": [
         "2026-10-20",
@@ -280,7 +401,7 @@
       "firstSeen": "2026-10-21",
       "lastSeen": "2026-10-21",
       "daysActive": 1,
-      "heat": 0.49,
+      "heat": 0.343,
       "status": "active",
       "sloppers": [
         "2026-10-21"
@@ -300,7 +421,7 @@
       "firstSeen": "2026-10-21",
       "lastSeen": "2026-10-21",
       "daysActive": 1,
-      "heat": 0.49,
+      "heat": 0.343,
       "status": "active",
       "sloppers": [
         "2026-10-21"
@@ -320,7 +441,7 @@
       "firstSeen": "2026-10-20",
       "lastSeen": "2026-10-20",
       "daysActive": 1,
-      "heat": 0.343,
+      "heat": 0.24,
       "status": "active",
       "sloppers": [
         "2026-10-20"
@@ -339,7 +460,7 @@
       "firstSeen": "2026-10-20",
       "lastSeen": "2026-10-20",
       "daysActive": 1,
-      "heat": 0.343,
+      "heat": 0.24,
       "status": "active",
       "sloppers": [
         "2026-10-20"
@@ -361,7 +482,7 @@
       "firstSeen": "2026-10-20",
       "lastSeen": "2026-10-20",
       "daysActive": 1,
-      "heat": 0.343,
+      "heat": 0.24,
       "status": "active",
       "sloppers": [
         "2026-10-20"
@@ -382,7 +503,7 @@
       "firstSeen": "2026-10-13",
       "lastSeen": "2026-10-19",
       "daysActive": 3,
-      "heat": 0.24,
+      "heat": 0.168,
       "status": "active",
       "sloppers": [
         "2026-10-13",
@@ -406,7 +527,7 @@
       "firstSeen": "2026-10-14",
       "lastSeen": "2026-10-19",
       "daysActive": 2,
-      "heat": 0.24,
+      "heat": 0.168,
       "status": "active",
       "sloppers": [
         "2026-10-14",
@@ -428,7 +549,7 @@
       "firstSeen": "2026-10-19",
       "lastSeen": "2026-10-19",
       "daysActive": 1,
-      "heat": 0.24,
+      "heat": 0.168,
       "status": "active",
       "sloppers": [
         "2026-10-19"
@@ -450,7 +571,7 @@
       "firstSeen": "2026-10-19",
       "lastSeen": "2026-10-19",
       "daysActive": 1,
-      "heat": 0.24,
+      "heat": 0.168,
       "status": "active",
       "sloppers": [
         "2026-10-19"
@@ -471,7 +592,7 @@
       "firstSeen": "2026-10-19",
       "lastSeen": "2026-10-19",
       "daysActive": 1,
-      "heat": 0.24,
+      "heat": 0.168,
       "status": "active",
       "sloppers": [
         "2026-10-19"
@@ -491,7 +612,7 @@
       "firstSeen": "2026-10-13",
       "lastSeen": "2026-10-18",
       "daysActive": 4,
-      "heat": 0.168,
+      "heat": 0.118,
       "status": "active",
       "sloppers": [
         "2026-10-13",
@@ -515,7 +636,7 @@
       "firstSeen": "2026-09-30",
       "lastSeen": "2026-10-18",
       "daysActive": 7,
-      "heat": 0.168,
+      "heat": 0.118,
       "status": "active",
       "sloppers": [
         "2026-09-30",
@@ -543,7 +664,7 @@
       "firstSeen": "2026-10-18",
       "lastSeen": "2026-10-18",
       "daysActive": 1,
-      "heat": 0.168,
+      "heat": 0.118,
       "status": "active",
       "sloppers": [
         "2026-10-18"
@@ -564,7 +685,7 @@
       "firstSeen": "2026-10-18",
       "lastSeen": "2026-10-18",
       "daysActive": 1,
-      "heat": 0.168,
+      "heat": 0.118,
       "status": "active",
       "sloppers": [
         "2026-10-18"
@@ -585,8 +706,8 @@
       "firstSeen": "2026-10-06",
       "lastSeen": "2026-10-17",
       "daysActive": 2,
-      "heat": 0.118,
-      "status": "active",
+      "heat": 0.082,
+      "status": "dormant",
       "sloppers": [
         "2026-10-06",
         "2026-10-17"
@@ -607,8 +728,8 @@
       "firstSeen": "2026-10-17",
       "lastSeen": "2026-10-17",
       "daysActive": 1,
-      "heat": 0.118,
-      "status": "active",
+      "heat": 0.082,
+      "status": "dormant",
       "sloppers": [
         "2026-10-17"
       ],
@@ -627,8 +748,8 @@
       "firstSeen": "2026-10-17",
       "lastSeen": "2026-10-17",
       "daysActive": 1,
-      "heat": 0.118,
-      "status": "active",
+      "heat": 0.082,
+      "status": "dormant",
       "sloppers": [
         "2026-10-17"
       ],
@@ -647,8 +768,8 @@
       "firstSeen": "2026-10-17",
       "lastSeen": "2026-10-17",
       "daysActive": 1,
-      "heat": 0.118,
-      "status": "active",
+      "heat": 0.082,
+      "status": "dormant",
       "sloppers": [
         "2026-10-17"
       ],
@@ -668,7 +789,7 @@
       "firstSeen": "2026-10-06",
       "lastSeen": "2026-10-16",
       "daysActive": 2,
-      "heat": 0.082,
+      "heat": 0.058,
       "status": "dormant",
       "sloppers": [
         "2026-10-06",
@@ -690,7 +811,7 @@
       "firstSeen": "2026-10-16",
       "lastSeen": "2026-10-16",
       "daysActive": 1,
-      "heat": 0.082,
+      "heat": 0.058,
       "status": "dormant",
       "sloppers": [
         "2026-10-16"
@@ -711,7 +832,7 @@
       "firstSeen": "2026-10-16",
       "lastSeen": "2026-10-16",
       "daysActive": 1,
-      "heat": 0.082,
+      "heat": 0.058,
       "status": "dormant",
       "sloppers": [
         "2026-10-16"
@@ -732,7 +853,7 @@
       "firstSeen": "2026-10-16",
       "lastSeen": "2026-10-16",
       "daysActive": 1,
-      "heat": 0.082,
+      "heat": 0.058,
       "status": "dormant",
       "sloppers": [
         "2026-10-16"
@@ -753,7 +874,7 @@
       "firstSeen": "2026-10-06",
       "lastSeen": "2026-10-15",
       "daysActive": 3,
-      "heat": 0.058,
+      "heat": 0.04,
       "status": "dormant",
       "sloppers": [
         "2026-10-06",
@@ -776,7 +897,7 @@
       "firstSeen": "2026-10-15",
       "lastSeen": "2026-10-15",
       "daysActive": 1,
-      "heat": 0.058,
+      "heat": 0.04,
       "status": "dormant",
       "sloppers": [
         "2026-10-15"
@@ -796,7 +917,7 @@
       "firstSeen": "2026-10-15",
       "lastSeen": "2026-10-15",
       "daysActive": 1,
-      "heat": 0.058,
+      "heat": 0.04,
       "status": "dormant",
       "sloppers": [
         "2026-10-15"
@@ -816,7 +937,7 @@
       "firstSeen": "2026-10-15",
       "lastSeen": "2026-10-15",
       "daysActive": 1,
-      "heat": 0.058,
+      "heat": 0.04,
       "status": "dormant",
       "sloppers": [
         "2026-10-15"
@@ -837,7 +958,7 @@
       "firstSeen": "2026-10-15",
       "lastSeen": "2026-10-15",
       "daysActive": 1,
-      "heat": 0.058,
+      "heat": 0.04,
       "status": "dormant",
       "sloppers": [
         "2026-10-15"
@@ -857,7 +978,7 @@
       "firstSeen": "2026-10-15",
       "lastSeen": "2026-10-15",
       "daysActive": 1,
-      "heat": 0.058,
+      "heat": 0.04,
       "status": "dormant",
       "sloppers": [
         "2026-10-15"
@@ -878,7 +999,7 @@
       "firstSeen": "2026-10-07",
       "lastSeen": "2026-10-14",
       "daysActive": 2,
-      "heat": 0.04,
+      "heat": 0.028,
       "status": "dormant",
       "sloppers": [
         "2026-10-07",
@@ -900,7 +1021,7 @@
       "firstSeen": "2026-10-14",
       "lastSeen": "2026-10-14",
       "daysActive": 1,
-      "heat": 0.04,
+      "heat": 0.028,
       "status": "dormant",
       "sloppers": [
         "2026-10-14"
@@ -919,7 +1040,7 @@
       "firstSeen": "2026-10-14",
       "lastSeen": "2026-10-14",
       "daysActive": 1,
-      "heat": 0.04,
+      "heat": 0.028,
       "status": "dormant",
       "sloppers": [
         "2026-10-14"
@@ -940,7 +1061,7 @@
       "firstSeen": "2026-10-14",
       "lastSeen": "2026-10-14",
       "daysActive": 1,
-      "heat": 0.04,
+      "heat": 0.028,
       "status": "dormant",
       "sloppers": [
         "2026-10-14"
@@ -959,7 +1080,7 @@
       "firstSeen": "2026-10-12",
       "lastSeen": "2026-10-13",
       "daysActive": 2,
-      "heat": 0.028,
+      "heat": 0.02,
       "status": "dormant",
       "sloppers": [
         "2026-10-12",
@@ -980,7 +1101,7 @@
       "firstSeen": "2026-10-13",
       "lastSeen": "2026-10-13",
       "daysActive": 1,
-      "heat": 0.028,
+      "heat": 0.02,
       "status": "dormant",
       "sloppers": [
         "2026-10-13"
@@ -1001,7 +1122,7 @@
       "firstSeen": "2026-10-13",
       "lastSeen": "2026-10-13",
       "daysActive": 1,
-      "heat": 0.028,
+      "heat": 0.02,
       "status": "dormant",
       "sloppers": [
         "2026-10-13"
@@ -1021,7 +1142,7 @@
       "firstSeen": "2026-10-13",
       "lastSeen": "2026-10-13",
       "daysActive": 1,
-      "heat": 0.028,
+      "heat": 0.02,
       "status": "dormant",
       "sloppers": [
         "2026-10-13"
@@ -1041,7 +1162,7 @@
       "firstSeen": "2026-09-30",
       "lastSeen": "2026-10-12",
       "daysActive": 4,
-      "heat": 0.02,
+      "heat": 0.014,
       "status": "dormant",
       "sloppers": [
         "2026-09-30",
@@ -1066,7 +1187,7 @@
       "firstSeen": "2026-10-12",
       "lastSeen": "2026-10-12",
       "daysActive": 1,
-      "heat": 0.02,
+      "heat": 0.014,
       "status": "dormant",
       "sloppers": [
         "2026-10-12"
@@ -1087,7 +1208,7 @@
       "firstSeen": "2026-10-12",
       "lastSeen": "2026-10-12",
       "daysActive": 1,
-      "heat": 0.02,
+      "heat": 0.014,
       "status": "dormant",
       "sloppers": [
         "2026-10-12"
@@ -1107,7 +1228,7 @@
       "firstSeen": "2026-10-12",
       "lastSeen": "2026-10-12",
       "daysActive": 1,
-      "heat": 0.02,
+      "heat": 0.014,
       "status": "dormant",
       "sloppers": [
         "2026-10-12"
@@ -1127,7 +1248,7 @@
       "firstSeen": "2026-10-12",
       "lastSeen": "2026-10-12",
       "daysActive": 1,
-      "heat": 0.02,
+      "heat": 0.014,
       "status": "dormant",
       "sloppers": [
         "2026-10-12"
@@ -1148,7 +1269,7 @@
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-11",
       "daysActive": 3,
-      "heat": 0.014,
+      "heat": 0.01,
       "status": "dormant",
       "sloppers": [
         "2026-10-02",
@@ -1172,7 +1293,7 @@
       "firstSeen": "2026-10-11",
       "lastSeen": "2026-10-11",
       "daysActive": 1,
-      "heat": 0.014,
+      "heat": 0.01,
       "status": "dormant",
       "sloppers": [
         "2026-10-11"
@@ -1193,7 +1314,7 @@
       "firstSeen": "2026-10-11",
       "lastSeen": "2026-10-11",
       "daysActive": 1,
-      "heat": 0.014,
+      "heat": 0.01,
       "status": "dormant",
       "sloppers": [
         "2026-10-11"
@@ -1213,7 +1334,7 @@
       "firstSeen": "2026-10-11",
       "lastSeen": "2026-10-11",
       "daysActive": 1,
-      "heat": 0.014,
+      "heat": 0.01,
       "status": "dormant",
       "sloppers": [
         "2026-10-11"
@@ -1233,7 +1354,7 @@
       "firstSeen": "2026-10-11",
       "lastSeen": "2026-10-11",
       "daysActive": 1,
-      "heat": 0.014,
+      "heat": 0.01,
       "status": "dormant",
       "sloppers": [
         "2026-10-11"
@@ -1254,7 +1375,7 @@
       "firstSeen": "2026-10-09",
       "lastSeen": "2026-10-10",
       "daysActive": 2,
-      "heat": 0.01,
+      "heat": 0.007,
       "status": "dormant",
       "sloppers": [
         "2026-10-09",
@@ -1275,7 +1396,7 @@
       "firstSeen": "2026-10-01",
       "lastSeen": "2026-10-10",
       "daysActive": 2,
-      "heat": 0.01,
+      "heat": 0.007,
       "status": "dormant",
       "sloppers": [
         "2026-10-01",
@@ -1297,7 +1418,7 @@
       "firstSeen": "2026-10-10",
       "lastSeen": "2026-10-10",
       "daysActive": 1,
-      "heat": 0.01,
+      "heat": 0.007,
       "status": "dormant",
       "sloppers": [
         "2026-10-10"
@@ -1318,7 +1439,7 @@
       "firstSeen": "2026-10-10",
       "lastSeen": "2026-10-10",
       "daysActive": 1,
-      "heat": 0.01,
+      "heat": 0.007,
       "status": "dormant",
       "sloppers": [
         "2026-10-10"
@@ -1339,7 +1460,7 @@
       "firstSeen": "2026-10-09",
       "lastSeen": "2026-10-09",
       "daysActive": 1,
-      "heat": 0.007,
+      "heat": 0.005,
       "status": "dormant",
       "sloppers": [
         "2026-10-09"
@@ -1360,7 +1481,7 @@
       "firstSeen": "2026-10-09",
       "lastSeen": "2026-10-09",
       "daysActive": 1,
-      "heat": 0.007,
+      "heat": 0.005,
       "status": "dormant",
       "sloppers": [
         "2026-10-09"
@@ -1380,7 +1501,7 @@
       "firstSeen": "2026-10-09",
       "lastSeen": "2026-10-09",
       "daysActive": 1,
-      "heat": 0.007,
+      "heat": 0.005,
       "status": "dormant",
       "sloppers": [
         "2026-10-09"
@@ -1401,7 +1522,7 @@
       "firstSeen": "2026-10-07",
       "lastSeen": "2026-10-08",
       "daysActive": 2,
-      "heat": 0.005,
+      "heat": 0.003,
       "status": "dormant",
       "sloppers": [
         "2026-10-07",
@@ -1423,7 +1544,7 @@
       "firstSeen": "2026-10-08",
       "lastSeen": "2026-10-08",
       "daysActive": 1,
-      "heat": 0.005,
+      "heat": 0.003,
       "status": "dormant",
       "sloppers": [
         "2026-10-08"
@@ -1442,7 +1563,7 @@
       "firstSeen": "2026-10-08",
       "lastSeen": "2026-10-08",
       "daysActive": 1,
-      "heat": 0.005,
+      "heat": 0.003,
       "status": "dormant",
       "sloppers": [
         "2026-10-08"
@@ -1462,7 +1583,7 @@
       "firstSeen": "2026-10-08",
       "lastSeen": "2026-10-08",
       "daysActive": 1,
-      "heat": 0.005,
+      "heat": 0.003,
       "status": "dormant",
       "sloppers": [
         "2026-10-08"
@@ -1482,7 +1603,7 @@
       "firstSeen": "2026-10-08",
       "lastSeen": "2026-10-08",
       "daysActive": 1,
-      "heat": 0.005,
+      "heat": 0.003,
       "status": "dormant",
       "sloppers": [
         "2026-10-08"
@@ -1503,7 +1624,7 @@
       "firstSeen": "2026-10-01",
       "lastSeen": "2026-10-07",
       "daysActive": 2,
-      "heat": 0.003,
+      "heat": 0.002,
       "status": "dormant",
       "sloppers": [
         "2026-10-01",
@@ -1524,7 +1645,7 @@
       "firstSeen": "2026-10-07",
       "lastSeen": "2026-10-07",
       "daysActive": 1,
-      "heat": 0.003,
+      "heat": 0.002,
       "status": "dormant",
       "sloppers": [
         "2026-10-07"
@@ -1544,7 +1665,7 @@
       "firstSeen": "2026-10-07",
       "lastSeen": "2026-10-07",
       "daysActive": 1,
-      "heat": 0.003,
+      "heat": 0.002,
       "status": "dormant",
       "sloppers": [
         "2026-10-07"
@@ -1565,7 +1686,7 @@
       "firstSeen": "2026-10-07",
       "lastSeen": "2026-10-07",
       "daysActive": 1,
-      "heat": 0.003,
+      "heat": 0.002,
       "status": "dormant",
       "sloppers": [
         "2026-10-07"
@@ -1608,7 +1729,7 @@
       "firstSeen": "2026-10-04",
       "lastSeen": "2026-10-05",
       "daysActive": 2,
-      "heat": 0.002,
+      "heat": 0.001,
       "status": "dormant",
       "sloppers": [
         "2026-10-04",
@@ -1629,7 +1750,7 @@
       "firstSeen": "2026-10-03",
       "lastSeen": "2026-10-05",
       "daysActive": 2,
-      "heat": 0.002,
+      "heat": 0.001,
       "status": "dormant",
       "sloppers": [
         "2026-10-03",
@@ -1651,7 +1772,7 @@
       "firstSeen": "2026-10-05",
       "lastSeen": "2026-10-05",
       "daysActive": 1,
-      "heat": 0.002,
+      "heat": 0.001,
       "status": "dormant",
       "sloppers": [
         "2026-10-05"
@@ -1673,7 +1794,7 @@
       "firstSeen": "2026-10-05",
       "lastSeen": "2026-10-05",
       "daysActive": 1,
-      "heat": 0.002,
+      "heat": 0.001,
       "status": "dormant",
       "sloppers": [
         "2026-10-05"
@@ -1693,7 +1814,7 @@
       "firstSeen": "2026-10-05",
       "lastSeen": "2026-10-05",
       "daysActive": 1,
-      "heat": 0.002,
+      "heat": 0.001,
       "status": "dormant",
       "sloppers": [
         "2026-10-05"
@@ -1714,7 +1835,7 @@
       "firstSeen": "2026-10-05",
       "lastSeen": "2026-10-05",
       "daysActive": 1,
-      "heat": 0.002,
+      "heat": 0.001,
       "status": "dormant",
       "sloppers": [
         "2026-10-05"
@@ -1860,7 +1981,7 @@
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
       "daysActive": 1,
-      "heat": 0.001,
+      "heat": 0,
       "status": "dormant",
       "sloppers": [
         "2026-10-02"
@@ -1881,7 +2002,7 @@
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
       "daysActive": 1,
-      "heat": 0.001,
+      "heat": 0,
       "status": "dormant",
       "sloppers": [
         "2026-10-02"
@@ -1902,7 +2023,7 @@
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-10-02",
       "daysActive": 1,
-      "heat": 0.001,
+      "heat": 0,
       "status": "dormant",
       "sloppers": [
         "2026-10-02"

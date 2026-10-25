@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"tutor\" extends outside the safe area in the final frame (x 18…284, y 542…907)",
+          "\"goalchart\" extends outside the safe area in the final frame (x 57…233, y 394…520)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 3,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Cast and concept are coherent and kind, but a large empty upper canvas, flagged safe-area breaches, and a muddled right-side payoff gag drag the average just under the passing bar — needs a composition rebalance before publishing.",
+        "revisionNotes": [
+          "Composition: the top ~35% of the canvas (y 0–380) is empty cream background, while everything is crammed below y 540 — scale up the tutor+chart stack and raise the chart anchor toward y 0.3 so the frame fills more evenly.",
+          "Lint flags \"tutor\" and \"goalchart\" breaching the safe area (tutor x 18–284/y 542–907; chart x 57–233/y 394–520) — nudge tutor's anchor from x 0.14 to ~0.18 and shrink goalchart slightly so both clear the margin.",
+          "Right vignette reads weak: three stacked coin circles don't convey \"pouring into\" the box, and the datacenter isn't glowing — add a short raw drip/stream shape linking coins to the box and give the box a glow highlight so the no-payoff gag lands as fast as the classroom gag.",
+          "The left half carries the only on-image text (2X); the right half feels bare by comparison — consider a tiny flat-line callout near the arrow chart to balance the two vignettes visually.",
+          "Palette and bottom-anchored split layout (cream/blue duotone, humans+robot standing in a row) are close to several recent pieces — vary the horizon treatment or accent pairing to read as more distinct from the recent set."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The cast and palette are on-brand, but the render has real bugs: the coin stream reads as a warning triangle instead of money, the dashed goal line is invisible, and the flat profit-arrow chart overlaps and obscures the worried student — so the 'half the class missed the goal' half of the joke doesn't land. Fails on clarity/composition/polish.",
+        "revisionNotes": [
+          "Fix the coinstream raw SVG: it currently renders as a triangular alert/warning icon above the office, not coins pouring in — rebuild as a visible stack of coin circles clearly funneling into the roof.",
+          "Add or thicken the studentgoalline dashed line at x=0.55,y=0.673 — it isn't visible in the render, so the 'half the class missed the goal line' metaphor is lost.",
+          "Re-anchor the 'arrow' flat-line chart (currently attached to office, side left, offset [20,0]) — it overlaps studentb's face/body, making the worried child read as a headless torso holding the FLAT chart.",
+          "Give studentb (worried, sit) its own clear space; confirm the 'sit' pose actually renders seated at a desk rather than standing and obscured.",
+          "Widen the gap between the classroom cluster and the office cluster per the brief's 'split the frame in two' instruction — the middle is currently crowded with four overlapping elements.",
+          "Make officeglow visibly brighter/larger behind the datacenter — it's imperceptible against the building color, so the 'glowing AI box' idea doesn't land."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"tutor\" extends outside the safe area in the final frame (x 4…341, y 455…918)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 5,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "A clear, kindly-cast split metaphor (robot tutor/human kids vs. institution feeding a flat AI payoff) that reads fast and passes, but the tutor robot's hand is cropped by the left edge — fix that clipping and it's solid.",
+        "revisionNotes": [
+          "Shift \"tutor\" anchor from x:0.16 to ~x:0.20–0.22 (or scale down 0.95→0.85) so the raised left arm/hand clears the canvas edge instead of being clipped — this matches the lint warning and is visibly cut off in the still.",
+          "Move \"goalchart\" and \"label2x\" in tandem with the tutor's new x so the 2X chart stays centered above its head.",
+          "Add ~10–15px more offset between \"coinstream\" and \"arrow\" so the top coin doesn't crowd the bottom edge of the FLAT chart frame.",
+          "Scale \"studentb\" up slightly (0.55→0.65) so the worried seated pose reads as clearly as studenta's cheer pose at thumbnail size."
+        ]
+      },
+      "average": 3.86,
+      "passed": true
+    }
+  ]
+}

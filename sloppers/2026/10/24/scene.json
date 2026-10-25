@@ -1,0 +1,176 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {
+    "type": "split",
+    "horizon": 0.78,
+    "color": "bg",
+    "color2": "accent2"
+  },
+  "elements": [
+    {
+      "id": "tutor",
+      "component": "robot",
+      "at": {
+        "x": 0.16,
+        "y": 0.85
+      },
+      "scale": 0.95,
+      "props": {
+        "mood": "proud",
+        "arms": "up",
+        "color": "body"
+      }
+    },
+    {
+      "id": "goalchart",
+      "component": "chart",
+      "attachTo": "tutor",
+      "side": "top",
+      "scale": 0.48,
+      "props": {
+        "type": "bar",
+        "values": [
+          0.85,
+          0.3,
+          0.8,
+          0.25
+        ],
+        "highlight": "max",
+        "frame": true
+      }
+    },
+    {
+      "id": "label2x",
+      "component": "label",
+      "attachTo": "goalchart",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "2X",
+        "size": "md",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "studenta",
+      "component": "human",
+      "at": {
+        "x": 0.34,
+        "y": 0.85
+      },
+      "scale": 0.6,
+      "props": {
+        "kind": "child",
+        "mood": "happy",
+        "pose": "cheer",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "studentb",
+      "component": "human",
+      "at": {
+        "x": 0.46,
+        "y": 0.85
+      },
+      "scale": 0.55,
+      "props": {
+        "kind": "child",
+        "mood": "worried",
+        "pose": "sit",
+        "color": "body"
+      }
+    },
+    {
+      "id": "studentgoalline",
+      "component": "raw",
+      "at": {
+        "x": 0.41,
+        "y": 0.685
+      },
+      "scale": 1,
+      "props": {
+        "width": 280,
+        "height": 16
+      },
+      "svg": "<line class=\"r-accent\" x1=\"0\" y1=\"8\" x2=\"280\" y2=\"8\" stroke-width=\"10\" stroke-dasharray=\"18 10\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "officeglow",
+      "component": "raw",
+      "at": {
+        "x": 0.78,
+        "y": 0.7
+      },
+      "scale": 1,
+      "props": {
+        "width": 340,
+        "height": 400
+      },
+      "svg": "<rect class=\"r-glow\" x=\"0\" y=\"0\" width=\"340\" height=\"400\" rx=\"150\"/><circle class=\"r-glow\" cx=\"170\" cy=\"260\" r=\"120\"/>"
+    },
+    {
+      "id": "office",
+      "component": "datacenter",
+      "at": {
+        "x": 0.8,
+        "y": 0.85
+      },
+      "scale": 0.9,
+      "props": {
+        "racks": 3,
+        "lights": "busy",
+        "steam": false
+      }
+    },
+    {
+      "id": "coinstream",
+      "component": "raw",
+      "attachTo": "office",
+      "side": "top",
+      "offset": [
+        0,
+        4
+      ],
+      "scale": 1,
+      "props": {
+        "width": 90,
+        "height": 200
+      },
+      "svg": "<circle class=\"r-accent\" cx=\"45\" cy=\"18\" r=\"14\"/><circle class=\"r-accent\" cx=\"28\" cy=\"54\" r=\"13\"/><circle class=\"r-accent\" cx=\"62\" cy=\"54\" r=\"13\"/><circle class=\"r-accent\" cx=\"38\" cy=\"90\" r=\"12\"/><circle class=\"r-accent\" cx=\"55\" cy=\"90\" r=\"12\"/><circle class=\"r-accent\" cx=\"45\" cy=\"126\" r=\"11\"/><circle class=\"r-accent\" cx=\"45\" cy=\"160\" r=\"10\"/><circle class=\"r-accent\" cx=\"45\" cy=\"188\" r=\"9\"/>"
+    },
+    {
+      "id": "arrow",
+      "component": "chart",
+      "attachTo": "coinstream",
+      "side": "top",
+      "scale": 0.26,
+      "props": {
+        "type": "line",
+        "values": [
+          0.4,
+          0.42,
+          0.39,
+          0.41
+        ],
+        "arrow": true,
+        "highlight": "none",
+        "frame": true
+      }
+    },
+    {
+      "id": "flatlabel",
+      "component": "label",
+      "attachTo": "arrow",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "FLAT",
+        "size": "sm",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "Split scene: on the left a robot tutor holds a bar chart labeled 2X overhead while one small child cheers above a thick dashed goal line and another sits worried below it. On the right, an office building glows pink behind its roof as a stream of coins funnels in from above, with a flat line chart labeled FLAT floating higher up beside the coin stream."
+}
