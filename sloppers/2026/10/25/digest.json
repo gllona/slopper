@@ -1,0 +1,740 @@
+{
+  "date": "2026-10-25",
+  "fetchedAt": "2026-10-26T11:08:20.881Z",
+  "sources": [
+    {
+      "source": "feeds",
+      "ok": true,
+      "count": 7
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 14
+    },
+    {
+      "source": "gdelt",
+      "ok": false,
+      "count": 0,
+      "error": "all GDELT queries failed"
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "count": 7
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 40
+    }
+  ],
+  "items": [
+    {
+      "id": "feeds:4c846e7466eb",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "title": "r/opensource just banned AI, non-English speakers, and more",
+      "snippet": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource. AI, as it exists today, is incongruent to…",
+      "publishedAt": "2026-10-25T13:25:32.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:43a9cd40ee9c",
+      "source": "feeds",
+      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+      "title": "Google’s AI search changes upended online publishing",
+      "snippet": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more about AI's impact on the web, follow Emma Roth. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started The digital publishing…",
+      "publishedAt": "2026-10-25T12:00:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:ce8585cd4964",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/what-the-us-anti-data-center-movement-can-learn-from-everywhere-else/",
+      "title": "What the US Movement Against Data Centers Can Learn From Abroad",
+      "snippet": "Paris Marx, author of Hyperscale, has been tracking global data center development for years. The US has a lot to learn from what’s happened everywhere from Ireland to New Zealand.",
+      "publishedAt": "2026-10-25T10:00:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:912d0050e8fe",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "snippet": "The footage looks okay, as long as you're not seeking artistry, inspiration, or human interest.",
+      "publishedAt": "2026-10-25T21:31:16.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:79ffda0a470c",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+      "snippet": "\"Despite massive investments and widespread hype around artificial intelligence, the technology has delivered zero financial payoff to corporate America outside of tech.\"",
+      "publishedAt": "2026-10-25T16:57:32.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:f0c80d5858e0",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "snippet": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+      "publishedAt": "2026-10-25T14:10:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:d8c07416bcc2",
+      "source": "feeds",
+      "url": "https://www.bbc.co.uk/news/articles/cq2e9we7w2ejo?at_medium=RSS&at_campaign=rss",
+      "title": "Big, noisy and coming to a town near you - why the data centre backlash is growing",
+      "snippet": "Data centres are the lifeblood of our digital world, but there are growing concerns about their environmental impact. The BBC explores their rise in charts.",
+      "publishedAt": "2026-10-25T23:44:34.000Z",
+      "publisher": "BBC News",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:b83204b7e9c1",
+      "source": "hackernews",
+      "url": "https://lynchlab.net/llm-skin-cancer",
+      "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
+      "snippet": "570 points and 244 comments on Hacker News (https://news.ycombinator.com/item?id=50233779).",
+      "publishedAt": "2026-10-25T17:15:38.000Z",
+      "score": 570,
+      "publisher": "lynchlab.net",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:a2637483f507",
+      "source": "hackernews",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "snippet": "356 points and 134 comments on Hacker News (https://news.ycombinator.com/item?id=50227356).",
+      "publishedAt": "2026-10-25T01:33:49.000Z",
+      "score": 356,
+      "publisher": "cerebras.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:240888442444",
+      "source": "hackernews",
+      "url": "https://minimaxir.com/2026/10/cheap-llms/",
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "snippet": "328 points and 320 comments on Hacker News (https://news.ycombinator.com/item?id=50236102).",
+      "publishedAt": "2026-10-25T21:11:31.000Z",
+      "score": 328,
+      "publisher": "minimaxir.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:9fec697fddc7",
+      "source": "hackernews",
+      "url": "https://www.dailycal.org/news/campus/academics/ai-use-leads-uc-berkeley-math-professor-to-see-no-point-in-grading-homework/article_bdf1eae2-c08b-491f-b9f1-81a7cea177de.html",
+      "title": "AI use leads UC Berkeley math professor to see 'no point' in grading homework",
+      "snippet": "220 points and 320 comments on Hacker News (https://news.ycombinator.com/item?id=50233304).",
+      "publishedAt": "2026-10-25T16:28:26.000Z",
+      "score": 220,
+      "publisher": "dailycal.org",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:edf1fccf0afb",
+      "source": "hackernews",
+      "url": "https://www.techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html",
+      "title": "Nikon photography contest winner loses title after scientists spot signs of AI",
+      "snippet": "141 points and 77 comments on Hacker News (https://news.ycombinator.com/item?id=50229827).",
+      "publishedAt": "2026-10-25T09:51:17.000Z",
+      "score": 141,
+      "publisher": "techspot.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:3445f19e8688",
+      "source": "hackernews",
+      "url": "https://twitter.com/boneGPT/status/2114035719853265264",
+      "title": "Imagine an AI future where being banned means you are now economically useless",
+      "snippet": "97 points and 78 comments on Hacker News (https://news.ycombinator.com/item?id=50230995).",
+      "publishedAt": "2026-10-25T12:47:20.000Z",
+      "score": 97,
+      "publisher": "twitter.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:9626b225e4c7",
+      "source": "hackernews",
+      "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
+      "title": "R/open source bans all solo projects and projects using LLMs",
+      "snippet": "88 points and 111 comments on Hacker News (https://news.ycombinator.com/item?id=50231722).",
+      "publishedAt": "2026-10-25T14:05:03.000Z",
+      "score": 88,
+      "publisher": "reddit.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:1586649ea722",
+      "source": "hackernews",
+      "url": "https://armincat.com/articles/eunice-is-almost-here",
+      "title": "Eunice is almost here",
+      "snippet": "75 points and 74 comments on Hacker News (https://news.ycombinator.com/item?id=50235316).",
+      "publishedAt": "2026-10-25T19:40:27.000Z",
+      "score": 75,
+      "publisher": "armincat.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:00f9a3573018",
+      "source": "hackernews",
+      "url": "https://huggingface.co/destined/hurston-1",
+      "title": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+      "snippet": "61 points and 25 comments on Hacker News (https://news.ycombinator.com/item?id=50227330).",
+      "publishedAt": "2026-10-25T01:30:13.000Z",
+      "score": 61,
+      "publisher": "huggingface.co",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:27c253473cd5",
+      "source": "hackernews",
+      "url": "https://www.theatlantic.com/ideas/2026/10/ai-math-human-future/689133/",
+      "title": "A mathematician reads the AI future",
+      "snippet": "60 points and 86 comments on Hacker News (https://news.ycombinator.com/item?id=50233347).",
+      "publishedAt": "2026-10-25T16:31:21.000Z",
+      "score": 60,
+      "publisher": "theatlantic.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:5c8192d7a006",
+      "source": "hackernews",
+      "url": "https://www.businessinsider.com/apollo-ai-zero-financial-payoff-corporate-america-economic-analysis-2026-10",
+      "title": "Apollo says AI has delivered 'zero financial payoff' outside the tech industry",
+      "snippet": "57 points and 37 comments on Hacker News (https://news.ycombinator.com/item?id=50236828).",
+      "publishedAt": "2026-10-25T22:49:06.000Z",
+      "score": 57,
+      "publisher": "businessinsider.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:763e1f9af686",
+      "source": "hackernews",
+      "url": "https://vithushansylvester.com/writing/the-real-impact-of-ai-on-tech-jobs",
+      "title": "AI didn't cause the tech jobs bust, but it explains why there's no recovery",
+      "snippet": "53 points and 23 comments on Hacker News (https://news.ycombinator.com/item?id=50234699).",
+      "publishedAt": "2026-10-25T18:42:23.000Z",
+      "score": 53,
+      "publisher": "vithushansylvester.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:5e1fbf432a70",
+      "source": "hackernews",
+      "url": "https://www.showbiz411.com/2026/10/23/controversial-musk-documentary-pulled-from-almost-every-one-of-472-theaters-after-one-week-by-newly-sold-bleecker-street-films",
+      "title": "\"Musk\" Documentary Pulled from Almost Every One of 472 Theaters After One Week",
+      "snippet": "52 points and 18 comments on Hacker News (https://news.ycombinator.com/item?id=50227403).",
+      "publishedAt": "2026-10-25T01:40:01.000Z",
+      "score": 52,
+      "publisher": "showbiz411.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:9cfb5433a5a1",
+      "source": "hackernews",
+      "url": "https://adrs.systems/",
+      "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
+      "snippet": "45 points and 28 comments on Hacker News (https://news.ycombinator.com/item?id=50227041).",
+      "publishedAt": "2026-10-25T00:43:47.000Z",
+      "score": 45,
+      "publisher": "adrs.systems",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:cac24968e5aa",
+      "source": "huggingface",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "title": "Trending open model: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "snippet": "Task: image-text-to-text. 3073 likes, 95889 downloads.",
+      "publishedAt": "2026-10-17T02:40:38.000Z",
+      "score": 1107,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:6c5b89fb0ac8",
+      "source": "huggingface",
+      "url": "https://huggingface.co/RecursiveSI/flint",
+      "title": "Trending open model: RecursiveSI/flint",
+      "snippet": "Task: text-generation. 882 likes, 8470 downloads.",
+      "publishedAt": "2026-10-21T14:20:58.000Z",
+      "score": 849,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:653d82f9a295",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+      "title": "Trending open model: Nanbeige/Nanbeige4.3-33B",
+      "snippet": "Task: text-generation. 510 likes, 2787 downloads.",
+      "publishedAt": "2026-10-24T02:49:18.000Z",
+      "score": 508,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:37ea901da6ec",
+      "source": "huggingface",
+      "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+      "title": "Trending open model: XHToken/Spark-X2.6-4B",
+      "snippet": "Task: text-generation. 579 likes, 4726 downloads.",
+      "publishedAt": "2026-10-19T03:19:51.000Z",
+      "score": 505,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:5a9bda72c1d1",
+      "source": "huggingface",
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+      "title": "Trending open model: black-forest-labs/flux-3-image-klein-comfy",
+      "snippet": "Task: image-to-image. 1641 likes, 700652 downloads.",
+      "publishedAt": "2026-10-14T12:00:13.000Z",
+      "score": 480,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:2eb678169a42",
+      "source": "huggingface",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+      "title": "Trending open model: MiniMaxAI/MiniMax-M3.1-Flash",
+      "snippet": "Task: image-text-to-text. 364 likes, 8782 downloads.",
+      "publishedAt": "2026-10-17T06:37:50.000Z",
+      "score": 353,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:d55e01a42324",
+      "source": "huggingface",
+      "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Image-SFT",
+      "title": "Trending open model: OpenMOSS-Team/MOSS-Image-SFT",
+      "snippet": "Task: text-to-image. 738 likes, 12114 downloads.",
+      "publishedAt": "2026-10-11T07:01:17.000Z",
+      "score": 323,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:589d314edb04",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31739",
+      "title": "Generalized green and red concepts for artificial intelligence, big data, and information and communication technologies: Multidimensional framework and countermeasures",
+      "snippet": "The rapid expansions of artificial intelligence (AI), big data (BD), and information and communication technologies (ICT) are driving substantial growth in electricity, water, and material demands, with data centers projected to consume 6.7--12\\% of U.S. electricity by 2028 (up from 4.4\\% in 2023)…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:ec2702d38e36",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31874",
+      "title": "Mining Frames: Association Rule Mining as an Unsupervised Framework for News Framing Detection",
+      "snippet": "Computational framing analysis is dominated by supervised classifiers that require large annotated corpora and predefined frame taxonomies, limiting their use for non-English languages, novel events, and low-resource settings. This paper presents Association Rule Mining (ARM) as an unsupervised…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:246589e0f769",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31875",
+      "title": "An AI Factory for Technology Education: An Agentic Pipeline with Closed Loop Audience Feedback",
+      "snippet": "Technology tools used for professional upskilling change on a timescale of weeks, and written guidance about them ages at the same pace. Large language models have made it inexpensive to draft a tutorial or a course outline, but most deployed generation systems still produce a piece of content…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:59bed3888d46",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31993",
+      "title": "AusClinBench: a deterministically scored benchmark of large language models against current Australian clinical policy",
+      "snippet": "AI models already inform clinical decisions and draft notes in Australian clinical software, usually without the practitioner being told which model is used. Existing medical benchmarks are written for other jurisdictions. We wrote 142 questions from Australian guidelines and schedules across five…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:2a3c52a5b522",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.32066",
+      "title": "Thumb on the scale: Using traditional wargaming adjudication practices to improve AI-judged evaluations and grading",
+      "snippet": "Open-ended AI work has no single correct answer to check, so a judge, often another AI, decides each result. Research on these judges asks which AI to use and how to word the rubric. It rarely tests the procedure that the judge follows. Wargames have no correct answer either, and for two centuries…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:2d41024d4050",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.32159",
+      "title": "Playing Bias: Epistemic Games for Interpreting Text-to-Image Models",
+      "snippet": "Text-to-image (T2I) systems do not merely render prompts; they circulate defaults for \"what X looks like,\" shaping recognition through pose, camera, costume, props, and setting. While technical audits quantify disparities, they rarely cultivate the literacy needed to argue how images assemble…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:cb64a45ddb68",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.32226",
+      "title": "Democratic Accountability for Autonomous Systems: A Legislative Notification Framework and Comparative Institutional Design",
+      "snippet": "No domestic legislature has ever reviewed a state's decision to authorise an autonomous cyber weapon before it acted. Closing the international attribution gap is necessary but not sufficient for democratic accountability. We formalise the Tripartite Attribution Framework's three attribution…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:9d0453c6f3a7",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.32238",
+      "title": "Autonomous Cyber Weapons as AI-Enabled Digital Harms: A Platform Accountability Framework",
+      "snippet": "Governments govern AI-generated online harms from commercial platforms (EU DSA, AI Act, UK Online Safety Act), yet the most severe class remains ungoverned: autonomous cyber weapons (ACWs) deployed by nation-states against civilian infrastructure. We address this gap with three contributions: a…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:52a7903c00b7",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.32479",
+      "title": "National-Scale Multimodal Accessibility Fields from Open Geospatial Data",
+      "snippet": "Large-area accessibility analysis remains difficult to reproduce because multimodal routing, heterogeneous opportunity data, and reusable spatial outputs are rarely integrated in a single transparent workflow. We present MAPPER (Multimodal Accessibility and Place Profiling Engine for Arbitrary…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:f9030359163b",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.32515",
+      "title": "Analysing Austrian Parliamentary Speeches by Predicting Party Affiliations",
+      "snippet": "This paper examines speech characteristics of the Austrian National Council members (CMs). We introduce analysis methodology based on a fine-tuned BERT-Model which assigns to every speech a probability distribution over Austrian parties. These are then aggregated at the speaker and party level. We…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:7f9476355ca1",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.32574",
+      "title": "When disclosure rules are not enough: authorial warrant and judgment in ai-supported scholarship",
+      "snippet": "Editorial policies increasingly require authors to disclose substantive uses of generative AI, but such requirements commonly focus on whether, where, and how a model was used. Even function-specific disclosure may locate a model in the research or writing process without showing how its outputs…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:cf684bcc7333",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.32576",
+      "title": "From Regulation to Engineering: Organizational Privacy Climate as Mediator",
+      "snippet": "Data protection legislation aims to protect privacy rights by regulating how information systems store and process personal information. While such legislation defines legal obligations, translating regulatory requirements into engineering practice is far from straightforward. As new frameworks…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:90ea952f888d",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.32780",
+      "title": "AI Alignment for Digital Democracy: Fairer Voters Representation against LLM Biases",
+      "snippet": "AI representation is emerging in digital democracy, assisting in voter emulation and decision-making. Large language models (LLMs) behave differently depending on the model, the prompt context, and the voter information they receive, representing some groups more accurately than others and…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:14e54e41fedb",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.32982",
+      "title": "The Language of Instruction: Genre and Generative AI",
+      "snippet": "This article argues that instruction-fine-tuned language models should be understood as implementing a genre, what is proposed as the instructional-conversational genre. This genre is an amalgamation of discursive language from prior conversations between generative models and humans recursively…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:cb78527a4916",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31675",
+      "title": "Economic Corridor Detection from Multi-Source Earth Observation and Commercial Geospatial Data Across Nigeria's Kilometre-Scale Grid",
+      "snippet": "Identifying economic corridors at national scale is challenging where firm registries, transaction flows, and local economic-output statistics are incomplete or unavailable. This paper develops a reproducible multi-proxy screening framework for detecting economic-corridor candidates across Nigeria…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:c3347f944235",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.32163",
+      "title": "Forging Emotions: a deep learning experiment on emotions and art",
+      "snippet": "Affective computing is an interdisciplinary field that studies computational methods that relate to or influence emotion. These methods have been applied to interactive media artworks, but they have focused on affect detection rather than affect generation. For affect generation, computationally…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:362d7daa9c41",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.32278",
+      "title": "Automated Post-Exploitation Attack Chain Exploration Based on a Phase-guided Hybrid Planning-Monte Carlo Tree Search Algorithm",
+      "snippet": "Advanced attackers in post-exploitation scenarios increasingly craft attack chains that combine benign operations, configuration errors, and vulnerability exploitation to achieve objectives like privilege escalation. While such chains pose significant threats, manually discovering them in complex…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:2fbd8f74db34",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.32461",
+      "title": "The Effects of Generative AI on Collaboration and Social Networks Among Knowledge Workers",
+      "snippet": "The rapid diffusion of generative artificial intelligence has raised concerns that knowledge work may become less dependent on human-to-human interaction. Yet because AI-generated outputs require interpretation, verification, and social legitimation, generative AI may instead increase…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:d0a8eada7cef",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31678",
+      "title": "Validating the Comparison, Not Just the Scorer: Why Overall Accuracy Can Mislead in Interactive LLM Evaluation",
+      "snippet": "Many LLM studies compare how models respond to different follow-up prompts. For example, one prompt may neutrally ask a model to reconsider, while another insists that an invented film really exists. The difference is used to measure the effect of conversational pressure. An automatic scorer then…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:e8d538cc87f8",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31679",
+      "title": "MisconceptDialogue: Evaluation Criteria Shape Measured Success in LLM Math Tutoring",
+      "snippet": "Large language models are increasingly used as math tutors, raising two questions: can a single LLM detect a student's error, diagnose the underlying misconception, and remediate it through multi-turn dialogue - and can we trust the numbers that report how well it does? We address both with…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:8d2b109a7e0f",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31681",
+      "title": "Rethinking Structured Generation: Can Graph-Based Reasoning Resolve Ambiguity?",
+      "snippet": "Structured generation is typically formulated as a deterministic mapping from input to a single structured output. This assumption is fundamentally misaligned with natural language, which often admits multiple structurally distinct yet semantically valid interpretations. As a result, existing…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:31e0c9262491",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31682",
+      "title": "Multi modal perceived conversation success prediction for spontaneous autistic and non-autistic dyadic interactions",
+      "snippet": "Conversation success is important for communication, social bonds, and well-being and is often reduced in autistic-neurotypical conversations. Previous studies have predicted perceived conversation success using acoustic and lexical features in pediatric autism-enriched samples, or using nonverbal…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:ea6625878e57",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31683",
+      "title": "The Schema Coherence Inventory: Measuring Whether an Assigned Belief Organizes a Language Model's Cognition",
+      "snippet": "Persona-conditioned language models are used as simulated patients and affective agents, but there is no validated way to ask whether a belief assigned to such a model organizes its behaviour or whether the model has merely adopted a mood. We present the Schema Coherence Inventory (SCI): 96…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:b66fa642e082",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31684",
+      "title": "Knowledge Graphs Quality Assessment in the Era of LLMs: A Conceptual Framework",
+      "snippet": "Knowledge Graphs (KGs) have been popularized during the last few decades and are increasingly constructed and consumed by Large Language Models (LLMs). Various applications therefore rely on KGs to provide concise, complete, accurate, faithful, fresh, and traceable answers. However, what is the…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:93dd69343b08",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31685",
+      "title": "An Agentic Approach with Evidence-Grounded Verification for Multimodal Emotion Reasoning in Conversation",
+      "snippet": "LLM-based multimodal emotion reasoning systems perform well on standard benchmarks, but improving them through instruction tuning can be computationally expensive. Agentic pipelines built from frozen models avoid this cost, but introduce a different challenge: when a prediction is wrong, the…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:e38e6ce4316c",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31686",
+      "title": "From Target Selection to Condition Reuse: Auditing Residual Interventions in Tool-Use Models",
+      "snippet": "Activation interventions can make a language model produce a target answer, but can the model use the intended condition in other computations? We study this question in Qwen3.5-27B on tool-use tasks where time or permissions determine eligibility and selection. Across 32 fresh worlds, two…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:cdf1cc73b0da",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31687",
+      "title": "Distributional Alignment of LLMs and Its Generalization Properties",
+      "snippet": "Large language models are increasingly used to simulate and probe human behavior, e.g., for surveys. For these applications, a key property is that outputs satisfy distributional alignment: to match its output distribution with some reference (in this case, human) distribution. An obstacle in…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:5f576791a98a",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31701",
+      "title": "Tradeoff-Aware Territory Design: A Multi-Objective Decision System for Enterprise Customer-to-Seller Allocation",
+      "snippet": "Enterprise customer journeys are shaped not only by product experiences and marketing, but also by recurring resource-allocation decisions. In B2B go-to-market (GTM) organizations, territory carving determines which accounts receive seller coverage, which seller-account relationships are…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:69276eeb0477",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31702",
+      "title": "Collaborative In-Context Learning for Indoor Radio Map Estimation",
+      "snippet": "Indoor radio map estimation (RME) is essential for wireless applications such as coverage planning, localization, and network deployment. However, most existing methods follow a supervised learning paradigm that requires costly labeled data and task-specific model training. Moreover, indoor…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:afb51f8e5966",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31704",
+      "title": "The Path to NDE 4.0: A Review of Algorithms, Techniques, and Strategies for Autonomous Inspection",
+      "snippet": "Non-Destructive Inspection (NDI) is a cornerstone of modern quality assurance, critical for ensuring the safety and reliability of infrastructure and manufactured components without causing damage. This paper presents a comprehensive review of the current NDI landscape, analyzing the field through…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:ab11c98f74e9",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31716",
+      "title": "Does LeWorldModel Preserve Local Action Geometry?",
+      "snippet": "We examine how closely pretrained LeWorldModel (LeWM) reproduces the effects of small action changes. Using matched simulator and model responses, we measure action sensitivity with Gram matrices at three perturbation scales. Across nearly a thousand states from Reacher and OGBench Cube, the most…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:d96a7497f28b",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31718",
+      "title": "Towards Adversarially Robust Multigraph Neural Networks for Financial Crime Analysis",
+      "snippet": "Financial transaction networks are naturally represented as multigraphs, where repeated transactions between the same pair of accounts are modeled as distinct edges. Recently proposed multigraph neural network architectures leverage this structure explicitly to achieve a strong performance on…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:47e7af736bb5",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31721",
+      "title": "End-to-End Differentiable Diffusion Conditioning for Physics-Informed Optimization",
+      "snippet": "Optimizing high-dimensional physical systems under expensive evaluations and complex constraints is a central challenge in science and engineering. In offline model-based optimization (MBO), methods must improve designs using only a fixed dataset and no test-time access to the true objective…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:f2c693d7443a",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31722",
+      "title": "Autoregressive Multimodal Anomaly Detection with Large Language Models for Microservice Systems",
+      "snippet": "Microservice systems have become a dominant architecture for large-scale cloud applications, enabling rapid deployment and elastic scaling. However, ensuring the reliability and availability of microservice systems critically relies on effective anomaly detection, as failures and performance…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:46d59ee5b121",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31723",
+      "title": "LAMB: A Modern Contextual Language Model for Latin",
+      "snippet": "This article introduces Latin Modern BERT (LAMB), an encoder for the Latin language based on the ModernBERT architecture, pretrained in two phases on more than 74B Latin tokens using a novel morphologically informed masking regimen. We also present two corpora for the Latin language. Acervus…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:1e37571ee92d",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31726",
+      "title": "Cognitively Constrained Partners for Zero-Shot Coordination in Real-Time Partitioned Control",
+      "snippet": "Effective human-machine teaming requires agents that coordinate with unpredictable human partners. Reinforcement learning from live human feedback or large behavioural datasets is expensive, while purely simulated training overfits to artificial conventions and fails at Zero-Shot Coordination with…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:79027ad1543c",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31728",
+      "title": "When and How Does Muon Precondition? The Role of Structured Gradient Noise",
+      "snippet": "Muon has become a popular optimizer for large language model training, yet its theoretical foundations remain poorly understood. In this work, we study how gradient noise geometry shapes Muon's preconditioning benefits. We first show, theoretically and empirically, that under the classical…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:ec70d89c2f10",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31731",
+      "title": "ConsMSA: Semantic Distribution Consistency Learning for Multimodal Sentiment Analysis",
+      "snippet": "Multimodal sentiment analysis (MSA) aims to predict human sentiments by integrating signals from different modalities such as text, video, and audio. However, raw multimodal sequences often suffer from semantic inconsistency--exhibiting redundancy or conflicts within and across modalities--which…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:8e05e2ba4797",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31733",
+      "title": "Learning to Be Monitored: Causal Bounds and Intervention-Aware Post-Training Recipes for Chain-of-Thought Monitorability",
+      "snippet": "Chain-of-thought (CoT) monitoring aims to detect potentially harmful behaviors in large language models (LLMs) from their CoTs. Intervention-based evaluations measure this property by asking whether a monitor can detect the role of an intervention from the CoT when the targeted behavior occurs…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:d7e7155f069a",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.31768",
+      "title": "Efficient Omni-modal Large Language Model Inference via Per-Query Modality Selection",
+      "snippet": "Omni-modal large language models (Omni-LLMs) can jointly process a broad range of modalities, such as text, audio, and video, enabling stronger multimodal understanding and reasoning capabilities, but often at substantial inference cost. We observe that the benefit of additional modalities varies…",
+      "publishedAt": "2026-10-26T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    }
+  ]
+}

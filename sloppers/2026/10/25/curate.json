@@ -1,0 +1,173 @@
+{
+  "topStories": [
+    {
+      "title": "A Decade-Old CNN Beats Frontier LLMs At Skin Cancer Diagnosis",
+      "itemIds": [
+        "hackernews:b83204b7e9c1"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "small-model-beats-frontier-llm"
+    },
+    {
+      "title": "A Math Professor Says Grading Homework Is Pointless Because Of AI",
+      "itemIds": [
+        "hackernews:9fec697fddc7"
+      ],
+      "dimensions": [
+        "education",
+        "society",
+        "labor"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-cheating-breaks-grading"
+    },
+    {
+      "title": "Frontier AI Model Prices Fall Up To 80% In Months",
+      "itemIds": [
+        "hackernews:240888442444"
+      ],
+      "dimensions": [
+        "industry",
+        "capabilities"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "llm-price-war"
+    },
+    {
+      "title": "The Data Center Backlash Keeps Growing Worldwide",
+      "itemIds": [
+        "feeds:ce8585cd4964",
+        "feeds:d8c07416bcc2"
+      ],
+      "dimensions": [
+        "planet",
+        "industry",
+        "society",
+        "policy"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "An Open-Source Community Formally Bans AI Projects",
+      "itemIds": [
+        "feeds:4c846e7466eb",
+        "hackernews:9626b225e4c7"
+      ],
+      "dimensions": [
+        "society",
+        "labor",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "open-source-ai-moratorium"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "small-model-beats-frontier-llm",
+      "title": "A Small Old Model Beats Frontier LLMs At Diagnosis",
+      "dimensions": [
+        "capabilities",
+        "science"
+      ],
+      "motifs": [
+        "a small old scanner robot standing taller on a chart than big chatbot robots",
+        "a decade-old model icon glowing beside a shrinking frontier-model icon"
+      ]
+    },
+    {
+      "id": "ai-cheating-breaks-grading",
+      "title": "AI Use Makes Grading Homework Feel Pointless",
+      "dimensions": [
+        "education",
+        "society",
+        "labor"
+      ],
+      "motifs": [
+        "a teacher's red pen hovering over a stack of identical AI-written homework",
+        "a gradebook with every mark erased down to a single shrug"
+      ]
+    },
+    {
+      "id": "llm-price-war",
+      "title": "Frontier AI Prices Keep Collapsing",
+      "dimensions": [
+        "industry",
+        "capabilities"
+      ],
+      "motifs": [
+        "two chatbot price tags both slashed within months of each other",
+        "a falling price chart beside a steady, unmoved pile of chips"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Three stories today (the skin-cancer CNN result, the price collapse, and the grading-despair story) each reach relevance 8 (novelty×magnitude×breadth), clearing the fresh threshold of 8, so the slopper stands on its own without referencing yesterday's slopper.",
+  "motto": "Cheaper But Not Smarter",
+  "phrase": "Frontier AI models just got up to 80% cheaper. A ten-year-old image classifier still beats them at spotting skin cancer.",
+  "phraseAlternatives": [
+    "AI chatbots got up to 80% cheaper this year. A decade-old specialist model still beats them at reading skin scans for cancer.",
+    "The newest AI models now cost far less to run. A ten-year-old tool still outperforms them at one job: spotting skin cancer.",
+    "Top AI labs cut their prices by up to 80%. The model that still wins at skin cancer diagnosis is ten years old.",
+    "Everyone's AI got cheaper this year. The one that beats it at diagnosing skin cancer has been around for a decade."
+  ],
+  "brief": {
+    "concept": "Frontier AI chatbots show off steep discount price tags while a small, old-fashioned scanner robot quietly posts a taller bar on a skin-cancer diagnosis chart than any of them.",
+    "metaphor": "Bigger and cheaper is not the same as better: a decade-old specialist tool still outperforms shiny new general-purpose AI at its own specialty.",
+    "cast": [
+      {
+        "who": "a row of three large, shiny chatbot robots, each wearing a discount price tag",
+        "kind": "ai"
+      },
+      {
+        "who": "a small, plain, boxy scanner robot standing apart from the big robots",
+        "kind": "ai"
+      },
+      {
+        "who": "a simple bar chart labeled ACCURACY, its tallest bar beside the small scanner robot",
+        "kind": "object"
+      },
+      {
+        "who": "a human doctor standing between the two groups, looking at the chart with surprise",
+        "kind": "person"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Left: three large chatbot robots in a row, each with a discount price tag dangling from its chest, looking pleased with themselves. Right: one small, plain, boxy scanner robot stands in front of a bar chart labeled ACCURACY; its bar is the tallest on the chart, taller than any bar near the big robots. A human doctor stands in the middle, looking at the chart with surprise. Only one text label in the whole image: ACCURACY.",
+    "artType": "static",
+    "alt": "Three large shiny chatbot robots wear discount price tags and look pleased with themselves. Beside them, a small plain scanner robot stands in front of a bar chart where its own bar is the tallest, as a human doctor looks on in surprise."
+  },
+  "sourceIds": [
+    "hackernews:240888442444",
+    "hackernews:b83204b7e9c1"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 1,
+    "society": 3,
+    "education": 2,
+    "planet": 2,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 0
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "passed": false,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"chat1\" (robot) was moved 20 px, 0 px to stay inside the artboard",
+          "\"acc-label\" (label) was moved -12 px, 0 px to stay inside the safe area",
+          "\"chat1\" extends outside the safe area in the final frame (x 3…287, y 531…799)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Fails: the small-robot-beats-big-robots comparison reads, but the \"cheaper\" price-tag detail is illegible without the caption, half the canvas is dead empty sky above a cramped character strip, and the leftmost robot is clipped at the frame edge.",
+        "revisionNotes": [
+          "Shift the whole left robot row right (chat1 is clipped at the frame edge per lint: x 3…287) and widen the margin so no component touches the safe-area boundary.",
+          "Make the discount tags legible: add a simple \"%\" or \"$\" mark to the tag raw-svg (tag1/tag2/tag3) — right now they read as plain orange badges, not price tags, so the 'cheaper' half of the joke doesn't land from the art alone.",
+          "Rebalance vertically: everything is crammed into a thin band around y=0.53-0.80 with the top half of the canvas completely empty beige. Scale up the cast (robots ~0.7-0.9, doctor ~0.9, chart ~0.55) and recenter around y=0.55-0.6, or add a sky prop to use the upper two-thirds.",
+          "Increase x-spacing between chat1/chat2/chat3 (~0.02-0.03 more each) so their outstretched arms stop merging into one continuous shape at the shoulders.",
+          "Shorten the doctor's pointing arm or add more offset before the ACCURACY label so the hand doesn't sit flush against the text.",
+          "Vary one of the three chatbots' pose or mood slightly so they don't read as an exact triplicate stamp."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Cast and chart read instantly (small robot quietly beats the big ones at accuracy), but the discount tags merge invisibly into each chatbot's stock chest panel so the 'cheaper' half of the joke never lands, and the composition wastes half the square on empty sky — not ready to publish as-is.",
+        "revisionNotes": [
+          "Tags (tag1/tag2/tag3) sit centered over each chatbot's chest screen and blend into the stock face panel, so they never read as price tags — the 'cheaper' half of the joke is invisible. Reattach at side:'right' with offset so the tag dangles clear, scale ~1.3, add a visible '%' mark.",
+          "Top ~55% of the frame is empty cream sky with only the sun — raise the horizon to ~0.55 or add a second small prop up top (a price-drop arrow, a discount banner) so the square isn't half dead air.",
+          "Palette and layout (cream sky, teal ground, orange robots, cast lined up on a flat horizon) closely repeats the recent 'BANNED' and '2X' tiles — shift the accent hue or ground treatment, or break the straight horizon-row layout.",
+          "Doctor's pointing arm (pose: point) extends far enough that the hand sits right against the scanner robot's head — pull the arm back or angle it toward the chart so it doesn't read as touching the small robot.",
+          "Chart bar for the scanner's accuracy is clear and readable — keep that as-is."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 2,
+          "composition": 4,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The accuracy-chart punchline reads, but the specified discount price tags never render on the chatbot robots, so the 'cheaper' half of 'Cheaper But Not Smarter' is entirely absent from the art, and the doctor holds an unexplained object — this falls short of ready-to-publish.",
+        "revisionNotes": [
+          "Add discount price tags to chat1/chat2/chat3 (per scene spec, attached right side at scale ~1.3) — none render in the still, so the 'cheaper' half of the joke has zero visual support.",
+          "Clarify or remove the object in the doctor's hand; it currently reads as an unlabeled toolbox/bag even though props say holds:'none', which confuses the read.",
+          "Shrink the empty ground band below the horizon (0.64) or add a small grounding prop so the bottom third isn't dead space.",
+          "Differentiate the scanner robot's silhouette (flatter/boxier body, square head) from the three chatbots so 'small plain tool beats shiny new ones' reads faster than just a size/color swap.",
+          "Scale the ACCURACY chart up slightly (currently small relative to the robot row) since it's the joke's payoff and only text label in the scene."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    }
+  ]
+}
