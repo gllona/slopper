@@ -1,0 +1,223 @@
+{
+  "topStories": [
+    {
+      "title": "Anthropic files for IPO, warns of 'catastrophic risk' while burning gas to grow",
+      "itemIds": [
+        "feeds:d62946f7d019",
+        "feeds:5ecfc7f3f776",
+        "feeds:e754b5b01428",
+        "feeds:c521ada96e49",
+        "techmeme:ee84864b625c",
+        "feeds:fcee7fe2ae9b",
+        "feeds:87b280166221",
+        "feeds:d0166b391d8b"
+      ],
+      "dimensions": [
+        "industry",
+        "safety",
+        "planet",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "anthropic-ipo-countdown"
+    },
+    {
+      "title": "Boston Dynamics employees protest sale of robot dogs to ICE",
+      "itemIds": [
+        "feeds:98a71acc806b"
+      ],
+      "dimensions": [
+        "labor",
+        "policy",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ice-robot-dog-protest"
+    },
+    {
+      "title": "Microsoft offers buyouts to up to 60,000 employees",
+      "itemIds": [
+        "feeds:c0c32e254174"
+      ],
+      "dimensions": [
+        "labor",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "tech-giant-mass-buyouts"
+    },
+    {
+      "title": "OpenAI announces three externally-verified science breakthroughs",
+      "itemIds": [
+        "feeds:23d59e9a5bcc",
+        "techmeme:ac5176d4b2a0"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-science-breakthroughs"
+    },
+    {
+      "title": "Open-weight AI models show safety and security cracks",
+      "itemIds": [
+        "hackernews:27779e2e3a96",
+        "hackernews:89893d5f73c7"
+      ],
+      "dimensions": [
+        "safety",
+        "industry",
+        "capabilities"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "open-weight-model-safety-flaws"
+    },
+    {
+      "title": "AI costs more for non-English speakers as UN warns of a widening opportunity gap",
+      "itemIds": [
+        "feeds:f724b2722262",
+        "gdelt:a2e6ce3b13c2"
+      ],
+      "dimensions": [
+        "society",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "ai-opportunity-gap-inequality"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ice-robot-dog-protest",
+      "title": "A Robot Maker's Own Staff Protest A Police Sale",
+      "dimensions": [
+        "labor",
+        "policy",
+        "society"
+      ],
+      "motifs": [
+        "a line of human workers holding signs beside a four-legged robot dog",
+        "a petition stacked beside a signed sale contract"
+      ]
+    },
+    {
+      "id": "tech-giant-mass-buyouts",
+      "title": "A Tech Giant Offers Mass Buyouts",
+      "dimensions": [
+        "labor",
+        "industry"
+      ],
+      "motifs": [
+        "a wide office floor of desks emptying into moving boxes",
+        "a severance envelope handed over beside a shrinking staff chart"
+      ]
+    },
+    {
+      "id": "ai-science-breakthroughs",
+      "title": "An AI Lab's Outside-Verified Science Claims",
+      "dimensions": [
+        "capabilities",
+        "science"
+      ],
+      "motifs": [
+        "a chalkboard equation stamped VERIFIED by an outside expert",
+        "three small trophies labeled math, code, and physics on a lab bench"
+      ]
+    },
+    {
+      "id": "open-weight-model-safety-flaws",
+      "title": "Open-Weight Models' Safety Cracks Surface",
+      "dimensions": [
+        "safety",
+        "industry",
+        "capabilities"
+      ],
+      "motifs": [
+        "an open padlock hanging off a glowing open-weight model icon",
+        "a cracked server rack leaking data between two chat windows"
+      ]
+    },
+    {
+      "id": "ai-opportunity-gap-inequality",
+      "title": "AI's Opportunity Gap Widens By Language And Geography",
+      "dimensions": [
+        "society",
+        "policy"
+      ],
+      "motifs": [
+        "a toll booth charging extra tokens for a non-English speech bubble",
+        "a world map split between a shrinking and a growing opportunity gap"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Anthropic's IPO filing, in which the company itself warns of \"catastrophic risk\" to humanity while raising billions, is genuinely new today and scores novelty 3 x magnitude 3 x breadth 3 = 27, clearing the fresh threshold of 8.",
+  "motto": "Risk Factors Include Everything",
+  "phrase": "An AI company preparing to go public devoted over a hundred pages of its filing to warning investors about catastrophic risk to humanity. The IPO is moving forward anyway.",
+  "phraseAlternatives": [
+    "The company behind one of the best-known chatbots just filed to go public. More than a quarter of the document explains how its own product could end badly for everyone.",
+    "An AI lab preparing for the stock market quietly admitted it is burning more natural gas to keep its growth plans running. Its prospectus still calls the risk catastrophic.",
+    "A company warns, in writing, that its own technology could pose a catastrophic risk to humanity. It is asking investors for billions anyway."
+  ],
+  "brief": {
+    "concept": "A company preparing to go public steps onto a stock-exchange podium with a giant prospectus tucked under its arm, its cover page stamped CATASTROPHIC RISK, while investors below reach up with money anyway.",
+    "metaphor": "Ringing the opening bell while your own paperwork says the building might be on fire.",
+    "cast": [
+      {
+        "who": "a company building climbing onto a raised stock-exchange podium",
+        "kind": "institution"
+      },
+      {
+        "who": "a thick document under the building's arm, its cover stamped CATASTROPHIC RISK",
+        "kind": "object"
+      },
+      {
+        "who": "a small crowd of investors reaching up with handfuls of money",
+        "kind": "person"
+      },
+      {
+        "who": "a rising stock arrow with a tiny warning flag stuck through it",
+        "kind": "object"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Center the institution-building figure stepping onto the podium, the stamped document held at chest height so CATASTROPHIC RISK reads clearly. Cluster the investor figures at the base of the podium, arms raised toward money. Let the stock arrow rise diagonally from the podium toward the upper corner, its small warning flag as the single yellow highlight per the blueprint style card. Keep to these four elements on the grid, with generous blueprint-blue negative space.",
+    "artType": "static",
+    "alt": "A building shaped like a company climbs onto a stock-market podium holding a thick document stamped CATASTROPHIC RISK, while a small crowd of investors reach up with money below, and a rising stock arrow nearby has a tiny warning flag stuck through it."
+  },
+  "sourceIds": [
+    "feeds:d62946f7d019",
+    "feeds:c521ada96e49",
+    "feeds:fcee7fe2ae9b",
+    "feeds:87b280166221"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 3,
+    "policy": 2,
+    "law": 1,
+    "safety": 3,
+    "society": 3,
+    "education": 1,
+    "planet": 2,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": 0,
+    "calm_frantic": 1
+  }
+}
