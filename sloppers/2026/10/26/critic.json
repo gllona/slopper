@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"risk-label\" (label) was moved -5 px, 0 px to stay inside the safe area",
+          "\"flag\" extends outside the safe area in the final frame (x 861…911, y 42…122)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 3,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The cast and metaphor are right (human investors, institution-as-building, no robot-for-institution mistake), but execution overlap sinks it: the investors' arms crowd the document so \"CATASTROPHIC RISK\" reads as \"CA AS PHT RISK,\" and the podium is nearly invisible under the money — this does not clear the bar for publish today.",
+        "revisionNotes": [
+          "Pull investor-left and investor-right outward (increase their offset from center, or drop scale to ~0.9) so their raised arms stop crossing the document and building; per the brief, cluster investors at the podium base reaching up, not flanking the building at chest height.",
+          "The risk-label \"CATASTROPHIC RISK\" is clipped and overlapped by the investors' heads/arms, reading as \"CA AS PHT RISK.\" Re-anchor the document/label to the building's left side with more offset, or bump label size so the full phrase clears the humans and reads in one glance.",
+          "The podium (the raised stock-exchange platform) is almost entirely hidden under the money shapes — move the money element down and outward so the podium's outline is visible; it's the compositional anchor the building is supposed to be \"climbing onto.\"",
+          "The datacenter building has multiple yellow dot lights scattered across its racks, competing with the flag for the style card's single-yellow-highlight rule; switch lights to white/blue and keep yellow exclusive to the warning flag.",
+          "Nudge the flag's offset left/down a touch — the lint flags it exceeding the safe area at the top-right corner.",
+          "Scale the building up slightly relative to the two investors so it reads as an institution ascending the podium, not as a console the two investors are standing behind."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 3,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The bottom half (building on podium, cheering human investors) reads cleanly, but the top-right corner crams document, label, chart, and flag into one overlapping clutter — the risk label is struck through by the chart line and the flag floats disconnected — leaving the composition lopsided and not publish-ready.",
+        "revisionNotes": [
+          "Separate the document, label, chart, and flag — they currently overlap into one crowded cluster in the upper-right third. Reattach 'document' to the building's front at chest height (per brief) instead of rotated -6° and tucked behind the chart.",
+          "Move the 'CATASTROPHIC RISK' label off the chart's trend line — the diagonal line currently cuts straight through the text, hurting polish and legibility.",
+          "Reduce yellow accents to one per the blueprint style card: the server-rack lights (several yellow dots) compete with the flag and chart highlight. Keep rack lights white/blue and leave yellow only on the flag.",
+          "Attach the flag through the arrow's tip at the chart's peak at a smaller scale (per brief: 'a tiny warning flag stuck through it') instead of floating as a disconnected pole at the very top edge.",
+          "Rebalance composition: upper-right is dense with 4 overlapping elements while the upper-left is empty negative space — shift the chart/document cluster slightly left or scale down to center the visual weight.",
+          "Keep the strong parts: building-as-institution and two human investors are correctly cast and the bottom half reads clearly — don't disturb that half."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 4,
+          "style": 4,
+          "polish": 4,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Clean, readable blueprint piece with correct human/institution casting and a kind tone, but the CATASTROPHIC RISK document reads as held by the cheering investor rather than tucked under the company's arm, slightly muddying the central joke; still clears the bar for publication.",
+        "revisionNotes": [
+          "Move the document so it reads as tucked under the building's arm, not held by investor-right: pull it left/down to overlap the building's right edge directly (e.g. offset [-40,10] instead of [-10,-20]), so it's clearly the company's own paperwork, not something the investor is holding.",
+          "Separate the document from money-right — currently the paper icon and the cash icon sit within ~40px of each other at upper-right, reading as one cluttered prop; give the document more breathing room or scale it to 0.75 so the CATASTROPHIC RISK stamp relationship is unambiguous.",
+          "Consider nudging the CATASTROPHIC RISK label down onto the document itself (or directly beside it) rather than floating above the building's roofline, so it reads as the document's cover stamp rather than a general building caption.",
+          "Palette/layout is close to two other recent blueprint-blue pieces (HIGH BAR, OPEN) — vary the background tone or add one non-blue accent beyond the yellow flag to stand apart."
+        ]
+      },
+      "average": 3.86,
+      "passed": true
+    }
+  ]
+}

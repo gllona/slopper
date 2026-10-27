@@ -1,0 +1,174 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {},
+  "elements": [
+    {
+      "id": "podium",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.83
+      },
+      "scale": 1,
+      "props": {
+        "width": 420,
+        "height": 180
+      },
+      "svg": "<path class=\"r-body\" d=\"M40,170 L380,170 L330,60 L90,60 Z\"/><rect class=\"r-body-alt\" x=\"70\" y=\"40\" width=\"280\" height=\"22\" rx=\"4\"/><line class=\"r-line\" x1=\"150\" y1=\"60\" x2=\"150\" y2=\"170\"/><line class=\"r-line\" x1=\"270\" y1=\"60\" x2=\"270\" y2=\"170\"/>"
+    },
+    {
+      "id": "building",
+      "component": "datacenter",
+      "attachTo": "podium",
+      "side": "top",
+      "scale": 1.05,
+      "props": {
+        "racks": 3,
+        "lights": "busy",
+        "steam": false,
+        "fans": false
+      }
+    },
+    {
+      "id": "document",
+      "component": "raw",
+      "attachTo": "building",
+      "side": "right",
+      "offset": [
+        -10,
+        -20
+      ],
+      "scale": 0.6,
+      "rotate": 0,
+      "props": {
+        "width": 160,
+        "height": 200
+      },
+      "svg": "<rect class=\"r-body\" x=\"10\" y=\"10\" width=\"140\" height=\"180\" rx=\"6\"/><line class=\"r-line\" x1=\"30\" y1=\"55\" x2=\"130\" y2=\"55\"/><line class=\"r-line\" x1=\"30\" y1=\"80\" x2=\"130\" y2=\"80\"/><line class=\"r-line\" x1=\"30\" y1=\"105\" x2=\"130\" y2=\"105\"/><line class=\"r-line\" x1=\"30\" y1=\"130\" x2=\"110\" y2=\"130\"/>"
+    },
+    {
+      "id": "risk-label",
+      "component": "label",
+      "attachTo": "document",
+      "side": "top",
+      "offset": [
+        0,
+        -20
+      ],
+      "scale": 1,
+      "props": {
+        "text": "CATASTROPHIC RISK",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "investor-left",
+      "component": "human",
+      "at": {
+        "x": 0.21,
+        "y": 0.9
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "happy",
+        "pose": "cheer",
+        "color": "body",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "investor-right",
+      "component": "human",
+      "at": {
+        "x": 0.79,
+        "y": 0.9
+      },
+      "scale": 0.8,
+      "flip": true,
+      "props": {
+        "mood": "happy",
+        "pose": "cheer",
+        "color": "body",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "money-left",
+      "component": "raw",
+      "attachTo": "investor-left",
+      "side": "top",
+      "offset": [
+        -15,
+        -15
+      ],
+      "scale": 0.6,
+      "props": {
+        "width": 90,
+        "height": 60
+      },
+      "svg": "<rect class=\"r-body\" x=\"10\" y=\"10\" width=\"70\" height=\"40\" rx=\"4\" transform=\"rotate(-6 45 30)\"/><circle class=\"r-line\" cx=\"45\" cy=\"30\" r=\"12\"/>"
+    },
+    {
+      "id": "money-right",
+      "component": "raw",
+      "attachTo": "investor-right",
+      "side": "top",
+      "offset": [
+        15,
+        -15
+      ],
+      "scale": 0.6,
+      "props": {
+        "width": 90,
+        "height": 60
+      },
+      "svg": "<rect class=\"r-body\" x=\"10\" y=\"10\" width=\"70\" height=\"40\" rx=\"4\" transform=\"rotate(-6 45 30)\"/><circle class=\"r-line\" cx=\"45\" cy=\"30\" r=\"12\"/>"
+    },
+    {
+      "id": "stock-chart",
+      "component": "chart",
+      "at": {
+        "x": 0.3,
+        "y": 0.22
+      },
+      "scale": 0.72,
+      "props": {
+        "type": "line",
+        "values": [
+          0.15,
+          0.25,
+          0.3,
+          0.45,
+          0.55,
+          0.75,
+          0.95
+        ],
+        "highlight": "last",
+        "arrow": true,
+        "frame": false
+      }
+    },
+    {
+      "id": "flag",
+      "component": "raw",
+      "attachTo": "stock-chart",
+      "side": "top",
+      "offset": [
+        110,
+        30
+      ],
+      "scale": 0.45,
+      "props": {
+        "width": 70,
+        "height": 90
+      },
+      "svg": "<line class=\"r-line\" x1=\"12\" y1=\"8\" x2=\"12\" y2=\"88\"/><path class=\"r-accent\" d=\"M12,8 L62,22 L12,36 Z\"/>"
+    }
+  ],
+  "alt": "A blueprint-style building stands on a stock-exchange podium holding a document marked CATASTROPHIC RISK against its side, two small investors below reach up with money, and a separate rising stock chart in the upper left has a tiny yellow flag stuck through its arrow tip."
+}
