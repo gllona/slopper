@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The riso style is polished and the cast is correctly chosen (robot for AI, buildings for institutions), but the two elements carrying the actual joke — the empty chair/lawsuit document and the arrow 'bouncing off' the wall — are too small, ambiguous, or spatially disconnected to read in three seconds, and the composition leaves large unused cream margins top and bottom; this doesn't yet pass.",
+        "revisionNotes": [
+          "Enlarge and clarify the 'chairdoc' prop (currently scale 0.85, ~160px wide): add a visible chair silhouette (seat+back) distinct from the document icon, scale to ~1.3 — right now it reads as an unlabeled side table, not 'lawsuit document beside an empty chair,' the key punchline element.",
+          "Move the liability arrow so its tail actually touches the building's right wall; at its current offset it floats ~120px away in open cream space, so the 'bouncing off the wall' beat doesn't register.",
+          "Pose the robot's arms gripping the wheel (not 'arms out' to the sides) so it reads as actively steering rather than standing apart from an unrelated red circle on its torso.",
+          "Rebalance vertically: all elements sit in the middle band, leaving large empty cream margins top and bottom (~20% each); shift the group or scale elements up ~15% to use the full square.",
+          "Separate the lawsuit document from the courthouse's companion chair prop more clearly — place the document visibly on the courthouse steps per the brief, with the empty chair as its own readable shape beside it.",
+          "Differentiate further from the recent robot+building+lawsuit-papers slopper in the grid (orange building, 'NO REGULATOR/LAWSUITS') by varying palette weight or silhouette, since the subject overlap is close."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 4
+        },
+        "verdict": "The split-scene metaphor (robot steering the ownerless building, empty chair facing the courthouse) is clever and well-cast, but the liability arrow — a key part of the joke — renders as a broken, bendless, headless line, and the composition leaves too much dead space; average lands just under the pass bar.",
+        "revisionNotes": [
+          "The liability 'arrow' prop is broken: only a thin blue line renders near the building/courthouse roof, with no bend and no pink arrowhead. Rebuild it as a clear two-segment chevron with a visible accent-color arrowhead glancing off the building's top-right corner — this prop carries half the joke.",
+          "Scale up the lawsuit document at the courthouse steps (currently ~scale 1.0, reads as a tiny plaque) to about 1.3 so it's unmistakably a document, not decoration.",
+          "Too much empty cream space top-center/top-right and bottom-right of the courthouse; pull the chair+bubble group slightly right to sit more squarely between the two buildings, or bump courthouse scale to ~1.15 to balance the right half.",
+          "The OWNER sign floats disconnected above the building with a long bare post; shorten the offset/post so it reads as part of the building's roofline rather than a separate signpost.",
+          "Consider adding a thin ground line connecting both halves so the split scene reads as one location rather than two unrelated vignettes."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 4,
+          "style": 4,
+          "polish": 3,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "Passes on average, but the floating OWNER sign and an arrow that reads as 'rising' rather than 'bouncing off' blur the central metaphor; cast and kindness are solid.",
+        "revisionNotes": [
+          "Anchor the OWNER sign to the building's roof edge — the post currently floats with a visible gap above the building, reading as a freestanding yard sign rather than the door placard the brief calls for.",
+          "Steepen the arrow's kink near the building wall so it reads as 'bouncing off' liability; as drawn it reads as a single rising line, closer to a growth-chart arrow than a dodge.",
+          "Give the robot's arms a visible grip on a round wheel shape at chest height — arms are currently splayed 'out' with a disc on the torso, so the steering/controls beat doesn't land.",
+          "Shift the empty chair right toward the courthouse steps (around x 0.55-0.58) so it clearly belongs to the lawsuit side instead of floating alone in the gutter.",
+          "Swap the '?' bubble's tail shape for a rounder speech-bubble drop so it doesn't read as a map pin; keep it fading at low opacity above the chair."
+        ]
+      },
+      "average": 3.86,
+      "passed": true
+    }
+  ]
+}

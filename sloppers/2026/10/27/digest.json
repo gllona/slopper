@@ -1,0 +1,1325 @@
+{
+  "date": "2026-10-27",
+  "fetchedAt": "2026-10-28T11:08:17.495Z",
+  "sources": [
+    {
+      "source": "feeds",
+      "ok": true,
+      "count": 27
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 16
+    },
+    {
+      "source": "gdelt",
+      "ok": false,
+      "count": 0,
+      "error": "all GDELT queries failed"
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "count": 40
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 40
+    }
+  ],
+  "items": [
+    {
+      "id": "feeds:537a4b80bc0e",
+      "source": "feeds",
+      "url": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
+      "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
+      "snippet": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves…",
+      "publishedAt": "2026-10-27T11:19:18.000Z",
+      "publisher": "MIT Technology Review",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:e734c0e90ec1",
+      "source": "feeds",
+      "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+      "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
+      "snippet": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
+      "publishedAt": "2026-10-27T21:50:04.000Z",
+      "publisher": "Ars Technica",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:3680aedf7065",
+      "source": "feeds",
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
+      "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
+      "snippet": "Seven potential AI nightmares pulled from Anthropic's 93-page \"Risk Factor\" tome.",
+      "publishedAt": "2026-10-27T21:31:14.000Z",
+      "publisher": "Ars Technica",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:c725efb1b2c4",
+      "source": "feeds",
+      "url": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/",
+      "title": "Vibe genes? Natural(ish) language comes to protein, genome design software",
+      "snippet": "You can apparently now tell AI tools what sort of protein you want them to make.",
+      "publishedAt": "2026-10-27T18:49:08.000Z",
+      "publisher": "Ars Technica",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:c7cc848b2884",
+      "source": "feeds",
+      "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+      "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+      "snippet": "Genie 4 will roll out to developers and Google AI Ultra subscribers soon.",
+      "publishedAt": "2026-10-27T16:00:22.000Z",
+      "publisher": "Ars Technica",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:4a38987a9a7c",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+      "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+      "snippet": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired…",
+      "publishedAt": "2026-10-27T20:48:58.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:3aef2e20f989",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017064/visionquest-marvel-rogue-ai",
+      "title": "VisionQuest is what happens when AI really goes rogue",
+      "snippet": "In Marvel's VisionQuest, a superpowered robot tries to better understand humanity by getting lost in elaborate, digital daydreams in which he and other artificial intelligence-powered beings live together in a home. The series is deeply fantastical, yet it plays with some of the ideas that have…",
+      "publishedAt": "2026-10-27T17:30:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:4e57319b6b77",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+      "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+      "snippet": "Anthropic wants to have it both ways. With its impending IPO, it wants to tap the vast riches of the public markets and insists it doesn't want to compromise its core mission of developing AI safely and for the benefit of humanity. But greater model capabilities bring greater risks, and…",
+      "publishedAt": "2026-10-27T16:51:22.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:01bdadda74d0",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+      "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+      "snippet": "Mozilla is updating Smart Window - Firefox's AI-powered browsing experience - with a new feature that can help you fill out online forms based on your open tabs. As an example, Mozilla says Smart Window can pull information from your online portfolio or LinkedIn page to paste your work history…",
+      "publishedAt": "2026-10-27T16:14:18.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:773b088116f5",
+      "source": "feeds",
+      "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+      "title": "Google’s next Genie AI model generates more realistic experiences",
+      "snippet": "Google announced today its Genie 4 world model for generating interactive experiences using AI. The company says the model has four main updates: It allows for more realistic worlds, lets users update an experience in real time with a natural language prompt, can generate audio, and uses Gemini…",
+      "publishedAt": "2026-10-27T16:00:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:8cbeb4ddb963",
+      "source": "feeds",
+      "url": "https://www.theverge.com/tech/1019373/apple-pages-keynote-numbers-ai-chatbot-update",
+      "title": "Apple is adding an AI chatbot to Pages, Keynote, and Numbers",
+      "snippet": "Apple is bringing an AI assistant to its suite of productivity apps, including Keynote, Pages, and Numbers. The assistant, which is built on AI models from Apple and OpenAI, can understand a document's context to perform tasks like designing, animating, and refining slides in Keynote. In Pages…",
+      "publishedAt": "2026-10-27T13:50:51.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:d3ff2c1c637b",
+      "source": "feeds",
+      "url": "https://www.theverge.com/policy/1019152/data-centers-midterm-elections",
+      "title": "Data center backlash is uniting America",
+      "snippet": "If there's one issue that seems to activate all kinds of voters in 2026, it's data centers. The rapid buildout of these massive server storage facilities - and the infrastructure construction and expenses that come with them - has sparked local opposition in communities across the country and…",
+      "publishedAt": "2026-10-27T10:00:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:b6ea644041ae",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
+      "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
+      "snippet": "In breathless press releases and posts, the company has touted its models’ ability to deliver scientific breakthroughs. But its IPO filing taps the brakes on just how fast its AI will lead to big discoveries.",
+      "publishedAt": "2026-10-27T19:39:04.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:0d75f4f8c81b",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
+      "title": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
+      "snippet": "A government watchdog is considering a probe into the Home Office’s use of ChatGPT technology to process asylum claims amid concerns over the tools’ accuracy and secrecy surrounding their use.",
+      "publishedAt": "2026-10-27T15:10:26.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:2d27a5c27146",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/ai-agents-are-medias-new-favorite-audience/",
+      "title": "AI Agents Are Media’s New Favorite Audience",
+      "snippet": "As agents go mainstream, some publishers are hoping that people will pay for content tailor-made for AI—not humans.",
+      "publishedAt": "2026-10-27T11:00:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:2203a7329b91",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/",
+      "title": "I Tested Every Major AI Agent for a Day. Here’s the Best One",
+      "snippet": "I ranked six AI agents—from Meta’s Muse to Anthropic’s Claude Duet—on how well they completed basic tasks.",
+      "publishedAt": "2026-10-27T09:30:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:db05b50ceb26",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "snippet": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
+      "publishedAt": "2026-10-27T23:34:27.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:a660049bd369",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
+      "title": "The data center boom has an upside: innovation for the US grid",
+      "snippet": "As the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say.",
+      "publishedAt": "2026-10-27T22:55:41.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:9a3764356b20",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+      "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+      "snippet": "The banking giant reminds customers that \"you're responsible for activity\" resulting from your AI agents' access.",
+      "publishedAt": "2026-10-27T21:44:34.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:f74f3a0c358e",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+      "title": "Who’s really in charge at Anthropic after the IPO?",
+      "snippet": "Here's a clear explanation of Anthropic's incredibly complex governance structure.",
+      "publishedAt": "2026-10-27T21:38:28.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:ff390db43c3b",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+      "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+      "snippet": "Disruptive has made headlines in recent years for pouring money into companies like chip startup Groq and the AI voice-generation startup ElevenLabs.",
+      "publishedAt": "2026-10-27T18:55:35.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:64295c3ae779",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+      "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+      "snippet": "TechCrunch spoke to the MIT computer scientist charged with explaining OpenAI's latest mind-bending discovery.",
+      "publishedAt": "2026-10-27T17:08:08.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:133651b428e9",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+      "snippet": "Genie 4 can maintain a consistent scene for up to two minutes, double Genie 3's limit, and offers better physics and more humanlike characters.",
+      "publishedAt": "2026-10-27T16:30:57.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:dc291fa0a78d",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+      "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+      "snippet": "Rohit Patel is departing Meta after eight years working on AI evaluations and reinforcement learning, TechCrunch has exclusively learned. His startup, Ndoc, aims to take on Microsoft Office Suite.",
+      "publishedAt": "2026-10-27T14:59:09.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:1630e683256d",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/27/japan-internet-giant-gmo-says-hackers-posted-stolen-customer-data/",
+      "title": "Japan internet giant GMO says hackers posted stolen customer data",
+      "snippet": "Japan's GMO Internet is verifying alleged customer data posted by suspected hackers following a cloud service breach.",
+      "publishedAt": "2026-10-27T13:32:57.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:257d2044442d",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+      "title": "Opera introduces a new web standard to let users deploy AI locally in their browser",
+      "snippet": "The new standard, WebAI, is designed to work with a variety of AI models.",
+      "publishedAt": "2026-10-27T13:00:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:8f3cfb5cce39",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/",
+      "title": "General Compute raises $100 million Series A, countering the neocloud disaster narrative",
+      "snippet": "General Compute is betting on inference chips from outside the Nvidia ecosystem.",
+      "publishedAt": "2026-10-27T13:00:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:11b65591c039",
+      "source": "hackernews",
+      "url": "https://oioannou.com/blog/ai-promised-less-work/",
+      "title": "AI promised less work. I've never worked more",
+      "snippet": "644 points and 639 comments on Hacker News (https://news.ycombinator.com/item?id=50257325).",
+      "publishedAt": "2026-10-27T11:08:14.000Z",
+      "score": 644,
+      "publisher": "oioannou.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:0fa71fcc03f5",
+      "source": "hackernews",
+      "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+      "title": "Wikipedia's Cleanup of AI-Generated Content",
+      "snippet": "482 points and 218 comments on Hacker News (https://news.ycombinator.com/item?id=50257326).",
+      "publishedAt": "2026-10-27T11:08:15.000Z",
+      "score": 482,
+      "publisher": "spectrum.ieee.org",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:de6edf7c4f45",
+      "source": "hackernews",
+      "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "title": "The Mythical Man-Month in the Age of AI",
+      "snippet": "457 points and 331 comments on Hacker News (https://news.ycombinator.com/item?id=50255298).",
+      "publishedAt": "2026-10-27T06:25:37.000Z",
+      "score": 457,
+      "publisher": "j11g.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:b7bdac3bb4ce",
+      "source": "hackernews",
+      "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220",
+      "title": "Police are using AI to pull over drivers for 'suspicious' behavior",
+      "snippet": "373 points and 293 comments on Hacker News (https://news.ycombinator.com/item?id=50261819).",
+      "publishedAt": "2026-10-27T16:40:15.000Z",
+      "score": 373,
+      "publisher": "gizmodo.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:a88ac8682a34",
+      "source": "hackernews",
+      "url": "https://www.brangus.io/survival-llm",
+      "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "snippet": "371 points and 144 comments on Hacker News (https://news.ycombinator.com/item?id=50264853).",
+      "publishedAt": "2026-10-27T19:55:06.000Z",
+      "score": 371,
+      "publisher": "brangus.io",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:a17083d6bd14",
+      "source": "hackernews",
+      "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova",
+      "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+      "snippet": "325 points and 252 comments on Hacker News (https://news.ycombinator.com/item?id=50261589).",
+      "publishedAt": "2026-10-27T16:25:30.000Z",
+      "score": 325,
+      "publisher": "futurism.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:bce3cb952db3",
+      "source": "hackernews",
+      "url": "https://cfsg.axiommath.ai/",
+      "title": "Classification of Finite Simple Groups Formalized in Lean",
+      "snippet": "216 points and 61 comments on Hacker News (https://news.ycombinator.com/item?id=50261647).",
+      "publishedAt": "2026-10-27T16:29:02.000Z",
+      "score": 216,
+      "publisher": "cfsg.axiommath.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:c40940d8d78e",
+      "source": "hackernews",
+      "url": "https://www.liquid.ai/blog/lfm3",
+      "title": "Introducing LFM3: Every Modality for Specialized Intelligence",
+      "snippet": "146 points and 55 comments on Hacker News (https://news.ycombinator.com/item?id=50262229).",
+      "publishedAt": "2026-10-27T17:04:50.000Z",
+      "score": 146,
+      "publisher": "liquid.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:a190faa8548a",
+      "source": "hackernews",
+      "url": "https://www.bettascore.ai/research/reliability-reviewers-vs-owners",
+      "title": "Reviewers rarely talk about reliability. Owners bring it up twice as often",
+      "snippet": "107 points and 89 comments on Hacker News (https://news.ycombinator.com/item?id=50266780).",
+      "publishedAt": "2026-10-27T22:31:15.000Z",
+      "score": 107,
+      "publisher": "bettascore.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:5a24e14dcd27",
+      "source": "hackernews",
+      "url": "https://allmodels.io/llm/abliterated",
+      "title": "There are now 5 inference providers for abliterated DeepSeek",
+      "snippet": "95 points and 119 comments on Hacker News (https://news.ycombinator.com/item?id=50254836).",
+      "publishedAt": "2026-10-27T04:53:52.000Z",
+      "score": 95,
+      "publisher": "allmodels.io",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:1e9b1470566b",
+      "source": "hackernews",
+      "url": "https://thehill.com/homenews/administration/6175633-trump-bans-artificial-intelligence-term/",
+      "title": "US President says he will ban the term 'artificial intelligence'",
+      "snippet": "92 points and 120 comments on Hacker News (https://news.ycombinator.com/item?id=50264228).",
+      "publishedAt": "2026-10-27T19:11:31.000Z",
+      "score": 92,
+      "publisher": "thehill.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:71fdde578aa1",
+      "source": "hackernews",
+      "url": "https://fishbowl.pastiche.org/2026/10/26/ai-skills",
+      "title": "“AI Skills” are worthless in 2026",
+      "snippet": "50 points and 25 comments on Hacker News (https://news.ycombinator.com/item?id=50255346).",
+      "publishedAt": "2026-10-27T06:33:34.000Z",
+      "score": 50,
+      "publisher": "fishbowl.pastiche.org",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:6bb1678fd004",
+      "source": "hackernews",
+      "url": "https://www.plagiarismtoday.com/2026/10/26/ai-is-ruining-haunted-attractions/",
+      "title": "AI is ruining haunted houses",
+      "snippet": "46 points and 108 comments on Hacker News (https://news.ycombinator.com/item?id=50256230).",
+      "publishedAt": "2026-10-27T08:50:33.000Z",
+      "score": 46,
+      "publisher": "plagiarismtoday.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:0fb19030597b",
+      "source": "hackernews",
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-ban-artificial-intelligence-phrase-b3074397.html",
+      "title": "Trump says he will ban everyone from using the phrase 'artificial intelligence'",
+      "snippet": "37 points and 13 comments on Hacker News (https://news.ycombinator.com/item?id=50263699).",
+      "publishedAt": "2026-10-27T18:33:47.000Z",
+      "score": 37,
+      "publisher": "independent.co.uk",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:4dd0e012015d",
+      "source": "hackernews",
+      "url": "https://www.aclu.org/news/privacy-technology/ai-driven-police-stops",
+      "title": "Police Are Pulling People over Because AI Deems Their Driving \"Suspicious\"",
+      "snippet": "35 points and 10 comments on Hacker News (https://news.ycombinator.com/item?id=50263325).",
+      "publishedAt": "2026-10-27T18:08:20.000Z",
+      "score": 35,
+      "publisher": "aclu.org",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:adf68780db11",
+      "source": "hackernews",
+      "url": "https://www.nytimes.com/2026/10/27/well/ai-chatgpt-medication-epilepsy-death.html",
+      "title": "She Worried About Cutting Her Medication Dose. ChatGPT Told Her to Push On",
+      "snippet": "35 points and 10 comments on Hacker News (https://news.ycombinator.com/item?id=50263012).",
+      "publishedAt": "2026-10-27T17:49:47.000Z",
+      "score": 35,
+      "publisher": "nytimes.com",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:6c5b89fb0ac8",
+      "source": "huggingface",
+      "url": "https://huggingface.co/RecursiveSI/flint",
+      "title": "Trending open model: RecursiveSI/flint",
+      "snippet": "Task: text-generation. 1114 likes, 14047 downloads.",
+      "publishedAt": "2026-10-21T14:20:58.000Z",
+      "score": 967,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:cac24968e5aa",
+      "source": "huggingface",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "title": "Trending open model: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "snippet": "Task: image-text-to-text. 3471 likes, 116770 downloads.",
+      "publishedAt": "2026-10-17T02:40:38.000Z",
+      "score": 936,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:653d82f9a295",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+      "title": "Trending open model: Nanbeige/Nanbeige4.3-33B",
+      "snippet": "Task: text-generation. 692 likes, 7412 downloads.",
+      "publishedAt": "2026-10-24T02:49:18.000Z",
+      "score": 683,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:37ea901da6ec",
+      "source": "huggingface",
+      "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+      "title": "Trending open model: XHToken/Spark-X2.6-4B",
+      "snippet": "Task: text-generation. 827 likes, 8222 downloads.",
+      "publishedAt": "2026-10-19T03:19:51.000Z",
+      "score": 557,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:5a9bda72c1d1",
+      "source": "huggingface",
+      "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+      "title": "Trending open model: black-forest-labs/flux-3-image-klein-comfy",
+      "snippet": "Task: image-to-image. 1901 likes, 798943 downloads.",
+      "publishedAt": "2026-10-14T12:00:13.000Z",
+      "score": 416,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:2eb678169a42",
+      "source": "huggingface",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+      "title": "Trending open model: MiniMaxAI/MiniMax-M3.1-Flash",
+      "snippet": "Task: image-text-to-text. 434 likes, 13247 downloads.",
+      "publishedAt": "2026-10-17T06:37:50.000Z",
+      "score": 409,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:0337f1c85ce8",
+      "source": "huggingface",
+      "url": "https://huggingface.co/ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+      "title": "Trending open model: ISTA-DASLab/DeepSeek-V4.1-Flash-1017-GSQ-RCO-GGUF",
+      "snippet": "Task: text-generation. 414 likes, 1377570 downloads.",
+      "publishedAt": "2026-10-23T09:43:05.000Z",
+      "score": 391,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:b7d75266f87b",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.33568",
+      "title": "Trajectory2Gym: Decision-Grounded Compositional Interaction Synthesis for Tool-Use Agents",
+      "snippet": "Successful tool-use trajectories are not necessarily useful supervision. Even successful interactions may underrepresent multi-step dependencies or contain actions that are unjustified by the information visible to the agent at decision time. We identify two coupled requirements for effective…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 353,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:6b1c79369619",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.32285",
+      "title": "Trial by Trace: Benchmarking AI Agent Harnesses for Reliability and Failure Attribution",
+      "snippet": "LLM agents are increasingly used to solve real-world problems, and their effectiveness depends on both the underlying models and the harnesses that support their operation. However, most existing benchmarks focus on model capabilities and overall agent performance, with limited attention to the…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 285,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:827c370c6c8d",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.34662",
+      "title": "StreamVibe: Proactive Video Agents for Evolving User Intent",
+      "snippet": "Vision-language models are shifting from offline passive understanding toward online proactive interaction. However, prevailing methods largely rely on explicit requests while miss the implicit user intent (e.g., \"where should I click next?\" while a user navigate a website), meanwhile fail to…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 249,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:f9ffcb0268e3",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.34467",
+      "title": "DynaFlow: Learning Free-Form Multi-Agent Orchestration",
+      "snippet": "Multi-agent systems often rely on predefined collaboration structures, limiting their ability to adapt to diverse task requirements. We introduce DynaFlow, a framework that integrates free-form executable workflow synthesis into the action space of the main agent. The agent decides when…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 198,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:91c65ae3ebf0",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.33966",
+      "title": "InteractiveWorld: A Verifiable Human-Centric Environment for Building Better Interactive MLLM Assistants",
+      "snippet": "People have long dreamed of an assistant that is always there to guide them and remind what they forget, from new dishes to lost keys. Powered by multimodal large language models (MLLMs), egocentric AI assistants on wearable devices are bringing this dream within reach: they see what the user sees…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 121,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:095ae608fbac",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.35845",
+      "title": "Work Agents: Systems, Capabilities, and Optimization",
+      "snippet": "As foundation models evolve from information generation to digital work execution, agents are increasingly capable of completing complex tasks across tools, applications, and workflows. However, existing research lacks a unified perspective on how agents reliably accomplish delegated work. To…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 113,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:6c79fc53c4bc",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.33956",
+      "title": "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
+      "snippet": "Continual learning is the ability of LLM agents to improve over time by acquiring, refining, and applying knowledge from experience while retaining useful prior knowledge. It is essential for agents learning over long time horizons, yet current evaluations largely assess individual task…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 52,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:aba06b71ad75",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.33135",
+      "title": "WorldCast: World-Consistent Character Video Generation with Large-Angle Camera Control",
+      "snippet": "Precise camera control is essential for cinematic character video generation, yet existing methods struggle to follow large-angle trajectories with combined rotation, translation, and radius variation from arbitrary initial azimuths. Such viewpoint changes also reveal character regions unseen in…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 51,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:e5188f4b14d8",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.34415",
+      "title": "Spatial Audio Generation and Editing with Executable Plans and Self-Distilling Transfusion",
+      "snippet": "Spatial audio authoring coordinates source decisions with soundfield synthesis. For editing, plans specify what to change and retain, while reference audio supplies further acoustic detail. We present AMBIT, a unified framework for native First-Order Ambisonics (FOA) generation and editing with…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 47,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:716990430b7e",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.33413",
+      "title": "AV-FABLE: Audio-Visual Manipulation Forensics in Long-Form Videos",
+      "snippet": "Localized AI manipulations in long-form videos often affect brief events within otherwise authentic content, making video-level classification insufficient for forensic analysis. Existing audio-visual deepfake benchmarks largely focus on short talking-head clips, while long-form temporal forensics…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 44,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:8eaac20a6315",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.33512",
+      "title": "Eat Your Precision: Precision Objective Mitigates Reward Hacking in Rubric-based RL",
+      "snippet": "Rubric-based rewards enable effective reinforcement learning on non-verifiable tasks. However, because these rewards are typically defined as a weighted measure of rubric coverage, models are trained primarily to maximize a recall objective. As a result, RL-trained models produce responses that…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 42,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:d55eba457875",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.21240",
+      "title": "Representation Redistribution in Sparse Autoencoders",
+      "snippet": "Sparse autoencoders (SAEs) decompose language model activations into sparse features, but prompt transformations designed to preserve the underlying request can redistribute activity across them. A feature change observed on one transformed prompt need not recur, and even a recurring change need…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 37,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:35e29155e9f4",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.32195",
+      "title": "Principia: Test-Time Hypotheses to Principle Construction for Scientific Discovery",
+      "snippet": "Scientific discovery requires identifying the scientific principles underlying observed phenomena to guide further investigation. As these empirical principles are often unknown in complex discovery processes, they are constructed via a hypotheses-to-principle pipeline to obtain recurring…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 36,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:7598956018ea",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.31635",
+      "title": "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction",
+      "snippet": "Feed-forward models accurately estimate camera motion and 3D geometry from short video windows. However, computational and memory costs prevent direct inference on sequences containing thousands of frames. Long videos must therefore be processed as overlapping chunks. This division produces…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 31,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:906b4dd79b14",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.33472",
+      "title": "Qwen-Image-PE: Learning Visual Design for Text-to-Image Prompt Enhancement",
+      "snippet": "Learning visual design is essential for prompt enhancement (PE) to turn underspecified user requests into coherent visual specifications for text-to-image (T2I) generation. Existing methods preserve user intent and improve overall visual appeal, with less explicit emphasis on fine-grained design…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 31,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:a05b5a67652b",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.33169",
+      "title": "World-in-Context: Interactive Video World Modeling with In-Context Conditioning",
+      "snippet": "Interactive video world models require coordinated control over viewing perspectives, character actions, and camera motion. Existing methods typically leave view modes implicit in text captions, conflate action with camera motion, and inject controls through fragmented architectural pathways that…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 27,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:40257cf3a495",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.34238",
+      "title": "Δτ-Bench: Pushing Agents Toward a Moving Capability",
+      "snippet": "In this paper, we introduce Δτ-Bench, an executable agent benchmark that models the structural evolution of large tool ecosystems. In Δτ-Bench, independently evolving services continually reshape how tasks can be accomplished: familiar tools may disappear or be replaced, while more efficient…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 26,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:fc5f21ba4d51",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.33024",
+      "title": "Evolving to Match Capabilities: Improving Harness Self-Evolution via Skill Adaptation",
+      "snippet": "Harness self-evolution offers a practical route for LLM agents to improve from execution experience without updating model parameters. Its effectiveness depends on whether models can successfully act on the guidance provided by their harnesses. However, we find that harness benefits are not…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 24,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:83d8184a50b8",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.35193",
+      "title": "Trustworthy Recursive Self-Improvement in the Era of Large Models: Foundation, Risks, Evaluation and Open Challenges",
+      "snippet": "AI systems built around large models increasingly use experience and feedback to make persistent changes to models, prompts, memories, tools, and workflows. Recursive self-improvement (RSI) extends this process to inductive biases and to the mechanisms that govern future updates, which can…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 23,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:6795c242502b",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.18683",
+      "title": "ProAS: A Progress-Aware Advantage Shaping Framework for Multi-Turn Agentic Reinforcement Learning",
+      "snippet": "Reinforcement learning (RL) has emerged as the primary paradigm for optimizing Large Language Model (LLM) agents, yet efficient critic-free algorithms (e.g., GRPO) suffer from a fundamental uniform credit assignment dilemma that broadcasts trajectory-level advantages equally to all actions. Our…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 23,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:3a9b8c250ab3",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.23928",
+      "title": "miniTE: Diagnosing and Bridging the Execution Gap in Native NVFP4 Reinforcement Learning",
+      "snippet": "Native NVFP4 promises to accelerate reinforcement learning (RL) for large language models (LLMs), but achieving stable learning across separate training and sampling engines remains challenging. We show that matching model weights and numerical formats is insufficient to ensure consistent policy…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 22,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:04cdf708753e",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.35518",
+      "title": "S3AC: Stabilized, Selective, and Scalable Actor-Critic for LLM Reasoning",
+      "snippet": "Critic-free methods are widely used in reinforcement learning with verifiable rewards (RLVR) for long chain-of-thought (CoT) reasoning, avoiding difficult and costly critic training. Common alternatives lack token-level credit assignment and typically rely on grouped rollouts to estimate…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 20,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:47c2ef378e7c",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.34356",
+      "title": "RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions",
+      "snippet": "Scaling vision-language-action (VLA) models is constrained by scarce action-labeled demonstrations and incompatible control spaces across robot embodiments. We present RynnVLA-Latent, a framework that turns heterogeneous interaction videos into scalable supervision for robot policy pretraining. At…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 20,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:d95f8fe31939",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.29915",
+      "title": "CausalAlign: Causal Alignment of Video Generation Models for Consistent Ego-Motion",
+      "snippet": "Diffusion-based video generation models (VGMs) can produce visually plausible videos, yet their camera ego-motion often drifts over long horizons. Camera ego-motion determines how the viewpoint changes between frames and is essential for maintaining consistent geometry and trajectories. To address…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 18,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:5088cc36eccc",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.35001",
+      "title": "More Memory, Better Videos? A Controlled Study of Visual Memory in Long-Video Generation",
+      "snippet": "Long-video generators increasingly retrieve past visual observations to prevent identity drift. The intuition is compelling: more access to history should make future video more consistent. But an image can be faithful to the past and wrong for the present. Does visual memory always improve the…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 18,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:72daa745ba72",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.35385",
+      "title": "EmbodiedLab: Benchmarking Embodied Agents That Act to Know",
+      "snippet": "Embodied agents are expected to accomplish real-world goals by deciding for themselves how and when to interact with their surroundings. For many such goals, changing the physical state of the world is the means rather than the end: the agent changes the state of a system through interaction…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 17,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:e8430fde7488",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.33845",
+      "title": "Build, Don't Play: Self-Improving LLM Research Agents Develop a Hearthstone Battlegrounds AI That Rivals Top Players",
+      "snippet": "Can LLM agents carry a hard real-world problem from raw data to a system that holds its own against people? We study this in Hearthstone Battlegrounds, an eight-player auto-battler with stochastic shops and battles, hidden information and nearly a thousand interacting cards. We present AutoTavern…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 16,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:5805b0b46334",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.31309",
+      "title": "Extreme Compression of Per-Layer Embeddings via Cross-Layer Latent Vector Quantization",
+      "snippet": "Scaling embedding capacity alongside Transformer computation is an emerging trend in language models. This trend makes high compression rates increasingly useful. Hence, we study extreme compression of Per-Layer Embeddings (PLE), which follow this trend and account for 35.2% of the parameters of…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 16,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:82125f2e6f6b",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.34735",
+      "title": "iPrefBench: A User-Centric Benchmark for Personalized Mobile Use Agents",
+      "snippet": "An agent that truly knows and acts on behalf of its user has been a long-standing promise of AI assistants. Computer-use agents bring this promise within reach by capably executing fully specified tasks across apps. However, real-world user requests are often underspecified. To act correctly for…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 15,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:252561ee7651",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.33079",
+      "title": "Rethinking Video Storage for AI Training: Breaking Cross-Frame Dependencies for Efficient Random Access",
+      "snippet": "Large-scale AI training increasingly relies on massive video datasets with random temporal sampling patterns. However, existing video storage paradigms are optimized for sequential playback and employ sophisticated inter-frame reference structures to maximize compression efficiency. When applied…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 14,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:e8eaf5de08ee",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.33608",
+      "title": "Mycelium: A Meta-Study of Hallucination Detection Across Provenance, Typology, and Granularities",
+      "snippet": "Hallucination detection is increasingly important for evaluating and deploying large language models. However, existing methods are often compared across benchmarks that define and measure hallucination in substantially different ways, making reported scores difficult to interpret across settings…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 14,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:2257b1b05dc5",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.33861",
+      "title": "ReGE: Stronger Agents through Experience Synthesis",
+      "snippet": "Repeated attempts at interactive tasks uncover facts, useful operations, and failures that can inform subsequent execution. We introduce ReGE, a framework for turning this recorded experience into guidance for a fresh attempt. Its main implementation, ReGE-Syn, uses a single coach call to jointly…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 13,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:a9d1e65638c6",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2610.34634",
+      "title": "AgentProofBench: Benchmarking Reusable Verifiers for Web Agents",
+      "snippet": "Reusable Web-agent verification requires a rule to follow changing requirements and support subsequent execution. We introduce AgentProofBench, which connects paired tests of a frozen acceptance rule to execution from identical saved openings. The resource spans 97 tasks, 79 families, and four Web…",
+      "publishedAt": "2026-10-27T00:00:00.000Z",
+      "score": 13,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:cefc48cf69e7",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.36116",
+      "title": "Why and How to Do Science When AI Is Better at It: A Framework Grounded in Human Understanding and Direction",
+      "snippet": "As AI begins to match or exceed human researchers at core scientific tasks, two questions become pressing: \\emph{why} should humans keep doing science, and \\emph{how} should they use AI when they do? This paper argues that the second can be answered only by answering the first. It holds that one…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:457d2e34dc44",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.36367",
+      "title": "MUSE: Revealing Responsiveness Gaps of LLM Tutors on Multiple-Solution Programming Problems",
+      "snippet": "When a problem admits multiple valid solutions, effective tutoring requires building on a student's strategy while introducing alternatives at appropriate points. However, whether LLM tutors can support this flexibility by appropriately responding to students' diverse solution approaches remains…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:68b444de5558",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.36432",
+      "title": "No Tokenizer, Still a Gap: Cross-Lingual Fairness of Homoglyph and Invisible-Character Watermarking",
+      "snippet": "Homoglyph and invisible-character watermarks are edit-based watermarks. Instead of changing how a model generates text, they hide a signal in the text after it is written. They swap some characters for homoglyphs, which look the same, or very similar, but have different Unicode code points, or…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:91e4596ce005",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.36478",
+      "title": "Multi-Scale Spatio-Temporal Exploratory Analysis of Urban Vehicle Theft",
+      "snippet": "Vehicle theft is a persistent urban problem with large economic and social costs. We analyze 521,098 stolen-vehicle reports filed with the Los Angeles Police Department from 2000 to 2022, at scales from hours to decades and from 100 m grid cells to census tracts. Much of the work lies in making…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:5f3dc98e7cb7",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.36484",
+      "title": "CogArena: Benchmarking Multimodal Agents on Interactive Behavioral Experiments",
+      "snippet": "Claims about the cognitive capabilities of large language models are typically tested by translating behavioral paradigms into text prompts, bypassing the visual interfaces and time pressure through which human participants actually engage with experiments. At the same time, AI agents can now…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:65d25f149d30",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.36561",
+      "title": "Governed Sovereign RAG for Public Administration: Tripartite Epistemic Routing, Facet-Guided Clarification, and Deterministic Numeric Verification in Citizen Services",
+      "snippet": "Deploying conversational assistants at government service desks faces a tension between regulatory certainty (zero tolerance for invented fees), data sovereignty prohibiting commercial clouds, and high rates of underspecified or out-of-jurisdiction citizen queries. We present and evaluate a…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:de5571a7ca7e",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.36631",
+      "title": "The uneven rise of AI-generated web content",
+      "snippet": "In less than five years, generative artificial intelligence (AI) has dramatically reshaped the public-facing web. Using a sample of more than 5 million crawlable webpages, we demonstrate that the share containing AI-generated text has increased precipitously, but unevenly. Our analyses reveal…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:1843d1c1ae55",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.36639",
+      "title": "Whether Is Not When: Separating Occurrence from Timing in Polymarket Prices",
+      "snippet": "Prices formed by Web users on Polymarket, a blockchain-based prediction market, are now cited in the news and in a U.S. Army intelligence bulletin as early warnings of geopolitical events. However, it remains unclear whether these prices can serve as such warnings. This cannot be judged from…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:2a25d813c4d5",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.36654",
+      "title": "Edhivo: An AI-Native Platform for Scalable Assessment and Instant Feedback in Higher Education",
+      "snippet": "Scaling assessment in higher education faces two intertwined bottlenecks: the cognitive burden of authoring assessments and the inability to semantically evaluate open-ended responses, which together create a persistent feedback gap that hinders student learning outcomes. To address these…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:304f3f5ab08d",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.36941",
+      "title": "Algorithmic Monoculture in Machine Learning-based Site-Specific Fertilizer Recommendation",
+      "snippet": "Machine learning recommendations are often evaluated one model at a time, despite deployment across interconnected decision makers. For continuous NPK fertilizer prescriptions, correlated errors can aggregate across farms and generate systemic costs. A model of shared and farm-specific…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:82fe52b73d64",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.37197",
+      "title": "Conditional Values: The Contingent Foundations of Attitudes toward Artificial Intelligence",
+      "snippet": "How do broader values shape whether people judge artificial intelligence (AI) as good or bad for humanity? This article analyzes provisional World Values Survey Wave 8 data from 40,960 respondents in 24 country samples using pooled and national prediction models, outcome-independent respondent…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:d6893446e669",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.37348",
+      "title": "Uneven Use, Similar Trust Generative AI in Denmark and Romania",
+      "snippet": "Generative AI (GenAI) has spread unevenly across Europe, and it is unclear whether higher use brings higher trust. This paper compares Denmark and Romania, the EU's highest and lowest GenAI users, and asks whether the difference in public and institutional trust between them corresponds to the…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:92911ae2d955",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.37418",
+      "title": "Neighborhood Deprivation Shapes Post-Flood Population Losses in Pune and Bandung",
+      "snippet": "Disaster research in high-income settings shows that better-resourced communities see population inflows and faster recovery, while disadvantaged communities suffer prolonged population loss. Whether this pattern holds in rapidly urbanizing cities of the Global South remains unclear. Here we show…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:ebce85819a09",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.37527",
+      "title": "Extending the W3C Data Privacy Vocabulary to Cover the German Health Data Use Act - Lessons Learned",
+      "snippet": "Finding, sharing, and reusing data requires common interoperable vocabularies to adequately describe machine-actionable data policies. Semantic Web standards are a proven way to express such information describing data access and reuse. Narrative descriptions get a stable and agreed meaning by…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:f3b6ebdfd12f",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35908",
+      "title": "People's Views on Smiley Emoji on WeChat Platform, Positive Emotion and Sarcasm",
+      "snippet": "Emoji can easily lead to misunderstanding. On WeChat, [Smile] is often used by the elderly to express positive emotions such as joy and praise, but young people often regard [Smile] as sarcasm. In this case, misunderstandings can easily occur. In order to confirm the existence of this phenomenon…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:8cad0aa57b23",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35910",
+      "title": "Physiognomy Revisited: How Vision-Language Models Encode Sensitive Attributes Through Image Transformation",
+      "snippet": "Emergent generative AI technologies, while remarkably beneficial across several tasks and domains, can suffer from unforeseen vulnerabilities and difficult-to-anticipate failure modes. Such failure modes can disparately affect vulnerable communities. This paper investigates two well-known vision…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:a84b709b8d9c",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35997",
+      "title": "PolicyMediator: Multi-Regional Policy Learning through Mediation Agents with Evolving Skills in OPC Ecosystems",
+      "snippet": "One-person companies (OPCs) are emerging enterprises operated by individual entrepreneurs through digital platforms and LLM-based AI agents. These highly skilled entrepreneurs are characterized by being digital nomads, with limited reliance on local ecosystems. Governments in China use distinct…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:02ebe46c819f",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.36008",
+      "title": "Practice Makes Perfect: Tacit Knowledge, Generative AI, and Returns to Schooling and Experience",
+      "snippet": "Generative AI changes the scarcity of different forms of human capital. It makes codified knowledge cheaply available at the point of production, while judgment acquired through practice remains tied more closely to the worker. We ask what this does to two familiar prices in the wage structure…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:ed6bc4001aa5",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.36181",
+      "title": "Is the education gap in generative AI use smaller than the internet's was at a similar level of use? Evidence from 16 European countries",
+      "snippet": "New technologies are usually adopted first by people with more formal education. This paper asks whether the education gap in generative AI use in 2025 is smaller or larger than the internet's gap in the same country in the year when overall internet use was at a similar level. It uses public…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:14611f1b25d8",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.36219",
+      "title": "Bringing Hardware Security Education to All: A Seamless Curriculum Integration Approach",
+      "snippet": "Cybersecurity education has predominantly focused on software and network security, under the assumption that the underlying hardware is trustworthy. Threats introduced through the global semiconductor supply chain, together with vulnerabilities arising during design and integration, challenge the…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:a530ffc72b73",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.36494",
+      "title": "Counting by the Book: Verifying Alaska's Ranked-Choice Elections",
+      "snippet": "We present Alaska's ranked-choice elections as a case study in Formally Verified Democracy, a program to establish election results through formally checked proofs. We formalize an interpretation of Alaska's tabulation rules in Lean, verify its implementation, and prove election-specific results…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:0e2d0871e05a",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.37467",
+      "title": "Penny for Your Prompts: A Measurement Study of Contextual Leakage in AI Chat Platforms",
+      "snippet": "AI chatbot platforms have become one of the most popular web interfaces users interact with online, routinely receiving personal and intimate information shared under an expectation of privacy. Yet, on the web application side, these platforms have the ability to embed third-party analytics…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:b8fd7d9b4d63",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35869",
+      "title": "KORA: Deterministic-First Execution Control for AI Workloads",
+      "snippet": "AI applications often invoke a model before they determine whether inference is necessary. That default is useful for ambiguous generative tasks, but it is poorly matched to work that is structured, deterministic, policy-bound, lookup-oriented, or directly verifiable. KORA introduces…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:dca6da6b82bc",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35877",
+      "title": "Calibrated for Which Policy? Conformal Uncertainty for Fixed World Models Under Intervention",
+      "snippet": "Changing a deployment policy can invalidate a world model's uncertainty while leaving the physical transition mechanism and predictor unchanged. For one-step prediction, if source and target laws share the conditional mechanism $P(Y|X)=Q(Y|X)$, then the intervention is identified by the…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:33e2230256ee",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35925",
+      "title": "ReCoPII: A Relation-Grounded Framework for Building Contextual PII Masking Datasets",
+      "snippet": "Training contextual masking systems for personally identifiable information (PII) requires examples distinguishing maskable from preservable mentions of one entity type, but privacy restrictions limit access to real data. Author-based augmentation (SPY) labels mentions unrelated to the author as…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:6d883a1f3620",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35942",
+      "title": "Counting the Bandages: On measuring the time that AI saves",
+      "snippet": "I consider what it means for AI assistance to save time. I contrast a stopwatch view, on which time saved is whatever the clock records, with a ledger view, on which it is a counterfactual that has to be read next to the errors the work lets through, and I argue for the latter. The argument has…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:74c303c90da7",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35954",
+      "title": "Curriculum-Driven Deep Reinforcement Learning for Autonomous Far-Range Rocket Landing",
+      "snippet": "Autonomous vertical landing of reusable launch vehicles is a critical yet formidable challenge in aerospace engineering, primarily due to highly nonlinear dynamics, stringent precision require- ments, and inherent environmental uncertainties. While reinforcement learning (RL) has emerged as a…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:c7221d879212",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35955",
+      "title": "ResCom: Activation Residual Compensation for Large Language Model Quantization",
+      "snippet": "Low-bit weight--activation quantization reduces the memory and computation needed to deploy large language models, but activation rounding can still degrade accuracy after calibration. Reconstruction from rounded inputs cannot distinguish activations within the same quantization bin. We propose…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:782d24630a37",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35957",
+      "title": "Distributed LLM Inference via Communication-Efficient Speculative Decoding",
+      "snippet": "Distributed speculative decoding has emerged as a promising approach for device--server collaborative large language model (LLM) inference, but its decoding speedup is often limited by the vocabulary-scale communication overhead. In existing distributed speculative decoding methods, exact…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:bb6a56a0eb1d",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35958",
+      "title": "Exponential Wake-Up Overshoot in Explicit Gaussian Point-Process Filters",
+      "snippet": "When events resume after a long silence, explicit Gaussian point-process filters amplify the first update exponentially in the silence duration. We give the exact distribution of this update and a computable index that predicts when it overshoots. For the explicit (single-scoring-step) filter and…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:fd21616c4f94",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35960",
+      "title": "From Slices to Volumes: Comparing 2D, 2.5D, and 3D Residual Networks for Pulmonary Nodule Malignancy-Risk Classification",
+      "snippet": "Purpose: To compare 2D, 2.5D, and 3D residual networks for pulmonary nodule malignancy-risk classification and evaluate momentum-contrast pretraining, mild augmentation, and exclusion of indeterminate ratings. Methods: A retrospectively prepared LIDC-IDRI cohort contained 2,654 nodules labeled…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:573f2ed39f4c",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35961",
+      "title": "Knowledge distillation across teacher architectures for compact diabetic retinopathy grading",
+      "snippet": "Diabetic retinopathy grading from retinal fundus photographs is important but difficult to deploy on resource-constrained hardware. We conducted a controlled study of offline response-based knowledge distillation for five-class diabetic retinopathy grading on APTOS 2019, comparing ResNet-50…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:4a9dc70ee129",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35962",
+      "title": "h1: A Taste of the Bitter Lesson in Automated Theorem Proving",
+      "snippet": "While progress in informal mathematics has come largely from scaling the chain-of-thought and agentic reasoning of frontier language models, formal theorem proving has increasingly relied on human-designed workflows around these models, such as planning, decomposition, and orchestrating…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:1054e7082e68",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35963",
+      "title": "Condition-Enhanced Generative Adversarial Network for Aerodynamic Configuration Design of Commercial Aircraft",
+      "snippet": "Generative machine learning provides an end-to-end framework for aerodynamic design optimization by generating diverse aerodynamic configurations conditioned on target performance. However, the generated designs may violate geometric constraints or deviate from the prescribed aerodynamic…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:308b4f041dba",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35965",
+      "title": "Generalization in Learning: Eyring Formula and Predator-prey Model",
+      "snippet": "In this work, generalization in machine learning is investigated using a predator-prey model. We overview biological and chemical interpretation of the stochastic gradient Langevin dynamics and generative adversarial network. For a particular example of recovering an unknown function by a…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:7fad2d45da55",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35967",
+      "title": "Data-driven Discovery of Lie Symmetries and First Integrals with Latent ODEs",
+      "snippet": "We present LatentLieODE, a novel neural ODE method to discover linear Lie symmetries and first integrals of the learned dynamics from timeseries observations such as video inputs. It starts with an autoencoder, which learns a low dimensional representation of the observed system and then maps…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:1ae6c58f79aa",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35972",
+      "title": "Multiple Leak Localization in Water Distribution Networks through Graph Neural Networks",
+      "snippet": "Leak localization in water distribution networks is challenging when multiple leaks occur simultaneously, particularly under sparse monitoring. Existing data-driven methods often assume a single or predefined number of leaks or require extensive enumeration of leak combinations. This study…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:0c6e4d6bb915",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35975",
+      "title": "A Graph-informed Kriging model for sample-efficient Bayesian optimization of wind farm layouts",
+      "snippet": "Wind farm layout optimization becomes increasingly difficult as turbine count grows, especially when high-fidelity aerodynamic models are used. Conventional Kriging-based Bayesian optimization often suffers from low sample efficiency in high-dimensional layout spaces because sparse training data…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:7955caaf8914",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35984",
+      "title": "Enhancing Deep Learning Model Performance through Data Generation Strategies: Classification of Olive Tree Diseases",
+      "snippet": "Deep learning models are highly effective in a wide range of domains, particu larly in plant disease diagnosis. However, their performance is often limited by challenges such as insufficient data and class imbalance. In our work, we propose a comprehensive data generation strategy to overcome…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:185c2e95af99",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.35985",
+      "title": "Let the Gate Decide: Per-Lookup Precision for Quantized Conditional Memory in LLMs",
+      "snippet": "Conditional memory layers, such as DeepSeek's Engram, attach large hashed n-gram tables to a language model, and removing them from DeepSeek-V4.1-Flash costs 36.8 PopQA points. Low-bit quantization loses long-tail facts first, and the standard remedy, giving more bits to frequently accessed rows…",
+      "publishedAt": "2026-10-28T04:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    }
+  ]
+}
