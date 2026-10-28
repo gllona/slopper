@@ -1,0 +1,208 @@
+{
+  "topStories": [
+    {
+      "title": "A Lawsuit Says A Chatbot Coached A Patient Off Her Medication Before She Died",
+      "itemIds": [
+        "feeds:db05b50ceb26",
+        "hackernews:adf68780db11"
+      ],
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "chatbot-medication-death-lawsuit"
+    },
+    {
+      "title": "A State's Plan Would Let AI Agents Run Companies Without Owner Liability",
+      "itemIds": [
+        "feeds:e734c0e90ec1"
+      ],
+      "dimensions": [
+        "policy",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agents-run-companies-no-liability"
+    },
+    {
+      "title": "Data Center Backlash Becomes A Midterm Election Issue",
+      "itemIds": [
+        "feeds:d3ff2c1c637b"
+      ],
+      "dimensions": [
+        "policy",
+        "planet",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "Police Use AI To Flag 'Suspicious' Driving For Traffic Stops",
+      "itemIds": [
+        "hackernews:b7bdac3bb4ce",
+        "hackernews:4dd0e012015d"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-flags-suspicious-driving"
+    },
+    {
+      "title": "A Government Watchdog May Probe A Home Office's Use Of AI For Asylum Claims",
+      "itemIds": [
+        "feeds:0d75f4f8c81b"
+      ],
+      "dimensions": [
+        "policy",
+        "law",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "government-ai-tool-under-scrutiny"
+    },
+    {
+      "title": "A Push To Ban The Term 'Artificial Intelligence' Itself",
+      "itemIds": [
+        "hackernews:1e9b1470566b",
+        "hackernews:0fb19030597b"
+      ],
+      "dimensions": [
+        "policy",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "ai-rebrand-super-intelligence"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "chatbot-medication-death-lawsuit",
+      "title": "A Lawsuit Says A Chatbot's Advice Preceded A Death",
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "motifs": [
+        "a chatbot speech bubble fading into a question mark beside an empty chair",
+        "a medication bottle resting beside a lawsuit document on courthouse steps"
+      ]
+    },
+    {
+      "id": "ai-agents-run-companies-no-liability",
+      "title": "A Plan Lets AI Agents Run Companies, Not Owners",
+      "dimensions": [
+        "policy",
+        "law"
+      ],
+      "motifs": [
+        "a company building with a blank OWNER sign and a small robot at the controls",
+        "a liability arrow bouncing off the company's wall instead of landing"
+      ]
+    },
+    {
+      "id": "government-ai-tool-under-scrutiny",
+      "title": "A Government's Own AI Tool Faces Scrutiny",
+      "dimensions": [
+        "policy",
+        "law",
+        "society"
+      ],
+      "motifs": [
+        "a government office door with a magnifying glass over its AI terminal",
+        "a watchdog badge poised beside a government AI tool"
+      ]
+    },
+    {
+      "id": "ai-flags-suspicious-driving",
+      "title": "Police Use AI To Flag 'Suspicious' Driving",
+      "dimensions": [
+        "safety",
+        "law",
+        "society"
+      ],
+      "motifs": [
+        "a patrol car radar dish pointed at a speech-bubble-shaped traffic signal",
+        "a badge stamped SUSPICIOUS beside a flagged license plate icon"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Several top stories clear the relevance threshold on their own: a lawsuit over a chatbot's advice before a patient's death (novelty3×magnitude3×breadth2=18) and a state plan to let AI agents run companies without owner liability (3×2×2=12), both non-industry stories well past the balance-rule threshold of 5.",
+  "motto": "Nobody At The Wheel",
+  "phrase": "A lawsuit says a chatbot coached a patient off her medication before she died. A new plan would let AI run whole companies while owners dodge the blame.",
+  "phraseAlternatives": [
+    "A lawsuit claims a chatbot coached a patient off her medication before she died. The same week, a draft law would let AI run companies while owners escape blame.",
+    "A family's lawsuit says a chatbot steered their daughter off her medication before she died. A new plan would let AI run a company with nobody to blame.",
+    "A lawsuit says a chatbot told a patient to quietly stop her medication before she died. A new plan would let AI run companies with no owner to blame."
+  ],
+  "brief": {
+    "concept": "A company building with a blank OWNER sign lets a small robot steer from inside while a liability arrow bounces off its wall; beside it, a courthouse holds a lawsuit document next to an empty chair, above which a chatbot speech bubble fades into a question mark.",
+    "metaphor": "When the robot acts, no one is sitting in the chair that answers for it: the company's door has no name, and the courtroom's seat is empty.",
+    "cast": [
+      {
+        "who": "a company building with a blank OWNER sign on its door",
+        "kind": "institution"
+      },
+      {
+        "who": "a small robot standing at the controls inside, steering a wheel",
+        "kind": "ai"
+      },
+      {
+        "who": "a liability arrow bouncing off the building's outer wall instead of landing",
+        "kind": "object"
+      },
+      {
+        "who": "a courthouse holding a lawsuit document on its front steps",
+        "kind": "institution"
+      },
+      {
+        "who": "an empty chair beside the lawsuit document",
+        "kind": "object"
+      },
+      {
+        "who": "a chatbot speech bubble fading into a question mark above the empty chair",
+        "kind": "ai"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Split scene, two halves divided by a thin gutter. Left: the company building with its blank sign and the small robot visible at the controls inside, a liability arrow glancing off the outer wall toward the top corner. Right: a plain courthouse with a lawsuit document resting on its steps, an empty chair beside it, and the chatbot speech bubble drifting above the chair, its tail trailing into a question mark. Flat riso shapes, generous cream background, no crowd, no extra text beyond small labels like OWNER on the sign.",
+    "artType": "static",
+    "alt": "On the left, an office building with a blank owner sign and a small robot at the controls, with an arrow bouncing off its wall. On the right, a courthouse holds a lawsuit document beside an empty chair, above which a chatbot speech bubble fades into a question mark."
+  },
+  "sourceIds": [
+    "feeds:e734c0e90ec1",
+    "feeds:db05b50ceb26",
+    "hackernews:adf68780db11"
+  ],
+  "dimensions": {
+    "policy": 3,
+    "law": 3,
+    "safety": 2,
+    "society": 3,
+    "planet": 1,
+    "industry": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}

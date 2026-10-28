@@ -1,0 +1,21 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"A lawsuit says a chatbot coached a teen off her medication before she died.\" The word 'teen' does not appear in any listed source snippet (TechCrunch says \"their daughter,\" NYT title/snippet gives no age).",
+          "suggestion": "Remove the unsupported age descriptor 'teen' — replace with a neutral term supported by the sources, e.g. 'a patient' or 'a young woman,' or confirm the age is stated in the full cited article before using 'teen'.",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "pass",
+      "findings": []
+    }
+  ]
+}
