@@ -1,0 +1,17 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "pass",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "low",
+          "evidence": "Phrase: \"A top judge says AI could soon start deciding real court cases instead.\" vs. source: \"believes that AI could adjudicate plenty of civil cases. The question, he says, is where the line should be drawn.\"",
+          "suggestion": "Consider softening 'instead' (which implies full replacement) to something closer to the source's framing, e.g. 'could soon decide some real court cases' — the source describes partial adjudication with an open question about limits, not full replacement.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}

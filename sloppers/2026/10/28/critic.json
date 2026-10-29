@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"tag-na\" (label) was moved 21 px, 0 px to stay inside the safe area",
+          "\"gavel\" (raw) was moved -147 px, 0 px to stay inside the artboard",
+          "\"gavel\" extends outside the safe area in the final frame (x 926…1058, y 498…603)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The left half (robot locked in a NOT AVAILABLE case) reads cleanly, but the right half's central action - the judge handing a gavel to the robot - is muddled: the gavel floats disconnected from both hands and clips the safe-area edge, and the composition/novelty repeat recent split-screen and 'boxed robot' sloppers. Average score falls below the 3.5 pass bar.</verdict>\n</invoke>\n",
+        "revisionNotes": [
+          "Reconnect the gavel handoff: the gavel currently floats disconnected from both the judge's hand and the bot's raised hands, and clips outside the safe area (x 926-1058 per lint). Anchor its handle to the judge's hand and its head into the bot's grip, pulling it ~120px left/down.",
+          "Swap the judge's 'point' pose for a 'reach-down/offer' pose; the arm currently extends almost horizontally off-frame, which reads as pointing at nothing rather than handing something down to the dock.",
+          "Add back the small rising bar chart beside the display case called for in the brief - it reinforces the 'freshly released' beat and the left half currently has only the case and two tags.",
+          "Add the thin vertical divider line from the brief between the two halves; right now only the wavy ground line separates them, which is a weak split.",
+          "This composition repeats recent sloppers: a robot sealed inside a display case/box (see the 'SEALED' slopper) and a vertical split-screen human-vs-robot layout (see the 'SHARE' slopper). Vary the case shape or try a diagonal layout instead.",
+          "Shorten or tuck in the judge's reaching arm so its hand/the gavel stay fully inside the safe margin instead of needing the lint-flagged nudge."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Fails: the central joke prop — the gavel — floats disconnected from both the judge's hand and the robot's reach, so the 'power transferring to AI' beat doesn't land, and the split-screen divider device repeats a layout already used twice in the recent set.",
+        "revisionNotes": [
+          "Fix the gavel handoff: it floats disconnected between the judge's open, pointing hand and the robot's raised arms. Anchor it to sit in the judge's hand (closed grip) and angle its head toward the robot's reaching hands, so the 'handing over power' beat reads instantly.",
+          "Give the judge clearer judicial cues — a figure standing on a plain teal box reads as a podium/award ceremony, not a courtroom. Seat the judge on the bench instead of standing, or add a dark robe collar, so the right half reads as 'court' without inference.",
+          "Swap the vertical-divider split-screen for a different composition anchor; this device (thin center line, tag/label each side) already appears twice in the recent set (SHARE/SLOP tile, OPEN DOOR/HIGH BAR tile), so it reads as a repeated template.",
+          "Vary the palette — tan background with teal ground and orange/white figures repeats across several recent tiles (NO REGULATOR, BANNED, OWNER); try a different accent or ground color to stand apart.",
+          "Scale the bar chart (currently 0.25) up slightly or give it more breathing room from the case's right edge; it's legible but reads as an afterthought at its current size."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"tag-na\" (label) was moved 65 px, 0 px to stay inside the safe area",
+          "\"gavel\" extends outside the safe area in the final frame (x 949…1062, y 559…643)",
+          "\"bot\" extends outside the safe area in the final frame (x 862…1039, y 589…799)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 4,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Passes: a clean paper-cutout split-scene with correct human-judge/robot-AI casting and legible tags, but the gavel hand-off is visually ambiguous and the right-side robot/gavel crowd the safe-area edge; the layout and palette also echo several recent split-screen sloppers.",
+        "revisionNotes": [
+          "Nudge \"bot\" and \"gavel\" left (e.g. bot to x=0.82, scale 0.45) so both sit fully inside the safe area — lint flags them extending to x 1039–1062, right at the canvas edge.",
+          "The gavel hand-off beat is ambiguous: the judge's hand is empty/pointing while the gavel already sits in the robot's raised hand. Reposition the gavel to overlap both hands at the midpoint so the transfer reads instantly.",
+          "Add the thin vertical divider line called for in the composition brief — right now the chart floats between the two halves with nothing marking the split, so the scene reads as one crowded row rather than two clear vignettes.",
+          "The bar chart's role is unclear on its own (just a generic rising-bar graphic); tie it closer to the display case or give its tallest bar a small accent so it reads as \"new capability\" rather than a stray prop.",
+          "Composition and palette (cream top, teal ground, orange accent, left/right split with a robot and a human) closely match several recent sloppers (the SHARE/SLOP and OPEN DOOR/HIGH BAR pieces) — vary the layout or palette next time for more novelty."
+        ]
+      },
+      "average": 3.86,
+      "passed": true
+    }
+  ]
+}

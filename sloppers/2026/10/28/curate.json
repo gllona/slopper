@@ -1,0 +1,205 @@
+{
+  "topStories": [
+    {
+      "title": "A New Flagship AI Model Launches, Out Of Reach For Most",
+      "itemIds": [
+        "feeds:490073e57670",
+        "feeds:f86670181650",
+        "hackernews:a92d7b7ef0e2",
+        "hackernews:6d6987e4078b"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "A Top Judge Says AI Could Decide Court Cases",
+      "itemIds": [
+        "feeds:8e3b85469c58"
+      ],
+      "dimensions": [
+        "law",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-judges-court-cases"
+    },
+    {
+      "title": "Big Tech Posts Record AI-Driven Earnings",
+      "itemIds": [
+        "feeds:3801bfeec840",
+        "feeds:353dd9ae4406",
+        "feeds:7689670b21d5",
+        "feeds:14bd5a3a6912"
+      ],
+      "dimensions": [
+        "industry",
+        "labor"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-earnings-boom"
+    },
+    {
+      "title": "Global Resistance To Datacenter Water Use Spreads",
+      "itemIds": [
+        "hackernews:851b90166049"
+      ],
+      "dimensions": [
+        "planet",
+        "society",
+        "industry"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "Public Mood On AI Keeps Souring",
+      "itemIds": [
+        "feeds:51014355dc00",
+        "hackernews:29526404518c",
+        "hackernews:ed1394c834ec"
+      ],
+      "dimensions": [
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "public-ai-backlash-grows"
+    },
+    {
+      "title": "AI Search Assistant Dodges A Settled Political Question",
+      "itemIds": [
+        "feeds:ef243006ac6a"
+      ],
+      "dimensions": [
+        "society",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "ai-dodges-political-questions"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-judges-court-cases",
+      "title": "A Judge Pushes For AI To Decide Court Cases",
+      "dimensions": [
+        "law",
+        "policy"
+      ],
+      "motifs": [
+        "a judge's gavel passed down to a small robot in the dock",
+        "a courtroom bench with a robot seat beside the human one"
+      ]
+    },
+    {
+      "id": "ai-earnings-boom",
+      "title": "Record AI-Driven Earnings For Big Tech",
+      "dimensions": [
+        "industry",
+        "labor"
+      ],
+      "motifs": [
+        "a money chart climbing beside a glowing AI box",
+        "a cloud-shaped meter overflowing with coins"
+      ]
+    },
+    {
+      "id": "public-ai-backlash-grows",
+      "title": "Public Sentiment Toward AI Keeps Souring",
+      "dimensions": [
+        "society"
+      ],
+      "motifs": [
+        "a crowd turning away from a chatbot speech bubble",
+        "a company spokesperson shrugging beside a frowning crowd"
+      ]
+    },
+    {
+      "id": "ai-dodges-political-questions",
+      "title": "AI Assistants Dodge Settled Political Questions",
+      "dimensions": [
+        "society",
+        "safety"
+      ],
+      "motifs": [
+        "a chatbot speech bubble turning cagey, its words trailing into dots",
+        "a globe giving a different answer to the same question on each side"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Three top stories independently clear the relevance threshold of 8 (the new flagship model release, record AI-driven earnings, and a judge's push for AI to decide court cases), so today opens a fresh narrative rather than continuing yesterday's chatbot-liability lawsuit story.",
+  "motto": "Smartest Model Nobody Can Use",
+  "phrase": "A tech company unveiled its smartest model yet, one most people still cannot use. A top judge says AI could soon start deciding real court cases instead.",
+  "phraseAlternatives": [
+    "The newest flagship AI model is smarter than ever and still out of reach for most users. Meanwhile, a senior judge wants AI ruling on real court cases.",
+    "One company showed off a frontier model nobody outside the lab can touch. One judge wants a robot inside the courtroom, deciding actual cases.",
+    "Benchmarks keep climbing while public access keeps shrinking: the newest top model stays locked away. A top judge, meanwhile, wants AI judging real disputes."
+  ],
+  "brief": {
+    "concept": "A sleek new flagship AI model stands sealed inside a glass display case marked NEW with a NOT AVAILABLE tag on its door, while beside it a human judge leans down from the bench to hand a gavel to a small robot sitting in the courtroom dock.",
+    "metaphor": "The smartest model yet is on display, not in hand — and the hand reaching for real power belongs to a robot, not a person.",
+    "cast": [
+      {
+        "who": "a sleek new AI model shown locked inside a glass display case marked NEW",
+        "kind": "ai"
+      },
+      {
+        "who": "a NOT AVAILABLE tag hanging on the display case door",
+        "kind": "object"
+      },
+      {
+        "who": "a human judge on a courtroom bench, leaning down to hand over a gavel",
+        "kind": "person"
+      },
+      {
+        "who": "a small robot sitting in the courtroom dock, reaching up for the gavel",
+        "kind": "ai"
+      },
+      {
+        "who": "a small bar chart beside the display case, its tallest bar freshly set",
+        "kind": "object"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Split the scene in two. Left: a glass display case holding the new robot, a NOT AVAILABLE tag on its door, a small rising bar chart beside it. Right: a courtroom bench where a human judge passes a gavel down to a small robot seated in the dock. A thin vertical line divides the two halves. Keep to 4-5 shapes total and no more than 6 words of on-image text.",
+    "artType": "static",
+    "alt": "On one side, a shiny new AI model sits locked inside a glass display case marked not available. On the other side, a judge hands a gavel down to a small robot sitting in a courtroom dock."
+  },
+  "sourceIds": [
+    "feeds:490073e57670",
+    "feeds:f86670181650",
+    "hackernews:a92d7b7ef0e2",
+    "hackernews:6d6987e4078b",
+    "feeds:8e3b85469c58"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 1,
+    "law": 2,
+    "safety": 1,
+    "society": 3,
+    "planet": 2
+  },
+  "mood": {
+    "hype_doom": 1,
+    "calm_frantic": 1
+  }
+}
