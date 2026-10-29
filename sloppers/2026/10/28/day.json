@@ -1,0 +1,220 @@
+{
+  "date": "2026-10-28",
+  "number": 29,
+  "mode": "fresh",
+  "motto": "Smartest Model Nobody Can Use",
+  "phrase": "A tech company unveiled its smartest model yet, one most people still cannot use. A top judge says AI could soon start deciding real court cases instead.",
+  "phraseAlternatives": [
+    "The newest flagship AI model is smarter than ever and still out of reach for most users. Meanwhile, a senior judge wants AI ruling on real court cases.",
+    "One company showed off a frontier model nobody outside the lab can touch. One judge wants a robot inside the courtroom, deciding actual cases.",
+    "Benchmarks keep climbing while public access keeps shrinking: the newest top model stays locked away. A top judge, meanwhile, wants AI judging real disputes."
+  ],
+  "alt": "Left: a glossy orange robot sits locked inside a tall glass display case marked NEW, with a NOT AVAILABLE tag below and a small rising bar chart beside it. Right: a teal-robed judge stands behind a tall wooden bench, only the upper body visible, leaning out to hand a red gavel down to a small teal robot below with both arms raised to catch it. The ground is dark brown instead of the usual teal.",
+  "artType": "static",
+  "style": "paper-cutout",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 1,
+    "law": 2,
+    "safety": 1,
+    "society": 3,
+    "planet": 2
+  },
+  "mood": {
+    "hype_doom": 1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "frontier-model-race",
+    "ai-judges-court-cases",
+    "ai-earnings-boom",
+    "datacenter-backlash-campaign",
+    "public-ai-backlash-grows",
+    "ai-dodges-political-questions"
+  ],
+  "topStories": [
+    {
+      "title": "A New Flagship AI Model Launches, Out Of Reach For Most",
+      "itemIds": [
+        "feeds:490073e57670",
+        "feeds:f86670181650",
+        "hackernews:a92d7b7ef0e2",
+        "hackernews:6d6987e4078b"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "A Top Judge Says AI Could Decide Court Cases",
+      "itemIds": [
+        "feeds:8e3b85469c58"
+      ],
+      "dimensions": [
+        "law",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-judges-court-cases"
+    },
+    {
+      "title": "Big Tech Posts Record AI-Driven Earnings",
+      "itemIds": [
+        "feeds:3801bfeec840",
+        "feeds:353dd9ae4406",
+        "feeds:7689670b21d5",
+        "feeds:14bd5a3a6912"
+      ],
+      "dimensions": [
+        "industry",
+        "labor"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-earnings-boom"
+    },
+    {
+      "title": "Global Resistance To Datacenter Water Use Spreads",
+      "itemIds": [
+        "hackernews:851b90166049"
+      ],
+      "dimensions": [
+        "planet",
+        "society",
+        "industry"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "Public Mood On AI Keeps Souring",
+      "itemIds": [
+        "feeds:51014355dc00",
+        "hackernews:29526404518c",
+        "hackernews:ed1394c834ec"
+      ],
+      "dimensions": [
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "public-ai-backlash-grows"
+    },
+    {
+      "title": "AI Search Assistant Dodges A Settled Political Question",
+      "itemIds": [
+        "feeds:ef243006ac6a"
+      ],
+      "dimensions": [
+        "society",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "ai-dodges-political-questions"
+    }
+  ],
+  "brief": {
+    "concept": "A sleek new flagship AI model stands sealed inside a glass display case marked NEW with a NOT AVAILABLE tag on its door, while beside it a human judge leans down from the bench to hand a gavel to a small robot sitting in the courtroom dock.",
+    "metaphor": "The smartest model yet is on display, not in hand — and the hand reaching for real power belongs to a robot, not a person.",
+    "cast": [
+      {
+        "who": "a sleek new AI model shown locked inside a glass display case marked NEW",
+        "kind": "ai"
+      },
+      {
+        "who": "a NOT AVAILABLE tag hanging on the display case door",
+        "kind": "object"
+      },
+      {
+        "who": "a human judge on a courtroom bench, leaning down to hand over a gavel",
+        "kind": "person"
+      },
+      {
+        "who": "a small robot sitting in the courtroom dock, reaching up for the gavel",
+        "kind": "ai"
+      },
+      {
+        "who": "a small bar chart beside the display case, its tallest bar freshly set",
+        "kind": "object"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Split the scene in two. Left: a glass display case holding the new robot, a NOT AVAILABLE tag on its door, a small rising bar chart beside it. Right: a courtroom bench where a human judge passes a gavel down to a small robot seated in the dock. A thin vertical line divides the two halves. Keep to 4-5 shapes total and no more than 6 words of on-image text.",
+    "artType": "static",
+    "alt": "On one side, a shiny new AI model sits locked inside a glass display case marked not available. On the other side, a judge hands a gavel down to a small robot sitting in a courtroom dock."
+  },
+  "sources": [
+    {
+      "id": "feeds:490073e57670",
+      "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+      "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-10-28T18:47:27.000Z"
+    },
+    {
+      "id": "feeds:f86670181650",
+      "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+      "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-28T20:03:00.000Z"
+    },
+    {
+      "id": "hackernews:a92d7b7ef0e2",
+      "title": "Gemini 4 Carbon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "source": "hackernews",
+      "publisher": "blog.google",
+      "publishedAt": "2026-10-28T17:01:23.000Z"
+    },
+    {
+      "id": "hackernews:6d6987e4078b",
+      "title": "Artificial Analysis Intelligence Index v5",
+      "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v5",
+      "source": "hackernews",
+      "publisher": "artificialanalysis.ai",
+      "publishedAt": "2026-10-28T03:06:22.000Z"
+    },
+    {
+      "id": "feeds:8e3b85469c58",
+      "title": "Should AI Decide Your Court Case? This Judge Says Yes",
+      "url": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-10-28T06:00:00.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.86,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-29T19:57:33.235Z"
+}

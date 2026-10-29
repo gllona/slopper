@@ -1,0 +1,175 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {},
+  "elements": [
+    {
+      "id": "case",
+      "component": "raw",
+      "at": {
+        "x": 0.19,
+        "y": 0.56
+      },
+      "scale": 0.72,
+      "props": {
+        "width": 300,
+        "height": 560
+      },
+      "svg": "<path class=\"r-paper\" d=\"M30,540 L30,190 A120,120 0 0 1 270,190 L270,540 Z\"/><path class=\"r-glow\" d=\"M55,215 L105,215 L85,430 L60,430 Z\"/><rect class=\"r-ink\" x=\"45\" y=\"535\" width=\"210\" height=\"20\" rx=\"8\"/><circle class=\"r-accent-2\" cx=\"150\" cy=\"500\" r=\"13\"/>"
+    },
+    {
+      "id": "model",
+      "component": "robot",
+      "at": {
+        "x": 0.19,
+        "y": 0.747
+      },
+      "scale": 0.55,
+      "props": {
+        "mood": "proud",
+        "arms": "down",
+        "antenna": true,
+        "color": "accent"
+      }
+    },
+    {
+      "id": "tag-new",
+      "component": "label",
+      "attachTo": "case",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "NEW",
+        "size": "md",
+        "kind": "tag",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "tag-na",
+      "component": "label",
+      "attachTo": "case",
+      "side": "bottom",
+      "scale": 1,
+      "props": {
+        "text": "NOT AVAILABLE",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    },
+    {
+      "id": "chart",
+      "component": "chart",
+      "at": {
+        "x": 0.46,
+        "y": 0.5
+      },
+      "scale": 0.4,
+      "props": {
+        "type": "bar",
+        "values": [
+          0.25,
+          0.45,
+          0.35,
+          0.85
+        ],
+        "highlight": "last",
+        "frame": true
+      }
+    },
+    {
+      "id": "bench",
+      "component": "raw",
+      "at": {
+        "x": 0.68,
+        "y": 0.707
+      },
+      "scale": 1,
+      "props": {
+        "width": 260,
+        "height": 90
+      },
+      "svg": "<rect class=\"r-body\" x=\"0\" y=\"40\" width=\"260\" height=\"50\" rx=\"14\"/><rect class=\"r-ink\" x=\"10\" y=\"30\" width=\"240\" height=\"14\" rx=\"7\"/>"
+    },
+    {
+      "id": "judge",
+      "component": "human",
+      "at": {
+        "x": 0.68,
+        "y": 0.74
+      },
+      "scale": 0.85,
+      "props": {
+        "mood": "neutral",
+        "pose": "point",
+        "kind": "adult",
+        "holds": "none",
+        "color": "body"
+      }
+    },
+    {
+      "id": "robe-collar",
+      "component": "raw",
+      "attachTo": "judge",
+      "side": "top",
+      "offset": [
+        0,
+        58
+      ],
+      "scale": 1,
+      "props": {
+        "width": 140,
+        "height": 50
+      },
+      "svg": "<path class=\"r-ink\" d=\"M15,8 L125,8 L95,40 L45,40 Z\"/>"
+    },
+    {
+      "id": "bench-front",
+      "component": "raw",
+      "at": {
+        "x": 0.68,
+        "y": 0.666
+      },
+      "scale": 1,
+      "props": {
+        "width": 190,
+        "height": 190
+      },
+      "svg": "<rect class=\"r-body\" x=\"5\" y=\"0\" width=\"180\" height=\"170\" rx=\"18\"/><rect class=\"r-ink\" x=\"5\" y=\"0\" width=\"180\" height=\"16\" rx=\"8\"/><circle class=\"r-paper\" cx=\"95\" cy=\"55\" r=\"18\"/>"
+    },
+    {
+      "id": "gavel",
+      "component": "raw",
+      "attachTo": "judge",
+      "side": "right",
+      "offset": [
+        8,
+        -6
+      ],
+      "scale": 0.85,
+      "rotate": 22,
+      "props": {
+        "width": 130,
+        "height": 90
+      },
+      "svg": "<rect class=\"r-ink\" x=\"0\" y=\"34\" width=\"60\" height=\"16\" rx=\"7\"/><rect class=\"r-accent\" x=\"58\" y=\"8\" width=\"62\" height=\"58\" rx=\"14\"/>"
+    },
+    {
+      "id": "bot",
+      "component": "robot",
+      "at": {
+        "x": 0.88,
+        "y": 0.74
+      },
+      "scale": 0.5,
+      "props": {
+        "mood": "proud",
+        "arms": "up",
+        "antenna": false,
+        "color": "body"
+      }
+    }
+  ],
+  "alt": "Left: a glossy orange robot sits locked inside a tall glass display case marked NEW, with a NOT AVAILABLE tag below and a small rising bar chart beside it. Right: a teal-robed judge stands behind a tall wooden bench, only the upper body visible, leaning out to hand a red gavel down to a small teal robot below with both arms raised to catch it. The ground is dark brown instead of the usual teal."
+}
