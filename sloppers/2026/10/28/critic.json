@@ -1,0 +1,104 @@
+{
+  "passed": false,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"robot2\" (robot) was moved -40 px, 0 px to stay inside the artboard",
+          "\"human1\" extends outside the safe area in the final frame (x 5…319, y 416…842)",
+          "\"robot2\" extends outside the safe area in the final frame (x 485…1078, y 318…887)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 3,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "Correct casting and a workable split-scene concept are undercut by real rendering bugs — the EXEMPT label is clipped mid-word, the fence is nearly invisible behind the robot, the paper floats disconnected from the hand, and two elements spill outside the safe area — so it reads as cluttered and unclear rather than publish-ready.",
+        "revisionNotes": [
+          "Fence1 is nearly invisible: scale it up to ~1.0 and move to x≈0.28, y≈0.70 so it sits in front of/beside robot1 instead of hidden behind its legs.",
+          "The EXEMPT label is clipped to 'EXEM' by robot1's body — scale robot1 down to ~0.75 or shift it right so fence-label has clear space and reads in full.",
+          "Paper1 reads as a random floating rectangle in the sky, disconnected from human1's raised hand — reattach it directly to the hand (side 'right' at hand height, not 'top' above the head) so it looks held.",
+          "Robot2 almost entirely covers judge1, killing the gavel handoff beat — scale robot2 down to ~0.85 and shift it to x≈0.75 so judge1 stays visible and the gavel bridges the two figures instead of poking out past robot2's far side.",
+          "Lint flags human1 and robot2 extending outside the safe area in the final frame — pull human1 right and robot2 left/down so no cast member clips the artboard edge.",
+          "A vertical-divider blueprint split scene with a blue grid has appeared in multiple recent pieces ('SHARE/SLOP', 'OPEN DOOR/HIGH BAR') — vary the layout (e.g. stack top/bottom) or palette next time for freshness."
+        ]
+      },
+      "average": 2.57,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The EXEMPT fence half reads clearly, but the court half doesn't: the gavel is hidden behind the robot and there's no bench, so \"AI deciding court cases\" never lands, and the promised divider line is missing, leaving an unbalanced, dead-space-heavy composition. Fails — needs the gavel/bench fixed and the layout rebalanced before publishing.",
+        "revisionNotes": [
+          "Add the missing courthouse bench in the bottom vignette — the brief calls for the judge standing beside a bench with the robot taking the seat, but no bench shape exists, so the court setting is illegible.",
+          "The gavel (gavel1) is almost entirely hidden behind robot2's body — reposition it clear of the robot's torso and bump scale to ~0.9 so the handoff gesture reads; right now there is no visible gavel at all.",
+          "Add the thin vertical divider line called for in the brief (or a horizontal rule) to separate the EXEMPT scene from the court scene; without it the two vignettes blend into one cluttered composition.",
+          "Composition is top-heavy and left-heavy — the bottom-right quadrant is empty blue grid. Shift the judge/robot group right toward x=0.6-0.65 to balance mass across the square.",
+          "Pair the court vignette with a short label (e.g. 'COURT') the way the fence has 'EXEMPT', so both halves announce their scene at the same glance speed.",
+          "Robot1's arm lies flat along the fence's top rail instead of reaching over it — rotate the arm further so it visibly reaches toward the person, not just rests on the fence."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"robot2\" (robot) was moved -34 px, 0 px to stay inside the artboard",
+          "\"human1\" extends outside the safe area in the final frame (x 26…277, y 566…907)",
+          "\"robot2\" extends outside the safe area in the final frame (x 690…1078, y 542…907)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The split-screen concept reads, and casting is correct (robots only standing in for AI), but execution has real bugs: robot1 looks like it's toppling into the fence rather than reaching, the COURT label is obscured by robot2, two elements breach the safe area, and the composition closely echoes a recent split-screen blueprint piece.",
+        "revisionNotes": [
+          "Fix robot1: it's rotated -16° and tipped into fence1's bars, reading as falling over rather than reaching toward the person — zero the rotation and lift it clear of the fence top rail.",
+          "The bench-label 'COURT' is partly hidden behind robot2's head/antenna (reads 'C_URT') — raise the label or scale robot2 down slightly so the text clears it.",
+          "Per lint, human1 and robot2 extend outside the safe area (human1 x26-277/y566-907, robot2 x690-1078/y542-907) — scale both to ~0.7 and nudge human1 right / robot2 left to clear the margins.",
+          "Paper1 floats disconnected above human1's cheering pose instead of being held — switch human1's pose from 'cheer' to a raised-hand/present pose so the paper reads as held up.",
+          "Gavel1's long diagonal bar between judge1 and robot2 is ambiguous, almost reading as an extra limb — shorten it and angle it more horizontally for a clearer hand-to-hand pass.",
+          "This split-screen blueprint layout (vertical divider, grid, two labeled halves) closely repeats a recent piece ('OPEN DOOR / HIGH BAR') — vary the divider style or palette accent next time."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "date": "2026-10-28",
+  "number": 29,
+  "mode": "fresh",
+  "motto": "Exemptions And Verdicts",
+  "phrase": "A humanist won a legal exemption from having to use AI at all. A top judge says AI should decide people's court cases instead.",
+  "phraseAlternatives": [
+    "One man got legal permission to avoid AI completely. A senior judge wants to let AI decide court cases instead.",
+    "A religious exemption frees one man from AI entirely. A top judge argues AI should rule on civil lawsuits.",
+    "While one man is excused from AI, a senior judge wants it to decide court cases instead.",
+    "A man won the right to live without AI. A judge wants AI to decide who wins in court."
+  ],
+  "alt": "A blueprint-style split scene divided by a thin vertical line. Left: a person stands behind a fence labeled EXEMPT, holding up a paper, while a robot reaches toward them. Right: a human judge hands a gavel to a robot taking a seat at a courthouse bench labeled COURT.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 2,
+    "labor": 1,
+    "policy": 1,
+    "law": 3,
+    "society": 3,
+    "planet": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 0
+  },
+  "storylines": [
+    "religious-exemption-from-ai",
+    "ai-decides-court-cases",
+    "frontier-model-race",
+    "public-sours-on-ai",
+    "datacenter-backlash-campaign",
+    "workplace-ai-assistant-flops"
+  ],
+  "topStories": [
+    {
+      "title": "A Religious Exemption From Using AI, Granted For The First Time",
+      "itemIds": [
+        "hackernews:9fb777e852af"
+      ],
+      "dimensions": [
+        "society",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "religious-exemption-from-ai"
+    },
+    {
+      "title": "A Top Judge Argues AI Should Decide Civil Court Cases",
+      "itemIds": [
+        "feeds:8e3b85469c58"
+      ],
+      "dimensions": [
+        "law",
+        "policy",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-decides-court-cases"
+    },
+    {
+      "title": "Google's Gemini 4 Carbon Launches, But Few Can Use It",
+      "itemIds": [
+        "feeds:490073e57670",
+        "feeds:f86670181650",
+        "hackernews:a92d7b7ef0e2"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "Executives And The Public Grow Further Apart On AI",
+      "itemIds": [
+        "feeds:51014355dc00",
+        "hackernews:29526404518c"
+      ],
+      "dimensions": [
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "public-sours-on-ai"
+    },
+    {
+      "title": "Global Resistance To Datacenters' Water Use Grows",
+      "itemIds": [
+        "hackernews:851b90166049"
+      ],
+      "dimensions": [
+        "planet",
+        "industry",
+        "society"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "A Publisher's AI Workplace Assistant Gets Shut Down After Its Launch Party",
+      "itemIds": [
+        "feeds:3a10b4fb48b6"
+      ],
+      "dimensions": [
+        "labor",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "workplace-ai-assistant-flops"
+    }
+  ],
+  "brief": {
+    "concept": "A person stands behind a small fence marked EXEMPT holding an exemption paper while a robot reaches toward them from outside it; across the scene, a human judge hands a gavel to a robot taking a seat on the court bench.",
+    "metaphor": "One person wins the right to be left out of AI, while a court hands AI the power to decide everyone else's cases.",
+    "cast": [
+      {
+        "who": "a person standing behind a small fence marked EXEMPT, holding up a paper",
+        "kind": "person"
+      },
+      {
+        "who": "a small chatbot robot reaching over the fence toward the person",
+        "kind": "ai"
+      },
+      {
+        "who": "a human judge standing beside a courthouse bench, holding out a gavel",
+        "kind": "person"
+      },
+      {
+        "who": "a small robot standing where the judge would sit, reaching to take the gavel",
+        "kind": "ai"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split scene divided by a thin vertical line. Left half: a fenced-off area labeled EXEMPT where a person holds up a paper while a small robot leans over the fence toward them. Right half: a courthouse bench where a human judge hands a gavel to a small robot standing in the judge's spot. Keep each half to 2 elements, blueprint grid visible behind both.",
+    "artType": "static",
+    "alt": "A split illustration: on the left, a person stands behind a fence labeled EXEMPT holding a paper while a small robot reaches toward them; on the right, a human judge hands a gavel to a small robot standing at a courthouse bench."
+  },
+  "sources": [
+    {
+      "id": "hackernews:9fb777e852af",
+      "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+      "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/",
+      "source": "hackernews",
+      "publisher": "religionnews.com",
+      "publishedAt": "2026-10-28T13:41:30.000Z"
+    },
+    {
+      "id": "feeds:8e3b85469c58",
+      "title": "Should AI Decide Your Court Case? This Judge Says Yes",
+      "url": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-10-28T06:00:00.000Z"
+    },
+    {
+      "id": "feeds:490073e57670",
+      "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+      "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-10-28T18:47:27.000Z"
+    },
+    {
+      "id": "feeds:f86670181650",
+      "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+      "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-28T20:03:00.000Z"
+    },
+    {
+      "id": "hackernews:a92d7b7ef0e2",
+      "title": "Gemini 4 Carbon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "source": "hackernews",
+      "publisher": "blog.google",
+      "publishedAt": "2026-10-28T17:01:23.000Z"
+    },
+    {
+      "id": "feeds:51014355dc00",
+      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-28T23:05:39.000Z"
+    },
+    {
+      "id": "hackernews:29526404518c",
+      "title": "AI execs may be too out of touch to build for the general public",
+      "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/",
+      "source": "hackernews",
+      "publisher": "techcrunch.com",
+      "publishedAt": "2026-10-28T22:27:46.000Z"
+    },
+    {
+      "id": "hackernews:851b90166049",
+      "title": "Big Tech's thirst for water is sparking a global resistance",
+      "url": "https://restofworld.org/2026/ai-datacenters-water-resistance-global/",
+      "source": "hackernews",
+      "publisher": "restofworld.org",
+      "publishedAt": "2026-10-28T18:34:51.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.29,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-29T19:11:37.152Z"
+}

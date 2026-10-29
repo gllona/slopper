@@ -1,0 +1,161 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {
+    "type": "grid",
+    "color": "bg",
+    "color2": "accent2"
+  },
+  "elements": [
+    {
+      "id": "human1",
+      "component": "human",
+      "at": {
+        "x": 0.14,
+        "y": 0.84
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "proud",
+        "pose": "cheer",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "paper1",
+      "component": "raw",
+      "attachTo": "human1",
+      "side": "top",
+      "scale": 0.8,
+      "props": {
+        "width": 100,
+        "height": 80
+      },
+      "svg": "<rect class=\"r-paper\" x=\"8\" y=\"8\" width=\"84\" height=\"64\"/><rect class=\"r-ink\" x=\"20\" y=\"24\" width=\"60\" height=\"8\"/><rect class=\"r-ink\" x=\"20\" y=\"40\" width=\"60\" height=\"8\"/><rect class=\"r-ink\" x=\"20\" y=\"56\" width=\"40\" height=\"8\"/>"
+    },
+    {
+      "id": "fence1",
+      "component": "raw",
+      "at": {
+        "x": 0.312,
+        "y": 0.785
+      },
+      "scale": 0.7,
+      "props": {
+        "width": 260,
+        "height": 170
+      },
+      "svg": "<rect class=\"r-line\" x=\"20\" y=\"20\" width=\"14\" height=\"130\"/><rect class=\"r-line\" x=\"70\" y=\"20\" width=\"14\" height=\"130\"/><rect class=\"r-line\" x=\"120\" y=\"20\" width=\"14\" height=\"130\"/><rect class=\"r-line\" x=\"170\" y=\"20\" width=\"14\" height=\"130\"/><rect class=\"r-line\" x=\"220\" y=\"20\" width=\"14\" height=\"130\"/><rect class=\"r-line\" x=\"10\" y=\"40\" width=\"240\" height=\"14\"/><rect class=\"r-line\" x=\"10\" y=\"130\" width=\"240\" height=\"14\"/>"
+    },
+    {
+      "id": "fence-label",
+      "component": "label",
+      "attachTo": "fence1",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "EXEMPT",
+        "size": "md",
+        "kind": "plain"
+      }
+    },
+    {
+      "id": "robot1",
+      "component": "robot",
+      "at": {
+        "x": 0.476,
+        "y": 0.84
+      },
+      "offset": [
+        -5,
+        -18
+      ],
+      "scale": 0.65,
+      "rotate": -16,
+      "props": {
+        "mood": "neutral",
+        "arms": "out"
+      }
+    },
+    {
+      "id": "divider1",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1,
+      "props": {
+        "width": 20,
+        "height": 880
+      },
+      "svg": "<rect class=\"r-ink\" x=\"9\" y=\"0\" width=\"2\" height=\"880\"/>"
+    },
+    {
+      "id": "judge1",
+      "component": "human",
+      "at": {
+        "x": 0.6,
+        "y": 0.84
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "neutral",
+        "pose": "stand"
+      }
+    },
+    {
+      "id": "gavel1",
+      "component": "raw",
+      "attachTo": "judge1",
+      "side": "right",
+      "scale": 0.9,
+      "rotate": -18,
+      "props": {
+        "width": 110,
+        "height": 85
+      },
+      "svg": "<rect class=\"r-accent\" x=\"15\" y=\"8\" width=\"70\" height=\"24\" rx=\"8\"/><rect class=\"r-accent\" x=\"42\" y=\"32\" width=\"16\" height=\"45\"/>"
+    },
+    {
+      "id": "bench1",
+      "component": "raw",
+      "at": {
+        "x": 0.85,
+        "y": 0.77
+      },
+      "scale": 0.75,
+      "props": {
+        "width": 200,
+        "height": 190
+      },
+      "svg": "<rect class=\"r-body-alt\" x=\"10\" y=\"40\" width=\"180\" height=\"22\"/><rect class=\"r-paper\" x=\"30\" y=\"62\" width=\"140\" height=\"110\"/><rect class=\"r-line\" x=\"40\" y=\"172\" width=\"16\" height=\"14\"/><rect class=\"r-line\" x=\"144\" y=\"172\" width=\"16\" height=\"14\"/>"
+    },
+    {
+      "id": "bench-label",
+      "component": "label",
+      "attachTo": "bench1",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "COURT",
+        "size": "md",
+        "kind": "plain"
+      }
+    },
+    {
+      "id": "robot2",
+      "component": "robot",
+      "at": {
+        "x": 0.85,
+        "y": 0.84
+      },
+      "scale": 0.75,
+      "props": {
+        "mood": "proud",
+        "arms": "out"
+      }
+    }
+  ],
+  "alt": "A blueprint-style split scene divided by a thin vertical line. Left: a person stands behind a fence labeled EXEMPT, holding up a paper, while a robot reaches toward them. Right: a human judge hands a gavel to a robot taking a seat at a courthouse bench labeled COURT."
+}

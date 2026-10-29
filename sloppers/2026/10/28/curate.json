@@ -1,0 +1,205 @@
+{
+  "topStories": [
+    {
+      "title": "A Religious Exemption From Using AI, Granted For The First Time",
+      "itemIds": [
+        "hackernews:9fb777e852af"
+      ],
+      "dimensions": [
+        "society",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "religious-exemption-from-ai"
+    },
+    {
+      "title": "A Top Judge Argues AI Should Decide Civil Court Cases",
+      "itemIds": [
+        "feeds:8e3b85469c58"
+      ],
+      "dimensions": [
+        "law",
+        "policy",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-decides-court-cases"
+    },
+    {
+      "title": "Google's Gemini 4 Carbon Launches, But Few Can Use It",
+      "itemIds": [
+        "feeds:490073e57670",
+        "feeds:f86670181650",
+        "hackernews:a92d7b7ef0e2"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "Executives And The Public Grow Further Apart On AI",
+      "itemIds": [
+        "feeds:51014355dc00",
+        "hackernews:29526404518c"
+      ],
+      "dimensions": [
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "public-sours-on-ai"
+    },
+    {
+      "title": "Global Resistance To Datacenters' Water Use Grows",
+      "itemIds": [
+        "hackernews:851b90166049"
+      ],
+      "dimensions": [
+        "planet",
+        "industry",
+        "society"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "A Publisher's AI Workplace Assistant Gets Shut Down After Its Launch Party",
+      "itemIds": [
+        "feeds:3a10b4fb48b6"
+      ],
+      "dimensions": [
+        "labor",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "workplace-ai-assistant-flops"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "religious-exemption-from-ai",
+      "title": "A Religious Exemption From Using AI",
+      "dimensions": [
+        "society",
+        "law"
+      ],
+      "motifs": [
+        "a person behind a fence marked EXEMPT, holding a paper",
+        "a small robot reaching over a boundary it's not allowed to cross"
+      ]
+    },
+    {
+      "id": "ai-decides-court-cases",
+      "title": "A Judge Argues AI Should Decide Court Cases",
+      "dimensions": [
+        "law",
+        "policy",
+        "society"
+      ],
+      "motifs": [
+        "a human judge handing a gavel to a small robot on the bench",
+        "a courthouse bench sized for a robot judge"
+      ]
+    },
+    {
+      "id": "public-sours-on-ai",
+      "title": "Executives And The Public Grow Apart On AI",
+      "dimensions": [
+        "society",
+        "industry"
+      ],
+      "motifs": [
+        "a crowd turning its back on a chatbot speech bubble",
+        "an executive speaking into a megaphone no one in the crowd looks up at"
+      ]
+    },
+    {
+      "id": "workplace-ai-assistant-flops",
+      "title": "A Workplace AI Assistant Gets A Party, Then A Shutdown",
+      "dimensions": [
+        "labor",
+        "society",
+        "industry"
+      ],
+      "motifs": [
+        "a deflating party balloon beside an unplugged AI assistant icon",
+        "an office worker holding a confetti cone next to a powered-down robot"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The story of a man winning a religious exemption from AI reaches relevance 12 (novelty 3 × magnitude 2 × breadth 2), and two other stories reach 8, both above the fresh threshold of 8, so today stands on its own rather than continuing yesterday's thread.",
+  "motto": "Exemptions And Verdicts",
+  "phrase": "A humanist won a legal exemption from having to use AI at all. A top judge says AI should decide people's court cases instead.",
+  "phraseAlternatives": [
+    "One man got legal permission to avoid AI completely. A senior judge wants to let AI decide court cases instead.",
+    "A religious exemption frees one man from AI entirely. A top judge argues AI should rule on civil lawsuits.",
+    "While one man is excused from AI, a senior judge wants it to decide court cases instead.",
+    "A man won the right to live without AI. A judge wants AI to decide who wins in court."
+  ],
+  "brief": {
+    "concept": "A person stands behind a small fence marked EXEMPT holding an exemption paper while a robot reaches toward them from outside it; across the scene, a human judge hands a gavel to a robot taking a seat on the court bench.",
+    "metaphor": "One person wins the right to be left out of AI, while a court hands AI the power to decide everyone else's cases.",
+    "cast": [
+      {
+        "who": "a person standing behind a small fence marked EXEMPT, holding up a paper",
+        "kind": "person"
+      },
+      {
+        "who": "a small chatbot robot reaching over the fence toward the person",
+        "kind": "ai"
+      },
+      {
+        "who": "a human judge standing beside a courthouse bench, holding out a gavel",
+        "kind": "person"
+      },
+      {
+        "who": "a small robot standing where the judge would sit, reaching to take the gavel",
+        "kind": "ai"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split scene divided by a thin vertical line. Left half: a fenced-off area labeled EXEMPT where a person holds up a paper while a small robot leans over the fence toward them. Right half: a courthouse bench where a human judge hands a gavel to a small robot standing in the judge's spot. Keep each half to 2 elements, blueprint grid visible behind both.",
+    "artType": "static",
+    "alt": "A split illustration: on the left, a person stands behind a fence labeled EXEMPT holding a paper while a small robot reaches toward them; on the right, a human judge hands a gavel to a small robot standing at a courthouse bench."
+  },
+  "sourceIds": [
+    "hackernews:9fb777e852af",
+    "feeds:8e3b85469c58",
+    "feeds:490073e57670",
+    "feeds:f86670181650",
+    "hackernews:a92d7b7ef0e2",
+    "feeds:51014355dc00",
+    "hackernews:29526404518c",
+    "hackernews:851b90166049"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 2,
+    "labor": 1,
+    "policy": 1,
+    "law": 3,
+    "society": 3,
+    "planet": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 0
+  }
+}
