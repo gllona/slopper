@@ -1,0 +1,198 @@
+{
+  "date": "2026-10-28",
+  "number": 29,
+  "mode": "fresh",
+  "motto": "Ten Billion And A Buyout",
+  "phrase": "A company made $10 billion from one AI partner this quarter. Nearby, another AI firm is buying out neighbors who promise not to sue over its data center.",
+  "phraseAlternatives": [
+    "A new AI model topped the charts today. Most people still cannot try it.",
+    "A senior judge says AI could soon decide civil court cases. He admits nobody has agreed where to draw the line.",
+    "A search company's ad growth is slowing, so it is leaning harder on AI-written ads to make up the difference.",
+    "Tech executives say the public's anger at AI is only going to grow. One company's own AI assistant got a launch party, then got cancelled."
+  ],
+  "alt": "Split scene: on the left a small office building catches a stream of coins pouring from a cloud marked with a dollar sign. On the right a busy data center reaches a bag of cash toward a calm homeowner, who stands over a doormat with a folded paper labeled WON'T SUE peeking out from underneath.",
+  "artType": "static",
+  "style": "paper-cutout",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 2,
+    "safety": 1,
+    "society": 3,
+    "planet": 2
+  },
+  "mood": {
+    "hype_doom": 1,
+    "calm_frantic": 0
+  },
+  "storylines": [
+    "ai-earnings-record-quarter",
+    "datacenter-backlash-campaign",
+    "ai-adjudicates-civil-cases",
+    "frontier-model-race",
+    "ai-hype-reality-gap",
+    "ai-emergency-alerts-trust-gap"
+  ],
+  "topStories": [
+    {
+      "title": "Record AI-Era Earnings Deepen Big Tech's Dependency",
+      "itemIds": [
+        "feeds:353dd9ae4406",
+        "feeds:7689670b21d5",
+        "feeds:3801bfeec840",
+        "feeds:14bd5a3a6912"
+      ],
+      "dimensions": [
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-earnings-record-quarter"
+    },
+    {
+      "title": "Datacenter Backlash: Buyouts, Water Fights, and Angry Voters",
+      "itemIds": [
+        "feeds:a4c003b0a712",
+        "feeds:297222a447d6",
+        "hackernews:851b90166049"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "A Top Judge Says AI Could Decide Civil Court Cases",
+      "itemIds": [
+        "feeds:8e3b85469c58"
+      ],
+      "dimensions": [
+        "law",
+        "policy",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-adjudicates-civil-cases"
+    },
+    {
+      "title": "Gemini 4 Carbon Tops the Charts, Most People Still Can't Use It",
+      "itemIds": [
+        "feeds:490073e57670",
+        "feeds:f86670181650",
+        "hackernews:a92d7b7ef0e2",
+        "hackernews:6d6987e4078b"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "Backlash Grows While Workplace AI Tools Disappoint",
+      "itemIds": [
+        "feeds:51014355dc00",
+        "feeds:29526404518c",
+        "feeds:3a10b4fb48b6"
+      ],
+      "dimensions": [
+        "society",
+        "labor",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 3,
+      "storyline": "ai-hype-reality-gap"
+    },
+    {
+      "title": "AI Emergency Alerts Are Coming, Trust Isn't",
+      "itemIds": [
+        "feeds:5a60161379b7"
+      ],
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "ai-emergency-alerts-trust-gap"
+    }
+  ],
+  "brief": {
+    "concept": "A company catches a thick stream of coins pouring from a small cloud marked with a dollar sign, while across the scene a datacenter hands a bag of cash to a homeowner, who quietly slides a folded lawsuit paper under the doormat.",
+    "metaphor": "AI money rains straight into corporate rooftops on one side while, on the other, cash buys away a neighbor's right to complain.",
+    "cast": [
+      {
+        "who": "an office building with an open rooftop hatch, catching a stream of coins",
+        "kind": "institution"
+      },
+      {
+        "who": "a small cloud marked with a dollar sign, pouring the coins down",
+        "kind": "object"
+      },
+      {
+        "who": "a datacenter reaching out with a bag of cash toward a small house",
+        "kind": "institution"
+      },
+      {
+        "who": "a homeowner taking the cash and sliding a folded paper under the doormat",
+        "kind": "person"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Split the scene in two with a thin dotted line down the middle, suggesting one wave of AI money reaching both halves. Left: an office building with an open rooftop hatch, coins pouring in from a small cloud overhead marked with a dollar sign. Right: a datacenter's extended arm offers a cash bag to a homeowner standing on a porch step; the homeowner's other hand slides a folded paper under the doormat, barely visible. Keep backgrounds plain kraft card, flat cut-paper shapes, soft drop shadows. No text needed beyond a small '$' on the cloud.",
+    "artType": "static",
+    "alt": "Split image: on the left, an office building catches a stream of coins falling from a cloud marked with a dollar sign. On the right, a datacenter hands a bag of cash to a homeowner, who quietly slides a folded paper under the doormat."
+  },
+  "sources": [
+    {
+      "id": "feeds:353dd9ae4406",
+      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-28T21:34:30.000Z"
+    },
+    {
+      "id": "feeds:a4c003b0a712",
+      "title": "xAI is buying out homeowners who promise not to sue over data center noise",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-28T14:44:00.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.29,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-29T11:33:28.643Z"
+}

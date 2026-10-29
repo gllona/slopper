@@ -1,0 +1,101 @@
+{
+  "passed": false,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"wontsue\" (label) was moved -26 px, 0 px to stay inside the safe area",
+          "\"cloud1\" extends outside the safe area in the final frame (x 55…411, y 44…256)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The left-side rain-of-coins and right-side hush-payment metaphor don't fully land because the cash bag — the key prop for the \"buyout\" joke — appears to be missing from the render, and the intended split-screen divider is obscured by the centered datacenter, collapsing the two-group composition into one row.",
+        "revisionNotes": [
+          "The cashbag prop attached to \"dc\" (right side, offset [10,40]) isn't visible in the render — the central beat of the right half (datacenter handing over hush money) is missing entirely; fix the attachment so the orange bag renders between the server racks and the homeowner.",
+          "The dotted \"divider\" line (x=0.5) is hidden behind the datacenter, which sits almost dead-center — scale \"dc\" to ~0.85 and shift it to x=0.42, and move \"homeowner\" to x=0.85, so the two-group split composition the brief calls for actually reads.",
+          "The coin string reads as a dangling necklace clipped to the roofline, not a pouring stream into a hatch — widen coin spacing, scale to ~1.3, and add a small roof-hatch opening on \"office\" so the catching beat is legible.",
+          "Lint flags \"cloud1\" exits the safe area (y 44…256) — scale it to 0.85 and nudge down/right to sit fully inside frame.",
+          "\"WON'T SUE\" label duplicates the doormat-paper beat and the brief asked for no text beyond the $ on the cloud — drop the label and let the paper-under-mat prop carry that beat visually.",
+          "Once the cashbag is restored, scale it up slightly (~1.2) relative to the homeowner so the hand-off reads as a clear focal exchange, not a background detail."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The paper-cutout texture and correct human/institution casting are solid, but the missing divider line, a cashbag floating with no connecting hand, and an unclear doormat gesture leave the second half of the joke (the quiet buyout and hidden lawsuit) unreadable — doesn't pass today.",
+        "revisionNotes": [
+          "Render the dotted divider: the scene calls for a dashed vertical line at x=0.5 but it is invisible against the kraft background — darken its stroke or add a shadow so the split reads clearly.",
+          "Connect the cashbag to the action: it currently floats alone in the gap with no hand reaching from the datacenter or homeowner. Add a simple arm/hand shape from the datacenter extending toward it, and a hand from the homeowner receiving it, or attach it to one of them as a held prop.",
+          "Clarify the doormat beat: the folded paper and mat at the homeowner's feet read as dropped clutter, not a quiet 'sliding it under.' Scale the mat up slightly, tuck the paper corner fully under it, and angle the homeowner's free hand toward it so the gesture is legible.",
+          "Rebalance composition: the left third (cloud + office) is isolated with a large empty gap before the crowded datacenter/cashbag/homeowner cluster on the right. Pull the office closer to center-left or shrink the empty gap so both halves carry similar visual weight.",
+          "Add a small connecting prop or steam/coin visual cue reaching toward the right half so 'one wave of AI money reaching both halves' (per the brief) is felt, since right now the two institutions feel like separate unrelated scenes."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"doormat\" (raw) was moved -47 px, 0 px to stay inside the artboard",
+          "\"cloud1\" extends outside the safe area in the final frame (x 137…457, y 36…227)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 4
+        },
+        "verdict": "The left panel (coins raining into the office) reads instantly and is charming, but the right panel's bribery beat is muddled: the cash bag looks like a kettle, there's no visible hand-off from the datacenter, and the homeowner's leg overlaps the doormat/paper in a way that reads as a rigging glitch — needs another pass before publishing.",
+        "revisionNotes": [
+          "The \"cashbag\" raw shape reads as a teapot/kettle (round body + small loop handle), not money — redesign it with a visible knot and coin/dollar texture, scale ~1.1 so it's legible.",
+          "No arm bridges the datacenter and the cash — right now the bag just floats beside the homeowner's hand. Draw the datacenter's extended arm reaching toward the homeowner so the handoff is explicit.",
+          "Homeowner's near leg overlaps the doormat/paper awkwardly, reading as a broken pose — adjust the stance so the figure clearly stands, and tuck the folded paper mostly under the mat rather than exposed and rotated.",
+          "cloud1 extends outside the safe area (x 137-457, y 36-227 per lint) and sits close to the top edge — move it down/inward.",
+          "doormat needed a 47px auto-shift to stay on the artboard; pull the homeowner group left slightly to restore margin on the right panel.",
+          "Add a minimal house/porch shape behind the homeowner so the right half reads as \"a home,\" matching the brief's porch-step homeowner rather than a bare figure on a mat."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    }
+  ]
+}

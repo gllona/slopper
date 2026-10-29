@@ -1,0 +1,154 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {
+    "type": "split",
+    "horizon": 0.74,
+    "color": "bg",
+    "color2": "accent2"
+  },
+  "elements": [
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1,
+      "props": {
+        "width": 10,
+        "height": 960
+      },
+      "svg": "<g><line x1=\"5\" y1=\"0\" x2=\"5\" y2=\"960\" class=\"r-thin\" stroke-dasharray=\"4 16\"/></g>"
+    },
+    {
+      "id": "office",
+      "component": "raw",
+      "at": {
+        "x": 0.21,
+        "y": 0.518
+      },
+      "scale": 1,
+      "props": {
+        "width": 300,
+        "height": 480
+      },
+      "svg": "<g><rect x=\"30\" y=\"70\" width=\"240\" height=\"390\" rx=\"14\" class=\"r-body-alt\"/><rect x=\"20\" y=\"40\" width=\"260\" height=\"34\" rx=\"10\" class=\"r-ink\"/><rect x=\"118\" y=\"18\" width=\"64\" height=\"30\" rx=\"6\" class=\"r-accent\" transform=\"rotate(-18 150 33)\"/><rect x=\"60\" y=\"130\" width=\"40\" height=\"40\" rx=\"6\" class=\"r-accent-2\"/><rect x=\"130\" y=\"130\" width=\"40\" height=\"40\" rx=\"6\" class=\"r-accent-2\"/><rect x=\"200\" y=\"130\" width=\"40\" height=\"40\" rx=\"6\" class=\"r-accent-2\"/><rect x=\"60\" y=\"200\" width=\"40\" height=\"40\" rx=\"6\" class=\"r-accent-2\"/><rect x=\"130\" y=\"200\" width=\"40\" height=\"40\" rx=\"6\" class=\"r-accent-2\"/><rect x=\"200\" y=\"200\" width=\"40\" height=\"40\" rx=\"6\" class=\"r-accent-2\"/><rect x=\"60\" y=\"270\" width=\"40\" height=\"40\" rx=\"6\" class=\"r-accent-2\"/><rect x=\"130\" y=\"270\" width=\"40\" height=\"40\" rx=\"6\" class=\"r-accent-2\"/><rect x=\"200\" y=\"270\" width=\"40\" height=\"40\" rx=\"6\" class=\"r-accent-2\"/><rect x=\"120\" y=\"400\" width=\"60\" height=\"60\" rx=\"6\" class=\"r-paper\"/></g>"
+    },
+    {
+      "id": "cloud1",
+      "component": "cloud",
+      "at": {
+        "x": 0.21,
+        "y": 0.17
+      },
+      "scale": 1,
+      "props": {
+        "mood": "none",
+        "size": "md"
+      }
+    },
+    {
+      "id": "coins",
+      "component": "raw",
+      "attachTo": "cloud1",
+      "side": "bottom",
+      "scale": 1,
+      "props": {
+        "width": 80,
+        "height": 140
+      },
+      "svg": "<g><line x1=\"40\" y1=\"0\" x2=\"40\" y2=\"140\" class=\"r-thin\"/><circle cx=\"40\" cy=\"20\" r=\"15\" class=\"r-accent\"/><circle cx=\"34\" cy=\"55\" r=\"15\" class=\"r-accent-2\"/><circle cx=\"46\" cy=\"90\" r=\"15\" class=\"r-accent\"/><circle cx=\"38\" cy=\"124\" r=\"15\" class=\"r-accent-2\"/></g>"
+    },
+    {
+      "id": "dollar-mark",
+      "component": "label",
+      "attachTo": "cloud1",
+      "side": "center",
+      "scale": 1,
+      "props": {
+        "text": "$",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "dc",
+      "component": "datacenter",
+      "at": {
+        "x": 0.52,
+        "y": 0.74
+      },
+      "scale": 1,
+      "props": {
+        "racks": 3,
+        "lights": "busy",
+        "steam": true,
+        "fans": true
+      }
+    },
+    {
+      "id": "cashbag",
+      "component": "raw",
+      "attachTo": "dc",
+      "side": "right",
+      "offset": [
+        10,
+        40
+      ],
+      "scale": 1,
+      "props": {
+        "width": 130,
+        "height": 130
+      },
+      "svg": "<g><path d=\"M25 60 C25 25 105 25 105 60 C105 110 90 128 65 128 C40 128 25 110 25 60 Z\" class=\"r-accent\"/><rect x=\"54\" y=\"14\" width=\"22\" height=\"22\" rx=\"6\" class=\"r-ink\"/><path d=\"M48 42 C56 34 74 34 82 42\" class=\"r-thin\"/><line x1=\"40\" y1=\"74\" x2=\"90\" y2=\"74\" class=\"r-thin\"/><line x1=\"44\" y1=\"92\" x2=\"86\" y2=\"92\" class=\"r-thin\"/></g>"
+    },
+    {
+      "id": "homeowner",
+      "component": "human",
+      "at": {
+        "x": 0.8,
+        "y": 0.74
+      },
+      "scale": 1,
+      "props": {
+        "mood": "neutral",
+        "pose": "stand",
+        "holds": "none",
+        "kind": "adult"
+      }
+    },
+    {
+      "id": "doormat",
+      "component": "raw",
+      "attachTo": "homeowner",
+      "side": "bottom",
+      "scale": 1,
+      "props": {
+        "width": 260,
+        "height": 90
+      },
+      "svg": "<g><rect x=\"150\" y=\"18\" width=\"90\" height=\"46\" rx=\"4\" class=\"r-paper\" transform=\"rotate(-6 195 41)\"/><line x1=\"150\" y1=\"30\" x2=\"230\" y2=\"30\" class=\"r-thin\" transform=\"rotate(-6 195 41)\"/><rect x=\"10\" y=\"30\" width=\"200\" height=\"50\" rx=\"12\" class=\"r-body\"/><rect x=\"30\" y=\"42\" width=\"160\" height=\"26\" rx=\"6\" class=\"r-shade\"/></g>"
+    },
+    {
+      "id": "wontsue",
+      "component": "label",
+      "attachTo": "homeowner",
+      "side": "bottom",
+      "offset": [
+        85,
+        5
+      ],
+      "scale": 1,
+      "props": {
+        "text": "WON'T SUE",
+        "size": "sm",
+        "kind": "plain",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "Split scene: on the left a small office building catches a stream of coins pouring from a cloud marked with a dollar sign. On the right a busy data center reaches a bag of cash toward a calm homeowner, who stands over a doormat with a folded paper labeled WON'T SUE peeking out from underneath."
+}
