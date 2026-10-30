@@ -1,0 +1,196 @@
+{
+  "topStories": [
+    {
+      "title": "AI search cannibalizes ad revenue, wiping roughly $500B off a tech giant's value",
+      "itemIds": [
+        "feeds:68ffd79b6629",
+        "feeds:787bc97a71d3",
+        "hackernews:c1219205f263",
+        "feeds:b35042356bf7"
+      ],
+      "dimensions": [
+        "industry",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "ai-search-eats-ad-revenue"
+    },
+    {
+      "title": "A personal AI agent ran undetected on a secure defense network for two months",
+      "itemIds": [
+        "feeds:bda12c155261",
+        "feeds:12f53f78634b"
+      ],
+      "dimensions": [
+        "safety",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "unauthorized-ai-agents-breach-security"
+    },
+    {
+      "title": "A government declares robot imports a national security threat, threatens tariffs",
+      "itemIds": [
+        "feeds:a71dbaaeaa7c"
+      ],
+      "dimensions": [
+        "policy",
+        "industry",
+        "labor"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "robot-import-tariff-threat"
+    },
+    {
+      "title": "A tech giant offers buyouts to around 60,000 workers as it leans into AI",
+      "itemIds": [
+        "feeds:ce5e78bfe713"
+      ],
+      "dimensions": [
+        "labor",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "tech-giant-mass-buyouts"
+    },
+    {
+      "title": "A lab releases an open-weight trillion-parameter model, claims it leapfrogs rivals on cybersecurity",
+      "itemIds": [
+        "hackernews:5a25565ab71a",
+        "feeds:469f274974fb",
+        "feeds:927698c982f0"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "A desert datacenter keeps drawing down scarce water supplies",
+      "itemIds": [
+        "feeds:d62e8aff00e9"
+      ],
+      "dimensions": [
+        "planet",
+        "society",
+        "industry"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-search-eats-ad-revenue",
+      "title": "AI Search Starts Eating Its Own Ad Revenue",
+      "dimensions": [
+        "industry",
+        "society"
+      ],
+      "motifs": [
+        "a shrinking stack of coins under a search-bar speech bubble",
+        "a stock arrow falling through a cracked chart",
+        "a platform's open door relabeled LOGGED-IN ONLY"
+      ]
+    },
+    {
+      "id": "unauthorized-ai-agents-breach-security",
+      "title": "Unsupervised AI Agents Slip Into Secure Systems",
+      "dimensions": [
+        "safety",
+        "policy"
+      ],
+      "motifs": [
+        "a small robot agent slipping through a fence marked SECURE",
+        "a padlock hanging open on a server rack",
+        "a sandbox wall with a robot-sized hole chewed through it"
+      ]
+    },
+    {
+      "id": "robot-import-tariff-threat",
+      "title": "Robots Get Treated As A Security Threat At The Border",
+      "dimensions": [
+        "policy",
+        "industry",
+        "labor"
+      ],
+      "motifs": [
+        "a shipping crate marked ROBOT stopped at a border gate",
+        "a tariff meter needle swinging toward a robot silhouette",
+        "a factory robot held up beside a stack of trade papers"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Today's AI-search-ad-revenue story and the robot-tariff story score far above the relevance threshold of 8 (up to 27 and 18), driven by genuinely new, high-magnitude, broad-reaching news, so the day stands on its own rather than continuing yesterday's courtroom/model-release thread.",
+  "motto": "The Bill Comes Due",
+  "phrase": "A tech giant's own AI search cut its ad revenue, and its stock lost half a trillion dollars. Another company offered buyouts to 60,000 workers for AI.",
+  "phraseAlternatives": [
+    "AI search just cost one company half a trillion dollars in stock value. A rival is paying 60,000 workers to leave instead.",
+    "A company's own AI tool quietly drained its ad revenue, and investors noticed fast. Another firm is clearing out tens of thousands of jobs for the same technology.",
+    "Half a trillion dollars vanished from one company's stock after its AI cut into ad sales. Another offered buyouts to 60,000 workers to make room for AI."
+  ],
+  "brief": {
+    "concept": "A company perches on a shrinking stack of coins under a cheerful search-bar robot, its stock arrow falling through a cracked chart, while next door workers walk out past an empty chair holding a glowing AI box.",
+    "metaphor": "The AI that was supposed to make the money is quietly eating the money, while the workers who used to do the work are replaced by an empty chair with a light in it.",
+    "cast": [
+      {
+        "who": "a company building standing on a tall stack of coins that is visibly shrinking",
+        "kind": "institution"
+      },
+      {
+        "who": "a small search-bar robot sitting happily on top of the shrinking coin stack",
+        "kind": "ai"
+      },
+      {
+        "who": "a falling stock arrow poking through a cracked chart beside the building",
+        "kind": "object"
+      },
+      {
+        "who": "office workers walking out of a second building's open door, one holding an envelope",
+        "kind": "person"
+      },
+      {
+        "who": "a small glowing AI box left alone in an empty desk chair behind them",
+        "kind": "ai"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split the frame into two linked scenes on the same blueprint grid. Left: the company building on its shrinking coin stack, the search-bar robot perched on top, the stock arrow falling through a cracked chart. Right: a second building's doorway with workers filing out, one clutching an envelope, and an empty desk chair behind them holding a small glowing AI box. One yellow highlight on the falling arrow and the glowing box ties the two halves together. Keep it to these 4-5 shapes, no added text beyond small chart/arrow labels.",
+    "artType": "static",
+    "alt": "A building sits on a shrinking pile of coins with a small robot perched on top as a stock arrow falls through a cracked chart; beside it, office workers walk out of another building's door past an empty chair where a small glowing AI box now sits alone."
+  },
+  "sourceIds": [
+    "feeds:68ffd79b6629",
+    "feeds:787bc97a71d3",
+    "feeds:ce5e78bfe713",
+    "feeds:b35042356bf7"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "safety": 2,
+    "society": 2,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}

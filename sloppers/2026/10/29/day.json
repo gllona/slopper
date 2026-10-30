@@ -1,0 +1,211 @@
+{
+  "date": "2026-10-29",
+  "number": 30,
+  "mode": "fresh",
+  "motto": "The Bill Comes Due",
+  "phrase": "A tech giant's own AI search cut its ad revenue, and its stock lost half a trillion dollars. Another company offered buyouts to 60,000 workers for AI.",
+  "phraseAlternatives": [
+    "AI search just cost one company half a trillion dollars in stock value. A rival is paying 60,000 workers to leave instead.",
+    "A company's own AI tool quietly drained its ad revenue, and investors noticed fast. Another firm is clearing out tens of thousands of jobs for the same technology.",
+    "Half a trillion dollars vanished from one company's stock after its AI cut into ad sales. Another offered buyouts to 60,000 workers to make room for AI."
+  ],
+  "alt": "A smaller company building sits on a shrinking coin stack, marked by a dashed outline and yellow arrow showing the drop, topped by a cheerful robot, beside a chart whose line falls off the edge, labeled Stock Falls. Across a dashed divider, a worker carries an envelope away from a darker, empty building, leaving behind an empty chair that now holds a small glowing box, labeled Jobs Cut.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "safety": 2,
+    "society": 2,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "ai-search-eats-ad-revenue",
+    "unauthorized-ai-agents-breach-security",
+    "robot-import-tariff-threat",
+    "tech-giant-mass-buyouts",
+    "frontier-model-race",
+    "datacenter-backlash-campaign"
+  ],
+  "topStories": [
+    {
+      "title": "AI search cannibalizes ad revenue, wiping roughly $500B off a tech giant's value",
+      "itemIds": [
+        "feeds:68ffd79b6629",
+        "feeds:787bc97a71d3",
+        "hackernews:c1219205f263",
+        "feeds:b35042356bf7"
+      ],
+      "dimensions": [
+        "industry",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "ai-search-eats-ad-revenue"
+    },
+    {
+      "title": "A personal AI agent ran undetected on a secure defense network for two months",
+      "itemIds": [
+        "feeds:bda12c155261",
+        "feeds:12f53f78634b"
+      ],
+      "dimensions": [
+        "safety",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "unauthorized-ai-agents-breach-security"
+    },
+    {
+      "title": "A government declares robot imports a national security threat, threatens tariffs",
+      "itemIds": [
+        "feeds:a71dbaaeaa7c"
+      ],
+      "dimensions": [
+        "policy",
+        "industry",
+        "labor"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "robot-import-tariff-threat"
+    },
+    {
+      "title": "A tech giant offers buyouts to around 60,000 workers as it leans into AI",
+      "itemIds": [
+        "feeds:ce5e78bfe713"
+      ],
+      "dimensions": [
+        "labor",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "tech-giant-mass-buyouts"
+    },
+    {
+      "title": "A lab releases an open-weight trillion-parameter model, claims it leapfrogs rivals on cybersecurity",
+      "itemIds": [
+        "hackernews:5a25565ab71a",
+        "feeds:469f274974fb",
+        "feeds:927698c982f0"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "A desert datacenter keeps drawing down scarce water supplies",
+      "itemIds": [
+        "feeds:d62e8aff00e9"
+      ],
+      "dimensions": [
+        "planet",
+        "society",
+        "industry"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    }
+  ],
+  "brief": {
+    "concept": "A company perches on a shrinking stack of coins under a cheerful search-bar robot, its stock arrow falling through a cracked chart, while next door workers walk out past an empty chair holding a glowing AI box.",
+    "metaphor": "The AI that was supposed to make the money is quietly eating the money, while the workers who used to do the work are replaced by an empty chair with a light in it.",
+    "cast": [
+      {
+        "who": "a company building standing on a tall stack of coins that is visibly shrinking",
+        "kind": "institution"
+      },
+      {
+        "who": "a small search-bar robot sitting happily on top of the shrinking coin stack",
+        "kind": "ai"
+      },
+      {
+        "who": "a falling stock arrow poking through a cracked chart beside the building",
+        "kind": "object"
+      },
+      {
+        "who": "office workers walking out of a second building's open door, one holding an envelope",
+        "kind": "person"
+      },
+      {
+        "who": "a small glowing AI box left alone in an empty desk chair behind them",
+        "kind": "ai"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split the frame into two linked scenes on the same blueprint grid. Left: the company building on its shrinking coin stack, the search-bar robot perched on top, the stock arrow falling through a cracked chart. Right: a second building's doorway with workers filing out, one clutching an envelope, and an empty desk chair behind them holding a small glowing AI box. One yellow highlight on the falling arrow and the glowing box ties the two halves together. Keep it to these 4-5 shapes, no added text beyond small chart/arrow labels.",
+    "artType": "static",
+    "alt": "A building sits on a shrinking pile of coins with a small robot perched on top as a stock arrow falls through a cracked chart; beside it, office workers walk out of another building's door past an empty chair where a small glowing AI box now sits alone."
+  },
+  "sources": [
+    {
+      "id": "feeds:68ffd79b6629",
+      "title": "Google admits AI search makes less money, but it's fixing that with more ads",
+      "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-10-29T16:24:55.000Z"
+    },
+    {
+      "id": "feeds:787bc97a71d3",
+      "title": "Google value plunges by $500bn as AI search hits ad sales",
+      "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
+      "source": "feeds",
+      "publisher": "BBC News",
+      "publishedAt": "2026-10-29T22:17:52.000Z"
+    },
+    {
+      "id": "feeds:ce5e78bfe713",
+      "title": "Microsoft’s AI future has fewer jobs",
+      "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-10-29T16:00:00.000Z"
+    },
+    {
+      "id": "feeds:b35042356bf7",
+      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-29T20:08:31.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.57,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-10-30T11:35:29.830Z"
+}

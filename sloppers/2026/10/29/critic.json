@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 1,
+          "style": 3,
+          "polish": 1,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "Severe rendering breakdown: labels overlap into unreadable text, the chart/human/chair-box collide into a jumbled mass, the coin stack reads as a slinky, and the scripted two-scene split (second building, multiple departing workers) never materializes — this needs a rebuild, not a touch-up.",
+        "revisionNotes": [
+          "Critical: label-stock (\"Stock Falls\") and label-replaced (\"Replaced By AI\") are rendering stacked on top of each other at the same position, producing illegible garbled text — give each label its own clear anchor with vertical separation from any other component.",
+          "Rebuild as the two linked scenes the brief calls for: left-third (coins + building + robot) and right-third (second building door, walking workers, empty chair + glowing box) on a shared grid with a visible gutter — currently everything is crushed into one overlapping cluster at bottom-center.",
+          "The chart, human, and chair-box components are overlapping each other (chart lines run through the human's legs, chair-box collides with chart frame) — move chair-box to right-third as scripted and keep a safety margin between chart and human.",
+          "Coins component reads as a spiral/slinky, not a shrinking stack of coins — redraw as flat, clearly separated ellipse discs so the 'shrinking stack' metaphor is legible.",
+          "Brief calls for multiple office workers filing out of a second building's door, one holding an envelope; only one human (shrug pose) appears and there is no second building — add the second building and 2-3 human figures walking out to carry that half of the joke.",
+          "Top half of the frame (robot + building) is isolated and disconnected from a mostly-empty right side — rebalance so both halves of the split composition have comparable visual weight and the yellow highlight ties them together as intended."
+        ]
+      },
+      "average": 2.29,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"building2\" extends outside the safe area in the final frame (x 830…1028, y 575…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "The core AI-profits-while-jobs-vanish idea reads quickly, but a label overlaps a figure's legs, the right-hand building is clipped by the safe area, the envelope looks worn as a hat, and the scene reuses the same blueprint/robot-on-chart motifs seen repeatedly in recent.png — these pull the average below the pass bar.",
+        "revisionNotes": [
+          "Nudge worker2 (shrug pose) left or lower the \"Jobs Cut\" label so the text clears the figure — the J currently cuts through the worker's leg.",
+          "Scale building2 down to ~0.65 and/or move its anchor to x≈0.80 so the roof stays inside the safe area (lint flags x 830–1028 clipping the right edge).",
+          "Re-attach the envelope prop to worker1's hand/side instead of \"top\" — sitting on the head it reads as a hat, not something being carried out.",
+          "Give the chair-box, worker1, worker2, chart cluster more breathing room around the dashed divider; right now four elements bunch into one tight band and straddle the split instead of sitting cleanly in the right-hand scene.",
+          "Redraw chair-box as a clearer chair silhouette (seat + back + legs) — the current stand/pedestal shape reads as a side table, muddying the 'AI replaced the worker' beat.",
+          "Vary the motif set from recent blueprint pieces: robot-on-building plus a falling/rising chart-and-arrow has appeared repeatedly in recent.png; try a different accent placement or silhouette treatment for the coin stack."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 3,
+          "kindness": 4
+        },
+        "verdict": "Passes: the split blueprint scene clearly links the AI-driven stock drop to the job cuts with correct human/robot casting, but a top-heavy, unevenly scaled layout and a disconnected floating envelope prop keep it from feeling fully polished, and the motif overlaps recent blueprint pieces.",
+        "revisionNotes": [
+          "The envelope is a floating raw shape disconnected from worker1 (holds: 'none' with an offset icon hovering in mid-air); set worker1 holds to 'envelope' or re-attach it directly at the hand so it reads as 'carrying a buyout notice' rather than a stray icon.",
+          "The top ~35% of the canvas above the building/building2 is empty blueprint grid; shift the whole scene up or increase vertical fill so the square isn't this bottom-heavy.",
+          "Left tower (robot on datacenter, scale 0.68/0.5) dwarfs the right cluster (worker scale 0.38, building2 scale 0.65, chair-box scale 0.45); bump building2 to ~0.85 and worker1 to ~0.5 so the two linked scenes carry equal visual weight across the divider.",
+          "Blueprint grid + robot-on-datacenter + falling-line-chart is close to two recent pieces (CATASTROPHIC RISK, OPEN DOOR/HIGH BAR); swap the chart component for a different prop or shift the accent palette to read fresher next to those.",
+          "The dashed arrow box sitting above the coin ellipses reads as a separate, unlabeled sign at first glance; merge it into the coin stack shape or drop a small 'Value Drops' label so the beat isn't ambiguous."
+        ]
+      },
+      "average": 3.57,
+      "passed": true
+    }
+  ]
+}
