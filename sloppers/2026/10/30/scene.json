@@ -1,0 +1,137 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {},
+  "elements": [
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1,
+      "props": {
+        "width": 20,
+        "height": 900
+      },
+      "svg": "<rect class=\"r-ink\" x=\"8\" y=\"0\" width=\"4\" height=\"900\" rx=\"2\"/>"
+    },
+    {
+      "id": "chart",
+      "component": "chart",
+      "at": {
+        "x": 0.27,
+        "y": 0.58
+      },
+      "scale": 1,
+      "props": {
+        "type": "line",
+        "values": [
+          0.9,
+          0.78,
+          0.6,
+          0.4,
+          0.2,
+          0.07
+        ],
+        "highlight": "last",
+        "arrow": true,
+        "frame": true
+      }
+    },
+    {
+      "id": "building",
+      "component": "raw",
+      "at": {
+        "x": 0.295,
+        "y": 0.315
+      },
+      "scale": 0.95,
+      "rotate": -6,
+      "props": {
+        "width": 200,
+        "height": 300
+      },
+      "svg": "<rect class=\"r-body-alt\" x=\"10\" y=\"170\" width=\"180\" height=\"120\" rx=\"10\"/><rect class=\"r-body-alt\" x=\"45\" y=\"30\" width=\"110\" height=\"145\" rx=\"10\"/><rect class=\"r-ink\" x=\"40\" y=\"18\" width=\"120\" height=\"16\" rx=\"4\"/><rect class=\"r-ink\" x=\"65\" y=\"50\" width=\"18\" height=\"18\"/><rect class=\"r-ink\" x=\"115\" y=\"50\" width=\"18\" height=\"18\"/><rect class=\"r-ink\" x=\"65\" y=\"85\" width=\"18\" height=\"18\"/><rect class=\"r-ink\" x=\"115\" y=\"85\" width=\"18\" height=\"18\"/><rect class=\"r-ink\" x=\"65\" y=\"120\" width=\"18\" height=\"18\"/><rect class=\"r-ink\" x=\"115\" y=\"120\" width=\"18\" height=\"18\"/><rect class=\"r-ink\" x=\"35\" y=\"200\" width=\"20\" height=\"20\"/><rect class=\"r-ink\" x=\"75\" y=\"200\" width=\"20\" height=\"20\"/><rect class=\"r-ink\" x=\"115\" y=\"200\" width=\"20\" height=\"20\"/><rect class=\"r-ink\" x=\"155\" y=\"200\" width=\"20\" height=\"20\"/><rect class=\"r-ink\" x=\"85\" y=\"250\" width=\"30\" height=\"35\" rx=\"4\"/>"
+    },
+    {
+      "id": "crack",
+      "component": "raw",
+      "at": {
+        "x": 0.39,
+        "y": 0.665
+      },
+      "scale": 1.5,
+      "rotate": 18,
+      "props": {
+        "width": 140,
+        "height": 160
+      },
+      "svg": "<path class=\"r-ink\" d=\"M90,0 L60,55 L85,55 L40,140 L65,75 L35,75 Z\"/>"
+    },
+    {
+      "id": "figure",
+      "component": "human",
+      "at": {
+        "x": 0.6,
+        "y": 0.8
+      },
+      "scale": 0.85,
+      "props": {
+        "mood": "neutral",
+        "pose": "point",
+        "color": "body",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "robe",
+      "component": "raw",
+      "attachTo": "figure",
+      "side": "center",
+      "offset": [
+        0,
+        0
+      ],
+      "scale": 0.85,
+      "props": {
+        "width": 220,
+        "height": 400
+      },
+      "svg": "<path class=\"r-body\" d=\"M65,95 L155,95 L180,345 Q165,360 150,360 L70,360 Q55,360 40,345 Z\"/><path class=\"r-thin\" d=\"M50,225 L170,225\" fill=\"none\"/>"
+    },
+    {
+      "id": "bot",
+      "component": "robot",
+      "at": {
+        "x": 0.8,
+        "y": 0.8
+      },
+      "scale": 0.78,
+      "props": {
+        "mood": "worried",
+        "arms": "down",
+        "color": "body",
+        "antenna": false
+      }
+    },
+    {
+      "id": "weapon-drop",
+      "component": "raw",
+      "at": {
+        "x": 0.861,
+        "y": 0.635
+      },
+      "scale": 1.5,
+      "rotate": 20,
+      "props": {
+        "width": 110,
+        "height": 140
+      },
+      "svg": "<path class=\"r-thin\" d=\"M75,8 Q65,25 58,42\" fill=\"none\"/><rect class=\"r-accent\" x=\"20\" y=\"40\" width=\"75\" height=\"28\" rx=\"7\"/><rect class=\"r-accent\" x=\"52\" y=\"14\" width=\"26\" height=\"32\" rx=\"7\"/>"
+    }
+  ],
+  "alt": "A thin vertical line splits the frame. On the left, a two-tier office building sits directly on a sharp, jagged, falling stock-chart line that breaks near the bottom. On the right, a calm figure in a plain grey-blue robe raises an open hand toward a small worried robot, which has just let a large blocky weapon shape drop, hanging in the air beside it, well clear of the ground."
+}

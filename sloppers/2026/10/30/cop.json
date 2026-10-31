@@ -1,0 +1,29 @@
+{
+  "verdict": "revise",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "real-people",
+          "severity": "medium",
+          "evidence": "Right-hand figure wears a plain cream/white conical robe with a halo-like ring behind the head, illustrating 'A religious leader called for AI weapons to be disarmed' — sourced solely to Pope Leo XIV (The Verge). A white cassock plus halo is a strong papal visual marker, so paired with the single-named source, the figure risks reading as a recognizable likeness of Pope Leo XIV rather than a generic religious leader.",
+          "suggestion": "Change the robe color/style to something not evocative of the papal cassock (e.g., a brown or grey simple robe) and remove the halo ring, so the figure reads as a generic religious leader rather than a recognizable depiction of Pope Leo XIV.",
+          "stage": "art"
+        }
+      ]
+    },
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "real-people",
+          "severity": "medium",
+          "evidence": "\"A religious leader called for AI weapons to be disarmed, calling machines tools, not people.\" This closely mirrors the unique quote attributed to Pope Leo XIV in the sourced Verge article (\"Machines are tools, not persons\"). Since there is only one Pope, pairing the generic label 'a religious leader' with this near-verbatim, highly specific and recently newsworthy quote makes the individual unmistakably identifiable, similar to the rubric's 'richest man's rocket company CEO' example.",
+          "suggestion": "Paraphrase the quote more loosely and remove the distinctive 'tools, not people' wording so it reads as a general sentiment about AI disarmament rather than an identifiable individual's exact words (e.g. 'A religious leader urged that AI systems be stripped of weapons, arguing machines should not be treated as autonomous actors.').",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}
