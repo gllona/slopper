@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Fails: the center divider literally bisects the robed figure's face, the figure's raised arm points the wrong way (into the chart instead of toward the robot), and the 'weapon' dropping from the bot is a tiny disconnected blob that doesn't read — the core joke (calm figure asking the robot to disarm) doesn't land in the still frame.",
+        "revisionNotes": [
+          "Flip the figure's pointing arm to extend right toward the bot (not left into the chart) so the raised-hand gesture reads as addressing the robot, matching the brief's 'palm out, facing a small robot.'",
+          "Re-anchor the figure off-center (shift x from 0.52 to ~0.58) or narrow the robe width; the vertical divider currently cuts straight through the figure's face and torso, which reads as a rendering bug.",
+          "Scale the weapon-drop shape up (from ~1.1 to ~1.6) and pull it in closer to the bot's hand; right now it's a tiny disconnected blob with a dashed trail floating in empty space and doesn't read as 'a blocky weapon slipping from its grip.'",
+          "Attach the datacenter component directly onto the chart's top-left peak (offset 0,0) so the building visibly perches on the cracking line, instead of floating as a separate framed element above it.",
+          "Increase the ink weight/size of the 'crack' raw shape or reposition it to clearly intersect the chart line near the arrow; it currently blends into the chart and isn't legible as a break.",
+          "The recent grid already has a vertical-divider robot-vs-human split composition ('SHARE' slopper); consider a diagonal or circular split to avoid repeating that same layout."
+        ]
+      },
+      "average": 2.71,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "The market-crash half reads fine, but the AI-weapons half is nearly illegible: the figure points at the stock chart instead of facing the robot, and the weapon shape dissolves into the robot's base — the two-part joke never connects, so this doesn't pass.",
+        "revisionNotes": [
+          "Attach the company/datacenter directly to the chart's top anchor with no offset gap — it currently floats well above the chart line, so it reads as a separate building, not one 'perched and teetering' on the crash.",
+          "The figure's 'point' pose aims at the chart/crack on the left instead of facing the robot on the right; flip the pose so the raised open hand clearly addresses the robot about the weapon, which is the half of the joke that's missing.",
+          "Scale up and separate the weapon-drop shape from the robot's base — it currently merges into the pink platform under the robot's feet and reads as a shadow, not a falling blocky weapon.",
+          "Add back the thin vertical divider line from the brief's composition note; without it the two halves (market crash, AI disarmament) blur into one ambiguous scene instead of two paired beats.",
+          "Rebalance density: left half has a large empty gap between building and chart, right half is crowded with figure+robe+robot+weapon stacked tight — even out scale and spacing across both halves.",
+          "This building-perched-on-falling-stock-chart motif repeats recent panels (server rack + declining graph, 'CATASTROPHIC RISK' building); vary the silhouette or chart treatment to stand apart."
+        ]
+      },
+      "average": 2.57,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 4,
+          "style": 4,
+          "polish": 3,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "Passes: the split-frame crash/disarm concept reads clearly and the cast is correctly human-vs-robot, but an accidental overlap between the weapon shape, the robot's face, and the figure's hand muddies the right-hand beat and costs polish and clarity.",
+        "revisionNotes": [
+          "Nudge weapon-drop down/right (e.g. y 0.72) and increase its drop angle so it clears the robot's face box and the figure's pointing hand — it currently overlaps both and partly obscures the robot's eye.",
+          "Swap the figure's 'point' pose for a true raised open-palm: pull the arm/hand offset back so there's visible air gap between hand and robot's head instead of resting on it — reads as touching/comforting rather than a calming 'stand down' gesture.",
+          "Sharpen the weapon-drop silhouette (clearer blade/gun outline instead of two stacked rounded rectangles) so it reads as a weapon at a glance, not an abstract blob.",
+          "Add 1-2 short motion lines trailing the weapon to sell the 'falling' beat the brief calls for, since it currently reads as floating in place.",
+          "Nice novel split-frame layout and cream/riso palette versus the mostly navy-canvas recent set — keep this composition direction."
+        ]
+      },
+      "average": 3.86,
+      "passed": true
+    }
+  ]
+}

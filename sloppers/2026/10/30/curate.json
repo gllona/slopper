@@ -1,0 +1,214 @@
+{
+  "topStories": [
+    {
+      "title": "AI Spending Boom Shows Cracks As Tech Stocks Tumble",
+      "itemIds": [
+        "feeds:5ae1d67b9d28",
+        "feeds:434071bc563a",
+        "feeds:1abfdb6dc980",
+        "feeds:c9622cbd68ac",
+        "feeds:787bc97a71d3",
+        "hackernews:54aa38ca9edb",
+        "hackernews:961556820605"
+      ],
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "ai-stock-bubble-risk"
+    },
+    {
+      "title": "A Religious Leader Calls For AI Weapons To Be Disarmed",
+      "itemIds": [
+        "feeds:6e4b42d098d2"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "pope-calls-ai-disarmament"
+    },
+    {
+      "title": "Major AI Companies Back A Shared Scraping Opt-Out Standard",
+      "itemIds": [
+        "feeds:af14fa00446d",
+        "techmeme:231b9a05d592"
+      ],
+      "dimensions": [
+        "law",
+        "industry",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-scraping-opt-out-standard"
+    },
+    {
+      "title": "DOJ Exposes AI-Enabled 'Ghost Student' Loan Fraud",
+      "itemIds": [
+        "feeds:4da51a8d3c86"
+      ],
+      "dimensions": [
+        "education",
+        "law",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-ghost-students-loan-fraud"
+    },
+    {
+      "title": "Maine's Data Center Backlash Could Decide Senate Control",
+      "itemIds": [
+        "feeds:4fc874c1f89d"
+      ],
+      "dimensions": [
+        "policy",
+        "planet",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "AI Deskills Skilled Workers Instead Of Replacing Them",
+      "itemIds": [
+        "hackernews:55737272f83d"
+      ],
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-deskills-skilled-workers"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "pope-calls-ai-disarmament",
+      "title": "A Religious Leader Calls To Disarm AI Weapons",
+      "dimensions": [
+        "policy",
+        "safety",
+        "society"
+      ],
+      "motifs": [
+        "a robed figure holding up an open hand to a robot holding a weapon-shaped block",
+        "a globe wrapped in a chain being unlocked",
+        "a robot setting down a blocky weapon under a dove-shaped seal"
+      ]
+    },
+    {
+      "id": "ai-scraping-opt-out-standard",
+      "title": "Major AI Companies Back A Shared Scraping Opt-Out Standard",
+      "dimensions": [
+        "law",
+        "industry",
+        "society"
+      ],
+      "motifs": [
+        "a publisher's gate fitted with one shared lock for several robot crawlers",
+        "a stack of separate opt-out forms merging into one",
+        "a newspaper stand switching on a single DO-NOT-CRAWL light"
+      ]
+    },
+    {
+      "id": "ai-ghost-students-loan-fraud",
+      "title": "Fake 'Ghost Students' Use AI To Steal Loan Money",
+      "dimensions": [
+        "education",
+        "law",
+        "policy"
+      ],
+      "motifs": [
+        "a classroom seat filled by a faint outline instead of a student",
+        "a stack of loan checks sliding toward a shadowy cutout figure",
+        "a watchdog badge sorting real desks from empty ones"
+      ]
+    },
+    {
+      "id": "ai-deskills-skilled-workers",
+      "title": "AI Deskills Workers Instead Of Replacing Them",
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "motifs": [
+        "a worker's toolbox rusting shut beside a humming robot",
+        "a skill meter quietly dropping while a task-complete checkmark stays lit"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The top story — a broad tech-stock selloff over doubts about the AI spending boom (Intel's crash, a predicted junk credit rating, the Nasdaq's two-month low) — scores novelty 2 × magnitude 3 × breadth 3 = 18, well above the fresh threshold of 8.",
+  "motto": "Cracks In The Boom",
+  "phrase": "Tech stocks tumbled on fears the AI spending boom cannot pay for itself. A religious leader called for AI weapons to be disarmed, calling machines tools, not people.",
+  "phraseAlternatives": [
+    "Tech stocks fell to a two-month low as doubts grew about the AI spending boom. A religious leader asked the world to disarm AI weapons.",
+    "One chip maker's stock crashed and a top AI lab may get a junk credit rating. The same week, a religious leader called for AI weapons to be disarmed.",
+    "As investors lost faith in the AI spending boom, a religious leader asked for AI weapons to be laid down, calling machines tools, not people.",
+    "Markets wobbled on AI spending fears, while thousands of AI-powered 'ghost students' quietly stole millions in student loans."
+  ],
+  "brief": {
+    "concept": "A company building teeters on a cracked, plunging stock chart on one side of the frame, while on the other a calm robed figure holds up an open hand and a small robot lets a blocky weapon shape slip from its grip.",
+    "metaphor": "Trust in AI's money and trust in AI's conduct crack at the same time: the markets stop believing the bill will be paid, and a moral voice asks the machines to put down what they're holding.",
+    "cast": [
+      {
+        "who": "a company building standing on a stock chart that is cracking and tilting downward",
+        "kind": "institution"
+      },
+      {
+        "who": "a falling stock arrow breaking through the cracked chart",
+        "kind": "object"
+      },
+      {
+        "who": "a calm religious figure in plain robes, holding up one open hand",
+        "kind": "person"
+      },
+      {
+        "who": "a small robot loosening its grip on a blocky weapon-shaped piece, letting it drop",
+        "kind": "ai"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Split the scene down the middle with a thin vertical line. Left half: the company building perched on a jagged, downward-sloping chart line in blue ink, the stock arrow poking through a crack near the bottom. Right half: the robed figure stands with one hand raised, palm out, facing a small robot that tilts forward, the blocky weapon shape falling from its open hand toward the ground in pink ink. Keep both halves sparse, at most 4 shapes total, with generous cream paper space around each.",
+    "artType": "static",
+    "alt": "On the left, an office building perches on a cracked, sharply falling stock-chart line. On the right, a calm figure in plain robes raises one open hand toward a small robot, which lets a blocky weapon-shaped piece drop from its grip."
+  },
+  "sourceIds": [
+    "feeds:c9622cbd68ac",
+    "feeds:434071bc563a",
+    "feeds:5ae1d67b9d28",
+    "feeds:1abfdb6dc980",
+    "feeds:787bc97a71d3",
+    "feeds:6e4b42d098d2"
+  ],
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 2,
+    "safety": 1,
+    "society": 2,
+    "education": 2,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
