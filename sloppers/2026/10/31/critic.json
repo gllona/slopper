@@ -1,0 +1,89 @@
+{
+  "passed": false,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"hooded\" extends outside the safe area in the final frame (x 552…1068, y 379…799)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 1,
+          "style": 2,
+          "polish": 1,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Fails: the two-scene layout collapsed into one cluttered mess, with the card stack burying the student's face, a detached magnifying glass, clipped text, and the hooded robot clipping the safe-area edge.",
+        "revisionNotes": [
+          "Move the 'cards' and 'magnifier' raw shapes so they attach to the hooded robot at x=0.75 on the right; right now they render over the student/new-hire pair on the left, burying the student's face under the orange card block.",
+          "The card stack renders as a single solid rounded rectangle instead of a readable fan of dollar-sign cards, and it clips the 'target-label' text ('Top Tar et'); shrink or offset the card so the label sits fully clear of its edge.",
+          "Reposition the magnifying glass so it is gripped in the hooded robot's hand — currently it floats unattached above the new-hire robot's head with no clear owner.",
+          "Pull 'hooded' and its arm back inside the safe area; lint flags it clipping the right edge (x 552-1068), and the extended arm is cut off at the canvas boundary.",
+          "Rebuild the two-panel split called for in the brief: a visible divider line with a distinct kraft-left/accent-right background, instead of one continuous teal ground with both scenes overlapping in the middle.",
+          "Anchor the 'New Hire' nameplate directly under the new-hire robot's feet; it currently floats free at bottom-center, ambiguous about which figure it labels."
+        ]
+      },
+      "average": 2.43,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": false,
+        "errors": [
+          "\"cards\" is cut off by the artboard edge in the final frame (x 932…1082, y 656…798)"
+        ],
+        "warnings": [
+          "\"cards\" (raw) was moved -13 px, 0 px to stay inside the artboard",
+          "\"target-label\" (label) was moved -129 px, 0 px to stay inside the safe area",
+          "\"divider\" extends outside the safe area in the final frame (x 540…1080, y 0…1080)",
+          "\"student\" extends outside the safe area in the final frame (x 44…258, y 525…842)",
+          "\"magnifier\" extends outside the safe area in the final frame (x 920…1034, y 562…692)"
+        ]
+      },
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"target-label\" (label) was moved -47 px, 0 px to stay inside the safe area",
+          "\"divider\" extends outside the safe area in the final frame (x 540…1080, y 0…1080)",
+          "\"student\" extends outside the safe area in the final frame (x 44…258, y 525…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 3,
+          "kindness": 4
+        },
+        "verdict": "The two-panel idea reads generically (robot new hire / robot picking a rich target) but drops the brief's specific classroom-emptying metaphor (no desks, only one student) and the magnifying glass floats disconnected from the hooded robot's hand, so it falls just short of publish-ready.",
+        "revisionNotes": [
+          "Add a desk/chair raw shape under the empty seat and 1-2 more small human students at the left-third so the 'empty desk now filled by a robot' beat actually reads — right now the student and robot just stand on open ground with no classroom cue.",
+          "Attach the magnifier to the hooded robot's hand: its arms are raised/empty and the magnifying glass floats disconnected to the right, so the 'holding a magnifying glass over the cards' action doesn't land — move the magnifier offset to overlap the raised hand or switch arms prop to a holding pose.",
+          "Stamp a visible '$' on all three cards (one currently shows '!' and one is blank) so 'profile cards each marked with a dollar sign' reads consistently.",
+          "Both panels have the top half as flat empty color; raise the horizon/ground or scale the figure groups up slightly to fill the square better and strengthen the focal point.",
+          "Nudge the 'student' anchor right from x:0.14 to ~x:0.18; lint already flags it clipping the left safe-area edge.",
+          "The vertical-divider split-panel layout was used twice in the recent set; consider a softer separator (desk edge, doorway) instead of a hard dividing line for more novelty."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    }
+  ]
+}

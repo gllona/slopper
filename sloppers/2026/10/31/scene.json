@@ -1,0 +1,147 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {},
+  "elements": [
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": "center",
+      "scale": 1,
+      "props": {
+        "width": 1080,
+        "height": 1080
+      },
+      "svg": "<rect class=\"r-body\" x=\"540\" y=\"0\" width=\"540\" height=\"1080\"/><line class=\"r-line\" x1=\"540\" y1=\"0\" x2=\"540\" y2=\"1080\" stroke-width=\"10\"/>"
+    },
+    {
+      "id": "student",
+      "component": "human",
+      "at": {
+        "x": 0.14,
+        "y": 0.78
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "worried",
+        "pose": "sit",
+        "holds": "book",
+        "color": "body"
+      }
+    },
+    {
+      "id": "new-hire",
+      "component": "robot",
+      "at": {
+        "x": 0.34,
+        "y": 0.78
+      },
+      "scale": 0.85,
+      "props": {
+        "mood": "proud",
+        "arms": "down",
+        "antenna": true,
+        "color": "body"
+      }
+    },
+    {
+      "id": "nameplate",
+      "component": "label",
+      "attachTo": "new-hire",
+      "side": "bottom",
+      "offset": [
+        0,
+        10
+      ],
+      "scale": 1,
+      "props": {
+        "text": "New Hire",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    },
+    {
+      "id": "hooded",
+      "component": "robot",
+      "at": {
+        "x": 0.7,
+        "y": 0.78
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "neutral",
+        "arms": "up",
+        "antenna": false,
+        "color": "accent"
+      }
+    },
+    {
+      "id": "hood",
+      "component": "raw",
+      "attachTo": "hooded",
+      "side": "top",
+      "offset": [
+        0,
+        -20
+      ],
+      "scale": 1,
+      "props": {
+        "width": 200,
+        "height": 150
+      },
+      "svg": "<path class=\"r-ink\" d=\"M20,150 Q10,40 100,10 Q190,40 180,150 Q140,118 100,118 Q60,118 20,150 Z\"/>"
+    },
+    {
+      "id": "magnifier",
+      "component": "raw",
+      "attachTo": "hooded",
+      "side": "right",
+      "offset": [
+        5,
+        -40
+      ],
+      "scale": 0.75,
+      "rotate": -15,
+      "props": {
+        "width": 170,
+        "height": 200
+      },
+      "svg": "<circle class=\"r-ink\" cx=\"70\" cy=\"65\" r=\"48\"/><circle class=\"r-paper\" cx=\"70\" cy=\"65\" r=\"36\"/><rect class=\"r-ink\" x=\"96\" y=\"96\" width=\"24\" height=\"70\" rx=\"10\" transform=\"rotate(40 108 131)\"/>"
+    },
+    {
+      "id": "cards",
+      "component": "raw",
+      "attachTo": "hooded",
+      "side": "right",
+      "offset": [
+        -60,
+        110
+      ],
+      "scale": 0.6,
+      "props": {
+        "width": 260,
+        "height": 260
+      },
+      "svg": "<g transform=\"rotate(-16 80 170)\"><rect class=\"r-paper\" x=\"35\" y=\"110\" width=\"90\" height=\"120\" rx=\"16\"/><line class=\"r-line\" x1=\"80\" y1=\"152\" x2=\"80\" y2=\"188\"/><path class=\"r-line\" d=\"M88,158 C72,158 72,168 80,168 C88,168 88,178 72,178\" fill=\"none\"/></g><g transform=\"rotate(-2 120 140)\"><rect class=\"r-paper\" x=\"75\" y=\"80\" width=\"90\" height=\"120\" rx=\"16\"/><line class=\"r-line\" x1=\"120\" y1=\"122\" x2=\"120\" y2=\"158\"/><path class=\"r-line\" d=\"M128,128 C112,128 112,138 120,138 C128,138 128,148 112,148\" fill=\"none\"/></g><g transform=\"rotate(14 165 115)\"><ellipse class=\"r-glow\" cx=\"165\" cy=\"115\" rx=\"85\" ry=\"95\"/><rect class=\"r-accent\" x=\"115\" y=\"50\" width=\"100\" height=\"130\" rx=\"16\"/><line class=\"r-line\" x1=\"165\" y1=\"97\" x2=\"165\" y2=\"133\"/><path class=\"r-line\" d=\"M173,103 C157,103 157,113 165,113 C173,113 173,123 157,123\" fill=\"none\"/></g>"
+    },
+    {
+      "id": "target-label",
+      "component": "label",
+      "attachTo": "cards",
+      "side": "bottom",
+      "offset": [
+        0,
+        8
+      ],
+      "scale": 1,
+      "props": {
+        "text": "Top Target",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "A worried student sits beside a teal robot wearing a \"New Hire\" tag in an empty classroom seat. Across a dividing line, a red hooded robot raises a magnifying glass over a fan of dollar-marked cards, one glowing brighter and tagged \"Top Target\"."
+}

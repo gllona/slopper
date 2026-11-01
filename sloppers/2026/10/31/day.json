@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-31",
+  "number": 32,
+  "mode": "fresh",
+  "motto": "Fewer Students, New Targets",
+  "phrase": "Computer science enrollment is dropping as AI takes over entry-level coding jobs. Meanwhile, new malware uses AI to rank hacking victims by how much they are worth.",
+  "phraseAlternatives": [
+    "Fewer students are studying computer science now that AI fills the entry-level jobs. New malware, powered by AI, ranks victims by their net worth before stealing from them.",
+    "Young people are leaving computer science as AI absorbs the jobs they trained for. Elsewhere, AI-driven malware decides which victims are rich enough to rob.",
+    "Computer science is losing students to AI-driven job losses. At the same time, new malware uses AI to pick its richest victims first."
+  ],
+  "alt": "A worried student sits beside a teal robot wearing a \"New Hire\" tag in an empty classroom seat. Across a dividing line, a red hooded robot raises a magnifying glass over a fan of dollar-marked cards, one glowing brighter and tagged \"Top Target\".",
+  "artType": "static",
+  "style": "paper-cutout",
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 2,
+    "labor": 2,
+    "policy": 1,
+    "law": 1,
+    "safety": 3,
+    "society": 2,
+    "education": 3,
+    "planet": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 0
+  },
+  "storylines": [
+    "cs-enrollment-declines-ai-jobs",
+    "ai-malware-profiles-victims",
+    "ai-stock-bubble-risk",
+    "datacenter-backlash-campaign",
+    "meta-humanoid-robot-china",
+    "ai-agent-lab-experiment-mouse"
+  ],
+  "topStories": [
+    {
+      "title": "Computer Science Enrollment Drops As AI Takes Entry-Level Jobs",
+      "itemIds": [
+        "hackernews:8fc91902ab05"
+      ],
+      "dimensions": [
+        "education",
+        "labor",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "cs-enrollment-declines-ai-jobs"
+    },
+    {
+      "title": "AI-Powered Malware Ranks Victims By Wealth Before Stealing From Them",
+      "itemIds": [
+        "feeds:bb8ae273ffde",
+        "hackernews:c0588a787514"
+      ],
+      "dimensions": [
+        "safety",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-malware-profiles-victims"
+    },
+    {
+      "title": "OpenAI's New Funding Round Falls Short Of Target",
+      "itemIds": [
+        "feeds:c361ea6e6eba",
+        "hackernews:20ceacd96073",
+        "feeds:778066fca87a"
+      ],
+      "dimensions": [
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-stock-bubble-risk"
+    },
+    {
+      "title": "Judge Lets Pollution Lawsuit Against An AI Datacenter Proceed",
+      "itemIds": [
+        "feeds:b57691e75041"
+      ],
+      "dimensions": [
+        "law",
+        "planet",
+        "society"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "A Tech Giant Built A Humanoid Robot Prototype With A Foreign Robotics Firm",
+      "itemIds": [
+        "techmeme:4ff41efca140"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "meta-humanoid-robot-china"
+    },
+    {
+      "title": "An AI Agent Performed A Gene-Therapy Injection In A Live Mouse's Brain",
+      "itemIds": [
+        "feeds:8232b8050ac3"
+      ],
+      "dimensions": [
+        "science",
+        "capabilities"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "ai-agent-lab-experiment-mouse"
+    }
+  ],
+  "brief": {
+    "concept": "A classroom of computer-science students thins out as a robot settles into the empty entry-level desk beside them, while elsewhere a hooded robot sorts through victim profile cards to pick its richest target.",
+    "metaphor": "The field that trains people to build AI is the same field AI is now emptying out, right next to AI using that same cleverness to pick its prey by wealth.",
+    "cast": [
+      {
+        "who": "a few human students sitting at desks in a computer-science classroom, with empty desks beside them",
+        "kind": "person"
+      },
+      {
+        "who": "a small robot sitting in one of the empty desks, wearing a job nameplate",
+        "kind": "ai"
+      },
+      {
+        "who": "a hooded robot holding a magnifying glass over a fanned stack of profile cards",
+        "kind": "ai"
+      },
+      {
+        "who": "a stack of profile cards each marked with a dollar sign, one glowing brighter than the rest",
+        "kind": "object"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Two paper-cutout scenes side by side on a kraft card background, divided by a thin line. Left: a few students sit at desks in a computer-science classroom; next to them, an empty desk holds a small robot wearing a nameplate. Right: a hooded robot holds a magnifying glass over a stack of profile cards, each stamped with a dollar sign, with one card glowing brighter than the others. Keep each side to 2 main shapes, no more than a handful of words of text (e.g. a tiny dollar sign, a nameplate).",
+    "artType": "static",
+    "alt": "A classroom shows a few students at desks beside an empty desk now occupied by a small robot wearing a nameplate. Next to it, a hooded robot sorts a stack of dollar-sign profile cards, picking the brightest one with a magnifying glass."
+  },
+  "sources": [
+    {
+      "id": "hackernews:8fc91902ab05",
+      "title": "Computer Science Programs Lose Students as AI Replaces Jobs",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-29/computer-science-degree-programs-lose-students-as-ai-takes-jobs",
+      "source": "hackernews",
+      "publisher": "bloomberg.com",
+      "publishedAt": "2026-10-31T22:57:27.000Z"
+    },
+    {
+      "id": "feeds:bb8ae273ffde",
+      "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+      "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-10-31T12:00:00.000Z"
+    },
+    {
+      "id": "hackernews:c0588a787514",
+      "title": "Malware uses LLMs to rank victims by how much they're worth",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "source": "hackernews",
+      "publisher": "blog.talosintelligence.com",
+      "publishedAt": "2026-10-31T14:29:03.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.43,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-01T11:24:44.630Z"
+}

@@ -1,0 +1,201 @@
+{
+  "topStories": [
+    {
+      "title": "Computer Science Enrollment Drops As AI Takes Entry-Level Jobs",
+      "itemIds": [
+        "hackernews:8fc91902ab05"
+      ],
+      "dimensions": [
+        "education",
+        "labor",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "cs-enrollment-declines-ai-jobs"
+    },
+    {
+      "title": "AI-Powered Malware Ranks Victims By Wealth Before Stealing From Them",
+      "itemIds": [
+        "feeds:bb8ae273ffde",
+        "hackernews:c0588a787514"
+      ],
+      "dimensions": [
+        "safety",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-malware-profiles-victims"
+    },
+    {
+      "title": "OpenAI's New Funding Round Falls Short Of Target",
+      "itemIds": [
+        "feeds:c361ea6e6eba",
+        "hackernews:20ceacd96073",
+        "feeds:778066fca87a"
+      ],
+      "dimensions": [
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-stock-bubble-risk"
+    },
+    {
+      "title": "Judge Lets Pollution Lawsuit Against An AI Datacenter Proceed",
+      "itemIds": [
+        "feeds:b57691e75041"
+      ],
+      "dimensions": [
+        "law",
+        "planet",
+        "society"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "A Tech Giant Built A Humanoid Robot Prototype With A Foreign Robotics Firm",
+      "itemIds": [
+        "techmeme:4ff41efca140"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "meta-humanoid-robot-china"
+    },
+    {
+      "title": "An AI Agent Performed A Gene-Therapy Injection In A Live Mouse's Brain",
+      "itemIds": [
+        "feeds:8232b8050ac3"
+      ],
+      "dimensions": [
+        "science",
+        "capabilities"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "ai-agent-lab-experiment-mouse"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "cs-enrollment-declines-ai-jobs",
+      "title": "Computer Science Enrollment Declines As AI Takes Jobs",
+      "dimensions": [
+        "education",
+        "labor",
+        "society"
+      ],
+      "motifs": [
+        "a computer science classroom with more empty desks than filled ones",
+        "a diploma scroll shrinking beside a robot sitting at the entry-level desk"
+      ]
+    },
+    {
+      "id": "ai-malware-profiles-victims",
+      "title": "AI-Powered Malware Profiles And Ranks Its Victims",
+      "dimensions": [
+        "safety",
+        "law"
+      ],
+      "motifs": [
+        "a hooded robot flipping through victim profile cards marked with dollar signs",
+        "a magnifying glass circling the richest-looking card in a stack of victims"
+      ]
+    },
+    {
+      "id": "meta-humanoid-robot-china",
+      "title": "A Tech Giant Builds A Humanoid Robot With A Foreign Partner",
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "policy"
+      ],
+      "motifs": [
+        "two company buildings shaking hands over a half-built robot body",
+        "a stopwatch ticking beside a robot assembled in record time"
+      ]
+    },
+    {
+      "id": "ai-agent-lab-experiment-mouse",
+      "title": "An AI Agent Performs A Live Animal Experiment",
+      "dimensions": [
+        "science",
+        "capabilities"
+      ],
+      "motifs": [
+        "a small robot arm holding a tiny syringe beside a sleeping lab mouse",
+        "a lab bench glowing where a robot hand picks a gene-therapy vial"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Several top stories clear the non-industry threshold of 5 (CS enrollment at education/labor/society = 18, AI malware ranking victims at safety = 12, the humanoid robot story at capabilities/policy = 12), so today is fresh despite industry having led the last three days.",
+  "motto": "Fewer Students, New Targets",
+  "phrase": "Computer science enrollment is dropping as AI takes over entry-level coding jobs. Meanwhile, new malware uses AI to rank hacking victims by how much they are worth.",
+  "phraseAlternatives": [
+    "Fewer students are studying computer science now that AI fills the entry-level jobs. New malware, powered by AI, ranks victims by their net worth before stealing from them.",
+    "Young people are leaving computer science as AI absorbs the jobs they trained for. Elsewhere, AI-driven malware decides which victims are rich enough to rob.",
+    "Computer science is losing students to AI-driven job losses. At the same time, new malware uses AI to pick its richest victims first."
+  ],
+  "brief": {
+    "concept": "A classroom of computer-science students thins out as a robot settles into the empty entry-level desk beside them, while elsewhere a hooded robot sorts through victim profile cards to pick its richest target.",
+    "metaphor": "The field that trains people to build AI is the same field AI is now emptying out, right next to AI using that same cleverness to pick its prey by wealth.",
+    "cast": [
+      {
+        "who": "a few human students sitting at desks in a computer-science classroom, with empty desks beside them",
+        "kind": "person"
+      },
+      {
+        "who": "a small robot sitting in one of the empty desks, wearing a job nameplate",
+        "kind": "ai"
+      },
+      {
+        "who": "a hooded robot holding a magnifying glass over a fanned stack of profile cards",
+        "kind": "ai"
+      },
+      {
+        "who": "a stack of profile cards each marked with a dollar sign, one glowing brighter than the rest",
+        "kind": "object"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Two paper-cutout scenes side by side on a kraft card background, divided by a thin line. Left: a few students sit at desks in a computer-science classroom; next to them, an empty desk holds a small robot wearing a nameplate. Right: a hooded robot holds a magnifying glass over a stack of profile cards, each stamped with a dollar sign, with one card glowing brighter than the others. Keep each side to 2 main shapes, no more than a handful of words of text (e.g. a tiny dollar sign, a nameplate).",
+    "artType": "static",
+    "alt": "A classroom shows a few students at desks beside an empty desk now occupied by a small robot wearing a nameplate. Next to it, a hooded robot sorts a stack of dollar-sign profile cards, picking the brightest one with a magnifying glass."
+  },
+  "sourceIds": [
+    "hackernews:8fc91902ab05",
+    "feeds:bb8ae273ffde",
+    "hackernews:c0588a787514"
+  ],
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 2,
+    "labor": 2,
+    "policy": 1,
+    "law": 1,
+    "safety": 3,
+    "society": 2,
+    "education": 3,
+    "planet": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 0
+  }
+}
