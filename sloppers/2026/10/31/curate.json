@@ -1,0 +1,202 @@
+{
+  "topStories": [
+    {
+      "title": "A leading AI lab's funding round falls far short of its $30B target",
+      "itemIds": [
+        "feeds:c361ea6e6eba",
+        "hackernews:20ceacd96073"
+      ],
+      "dimensions": [
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-stock-bubble-risk"
+    },
+    {
+      "title": "Computer science enrollment drops as AI takes entry-level coding jobs",
+      "itemIds": [
+        "hackernews:8fc91902ab05"
+      ],
+      "dimensions": [
+        "education",
+        "labor",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "cs-enrollment-drops-ai-jobs"
+    },
+    {
+      "title": "Judge allows pollution lawsuit over an AI company's datacenter to proceed",
+      "itemIds": [
+        "feeds:b57691e75041"
+      ],
+      "dimensions": [
+        "law",
+        "planet",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "New AI-driven infostealer malware ranks victims by how much they're worth",
+      "itemIds": [
+        "feeds:bb8ae273ffde",
+        "hackernews:c0588a787514"
+      ],
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-malware-ranks-victims"
+    },
+    {
+      "title": "Researchers detail a flaw used to take over chatbot accounts",
+      "itemIds": [
+        "hackernews:7f4c0eb3099e"
+      ],
+      "dimensions": [
+        "safety",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "chatgpt-account-takeover-flaw"
+    },
+    {
+      "title": "An AI agent chose and injected a gene therapy into a live mouse's brain",
+      "itemIds": [
+        "feeds:8232b8050ac3"
+      ],
+      "dimensions": [
+        "science",
+        "capabilities"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "ai-agent-automates-lab-research"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "cs-enrollment-drops-ai-jobs",
+      "title": "Computer Science Enrollment Drops As AI Takes The Jobs",
+      "dimensions": [
+        "education",
+        "labor",
+        "society"
+      ],
+      "motifs": [
+        "a lecture hall with rows of empty seats and one glowing robot screen",
+        "a diploma scroll shrinking beside a growing robot coder",
+        "a student turning away from a computer-science door sign"
+      ]
+    },
+    {
+      "id": "ai-malware-ranks-victims",
+      "title": "AI-Powered Malware Ranks Victims By Wealth",
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "motifs": [
+        "a shadowy figure sorting victim profiles by a wealth meter",
+        "a malware icon picking locks guided by a small AI eye",
+        "a stolen-data folder stamped with a dollar-sign tier"
+      ]
+    },
+    {
+      "id": "chatgpt-account-takeover-flaw",
+      "title": "A Flaw Lets Attackers Take Over Chatbot Accounts",
+      "dimensions": [
+        "safety",
+        "industry"
+      ],
+      "motifs": [
+        "a chatbot login door with its lock quietly swapped",
+        "a researcher holding a cracked padlock beside a chat window",
+        "a row of hijacked account icons lined up like dominoes"
+      ]
+    },
+    {
+      "id": "ai-agent-automates-lab-research",
+      "title": "An AI Agent Runs Its Own Lab Experiment",
+      "dimensions": [
+        "science",
+        "capabilities"
+      ],
+      "motifs": [
+        "a small robot arm guiding a syringe into a lab mouse",
+        "a lab bench where a robot chooses a vial from a shelf of options",
+        "a researcher watching a robot's hand steady over a tiny patient"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The funding-shortfall story scores novelty 3 × magnitude 3 × breadth 2 = 18, clearing the balance-adjusted threshold of 8 required for an industry-dimension story (industry led the last three days), so today is a fresh slopper.",
+  "motto": "Short On Cash And Coders",
+  "phrase": "A big AI lab's new funding round fell far short of its goal. Fewer students are studying computer science, now that AI writes the code instead.",
+  "phraseAlternatives": [
+    "An AI lab asked investors for $30 billion and got less than half. Fewer students are choosing computer science, since AI already writes the code.",
+    "A top AI lab's funding round missed its target by billions. Computer science enrollment is dropping too, now that AI can do the job first.",
+    "The latest AI funding round came in far under its goal. Meanwhile, fewer students want a computer science degree the AI might finish first."
+  ],
+  "brief": {
+    "concept": "A company building stretches upward to reach a funding-goal sign far above it, its coin stack stopping short of a dotted line, while across the scene students walk out of a classroom door past a small robot that sits alone, quietly typing code at a desk.",
+    "metaphor": "Money and talent are both pulling away from the AI industry at the same time.",
+    "cast": [
+      {
+        "who": "a company building reaching one arm upward toward a funding-goal sign set high above it",
+        "kind": "institution"
+      },
+      {
+        "who": "a stack of coins beside the building, stopping well short of a dotted goal line",
+        "kind": "object"
+      },
+      {
+        "who": "a small robot sitting alone at a desk, typing code on a glowing screen",
+        "kind": "ai"
+      },
+      {
+        "who": "a line of human students walking out of a classroom door, backpacks on, glancing back",
+        "kind": "person"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Split scene. Left half: a company building on a low platform, one arm stretched toward a tall sign marked with a dollar goal far overhead; its coin stack sits well below a dotted line marking the target. Right half: a plain classroom door, a line of students exiting with backpacks while a small robot sits undisturbed at a desk behind them, typing. Keep it to these four main elements, flat cut-paper shapes, soft shadows, no more than a few words of on-image text (the dotted goal line and a simple $ mark).",
+    "artType": "static",
+    "alt": "An illustration shows a company building reaching for a tall funding goal sign while its stack of coins falls short below a dotted line. Beside it, students walk out of a classroom door as a small robot sits alone, typing code at a desk."
+  },
+  "sourceIds": [
+    "feeds:c361ea6e6eba",
+    "hackernews:20ceacd96073",
+    "hackernews:8fc91902ab05"
+  ],
+  "dimensions": {
+    "industry": 3,
+    "law": 2,
+    "planet": 2,
+    "policy": 1,
+    "safety": 3,
+    "society": 2,
+    "education": 2,
+    "labor": 1,
+    "science": 2,
+    "capabilities": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}

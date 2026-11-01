@@ -1,0 +1,197 @@
+{
+  "date": "2026-10-31",
+  "number": 32,
+  "mode": "fresh",
+  "motto": "Short On Cash And Coders",
+  "phrase": "A big AI lab's new funding round fell far short of its goal. Fewer students are studying computer science, now that AI writes the code instead.",
+  "phraseAlternatives": [
+    "An AI lab asked investors for $30 billion and got less than half. Fewer students are choosing computer science, since AI already writes the code.",
+    "A top AI lab's funding round missed its target by billions. Computer science enrollment is dropping too, now that AI can do the job first.",
+    "The latest AI funding round came in far under its goal. Meanwhile, fewer students want a computer science degree the AI might finish first."
+  ],
+  "alt": "A split paper-cutout scene. Left: a company building stretches an arm up to a GOAL sign while its coin gauge, marked by a dashed line above it, stays far short of full. Right, across a gap, two students step out of a cracked-open classroom door glancing back, while a small robot sits calmly behind a desk nearby, typing on a glowing screen.",
+  "artType": "static",
+  "style": "paper-cutout",
+  "dimensions": {
+    "industry": 3,
+    "law": 2,
+    "planet": 2,
+    "policy": 1,
+    "safety": 3,
+    "society": 2,
+    "education": 2,
+    "labor": 1,
+    "science": 2,
+    "capabilities": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "ai-stock-bubble-risk",
+    "cs-enrollment-drops-ai-jobs",
+    "datacenter-backlash-campaign",
+    "ai-malware-ranks-victims",
+    "chatgpt-account-takeover-flaw",
+    "ai-agent-automates-lab-research"
+  ],
+  "topStories": [
+    {
+      "title": "A leading AI lab's funding round falls far short of its $30B target",
+      "itemIds": [
+        "feeds:c361ea6e6eba",
+        "hackernews:20ceacd96073"
+      ],
+      "dimensions": [
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-stock-bubble-risk"
+    },
+    {
+      "title": "Computer science enrollment drops as AI takes entry-level coding jobs",
+      "itemIds": [
+        "hackernews:8fc91902ab05"
+      ],
+      "dimensions": [
+        "education",
+        "labor",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "cs-enrollment-drops-ai-jobs"
+    },
+    {
+      "title": "Judge allows pollution lawsuit over an AI company's datacenter to proceed",
+      "itemIds": [
+        "feeds:b57691e75041"
+      ],
+      "dimensions": [
+        "law",
+        "planet",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "New AI-driven infostealer malware ranks victims by how much they're worth",
+      "itemIds": [
+        "feeds:bb8ae273ffde",
+        "hackernews:c0588a787514"
+      ],
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-malware-ranks-victims"
+    },
+    {
+      "title": "Researchers detail a flaw used to take over chatbot accounts",
+      "itemIds": [
+        "hackernews:7f4c0eb3099e"
+      ],
+      "dimensions": [
+        "safety",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "chatgpt-account-takeover-flaw"
+    },
+    {
+      "title": "An AI agent chose and injected a gene therapy into a live mouse's brain",
+      "itemIds": [
+        "feeds:8232b8050ac3"
+      ],
+      "dimensions": [
+        "science",
+        "capabilities"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "ai-agent-automates-lab-research"
+    }
+  ],
+  "brief": {
+    "concept": "A company building stretches upward to reach a funding-goal sign far above it, its coin stack stopping short of a dotted line, while across the scene students walk out of a classroom door past a small robot that sits alone, quietly typing code at a desk.",
+    "metaphor": "Money and talent are both pulling away from the AI industry at the same time.",
+    "cast": [
+      {
+        "who": "a company building reaching one arm upward toward a funding-goal sign set high above it",
+        "kind": "institution"
+      },
+      {
+        "who": "a stack of coins beside the building, stopping well short of a dotted goal line",
+        "kind": "object"
+      },
+      {
+        "who": "a small robot sitting alone at a desk, typing code on a glowing screen",
+        "kind": "ai"
+      },
+      {
+        "who": "a line of human students walking out of a classroom door, backpacks on, glancing back",
+        "kind": "person"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Split scene. Left half: a company building on a low platform, one arm stretched toward a tall sign marked with a dollar goal far overhead; its coin stack sits well below a dotted line marking the target. Right half: a plain classroom door, a line of students exiting with backpacks while a small robot sits undisturbed at a desk behind them, typing. Keep it to these four main elements, flat cut-paper shapes, soft shadows, no more than a few words of on-image text (the dotted goal line and a simple $ mark).",
+    "artType": "static",
+    "alt": "An illustration shows a company building reaching for a tall funding goal sign while its stack of coins falls short below a dotted line. Beside it, students walk out of a classroom door as a small robot sits alone, typing code at a desk."
+  },
+  "sources": [
+    {
+      "id": "feeds:c361ea6e6eba",
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-31T16:12:55.000Z"
+    },
+    {
+      "id": "hackernews:20ceacd96073",
+      "title": "OpenAI raises less than half of $30B target",
+      "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+      "source": "hackernews",
+      "publisher": "wsj.com",
+      "publishedAt": "2026-10-31T03:22:44.000Z"
+    },
+    {
+      "id": "hackernews:8fc91902ab05",
+      "title": "Computer Science Programs Lose Students as AI Replaces Jobs",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-29/computer-science-degree-programs-lose-students-as-ai-takes-jobs",
+      "source": "hackernews",
+      "publisher": "bloomberg.com",
+      "publishedAt": "2026-10-31T22:57:27.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.29,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-01T19:55:29.786Z"
+}
