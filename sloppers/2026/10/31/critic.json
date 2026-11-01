@@ -1,0 +1,103 @@
+{
+  "passed": false,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"goal-sign\" (label) was moved 0 px, 35 px to stay inside the safe area"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The split-scene concept (money falling short on one side, talent leaving on the other) collapses into one crowded central cluster with the goal-line, tank gauge, and robot's desk/screen all missing, so neither half of the joke reads clearly; fails to publish.",
+        "revisionNotes": [
+          "Split the scene per brief: left-third datacenter+GOAL sign+coin-meter, center student+door, right-third robot+desk, with clear gaps — right now all four elements are jammed into one center cluster touching each other.",
+          "The dashed goal-line prop above the coin-meter is missing entirely, so the 'funding fell short' comparison isn't visible — draw the dashed line and render the tank as a distinct gauge shape, not merged into the datacenter rack.",
+          "Add the desk and glowing-screen components under the robot (robot sitting, typing) — without them the 'robot quietly coding while students leave' beat, half the joke, is absent; the robot just stands in the crowd.",
+          "The robot's right arm is a disconnected white bar floating off its shoulder with no visible joint — reattach it at the socket or tuck arms to sides.",
+          "Student's book prop overlaps into the robot's torso; shift student left-third or robot right-third to clear the overlap.",
+          "Frame has heavy unused empty sky and ground (~40% of the square) while the cast is squeezed into a thin center band — scale the cast up or add a low ground prop (desks, platform) to use the square better."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The two-part joke (funding shortfall + students fleeing CS as AI codes) doesn't land: the robot isn't shown typing at a desk, the goal-line and door read ambiguously, and all four elements sit in one flat row rather than a split scene, so this needs a redo before publishing.",
+        "revisionNotes": [
+          "Render the 'desk' component (id: desk, at x=0.85 y=0.673) with its glowing screen and set the robot's pose/mood to 'typing' — right now the robot just stands empty-handed on the ground with no desk or screen visible, so the central punchline (robot quietly coding while students leave) doesn't read.",
+          "The dashed 'goal-line' prop above the coin-meter is not visually distinct from the meter's own tick marks — increase its offset and contrast so it reads as a separate target line, not noise inside the gauge.",
+          "Show a line of 2-3 students exiting the door, glancing back, instead of a single student, to sell 'fewer students' as a trend rather than one person.",
+          "Rework the door raw-shape: add a frame/jamb and a cracked-open gap or shadow so it reads as an open classroom door, not a closed locker panel.",
+          "Split the scene into two visually separated halves (funding story vs. classroom story) with a ground break or extra negative space between coin-meter and door — currently all four elements sit in one undifferentiated row.",
+          "Give the datacenter/company building a reaching arm or connector toward the GOAL sign as the brief calls for; right now the sign floats on its own pole with no visual link to the building."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"robot\" (robot) was moved -32 px, 0 px to stay inside the artboard",
+          "\"dc\" extends outside the safe area in the final frame (x 56…322, y 555…864)",
+          "\"crack\" extends outside the safe area in the final frame (x 454…476, y 819…1059)",
+          "\"robot\" extends outside the safe area in the final frame (x 706…1078, y 513…864)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Casting is right and the split concept is legible, but the arm-to-sign and dashed goal-line connectors render as disconnected floating dots, so the 'falls short' metaphor doesn't land; with a bottom-heavy layout and 3 lint-flagged out-of-bounds elements, this isn't ready to publish.",
+        "revisionNotes": [
+          "Re-render the 'arm' raw shape (attached to dc, top): only its orange hand-circle shows near (293,372) in the final frame, the connecting diagonal stroke is invisible, so the building never visibly reaches for the GOAL sign.",
+          "Re-render the 'goal-line' dashed raw shape above the coin-meter: only its two end-circles render near (315,514) and (480,514), the dashed stroke between them is missing, so the 'coin stack falls short of the line' beat can't be read.",
+          "Composition is bottom-heavy with a large empty sky from y0-~500; pull the goal sign/arm group down closer to the building and tighten vertical spacing so the square reads as one balanced scene, not two clusters pinned to the bottom edge.",
+          "Per lint: 'dc' extends outside the safe area (x 56-322) - nudge the datacenter anchor right or scale down slightly so it clears the left margin.",
+          "Per lint: 'robot' still extends outside the safe area after a -32px auto-nudge; scale it to ~0.6 or move its anchor from x=0.855 to ~0.80 so it isn't pressed against the right edge.",
+          "Per lint: 'crack' runs to y~1059, almost off the bottom edge; shorten its height or raise the anchor so it stays fully inside the frame."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    }
+  ]
+}

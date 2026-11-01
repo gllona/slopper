@@ -1,0 +1,371 @@
+{
+  "date": "2026-10-31",
+  "fetchedAt": "2026-11-01T19:30:04.197Z",
+  "sources": [
+    {
+      "source": "feeds",
+      "ok": true,
+      "count": 9
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 17
+    },
+    {
+      "source": "gdelt",
+      "ok": false,
+      "count": 0,
+      "error": "all GDELT queries failed"
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "count": 5
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "feeds:8734052d0cd6",
+      "source": "feeds",
+      "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "title": "I built an AI Tamagotchi before Meta could",
+      "snippet": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It […]",
+      "publishedAt": "2026-10-31T16:05:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:bb8ae273ffde",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+      "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+      "snippet": "Named “Volta-Autodoxer,” the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
+      "publishedAt": "2026-10-31T12:00:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:92fb887d5881",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/metas-muse-could-upend-all-kinds-of-businesses-it-hasnt-yet/",
+      "title": "Meta’s Muse Could Upend All Kinds of Businesses. It Hasn’t Yet",
+      "snippet": "Companies have spent the past several weeks trying to reassure investors that Muse and other AI agents pose more of an opportunity than a threat.",
+      "publishedAt": "2026-10-31T10:30:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:8232b8050ac3",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+      "title": "An AI Agent Injected Drugs Into a Live Mouse’s Brain",
+      "snippet": "A biotech startup let an agent choose a gene therapy and successfully inject the treatment, offering a startling glimpse of the future of research labs.",
+      "publishedAt": "2026-10-31T10:00:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:362d7951270f",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "snippet": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "publishedAt": "2026-10-31T21:41:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:27056e580a9a",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+      "snippet": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
+      "publishedAt": "2026-10-31T21:36:07.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:b57691e75041",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "snippet": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "publishedAt": "2026-10-31T21:17:03.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:c361ea6e6eba",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "snippet": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+      "publishedAt": "2026-10-31T16:12:55.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:778066fca87a",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "snippet": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "publishedAt": "2026-10-31T01:20:05.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:7f4c0eb3099e",
+      "source": "hackernews",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "title": "Do the math: How we took over ChatGPT accounts",
+      "snippet": "357 points and 176 comments on Hacker News (https://news.ycombinator.com/item?id=50314699).",
+      "publishedAt": "2026-10-31T10:30:11.000Z",
+      "score": 357,
+      "publisher": "parameter.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:f0f610dcc806",
+      "source": "hackernews",
+      "url": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
+      "title": "Digital minimalism",
+      "snippet": "337 points and 264 comments on Hacker News (https://news.ycombinator.com/item?id=50313661).",
+      "publishedAt": "2026-10-31T06:16:36.000Z",
+      "score": 337,
+      "publisher": "vitalik.eth.limo",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:c0588a787514",
+      "source": "hackernews",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+      "title": "Malware uses LLMs to rank victims by how much they're worth",
+      "snippet": "253 points and 134 comments on Hacker News (https://news.ycombinator.com/item?id=50316531).",
+      "publishedAt": "2026-10-31T14:29:03.000Z",
+      "score": 253,
+      "publisher": "blog.talosintelligence.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:4ea2bbfbe1de",
+      "source": "hackernews",
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "title": "ChatGPT and Codex usage limits merging",
+      "snippet": "207 points and 154 comments on Hacker News (https://news.ycombinator.com/item?id=50320588).",
+      "publishedAt": "2026-10-31T21:49:07.000Z",
+      "score": 207,
+      "publisher": "help.openai.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:20ceacd96073",
+      "source": "hackernews",
+      "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+      "title": "OpenAI raises less than half of $30B target",
+      "snippet": "185 points and 197 comments on Hacker News (https://news.ycombinator.com/item?id=50312922).",
+      "publishedAt": "2026-10-31T03:22:44.000Z",
+      "score": 185,
+      "publisher": "wsj.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:778916995661",
+      "source": "hackernews",
+      "url": "https://github.com/kerlenton/bootgpt",
+      "title": "Show HN: A language model that lives in a boot sector",
+      "snippet": "90 points and 6 comments on Hacker News (https://news.ycombinator.com/item?id=50315782).",
+      "publishedAt": "2026-10-31T12:58:29.000Z",
+      "score": 90,
+      "publisher": "github.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:d004c37dd3b3",
+      "source": "hackernews",
+      "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+      "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
+      "snippet": "79 points and 54 comments on Hacker News (https://news.ycombinator.com/item?id=50318401).",
+      "publishedAt": "2026-10-31T18:02:29.000Z",
+      "score": 79,
+      "publisher": "dl.acm.org",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:a2f91ccc4ba3",
+      "source": "hackernews",
+      "url": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+      "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
+      "snippet": "74 points and 18 comments on Hacker News (https://news.ycombinator.com/item?id=50315990).",
+      "publishedAt": "2026-10-31T13:25:10.000Z",
+      "score": 74,
+      "publisher": "indiatoday.in",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:4461dc711753",
+      "source": "hackernews",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+      "title": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
+      "snippet": "72 points and 43 comments on Hacker News (https://news.ycombinator.com/item?id=50315987).",
+      "publishedAt": "2026-10-31T13:25:00.000Z",
+      "score": 72,
+      "publisher": "tomshardware.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:4694cfbe3b29",
+      "source": "hackernews",
+      "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+      "title": "AI text watermarking and quality loss",
+      "snippet": "64 points and 13 comments on Hacker News (https://news.ycombinator.com/item?id=50320599).",
+      "publishedAt": "2026-10-31T21:50:13.000Z",
+      "score": 64,
+      "publisher": "blog.keyvan.net",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:66b1d8c95b15",
+      "source": "hackernews",
+      "url": "https://github.com/Koppar-AI/koppar-lte-modem",
+      "title": "Show HN: A USB-C LTE modem that gives my computer a phone line",
+      "snippet": "59 points and 41 comments on Hacker News (https://news.ycombinator.com/item?id=50317331).",
+      "publishedAt": "2026-10-31T15:56:41.000Z",
+      "score": 59,
+      "publisher": "github.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:ecf5b1b1819c",
+      "source": "hackernews",
+      "url": "https://www.reddit.com/r/ProtonMail/comments/1xkezig/im_a_proton_employee_and_im_breaking_my_silence/",
+      "title": "I'm a Proton employee and I'm breaking my silence",
+      "snippet": "58 points and 34 comments on Hacker News (https://news.ycombinator.com/item?id=50317991).",
+      "publishedAt": "2026-10-31T17:13:34.000Z",
+      "score": 58,
+      "publisher": "reddit.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:cbcd682a6938",
+      "source": "hackernews",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+      "title": "First response from the Project Suncatcher prototype satellite",
+      "snippet": "42 points and 48 comments on Hacker News (https://news.ycombinator.com/item?id=50313051).",
+      "publishedAt": "2026-10-31T03:54:00.000Z",
+      "score": 42,
+      "publisher": "blog.google",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:8fc91902ab05",
+      "source": "hackernews",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-29/computer-science-degree-programs-lose-students-as-ai-takes-jobs",
+      "title": "Computer Science Programs Lose Students as AI Replaces Jobs",
+      "snippet": "30 points and 19 comments on Hacker News (https://news.ycombinator.com/item?id=50321065).",
+      "publishedAt": "2026-10-31T22:57:27.000Z",
+      "score": 30,
+      "publisher": "bloomberg.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:7aa5bfcfd959",
+      "source": "hackernews",
+      "url": "https://www.gamedeveloper.com/programming/anthropic-appears-to-have-ordered-ai-tool-claude-to-stop-remaking-video-games",
+      "title": "Anthropic orders AI tool Claude to stop remaking video games",
+      "snippet": "29 points and 16 comments on Hacker News (https://news.ycombinator.com/item?id=50316635).",
+      "publishedAt": "2026-10-31T14:41:44.000Z",
+      "score": 29,
+      "publisher": "gamedeveloper.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:5814be0f6c3d",
+      "source": "hackernews",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/31/amazon-sends-chills-through-its-workforce-with-mixed-message-memo-about-ai-use-corey-quinn/5306804",
+      "title": "Amazon sends chills through its workforce with mixed message memo about AI use",
+      "snippet": "23 points and 12 comments on Hacker News (https://news.ycombinator.com/item?id=50318063).",
+      "publishedAt": "2026-10-31T17:21:16.000Z",
+      "score": 23,
+      "publisher": "theregister.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:c0d3b40b401e",
+      "source": "hackernews",
+      "url": "https://matadornetwork.com/read/iceland-ai-notetaker-knitting/",
+      "title": "Visit Iceland Will Send a Real Knitter to Your Dumb Meeting So You Can Skip It",
+      "snippet": "21 points and 7 comments on Hacker News (https://news.ycombinator.com/item?id=50313127).",
+      "publishedAt": "2026-10-31T04:09:21.000Z",
+      "score": 21,
+      "publisher": "matadornetwork.com",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:cac24968e5aa",
+      "source": "huggingface",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "title": "Trending open model: deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "snippet": "Task: image-text-to-text. 4237 likes, 170353 downloads.",
+      "publishedAt": "2026-10-17T02:40:38.000Z",
+      "score": 706,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:8e0b9acadf5d",
+      "source": "huggingface",
+      "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+      "title": "Trending open model: LiquidAI/LFM3-1.7B",
+      "snippet": "Task: text-generation. 674 likes, 37568 downloads.",
+      "publishedAt": "2026-10-23T21:35:42.000Z",
+      "score": 624,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:653d82f9a295",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+      "title": "Trending open model: Nanbeige/Nanbeige4.3-33B",
+      "snippet": "Task: text-generation. 964 likes, 15795 downloads.",
+      "publishedAt": "2026-10-24T02:49:18.000Z",
+      "score": 545,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:23f9cacadf78",
+      "source": "huggingface",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+      "title": "Trending open model: baidu/Unlimited-OCR-2",
+      "snippet": "Task: image-text-to-text. 510 likes, 109519 downloads.",
+      "publishedAt": "2026-10-26T03:57:46.000Z",
+      "score": 435,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:c09e79a65e08",
+      "source": "huggingface",
+      "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+      "title": "Trending open model: ccore/Qwen3.5-4B-3D-Coder",
+      "snippet": "465 likes, 44825 downloads.",
+      "publishedAt": "2026-10-25T05:43:34.000Z",
+      "score": 357,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    }
+  ]
+}

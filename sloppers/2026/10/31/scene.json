@@ -1,0 +1,172 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {},
+  "elements": [
+    {
+      "id": "dc",
+      "component": "datacenter",
+      "at": {
+        "x": 0.175,
+        "y": 0.8
+      },
+      "scale": 0.78,
+      "props": {
+        "racks": 3,
+        "lights": "busy"
+      }
+    },
+    {
+      "id": "arm",
+      "component": "raw",
+      "attachTo": "dc",
+      "side": "top",
+      "offset": [
+        60,
+        -20
+      ],
+      "scale": 1,
+      "props": {
+        "width": 112,
+        "height": 160
+      },
+      "svg": "<line x1=\"10\" y1=\"150\" x2=\"100\" y2=\"12\" class=\"r-ink\" stroke-width=\"14\" stroke-linecap=\"round\"/><circle cx=\"100\" cy=\"12\" r=\"11\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "goal-sign",
+      "component": "label",
+      "attachTo": "arm",
+      "side": "top",
+      "offset": [
+        10,
+        -15
+      ],
+      "scale": 0.85,
+      "props": {
+        "text": "GOAL",
+        "size": "lg",
+        "kind": "sign",
+        "color": "text"
+      }
+    },
+    {
+      "id": "coin-meter",
+      "component": "meter",
+      "at": {
+        "x": 0.37,
+        "y": 0.6465
+      },
+      "scale": 0.72,
+      "props": {
+        "kind": "tank",
+        "level": 0.35,
+        "color": "accent"
+      }
+    },
+    {
+      "id": "goal-line",
+      "component": "raw",
+      "attachTo": "coin-meter",
+      "side": "top",
+      "offset": [
+        0,
+        -55
+      ],
+      "scale": 1,
+      "props": {
+        "width": 182,
+        "height": 18
+      },
+      "svg": "<line x1=\"8\" y1=\"9\" x2=\"174\" y2=\"9\" class=\"r-ink\" stroke-width=\"8\" stroke-dasharray=\"16 10\" stroke-linecap=\"round\"/><circle cx=\"8\" cy=\"9\" r=\"5\" class=\"r-accent\"/><circle cx=\"174\" cy=\"9\" r=\"5\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "crack",
+      "component": "raw",
+      "at": {
+        "x": 0.431,
+        "y": 0.869
+      },
+      "scale": 1,
+      "props": {
+        "width": 40,
+        "height": 240
+      },
+      "svg": "<path d=\"M20,0 L9,30 L29,55 L8,85 L30,115 L10,145 L28,175 L12,205 L20,240\" class=\"r-line\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>"
+    },
+    {
+      "id": "door",
+      "component": "raw",
+      "at": {
+        "x": 0.519,
+        "y": 0.629
+      },
+      "scale": 1,
+      "props": {
+        "width": 120,
+        "height": 240
+      },
+      "svg": "<rect x=\"0\" y=\"0\" width=\"120\" height=\"240\" rx=\"8\" class=\"r-ink\"/><rect x=\"9\" y=\"9\" width=\"102\" height=\"222\" rx=\"4\" class=\"r-shade\"/><rect x=\"9\" y=\"9\" width=\"56\" height=\"222\" rx=\"4\" class=\"r-body-alt\"/><circle cx=\"55\" cy=\"120\" r=\"5\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "student-back",
+      "component": "human",
+      "at": {
+        "x": 0.593,
+        "y": 0.8
+      },
+      "scale": 0.42,
+      "flip": true,
+      "props": {
+        "mood": "worried",
+        "pose": "stand",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "student-lead",
+      "component": "human",
+      "at": {
+        "x": 0.708,
+        "y": 0.8
+      },
+      "scale": 0.58,
+      "flip": false,
+      "props": {
+        "mood": "surprised",
+        "pose": "stand",
+        "kind": "adult",
+        "holds": "book"
+      }
+    },
+    {
+      "id": "robot",
+      "component": "robot",
+      "at": {
+        "x": 0.855,
+        "y": 0.8
+      },
+      "scale": 0.72,
+      "props": {
+        "mood": "neutral",
+        "arms": "out",
+        "antenna": true
+      }
+    },
+    {
+      "id": "desk",
+      "component": "raw",
+      "at": {
+        "x": 0.855,
+        "y": 0.64
+      },
+      "scale": 1,
+      "props": {
+        "width": 180,
+        "height": 150
+      },
+      "svg": "<rect x=\"20\" y=\"120\" width=\"12\" height=\"26\" rx=\"3\" class=\"r-ink\"/><rect x=\"148\" y=\"120\" width=\"12\" height=\"26\" rx=\"3\" class=\"r-ink\"/><rect x=\"8\" y=\"104\" width=\"164\" height=\"16\" rx=\"4\" class=\"r-body-alt\"/><rect x=\"80\" y=\"92\" width=\"20\" height=\"14\" rx=\"3\" class=\"r-ink\"/><rect x=\"45\" y=\"30\" width=\"90\" height=\"60\" rx=\"6\" class=\"r-ink\"/><rect x=\"52\" y=\"37\" width=\"76\" height=\"46\" rx=\"3\" class=\"r-glow\"/>"
+    }
+  ],
+  "alt": "A split paper-cutout scene. Left: a company building stretches an arm up to a GOAL sign while its coin gauge, marked by a dashed line above it, stays far short of full. Right, across a gap, two students step out of a cracked-open classroom door glancing back, while a small robot sits calmly behind a desk nearby, typing on a glowing screen."
+}
