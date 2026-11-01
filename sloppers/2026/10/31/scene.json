@@ -1,0 +1,145 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {},
+  "elements": [
+    {
+      "id": "building",
+      "component": "datacenter",
+      "at": "left-third",
+      "scale": 0.85,
+      "props": {
+        "racks": 3,
+        "lights": "on"
+      }
+    },
+    {
+      "id": "hands",
+      "component": "raw",
+      "attachTo": "building",
+      "side": "top",
+      "offset": [
+        0,
+        -6
+      ],
+      "scale": 0.95,
+      "props": {
+        "width": 260,
+        "height": 130
+      },
+      "svg": "<g><rect x=\"30\" y=\"72\" width=\"26\" height=\"58\" rx=\"13\" transform=\"rotate(18 43 101)\" class=\"r-body-alt\"/><rect x=\"204\" y=\"72\" width=\"26\" height=\"58\" rx=\"13\" transform=\"rotate(-18 217 101)\" class=\"r-body-alt\"/><path d=\"M4,80 Q4,42 44,42 Q84,42 84,80 L68,80 Q68,58 44,58 Q20,58 20,80 Z\" class=\"r-body-alt\"/><path d=\"M256,80 Q256,42 216,42 Q176,42 176,80 L192,80 Q192,58 216,58 Q240,58 240,80 Z\" class=\"r-body-alt\"/><circle cx=\"16\" cy=\"48\" r=\"9\" class=\"r-body-alt\"/><circle cx=\"44\" cy=\"40\" r=\"9\" class=\"r-body-alt\"/><circle cx=\"72\" cy=\"48\" r=\"9\" class=\"r-body-alt\"/><circle cx=\"244\" cy=\"48\" r=\"9\" class=\"r-body-alt\"/><circle cx=\"216\" cy=\"40\" r=\"9\" class=\"r-body-alt\"/><circle cx=\"188\" cy=\"48\" r=\"9\" class=\"r-body-alt\"/></g>"
+    },
+    {
+      "id": "coins",
+      "component": "raw",
+      "attachTo": "building",
+      "side": "top",
+      "offset": [
+        8,
+        -150
+      ],
+      "scale": 0.75,
+      "props": {
+        "width": 240,
+        "height": 240
+      },
+      "svg": "<g><g opacity=\"0.5\"><circle cx=\"120\" cy=\"55\" r=\"34\" class=\"r-accent\"/><circle cx=\"72\" cy=\"35\" r=\"26\" class=\"r-accent\"/><circle cx=\"168\" cy=\"40\" r=\"24\" class=\"r-accent\"/></g><circle cx=\"120\" cy=\"175\" r=\"38\" class=\"r-accent\"/><circle cx=\"68\" cy=\"190\" r=\"30\" class=\"r-accent\"/><circle cx=\"172\" cy=\"195\" r=\"28\" class=\"r-accent\"/><circle cx=\"120\" cy=\"165\" r=\"13\" class=\"r-paper\"/></g>"
+    },
+    {
+      "id": "gutter",
+      "component": "raw",
+      "at": "center",
+      "scale": 1,
+      "props": {
+        "width": 30,
+        "height": 1080
+      },
+      "svg": "<rect x=\"0\" y=\"0\" width=\"30\" height=\"1080\" class=\"r-paper\"/>"
+    },
+    {
+      "id": "robot",
+      "component": "robot",
+      "at": "right-third",
+      "offset": [
+        20,
+        0
+      ],
+      "scale": 1,
+      "props": {
+        "mood": "worried",
+        "arms": "down",
+        "color": "body",
+        "antenna": false
+      }
+    },
+    {
+      "id": "bubble",
+      "component": "speech-bubble",
+      "attachTo": "robot",
+      "side": "top",
+      "offset": [
+        -20,
+        -45
+      ],
+      "scale": 1,
+      "props": {
+        "text": "SHARE",
+        "kind": "speech",
+        "tail": "bottom-right",
+        "size": "md"
+      }
+    },
+    {
+      "id": "seam",
+      "component": "raw",
+      "attachTo": "bubble",
+      "side": "bottom",
+      "offset": [
+        10,
+        6
+      ],
+      "scale": 1,
+      "props": {
+        "width": 140,
+        "height": 90
+      },
+      "svg": "<g><ellipse cx=\"65\" cy=\"45\" rx=\"32\" ry=\"20\" class=\"r-paper\"/><rect x=\"55\" y=\"0\" width=\"20\" height=\"32\" rx=\"10\" class=\"r-ink\"/><rect x=\"55\" y=\"58\" width=\"20\" height=\"32\" rx=\"10\" class=\"r-ink\"/><path d=\"M58,32 L48,40 L60,48 L46,54 L58,58\" class=\"r-thin\"/><path d=\"M72,32 L82,40 L70,48 L84,54 L72,58\" class=\"r-thin\"/><path d=\"M65,30 L65,60\" class=\"r-thin\"/></g>"
+    },
+    {
+      "id": "key",
+      "component": "raw",
+      "attachTo": "seam",
+      "side": "center",
+      "offset": [
+        16,
+        -8
+      ],
+      "scale": 1.05,
+      "props": {
+        "width": 70,
+        "height": 70
+      },
+      "svg": "<g><circle cx=\"35\" cy=\"32\" r=\"22\" class=\"r-glow\"/><circle cx=\"35\" cy=\"26\" r=\"11\" class=\"r-accent\"/><rect x=\"31\" y=\"35\" width=\"8\" height=\"24\" rx=\"3\" class=\"r-accent\"/><rect x=\"39\" y=\"46\" width=\"9\" height=\"6\" class=\"r-accent\"/><rect x=\"39\" y=\"54\" width=\"13\" height=\"6\" class=\"r-accent\"/></g>"
+    },
+    {
+      "id": "intruder",
+      "component": "human",
+      "attachTo": "seam",
+      "side": "center",
+      "offset": [
+        -14,
+        8
+      ],
+      "scale": 0.34,
+      "rotate": -28,
+      "props": {
+        "pose": "point",
+        "mood": "neutral",
+        "color": "accent",
+        "kind": "adult",
+        "holds": "none"
+      }
+    }
+  ],
+  "alt": "On the left, a building reaches up with two cupped hands but only catches half of a floating pile of coins, the rest drifting away above it; a thin paper strip divides the scene. On the right, a worried robot's SHARE speech bubble has a torn, frayed opening in its cord where a small figure leans through toward a glowing key."
+}

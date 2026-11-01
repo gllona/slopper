@@ -1,0 +1,103 @@
+{
+  "passed": false,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"coins\" (raw) was moved 0 px, 105 px to stay inside the artboard",
+          "\"coins\" extends outside the safe area in the final frame (x 298…470, y 16…254)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 3,
+          "style": 4,
+          "polish": 1,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "Fails: two of the four cast elements that carry the actual joke — the frayed seam and the hooded intruder — never appear in the final frame, so the security-breach half of the story is invisible, and the left panel's coin pile clips off-canvas with a confusing human/robot-hybrid 'hands' shape.",
+        "revisionNotes": [
+          "The seam (frayed cord) and intruder (hooded human) elements in the scene are absent from the still — without them the security-breach half of the joke doesn't read; re-render them on the bubble's left side and confirm they aren't hidden behind the bubble or antenna.",
+          "\"coins\" clips off the top edge of the canvas (lint-flagged outside the safe area) — move its offset from [25,-230] to roughly [10,-150] and drop scale to ~0.85 so both the caught and the faded 'drifting away' clusters stay fully inside frame.",
+          "The \"hands\" raw component renders as an unreadable hybrid: a face, neck and legs appear that aren't in its SVG, with mismatched red/teal capsule shapes — simplify to two plain raised arms in the building's own teal/white palette, no face or body.",
+          "Right panel is top-heavy with a large empty cream gap between the bubble and the floor — scale the robot to ~1.2 and nudge it up, or add the seam/intruder lower in that space, so the panel isn't visually thinner than the left.",
+          "Composition (vertical divider splitting two panels, robot with a 'SHARE' speech bubble) closely repeats a very recent slopper's layout — shift to a diagonal or top/bottom split, or change the bubble's treatment, to read as fresh.",
+          "The key icon inside the bubble is tiny (~24px) and floats next to the word rather than inside the torn seam — scale it to 1.4x and reposition it at the seam opening so it reads as the clear punchline once the seam/intruder are restored."
+        ]
+      },
+      "average": 2.57,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"bubble\" (speech-bubble) was moved 0 px, 33 px to stay inside the safe area"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The funding-shortfall half reads reasonably, but the security-breach half is illegible: the frayed seam and glowing key specified in the scene are entirely missing, leaving a person oddly balanced on the bubble's cord with no visible breach — so half the joke doesn't land, and the piece also closely echoes a very recent SHARE-bubble-robot slopper.",
+        "revisionNotes": [
+          "Render the missing \"seam\" (frayed tear) and \"key\" raw shapes — neither appears in the still, so the security-breach half of the joke (stranger's code running via the SHARE link) has no visual cue at all.",
+          "Reposition \"intruder\" to attach to the seam and slip through it, hooded/sneaking, instead of standing balanced on the thin cord between the bubble and the robot's head — it currently reads as a person floating on a wire, not a breach.",
+          "Redraw \"hands\" (currently two teal check-mark/horn shapes) as clearly gripping or cupped hands reaching for the coin pile, so the \"catching only half\" beat is legible.",
+          "Add the thin gutter the brief calls for between the two panels, or break the shared ground shape, so left (funding) and right (security) read as two separate parallel vignettes rather than one continuous scene.",
+          "Vary the composition from the recent \"SHARE\" speech-bubble robot + person piece (bottom row of recent.png) — change bubble placement or accent colors so this doesn't repeat that motif so closely.",
+          "Shorten/tighten the cord from bubble to robot head now that the seam and key are added, so the torn opening is the clear focal point instead of the straight antenna-like line."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"gutter\" extends outside the safe area in the final frame (x 525…555, y 0…1080)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The split-panel idea and correct human/robot casting are solid, but the key visual beats don't land: the hands never touch the coins, the torn-cord seam reads as random thread shapes with the intruder perched oddly atop the robot's head, and the layout closely repeats a recent slopper's robot + 'SHARE' composition — average score falls short of publish bar.",
+        "revisionNotes": [
+          "Hands and coins don't visually connect — there's a gap between the 'hands' prop and the coin cluster, and the hand shapes read as faucet knobs/gears rather than fingers. Raise the hands or lower the coins so fingers visibly cup the solid (caught) half.",
+          "Scale the 'key' prop up to ~1.6x and move it clear of the intruder's body so the glowing key reads as its own icon rather than a small blob in the figure's hand.",
+          "The 'seam' shape doesn't read as a torn cord — redesign with a visible jagged tear line, and reposition 'intruder' so it looks like it's slipping through that tear instead of sitting on top of the robot's head.",
+          "Lint flags the gutter bleeding full-height (y 0-1080) with no margin top/bottom; inset it ~60px into the safe area.",
+          "This split-panel robot + 'SHARE' speech-bubble composition closely echoes a recent slopper (same word, same layout, same divider); vary the palette, panel orientation, or robot placement to differentiate.",
+          "Both panels leave a large flat, empty ground area at the bottom; raise the horizon or scatter a few small props (loose coins, a dropped device) to use that dead space."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    }
+  ]
+}

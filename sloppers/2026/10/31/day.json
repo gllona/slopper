@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-31",
+  "number": 32,
+  "mode": "fresh",
+  "motto": "Underfunded, Unsecured",
+  "phrase": "A top AI lab raised less than half its funding goal. A bug in its chatbot let a shared link run a stranger's code in your account.",
+  "phraseAlternatives": [
+    "A top AI lab asked for billions and got less than half. Meanwhile, one shared link could run a stranger's code inside your logged-in chatbot.",
+    "A leading AI lab's funding round fell short by billions. Its chatbot also had a bug that let one shared link hijack someone else's logged-in session.",
+    "A top AI lab missed its funding target by billions. Meanwhile, fewer students are studying computer science now that AI writes the code."
+  ],
+  "alt": "On the left, a building reaches up with two cupped hands but only catches half of a floating pile of coins, the rest drifting away above it; a thin paper strip divides the scene. On the right, a worried robot's SHARE speech bubble has a torn, frayed opening in its cord where a small figure leans through toward a glowing key.",
+  "artType": "static",
+  "style": "paper-cutout",
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 1,
+    "policy": 1,
+    "law": 2,
+    "safety": 3,
+    "society": 2,
+    "education": 2,
+    "planet": 1,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 0
+  },
+  "storylines": [
+    "chatgpt-share-link-exploit",
+    "ai-infostealer-victim-profiling",
+    "datacenter-backlash-campaign",
+    "ai-stock-bubble-risk",
+    "cs-enrollment-decline-ai-jobs",
+    "ai-agent-lab-science"
+  ],
+  "topStories": [
+    {
+      "title": "A ChatGPT Share Link Bug Let Attackers Hijack Logged-In Sessions",
+      "itemIds": [
+        "techmeme:9d0ea49cd3fa",
+        "hackernews:7f4c0eb3099e"
+      ],
+      "dimensions": [
+        "safety",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "chatgpt-share-link-exploit"
+    },
+    {
+      "title": "AI-Powered Malware Ranks Hacking Victims By Wealth",
+      "itemIds": [
+        "feeds:bb8ae273ffde",
+        "hackernews:c0588a787514"
+      ],
+      "dimensions": [
+        "safety",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-infostealer-victim-profiling"
+    },
+    {
+      "title": "Judge Lets Pollution Lawsuit Against An AI Company's Datacenter Proceed",
+      "itemIds": [
+        "feeds:b57691e75041"
+      ],
+      "dimensions": [
+        "law",
+        "planet",
+        "policy",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "A Leading AI Lab's Funding Round Falls Short, Chipmaker Offers To Cosign Datacenter Loans",
+      "itemIds": [
+        "feeds:c361ea6e6eba",
+        "hackernews:20ceacd96073",
+        "feeds:778066fca87a"
+      ],
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-stock-bubble-risk"
+    },
+    {
+      "title": "Computer Science Enrollment Drops As AI Automates Entry-Level Coding",
+      "itemIds": [
+        "hackernews:8fc91902ab05"
+      ],
+      "dimensions": [
+        "education",
+        "labor",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "cs-enrollment-decline-ai-jobs"
+    },
+    {
+      "title": "An AI Agent Autonomously Performs A Gene-Therapy Injection On A Live Mouse's Brain",
+      "itemIds": [
+        "feeds:8232b8050ac3"
+      ],
+      "dimensions": [
+        "science",
+        "capabilities"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "ai-agent-lab-science"
+    }
+  ],
+  "brief": {
+    "concept": "A company building stretches up for a floating pile of coins but catches only half, while beside it a chatbot speech bubble's cord labeled SHARE frays open just enough for a small hooded figure to slip inside toward a glowing key icon.",
+    "metaphor": "Running short on money and running short on security happen at the same time, in the same industry.",
+    "cast": [
+      {
+        "who": "a company building reaching up with both hands, catching only half of a floating pile of coins",
+        "kind": "institution"
+      },
+      {
+        "who": "the other half of the coin pile drifting just out of reach above the building",
+        "kind": "object"
+      },
+      {
+        "who": "a chatbot speech bubble with a cord labeled SHARE, fraying open at one seam",
+        "kind": "ai"
+      },
+      {
+        "who": "a small hooded figure slipping through the frayed seam toward a glowing key icon inside the bubble",
+        "kind": "person"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Split the frame into two calm panels divided by a thin gutter. Left panel: a building reaches upward, two hands catching only half of a floating coin pile, the rest sliding out of frame above it. Right panel: a speech-bubble robot with a frayed cord labeled SHARE, through whose torn seam a small hooded figure squeezes toward a glowing key icon inside the bubble. Keep each panel to 2 shapes max so the two facts of the day read as parallel, understated vignettes rather than one chaotic scene.",
+    "artType": "static",
+    "alt": "On the left, a building reaches up but only catches half of a floating pile of coins; on the right, a speech-bubble robot's frayed SHARE cord lets a small hooded figure slip inside toward a glowing key."
+  },
+  "sources": [
+    {
+      "id": "feeds:c361ea6e6eba",
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-31T16:12:55.000Z"
+    },
+    {
+      "id": "hackernews:20ceacd96073",
+      "title": "OpenAI raises less than half of $30B target",
+      "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+      "source": "hackernews",
+      "publisher": "wsj.com",
+      "publishedAt": "2026-10-31T03:22:44.000Z"
+    },
+    {
+      "id": "feeds:778066fca87a",
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-10-31T01:20:05.000Z"
+    },
+    {
+      "id": "techmeme:9d0ea49cd3fa",
+      "title": "Researchers are paid $5K for reporting a bug to OpenAI that would let attackers run code in logged-in sessions of all who opened the hacker's ChatGPT share link (Swati Khandelwal/The Hacker News)",
+      "url": "https://www.techmeme.com/261031/p11",
+      "source": "techmeme",
+      "publisher": "Techmeme",
+      "publishedAt": "2026-10-31T20:01:11.000Z"
+    },
+    {
+      "id": "hackernews:7f4c0eb3099e",
+      "title": "Do the math: How we took over ChatGPT accounts",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "source": "hackernews",
+      "publisher": "parameter.ai",
+      "publishedAt": "2026-10-31T10:30:11.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-01T17:49:02.690Z"
+}
