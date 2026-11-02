@@ -1,0 +1,109 @@
+{
+  "passed": false,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"hiker\" (human) was moved 61 px, 0 px to stay inside the artboard",
+          "\"wrongway-bubble\" (speech-bubble) was moved 15 px, 0 px to stay inside the safe area"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 2,
+          "composition": 3,
+          "style": 4,
+          "polish": 4,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Clean riso-duotone linework and no cast violations, but the two essential story beats — the crane swapping the old sign for the new one, and the unmoved protesters — are missing entirely, so the right half reads as 'datacenter, new label' rather than 'renamed instead of fixed'; the hiker side also drops the fog/cliff stakes, leaving the joke to lean on text alone.</verdict>\n",
+        "revisionNotes": [
+          "Add the protesters outside the datacenter (small cluster with backlash signs, unmoved) from the brief — it's missing entirely and is the beat that sells 'renamed, not fixed'.",
+          "Show a crane lowering the NEW NAME tag over a visible old sign being removed, not just a tag floating above the roof — without the swap, the right half reads as plain signage, not a joke.",
+          "Add a hint of fog and a cliff edge near the wrong-way bubble on the hiker's side so the danger of following the chatbot off-trail is visible, not just implied by the text.",
+          "Tighten the split: background currently reads as one uniform cream/blue field with a big empty gap center-top; add a clear vertical divider or distinct color block per half and scale both groups to ~1.1 to close the gap.",
+          "Nudge trail-sign from x=0.34 to about x=0.3, y=0.86 so it sits clear of the hiker's pointing arm/hand instead of crowding it.",
+          "Consider giving the datacenter a visible 'old sign' remnant (crossed-out or faded) beside the new one for a before/after read at a glance."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"right-tint\" (raw) was moved -4 px, 0 px to stay inside the artboard",
+          "\"hiker\" (human) was moved 63 px, 0 px to stay inside the artboard",
+          "\"trail-sign\" (label) was moved 0 px, -7 px to stay inside the safe area",
+          "\"new-name-sign\" (label) was moved -15 px, 0 px to stay inside the safe area",
+          "\"right-tint\" extends outside the safe area in the final frame (x 536…1076, y 0…1080)",
+          "\"divider\" extends outside the safe area in the final frame (x 535…545, y 0…1080)",
+          "\"datacenter\" extends outside the safe area in the final frame (x 687…1063, y 580…972)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The split-scene concept is coherent and kind, but an oversized fog cloud swallows the divider and overwhelms both halves, the speech bubble erases the hiker's face, and a stray crossed-out sign and near-invisible cliff hurt clarity and polish enough to miss the bar.",
+        "revisionNotes": [
+          "The 'wrongway-bubble' sits directly over the hiker's head, erasing the face entirely — scale it down to ~0.85 and shift it up-left so the head clears the bubble.",
+          "The 'fog' cloud is scaled far too large and straddles the divider, dominating both halves instead of staying in the hiker's path — scale it to ~0.6 and anchor it at x~0.32 so it stays on the left side only.",
+          "The cliff-edge prop reads as a tiny zigzag at ground level, not a dangerous drop — scale it up to ~1.0 and raise its silhouette so the hazard the hiker is walking into is unmistakable.",
+          "The crossed-out 'old-sign' floats ambiguously near the cloud with no clear anchor — pull it tighter against the datacenter/new-name-sign (attachTo datacenter, side top-left) so it reads as 'the sign being replaced,' not stray debris.",
+          "Pull the 'datacenter' anchor left (x~0.78) or drop scale to ~1.0 so it sits fully inside the safe area instead of bleeding off the right edge per the lint warning.",
+          "Protester placards are blank and small (scale 0.45) — bump scale to ~0.55 and add a simple raw-shape mark (fist or exclamation) so the 'still protesting' beat reads without needing a closer look."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"trail-sign\" (label) was moved 13 px, -40 px to stay inside the safe area"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The cast and concept mapping are right (humans for people, no robot miscasting), but a floating disconnected 'old sign' shape, an illegible cliff fragment, and a wrongway bubble adrift far from the hiker leave the composition cluttered and the left-side joke muddled — this needs a composition and polish pass before it's ready to publish.",
+        "revisionNotes": [
+          "The old-sign (crossed rectangle meant to sit beside the datacenter) renders as an orphaned gray shape floating mid-frame near an unexplained '!' — anchor it tight to the crane/datacenter so it reads as the sign being swapped, not stray debris between the two halves.",
+          "The cliff-edge raw shape reads as an abstract jagged fragment, not a drop-off; simplify into a clear ledge silhouette and place it right at the hiker's lead foot so the danger is legible in 3 seconds.",
+          "The wrongway-bubble floats far above the hiker near the fog cloud with a weak tail — pull it in close to the hiker's head/pointing arm so it reads as what the hiker is following.",
+          "Each half carries 5-6 elements against the briefed 2-3 (left: hiker, trail sign, bubble, fog, cliff, stray old-sign; right: datacenter, crane, tag, old-sign, 2 protesters) — cut or merge shapes so the split scene reads as two clean groups.",
+          "Crane linework is thin and nearly disappears against the cream ground compared to the bold outlines on the hiker and building — thicken it to match the scene's line weight.",
+          "Add a clearer divider (gutter, ground line, or color break) between the hiker half and the datacenter half so the 'split scene' composition reads as intentional rather than a scatter of floating parts."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    }
+  ]
+}

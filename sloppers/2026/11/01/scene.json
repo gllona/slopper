@@ -1,0 +1,86 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {
+    "type": "split",
+    "color": "bg",
+    "color2": "accent2"
+  },
+  "elements": [
+    {
+      "id": "hiker",
+      "component": "human",
+      "at": {
+        "x": 0.16,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "mood": "worried",
+        "pose": "point",
+        "color": "body",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "wrongway-bubble",
+      "component": "speech-bubble",
+      "attachTo": "hiker",
+      "side": "top",
+      "scale": 1,
+      "rotate": -15,
+      "props": {
+        "text": "WRONG WAY",
+        "kind": "speech",
+        "tail": "bottom",
+        "size": "md"
+      }
+    },
+    {
+      "id": "trail-sign",
+      "component": "label",
+      "at": {
+        "x": 0.34,
+        "y": 0.78
+      },
+      "scale": 0.8,
+      "opacity": 0.85,
+      "props": {
+        "text": "TRAIL",
+        "size": "md",
+        "kind": "sign",
+        "color": "text"
+      }
+    },
+    {
+      "id": "datacenter",
+      "component": "datacenter",
+      "at": {
+        "x": 0.78,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "racks": 3,
+        "lights": "busy",
+        "steam": false,
+        "fans": false
+      }
+    },
+    {
+      "id": "new-name-sign",
+      "component": "label",
+      "attachTo": "datacenter",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "NEW NAME",
+        "size": "md",
+        "kind": "tag",
+        "color": "paper"
+      }
+    }
+  ],
+  "alt": "A split scene. On the left, a worried hiker points ahead toward a tilted speech bubble reading WRONG WAY, while a small sign reading TRAIL stands ignored off to the side. On the right, a data center with lit server racks has a new pill-shaped sign reading NEW NAME attached above its roof, with nothing else about the building changed."
+}

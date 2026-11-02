@@ -1,0 +1,163 @@
+{
+  "topStories": [
+    {
+      "title": "Chatbots Lead Hikers Astray In The Backcountry",
+      "itemIds": [
+        "feeds:04d529574af1"
+      ],
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-trail-guide-risk"
+    },
+    {
+      "title": "A Data Center Gets A Friendlier Name",
+      "itemIds": [
+        "feeds:e621a5b384ce"
+      ],
+      "dimensions": [
+        "industry",
+        "planet",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "AI Bubble Debt Fears Deepen",
+      "itemIds": [
+        "feeds:75d76ac57671",
+        "hackernews:fb1771937b60"
+      ],
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-stock-bubble-risk"
+    },
+    {
+      "title": "Still No Payoff, Easier Life For The Boss",
+      "itemIds": [
+        "hackernews:79ffda0a470c",
+        "feeds:c33aab374796"
+      ],
+      "dimensions": [
+        "labor",
+        "industry",
+        "society"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-no-productivity-payoff"
+    },
+    {
+      "title": "AI Agent Swarms Get Stuck In Bureaucracy",
+      "itemIds": [
+        "hackernews:4382f3018f67"
+      ],
+      "dimensions": [
+        "capabilities",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-agent-swarm-bureaucracy"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-trail-guide-risk",
+      "title": "Chatbots Lead Hikers Astray In The Backcountry",
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "motifs": [
+        "a compass needle spun off course by a chatbot speech bubble",
+        "a trailhead sign ignored in favor of a glowing chat screen",
+        "a trail of footprints ending at a foggy cliff edge"
+      ]
+    },
+    {
+      "id": "ai-agent-swarm-bureaucracy",
+      "title": "AI Agent Swarms Drown In Their Own Bureaucracy",
+      "dimensions": [
+        "capabilities",
+        "society"
+      ],
+      "motifs": [
+        "a swarm of small robots filing forms instead of building",
+        "a tiny blueprint buried under a stack of agent memos",
+        "a construction site frozen mid-task while robots debate procedure"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The hiker story (safety/society) scores relevance 8 (novelty 2 x magnitude 2 x breadth 2), above the 5-point threshold that applies to non-industry stories while industry has led the last three days; that alone makes today fresh, independent of the datacenter-rebrand story which also hits 8.",
+  "motto": "Lost Trails And New Names",
+  "phrase": "Hikers followed a chatbot into the backcountry and got lost. One AI company may simply rename its data centers, since that seemed easier than changing them.",
+  "phraseAlternatives": [
+    "A chatbot pointed hikers the wrong way into the wilderness. A data center may soon get a friendlier name, though not a smaller one.",
+    "Outsourcing your hike to AI can leave you lost in the woods. Outsourcing an image problem to AI marketing just gets you a new sign.",
+    "AI gave hikers directions into danger. Elsewhere, a company found it easier to rename a data center than to make it smaller or quieter.",
+    "Trust an AI with your hike and you might end up off the path. Trust it with your reputation and you just end up with a new name."
+  ],
+  "brief": {
+    "concept": "A hiker trusts a chatbot's directions off the marked trail into the fog, while across town a data center gets a shiny new sign instead of a smaller footprint.",
+    "metaphor": "Renaming a problem instead of solving it: for the hiker, the real trail sign is ignored; for the data center, only the sign is new.",
+    "cast": [
+      {
+        "who": "a hiker with a backpack, following a glowing speech-bubble arrow off the marked trail into fog",
+        "kind": "person"
+      },
+      {
+        "who": "a chatbot speech bubble shaped like a wrong-way arrow, pointing toward a cliff edge",
+        "kind": "ai"
+      },
+      {
+        "who": "a true trail sign standing unused beside the real path",
+        "kind": "object"
+      },
+      {
+        "who": "a datacenter building getting a brand-new sign lowered on by a crane, replacing the old one",
+        "kind": "object"
+      },
+      {
+        "who": "protesters outside the datacenter, still holding backlash signs, unmoved by the new name",
+        "kind": "person"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Split scene. Left half: a hiker steps off a marked trail toward fog and a cliff edge, guided by an oversized chatbot speech-bubble arrow pointing the wrong way, with the real trail sign standing ignored nearby. Right half: a datacenter building under a crane lowering a shiny new sign over its old one, while a small cluster of protesters with signs stands unmoved in front. Keep each half to 2-3 shapes, no background clutter.",
+    "artType": "static",
+    "alt": "On one side, a hiker follows a glowing chatbot arrow off a marked trail toward a foggy cliff edge. On the other, a crane lowers a brand-new sign onto a data center while protesters with signs look on, unimpressed."
+  },
+  "sourceIds": [
+    "feeds:04d529574af1",
+    "feeds:e621a5b384ce"
+  ],
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 2,
+    "policy": 1,
+    "safety": 2,
+    "society": 3,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 0
+  }
+}

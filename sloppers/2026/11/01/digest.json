@@ -1,0 +1,709 @@
+{
+  "date": "2026-11-01",
+  "fetchedAt": "2026-11-02T13:08:01.376Z",
+  "sources": [
+    {
+      "source": "feeds",
+      "ok": true,
+      "count": 4
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 17
+    },
+    {
+      "source": "gdelt",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "count": 4
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 40
+    }
+  ],
+  "items": [
+    {
+      "id": "feeds:04d529574af1",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/",
+      "title": "Chatbots Are Leading Hikers Astray, With Dangerous Consequences",
+      "snippet": "Outsourcing planning to AI can lead people to surrender their own critical thinking, which can have potentially deadly results in places like the backcountry.",
+      "publishedAt": "2026-11-01T10:30:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:e621a5b384ce",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "snippet": "Data centers are deeply unpopular. But what if we called them something else?",
+      "publishedAt": "2026-11-01T21:55:23.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:c33aab374796",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "snippet": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+      "publishedAt": "2026-11-01T20:57:58.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:75d76ac57671",
+      "source": "feeds",
+      "url": "https://www.bbc.co.uk/news/articles/cje36degrgv5o?at_medium=RSS&at_campaign=rss",
+      "title": "These firms you've never heard of are feeding fears the AI bubble could burst",
+      "snippet": "The amount of debt held by data centres is measured in the tens of billions of pounds.",
+      "publishedAt": "2026-11-01T01:37:26.000Z",
+      "publisher": "BBC News",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:6cb1371eb894",
+      "source": "hackernews",
+      "url": "https://hackerbooks.org/",
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "snippet": "1547 points and 252 comments on Hacker News (https://news.ycombinator.com/item?id=50326821).",
+      "publishedAt": "2026-11-01T15:58:28.000Z",
+      "score": 1547,
+      "publisher": "hackerbooks.org",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:967be99077d1",
+      "source": "hackernews",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "title": "The AI cost of JavaScript frameworks",
+      "snippet": "396 points and 304 comments on Hacker News (https://news.ycombinator.com/item?id=50323088).",
+      "publishedAt": "2026-11-01T06:06:19.000Z",
+      "score": 396,
+      "publisher": "nolanlawson.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:1c2c00360e15",
+      "source": "hackernews",
+      "url": "https://github.com/ivankovic/omnidiff",
+      "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+      "snippet": "269 points and 78 comments on Hacker News (https://news.ycombinator.com/item?id=50325253).",
+      "publishedAt": "2026-11-01T13:02:30.000Z",
+      "score": 269,
+      "publisher": "github.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:79ffda0a470c",
+      "source": "hackernews",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+      "snippet": "230 points and 230 comments on Hacker News (https://news.ycombinator.com/item?id=50330456).",
+      "publishedAt": "2026-11-01T22:10:45.000Z",
+      "score": 230,
+      "publisher": "techcrunch.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:322878759f37",
+      "source": "hackernews",
+      "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
+      "title": "Frontier Airlines Likely Breached",
+      "snippet": "207 points and 83 comments on Hacker News (https://news.ycombinator.com/item?id=50327266).",
+      "publishedAt": "2026-11-01T16:46:33.000Z",
+      "score": 207,
+      "publisher": "reddit.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:39ee96f3b35f",
+      "source": "hackernews",
+      "url": "https://arxiv.org/abs/2409.02292",
+      "title": "Leaking Secrets from Air-Gap Computers by Spelling Radio Signals from RAM (2024)",
+      "snippet": "205 points and 99 comments on Hacker News (https://news.ycombinator.com/item?id=50322022).",
+      "publishedAt": "2026-11-01T01:46:29.000Z",
+      "score": 205,
+      "publisher": "arxiv.org",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:4382f3018f67",
+      "source": "hackernews",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+      "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+      "snippet": "173 points and 83 comments on Hacker News (https://news.ycombinator.com/item?id=50325662).",
+      "publishedAt": "2026-11-01T13:47:24.000Z",
+      "score": 173,
+      "publisher": "tomshardware.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:1d387a7e4fac",
+      "source": "hackernews",
+      "url": "https://blog.raed.dev/posts/proton-loser-thinking/",
+      "title": "It wasn't AI that flipped Proton's charge",
+      "snippet": "160 points and 93 comments on Hacker News (https://news.ycombinator.com/item?id=50328488).",
+      "publishedAt": "2026-11-01T18:53:55.000Z",
+      "score": 160,
+      "publisher": "blog.raed.dev",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:3e7a74cb045b",
+      "source": "hackernews",
+      "url": "https://eva.ac/blog/llms/",
+      "title": "So I guess everyone uses LLMs to think now",
+      "snippet": "72 points and 117 comments on Hacker News (https://news.ycombinator.com/item?id=50330253).",
+      "publishedAt": "2026-11-01T21:49:04.000Z",
+      "score": 72,
+      "publisher": "eva.ac",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:ef79256ca5d9",
+      "source": "hackernews",
+      "url": "https://chaosmanage.github.io/i-killed-unlimited-chatgpt/",
+      "title": "I Am the Reason OpenAI Is Killing Unlimited Chats",
+      "snippet": "71 points and 35 comments on Hacker News (https://news.ycombinator.com/item?id=50327416).",
+      "publishedAt": "2026-11-01T17:01:34.000Z",
+      "score": 71,
+      "publisher": "chaosmanage.github.io",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:6d1f79546fa5",
+      "source": "hackernews",
+      "url": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
+      "title": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
+      "snippet": "54 points and 12 comments on Hacker News (https://news.ycombinator.com/item?id=50321522).",
+      "publishedAt": "2026-11-01T00:10:30.000Z",
+      "score": 54,
+      "publisher": "bbrouter.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:2fc5152fc1ef",
+      "source": "hackernews",
+      "url": "https://paulfwalsh.substack.com/p/metas-muse-ai-agent-is-a-commercial",
+      "title": "Muse AI agent is a commercial surveillance network disguised as an AI assistant",
+      "snippet": "53 points and 6 comments on Hacker News (https://news.ycombinator.com/item?id=50328293).",
+      "publishedAt": "2026-11-01T18:33:02.000Z",
+      "score": 53,
+      "publisher": "paulfwalsh.substack.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:80ab8ecc8f18",
+      "source": "hackernews",
+      "url": "https://github.com/l0ng-ai/openidea",
+      "title": "OpenIDEA: The IDE you know, rebuilt in Rust",
+      "snippet": "40 points and 55 comments on Hacker News (https://news.ycombinator.com/item?id=50323848).",
+      "publishedAt": "2026-11-01T09:15:26.000Z",
+      "score": 40,
+      "publisher": "github.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:fe96dae1a840",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=50331001",
+      "title": "In LLM era, can software startup survive?",
+      "snippet": "32 points and 41 comments on Hacker News (https://news.ycombinator.com/item?id=50331001).",
+      "publishedAt": "2026-11-01T23:28:46.000Z",
+      "score": 32,
+      "publisher": "news.ycombinator.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:9f903f6294d3",
+      "source": "hackernews",
+      "url": "https://www.theguardian.com/technology/2026/jul/21/ai-tech-workers-unionize",
+      "title": "How AI may drive union-resistant tech workers to the bargaining table",
+      "snippet": "31 points and 6 comments on Hacker News (https://news.ycombinator.com/item?id=50321734).",
+      "publishedAt": "2026-11-01T00:49:23.000Z",
+      "score": 31,
+      "publisher": "theguardian.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:fb1771937b60",
+      "source": "hackernews",
+      "url": "https://www.cnn.com/2026/10/30/business/ai-stocks-bonds-debt",
+      "title": "The question we should all be asking about AI",
+      "snippet": "23 points and 22 comments on Hacker News (https://news.ycombinator.com/item?id=50325107).",
+      "publishedAt": "2026-11-01T12:44:36.000Z",
+      "score": 23,
+      "publisher": "cnn.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:7ef52e0b08b2",
+      "source": "hackernews",
+      "url": "https://proton.me/blog/ai-manifesto",
+      "title": "Proton's AI manifesto for software engineering",
+      "snippet": "20 points and 9 comments on Hacker News (https://news.ycombinator.com/item?id=50330353).",
+      "publishedAt": "2026-11-01T21:58:17.000Z",
+      "score": 20,
+      "publisher": "proton.me",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:8e0b9acadf5d",
+      "source": "huggingface",
+      "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+      "title": "Trending open model: LiquidAI/LFM3-1.7B",
+      "snippet": "Task: text-generation. 777 likes, 42384 downloads.",
+      "publishedAt": "2026-10-23T21:35:42.000Z",
+      "score": 682,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:23f9cacadf78",
+      "source": "huggingface",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+      "title": "Trending open model: baidu/Unlimited-OCR-2",
+      "snippet": "Task: image-text-to-text. 548 likes, 147588 downloads.",
+      "publishedAt": "2026-10-26T03:57:46.000Z",
+      "score": 463,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:c09e79a65e08",
+      "source": "huggingface",
+      "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+      "title": "Trending open model: ccore/Qwen3.5-4B-3D-Coder",
+      "snippet": "526 likes, 63499 downloads.",
+      "publishedAt": "2026-10-25T05:43:34.000Z",
+      "score": 370,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:50a561c320a6",
+      "source": "huggingface",
+      "url": "https://huggingface.co/speridlabs/idol",
+      "title": "Trending open model: speridlabs/idol",
+      "snippet": "Task: image-to-3d. 366 likes, 7787 downloads.",
+      "publishedAt": "2026-10-28T15:55:17.000Z",
+      "score": 348,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:829132356189",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40893",
+      "title": "Qistas: A Pre-Registered, Portable Protocol for Fairness Evaluation of Large Language Models",
+      "snippet": "Fairness benchmarks for large language models (LLMs) are overwhelmingly English-born and American in their social categories; translated versions carry those categories into societies where they do not apply, and almost none fix their hypotheses before the models are run. We present Qistas (Arabic…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:c3f438c60537",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40936",
+      "title": "Fair Recommender Systems for Intersecting Groups",
+      "snippet": "Recommendation systems that optimize for the average user can fail to capture the preferences of diverse demographic groups. We consider a dynamic recommendation system, where arriving users can belong to different demographic groups. Importantly, these groups can intersect, and a user may belong…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:e4d993d5ccbd",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.41018",
+      "title": "Violet Teaming in Practice: Lessons from a Pilot Expert Workshop on Governing Complex AI Systems",
+      "snippet": "Violet teaming has been proposed as a method to integrate technical, policy, and societal considerations into the evaluation of emerging technologies. Here, we document a pilot expert workshop used to explore violet teaming as a governance methodology for biodefense-relevant AI capabilities and…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:4ead8a0802ef",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.41135",
+      "title": "Language Non-Invariance in the Ideological Evaluation of Large Language Models",
+      "snippet": "Recent multilingual studies show that political evaluations of large language models (LLMs) can vary across languages. This paper examines how robust this non-invariance is to questionnaire translation, surface wording, stochastic model variation, and instrument choice, and how much it matters for…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:cb8006a3c532",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.41682",
+      "title": "The Ineliminable Anchor: Human Judgment as a Structural Requirement of Autonomous Artificial Intelligence Systems",
+      "snippet": "As artificial intelligence (AI) agents carry out longer chains of tasks, oversight must establish whether their behavior still serves an authorized goal. Here, we introduce the anchor: the point at which reference information and human-authorized standards enter an autonomous system. We argue that…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:d1a36ff3c58c",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.41691",
+      "title": "Does Reasoning Make Language Models Agree?",
+      "snippet": "Language models face two opposing concerns: monoculture, in which models err in correlated ways, and multiplicity, in which equally accurate models make conflicting decisions. The rise of reasoning models has complicated this debate: On the one hand, reasoning may increase model agreement if…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:86f443071a25",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.41854",
+      "title": "LLM Recommenders Produce Demographic Inequality Through Content Preferences",
+      "snippet": "Large language models (LLMs) are increasingly being integrated into systems that rank and recommend online content. We examine how this shift can produce demographic inequality in whose voices are surfaced. Using 10,000 Twitter/X posts written by 1,000 survey respondents and linked to verified…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:c90be6738b7c",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.41866",
+      "title": "AI evaluators favor job applications written by certain AI models, independent of candidate quality",
+      "snippet": "Job applicants increasingly use large language models (LLMs) to write cover letters, while employers deploy LLMs to screen them. In this all-AI setting, we ask whether the \\emph{choice of model} affects hiring outcomes independently of candidate qualifications. We introduce a multi-model auditing…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:6954623e4e10",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.41883",
+      "title": "Text as an Index for Zero-Shot Cross-Domain Knowledge Tracing",
+      "snippet": "Knowledge tracing (KT) predicts a student's next response from their history. New platforms often have question texts but no response logs for training, motivating zero-shot cross-domain KT. Existing transfer and cold-start methods use question semantics, but cross-platform semantic discrepancies…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:d4389636440c",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.41888",
+      "title": "On-Chain Behavioral Signatures for Classifying Centralized Exchange Addresses on Ethereum Using Proof-of-Reserves",
+      "snippet": "Centralized exchanges (CEXs) are key gateways between traditional finance and digital asset markets, yet identifying their blockchain addresses remains challenging. Existing approaches often rely on opaque attribution labels or treat exchanges as secondary classification targets, leaving…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:6807f36b2f92",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.41918",
+      "title": "A Multimodal Type 2 Diabetes Registry on DHIS2: A Design and Feasibility Study with the AI-READI Dataset",
+      "snippet": "Care for type 2 diabetes increasingly draws on continuous glucose monitors, wearable devices, home sensors, clinical records and retinal images, yet few open platforms have been shown to hold all of these for the same person. We asked three questions of DHIS2, the open-source health information…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:dcccbedabce4",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.42081",
+      "title": "Differentially Private Synthetic Data from Sliced Chebyshev Moments",
+      "snippet": "Research on practical differentially private (DP) synthetic data has largely focused on methods that approximately preserve low-dimensional marginals of a target distribution, and can thus only hope to preserve higher-dimensional, global structure as a lucky by-product. At the same time, existing…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:d4d23434789b",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.42121",
+      "title": "Where ADS Crashes Differ: A Harmonized Comparison Against Human Baselines",
+      "snippet": "Crash-rate comparisons between automated driving systems (ADS) and human drivers require an exposure denominator that only a few operators publish. We instead ask a composition question: given a crash, does the mix of crash types differ between ADS and human-driven vehicles? The question needs no…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:4cd747f15eab",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.37864",
+      "title": "Counterfactual assessment of social media interventions by separating exposure from engagement",
+      "snippet": "Social media interventions are usually evaluated in individual-level experiments, which are costly to scale and often miss collective effects. We propose the Exposure--Engagement model, whose parameters separately control what social media users are exposed to (recommendation) and how they engage…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:a57c1194348e",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40675",
+      "title": "Cutting out the middleman? Elon Musk and the rhetoric of citizen journalism in platform-mediated communication",
+      "snippet": "This article examines how Elon Musk constructed discourse about journalism and the media on X between the 2024 United States presidential election and Donald Trump's presidential inauguration. It investigates how references to journalism, media organisations, and platform-based communication were…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:14ca40131bef",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40677",
+      "title": "Asymmetric Decline Rather Than Backfire: A Repost-Network Analysis of Japanese Vaccine-Shedding Misinformation on X",
+      "snippet": "This study investigates the diffusion of vaccine-shedding discourse on X in 2024, focusing on polarization in repost networks and reactions to corrective information. Here, \"shedding\" refers to the scientifically unsupported claim that harmful substances are released from individuals vaccinated…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:aee84e83d488",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.41057",
+      "title": "Out of sync: Accommodation, evaluation, and emergence in five weeks with an agentic AI teammate",
+      "snippet": "As agentic AI in education shifts from reactive tools toward partners that take initiative and persist over time, a central question is how learners relate to, evaluate, and benefit from artificial agency. We conducted a longitudinal experiment in an undergraduate learning analytics course, in…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:44c163347ed7",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.41441",
+      "title": "GESIS Surf: An Open-Source Infrastructure for Privacy-Preserving Longitudinal Web Browsing Data Collection",
+      "snippet": "Understanding how people navigate digital media environments requires behavioral data beyond survey self-reports. However, existing infrastructures for collecting such data reproducibly, sustainably, and with strong privacy guarantees remain limited: commercial solutions lack transparency and data…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:762dde30c400",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.41776",
+      "title": "MERIDIAN: Memory-Encoded Rituals for Intimacy across Distance in an Interactive, Asynchronous Neighbourhood",
+      "snippet": "How can shared memories become playable structures for partners who live in different time zones? We present MERIDIAN, a pre-deployment design case of Yi Town, a bilingual browser game developed by one member of a long-distance couple as a gift for the other. Nine levels translate personally…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:b3f3f65a3571",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.41911",
+      "title": "Recommendation Feedback Loops Shape Urban Income Segregation and Venue Visitation",
+      "snippet": "Location-based recommender systems shape where people go in cities and learn from the visits they steer, forming a human-AI feedback loop. This feedback loop shapes whom people share places with across income groups and which venues keep attracting customers. Yet platforms judge these systems by…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:53500a038b94",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.42001",
+      "title": "AutoAnalysis: An automated, self-updating meta-analysis of human-AI collaboration",
+      "snippet": "As generative artificial intelligence (AI) becomes more capable and widely used, understanding when and how humans should work with these systems is becoming increasingly important. However, the empirical evidence in this space offers conflicting recommendations, which leaves individuals and…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:de34c77e9b40",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40700",
+      "title": "Automatic Construction of Strong Simple Baselines",
+      "snippet": "To rigorously establish the value of a novel deep learning method, it must be compared against appropriate baselines. As deep learning has become increasingly common in the physical and life sciences, there have been numerous cases in which apparent progress has turned out to be an artifact of…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:9a52c521cb89",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40726",
+      "title": "Li$^{2}$SAO: Lifting Light Singl-Rollout Asynchronous RL Optimization via Group-Relative Actor-Critic Bootstrapping",
+      "snippet": "Asynchronous reinforcement learning (RL) is becoming a mainstream paradigm for post-training large language models (LLMs), as it improves training efficiency by updating the model as rollouts arrive. Recent work argues that group-wise sampling in GRPO does not naturally fit asynchronous RL…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:257d7691c2b2",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40728",
+      "title": "Bayesian Distribution System State Estimation with Flow Matching",
+      "snippet": "Medium-voltage feeders have few real-time measurements, so distribution system state estimation (DSSE) rests on pseudo-measurements of the secondary substations, a prior in Bayesian terms. Weighted least squares keeps the power flow exact but reduces this prior to a mean and variance, while…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:367a7c056de7",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40732",
+      "title": "Don't Just Impute, Detect: Task-Aware Diffusion Pipelines for Edge Anomaly Detection",
+      "snippet": "Industrial Internet of Things (IIoT) edge pipelines routinely lose contiguous blocks of multi-sensor data to network dropouts and hardware faults. The standard remedy is a disjointed \"impute-then-detect\" pipeline whose imputer is trained only for Mean Squared Error (MSE). Such an imputer fills a…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:82d5d7ede482",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40736",
+      "title": "Unsupervised Feature Selection Using Local Intrinsic Dimensionality -- Extended Version",
+      "snippet": "High dimensionality degrades both the efficiency and the effectiveness of learning algorithms, and in many applications no class labels are available to guide dimensionality reduction. This paper proposes LIDFS, an unsupervised feature selection method based on Local Intrinsic Dimensionality…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:2352d30b988e",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40740",
+      "title": "Certified Behavioral Retention for Continual Adaptation with Held-Out Anchors",
+      "snippet": "Continual adaptation requires deciding not only how to update a model, but whether to commit an update without exceeding a declared budget for changes to protected behavior. We introduce Certified Anchor-Based Adaptation (CABA), a candidate-agnostic post-update gate that reserves historical…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:8e47f728a8f0",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40747",
+      "title": "Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses",
+      "snippet": "Effective computer-use agents (CUAs) should seamlessly combine visual GUI interaction with code and terminal execution within a single policy. We present Mage-VL-Cowork, a 4B hybrid CUA trained from a general multimodally aligned checkpoint through an end-to-end, progressive five-stage curriculum…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:dd1cb4a5f7da",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40757",
+      "title": "AutoHebb: Self-Modifying Neural Networks that Zero-Shot Infer and Continually Learn",
+      "snippet": "Humans and animals have a unique capacity to generalize and learn in novel circumstances, including \"0-shot\" inference (ZI) and continual learning (CL) -- two powerful cognitive abilities. Despite this importance, efforts to model ZI and CL are seriously limited in several ways. First, existing…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:83fe490d9dc2",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40758",
+      "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+      "snippet": "Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an exception, and its list then grows with every new rule. We introduce CLR-Bench, a Curriculum…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:3963a201cb0a",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40798",
+      "title": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
+      "snippet": "Web world models increasingly predict the consequences of candidate actions before agents act, yet a plausible predicted future does not necessarily support the correct safety decision. In a matched human evaluation of 3,000 predictions from ten frozen open models, 86.1% are judged semantically…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:49dfd8f6ca52",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40831",
+      "title": "Circumventing the Computational Hardness of Computational Arbitrage",
+      "snippet": "AI model marketplaces host providers with heterogeneous costs and capabilities. These differences create an opportunity for computational arbitrage (Olmedo et al., 2026), in which an intermediary purchases inference from a portfolio of models and resells it to users at a profit. Beyond creating…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:0bdbf715831b",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40847",
+      "title": "The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model",
+      "snippet": "Continuous diffusion language models (CDLMs) and speculative drafters offer efficient language generation but are typically evaluated differently: CDLMs generate independently through iterative refinement, whereas drafters propose text for target-model verification and correction. We compare their…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:9bf6d686237c",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40857",
+      "title": "Frozen in Time: How a Physics Foundation Model Forgets Under Sim-to-Real Adaptation",
+      "snippet": "Scientific foundation models (SciFMs) have achieved remarkable performance on a wide range of PDEs, including the ability to efficiently adapt to unseen data distributions with additional finetuning. As with all neural architectures, finetuning such models comes with the risk of catastrophic…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:7faf2ce1755c",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40858",
+      "title": "FARO: Function-Space Adaptive Return-to-Risk Optimization via Cross-Block Equal-Risk-Contribution Budget Allocation",
+      "snippet": "Training a large language model is compute-bound, and current recipes divide the work between optimizers by hand: orthogonalized momentum for attention and MLP matrices, Adam-style updates for the rest. This division rests on human priors about which layer type deserves which geometry, and it…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:1373532a46f2",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40861",
+      "title": "Near-Optimal First-Order Regret for Bandits with Feedback Graphs",
+      "snippet": "We study first-order regret guarantees for adversarial bandits with a fixed, known directed feedback graph. For strongly observable graphs, [ACBDK15] establishes a minimax regret of $\\widetilde{\\Theta}(\\sqrt{\\alpha T})$, where $\\alpha$ denotes the independence number of the graph and $T$ denotes…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:a30e3e8aaff2",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40871",
+      "title": "TensorSSM: Memorizing Spatial Position in Dynamic State Space for Tensor Core Generation",
+      "snippet": "High-dimensional tensors are ubiquitous in real-world applications but lead to massive storage overhead. Functional tensor decomposition addresses this by employing neural networks to map element coordinates to tensor cores, significantly reducing the parameters for data compression. However…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:87e7e4268fe7",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40883",
+      "title": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
+      "snippet": "Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree. We ask whether that disagreement degrades speech emotion recognition. Mapping text and audio into a shared valence-arousal-dominance space, we convert the…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:79b4478e4775",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40890",
+      "title": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
+      "snippet": "Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale. As one of the most widely used consumer language model products as of 2026, ChatGPT gives broad public access to these capabilities, motivating concerns about its potential use in…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:4b574d09afc1",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2610.40901",
+      "title": "TSFLab: A Self-Improving Agent-Agnostic Workbench for Time Series Forecasting Research",
+      "snippet": "As publications and products on time series forecasting (TSF) proliferate, researchers face a growing burden of analyzing existing work. First, not all publications release code. For instance, only about 20% of arXiv TSF papers have a code link in the surveyed period. Second, released code also…",
+      "publishedAt": "2026-11-02T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    }
+  ]
+}
