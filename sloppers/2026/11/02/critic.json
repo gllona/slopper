@@ -1,0 +1,97 @@
+{
+  "passed": false,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 1,
+          "style": 2,
+          "polish": 1,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Fails: the self-improving-robot half of the joke is missing entirely (no copy robot), and the AI SPENDING / STAFF PAY / SELF-IMPROVING labels render stacked on top of each other, making the right half unreadable and the punchline incoherent.",
+        "revisionNotes": [
+          "Critical: the 'AI SPENDING' and 'STAFF PAY' labels are rendering stacked on top of each other and are unreadable; give each label its own clear vertical offset above its meter with no overlap.",
+          "The 'copy' robot (the second, shinier robot being bolted together) is missing entirely — only the builder robot appears. Re-add it attached to builder's right side at scale 0.75 so the self-improving half of the joke reads.",
+          "The SELF-IMPROVING flag/sign is colliding with the AI SPENDING/STAFF PAY text block; detach it and anchor it near the robot pair instead, clear of the meter labels.",
+          "The employee's head overlaps the pay meter and building cross-section; move employee anchor further right/down (e.g. x:0.7, y:0.85) so the figure sits clearly beside the short bar, not inside it.",
+          "Left side of frame (builder robot alone) is sparse while the right side is a cluttered stack of building, two meters, two labels, flag, and employee; rebalance scale/spacing so neither half reads empty or crowded.",
+          "Blueprint-grid datacenter scenes with a single robot and a human pointing at a chart have appeared twice recently (tiles 4 and 12); vary accent placement or prop silhouettes so this doesn't read as a repeat."
+        ]
+      },
+      "average": 2.29,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 4
+        },
+        "verdict": "The cast is correctly human-vs-robot and the idea is legible on a second look, but the top half of the canvas sits empty while everything crowds the bottom, and the STAFF PAY tank's fill blends invisibly into the background, making the central spending-vs-pay comparison read as a rendering bug rather than the joke's punchline — this falls short of publish quality.",
+        "revisionNotes": [
+          "Top half of the canvas is empty grid while all content (robots, flag, meters, employee) is crammed below y=0.6 — raise builder/copy to ~y:0.65 and meters to ~y:0.45 to use the full square and balance the layout.",
+          "The STAFF PAY tank fill uses the same dark body-blue as the background, so it reads as broken/empty instead of 'low' — switch its fill to a lighter, visibly contrasting color (e.g. pale grey) like the yellow used for AI SPENDING.",
+          "Builder and copy robots just stand with arms out; nothing shows the 'bolting together' action from the brief — add a wrench/bolt raw-shape prop at the builder's hand and a conveyor-line baseline under both robots to sell the assembly-line metaphor.",
+          "Blueprint style, blue/yellow palette, and split building-cross-section-with-bars composition closely echo a recent blueprint slopper (Stock Falls/Jobs Cut) — shift the accent color or try a diagonal split instead of left/right to differentiate.",
+          "SELF-IMPROVING flag floats on a bare stick disconnected from the robots it labels — attach it directly behind the 'copy' robot and scale to ~0.5 so it reads as part of the build, not a separate sign.",
+          "Faint window-shade rectangles from the wall component sit right behind the employee's outstretched arms, creating visual clutter — nudge the wall element or lower its opacity so it doesn't collide with the figure."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"builder\" extends outside the safe area in the final frame (x 40…392, y 371…702)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Good casting and style-card fidelity, but the AI SPENDING / STAFF PAY labels collide with each other and the roof line at the focal point, the builder robot breaches the safe area per the lint warning, and the blueprint building-plus-bars-plus-robot layout repeats too closely on recent pieces — average falls below the 3.5 pass bar.",
+        "revisionNotes": [
+          "Fix label collision: 'spendlabel'/'paylabel' text runs together and hits the building roof apex. Widen the gap between 'spend' and 'pay' meters (spend x 0.645→~0.60, pay x 0.855→~0.90), drop label size to 'xs', or raise the roof so the peak clears the text.",
+          "Lint flags 'builder' extending past the safe area (x 40…392, y 371…702). Shift builder's anchor x from 0.2 to ~0.26 and/or reduce scale from 0.68 to 0.6 so the outstretched arm stays inside the margin.",
+          "Top-left quadrant is empty grid while top-center is congested with overlapping text — raise the conveyor/robot group's anchor y from 0.65 to ~0.55 to fill the square and balance against the packed right side.",
+          "The 'tool' wrench prop floats between the two robots' arms with no clear owner — attach it to the builder's hand (attachTo: builder, side: right) so it reads as doing the bolting.",
+          "Composition closely echoes two recent blueprint pieces (building + glowing bar chart + robot) — vary the right side, e.g. nest the bars in a window cutout instead of a full building silhouette, for more novelty."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    }
+  ]
+}

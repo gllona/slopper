@@ -1,0 +1,164 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {},
+  "elements": [
+    {
+      "id": "conveyor",
+      "component": "raw",
+      "at": {
+        "x": 0.29,
+        "y": 0.657
+      },
+      "scale": 1,
+      "props": {
+        "width": 480,
+        "height": 30
+      },
+      "svg": "<rect x=\"0\" y=\"4\" width=\"480\" height=\"18\" rx=\"4\" class=\"r-line\"/><path d=\"M40 4 L40 22 M80 4 L80 22 M120 4 L120 22 M160 4 L160 22 M200 4 L200 22 M240 4 L240 22 M280 4 L280 22 M320 4 L320 22 M360 4 L360 22 M400 4 L400 22 M440 4 L440 22\" class=\"r-thin\"/>"
+    },
+    {
+      "id": "builder",
+      "component": "robot",
+      "at": {
+        "x": 0.2,
+        "y": 0.65
+      },
+      "scale": 0.68,
+      "props": {
+        "mood": "proud",
+        "arms": "out",
+        "color": "body",
+        "antenna": true
+      }
+    },
+    {
+      "id": "copy",
+      "component": "robot",
+      "attachTo": "builder",
+      "side": "right",
+      "scale": 0.72,
+      "props": {
+        "mood": "happy",
+        "arms": "down",
+        "color": "body",
+        "antenna": false
+      }
+    },
+    {
+      "id": "tool",
+      "component": "raw",
+      "attachTo": "copy",
+      "side": "left",
+      "offset": [
+        -10,
+        -30
+      ],
+      "scale": 0.5,
+      "props": {
+        "width": 140,
+        "height": 140
+      },
+      "svg": "<rect x=\"8\" y=\"55\" width=\"70\" height=\"18\" rx=\"8\" class=\"r-line\"/><circle cx=\"100\" cy=\"64\" r=\"24\" class=\"r-line\"/><circle cx=\"100\" cy=\"64\" r=\"9\" class=\"r-paper\"/><circle cx=\"25\" cy=\"105\" r=\"13\" class=\"r-ink\"/><circle cx=\"55\" cy=\"112\" r=\"10\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "flag",
+      "component": "label",
+      "attachTo": "copy",
+      "side": "top",
+      "scale": 0.5,
+      "props": {
+        "text": "SELF-IMPROVING",
+        "size": "md",
+        "kind": "sign",
+        "color": "text"
+      }
+    },
+    {
+      "id": "wall",
+      "component": "raw",
+      "at": {
+        "x": 0.75,
+        "y": 0.6
+      },
+      "scale": 1,
+      "props": {
+        "width": 400,
+        "height": 700
+      },
+      "svg": "<path d=\"M10 70 L200 6 L390 70 Z\" class=\"r-line\"/><rect x=\"10\" y=\"70\" width=\"380\" height=\"610\" rx=\"6\" class=\"r-line\"/><circle cx=\"100\" cy=\"45\" r=\"14\" class=\"r-shade\"/><circle cx=\"300\" cy=\"45\" r=\"14\" class=\"r-shade\"/>"
+    },
+    {
+      "id": "spend",
+      "component": "meter",
+      "at": {
+        "x": 0.645,
+        "y": 0.45
+      },
+      "scale": 0.85,
+      "props": {
+        "level": 0.92,
+        "kind": "tank",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "pay",
+      "component": "meter",
+      "at": {
+        "x": 0.855,
+        "y": 0.45
+      },
+      "scale": 0.85,
+      "opacity": 0.85,
+      "props": {
+        "level": 0.22,
+        "kind": "tank",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "spendlabel",
+      "component": "label",
+      "attachTo": "spend",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "AI SPENDING",
+        "size": "sm",
+        "kind": "plain",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "paylabel",
+      "component": "label",
+      "attachTo": "pay",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "STAFF PAY",
+        "size": "sm",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "employee",
+      "component": "human",
+      "at": {
+        "x": 0.75,
+        "y": 0.895
+      },
+      "scale": 0.6,
+      "props": {
+        "mood": "worried",
+        "pose": "stand",
+        "color": "body",
+        "kind": "adult",
+        "holds": "none"
+      }
+    }
+  ],
+  "alt": "A robot on an assembly line bolts a wrench onto a shinier copy of itself beside a small SELF-IMPROVING flag. Inside a building shape nearby, a tall AI SPENDING gauge stands far above a short STAFF PAY gauge, next to a worried employee standing below them."
+}

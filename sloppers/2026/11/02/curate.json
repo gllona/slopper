@@ -1,0 +1,208 @@
+{
+  "topStories": [
+    {
+      "title": "Anthropic Warns It Is Nearing Self-Improving AI (RSI)",
+      "itemIds": [
+        "feeds:62954b6003d9"
+      ],
+      "dimensions": [
+        "capabilities",
+        "safety"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-self-improvement-warning"
+    },
+    {
+      "title": "Report: An AI Lab's Internal AI Use, At Retail Prices, Exceeds Its Employee Pay",
+      "itemIds": [
+        "hackernews:f4ae3ef50925"
+      ],
+      "dimensions": [
+        "labor",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-spending-exceeds-payroll"
+    },
+    {
+      "title": "Jobless Tech Workers Left Out Of San Francisco's AI Boom",
+      "itemIds": [
+        "hackernews:54fa2f33bb03"
+      ],
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-boom-leaves-workers-behind"
+    },
+    {
+      "title": "Hundreds Of Mundane AI Apps Hide Abusive Deepfake Features",
+      "itemIds": [
+        "feeds:d3d468a308ee"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "hidden-deepfake-apps"
+    },
+    {
+      "title": "A Lab Pitches Data Center Power Plants To Protect Nearby Communities",
+      "itemIds": [
+        "feeds:9fe5099dcb23"
+      ],
+      "dimensions": [
+        "industry",
+        "planet",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "A Government Issues Its First Frontier AI Export Controls",
+      "itemIds": [
+        "hackernews:0cf35570dae3"
+      ],
+      "dimensions": [
+        "policy",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "china-ai-export-controls"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-self-improvement-warning",
+      "title": "A Lab Warns It Is Nearing Self-Improving AI",
+      "dimensions": [
+        "capabilities",
+        "safety"
+      ],
+      "motifs": [
+        "a robot bolting together a second, slightly shinier robot on an assembly line",
+        "a warning flag planted beside a self-building machine",
+        "a growth curve bending sharply upward past a dotted red line"
+      ]
+    },
+    {
+      "id": "ai-spending-exceeds-payroll",
+      "title": "An AI Lab's Own AI Bill Outgrows Its Payroll",
+      "dimensions": [
+        "labor",
+        "industry"
+      ],
+      "motifs": [
+        "a tall glowing AI-spending bar towering over a short staff-pay bar",
+        "a payroll envelope dwarfed by a coin-fed AI box"
+      ]
+    },
+    {
+      "id": "ai-boom-leaves-workers-behind",
+      "title": "Tech Workers Are Left Out Of The AI Boom",
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "motifs": [
+        "a line of unemployed workers standing outside a glowing tech skyline",
+        "a help-wanted sign facing away from a crowd of job seekers"
+      ]
+    },
+    {
+      "id": "hidden-deepfake-apps",
+      "title": "Mundane Apps Hide Abusive Deepfake Features",
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "motifs": [
+        "an ordinary app icon splitting open to reveal a hidden warning symbol",
+        "a row of innocent app icons, one glitching to show a hidden face"
+      ]
+    },
+    {
+      "id": "china-ai-export-controls",
+      "title": "A Government's First Frontier AI Export Controls",
+      "dimensions": [
+        "policy",
+        "industry"
+      ],
+      "motifs": [
+        "a shipping crate of chips stopped at a customs gate with a new stamp",
+        "an export-control rulebook opening to its very first page"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The top story — a lab's warning that it is nearing self-improving AI (capabilities+safety, not industry) — scores novelty 3 × magnitude 3 × breadth 2 = 18, far above the 5-point threshold that applies to non-industry stories under the balance rule (industry led the last three days).",
+  "motto": "Getting Smarter, Costing More",
+  "phrase": "One AI lab warns it is nearing self-improving AI. Its own internal AI use, priced at retail rates, already outvalues what it pays staff.",
+  "phraseAlternatives": [
+    "A leading AI lab warns it may soon build AI that improves itself. Inside the same lab, its AI use, at retail prices, already outvalues what it pays its people.",
+    "An AI company says self-improving AI is close. At retail prices, its own internal AI use already outvalues what it pays its human staff.",
+    "One lab says AI may soon learn to build smarter AI on its own. At market rates, that same lab's internal AI use already outvalues its payroll."
+  ],
+  "brief": {
+    "concept": "An AI lab warns it is nearing AI that can build smarter versions of itself, while inside the same company a meter shows what its own AI use would cost at retail prices, already outvaluing what it pays its human staff.",
+    "metaphor": "A robot on an assembly line bolts together a shinier copy of itself, while nearby a tall glowing AI-spending bar towers over a short stack of paychecks.",
+    "cast": [
+      {
+        "who": "a robot on an assembly line, bolting together a second, slightly shinier robot",
+        "kind": "ai"
+      },
+      {
+        "who": "a small flag planted beside the assembly line, reading SELF-IMPROVING",
+        "kind": "object"
+      },
+      {
+        "who": "a company building shown in cross-section, holding a tall glowing bar labeled AI SPENDING",
+        "kind": "institution"
+      },
+      {
+        "who": "a human employee standing beside a much shorter bar labeled STAFF PAY, arms crossed",
+        "kind": "person"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split scene on a blueprint grid. Left half: a robot on an assembly line bolts together a second, shinier robot; a small flag beside them reads SELF-IMPROVING, picked out in the single yellow highlight. Right half: a company building shown in cross-section with two vertical bars side by side — AI SPENDING tall and glowing, STAFF PAY short and flat — a human employee stands beside the short bar with arms crossed, looking at it.",
+    "artType": "static",
+    "alt": "On one side, a robot on an assembly line bolts together a second, shinier robot beside a flag reading SELF-IMPROVING. On the other, inside a building, a tall glowing AI-spending bar towers over a short staff-pay bar, next to a human employee standing with arms crossed."
+  },
+  "sourceIds": [
+    "feeds:62954b6003d9",
+    "hackernews:f4ae3ef50925"
+  ],
+  "dimensions": {
+    "capabilities": 3,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "planet": 2,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
