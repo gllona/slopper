@@ -1,0 +1,21 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"The same lab's internal AI bill already costs more than paying its own staff.\" Source snippet: \"Anthropic's internal AI use, at retail prices, now exceeds its employee pay.\"",
+          "suggestion": "The source's claim is a notional value (what internal AI usage would cost at retail/market rates), not an actual bill the lab is paying. Reword to preserve that nuance, e.g. \"The same lab's internal AI use, priced at retail rates, already outvalues what it pays its own staff\" instead of stating it as an actual 'bill' that 'costs more.'",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "pass",
+      "findings": []
+    }
+  ]
+}
