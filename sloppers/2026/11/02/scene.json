@@ -1,0 +1,144 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {},
+  "elements": [
+    {
+      "id": "institution",
+      "component": "datacenter",
+      "at": {
+        "x": 0.17,
+        "y": 0.3148
+      },
+      "scale": 0.68,
+      "props": {
+        "racks": 3,
+        "lights": "busy",
+        "steam": false,
+        "fans": false
+      }
+    },
+    {
+      "id": "chart",
+      "component": "chart",
+      "at": {
+        "x": 0.42,
+        "y": 0.26
+      },
+      "scale": 0.6,
+      "props": {
+        "type": "line",
+        "values": [
+          0.1,
+          0.18,
+          0.25,
+          0.35,
+          0.5,
+          0.62,
+          0.78
+        ],
+        "highlight": "last",
+        "arrow": true
+      }
+    },
+    {
+      "id": "threshold-line",
+      "component": "raw",
+      "attachTo": "chart",
+      "side": "top",
+      "offset": [
+        0,
+        -6
+      ],
+      "scale": 1,
+      "props": {
+        "width": 230,
+        "height": 26
+      },
+      "svg": "<line x1=\"8\" y1=\"13\" x2=\"222\" y2=\"13\" stroke-dasharray=\"10 8\" class=\"r-line\"/><circle cx=\"222\" cy=\"13\" r=\"7\" class=\"r-accent-2\"/>"
+    },
+    {
+      "id": "threshold-label",
+      "component": "label",
+      "attachTo": "threshold-line",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "THRESHOLD",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "lab-robot",
+      "component": "robot",
+      "at": {
+        "x": 0.22,
+        "y": 0.84
+      },
+      "scale": 1,
+      "props": {
+        "mood": "proud",
+        "arms": "down"
+      }
+    },
+    {
+      "id": "lab-robot-copy",
+      "component": "raw",
+      "at": {
+        "x": 0.44,
+        "y": 0.6546
+      },
+      "scale": 0.95,
+      "props": {
+        "width": 180,
+        "height": 400
+      },
+      "svg": "<rect x=\"40\" y=\"0\" width=\"100\" height=\"90\" rx=\"16\" class=\"r-line\" stroke-dasharray=\"8 6\"/><circle cx=\"90\" cy=\"45\" r=\"6\" class=\"r-line\" stroke-dasharray=\"4 4\"/><rect x=\"15\" y=\"100\" width=\"150\" height=\"220\" rx=\"18\" class=\"r-line\" stroke-dasharray=\"8 6\"/><rect x=\"40\" y=\"320\" width=\"35\" height=\"70\" rx=\"10\" class=\"r-line\" stroke-dasharray=\"8 6\"/><rect x=\"105\" y=\"320\" width=\"35\" height=\"70\" rx=\"10\" class=\"r-line\" stroke-dasharray=\"8 6\"/>"
+    },
+    {
+      "id": "belt",
+      "component": "raw",
+      "at": {
+        "x": 0.29,
+        "y": 0.84
+      },
+      "scale": 1,
+      "props": {
+        "width": 460,
+        "height": 30
+      },
+      "svg": "<rect x=\"5\" y=\"8\" width=\"450\" height=\"14\" rx=\"7\" class=\"r-line\"/><circle cx=\"30\" cy=\"15\" r=\"4\" class=\"r-ink\"/><circle cx=\"86\" cy=\"15\" r=\"4\" class=\"r-ink\"/><circle cx=\"142\" cy=\"15\" r=\"4\" class=\"r-ink\"/><circle cx=\"198\" cy=\"15\" r=\"4\" class=\"r-ink\"/><circle cx=\"254\" cy=\"15\" r=\"4\" class=\"r-ink\"/><circle cx=\"310\" cy=\"15\" r=\"4\" class=\"r-ink\"/><circle cx=\"366\" cy=\"15\" r=\"4\" class=\"r-ink\"/><circle cx=\"422\" cy=\"15\" r=\"4\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "trapdoor-apps",
+      "component": "raw",
+      "at": {
+        "x": 0.7296,
+        "y": 0.33
+      },
+      "scale": 1,
+      "props": {
+        "width": 440,
+        "height": 230
+      },
+      "svg": "<rect x=\"187\" y=\"102\" width=\"65\" height=\"95\" rx=\"14\" class=\"r-shade\"/><path d=\"M187,102 L252,102 L262,28 L197,16 Z\" class=\"r-body\"/><rect x=\"187\" y=\"102\" width=\"65\" height=\"95\" rx=\"14\" class=\"r-line\" stroke-dasharray=\"6 5\"/><rect x=\"202\" y=\"18\" width=\"32\" height=\"92\" rx=\"14\" class=\"r-body\"/><circle cx=\"218\" cy=\"18\" r=\"19\" class=\"r-accent\"/><path d=\"M200,20 Q186,8 192,2\" class=\"r-line\"/><path d=\"M236,20 Q250,8 244,2\" class=\"r-line\"/><rect x=\"13\" y=\"102\" width=\"65\" height=\"95\" rx=\"14\" class=\"r-body\"/><rect x=\"94\" y=\"102\" width=\"65\" height=\"95\" rx=\"14\" class=\"r-body\"/><rect x=\"280\" y=\"102\" width=\"65\" height=\"95\" rx=\"14\" class=\"r-body\"/><rect x=\"361\" y=\"102\" width=\"65\" height=\"95\" rx=\"14\" class=\"r-body\"/>"
+    },
+    {
+      "id": "walker",
+      "component": "human",
+      "at": {
+        "x": 0.78,
+        "y": 0.72
+      },
+      "scale": 0.62,
+      "props": {
+        "mood": "neutral",
+        "pose": "stand",
+        "holds": "phone"
+      }
+    }
+  ],
+  "alt": "On the left, a compute building and a rising line chart approach a pale dashed line labeled threshold, while a proud robot stands beside a half-built duplicate of itself on a conveyor belt. On the right, one plain phone app's lid is flipped open and a yellow robotic claw reaches out of it, unnoticed by a person walking past staring at their phone."
+}

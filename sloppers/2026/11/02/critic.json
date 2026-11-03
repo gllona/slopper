@@ -1,0 +1,100 @@
+{
+  "passed": false,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The blueprint style and correct human/robot casting land, but the joke's two key vignettes (self-copying robot, app trapdoor) are rendered too small and cramped while an oversized, disconnected walker dominates the frame, and the brief's worried institution is missing — composition and novelty pull the average below the pass bar.",
+        "revisionNotes": [
+          "Shrink or reposition the oversized walker figure (currently scale ~1.4 dominating the bottom half) to left- or right-third at a smaller scale — the two 'hidden growth' vignettes are the joke and should be the focal point, not the person.",
+          "Scale up the left-lab conveyor pair (robot + dashed duplicate) to ~1.3x; at current size the 'building an exact copy of itself' action reads as two unrelated canisters, not a duplication beat.",
+          "The brief's worried institution ('a boxy company-building shape leaning in to watch' the threshold chart) is missing from the scene entirely — add that component so the lab's concern/awareness beat is present on the left side.",
+          "Anchor the phone prop into the walker's hand/grip; it currently floats as a detached rectangle beside the torso rather than being held.",
+          "Declutter the right-apps trapdoor: the rotated icon and the masked arm's limbs overlap the two neighboring app squares and read as visual noise rather than a clear reveal — scale down the overlap or shift the trapdoor icon left with clear spacing.",
+          "This blueprint + rising-chart-to-dashed-threshold + boxy institution composition is close to the recent 'Jobs Cut/Stock Falls' and 'CATASTROPHIC RISK' tiles; vary the palette or layout (e.g. move the chart off-axis, use a non-blueprint background) for more novelty."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"threshold-label\" (label) was moved 0 px, 48 px to stay inside the safe area",
+          "\"lab-robot\" (robot) was moved 83 px, 0 px to stay inside the artboard",
+          "\"lab-robot\" extends outside the safe area in the final frame (x 1…544, y 396…907)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 3,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The lab-robot/threshold-chart half reads clearly, but the \"secret deepfake tool\" half doesn't land — the masked robot arm is an unreadable glyph that looks like a no-entry sign, and the lab-robot's arm sits flush against the canvas edge with no safe-area margin; not ready to publish.",
+        "revisionNotes": [
+          "The trapdoor's \"masked robot arm\" (circle + bar glyph above the tilted icon) reads as a no-entry/alert sign, not an arm reaching out — rebuild it as a visible forearm/claw emerging from the flap and scale it to ~1.3 so it survives thumbnail size.",
+          "\"lab-robot\" was pushed to the artboard edge by the layout engine; its left arm/hand circle sits right on x=0 with no margin (flagged by lint as outside the safe area) — shift the whole robot group right ~60-80px so the hand clears the safe-area inset.",
+          "Right half is top-heavy: the app row sits high and \"walker\" is isolated far below with a big empty gap between them — move the walker up toward mid-height or add a small ground prop so the two beats feel like one scene.",
+          "\"institution\" borrows robot visual language (single center eye-dot, antenna) that echoes \"lab-robot\"; simplify its face/roofline so a building reads as an institution, not an AI, at a glance.",
+          "The dashed robot-copy overlaps so tightly with the original robot's shoulder/arm that the duplication beat is hard to parse — pull the copy right by ~20-30px or drop its scale slightly so both silhouettes are distinct.",
+          "This is at least the third recent blueprint piece pairing a worried company building with a rising threshold chart; next time in this style, swap that beat or shift the palette accent to avoid repeating the same staging."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Borderline fail: the left vignette (self-copying robot, climbing chart, threshold line) reads clearly, but the right vignette's key joke—the masked robot arm in the trapdoor app—is illegible, the composition leaves an awkward empty gap between the two halves, and the blueprint datacenter+chart look repeats recent sloppers.",
+        "revisionNotes": [
+          "Rework the trapdoor-apps raw shape: the 'masked robot arm' reads as a horned head peeking from a box, not an arm. Enlarge it and render it as a distinct claw/arm shape in r-accent yellow so the reveal is legible at a glance.",
+          "Close the dead center-right gap: the left cluster (institution/chart/robot) and right cluster (apps/walker) float as two separate halves with a large empty middle. Pull trapdoor-apps left toward x~0.6 and bring the walker nearer under it to unify the square.",
+          "Give the institution/datacenter a visible 'worried' cue as the brief specifies (lean it a few degrees toward the chart, or add a glow/accent on the lights); right now it reads as a neutral, static building.",
+          "Scale up the walker (currently 0.62) and reposition closer beneath the trapdoor icon so the 'oblivious passerby ignoring the reveal' beat reads as connected rather than isolated in empty space.",
+          "This blueprint palette of datacenter + rising chart + threshold line toward a robot has appeared in at least two recent pieces; shift the accent color, chart framing, or building silhouette to differentiate.",
+          "Add a shared baseline or grid emphasis linking both vignettes (e.g., one continuous ground line) so the piece reads as a single scene rather than two juxtaposed illustrations."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    }
+  ]
+}

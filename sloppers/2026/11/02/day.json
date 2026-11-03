@@ -1,0 +1,200 @@
+{
+  "date": "2026-11-02",
+  "number": 34,
+  "mode": "fresh",
+  "motto": "Hidden In Plain Sight",
+  "phrase": "A top AI lab admitted it might cross a self-improvement threshold without noticing. Elsewhere, hundreds of ordinary apps were found hiding secret deepfake abuse tools.",
+  "phraseAlternatives": [
+    "An AI lab warned it may soon learn to improve itself faster than anyone can watch. Meanwhile, hundreds of harmless-looking apps were caught hiding abusive deepfake tools.",
+    "A leading AI lab said it might cross a critical threshold before noticing. The same week, ordinary apps were found hiding secret tools for abusive deepfakes.",
+    "One AI company fears it could outgrow its own warning systems. Hundreds of innocent-looking apps already outgrew their terms of service.",
+    "A lab building ever-smarter AI worries it might not notice its own breakthrough. Hundreds of ordinary apps had already hidden one, quietly, from everyone."
+  ],
+  "alt": "On the left, a compute building and a rising line chart approach a pale dashed line labeled threshold, while a proud robot stands beside a half-built duplicate of itself on a conveyor belt. On the right, one plain phone app's lid is flipped open and a yellow robotic claw reaches out of it, unnoticed by a person walking past staring at their phone.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 2,
+    "labor": 2,
+    "policy": 2,
+    "law": 2,
+    "safety": 3,
+    "society": 2,
+    "planet": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "ai-self-improvement-threshold",
+    "hidden-deepfake-apps",
+    "news-orgs-sue-ai-scrapers",
+    "banks-restrict-ai-tools",
+    "china-ai-export-controls",
+    "datacenter-backlash-campaign"
+  ],
+  "topStories": [
+    {
+      "title": "An AI lab says it may imminently cross a self-improving (RSI) threshold",
+      "itemIds": [
+        "feeds:62954b6003d9",
+        "techmeme:2748817242ba",
+        "hackernews:f4ae3ef50925",
+        "hackernews:a4c8b0f80db2"
+      ],
+      "dimensions": [
+        "capabilities",
+        "safety",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-self-improvement-threshold"
+    },
+    {
+      "title": "Hundreds of ordinary-looking AI apps found hiding abusive deepfake features",
+      "itemIds": [
+        "feeds:d3d468a308ee"
+      ],
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "hidden-deepfake-apps"
+    },
+    {
+      "title": "News publishers sue a privacy-focused browser over AI scraping and paywall bypass",
+      "itemIds": [
+        "feeds:e4d1692622cb",
+        "feeds:9736e53c1334"
+      ],
+      "dimensions": [
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "news-orgs-sue-ai-scrapers"
+    },
+    {
+      "title": "A major bank restricts traders and bankers from some AI tools",
+      "itemIds": [
+        "hackernews:4bb59e837461"
+      ],
+      "dimensions": [
+        "labor",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "banks-restrict-ai-tools"
+    },
+    {
+      "title": "A government issues its first frontier AI export controls",
+      "itemIds": [
+        "hackernews:0cf35570dae3"
+      ],
+      "dimensions": [
+        "policy",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "china-ai-export-controls"
+    },
+    {
+      "title": "A big AI lab pitches its datacenters as emergency power plants for nearby towns",
+      "itemIds": [
+        "feeds:9fe5099dcb23"
+      ],
+      "dimensions": [
+        "industry",
+        "planet",
+        "policy"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    }
+  ],
+  "brief": {
+    "concept": "A small robot builds an exact copy of itself as a worried company watches a chart climb toward a dotted warning line, while beside them a row of ordinary phone apps hides a trapdoor to a masked robot arm no one notices.",
+    "metaphor": "Two kinds of hidden growth in one day: a lab that might out-build its own warning systems, and apps that quietly out-build their stated purpose.",
+    "cast": [
+      {
+        "who": "a small robot assembling an exact duplicate of itself on a short conveyor belt",
+        "kind": "ai"
+      },
+      {
+        "who": "a worried company building looking up at a line chart climbing toward a dotted threshold line",
+        "kind": "institution"
+      },
+      {
+        "who": "a row of plain phone app icons, the middle one tilted open like a trapdoor to a masked robot arm",
+        "kind": "ai"
+      },
+      {
+        "who": "a person scrolling their phone, walking past without looking up",
+        "kind": "person"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split scene. Left: a robot on a short conveyor belt building a copy of itself; above, a simple rising line chart with a dotted line labeled THRESHOLD, and a boxy company-building shape leaning in to watch, worried. Right: four or five identical rounded-square app icons in a row; the middle icon is hinged open like a trapdoor, with a small masked robot arm reaching out of it. A person walks below, eyes on their phone, oblivious. Deep blueprint-blue background, fine grid, one yellow highlight on the trapdoor hinge and on the threshold line.",
+    "artType": "static",
+    "alt": "On the left, a robot builds a copy of itself while a chart climbs toward a dotted line labeled threshold and a worried building looks on. On the right, an ordinary phone app icon flips open like a trapdoor to reveal a hidden robot arm, unnoticed by a person scrolling past."
+  },
+  "sources": [
+    {
+      "id": "feeds:62954b6003d9",
+      "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-02T22:14:50.000Z"
+    },
+    {
+      "id": "techmeme:2748817242ba",
+      "title": "S-1: Anthropic says it may \"imminently meet\" its RSI threshold and may fail to identify \"significant acceleration\" in its development until after it's occurred (Julie Bort/TechCrunch)",
+      "url": "https://www.techmeme.com/261102/p44",
+      "source": "techmeme",
+      "publisher": "Techmeme",
+      "publishedAt": "2026-11-02T23:05:00.000Z"
+    },
+    {
+      "id": "feeds:d3d468a308ee",
+      "title": "Hundreds of Mundane AI Apps Are Hiding Sexually Abusive Deepfake Features",
+      "url": "https://www.wired.com/story/hundreds-of-mundane-ai-apps-are-hiding-abusive-deepfake-features/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-11-02T10:00:00.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.43,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-03T11:36:32.518Z"
+}

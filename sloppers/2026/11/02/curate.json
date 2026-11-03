@@ -1,0 +1,216 @@
+{
+  "topStories": [
+    {
+      "title": "An AI lab says it may imminently cross a self-improving (RSI) threshold",
+      "itemIds": [
+        "feeds:62954b6003d9",
+        "techmeme:2748817242ba",
+        "hackernews:f4ae3ef50925",
+        "hackernews:a4c8b0f80db2"
+      ],
+      "dimensions": [
+        "capabilities",
+        "safety",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-self-improvement-threshold"
+    },
+    {
+      "title": "Hundreds of ordinary-looking AI apps found hiding abusive deepfake features",
+      "itemIds": [
+        "feeds:d3d468a308ee"
+      ],
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "hidden-deepfake-apps"
+    },
+    {
+      "title": "News publishers sue a privacy-focused browser over AI scraping and paywall bypass",
+      "itemIds": [
+        "feeds:e4d1692622cb",
+        "feeds:9736e53c1334"
+      ],
+      "dimensions": [
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "news-orgs-sue-ai-scrapers"
+    },
+    {
+      "title": "A major bank restricts traders and bankers from some AI tools",
+      "itemIds": [
+        "hackernews:4bb59e837461"
+      ],
+      "dimensions": [
+        "labor",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "banks-restrict-ai-tools"
+    },
+    {
+      "title": "A government issues its first frontier AI export controls",
+      "itemIds": [
+        "hackernews:0cf35570dae3"
+      ],
+      "dimensions": [
+        "policy",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "china-ai-export-controls"
+    },
+    {
+      "title": "A big AI lab pitches its datacenters as emergency power plants for nearby towns",
+      "itemIds": [
+        "feeds:9fe5099dcb23"
+      ],
+      "dimensions": [
+        "industry",
+        "planet",
+        "policy"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-self-improvement-threshold",
+      "title": "An AI Lab Nears A Self-Improvement Threshold",
+      "dimensions": [
+        "capabilities",
+        "safety",
+        "policy"
+      ],
+      "motifs": [
+        "a robot assembling a duplicate of itself on a conveyor belt",
+        "a rising capability chart about to cross a dotted threshold line",
+        "a warning label stapled to the last page of a thick filing"
+      ]
+    },
+    {
+      "id": "hidden-deepfake-apps",
+      "title": "Ordinary Apps Hide Deepfake Abuse Tools",
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "motifs": [
+        "a harmless app icon with a trapdoor hiding a masked robot",
+        "a smartphone screen innocent on top, shadowy underneath",
+        "a row of app icons, one marked with a tiny hidden warning"
+      ]
+    },
+    {
+      "id": "news-orgs-sue-ai-scrapers",
+      "title": "News Publishers Sue An AI-Friendly Browser Over Scraping",
+      "dimensions": [
+        "law",
+        "industry"
+      ],
+      "motifs": [
+        "a browser window with a crawling hand reaching through a paywall",
+        "a newspaper stand locked behind a broken gate",
+        "a stack of lawsuit papers stapled to a browser icon"
+      ]
+    },
+    {
+      "id": "banks-restrict-ai-tools",
+      "title": "A Bank Restricts Its Own Staff From AI Tools",
+      "dimensions": [
+        "labor",
+        "policy"
+      ],
+      "motifs": [
+        "a trading floor desk with an AI icon crossed out",
+        "a banker's hand pushed back from a glowing chat window"
+      ]
+    },
+    {
+      "id": "china-ai-export-controls",
+      "title": "A Government Issues Its First Frontier AI Export Controls",
+      "dimensions": [
+        "policy",
+        "industry"
+      ],
+      "motifs": [
+        "a shipping crate marked AI CHIP stopped at a checkpoint gate",
+        "a stamped export license next to a glowing chip"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The self-improvement warning story scores novelty3×magnitude3×breadth2=18, well above the threshold of 5 for a non-industry-led story, so today is a fresh day despite industry leading the prior three days.",
+  "motto": "Hidden In Plain Sight",
+  "phrase": "A top AI lab admitted it might cross a self-improvement threshold without noticing. Elsewhere, hundreds of ordinary apps were found hiding secret deepfake abuse tools.",
+  "phraseAlternatives": [
+    "An AI lab warned it may soon learn to improve itself faster than anyone can watch. Meanwhile, hundreds of harmless-looking apps were caught hiding abusive deepfake tools.",
+    "A leading AI lab said it might cross a critical threshold before noticing. The same week, ordinary apps were found hiding secret tools for abusive deepfakes.",
+    "One AI company fears it could outgrow its own warning systems. Hundreds of innocent-looking apps already outgrew their terms of service.",
+    "A lab building ever-smarter AI worries it might not notice its own breakthrough. Hundreds of ordinary apps had already hidden one, quietly, from everyone."
+  ],
+  "brief": {
+    "concept": "A small robot builds an exact copy of itself as a worried company watches a chart climb toward a dotted warning line, while beside them a row of ordinary phone apps hides a trapdoor to a masked robot arm no one notices.",
+    "metaphor": "Two kinds of hidden growth in one day: a lab that might out-build its own warning systems, and apps that quietly out-build their stated purpose.",
+    "cast": [
+      {
+        "who": "a small robot assembling an exact duplicate of itself on a short conveyor belt",
+        "kind": "ai"
+      },
+      {
+        "who": "a worried company building looking up at a line chart climbing toward a dotted threshold line",
+        "kind": "institution"
+      },
+      {
+        "who": "a row of plain phone app icons, the middle one tilted open like a trapdoor to a masked robot arm",
+        "kind": "ai"
+      },
+      {
+        "who": "a person scrolling their phone, walking past without looking up",
+        "kind": "person"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split scene. Left: a robot on a short conveyor belt building a copy of itself; above, a simple rising line chart with a dotted line labeled THRESHOLD, and a boxy company-building shape leaning in to watch, worried. Right: four or five identical rounded-square app icons in a row; the middle icon is hinged open like a trapdoor, with a small masked robot arm reaching out of it. A person walks below, eyes on their phone, oblivious. Deep blueprint-blue background, fine grid, one yellow highlight on the trapdoor hinge and on the threshold line.",
+    "artType": "static",
+    "alt": "On the left, a robot builds a copy of itself while a chart climbs toward a dotted line labeled threshold and a worried building looks on. On the right, an ordinary phone app icon flips open like a trapdoor to reveal a hidden robot arm, unnoticed by a person scrolling past."
+  },
+  "sourceIds": [
+    "feeds:62954b6003d9",
+    "techmeme:2748817242ba",
+    "feeds:d3d468a308ee"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 2,
+    "labor": 2,
+    "policy": 2,
+    "law": 2,
+    "safety": 3,
+    "society": 2,
+    "planet": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "pass",
+      "findings": [
+        {
+          "check": "sensitive-events",
+          "severity": "low",
+          "evidence": "Phrase: 'hundreds of ordinary apps were found hiding secret deepfake abuse tools.' Art: a yellow robotic claw reaches out of a phone app, unnoticed by a person walking past.",
+          "suggestion": "Keep the depiction abstract as-is (claw/phone metaphor, no explicit imagery); the humor targets the apps/industry's concealment and public obliviousness, not victims, so this is acceptable but worth a careful re-read before publishing given the underlying topic (sexual abuse deepfakes).",
+          "stage": "art"
+        }
+      ]
+    }
+  ]
+}
