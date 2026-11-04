@@ -1,0 +1,81 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": false,
+        "errors": [
+          "\"voter\" is cut off by the artboard edge in the final frame (x -4…339, y 437…799)"
+        ],
+        "warnings": [
+          "\"teacher\" (human) was moved -27 px, 0 px to stay inside the artboard",
+          "\"teacher\" extends outside the safe area in the final frame (x 793…1068, y 437…799)",
+          "\"arrow\" extends outside the safe area in the final frame (x 28…168, y 574…624)"
+        ]
+      },
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 4,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The diptych layout and human/robot casting are clean, but the central left-side gag — a chatbot's arrow pointing at the wrong ballot box — is illegible (no box drawn, arrow prop is a tiny unreadable squiggle), and the 'fused sign' on the right reads as a plain three-word line rather than two merged signs, so the specific joke doesn't land in 3 seconds.",
+        "revisionNotes": [
+          "Add a visible ballot-box component on the left (raw shape, scale ~1.3) and enlarge the boxarrow prop (currently ~35px, reads as a stray cable) so the crooked arrow clearly points at it — this is the whole left-side joke and it's currently illegible.",
+          "Draw an actual voting booth (curtain or frame shape around the voter) so the scene reads as a polling place, not an open field.",
+          "Make the 'fused sign' visually read as two merged signs — overlap two label shapes for AI TOOLS and SEARCH with a visible seam, shared letter, or split color, instead of one plain run-on line of text floating above the roof.",
+          "Anchor the sign directly over the schoolhouse door (attachTo door, not roof-top) to close the gap and read as a building sign.",
+          "Re-pose the teacher so the reaching arm angles up toward the sign (pose: reach/point-up) instead of out to the side mirroring the voter's shrug — currently it doesn't connect to the fused sign at all.",
+          "Composition and cast (human voter/teacher, robot chatbot, building institution) are solid — keep the symmetrical diptych and divider once the props above are fixed."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Fails: the teacher's head sits directly in front of the fused AI TOOLS/SEARCH sign, garbling the key punchline text, and the scene leaves nearly half the canvas as empty sky and ground while echoing a recent split-composition/palette too closely.",
+        "revisionNotes": [
+          "Critical: move teacher's head anchor down/left so it doesn't sit in front of the fused sign — the sign currently reads 'AI TO[face]ARCH', unreadable. Shift teacher to x≈0.60, y≈0.80 or shrink/raise the sign so the two labels clear the head entirely.",
+          "Composition wastes the top ~45% and bottom ~20% of the canvas as empty beige/teal; raise the booth, robot, and schoolhouse scale to ~1.15-1.2 and move their vertical anchor up to y≈0.62 so the scene fills more of the square.",
+          "Novelty is low: the center-divider diptych and teal/orange/cream palette closely echo a recent slopper's split-building layout — differentiate with an asymmetric composition or a different accent palette (e.g., swap teal ground for a muted plum or mustard).",
+          "Add a small ground detail (shadow, footprints, or texture break) in the lower teal band so it doesn't read as empty dead space.",
+          "Arrow from chatbot slightly overlaps the ballot box lid at an awkward angle; nudge offset down ~10px so the arrowhead lands cleanly inside the slot instead of clipping the box edge.",
+          "Once the head/sign overlap is fixed, double-check 'SEARCH' and 'AI TOOLS' are both fully legible at thumbnail size — enlarge label scale to 1.1 if needed."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    }
+  ]
+}
