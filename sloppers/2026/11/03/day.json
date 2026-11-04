@@ -1,0 +1,236 @@
+{
+  "date": "2026-11-03",
+  "number": 35,
+  "mode": "fresh",
+  "motto": "Take It Or Leave It",
+  "phrase": "Experts warned against using a chatbot to vote today. Schools that refuse AI tools will now lose search too, no matter what they choose.",
+  "phraseAlternatives": [
+    "On Election Day, people were told to keep chatbots away from the ballot box. At school, there is no such choice: reject AI and the search engine goes dark too.",
+    "Voters were warned a chatbot might get the election wrong. Students have less luck: refusing AI at school now means losing search as well.",
+    "Nobody trusts a chatbot to vote correctly. Yet schools that don't want AI now lose their search engine along with it."
+  ],
+  "alt": "A split paper-cutout scene. On the left, a worried paper figure leans away from a small robot that points a crooked arrow at a ballot box. On the right, a worried figure reaches up at a schoolhouse whose roof sign reads AI TOOLS SEARCH, the two words fused so neither can be chosen alone. A thin vertical line divides the two halves.",
+  "artType": "static",
+  "style": "paper-cutout",
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 1,
+    "policy": 3,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "education": 2,
+    "planet": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "schools-lose-search-without-ai",
+    "ai-shadows-the-midterms",
+    "ai-tools-quietly-grab-your-data",
+    "ai-stock-bubble-risk",
+    "datacenters-become-war-targets",
+    "ai-fake-interview-crypto-heist"
+  ],
+  "topStories": [
+    {
+      "title": "Google ties school search access to accepting AI tools",
+      "itemIds": [
+        "feeds:38539ccfb5ea",
+        "feeds:b3b7fa6c1f3d",
+        "feeds:0258c4a6a879",
+        "hackernews:2258ac95ca26"
+      ],
+      "dimensions": [
+        "education",
+        "policy",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "schools-lose-search-without-ai"
+    },
+    {
+      "title": "AI shadows the US midterm elections",
+      "itemIds": [
+        "feeds:ea9f17355c03",
+        "feeds:dfbedf4d23d3",
+        "feeds:6f0ac866b083",
+        "gdelt:7aee9ee43b3f"
+      ],
+      "dimensions": [
+        "policy",
+        "society",
+        "safety"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-shadows-the-midterms"
+    },
+    {
+      "title": "AI tools quietly reach for data without asking",
+      "itemIds": [
+        "hackernews:210b26f029f3",
+        "hackernews:31229f011537"
+      ],
+      "dimensions": [
+        "safety",
+        "industry",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-tools-quietly-grab-your-data"
+    },
+    {
+      "title": "Hidden AI debt and bubble warnings keep growing",
+      "itemIds": [
+        "hackernews:f7735096343c",
+        "feeds:56d477bb7172",
+        "hackernews:32482028cfd1",
+        "hackernews:d32ef587b94f",
+        "feeds:e529e3957e84",
+        "hackernews:88f67cf9129b",
+        "feeds:5b85cd1b6c8f"
+      ],
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-stock-bubble-risk"
+    },
+    {
+      "title": "Datacenters go underground to dodge drone strikes",
+      "itemIds": [
+        "feeds:24379856c459"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenters-become-war-targets"
+    },
+    {
+      "title": "AI-aided fake interviews lead to a multibillion-dollar crypto heist",
+      "itemIds": [
+        "hackernews:98db821bf03a",
+        "gdelt:11d5b4ed1358"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 1,
+      "storyline": "ai-fake-interview-crypto-heist"
+    }
+  ],
+  "brief": {
+    "concept": "A voter in a booth pulls away from a chatbot that is pointing at the wrong box, while a schoolhouse across the scene has fused its AI-TOOLS sign and its SEARCH sign into one, so a teacher at the door cannot choose just one.",
+    "metaphor": "Two doors, same trick: AI shows up where you did not ask for it, and walking away from it means losing something else you needed.",
+    "cast": [
+      {
+        "who": "a voter in a booth pulling a hand back from a chatbot speech bubble pointing at a ballot box",
+        "kind": "person"
+      },
+      {
+        "who": "a chatbot speech bubble with a crooked arrow pointing at the wrong ballot box",
+        "kind": "ai"
+      },
+      {
+        "who": "a schoolhouse building with two signs over its door fused into one, reading AI TOOLS and SEARCH",
+        "kind": "institution"
+      },
+      {
+        "who": "a teacher at the schoolhouse door, reaching for the fused sign, unable to pick just one half",
+        "kind": "person"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "A symmetrical diptych split down the middle. Left half: a voting booth with the voter and chatbot speech bubble. Right half: the schoolhouse door with the fused sign and the teacher. A thin vertical line divides the two scenes, echoing a ballot curtain on one side and a door frame on the other.",
+    "artType": "static",
+    "alt": "A split image. On the left, a voter in a booth pulls their hand away from a chatbot speech bubble that is pointing at the wrong ballot box. On the right, a teacher stands at a schoolhouse door where two signs, AI TOOLS and SEARCH, have been fused into one sign, unable to pick just one."
+  },
+  "sources": [
+    {
+      "id": "feeds:ea9f17355c03",
+      "title": "Here’s Why You Shouldn’t Use AI to Vote",
+      "url": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-11-03T14:45:08.000Z"
+    },
+    {
+      "id": "feeds:6f0ac866b083",
+      "title": "Midterm elections 2026: all the news",
+      "url": "https://www.theverge.com/policy/1020640/midterm-elections-2026-all-the-news",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-03T15:58:39.000Z"
+    },
+    {
+      "id": "feeds:38539ccfb5ea",
+      "title": "Google is entirely disabling Search in schools that don’t want AI",
+      "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-03T17:00:04.000Z"
+    },
+    {
+      "id": "feeds:b3b7fa6c1f3d",
+      "title": "Google will let schools skip AI tools, but they have to give up search, too",
+      "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-11-03T17:54:43.000Z"
+    },
+    {
+      "id": "feeds:0258c4a6a879",
+      "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+      "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-03T16:30:34.000Z"
+    },
+    {
+      "id": "hackernews:2258ac95ca26",
+      "title": "Google will turn off search for schools that reject AI",
+      "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+      "source": "hackernews",
+      "publisher": "nytimes.com",
+      "publishedAt": "2026-11-03T15:25:47.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.43,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-04T11:32:50.864Z"
+}
