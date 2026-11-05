@@ -1,0 +1,102 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"voter\" (human) was moved -79 px, 0 px to stay inside the artboard",
+          "\"next-election-label\" (label) was moved -25 px, 0 px to stay inside the safe area",
+          "\"voter\" extends outside the safe area in the final frame (x 743…1066, y 299…725)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 3,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 4
+        },
+        "verdict": "The REJECTED datacenter half works on its own, but the voting mechanic that makes the joke land never renders — the ballot box is missing, the lone voter floats disconnected pointing at nothing, the megaphone overlaps the wrong figure, and a stray line slashes through 'NEXT ELECTION'. Fails on composition and polish.",
+        "revisionNotes": [
+          "The ballot-box component is missing entirely from the render — without it, 'voters rejected via ballot' has no visual device. Re-anchor a box (raw shape, ~160x200) beside the datacenter's right side with the voter dropping a ballot into it, matching the brief.",
+          "The megaphone is overlapping the voter's torso/arm instead of sitting atop the 'company' building — attach it to the company component's top side and increase company's scale (currently 0.9 reads as a tiny, generic house) so the megaphone clearly belongs to it, not the person.",
+          "The voter was pushed to x743-1066 by the safe-area lint fix and now floats disconnected, arm extended into empty space with nothing to point at — move the voter back toward the ballot-box anchor (left-third/right side) so the pointing/dropping pose has a target.",
+          "'NEXT ELECTION' label has a horizontal line (likely a stray prop edge or the voter's far arm) slashing through 'ELECTION', hurting readability — check z-order and reposition the label or the crossing element so text is unobstructed.",
+          "Brief calls for 'a line of human voters' (plural); only one voter renders. Add 1-2 more voter instances near the ballot box, small scale, to read as a queue.",
+          "Company building is small and isolated at bottom-right with no clear role (no megaphone overlap, no coin detail visible) — scale it up slightly and nest the megaphone + sound-wave lines above it so it reads as one unit."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The datacenter/REJECTED and calendar/NEXT ELECTION beats land clearly, but the voter figures merge into a conjoined two-headed blob, the ballot box reads as a blank card, and the megaphone floats disconnected from the tiny, isolated company building — composition and polish bugs pull the average below the pass bar.",
+        "revisionNotes": [
+          "Un-merge voter-one and voter-two: their torsos/heads fuse into one two-headed shape. Push voter-two further left (e.g. offset [-140,-15] instead of [-90,-20]) so each body is distinct.",
+          "The ballot-box raw shape reads as a blank white card, not a box — the slot/ballot detail is lost. Add a visible dark slot line and scale it to 1.1 so the stamped ballot card is legible.",
+          "Attach the megaphone's base directly against the company building's roofline (small offset, touching) instead of floating well above it — right now it reads as held by the voters, not the company.",
+          "Company building is small and isolated bottom-right with a large empty gap above/left of it; scale it to ~1.6 and pull it closer to the megaphone/voter cluster so the right side reads as one connected group.",
+          "The coins inside the megaphone are same-family teal dots and barely register as money; swap to a distinct coin shape/color (brighter accent, coin outline) so 'money-stuffed megaphone' reads without the caption.",
+          "Close the dead beige gap around the center-right (roughly x550-700, y450-650) by tightening spacing between the ballot-box cluster and the company/megaphone cluster into a single grouped vignette."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"megaphone\" extends outside the safe area in the final frame (x 831…1022, y 362…523)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The REJECTED stamp and NEXT ELECTION calendar read clearly, but the voter cast is nearly invisible (one figure, misplaced) and the megaphone cluster is cramped, overlapping, and confirmed by lint to breach the safe area — not ready to publish as-is.",
+        "revisionNotes": [
+          "Only one of the two scripted voters is visible, and that single figure stands off near the megaphone instead of the ballot box, so the 'voters reject' beat never lands — anchor at least one human directly beside the ballot-box slot with a dropped ballot.",
+          "Per the lint warning, the megaphone (x 831–1022, y 362–523) breaches the safe area; scale it down to ~0.75 and pull its offset left/inward so the funnel and sound-wave dashes stay on-canvas.",
+          "Megaphone's funnel and sound-wave lines read as pointing away from the voter/off-canvas rather than toward the person it's supposed to be failing to persuade — flip/rotate so the mouth clearly aims left at the human.",
+          "The company cluster (building, megaphone, coin circles, voter) is cramped into the right third with multiple overlaps; give the megaphone its own clear space above the roofline and separate it from the human's silhouette.",
+          "The ballot box reads as an orphaned prop with a gap between it and the datacenter/REJECTED stamp — tighten the spacing so box, stamp, and datacenter form one visual unit.",
+          "Keep the REJECTED stamp and NEXT ELECTION calendar as-is; both are bold, legible, and land the joke's two clearest beats."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "topStories": [
+    {
+      "title": "Voters Deal AI Data Centers A Sweeping Election Defeat",
+      "itemIds": [
+        "feeds:addc5fecc1a8",
+        "feeds:486c70c94cb0",
+        "feeds:5e44e8825150",
+        "feeds:3ffaa0606c6b",
+        "hackernews:7b0aac85f53b",
+        "hackernews:6ecc2b597212"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "AI Industry's Heavy Political Spending Falls Flat",
+      "itemIds": [
+        "feeds:978b3fc38e19",
+        "feeds:5523ef782a10",
+        "feeds:4c65af7ddad1"
+      ],
+      "dimensions": [
+        "policy",
+        "industry",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-political-spending-fails"
+    },
+    {
+      "title": "A Search Engine's School AI Overviews Policy Draws Backlash",
+      "itemIds": [
+        "feeds:79deae6e1d0b",
+        "feeds:ac2776547aac",
+        "feeds:bce0ffcba988"
+      ],
+      "dimensions": [
+        "education",
+        "policy",
+        "society",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "google-school-ai-overviews-backlash"
+    },
+    {
+      "title": "AI Agents Barely Used For Real-World Bookings",
+      "itemIds": [
+        "feeds:44e003522651",
+        "feeds:8a0eacda93f2"
+      ],
+      "dimensions": [
+        "labor",
+        "industry",
+        "capabilities"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-no-productivity-payoff"
+    },
+    {
+      "title": "AI Pioneers Split Over How Worried To Be",
+      "itemIds": [
+        "hackernews:5872c65788e7",
+        "feeds:c83eca3ba2aa"
+      ],
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "ai-insiders-split-on-doom"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-political-spending-fails",
+      "title": "AI Industry's Heavy Political Spending Falls Flat",
+      "dimensions": [
+        "policy",
+        "industry",
+        "society"
+      ],
+      "motifs": [
+        "a money-stuffed campaign megaphone making barely a sound",
+        "a PAC ledger stamped with disappointing returns",
+        "a calendar already flipped forward to the next election"
+      ]
+    },
+    {
+      "id": "google-school-ai-overviews-backlash",
+      "title": "A Search Engine's School AI Overviews Policy Draws Backlash",
+      "dimensions": [
+        "education",
+        "policy",
+        "society",
+        "industry"
+      ],
+      "motifs": [
+        "a classroom door blocked by a locked search box stamped AI OVERVIEWS",
+        "a parent and teacher pushing back against the locked box",
+        "a rival search engine waving a welcome sign at a school gate"
+      ]
+    },
+    {
+      "id": "ai-insiders-split-on-doom",
+      "title": "AI Pioneers Split Over How Worried To Be",
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "motifs": [
+        "two AI elders holding opposite signs, one doom one calm",
+        "a doom meter split down the middle between two experts"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The lead story — voters rejecting AI data centers across the midterm ballot, with real industry fallout (stock slides, stalled buildouts) — scores novelty 2 × magnitude 3 × breadth 3 = 18, well above the fresh threshold of 8.",
+  "motto": "Data Centers Lose The Vote",
+  "phrase": "Voters rejected AI data centers up and down the ballot. The industry's heavy campaign spending barely moved the needle, so it is already aiming at the next election.",
+  "phraseAlternatives": [
+    "Across the country, voters moved to restrict AI data centers. A heavily funded pro-AI campaign could not stop them, so it is already eyeing the next election.",
+    "Voters turned against AI data centers at the polls. Meanwhile, a search engine's push to force AI into classrooms is meeting its own backlash.",
+    "Voters rejected AI data centers nationwide. Meanwhile, the industry's AI agents arranged a grand total of four rides last quarter."
+  ],
+  "brief": {
+    "concept": "Voters rejected new AI data centers up and down the ballot, and the AI industry's heavy campaign spending barely slowed them down — so the industry is already looking to the next election.",
+    "metaphor": "A giant ballot box stamps REJECTED onto a datacenter while a company's money-stuffed campaign megaphone is drowned out, and a wall calendar is already flipped forward to the next election.",
+    "cast": [
+      {
+        "who": "a datacenter building",
+        "kind": "object"
+      },
+      {
+        "who": "a line of human voters dropping ballots into a box beside the datacenter",
+        "kind": "person"
+      },
+      {
+        "who": "a company holding up a megaphone stuffed with money, its sound barely reaching anyone",
+        "kind": "institution"
+      },
+      {
+        "who": "a wall calendar flipping forward to a page marked NEXT ELECTION",
+        "kind": "object"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Left: a datacenter building getting stamped REJECTED from above by an oversized ballot-box stamp, with a short line of human figures dropping ballots into the box in front of it. Right: a company building holds up a megaphone overflowing with coins, its sound waves thin and fading. Top-right corner: a small wall calendar flips its page to NEXT ELECTION. Keep it to these four elements, with text limited to REJECTED and NEXT ELECTION.",
+    "artType": "static",
+    "alt": "A datacenter is stamped REJECTED as people drop ballots into a box in front of it. Nearby, a company holds up a megaphone stuffed with money that makes only a faint sound, while a wall calendar flips ahead to a page reading NEXT ELECTION."
+  },
+  "sourceIds": [
+    "feeds:5e44e8825150",
+    "feeds:3ffaa0606c6b",
+    "hackernews:7b0aac85f53b",
+    "hackernews:6ecc2b597212",
+    "feeds:978b3fc38e19",
+    "feeds:5523ef782a10",
+    "feeds:4c65af7ddad1"
+  ],
+  "dimensions": {
+    "industry": 3,
+    "policy": 3,
+    "society": 3,
+    "education": 2,
+    "labor": 1,
+    "safety": 1,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}

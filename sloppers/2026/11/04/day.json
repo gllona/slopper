@@ -1,0 +1,225 @@
+{
+  "date": "2026-11-04",
+  "number": 36,
+  "mode": "fresh",
+  "motto": "Data Centers Lose The Vote",
+  "phrase": "Voters rejected AI data centers up and down the ballot. The industry's heavy campaign spending barely moved the needle, so it is already aiming at the next election.",
+  "phraseAlternatives": [
+    "Across the country, voters moved to restrict AI data centers. A heavily funded pro-AI campaign could not stop them, so it is already eyeing the next election.",
+    "Voters turned against AI data centers at the polls. Meanwhile, a search engine's push to force AI into classrooms is meeting its own backlash.",
+    "Voters rejected AI data centers nationwide. Meanwhile, the industry's AI agents arranged a grand total of four rides last quarter."
+  ],
+  "alt": "A datacenter building is stamped REJECTED as two voters stand by a ballot box with a ballot sticking out of its slot. To the right, a tall company building holds a megaphone stuffed with coins whose sound trails off in faint dashed lines, while a small wall calendar in the top right flips ahead to a page reading NEXT ELECTION.",
+  "artType": "static",
+  "style": "paper-cutout",
+  "dimensions": {
+    "industry": 3,
+    "policy": 3,
+    "society": 3,
+    "education": 2,
+    "labor": 1,
+    "safety": 1,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "datacenter-backlash-campaign",
+    "ai-political-spending-fails",
+    "google-school-ai-overviews-backlash",
+    "ai-no-productivity-payoff",
+    "ai-insiders-split-on-doom"
+  ],
+  "topStories": [
+    {
+      "title": "Voters Deal AI Data Centers A Sweeping Election Defeat",
+      "itemIds": [
+        "feeds:addc5fecc1a8",
+        "feeds:486c70c94cb0",
+        "feeds:5e44e8825150",
+        "feeds:3ffaa0606c6b",
+        "hackernews:7b0aac85f53b",
+        "hackernews:6ecc2b597212"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "AI Industry's Heavy Political Spending Falls Flat",
+      "itemIds": [
+        "feeds:978b3fc38e19",
+        "feeds:5523ef782a10",
+        "feeds:4c65af7ddad1"
+      ],
+      "dimensions": [
+        "policy",
+        "industry",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-political-spending-fails"
+    },
+    {
+      "title": "A Search Engine's School AI Overviews Policy Draws Backlash",
+      "itemIds": [
+        "feeds:79deae6e1d0b",
+        "feeds:ac2776547aac",
+        "feeds:bce0ffcba988"
+      ],
+      "dimensions": [
+        "education",
+        "policy",
+        "society",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "google-school-ai-overviews-backlash"
+    },
+    {
+      "title": "AI Agents Barely Used For Real-World Bookings",
+      "itemIds": [
+        "feeds:44e003522651",
+        "feeds:8a0eacda93f2"
+      ],
+      "dimensions": [
+        "labor",
+        "industry",
+        "capabilities"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-no-productivity-payoff"
+    },
+    {
+      "title": "AI Pioneers Split Over How Worried To Be",
+      "itemIds": [
+        "hackernews:5872c65788e7",
+        "feeds:c83eca3ba2aa"
+      ],
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "ai-insiders-split-on-doom"
+    }
+  ],
+  "brief": {
+    "concept": "Voters rejected new AI data centers up and down the ballot, and the AI industry's heavy campaign spending barely slowed them down — so the industry is already looking to the next election.",
+    "metaphor": "A giant ballot box stamps REJECTED onto a datacenter while a company's money-stuffed campaign megaphone is drowned out, and a wall calendar is already flipped forward to the next election.",
+    "cast": [
+      {
+        "who": "a datacenter building",
+        "kind": "object"
+      },
+      {
+        "who": "a line of human voters dropping ballots into a box beside the datacenter",
+        "kind": "person"
+      },
+      {
+        "who": "a company holding up a megaphone stuffed with money, its sound barely reaching anyone",
+        "kind": "institution"
+      },
+      {
+        "who": "a wall calendar flipping forward to a page marked NEXT ELECTION",
+        "kind": "object"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Left: a datacenter building getting stamped REJECTED from above by an oversized ballot-box stamp, with a short line of human figures dropping ballots into the box in front of it. Right: a company building holds up a megaphone overflowing with coins, its sound waves thin and fading. Top-right corner: a small wall calendar flips its page to NEXT ELECTION. Keep it to these four elements, with text limited to REJECTED and NEXT ELECTION.",
+    "artType": "static",
+    "alt": "A datacenter is stamped REJECTED as people drop ballots into a box in front of it. Nearby, a company holds up a megaphone stuffed with money that makes only a faint sound, while a wall calendar flips ahead to a page reading NEXT ELECTION."
+  },
+  "sources": [
+    {
+      "id": "feeds:5e44e8825150",
+      "title": "Data centers lost the midterms",
+      "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-04T16:05:39.000Z"
+    },
+    {
+      "id": "feeds:3ffaa0606c6b",
+      "title": "The Results Are In: Voters Hate Data Centers",
+      "url": "https://www.wired.com/story/the-results-are-in-voters-hate-data-centers/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-11-04T16:56:17.000Z"
+    },
+    {
+      "id": "hackernews:7b0aac85f53b",
+      "title": "AI data centers comprehensively defeated at US midterm elections",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/ai-data-centers-comprehensively-defeated-at-us-midterm-elections-45-measures-put-on-the-ballot-as-americans-overwhelmingly-vote-against-developments",
+      "source": "hackernews",
+      "publisher": "tomshardware.com",
+      "publishedAt": "2026-11-04T15:35:51.000Z"
+    },
+    {
+      "id": "hackernews:6ecc2b597212",
+      "title": "AI stocks slide as Texas governor result raises data center risks",
+      "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+      "source": "hackernews",
+      "publisher": "cnbc.com",
+      "publishedAt": "2026-11-04T07:00:20.000Z"
+    },
+    {
+      "id": "feeds:978b3fc38e19",
+      "title": "The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms",
+      "url": "https://www.wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-11-04T20:41:29.000Z"
+    },
+    {
+      "id": "feeds:5523ef782a10",
+      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+      "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-04T22:45:09.000Z"
+    },
+    {
+      "id": "feeds:4c65af7ddad1",
+      "title": "OpenAI is already trying to shape the 2028 election",
+      "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-04T21:25:44.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.29,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-05T11:51:20.838Z"
+}
