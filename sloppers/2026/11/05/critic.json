@@ -1,0 +1,103 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"agent-2\" (robot) was moved -34 px, 0 px to stay inside the artboard",
+          "\"agent-2\" extends outside the safe area in the final frame (x 664…1078, y 453…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 1,
+          "kindness": 5
+        },
+        "verdict": "Clean, on-brand blueprint rendering with correct human/robot casting and a kind tone, but it fails on novelty (near-repeat of recent datacenter-on-cracking-chart blueprint pieces) and polish (a robot's arm breaches the safe area per the lint warning), so it doesn't clear the bar today.",
+        "revisionNotes": [
+          "Novelty: this datacenter-on-a-cracking-stock-chart blueprint composition (blue/yellow palette, server rack atop falling line chart) closely repeats at least two recent sloppers (the 'Stock Falls / Jobs Cut' frame and the 'CATASTROPHIC RISK' frame). Swap the metaphor or layout to differentiate.",
+          "Composition/polish: lint flags agent-2 extending outside the safe area (x 664-1078) after being nudged to fit the artboard. Move agent-2 to x≈0.78 and/or scale it to 0.7 so its outstretched arm clears the right margin.",
+          "The doorway component (raw rect at x 0.648, y 0.641) the robots are meant to be marching out of isn't legible in the still — it blends into the background. Give it a visible fill or offset stroke color so the 'marching out of a doorway' beat reads.",
+          "Phrase mentions AI agents for 'your bank, your trip, and your voice' but the art only shows two items (card, suitcase); add a third small robot/prop (e.g., a phone or ring icon) so the voice beat isn't dropped.",
+          "Give the onlooker the brief's specified 'arms crossed' pose instead of a neutral stand, to better sell the unbothered-by-chaos contrast with the worried crowd.",
+          "Add a touch more spacing between agent-1's card icon and agent-2's suitcase icon — they sit close enough to nearly touch above the robots' heads."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The casting is correct (human onlooker, robot agents) and the style is clean, but the carried items float disconnected above the robots' heads, the doorway reads as a blank panel, and the building/chart-on-blueprint motif closely repeats two other recent sloppers — it falls short of publish quality.",
+        "revisionNotes": [
+          "Attach each carried item (card, suitcase, voice icon) into the robots' hands/arms instead of floating detached above their antennas — right now they read as labels, not cargo.",
+          "The doorway component is a flat panel with no frame/arch cues, so it doesn't register as a door — add hinge lines or an open-door silhouette so the robots clearly emerge from somewhere.",
+          "Set the onlooker's pose prop to 'arms-crossed' per the brief; as drawn the human just stands neutrally, losing the unbothered/skeptical beat.",
+          "Space agent-1/2/3 further apart on x (currently touching shoulder-to-shoulder with connecting dots) so the trio doesn't fuse into one blob.",
+          "All elements sit on one horizontal band near mid-canvas; raise the building/chart group or vary scale so the composition uses more of the square instead of leaving top/bottom thirds empty.",
+          "Swap palette or core motif — a building teetering on a cracking blueprint stock chart is nearly identical to two other recent sloppers; differentiate the visual hook."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"voice-item\" (raw) was moved -12 px, 0 px to stay inside the artboard",
+          "\"agent-3\" extends outside the safe area in the final frame (x 847…1043, y 657…842)",
+          "\"voice-item\" extends outside the safe area in the final frame (x 1058…1069, y 759…780)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The building and chart float as disconnected icons in the corner while the doorway renders as a stray diagonal beam overlapping the onlooker and first robot, and the tiny agent props plus a clipped robot/voice-item break the safe area — this doesn't hold together as one scene and repeats a recent blueprint stock-chart composition too closely to pass.",
+        "revisionNotes": [
+          "The doorway component renders as a disconnected diagonal bar that overlaps the onlooker's arm and agent-1's head — it reads as a fallen beam, not a door. Rebuild it as a plain upright door frame (no rotation) with clear space around it.",
+          "Building and chart are stranded as two separate floating boxes in the top-left corner instead of the brief's 'building teetering on the cracking chart' — stack building directly on the chart's break point so the metaphor reads as one unit.",
+          "card-item, suitcase-item, and voice-item are rendered under ~20px on the robots' hands and are unreadable; scale each to at least 1.3x and reposition so they clear the robot's arm overlap.",
+          "agent-3 and voice-item are clipped by the right edge per the lint warnings (agent-3 x 847–1043, voice-item x 1058–1069) — shift the robot line left-ward or rescale agent-3 to 0.42 to pull both back inside the safe area.",
+          "Composition is bottom-heavy and left-loaded: the top-right quadrant is empty while building, chart, human, doorway, and three robots are crammed into the bottom third — rebalance across the square, e.g. raise the chart/building group to mid-height and give the robot line more vertical room.",
+          "This building + falling stock chart + single robot layout is very close to the 'Stock Falls / Jobs Cut' piece already in the recent set — differentiate the staging (e.g., building tilting into the crack, chart angled) so it isn't a near-repeat."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    }
+  ]
+}
