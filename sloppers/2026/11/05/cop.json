@@ -1,0 +1,17 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "pass",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "low",
+          "evidence": "Phrase: '...rolling out new AI agents for your bank, your trip, and your voice.' The only voice/control-related source (Aina smart ring) describes controlling an agent 'with one tap,' not by voice.",
+          "suggestion": "Replace 'your voice' with 'your wrist' or 'your commute' to match the Aina smart ring source (tap control), or add a source that actually covers voice-controlled agents.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}

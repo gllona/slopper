@@ -1,0 +1,222 @@
+{
+  "date": "2026-11-05",
+  "number": 37,
+  "mode": "fresh",
+  "motto": "Agents Rise As Stocks Fall",
+  "phrase": "AI stocks sank sharply, a day after voters rejected new data centers. Companies responded by rolling out new AI agents for your bank, your trip, and your voice.",
+  "phraseAlternatives": [
+    "The market dropped sharply the day after voters rejected data centers. Still, companies launched new AI agents for your bank account, your trip, and your voice.",
+    "Investors panicked over new AI rules the day after the election. The industry's response: more agents, for your money, your travel, and your calls.",
+    "AI stocks fell hard right after voters said no to new data centers. The industry's answer was more agents, not fewer data centers.",
+    "Wall Street took a beating over fears of new AI rules. Meanwhile, companies kept launching AI agents for your bank, your trip, and your ring."
+  ],
+  "alt": "A tilted office building teeters on a cracked, plunging line chart on the left. A calm human figure stands between the two scenes. On the right, three small robots march out of a doorway, each carrying a different item: a bank card, a suitcase, and a phone. The label \"Business As Usual\" reads above.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "law": 1,
+    "safety": 2,
+    "society": 3,
+    "education": 1,
+    "planet": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "datacenter-backlash-campaign",
+    "ai-agents-for-daily-life",
+    "taiwan-chip-worker-unrest",
+    "ai-floods-math-world"
+  ],
+  "topStories": [
+    {
+      "title": "Voters' data center backlash hits Wall Street; industry offers concessions",
+      "itemIds": [
+        "hackernews:209bc0f79dcf",
+        "hackernews:d1463622881f",
+        "feeds:284810c2fd04",
+        "gdelt:b4e64589c116",
+        "gdelt:acd616f1c130",
+        "gdelt:2110bbe130fe"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "AI agents arrive for everyday life: finance, travel, voice avatars, rings",
+      "itemIds": [
+        "feeds:5745c5696917",
+        "feeds:1c93245ee8b0",
+        "feeds:c404a4b9dc3f",
+        "feeds:f66d8f294288",
+        "feeds:1121cf54e69f",
+        "feeds:43c752bee90e",
+        "feeds:625767de35b4"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-agents-for-daily-life"
+    },
+    {
+      "title": "A rare strike in Taiwan exposes labor unrest beneath the AI boom",
+      "itemIds": [
+        "feeds:58ae7c69fbe8"
+      ],
+      "dimensions": [
+        "labor",
+        "society",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "taiwan-chip-worker-unrest"
+    },
+    {
+      "title": "A startup formally verifies math to push back against AI slop",
+      "itemIds": [
+        "feeds:9a1f2f6f2756",
+        "hackernews:bafafb1d70ea"
+      ],
+      "dimensions": [
+        "science",
+        "capabilities",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-floods-math-world"
+    }
+  ],
+  "brief": {
+    "concept": "Voters' rejection of data centers finally hit Wall Street, cracking AI stocks, while the industry kept calmly rolling out new AI agents for banking, travel, and voice calls as if nothing happened.",
+    "metaphor": "A company building teeters on a stock chart cracking beneath it as a falling arrow plunges through, while a line of small AI agent robots marches out of a side door nearby, each carrying a different everyday item, completely unbothered.",
+    "cast": [
+      {
+        "who": "a company building standing on a stock chart that is cracking beneath it",
+        "kind": "institution"
+      },
+      {
+        "who": "a falling stock arrow plunging through the crack",
+        "kind": "object"
+      },
+      {
+        "who": "three small AI agent robots marching out of a doorway, each carrying a different item",
+        "kind": "ai"
+      },
+      {
+        "who": "a human figure standing between the two scenes, arms crossed",
+        "kind": "person"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Left half: a company building on a cracking, tilting stock chart, with a downward arrow breaking through the crack line. Right half: three small AI robots marching single-file out of a plain doorway, each holding one distinct object (card, suitcase, ring), undisturbed by the chaos. A human figure stands at the seam between the two halves, arms crossed.",
+    "artType": "static",
+    "alt": "A company building teeters on a cracked, falling stock chart on one side of the image, while on the other side a line of small AI robots marches calmly out of a doorway, each carrying a different item: a bank card, a suitcase, and a ring. A human figure stands between the two scenes with arms crossed."
+  },
+  "sources": [
+    {
+      "id": "hackernews:209bc0f79dcf",
+      "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+      "source": "hackernews",
+      "publisher": "wsj.com",
+      "publishedAt": "2026-11-05T18:00:01.000Z"
+    },
+    {
+      "id": "hackernews:d1463622881f",
+      "title": "Wipeout for AI stocks sends Wall Street reeling and S&P 500 tumbles more than 3%",
+      "url": "https://apnews.com/article/stocks-markets-ai-midterm-oil-trump-7ee9c212805aa5e70cf34d25aab7a36e",
+      "source": "hackernews",
+      "publisher": "apnews.com",
+      "publishedAt": "2026-11-05T19:58:06.000Z"
+    },
+    {
+      "id": "feeds:284810c2fd04",
+      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-05T19:12:39.000Z"
+    },
+    {
+      "id": "gdelt:b4e64589c116",
+      "title": "OpenAI ofrece pagar la luz y medir el ruido de los centros de datos tras el rechazo de los ciudadanos en las elecciones de EEUU",
+      "url": "https://www.malagahoy.es/tecnologia/openai-luz-ruido-centros-datos-elecciones-eeuu_0_2008432385.html",
+      "source": "gdelt",
+      "publisher": "malagahoy.es",
+      "publishedAt": "2026-11-05T22:00:00.000Z"
+    },
+    {
+      "id": "feeds:5745c5696917",
+      "title": "Perplexity launches its own take on AI agents for work",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-05T22:26:50.000Z"
+    },
+    {
+      "id": "feeds:c404a4b9dc3f",
+      "title": "Claude AI can plug directly into your bank account",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-05T18:00:00.000Z"
+    },
+    {
+      "id": "feeds:1121cf54e69f",
+      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-05T22:40:55.000Z"
+    },
+    {
+      "id": "feeds:43c752bee90e",
+      "title": "Exclusive: Aina’s Smart Ring Wants to Be a Remote Control for Your AI Agent",
+      "url": "https://www.wired.com/story/aina-smart-ring/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-11-05T14:00:00.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.29,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-06T11:33:49.163Z"
+}

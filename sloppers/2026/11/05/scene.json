@@ -1,0 +1,168 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {},
+  "elements": [
+    {
+      "id": "building",
+      "component": "raw",
+      "at": {
+        "x": 0.195,
+        "y": 0.39
+      },
+      "scale": 1.2,
+      "rotate": -6,
+      "props": {
+        "width": 160,
+        "height": 240
+      },
+      "svg": "<rect x=\"30\" y=\"10\" width=\"100\" height=\"170\" rx=\"4\" class=\"r-body\" stroke-width=\"5\"/><rect x=\"44\" y=\"26\" width=\"16\" height=\"16\" class=\"r-ink\"/><rect x=\"72\" y=\"26\" width=\"16\" height=\"16\" class=\"r-ink\"/><rect x=\"100\" y=\"26\" width=\"16\" height=\"16\" class=\"r-ink\"/><rect x=\"44\" y=\"56\" width=\"16\" height=\"16\" class=\"r-ink\"/><rect x=\"72\" y=\"56\" width=\"16\" height=\"16\" class=\"r-ink\"/><rect x=\"100\" y=\"56\" width=\"16\" height=\"16\" class=\"r-ink\"/><rect x=\"44\" y=\"86\" width=\"16\" height=\"16\" class=\"r-ink\"/><rect x=\"72\" y=\"86\" width=\"16\" height=\"16\" class=\"r-ink\"/><rect x=\"100\" y=\"86\" width=\"16\" height=\"16\" class=\"r-ink\"/><rect x=\"44\" y=\"116\" width=\"16\" height=\"16\" class=\"r-ink\"/><rect x=\"72\" y=\"116\" width=\"16\" height=\"16\" class=\"r-ink\"/><rect x=\"100\" y=\"116\" width=\"16\" height=\"16\" class=\"r-ink\"/><path d=\"M80,10 L80,0\" class=\"r-line\" stroke-width=\"4\"/><path d=\"M5,205 L35,188 L55,215 L85,190 L110,218 L140,192 L155,206\" fill=\"none\" class=\"r-line\" stroke-width=\"5\" stroke-linecap=\"round\"/>"
+    },
+    {
+      "id": "chart",
+      "component": "chart",
+      "at": {
+        "x": 0.195,
+        "y": 0.62
+      },
+      "scale": 0.7,
+      "props": {
+        "type": "line",
+        "values": [
+          0.85,
+          0.68,
+          0.5,
+          0.32,
+          0.15
+        ],
+        "highlight": "last",
+        "arrow": true,
+        "frame": true
+      }
+    },
+    {
+      "id": "onlooker",
+      "component": "human",
+      "at": {
+        "x": 0.41,
+        "y": 0.78
+      },
+      "scale": 0.7,
+      "props": {
+        "mood": "neutral",
+        "pose": "stand",
+        "color": "body",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "doorway",
+      "component": "raw",
+      "at": {
+        "x": 0.54,
+        "y": 0.641
+      },
+      "scale": 1,
+      "props": {
+        "width": 90,
+        "height": 300
+      },
+      "svg": "<rect x=\"4\" y=\"4\" width=\"82\" height=\"292\" rx=\"6\" class=\"r-paper\" stroke-width=\"5\"/><rect x=\"20\" y=\"22\" width=\"50\" height=\"258\" class=\"r-body-alt\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "agent-1",
+      "component": "robot",
+      "at": {
+        "x": 0.64,
+        "y": 0.78
+      },
+      "scale": 0.52,
+      "props": {
+        "mood": "neutral",
+        "arms": "down",
+        "color": "body",
+        "antenna": true
+      }
+    },
+    {
+      "id": "agent-2",
+      "component": "robot",
+      "at": {
+        "x": 0.765,
+        "y": 0.78
+      },
+      "scale": 0.52,
+      "props": {
+        "mood": "neutral",
+        "arms": "down",
+        "color": "body",
+        "antenna": true
+      }
+    },
+    {
+      "id": "agent-3",
+      "component": "robot",
+      "at": {
+        "x": 0.885,
+        "y": 0.78
+      },
+      "scale": 0.52,
+      "props": {
+        "mood": "neutral",
+        "arms": "down",
+        "color": "body",
+        "antenna": true
+      }
+    },
+    {
+      "id": "card-item",
+      "component": "raw",
+      "attachTo": "agent-1",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "width": 70,
+        "height": 46
+      },
+      "svg": "<rect x=\"5\" y=\"5\" width=\"60\" height=\"36\" rx=\"6\" class=\"r-body\" stroke-width=\"4\"/><rect x=\"12\" y=\"16\" width=\"46\" height=\"8\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "suitcase-item",
+      "component": "raw",
+      "attachTo": "agent-2",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "width": 70,
+        "height": 54
+      },
+      "svg": "<rect x=\"8\" y=\"16\" width=\"54\" height=\"34\" rx=\"4\" class=\"r-body\" stroke-width=\"4\"/><path d=\"M26,16 L26,8 L44,8 L44,16\" fill=\"none\" class=\"r-line\" stroke-width=\"4\"/>"
+    },
+    {
+      "id": "voice-item",
+      "component": "raw",
+      "attachTo": "agent-3",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "width": 70,
+        "height": 54
+      },
+      "svg": "<rect x=\"25\" y=\"4\" width=\"20\" height=\"30\" rx=\"10\" class=\"r-body\" stroke-width=\"4\"/><path d=\"M15,26 a20,20 0 0 0 40,0\" fill=\"none\" class=\"r-line\" stroke-width=\"4\"/><path d=\"M35,46 L35,52\" class=\"r-line\" stroke-width=\"4\"/><path d=\"M6,16 Q0,22 6,28\" fill=\"none\" class=\"r-line\" stroke-width=\"3\"/><path d=\"M64,16 Q70,22 64,28\" fill=\"none\" class=\"r-line\" stroke-width=\"3\"/>"
+    },
+    {
+      "id": "tagline",
+      "component": "label",
+      "at": "top-center",
+      "scale": 1,
+      "props": {
+        "text": "Business As Usual",
+        "size": "md",
+        "kind": "plain",
+        "color": "accent"
+      }
+    }
+  ],
+  "alt": "A tilted office building teeters on a cracked, plunging line chart on the left. A calm human figure stands between the two scenes. On the right, three small robots march out of a doorway, each carrying a different item: a bank card, a suitcase, and a phone. The label \"Business As Usual\" reads above."
+}
