@@ -1,0 +1,237 @@
+{
+  "date": "2026-11-06",
+  "number": 38,
+  "mode": "fresh",
+  "motto": "Stocks Recover As Valuation Soars",
+  "phrase": "A day after trillions evaporated, one AI lab raised $11 billion at a $1.25 trillion valuation. A rival preparing to go public is already being valued lower than hoped.",
+  "phraseAlternatives": [
+    "Global markets wiped out trillions in AI stocks this week. One lab still managed to raise $11 billion at a $1.25 trillion valuation.",
+    "One AI lab's valuation hit $1.25 trillion the same week voters rejected its data centers and markets panicked.",
+    "Investors erased trillions in tech value, then handed one AI lab $11 billion anyway. A rival going public did not get the same warm welcome.",
+    "The market lost trillions on AI fears, then recovered. One lab's funding round did not seem to notice either way."
+  ],
+  "alt": "A rising building climbs a diagonal stack of coins toward a cloud, while across the frame a shrinking building's tiny rocket sits deep inside a much larger dashed rocket outline. Between the two buildings, a happy investor raises a very tall price tag toward the coin building and a worried investor holds a short price tag near their own head, both standing in front of a small falling stock chart.",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 3,
+    "law": 2,
+    "safety": 2,
+    "society": 3,
+    "education": 2,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": 0,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "ai-stock-bubble-risk",
+    "datacenter-backlash-campaign",
+    "nvidia-spy-case",
+    "open-models-close-hacking-gap",
+    "ai-bots-swarm-libraries",
+    "google-school-ai-overviews-backlash"
+  ],
+  "topStories": [
+    {
+      "title": "AI Valuations Diverge As Markets Panic Then Rebound",
+      "itemIds": [
+        "feeds:e40d1a928ab4",
+        "techmeme:9fe03d99795c",
+        "feeds:d9d8ed120c50",
+        "hackernews:72c8d5999f27",
+        "feeds:1252fa751e83",
+        "feeds:cd20ca6e4787",
+        "feeds:ed5494eedae9",
+        "hackernews:965b23d06344"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "ai-stock-bubble-risk"
+    },
+    {
+      "title": "OpenAI Drops NDAs And Google Absorbs A Data Center Site As Backlash Continues",
+      "itemIds": [
+        "feeds:ba76eaa45a1b",
+        "feeds:f0d09c6f77d8",
+        "techmeme:1ddfeaf5a608",
+        "hackernews:7bed7e3c0b8e",
+        "gdelt:291b327d589f"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "China Recruited An AI Executive To Spy On Nvidia's CEO",
+      "itemIds": [
+        "feeds:348cd589f28f",
+        "techmeme:da581be4e259"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "Free Chinese AI Models Near Top Labs' Hacking Skill",
+      "itemIds": [
+        "feeds:f43362858232"
+      ],
+      "dimensions": [
+        "safety",
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "open-models-close-hacking-gap"
+    },
+    {
+      "title": "AI Scraping Bots Swarm University Libraries, Threatening Public Access",
+      "itemIds": [
+        "hackernews:d7697f4bfd59"
+      ],
+      "dimensions": [
+        "society",
+        "education"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-bots-swarm-libraries"
+    },
+    {
+      "title": "A Search Giant Pushes Its AI Into Classrooms As A Student Survey Raises Concerns",
+      "itemIds": [
+        "gdelt:d132f238ab6d"
+      ],
+      "dimensions": [
+        "education",
+        "policy",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "google-school-ai-overviews-backlash"
+    }
+  ],
+  "brief": {
+    "concept": "One AI company's valuation keeps climbing into the trillions even as markets briefly panic, while a rival preparing to go public is already being valued lower than it hoped.",
+    "metaphor": "A money ladder reaching into the clouds beside a rocket that shrinks instead of launching.",
+    "cast": [
+      {
+        "who": "a company building climbing a tall stack of coins into the clouds",
+        "kind": "institution"
+      },
+      {
+        "who": "a falling stock arrow cracking through a chart beneath the building",
+        "kind": "object"
+      },
+      {
+        "who": "a second company building standing on a launch pad, its rocket shrinking instead of lifting off",
+        "kind": "institution"
+      },
+      {
+        "who": "a small crowd of investors holding price tags of different heights",
+        "kind": "person"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Split frame on one shared, cracked stock-chart ground. Left half: a company building climbs a tall stack of coins toward a cloud. Right half: a second company building stands on a rocket launch pad, its rocket visibly smaller than a dotted outline drawn above it. A small group of investors stands in the middle, some reaching up with tall price tags toward the climbing building, a few holding shorter price tags toward the shrinking rocket. No sentences in the image; numerals only if needed.",
+    "artType": "static",
+    "alt": "A building climbs a tall stack of coins into the clouds while, beside it, another building's rocket shrinks instead of launching from its pad. Between them a small crowd of investors holds price tags of different heights toward each building, all standing on a cracked stock chart."
+  },
+  "sources": [
+    {
+      "id": "feeds:1252fa751e83",
+      "title": "AI stocks climb after trillions wiped from market values",
+      "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+      "source": "feeds",
+      "publisher": "BBC News",
+      "publishedAt": "2026-11-06T21:06:25.000Z"
+    },
+    {
+      "id": "feeds:ed5494eedae9",
+      "title": "Global stocks plunge as fears over US AI slowdown spread to Asia and Europe",
+      "url": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+      "source": "feeds",
+      "publisher": "BBC News",
+      "publishedAt": "2026-11-06T13:25:50.000Z"
+    },
+    {
+      "id": "feeds:e40d1a928ab4",
+      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-06T23:46:18.000Z"
+    },
+    {
+      "id": "techmeme:9fe03d99795c",
+      "title": "Sources: OpenAI has closed on new funding of roughly $11B at a $1.25T valuation; the round could increase to as much as $20B in total (Bloomberg)",
+      "url": "https://www.techmeme.com/261106/p22",
+      "source": "techmeme",
+      "publisher": "Techmeme",
+      "publishedAt": "2026-11-06T21:15:00.000Z"
+    },
+    {
+      "id": "feeds:d9d8ed120c50",
+      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-06T22:53:46.000Z"
+    },
+    {
+      "id": "hackernews:72c8d5999f27",
+      "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+      "source": "hackernews",
+      "publisher": "bloomberg.com",
+      "publishedAt": "2026-11-06T16:54:36.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.71,
+    "iterations": 2
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-07T11:31:14.031Z"
+}

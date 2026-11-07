@@ -1,0 +1,173 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {},
+  "elements": [
+    {
+      "id": "cloud-a",
+      "component": "cloud",
+      "at": {
+        "x": 0.21,
+        "y": 0.14
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "proud",
+        "rain": false,
+        "dark": false,
+        "size": "md"
+      }
+    },
+    {
+      "id": "bldg-a",
+      "component": "datacenter",
+      "at": "left-third",
+      "scale": 1,
+      "props": {
+        "racks": 4,
+        "lights": "busy",
+        "steam": true,
+        "fans": true
+      }
+    },
+    {
+      "id": "coins-a",
+      "component": "raw",
+      "at": {
+        "x": 0.14,
+        "y": 0.37
+      },
+      "scale": 0.85,
+      "props": {
+        "width": 140,
+        "height": 353
+      },
+      "svg": "<g><ellipse class=\"r-accent\" cx=\"110\" cy=\"320\" rx=\"28\" ry=\"12\"/><ellipse class=\"r-accent\" cx=\"94\" cy=\"265\" rx=\"28\" ry=\"12\"/><ellipse class=\"r-accent\" cx=\"78\" cy=\"210\" rx=\"28\" ry=\"12\"/><ellipse class=\"r-accent\" cx=\"62\" cy=\"154\" rx=\"28\" ry=\"12\"/><ellipse class=\"r-accent\" cx=\"46\" cy=\"99\" rx=\"28\" ry=\"12\"/><ellipse class=\"r-accent\" cx=\"30\" cy=\"44\" rx=\"28\" ry=\"12\"/></g>"
+    },
+    {
+      "id": "bldg-b",
+      "component": "datacenter",
+      "at": "right-third",
+      "scale": 1.1,
+      "props": {
+        "racks": 2,
+        "lights": "off",
+        "steam": false,
+        "fans": false
+      }
+    },
+    {
+      "id": "rocket-b-outline",
+      "component": "raw",
+      "attachTo": "bldg-b",
+      "side": "top",
+      "offset": [
+        0,
+        -120
+      ],
+      "scale": 1.15,
+      "props": {
+        "width": 100,
+        "height": 220
+      },
+      "svg": "<path class=\"r-thin\" stroke-dasharray=\"10 8\" d=\"M50,0 L78,55 L78,155 L92,185 L71,163 L71,200 L29,200 L29,163 L8,185 L22,155 L22,55 Z\"/>"
+    },
+    {
+      "id": "rocket-b-solid",
+      "component": "raw",
+      "attachTo": "bldg-b",
+      "side": "top",
+      "offset": [
+        0,
+        10
+      ],
+      "scale": 1,
+      "props": {
+        "width": 70,
+        "height": 150
+      },
+      "svg": "<path class=\"r-body\" d=\"M35,0 L55,40 L55,110 L65,130 L50,115 L50,145 L20,145 L20,115 L5,130 L15,110 L15,40 Z\"/>"
+    },
+    {
+      "id": "chart-small",
+      "component": "chart",
+      "at": {
+        "x": 0.5,
+        "y": 0.88
+      },
+      "scale": 0.45,
+      "props": {
+        "type": "line",
+        "values": [
+          0.9,
+          0.75,
+          0.85,
+          0.4,
+          0.22
+        ],
+        "highlight": "last",
+        "arrow": true,
+        "frame": true
+      }
+    },
+    {
+      "id": "investor-left",
+      "component": "human",
+      "at": {
+        "x": 0.4,
+        "y": 0.82
+      },
+      "scale": 0.65,
+      "flip": true,
+      "props": {
+        "mood": "happy",
+        "pose": "point",
+        "holds": "none",
+        "color": "accent",
+        "kind": "adult"
+      }
+    },
+    {
+      "id": "tag-tall",
+      "component": "raw",
+      "attachTo": "investor-left",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "width": 70,
+        "height": 400
+      },
+      "svg": "<g><rect class=\"r-thin\" x=\"30\" y=\"90\" width=\"10\" height=\"310\"/><rect class=\"r-accent\" x=\"0\" y=\"0\" width=\"70\" height=\"90\" rx=\"12\"/><circle class=\"r-paper\" cx=\"35\" cy=\"45\" r=\"7\"/></g>"
+    },
+    {
+      "id": "investor-right",
+      "component": "human",
+      "at": {
+        "x": 0.6,
+        "y": 0.82
+      },
+      "scale": 0.65,
+      "flip": false,
+      "props": {
+        "mood": "worried",
+        "pose": "point",
+        "holds": "none",
+        "color": "body",
+        "kind": "adult"
+      }
+    },
+    {
+      "id": "tag-short",
+      "component": "raw",
+      "attachTo": "investor-right",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "width": 70,
+        "height": 120
+      },
+      "svg": "<g><rect class=\"r-thin\" x=\"30\" y=\"90\" width=\"10\" height=\"30\"/><rect class=\"r-accent\" x=\"0\" y=\"0\" width=\"70\" height=\"90\" rx=\"12\"/><circle class=\"r-paper\" cx=\"35\" cy=\"45\" r=\"7\"/></g>"
+    }
+  ],
+  "alt": "A rising building climbs a diagonal stack of coins toward a cloud, while across the frame a shrinking building's tiny rocket sits deep inside a much larger dashed rocket outline. Between the two buildings, a happy investor raises a very tall price tag toward the coin building and a worried investor holds a short price tag near their own head, both standing in front of a small falling stock chart."
+}

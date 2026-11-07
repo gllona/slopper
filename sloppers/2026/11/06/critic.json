@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"cloud-a\" (cloud) was moved 0 px, 12 px to stay inside the artboard",
+          "\"cloud-a\" extends outside the safe area in the final frame (x 22…378, y 12…224)",
+          "\"coins-a\" extends outside the safe area in the final frame (x 51…131, y 435…667)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The winner/loser contrast (bright coin-climbing building vs dim shrinking-rocket building) reads clearly, but the price-tag height gag that's central to the joke doesn't render as tall-vs-short, and clipped safe-area elements plus a chart panel that cuts off both investors' legs push this below publish-ready.",
+        "revisionNotes": [
+          "Fix the price-tag rendering: tag-tall (investor-left) and tag-short (investor-right) sit at the same height on each rooftop, so the 'rival valued lower' punchline never reads — scale stems so the tall tag clears the cloud-side building and the short one stays near the investor's head.",
+          "Nudge cloud-a down/right or scale it to ~0.9; lint flags it clipped at the top-left safe-area edge.",
+          "Shift coins-a right or scale to ~0.85 so the stack stops bleeding past the left safe-area edge per lint.",
+          "Raise chart-ground (or scale it to ~0.6) — the opaque white panel currently clips both investors off at the waist, hiding their legs.",
+          "Right half reads empty (bare cream around the dashed rocket) against a crowded left half; scale bldg-b/rocket-b group to ~1.1 or bring the dashed outline closer to balance the frame.",
+          "Stagger the coins diagonally toward the cloud instead of a straight vertical column beside the building, so the 'money ladder' metaphor connects visually rather than floating disconnected."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"cloud-a\" extends outside the safe area in the final frame (x 89…374, y 39…209)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The core contrast — one company climbing a coin-ladder into the clouds versus a rival's rocket shrinking on the pad — reads quickly and the cast is correctly human/institution, but overlapping investor figures, an ambiguous price-tag prop, and a cramped chart keep it from feeling fully polished. It clears the pass bar, just barely.",
+        "revisionNotes": [
+          "Move investor-left and investor-right outward (e.g. x=0.33 and x=0.67) so their torsos clear bldg-a and bldg-b's racks; right now both figures overlap the server-rack components, which reads as a rendering glitch.",
+          "Redesign the tag-tall/tag-short raw props so the colored box reads as a price tag rather than an antenna or thermometer — add a tag-notch silhouette or a small numeral so the 'valuation signal' mechanic is legible without the caption.",
+          "Scale chart-small up to ~0.55 and nudge to y=0.92, clear of the investors' legs, so the falling-arrow chart isn't the smallest, least legible element in the frame.",
+          "Pull cloud-a inside the safe area per the lint warning — move to roughly x=0.25, y=0.17 or scale down to 0.7.",
+          "Separate coins-a from bldg-a's steam puffs visually (shift the coin ladder further left/up or shift its hue) so the pink steam cloud and the coin ovals don't merge into one blob at a glance.",
+          "Vary the coin ellipse sizes/angles slightly so the ladder reads as a climbing staircase of coins rather than a uniform dotted trail."
+        ]
+      },
+      "average": 3.71,
+      "passed": true
+    }
+  ]
+}
