@@ -1,0 +1,209 @@
+{
+  "topStories": [
+    {
+      "title": "AI Valuations Diverge As Markets Panic Then Rebound",
+      "itemIds": [
+        "feeds:e40d1a928ab4",
+        "techmeme:9fe03d99795c",
+        "feeds:d9d8ed120c50",
+        "hackernews:72c8d5999f27",
+        "feeds:1252fa751e83",
+        "feeds:cd20ca6e4787",
+        "feeds:ed5494eedae9",
+        "hackernews:965b23d06344"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "ai-stock-bubble-risk"
+    },
+    {
+      "title": "OpenAI Drops NDAs And Google Absorbs A Data Center Site As Backlash Continues",
+      "itemIds": [
+        "feeds:ba76eaa45a1b",
+        "feeds:f0d09c6f77d8",
+        "techmeme:1ddfeaf5a608",
+        "hackernews:7bed7e3c0b8e",
+        "gdelt:291b327d589f"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "China Recruited An AI Executive To Spy On Nvidia's CEO",
+      "itemIds": [
+        "feeds:348cd589f28f",
+        "techmeme:da581be4e259"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "Free Chinese AI Models Near Top Labs' Hacking Skill",
+      "itemIds": [
+        "feeds:f43362858232"
+      ],
+      "dimensions": [
+        "safety",
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "open-models-close-hacking-gap"
+    },
+    {
+      "title": "AI Scraping Bots Swarm University Libraries, Threatening Public Access",
+      "itemIds": [
+        "hackernews:d7697f4bfd59"
+      ],
+      "dimensions": [
+        "society",
+        "education"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-bots-swarm-libraries"
+    },
+    {
+      "title": "A Search Giant Pushes Its AI Into Classrooms As A Student Survey Raises Concerns",
+      "itemIds": [
+        "gdelt:d132f238ab6d"
+      ],
+      "dimensions": [
+        "education",
+        "policy",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "google-school-ai-overviews-backlash"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "nvidia-spy-case",
+      "title": "China's Spy Campaign Targets A Chipmaker's CEO",
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry"
+      ],
+      "motifs": [
+        "a shadowy figure photographing a glowing chip blueprint",
+        "a handshake hiding a tiny recording device",
+        "a corporate badge flipping over to reveal a spy symbol"
+      ]
+    },
+    {
+      "id": "open-models-close-hacking-gap",
+      "title": "Free Open AI Models Catch Up On Hacking Skill",
+      "dimensions": [
+        "safety",
+        "capabilities",
+        "industry"
+      ],
+      "motifs": [
+        "a locked vault model and a free model picking the same lock, almost tied",
+        "two robot hands prying open the same padlock, one tagged FREE",
+        "a benchmark bar chart where the free model's bar nearly reaches the sealed one"
+      ]
+    },
+    {
+      "id": "ai-bots-swarm-libraries",
+      "title": "AI Scraping Bots Swarm University Libraries",
+      "dimensions": [
+        "society",
+        "education"
+      ],
+      "motifs": [
+        "a library turnstile jammed by a swarm of small crawling robot hands",
+        "a reading-room door propped shut by a pile of robot visitors",
+        "a librarian holding up a closed sign against a wave of tiny bots"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The top story (AI valuations diverging from a panicked, then rebounding market) scores novelty 2 × magnitude 3 × breadth 3 = 18, well above the threshold of 8, so today stands as its own fresh slopper.",
+  "motto": "Stocks Recover As Valuation Soars",
+  "phrase": "A day after trillions evaporated, one AI lab raised $11 billion at a $1.25 trillion valuation. A rival preparing to go public is already being valued lower than hoped.",
+  "phraseAlternatives": [
+    "Global markets wiped out trillions in AI stocks this week. One lab still managed to raise $11 billion at a $1.25 trillion valuation.",
+    "One AI lab's valuation hit $1.25 trillion the same week voters rejected its data centers and markets panicked.",
+    "Investors erased trillions in tech value, then handed one AI lab $11 billion anyway. A rival going public did not get the same warm welcome.",
+    "The market lost trillions on AI fears, then recovered. One lab's funding round did not seem to notice either way."
+  ],
+  "brief": {
+    "concept": "One AI company's valuation keeps climbing into the trillions even as markets briefly panic, while a rival preparing to go public is already being valued lower than it hoped.",
+    "metaphor": "A money ladder reaching into the clouds beside a rocket that shrinks instead of launching.",
+    "cast": [
+      {
+        "who": "a company building climbing a tall stack of coins into the clouds",
+        "kind": "institution"
+      },
+      {
+        "who": "a falling stock arrow cracking through a chart beneath the building",
+        "kind": "object"
+      },
+      {
+        "who": "a second company building standing on a launch pad, its rocket shrinking instead of lifting off",
+        "kind": "institution"
+      },
+      {
+        "who": "a small crowd of investors holding price tags of different heights",
+        "kind": "person"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Split frame on one shared, cracked stock-chart ground. Left half: a company building climbs a tall stack of coins toward a cloud. Right half: a second company building stands on a rocket launch pad, its rocket visibly smaller than a dotted outline drawn above it. A small group of investors stands in the middle, some reaching up with tall price tags toward the climbing building, a few holding shorter price tags toward the shrinking rocket. No sentences in the image; numerals only if needed.",
+    "artType": "static",
+    "alt": "A building climbs a tall stack of coins into the clouds while, beside it, another building's rocket shrinks instead of launching from its pad. Between them a small crowd of investors holds price tags of different heights toward each building, all standing on a cracked stock chart."
+  },
+  "sourceIds": [
+    "feeds:1252fa751e83",
+    "feeds:ed5494eedae9",
+    "feeds:e40d1a928ab4",
+    "techmeme:9fe03d99795c",
+    "feeds:d9d8ed120c50",
+    "hackernews:72c8d5999f27"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 3,
+    "law": 2,
+    "safety": 2,
+    "society": 3,
+    "education": 2,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": 0,
+    "calm_frantic": 1
+  }
+}
