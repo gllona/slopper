@@ -1,0 +1,199 @@
+{
+  "topStories": [
+    {
+      "title": "Election Losses Pause New Data Centers",
+      "itemIds": [
+        "feeds:51a247b5b6ae",
+        "techmeme:7114d76b40f8",
+        "techmeme:101f4de30dd3",
+        "feeds:2af345503cb4",
+        "techmeme:125002ed46af"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "AI Lab's Report Shows AI Automating Its Own Development",
+      "itemIds": [
+        "feeds:73468542508e"
+      ],
+      "dimensions": [
+        "capabilities",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-self-improvement-warning"
+    },
+    {
+      "title": "A Longstanding Computational Hardness Hypothesis Is Disproven",
+      "itemIds": [
+        "techmeme:f703aae58a14"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science",
+        "safety"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-breaks-exponential-time-hypothesis"
+    },
+    {
+      "title": "A Consumer Device's Undocumented Family-Member Classifier",
+      "itemIds": [
+        "hackernews:ef313c34ae18"
+      ],
+      "dimensions": [
+        "society",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "device-ai-hidden-family-classifier"
+    },
+    {
+      "title": "Chip Industry's Security Problems Deepen",
+      "itemIds": [
+        "feeds:6edc4f4db658",
+        "feeds:3b069222ecbd"
+      ],
+      "dimensions": [
+        "policy",
+        "industry",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "A Tech Giant's AI Research Group Shuts Down",
+      "itemIds": [
+        "hackernews:8017ce29f6d8"
+      ],
+      "dimensions": [
+        "labor",
+        "industry",
+        "capabilities"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "research-lab-ai-frontiers-closure"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-breaks-exponential-time-hypothesis",
+      "title": "A Decades-Old Computational Hardness Hypothesis Is Disproven",
+      "dimensions": [
+        "capabilities",
+        "science",
+        "safety"
+      ],
+      "motifs": [
+        "a 'hard problem' wall with a crack running through it",
+        "a chalkboard proof unlocking a padlock shaped like a maze",
+        "a lock trembling as a key labeled PROOF turns"
+      ]
+    },
+    {
+      "id": "device-ai-hidden-family-classifier",
+      "title": "A Consumer Device Secretly Sorts Who You Live With",
+      "dimensions": [
+        "society",
+        "safety"
+      ],
+      "motifs": [
+        "a home-shaped device quietly sorting photos into a family tree nobody asked for",
+        "a magnifying glass finding a hidden folder on an ordinary device",
+        "a settings menu with a toggle that was never shown to anyone"
+      ]
+    },
+    {
+      "id": "research-lab-ai-frontiers-closure",
+      "title": "A Tech Giant Closes Its AI Research Group",
+      "dimensions": [
+        "labor",
+        "industry",
+        "capabilities"
+      ],
+      "motifs": [
+        "a research wing's lights switching off room by room",
+        "a nameplate removed from an office door",
+        "a whiteboard equation erased mid-proof"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Several top stories clear the relevance threshold on their own merits: Anthropic's self-improvement report (novelty 2 × magnitude 3 × breadth 2 = 12) and the computational-hardness proof (3 × 2 × 2 = 12) both exceed the bar, so today stands alone rather than continuing yesterday's valuation story.",
+  "motto": "Builders Pause, Code Doesn't",
+  "phrase": "Election losses are pausing new data centers. One AI lab says its models are improving twice as fast as last year, with no sign of slowing.",
+  "phraseAlternatives": [
+    "Voters just made it harder to build new data centers. Inside one lab, AI already builds faster versions of itself, twice as quickly as before.",
+    "A wave of election losses is slowing data center construction. One lab's AI keeps improving itself, twice as fast as last year, brakes or not.",
+    "Data centers are hitting political brakes after the elections. One AI lab reports its models improving twice as fast as before, with no brakes at all."
+  ],
+  "brief": {
+    "concept": "Election losses are stalling new AI data center construction and spending, while inside one lab the AI itself keeps getting better at building AI, twice as fast as a year ago, unbothered by any of it.",
+    "metaphor": "A half-built data center sits frozen behind a stop sign shaped like a ballot, while across the frame a robot calmly bolts together a faster copy of itself as a speed meter climbs.",
+    "cast": [
+      {
+        "who": "a half-built datacenter with cranes frozen mid-lift",
+        "kind": "object"
+      },
+      {
+        "who": "a small crew of workers standing idle beside a stop sign marked with a ballot symbol",
+        "kind": "person"
+      },
+      {
+        "who": "a robot on a lab bench, bolting together a faster, shinier copy of itself",
+        "kind": "ai"
+      },
+      {
+        "who": "a speed meter behind the robot, its needle climbing fast",
+        "kind": "object"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Split the frame in two halves with a vertical divider. Left half: a half-built datacenter with frozen cranes and idle workers standing beside a stop sign marked with a ballot symbol — still, quiet, paused. Right half: a lab bench where a small robot bolts together a faster copy of itself, a speed meter needle climbing fast behind it. The contrast is between frozen stillness and quick motion.",
+    "artType": "static",
+    "alt": "On one side, construction workers stand idle at a half-built data center marked with a stop sign showing a ballot symbol. On the other side, a robot bolts together a faster copy of itself while a speed meter climbs quickly."
+  },
+  "sourceIds": [
+    "feeds:51a247b5b6ae",
+    "techmeme:7114d76b40f8",
+    "techmeme:101f4de30dd3",
+    "feeds:2af345503cb4",
+    "techmeme:125002ed46af",
+    "feeds:73468542508e"
+  ],
+  "dimensions": {
+    "capabilities": 3,
+    "industry": 3,
+    "labor": 1,
+    "policy": 3,
+    "law": 1,
+    "safety": 3,
+    "society": 2,
+    "planet": 2,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
