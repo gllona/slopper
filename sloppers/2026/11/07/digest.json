@@ -1,0 +1,302 @@
+{
+  "date": "2026-11-07",
+  "fetchedAt": "2026-11-08T11:08:02.133Z",
+  "sources": [
+    {
+      "source": "feeds",
+      "ok": true,
+      "count": 8
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "count": 4
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 7
+    },
+    {
+      "source": "gdelt",
+      "ok": false,
+      "count": 0,
+      "error": "all GDELT queries failed"
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "count": 6
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "feeds:a2958beb18e4",
+      "source": "feeds",
+      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+      "snippet": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently…",
+      "publishedAt": "2026-11-07T15:50:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:6edc4f4db658",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "title": "The US let Nvidia sell chips to an empty office in China",
+      "snippet": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a…",
+      "publishedAt": "2026-11-07T15:43:45.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:348805e0618f",
+      "source": "feeds",
+      "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "title": "AI broke the cybersecurity world. What’s next?",
+      "snippet": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so direct, and you’re…",
+      "publishedAt": "2026-11-07T15:00:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:73468542508e",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "snippet": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research…",
+      "publishedAt": "2026-11-07T12:30:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:b42589d39e65",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
+      "title": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
+      "snippet": "The apps and platforms that help family caregivers manage their loved ones’ needs are becoming more capable, but the broader issue of caregivers’ well-being remains unsolved.",
+      "publishedAt": "2026-11-07T11:00:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:51a247b5b6ae",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "snippet": "On Equity, we unpacked what the midterms mean for the tech industry.",
+      "publishedAt": "2026-11-07T22:07:22.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:3b069222ecbd",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "snippet": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+      "publishedAt": "2026-11-07T21:17:08.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:2af345503cb4",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "snippet": "The deal highlights the challenges of developing massive AI data centers.",
+      "publishedAt": "2026-11-07T01:40:28.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:125002ed46af",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261107/p15",
+      "title": "Report: SEA makes up ~50% of APAC data center capacity being built, led by Malaysia and Thailand, which paused 49 and delayed approvals of 117 projects in Sept. (Arundhati Hazra/The Guardian)",
+      "snippet": "Arundhati Hazra / The Guardian : Report: SEA makes up ~50% of APAC data center capacity being built, led by Malaysia and Thailand, which paused 49 and delayed approvals of 117 projects in Sept. — Power and water constraints are pressuring what seemed like a juggernaut of growth for the region just…",
+      "publishedAt": "2026-11-07T21:40:00.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:7114d76b40f8",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261107/p14",
+      "title": "Public records appear to show SpaceX building a \"Starbase supercomputer\" in TX, but Gina Hinojosa's election as governor may delay some of the data center plans (Ann Davis Vaughan/The Information)",
+      "snippet": "Ann Davis Vaughan / The Information : Public records appear to show SpaceX building a “Starbase supercomputer” in TX, but Gina Hinojosa's election as governor may delay some of the data center plans — Elon Musk moved early to build AI data centers in Tennessee and Mississippi and reaped the rewards.",
+      "publishedAt": "2026-11-07T19:40:04.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:f703aae58a14",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261107/p12",
+      "title": "Exponential Time Hypothesis co-proposer Russell Impagliazzo calls OpenAI's disproof \"shocking news\"; it could one day speed up chip design and break encryption (Cade Metz/New York Times)",
+      "snippet": "Cade Metz / New York Times : Exponential Time Hypothesis co-proposer Russell Impagliazzo calls OpenAI's disproof “shocking news”; it could one day speed up chip design and break encryption — A longstanding hypothesis held that some problems would always be hard for computers to solve quickly.",
+      "publishedAt": "2026-11-07T17:15:01.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:101f4de30dd3",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261107/p11",
+      "title": "Democratic wins could slow AI investment and safeguard the US economy against a downturn by pacing it over time, as Deutsche Bank sees \"shaky\" projects killed (Cecile Daurat/Bloomberg)",
+      "snippet": "Cecile Daurat / Bloomberg : Democratic wins could slow AI investment and safeguard the US economy against a downturn by pacing it over time, as Deutsche Bank sees “shaky” projects killed — Guardrails against data-center expansion in states won by Democrats may help spread investment over time.",
+      "publishedAt": "2026-11-07T16:35:01.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:ef313c34ae18",
+      "source": "hackernews",
+      "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+      "title": "Every Mac comes with an (undocumented) family member classifier",
+      "snippet": "739 points and 393 comments on Hacker News (https://news.ycombinator.com/item?id=50403097).",
+      "publishedAt": "2026-11-07T09:46:03.000Z",
+      "score": 739,
+      "publisher": "8rank.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:8017ce29f6d8",
+      "source": "hackernews",
+      "url": "https://hunch.net/?p=13764006",
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "snippet": "464 points and 277 comments on Hacker News (https://news.ycombinator.com/item?id=50406563).",
+      "publishedAt": "2026-11-07T18:02:17.000Z",
+      "score": 464,
+      "publisher": "hunch.net",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:5be9cd76a11a",
+      "source": "hackernews",
+      "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+      "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "snippet": "326 points and 84 comments on Hacker News (https://news.ycombinator.com/item?id=50406222).",
+      "publishedAt": "2026-11-07T17:19:00.000Z",
+      "score": 326,
+      "publisher": "maxxbench.unlap.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:db4af631edd9",
+      "source": "hackernews",
+      "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+      "title": "The AI sell-off compared to well-known stock market crashes",
+      "snippet": "92 points and 76 comments on Hacker News (https://news.ycombinator.com/item?id=50401029).",
+      "publishedAt": "2026-11-07T02:20:06.000Z",
+      "score": 92,
+      "publisher": "kadoa.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:3267520e37bc",
+      "source": "hackernews",
+      "url": "https://www.rollingstone.com/culture/culture-commentary/good-riddance-elon-musk-cybertruck-1235654079/",
+      "title": "Good Riddance to the Cybertruck, the Chariot of the Dumbest Gods",
+      "snippet": "42 points and 14 comments on Hacker News (https://news.ycombinator.com/item?id=50408028).",
+      "publishedAt": "2026-11-07T21:02:25.000Z",
+      "score": 42,
+      "publisher": "rollingstone.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:2d0f77b80e40",
+      "source": "hackernews",
+      "url": "https://eyesrhythm.com/",
+      "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+      "snippet": "31 points and 15 comments on Hacker News (https://news.ycombinator.com/item?id=50408350).",
+      "publishedAt": "2026-11-07T21:47:47.000Z",
+      "score": 31,
+      "publisher": "eyesrhythm.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:f52004a32f42",
+      "source": "hackernews",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-intelligence-believes-jensen-huang-had-romantic-relationship-with-chinese-spy-in-honeypot-operation-spy-suspect-linked-to-company-accused-of-smuggling-usd2-billion-in-ai-chips",
+      "title": "US intelligence: Jensen Huang had affair with Chinese spy; linked to smuggling",
+      "snippet": "24 points and 4 comments on Hacker News (https://news.ycombinator.com/item?id=50406541).",
+      "publishedAt": "2026-11-07T18:00:02.000Z",
+      "score": 24,
+      "publisher": "tomshardware.com",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:50a561c320a6",
+      "source": "huggingface",
+      "url": "https://huggingface.co/speridlabs/idol",
+      "title": "Trending open model: speridlabs/idol",
+      "snippet": "Task: image-to-3d. 1250 likes, 22854 downloads.",
+      "publishedAt": "2026-10-28T15:55:17.000Z",
+      "score": 761,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:5137eafbc949",
+      "source": "huggingface",
+      "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "title": "Trending open model: xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "snippet": "Task: text-generation. 665 likes, 7088 downloads.",
+      "publishedAt": "2026-10-30T10:21:29.000Z",
+      "score": 551,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:f4a904d03d80",
+      "source": "huggingface",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "title": "Trending open model: moonshotai/Kimi-K3.1-Pro",
+      "snippet": "Task: image-text-to-text. 1682 likes, 25569 downloads.",
+      "publishedAt": "2026-11-02T04:13:51.000Z",
+      "score": 541.5,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:c09e79a65e08",
+      "source": "huggingface",
+      "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+      "title": "Trending open model: ccore/Qwen3.5-4B-3D-Coder",
+      "snippet": "893 likes, 254053 downloads.",
+      "publishedAt": "2026-10-25T05:43:34.000Z",
+      "score": 409,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:2442dea1774d",
+      "source": "huggingface",
+      "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+      "title": "Trending open model: ricursiveAI/Ripple-65B-Preview",
+      "snippet": "381 likes, 5087 downloads.",
+      "publishedAt": "2026-11-04T02:41:21.000Z",
+      "score": 371,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:bbf2ecda5260",
+      "source": "huggingface",
+      "url": "https://huggingface.co/FusionCow/Sulphur-3",
+      "title": "Trending open model: FusionCow/Sulphur-3",
+      "snippet": "409 likes, 1003 downloads.",
+      "publishedAt": "2026-10-31T20:31:01.000Z",
+      "score": 341,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    }
+  ]
+}

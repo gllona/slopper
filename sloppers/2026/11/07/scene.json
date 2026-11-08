@@ -1,0 +1,191 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {},
+  "elements": [
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1,
+      "props": {
+        "width": 10,
+        "height": 960
+      },
+      "svg": "<rect class=\"r-ink\" x=\"0\" y=\"0\" width=\"10\" height=\"960\"/>"
+    },
+    {
+      "id": "dc",
+      "component": "datacenter",
+      "at": {
+        "x": 0.28,
+        "y": 0.74
+      },
+      "scale": 1.15,
+      "props": {
+        "racks": 3,
+        "lights": "off",
+        "steam": false,
+        "fans": false
+      }
+    },
+    {
+      "id": "crane",
+      "component": "raw",
+      "attachTo": "dc",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "width": 180,
+        "height": 200
+      },
+      "svg": "<path class=\"r-line\" d=\"M30,200 L30,20 L150,20\"/><path class=\"r-line\" d=\"M150,20 L150,70\"/><rect class=\"r-accent\" x=\"130\" y=\"70\" width=\"40\" height=\"40\" rx=\"6\"/>"
+    },
+    {
+      "id": "label-paused",
+      "component": "label",
+      "at": {
+        "x": 0.17,
+        "y": 0.1
+      },
+      "scale": 1,
+      "props": {
+        "text": "PAUSED",
+        "size": "sm",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "worker1",
+      "component": "human",
+      "at": {
+        "x": 0.13,
+        "y": 0.84
+      },
+      "scale": 0.55,
+      "props": {
+        "mood": "worried",
+        "pose": "stand",
+        "color": "accent",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "stopsign",
+      "component": "raw",
+      "at": {
+        "x": 0.27,
+        "y": 0.758
+      },
+      "scale": 0.8,
+      "props": {
+        "width": 160,
+        "height": 220
+      },
+      "svg": "<path class=\"r-accent\" d=\"M48,10 L112,10 L150,48 L150,112 L112,150 L48,150 L10,112 L10,48 Z\"/><rect class=\"r-ink\" x=\"72\" y=\"150\" width=\"16\" height=\"70\"/><rect class=\"r-paper\" x=\"45\" y=\"80\" width=\"70\" height=\"55\" rx=\"8\"/><rect class=\"r-ink\" x=\"62\" y=\"74\" width=\"36\" height=\"10\" rx=\"3\"/><rect class=\"r-body\" x=\"68\" y=\"35\" width=\"24\" height=\"44\" rx=\"3\"/><path class=\"r-line\" d=\"M72,55 L78,61 L89,46\"/>"
+    },
+    {
+      "id": "worker2",
+      "component": "human",
+      "at": {
+        "x": 0.42,
+        "y": 0.84
+      },
+      "scale": 0.55,
+      "props": {
+        "mood": "exhausted",
+        "pose": "stand",
+        "color": "accent",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "meter",
+      "component": "meter",
+      "at": {
+        "x": 0.9,
+        "y": 0.55
+      },
+      "scale": 0.75,
+      "props": {
+        "level": 0.9,
+        "kind": "thermometer",
+        "color": "body"
+      }
+    },
+    {
+      "id": "robot",
+      "component": "robot",
+      "at": {
+        "x": 0.74,
+        "y": 0.74
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "proud",
+        "arms": "out",
+        "color": "accent",
+        "antenna": true
+      }
+    },
+    {
+      "id": "bolt-tool",
+      "component": "raw",
+      "attachTo": "robot",
+      "side": "left",
+      "scale": 0.5,
+      "props": {
+        "width": 70,
+        "height": 70
+      },
+      "svg": "<path class=\"r-ink\" d=\"M35,8 L58,21 L58,49 L35,62 L12,49 L12,21 Z\"/><circle class=\"r-paper\" cx=\"35\" cy=\"35\" r=\"11\"/>"
+    },
+    {
+      "id": "label-fast",
+      "component": "label",
+      "attachTo": "robot",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "TWICE AS FAST",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "bench",
+      "component": "raw",
+      "at": {
+        "x": 0.583,
+        "y": 0.92
+      },
+      "scale": 1,
+      "props": {
+        "width": 130,
+        "height": 46
+      },
+      "svg": "<rect class=\"r-body-alt\" x=\"5\" y=\"4\" width=\"120\" height=\"16\" rx=\"6\"/><rect class=\"r-ink\" x=\"18\" y=\"20\" width=\"10\" height=\"22\"/><rect class=\"r-ink\" x=\"102\" y=\"20\" width=\"10\" height=\"22\"/>"
+    },
+    {
+      "id": "mini-robot",
+      "component": "robot",
+      "attachTo": "bench",
+      "side": "top",
+      "scale": 0.42,
+      "props": {
+        "mood": "neutral",
+        "arms": "down",
+        "color": "body",
+        "antenna": false
+      }
+    }
+  ],
+  "alt": "A thin vertical line splits the image. On the left, two idle workers stand by a stop sign showing a ballot slipping into a ballot box, in front of a half-built, dark data center with a frozen crane, labeled paused. On the right, a larger proud robot holding a bolt stands beside a workbench where a smaller copy of itself sits, with a speed gauge nearly full and a label reading twice as fast."
+}
