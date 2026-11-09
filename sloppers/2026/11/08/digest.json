@@ -1,0 +1,663 @@
+{
+  "date": "2026-11-08",
+  "fetchedAt": "2026-11-09T11:08:06.623Z",
+  "sources": [
+    {
+      "source": "feeds",
+      "ok": true,
+      "count": 7
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 9
+    },
+    {
+      "source": "gdelt",
+      "ok": false,
+      "count": 0,
+      "error": "all GDELT queries failed"
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "count": 5
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 40
+    }
+  ],
+  "items": [
+    {
+      "id": "feeds:0920037064cb",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "snippet": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the…",
+      "publishedAt": "2026-11-08T22:54:50.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:dc76b4dc6a4e",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "title": "Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy",
+      "snippet": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board…",
+      "publishedAt": "2026-11-08T20:22:39.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:d61b9bc4b24c",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+      "title": "Apple is racing to make Siri more agentic",
+      "snippet": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the…",
+      "publishedAt": "2026-11-08T19:18:19.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:e4174df85a32",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+      "title": "Elvis and Eminem rights holders are suing Suno",
+      "snippet": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim…",
+      "publishedAt": "2026-11-08T17:23:19.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:72a092763262",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+      "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
+      "snippet": "The New York Times has added a beta feature to its Cooking app that helps readers swap ingredients or adjust recipes to suit their needs. It mostly hits the mark.",
+      "publishedAt": "2026-11-08T12:00:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:17399ce99af0",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/",
+      "title": "World Models Will Soon Be Inescapable. Here’s What You Need to Know",
+      "snippet": "Moving AI from text to 3D space, world models simulate real-world physics to teach robots and autonomous cars how to navigate reality.",
+      "publishedAt": "2026-11-08T10:00:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:8a86cf9d70b8",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "snippet": "In a memo to the company, Huang admitted that he had an affair.",
+      "publishedAt": "2026-11-08T21:00:11.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:55858f2b4ca7",
+      "source": "hackernews",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "snippet": "429 points and 193 comments on Hacker News (https://news.ycombinator.com/item?id=50411961).",
+      "publishedAt": "2026-11-08T10:22:04.000Z",
+      "score": 429,
+      "publisher": "github.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:dab987be36e1",
+      "source": "hackernews",
+      "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html",
+      "title": "I'm not convinced the AI bubble exists",
+      "snippet": "317 points and 542 comments on Hacker News (https://news.ycombinator.com/item?id=50418975).",
+      "publishedAt": "2026-11-08T23:44:36.000Z",
+      "score": 317,
+      "publisher": "matteoraso.github.io",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:8b18a5361e6d",
+      "source": "hackernews",
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "title": "How I Fight AI Brain Fry",
+      "snippet": "264 points and 176 comments on Hacker News (https://news.ycombinator.com/item?id=50416363).",
+      "publishedAt": "2026-11-08T19:37:42.000Z",
+      "score": 264,
+      "publisher": "sergeykuhne.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:ca0c8439858f",
+      "source": "hackernews",
+      "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
+      "title": "Consumer brain wave headsets threaten privacy",
+      "snippet": "117 points and 92 comments on Hacker News (https://news.ycombinator.com/item?id=50409856).",
+      "publishedAt": "2026-11-08T02:02:38.000Z",
+      "score": 117,
+      "publisher": "science.org",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:81ca08fb0e37",
+      "source": "hackernews",
+      "url": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
+      "title": "Why I will not be using LLMs in my coding",
+      "snippet": "115 points and 231 comments on Hacker News (https://news.ycombinator.com/item?id=50412591).",
+      "publishedAt": "2026-11-08T12:14:10.000Z",
+      "score": 115,
+      "publisher": "polso.info",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:9df362de277c",
+      "source": "hackernews",
+      "url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
+      "title": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
+      "snippet": "96 points and 121 comments on Hacker News (https://news.ycombinator.com/item?id=50415817).",
+      "publishedAt": "2026-11-08T18:43:07.000Z",
+      "score": 96,
+      "publisher": "wsj.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:3dfb269390b3",
+      "source": "hackernews",
+      "url": "https://taskandpurpose.com/news/drone-mimicking-bird-test/",
+      "title": "Drones built to look like birds evaded detection at Air Force tech exercise",
+      "snippet": "55 points and 43 comments on Hacker News (https://news.ycombinator.com/item?id=50413885).",
+      "publishedAt": "2026-11-08T15:00:42.000Z",
+      "score": 55,
+      "publisher": "taskandpurpose.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:84516172e5c8",
+      "source": "hackernews",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up",
+      "title": "Apple CEO Presses Software Chief to Pursue More Ambitious AI Strategy",
+      "snippet": "36 points and 61 comments on Hacker News (https://news.ycombinator.com/item?id=50414021).",
+      "publishedAt": "2026-11-08T15:19:51.000Z",
+      "score": 36,
+      "publisher": "bloomberg.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:e4fcd8ddeb98",
+      "source": "hackernews",
+      "url": "https://www.youtube.com/watch?v=zrlLUUdqDJI",
+      "title": "Etsy changes terms to train AI on your creations, while blocking you doing it [video]",
+      "snippet": "25 points and 0 comments on Hacker News (https://news.ycombinator.com/item?id=50416103).",
+      "publishedAt": "2026-11-08T19:14:41.000Z",
+      "score": 25,
+      "publisher": "youtube.com",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:50a561c320a6",
+      "source": "huggingface",
+      "url": "https://huggingface.co/speridlabs/idol",
+      "title": "Trending open model: speridlabs/idol",
+      "snippet": "Task: image-to-3d. 1480 likes, 24747 downloads.",
+      "publishedAt": "2026-10-28T15:55:17.000Z",
+      "score": 813,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:5137eafbc949",
+      "source": "huggingface",
+      "url": "https://huggingface.co/xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "title": "Trending open model: xtools-at/DeepSeek-V4-Pro-Qwen3.5-9B-UNCENSORED-heretic",
+      "snippet": "Task: text-generation. 957 likes, 11755 downloads.",
+      "publishedAt": "2026-10-30T10:21:29.000Z",
+      "score": 768,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:f4a904d03d80",
+      "source": "huggingface",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "title": "Trending open model: moonshotai/Kimi-K3.1-Pro",
+      "snippet": "Task: image-text-to-text. 1760 likes, 27926 downloads.",
+      "publishedAt": "2026-11-02T04:13:51.000Z",
+      "score": 574.5,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:2442dea1774d",
+      "source": "huggingface",
+      "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview",
+      "title": "Trending open model: ricursiveAI/Ripple-65B-Preview",
+      "snippet": "423 likes, 5835 downloads.",
+      "publishedAt": "2026-11-04T02:41:21.000Z",
+      "score": 413,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:c09e79a65e08",
+      "source": "huggingface",
+      "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
+      "title": "Trending open model: ccore/Qwen3.5-4B-3D-Coder",
+      "snippet": "933 likes, 289466 downloads.",
+      "publishedAt": "2026-10-25T05:43:34.000Z",
+      "score": 370,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:b0afcada4af1",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08572",
+      "title": "Enhancing Academic Advisement with Case-Based Reasoning",
+      "snippet": "This research involved the study of an application of Case-Based Reasoning (CBR) in the field of academic advising. Academic advisement has been recognised as an important function of higher education. However, there is a widespread desire to improve the advisement services provided by many…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:c62d1996d767",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08672",
+      "title": "Real-World Adoption, Use, and Governance of an LLM-Based Electronic Health Record Search and Synthesis Platform",
+      "snippet": "We evaluated the longitudinal adoption and use of Scout, an electronic health record-integrated large language model platform that provides cited search and synthesis of patient records, during staged deployment across a multi-hospital academic health system. Over 11 months, 2,635 users completed…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:3dbcfeae67cb",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08721",
+      "title": "Remembering Is Not Enough: Evaluating Timing and Omission in Longitudinal AI Mental Health Support",
+      "snippet": "Evaluations of large language models (LLMs) for mental health support commonly focus on the clinical appropriateness of individual responses, potentially overlooking failures that emerge across extended interactions. As AI assistants accumulate memory of users' circumstances and prior disclosures…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:ecac3f9800d0",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08749",
+      "title": "How are viral trends different from educational and commercial uses of LLM image generation and editing? A privacy-preserving descriptive analysis",
+      "snippet": "Gemini's Nano Banana models, first introduced in late 2025, led to a shift in the capabilities and use of image generation and editing. We utilize Urania, a Google-developed framework for generating insights about LLM chatbot interactions with rigorous differential privacy (DP) guarantees, to…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:704b230c8bf5",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08831",
+      "title": "Global Solar Siting from Geospatial Embeddings",
+      "snippet": "Global solar photovoltaic (PV) capacity is rapidly growing, helping decrease our emissions and dependence on fossil fuels. However, optimally siting a solar plant remains challenging, requiring anticipation of geographical, urban, and infrastructure needs. Current methods rely on multi-criteria…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:c36374e82ce0",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08839",
+      "title": "Functional Dependency beyond Similarity: Hierarchical Decomposition of Training Data Attribution in Music Generative Models",
+      "snippet": "Copyright analysis focuses on the similarity between two works. However, generative AI models learn from training data through functional relations beyond similarity. Training Data Attribution (TDA) estimates the influence of each training instance on a generated output and may serve as a basis…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:b5e3e8616a47",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08995",
+      "title": "Same Facts, Different Remedy: Linguistic Profiling and Arbitrariness in LLM and System One Decisions",
+      "snippet": "Large language models are increasingly used to resolve consumer complaints, and the way complainants write varies with age, education and socioeconomic status (SES). We audit three remedy-decision systems using sociolinguistic rewrites of US consumer financial complaints that are instructed to…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:96708ab02585",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.09178",
+      "title": "A Taxonomy-Driven Synthetic Dataset for Retrieval Effectiveness and Fairness Evaluation in Hiring",
+      "snippet": "While machine learning hiring tools are ubiquitous, the need for privacy regulations and commercial sensitivity makes public benchmarking legally complex. We address this challenge by introducing a taxonomy-driven, fully synthetic HR dataset and benchmark to simultaneously evaluate retrieval…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:e53e248d0de5",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.09326",
+      "title": "ABHBench: Evaluating Moral Decision-Making of Foundation Models from an Agentic Perspective",
+      "snippet": "Foundation models are increasingly deployed as agentic systems that perceive context and act autonomously, raising the need to evaluate their moral behavior as active decision-makers. Existing benchmarks, however, largely ask models to judge human actions from third-person textual vignettes…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:5648d94f5690",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.09403",
+      "title": "Uniqueness-Aware Feature Engineering for Representing Humans in Algorithmic Decision Making",
+      "snippet": "Fairness analyses of algorithmic decision systems typically treat the feature representation of individuals as an a priori fixed input. How well a feature representation captures what is actually decision-relevant for different people and their unique backgrounds, however, is typically left…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:52d65dd17e1b",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.09870",
+      "title": "AI Exposure and the Changing Responsibilities in Job Postings",
+      "snippet": "The growing adoption of artificial intelligence (AI) in the workplace has raised questions about how employer demand for different work activities is changing. We examine how the prevalence and content of work activities in online job postings change in association with activity-level measures of…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:ce1d517ee419",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2605.16336",
+      "title": "On Seeding Watermarks to Detect Verbatim LLM Copy-Paste Responses",
+      "snippet": "Large language models (LLMs) have made fluent essay writing, code drafting, and quiz answering instantly available to students at every level, from secondary school through graduate study. Many educators do not object to LLM use \\emph{per~se}; what they need to detect is the case in which a…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:27e4b2415443",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08565",
+      "title": "Seeing Is Not Knowing: The Epistemic Limits of LLM-Based Mental Health Inference from Youth Social Media Conversations",
+      "snippet": "Adolescents increasingly use social media for private conversations, sharing experiences and seeking support. These interactions generate digital traces, prompting efforts to infer mental health and psychosocial states. As large language models become more capable of reasoning about conversations…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:b3399f65fb0f",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08877",
+      "title": "The Relational Capacity Framework: A Lens for AI-Mediated Relationality",
+      "snippet": "A growing literature examines the impact of engaging with AI chatbots on our relationality: our ability to form relationships with others, maintain them through life's changes, and exit when needed. Currently, substantial work focuses on purpose-built AI companions (e.g. Replika, Character.AI)…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:0352fbd472d1",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08994",
+      "title": "The Drawing You Watch Is the Portrait You Keep: A Replayable Machine Portrait Studio",
+      "snippet": "Ask an image model for your portrait and a finished picture arrives: no first line, no second thoughts, no record of how it got there, and a different picture if you ask again. I built a portrait studio that works the other way. A sitter chooses one of eight fictional artists, each written with a…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:634c1ac0a0e0",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.09623",
+      "title": "Entering a New Domain in the Era of Generative AI: An Autoethnography of Solo Game Development as a Bioinformatics Educator",
+      "snippet": "The rapid improvement of generative AI (GenAI) not only increased the efficiency of practice but also empowered individuals with capabilities to explore new domains. However, identity formation in the wake of such empowerment remains understudied. We use an autoethnography to understand identity…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:56a26bbd60c8",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.09780",
+      "title": "Strategic Competition and Convergence in LLM Leaderboards",
+      "snippet": "Leaderboards are a popular way to compare large language model (LLM) capabilities and can influence how model developers invest resources. We ask when competition on leaderboards leads developers to produce models with similar capability profiles, which we call monoculture, or similar performance…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:ea2cef5879e9",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08490",
+      "title": "FasterRW: An Efficient Prior-Assisted Random Walk Solver for Thermal Analysis",
+      "snippet": "Thermal simulation is becoming increasingly critical in modern IC design and manufacturing. Feynman--Kac random walk methods can estimate localized temperatures without solving the global field, but in practical settings without Dirichlet boundaries they require very long paths to control the…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:26b0a1c992b1",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08494",
+      "title": "Embedding Consistent Recurrent Neural Networks in Finite Element Simulations for Path-Dependent Damage Prediction",
+      "snippet": "Capturing sheet-metal localisation physics with a trained surrogate inside a finite element (FEM) solver requires the surrogate to deliver consistent predictions irrespective of the solver's strain-increment count, which is difficult to control in non-linear explicit codes. We address this by…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:0e11a8cbd44d",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08495",
+      "title": "Rethinking Data Selection as Distribution Matching on Semantic Manifolds",
+      "snippet": "Instruction tuning of large language models and large vision language models relies on massive training data, which incurs substantial computational and storage costs. Meanwhile, training data often contains redundancy, noise, and low quality samples. Existing data selection methods mostly rely on…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:dc2d62dadb63",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08499",
+      "title": "Generative Reconstruction of Full-Field Sensor States for Safety-Critical Digital Twins",
+      "snippet": "Accurate reconstruction of incomplete sensor fields is critical for state awareness in safety-critical digital twins (DTs). Thermocouples in high-temperature and radiation environments may drift, fail, or become intermittently unavailable, causing partial observability. This study develops a…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:d78c2be9729c",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08500",
+      "title": "Adaptive Depth Aggregation in Graph Transformers for Long-Range Graph Reasoning",
+      "snippet": "Graph Transformers improve long-range node-to-node communication through global or structure-aware interactions. However, improving cross-node communication does not determine how computations produced at different depths should be combined. Standard residual streams accumulate successive…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:f5b7c56e9a25",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08502",
+      "title": "Emergent Low-Dimensional Topological Dynamics Dictate Generalization and Escape Mechanics in Billion-Parameter Neural Networks",
+      "snippet": "The remarkable generalization of modern over-parameterized neural networks defies classical statistical learning bounds. Here we establish that optimization trajectories in billion-parameter models do not sample the ambient dimension $\\mathbb{R}^N$ homogeneously; instead, they are dynamically…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:a1e7b6d236c8",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08507",
+      "title": "Does Country Matter? Evaluating Geographic Sensitivity of Large Language Models in Zero-Shot Chronic Kidney Disease Screening",
+      "snippet": "Large language models (LLMs) show strong zero-shot reasoning capabilities, yet their sensitivity to prompt context raises questions about reliability in deployment. This study investigates whether geographic context embedded in prompts influences LLM-based chronic kidney disease (CKD) screening…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:d0eac1c636ca",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08512",
+      "title": "Interpretable Multifidelity Learning with Kolmogorov-Arnold Networks for Spatiotemporal Nuclear Reactor Flow Modeling",
+      "snippet": "High-fidelity computational fluid dynamics (CFD) simulations of nuclear reactor systems are computationally expensive, motivating machine learning methods that reduce cost while preserving accuracy. Multifidelity surrogate modeling addresses this by combining inexpensive low-fidelity data with…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:e17a5bf764d3",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08522",
+      "title": "What Are LLM Agents Actually Learning on Low-Budget Molecular Optimization Benchmarks?",
+      "snippet": "Recent work reports large gains for LLM agents on low-budget molecular optimization. We measure the contributions of online optimization, retrievable task information, and permissive oracle landscapes. On PMO at 50 oracle calls, a GPT-4o mini agent's sum AUC falls from 14.44 to 4.85 after task…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:918daa31b44a",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08549",
+      "title": "Evolutionary Adaptive Metric Learning: A Multi-Objective Framework for Learning Local Distance Functions in Nearest Neighbor Classification",
+      "snippet": "Nearest neighbour classifiers inherit the geometry of their distance function. Fixed distances and globally learned metrics apply the same geometry throughout the input space, although relevant feature directions may vary across regions. We propose EAML (Evolutionary Adaptive Metric Learning), a…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:69e69b4d569c",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08551",
+      "title": "How Small Can We Go? Calibrating Activation-Cache Compression for SAE Training",
+      "snippet": "To train a sparse autoencoder (SAE), you need a massive cache of model activations. We look into the effects that compression has on an SAE in two ways: we keep the original fp32-trained SAE and pass the compressed cache into the same SAE to see how many feature activations stay the same (the…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:9ce628669eb5",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08558",
+      "title": "Minimum-Sufficient Knowledge and Computation for Wind Energy Predictive Analysis",
+      "snippet": "Resource-constrained cyber-physical decision systems often apply fixed sensing, knowledge, and computational pipelines despite state-dependent information needs. We introduce Minimum-Sufficient Knowledge and Computation (MSKC), a resource-aware computing principle: select the least-costly route…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:2f287cccab70",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08559",
+      "title": "PINNeval: A Comprehensive Evaluation Standard for Physics-Informed Neural Networks",
+      "snippet": "The Physics-Informed Neural Network (PINN) literature has produced a rapidly expanding catalogue of methods. We divide a PINN training pipeline systematically into four components and observe that many existing benchmarks study these components in isolation. These components are domain-importance…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:b6eb0bc70186",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08569",
+      "title": "Not All Misalignment Is Alike: A Decomposed Benchmark for Emergent Misalignment",
+      "snippet": "Emergent misalignment (EM), in which fine-tuning on a narrow task induces misaligned behaviour on unrelated prompts, has been demonstrated across a wide range of datasets, model families, and training setups. Yet, most studies continue to rely on the evaluation approach introduced in the original…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:69ce3e7f06d8",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08613",
+      "title": "NormGym: Evaluating Normative Competence through Social Interaction",
+      "snippet": "Normative competence, the ability to infer socially enforced expectations from interaction and adjust behavior accordingly, is essential for agents operating in unfamiliar human communities. Yet existing evaluations largely test whether agents can recognize or apply norms they may already know…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:1db27377e823",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08626",
+      "title": "LLM-Based Feature Extraction for Multi-Criteria Inventory Classification",
+      "snippet": "E-commerce supply chains generate large volumes of customer feedback and operational data that remain underutilized in inventory management. Traditional inventory classification techniques such as ABC analysis rely primarily on annual dollar usage, while multi-criteria inventory classification…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:14c24f075f10",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08634",
+      "title": "Benchmarking Machine Learning for Chaotic Three-Body Dynamics in Astrophysics",
+      "snippet": "Machine learning (ML) and generative AI have recently made impressive progress in understanding physics. We explore a hierarchy of prediction problems stemming from chaotic three-body systems and benchmark existing ML approaches, including general-purpose prediction algorithms and those that build…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:56afa021fe40",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08639",
+      "title": "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
+      "snippet": "Safety benchmarks for large language models (LLMs) commonly use multiple-choice question (MCQ) format. However, prior studies documented that MCQ format reduces refusal rates, which may significantly affect the safety behavior of the model. We provide a first mechanistic explanation of this effect…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:d6c421cd589c",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08640",
+      "title": "Aspect-wise Pairwise Tournaments for Test-Time Selection",
+      "snippet": "Scaling test-time compute has proven highly effective at improving LLM reasoning. A popular method is best-of-n sampling, where a model generates many candidate solutions and one is selected. This motivates the question: how can we select the best candidate? When humans make choices, we find it…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:b5395ffbf425",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08643",
+      "title": "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
+      "snippet": "Financial institutions construct knowledge graphs (KGs) from shared SEC 10-Ks to serve risk analysis, portfolio management, and investment research, whose analytical needs differ. Extraction must adapt without fragmenting shared grounding, typing, and temporal rules. Hand-authored persona prompts…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:9428592458d5",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08644",
+      "title": "Decision Context: Persistent Behavioral Learning for AI Agents",
+      "snippet": "LLM agents do not learn from corrections across sessions. A user fixes the same mistake at the start of every conversation. Existing agent memory systems primarily handle facts, such as preferences, entities, and conversational history, rather than procedural knowledge. We present Forge Decision…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:605714b8c1bb",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08647",
+      "title": "IWIBench: Evaluating Gradient-Free Model Driven Intra-weight Injection",
+      "snippet": "Intra-weight injection lets one model change another model's behaviour by editing its weights directly, without gradients. Such edits can range from altering lexical associations to enforcing output formats or updating factual knowledge. Despite growing interest in these approaches, there has been…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:cb13788b18c3",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.08656",
+      "title": "Higher Order Component Attribution via Learned Surrogates in High Energy Physics",
+      "snippet": "Experimental High Energy Physics (HEP) has adopted the transformer architecture for identification of jets, particularly the state-of-the-art Particle Transformer (ParT) which injects explicit information about particle correlations into the attention mechanism. While able to achieve…",
+      "publishedAt": "2026-11-09T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    }
+  ]
+}

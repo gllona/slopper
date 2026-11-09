@@ -1,0 +1,226 @@
+{
+  "topStories": [
+    {
+      "title": "An Executive's Secret Relationship Becomes A Company Scandal",
+      "itemIds": [
+        "feeds:0920037064cb",
+        "feeds:dc76b4dc6a4e",
+        "feeds:8a86cf9d70b8"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "A Phone Maker Pushes Its Voice Assistant To Become More Agentic",
+      "itemIds": [
+        "feeds:d61b9bc4b24c",
+        "hackernews:84516172e5c8"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "apple-siri-agentic-race"
+    },
+    {
+      "title": "Wearable Brainwave Headsets Secretly Train AI On Users' Brain Data",
+      "itemIds": [
+        "hackernews:ca0c8439858f"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "brainwave-headset-data-harvest"
+    },
+    {
+      "title": "Music Rights Holders Sue An AI Song Generator Over Cloned Voices",
+      "itemIds": [
+        "feeds:e4174df85a32"
+      ],
+      "dimensions": [
+        "law",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "ai-music-clone-lawsuits"
+    },
+    {
+      "title": "A Giant Open AI Model Now Runs On Ordinary RAM, No GPU Needed",
+      "itemIds": [
+        "hackernews:55858f2b4ca7"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "planet"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "open-model-runs-without-gpu"
+    },
+    {
+      "title": "A Hospital's AI Record-Search Tool Shows Real, Sustained Adoption",
+      "itemIds": [
+        "arxiv:c62d1996d767"
+      ],
+      "dimensions": [
+        "science",
+        "labor",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "hospital-ai-adoption-study"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "apple-siri-agentic-race",
+      "title": "A Phone Maker Races To Make Its Assistant More Agentic",
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "society"
+      ],
+      "motifs": [
+        "an executive handing a faster engine to a voice-assistant robot",
+        "a voice-assistant speech bubble sprinting to catch up with rival robots",
+        "a phone icon sprouting small robot arms"
+      ]
+    },
+    {
+      "id": "brainwave-headset-data-harvest",
+      "title": "Wearable Headsets Secretly Harvest Brain Data For AI",
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "motifs": [
+        "a human head with wavy signal lines flowing into a cloud-shaped AI",
+        "a consent form with fine print hiding a small brain icon",
+        "a headset quietly recording thoughts no one agreed to share"
+      ]
+    },
+    {
+      "id": "ai-music-clone-lawsuits",
+      "title": "Music Rights Holders Sue An AI Song Generator",
+      "dimensions": [
+        "law",
+        "society",
+        "industry"
+      ],
+      "motifs": [
+        "a jukebox being sued by a stack of old vinyl records",
+        "a courthouse holding sheet music beside a robot singer",
+        "a microphone passed from a human hand to a robot hand, mid-objection"
+      ]
+    },
+    {
+      "id": "open-model-runs-without-gpu",
+      "title": "A Giant Open Model Runs Without A Graphics Chip",
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "planet"
+      ],
+      "motifs": [
+        "a huge model icon shrinking to fit inside an ordinary home computer",
+        "a graphics chip shrugging as a model runs happily without it",
+        "a power meter barely moving beside a giant model icon"
+      ]
+    },
+    {
+      "id": "hospital-ai-adoption-study",
+      "title": "A Hospital's AI Record-Search Tool Shows Real Adoption",
+      "dimensions": [
+        "science",
+        "labor",
+        "safety"
+      ],
+      "motifs": [
+        "a stethoscope resting beside a glowing search-bar robot",
+        "hospital hallway staff quietly consulting a small AI screen",
+        "a chart tracking real use climbing steadily over many months"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Several stories today clear the relevance threshold of 8: a company's internal scandal over an executive's secret relationship, a phone maker's push to make its assistant more agentic, an open model running without a GPU, and a hospital AI adoption study, with the brainwave-headset data-harvesting story reaching 12, the day's highest.",
+  "motto": "Secrets In, Secrets Out",
+  "phrase": "An executive's secret relationship becomes a company scandal, under investigation from his own board. Elsewhere, headset makers are quietly reading users' brainwaves to train AI.",
+  "phraseAlternatives": [
+    "A company is investigating its own boss over a secret relationship he admitted in a memo. Meanwhile, some headsets already read brain signals to train AI.",
+    "An executive's affair became a boardroom investigation this week. Quietly, wearable headsets are already reading real brain signals and feeding them into AI training.",
+    "One company's leader admitted a secret relationship as the board opened an inquiry. Elsewhere, headset makers read users' brainwaves to train AI, unannounced.",
+    "A CEO's private life became company business after a board inquiry began. Some wearables, it turns out, already read your brain to train AI."
+  ],
+  "brief": {
+    "concept": "A company investigates its own executive over a secret relationship he admitted to in a memo, and in the same week, wearable headset makers are quietly reading ordinary people's brain signals to train AI.",
+    "metaphor": "Two kinds of mind-reading at once: a company reading its boss's secrets, and a device reading its owner's mind.",
+    "cast": [
+      {
+        "who": "a company building shining a large magnifying glass inward on itself",
+        "kind": "institution"
+      },
+      {
+        "who": "a human figure at a desk inside, holding a torn note with a heart crossed out",
+        "kind": "person"
+      },
+      {
+        "who": "a human wearing a wired headband, eyes closed, sitting calmly",
+        "kind": "person"
+      },
+      {
+        "who": "a cloud-shaped AI drawing wavy signal lines straight from the headband",
+        "kind": "ai"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split frame. Left half: a company building rendered in cross-section, its own magnifying glass turned inward on a human figure at a desk holding a torn, heart-crossed note. Right half: a calm human wearing a wired headband, wavy signal lines flowing from the headband into a cloud-shaped AI icon. One yellow highlight marks the signal lines reaching the cloud.",
+    "artType": "static",
+    "alt": "A building examines one of its own workers with a giant magnifying glass, while beside it, a calm person wearing a wired headband sends wavy brain-signal lines into a cloud-shaped AI icon."
+  },
+  "sourceIds": [
+    "feeds:0920037064cb",
+    "feeds:dc76b4dc6a4e",
+    "feeds:8a86cf9d70b8",
+    "hackernews:ca0c8439858f"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "planet": 1,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": -1
+  }
+}
