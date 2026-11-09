@@ -1,0 +1,145 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {
+    "type": "split",
+    "color": "bg",
+    "color2": "paper"
+  },
+  "elements": [
+    {
+      "id": "building",
+      "component": "raw",
+      "at": {
+        "x": 0.24,
+        "y": 0.47
+      },
+      "scale": 1,
+      "props": {
+        "width": 380,
+        "height": 680
+      },
+      "svg": "<rect class=\"r-line\" x=\"10\" y=\"10\" width=\"360\" height=\"660\"/><line class=\"r-thin\" x1=\"10\" y1=\"230\" x2=\"370\" y2=\"230\"/><line class=\"r-thin\" x1=\"10\" y1=\"460\" x2=\"370\" y2=\"460\"/><rect class=\"r-thin\" x=\"30\" y=\"40\" width=\"50\" height=\"50\"/><rect class=\"r-thin\" x=\"300\" y=\"40\" width=\"50\" height=\"50\"/><rect class=\"r-thin\" x=\"30\" y=\"600\" width=\"50\" height=\"50\"/><rect class=\"r-thin\" x=\"300\" y=\"600\" width=\"50\" height=\"50\"/>"
+    },
+    {
+      "id": "exec",
+      "component": "human",
+      "at": {
+        "x": 0.24,
+        "y": 0.7
+      },
+      "scale": 0.9,
+      "props": {
+        "mood": "worried",
+        "pose": "sit",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "note",
+      "component": "raw",
+      "attachTo": "exec",
+      "side": "right",
+      "scale": 1,
+      "props": {
+        "width": 130,
+        "height": 90
+      },
+      "svg": "<path class=\"r-paper\" d=\"M8,4 L100,4 L92,18 L100,30 L90,46 L100,60 L92,76 L100,90 L8,90 Z\"/><path class=\"r-line\" d=\"M44,26 C44,16 30,16 30,26 C30,36 44,46 44,56 C44,46 58,36 58,26 C58,16 44,16 44,26 Z\"/><line class=\"r-line\" x1=\"22\" y1=\"18\" x2=\"62\" y2=\"58\"/>"
+    },
+    {
+      "id": "glass",
+      "component": "raw",
+      "at": {
+        "x": 0.24,
+        "y": 0.25
+      },
+      "scale": 1,
+      "props": {
+        "width": 170,
+        "height": 170
+      },
+      "svg": "<circle class=\"r-shade\" cx=\"70\" cy=\"65\" r=\"55\"/><circle class=\"r-line\" cx=\"70\" cy=\"65\" r=\"55\"/><line class=\"r-line\" x1=\"108\" y1=\"103\" x2=\"150\" y2=\"150\"/>"
+    },
+    {
+      "id": "review-label",
+      "component": "label",
+      "attachTo": "building",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "INTERNAL REVIEW",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    },
+    {
+      "id": "wired",
+      "component": "human",
+      "at": {
+        "x": 0.76,
+        "y": 0.7
+      },
+      "scale": 0.9,
+      "props": {
+        "mood": "neutral",
+        "pose": "sit",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "headband",
+      "component": "raw",
+      "attachTo": "wired",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "width": 120,
+        "height": 50
+      },
+      "svg": "<path class=\"r-line\" d=\"M8,42 Q60,-8 112,42\"/><circle class=\"r-accent-2\" cx=\"60\" cy=\"8\" r=\"7\"/>"
+    },
+    {
+      "id": "signals",
+      "component": "raw",
+      "at": {
+        "x": 0.76,
+        "y": 0.314
+      },
+      "scale": 1,
+      "props": {
+        "width": 160,
+        "height": 90
+      },
+      "svg": "<path class=\"r-line\" d=\"M30,90 C50,60 10,40 30,10\"/><path class=\"r-line\" d=\"M80,90 C100,60 60,40 80,10\"/><path class=\"r-line\" d=\"M130,90 C150,60 110,40 130,10\"/><circle class=\"r-accent\" cx=\"130\" cy=\"8\" r=\"8\"/>"
+    },
+    {
+      "id": "cloud",
+      "component": "cloud",
+      "at": {
+        "x": 0.76,
+        "y": 0.21
+      },
+      "scale": 1,
+      "props": {
+        "size": "sm",
+        "mood": "neutral"
+      }
+    },
+    {
+      "id": "brain-label",
+      "component": "label",
+      "attachTo": "cloud",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "BRAIN DATA",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "A building drawn in cross-section shows a worker inside being examined by a large magnifying glass, under a tag reading internal review. Beside it, a calm person wearing a wired headband sends wavy signal lines, one marked with a yellow highlight, up into a small cloud icon tagged brain data."
+}

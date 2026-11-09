@@ -1,0 +1,21 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "real-people",
+          "severity": "high",
+          "evidence": "\"A chip company's boss confessed to an affair while it investigates him over ties to an alleged spy.\"",
+          "suggestion": "This unmistakably identifies Jensen Huang/Nvidia (sources are about Nvidia's CEO), like the rubric's own 'richest man's rocket company CEO' example. Curate must genericize: drop 'chip company' and the distinctive 'alleged spy' detail, reframing as a trend ('An executive's secret relationship becomes a company scandal') rather than a recognizable retelling of this specific real event.",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "pass",
+      "findings": []
+    }
+  ]
+}
