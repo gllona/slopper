@@ -1,0 +1,133 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {},
+  "elements": [
+    {
+      "id": "building",
+      "component": "datacenter",
+      "at": {
+        "x": 0.17,
+        "y": 0.78
+      },
+      "scale": 0.6,
+      "props": {
+        "racks": 3,
+        "lights": "off",
+        "steam": false,
+        "fans": false
+      }
+    },
+    {
+      "id": "chart",
+      "component": "chart",
+      "at": {
+        "x": 0.17,
+        "y": 0.47
+      },
+      "scale": 0.5,
+      "props": {
+        "type": "line",
+        "values": [
+          0.9,
+          0.78,
+          0.82,
+          0.55,
+          0.35,
+          0.15
+        ],
+        "highlight": "last",
+        "arrow": true,
+        "frame": true
+      }
+    },
+    {
+      "id": "papers",
+      "component": "raw",
+      "at": {
+        "x": 0.33,
+        "y": 0.738
+      },
+      "scale": 1,
+      "props": {
+        "width": 100,
+        "height": 90
+      },
+      "svg": "<rect x='10' y='58' width='80' height='24' rx='4' class='r-paper'/><rect x='14' y='34' width='72' height='24' rx='4' class='r-body-alt'/><rect x='18' y='10' width='64' height='24' rx='4' class='r-paper'/>"
+    },
+    {
+      "id": "executive",
+      "component": "human",
+      "at": {
+        "x": 0.48,
+        "y": 0.78
+      },
+      "scale": 0.85,
+      "props": {
+        "mood": "worried",
+        "pose": "stand",
+        "holds": "none",
+        "color": "body"
+      }
+    },
+    {
+      "id": "briefcase",
+      "component": "raw",
+      "attachTo": "executive",
+      "side": "right",
+      "offset": [
+        -15,
+        110
+      ],
+      "scale": 1,
+      "props": {
+        "width": 60,
+        "height": 45
+      },
+      "svg": "<rect x='5' y='15' width='50' height='28' rx='6' class='r-accent'/><rect x='22' y='4' width='16' height='12' rx='3' class='r-line'/>"
+    },
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.59,
+        "y": 0.5
+      },
+      "scale": 1,
+      "props": {
+        "width": 10,
+        "height": 860
+      },
+      "svg": "<rect x='3' y='0' width='4' height='860' class='r-ink'/>"
+    },
+    {
+      "id": "lawmaker",
+      "component": "human",
+      "at": {
+        "x": 0.78,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "mood": "proud",
+        "pose": "point",
+        "holds": "book",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "label-rules",
+      "component": "label",
+      "attachTo": "lawmaker",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "AI RULES",
+        "size": "md",
+        "kind": "tag",
+        "color": "accent"
+      }
+    }
+  ],
+  "alt": "A vertical line splits the image. On the left, a worried executive with a briefcase stands alone beside a tech company building, a falling stock chart, and a stack of lawsuit papers. On the right, a lawmaker holds up a book labeled AI RULES above their head."
+}

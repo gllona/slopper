@@ -1,0 +1,224 @@
+{
+  "date": "2026-11-09",
+  "number": 41,
+  "mode": "fresh",
+  "motto": "Scandal Meets New Rules",
+  "phrase": "A chip maker's stock tumbled further as lawsuits piled up over its chief executive's scandal. Meanwhile, a newly elected lawmaker says they are finally ready to write AI's rules.",
+  "phraseAlternatives": [
+    "One company's secret became a market and a legal problem overnight, with lawsuits now lining up. Elsewhere, a newly elected official promises AI finally gets real rules.",
+    "A chip maker's shares kept falling over its chief executive's scandal, and shareholders are already suing. Good timing: a freshly elected lawmaker says AI rules are coming.",
+    "Shareholders are suing over an executive's affair, and the company's stock keeps dropping. Across town, a new face in government says it is finally time to regulate AI.",
+    "The scandal that shook a chip maker spread to its stock price and its lawyers. A newly elected lawmaker says real AI regulation is next."
+  ],
+  "alt": "A vertical line splits the image. On the left, a worried executive with a briefcase stands alone beside a tech company building, a falling stock chart, and a stack of lawsuit papers. On the right, a lawmaker holds up a book labeled AI RULES above their head.",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 3,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "planet": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 2
+  },
+  "storylines": [
+    "nvidia-spy-case",
+    "congress-ai-regulator-elect",
+    "frontier-model-race",
+    "ai-coding-tool-leaks-secrets",
+    "datacenter-backlash-campaign",
+    "brainwave-headset-data-harvest"
+  ],
+  "topStories": [
+    {
+      "title": "Nvidia spy scandal crashes the stock, draws lawsuits and political attention",
+      "itemIds": [
+        "feeds:33a048330719",
+        "feeds:481f889f69ff",
+        "feeds:f84c177cd1ad",
+        "feeds:4e08509e1a0d",
+        "feeds:bab619274310",
+        "feeds:28bf67cf1684",
+        "feeds:e10548470399",
+        "feeds:bda3011897fc",
+        "feeds:e7b41c563c8e",
+        "feeds:38597062943c",
+        "feeds:0e483f9fc795",
+        "feeds:e93189383a60",
+        "feeds:1c2f4a67fa22",
+        "feeds:bc97b5ceba73",
+        "feeds:f165a8b526b0"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "law",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "Newly elected lawmaker pledges to regulate AI in Washington",
+      "itemIds": [
+        "feeds:b58002d82fa5"
+      ],
+      "dimensions": [
+        "policy",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "congress-ai-regulator-elect"
+    },
+    {
+      "title": "Anthropic and Meta ship new models amid industry turmoil",
+      "itemIds": [
+        "feeds:719be9ef6514",
+        "feeds:a3bc8ca770f4",
+        "feeds:e8884a0ba45a",
+        "hackernews:fbdf36c6d0b0",
+        "hackernews:86708699833d"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "Coding assistant's default settings expose secrets across GitHub",
+      "itemIds": [
+        "feeds:7cea50907b9a"
+      ],
+      "dimensions": [
+        "safety",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-coding-tool-leaks-secrets"
+    },
+    {
+      "title": "Datacenter backlash traced back to electricity bills and local protests",
+      "itemIds": [
+        "feeds:9c44d1f595f8",
+        "feeds:a1b20f768da9"
+      ],
+      "dimensions": [
+        "planet",
+        "industry",
+        "society"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "Sleep wearables keep harvesting brainwaves to train AI without consent",
+      "itemIds": [
+        "hackernews:a7e02a354223"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "law"
+      ],
+      "novelty": 1,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "brainwave-headset-data-harvest"
+    }
+  ],
+  "brief": {
+    "concept": "A chip company's board investigates its own chief executive as the stock craters and lawsuits pile up at the door, while across town a newly elected lawmaker stands at a podium holding up a fresh rulebook for AI.",
+    "metaphor": "A falling stock chart turns a company's doorstep into a courthouse step, while a human lawmaker finally raises the rulebook everyone has been waiting for.",
+    "cast": [
+      {
+        "who": "a company building with a stock arrow plunging through a cracked chart beside it",
+        "kind": "institution"
+      },
+      {
+        "who": "a worried tech executive standing alone beside the building, a briefcase in hand",
+        "kind": "person"
+      },
+      {
+        "who": "a stack of lawsuit papers piling up on the building's front steps",
+        "kind": "object"
+      },
+      {
+        "who": "a newly elected lawmaker standing at a podium, holding up a rulebook stamped AI RULES",
+        "kind": "person"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Split scene. Left: a company building with its stock arrow breaking through a cracked falling chart, a worried executive standing alone beside it holding a briefcase, a stack of lawsuit papers growing on the steps. A thin vertical divider. Right: a lawmaker at a podium, calm and upright, holding a rulebook stamped AI RULES in the single highlight color. Keep both sides simple and uncluttered, four main elements total.",
+    "artType": "static",
+    "alt": "On the left, a worried executive stands beside a company building as its stock chart cracks and falls, with a stack of lawsuit papers piling up at the building's steps. On the right, a lawmaker stands at a podium holding up a rulebook labeled AI RULES."
+  },
+  "sources": [
+    {
+      "id": "feeds:e93189383a60",
+      "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+      "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+      "source": "feeds",
+      "publisher": "BBC News",
+      "publishedAt": "2026-11-09T19:58:01.000Z"
+    },
+    {
+      "id": "feeds:bda3011897fc",
+      "title": "The race is on to sue Nvidia",
+      "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-09T22:23:42.000Z"
+    },
+    {
+      "id": "feeds:b58002d82fa5",
+      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "source": "feeds",
+      "publisher": "MIT Technology Review",
+      "publishedAt": "2026-11-09T17:05:43.000Z"
+    },
+    {
+      "id": "feeds:33a048330719",
+      "title": "Nvidia CEO's affair becomes a national security problem",
+      "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-11-09T15:23:20.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.71,
+    "iterations": 1
+  },
+  "cop": {
+    "verdict": "revise"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-10T11:35:21.533Z"
+}
