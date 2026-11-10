@@ -1,0 +1,50 @@
+{
+  "verdict": "revise",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "alt text: \"a worried executive carrying a briefcase is walked off by two calm officials\"",
+          "suggestion": "None of the sources describe the executive being removed, detained, or escorted by officials — only a board investigation and civil lawsuits are reported. Rewrite to something sources support, e.g. \"a worried executive stands beside a stack of lawsuit papers\" (no officials, no being walked off).",
+          "stage": "curate"
+        },
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Three figures on the left (tallest with a worried face, flanked by two shorter calm-faced figures, arm-in-arm) visually depict the executive being escorted/walked off by officials",
+          "suggestion": "Redraw the scene so the executive is shown alone next to the falling chart, lawsuit stack, and building, without the two escorting figures that imply arrest or forced removal.",
+          "stage": "art"
+        },
+        {
+          "check": "defamation",
+          "severity": "low",
+          "evidence": "phrase: \"lawsuits piled up over its chief executive's scandal\"",
+          "suggestion": "Sources describe lawsuits as just beginning (\"The race is on to sue Nvidia\"), not yet \"piled up.\" Soften to \"as lawsuits began to mount\" to stay closer to the sourced stage of events.",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "real-people",
+          "severity": "medium",
+          "evidence": "\"A chip maker's stock tumbled further as lawsuits piled up over its chief executive's scandal.\"",
+          "suggestion": "The combination of 'chip maker' + stock tumbling + lawsuits + CEO scandal is an unmistakable description of Nvidia/Jensen Huang given the cited breaking news (BBC, TechCrunch, Ars Technica all run this exact story today). Curate stage should abstract further, e.g. drop 'chip maker' for a broader 'a tech company' or generalize the scandal away from the single live news event so it reads as commentary on a trend rather than a specific identifiable person.",
+          "stage": "curate"
+        },
+        {
+          "check": "real-people",
+          "severity": "low",
+          "evidence": "\"a newly elected lawmaker says they are finally ready to write AI's rules\"",
+          "suggestion": "Paired with the MIT Tech Review source about Scott Wiener (newly elected, replacing Pelosi, 'ready to regulate AI'), this phrasing is recognizable as a specific person. Curate stage should drop 'newly elected' or otherwise genericize so it reads as a type of politician rather than one identifiable individual.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}
