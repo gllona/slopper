@@ -1,0 +1,113 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {},
+  "elements": [
+    {
+      "id": "lab",
+      "component": "datacenter",
+      "at": "left-third",
+      "scale": 1,
+      "props": {
+        "racks": 3,
+        "lights": "busy"
+      }
+    },
+    {
+      "id": "official",
+      "component": "human",
+      "at": {
+        "x": 0.53,
+        "y": 0.74
+      },
+      "scale": 1,
+      "props": {
+        "mood": "neutral",
+        "pose": "stand",
+        "holds": "sign"
+      }
+    },
+    {
+      "id": "safety-label",
+      "component": "label",
+      "attachTo": "official",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "SAFETY REPORT",
+        "size": "md",
+        "kind": "tag",
+        "color": "paper"
+      }
+    },
+    {
+      "id": "rocket",
+      "component": "raw",
+      "at": {
+        "x": 0.6,
+        "y": 0.28
+      },
+      "scale": 1,
+      "props": {
+        "width": 160,
+        "height": 320
+      },
+      "svg": "<polygon class=\"r-accent\" points=\"80,0 135,95 25,95\"/><rect class=\"r-accent\" x=\"25\" y=\"95\" width=\"110\" height=\"150\" rx=\"20\"/><circle class=\"r-paper\" cx=\"80\" cy=\"150\" r=\"20\"/><polygon class=\"r-accent-2\" points=\"25,180 0,250 35,235\"/><polygon class=\"r-accent-2\" points=\"135,180 160,250 125,235\"/><polygon class=\"r-accent\" points=\"55,245 105,245 80,300\"/>"
+    },
+    {
+      "id": "price-tag",
+      "component": "label",
+      "attachTo": "rocket",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "$1.4T",
+        "size": "md",
+        "kind": "tag",
+        "color": "paper"
+      }
+    },
+    {
+      "id": "warn-tag",
+      "component": "label",
+      "attachTo": "rocket",
+      "side": "bottom",
+      "scale": 1,
+      "rotate": -10,
+      "props": {
+        "text": "CATASTROPHIC",
+        "size": "md",
+        "kind": "tag",
+        "color": "paper"
+      }
+    },
+    {
+      "id": "founder",
+      "component": "human",
+      "at": {
+        "x": 0.82,
+        "y": 0.74
+      },
+      "scale": 1,
+      "flip": true,
+      "props": {
+        "mood": "happy",
+        "pose": "cheer",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "money-bag",
+      "component": "raw",
+      "attachTo": "founder",
+      "side": "left",
+      "scale": 1,
+      "props": {
+        "width": 100,
+        "height": 120
+      },
+      "svg": "<path class=\"r-accent-2\" d=\"M15,110 Q5,60 25,35 Q50,10 75,35 Q95,60 85,110 Q50,122 15,110 Z\"/><circle class=\"r-ink\" cx=\"50\" cy=\"22\" r=\"10\"/>"
+    }
+  ],
+  "alt": "A company's data-center building stands beside a government official holding a sign that reads \"safety report,\" while a red rocket labeled \"$1.4T\" shoots into the sky with a small \"catastrophic\" tag fluttering off its tail, and a cheerful founder walks away carrying a money bag."
+}

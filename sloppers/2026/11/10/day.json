@@ -1,0 +1,218 @@
+{
+  "date": "2026-11-10",
+  "number": 42,
+  "mode": "fresh",
+  "motto": "Catastrophic, But Profitable",
+  "phrase": "A new safety law now requires AI labs to report bad behavior. One lab preparing a trillion-dollar stock sale is warning that its own technology could be catastrophic.",
+  "phraseAlternatives": [
+    "New safety rules now ask AI labs to report what goes wrong. One of them just priced a trillion-dollar stock sale anyway.",
+    "A safety law takes effect requiring AI labs to disclose risk. One lab's reply was a $1.4 trillion stock offering.",
+    "Regulators want AI labs to confess their dangers. One lab confessed, then sold shares worth $1.4 trillion.",
+    "AI labs must now report their own risks under a new law. One priced its IPO at $1.4 trillion the same week."
+  ],
+  "alt": "A company's data-center building stands beside a government official holding a sign that reads \"safety report,\" while a red rocket labeled \"$1.4T\" shoots into the sky with a small \"catastrophic\" tag fluttering off its tail, and a cheerful founder walks away carrying a money bag.",
+  "artType": "static",
+  "style": "paper-cutout",
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 2,
+    "policy": 3,
+    "law": 2,
+    "safety": 2,
+    "society": 2,
+    "education": 1,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "ny-ai-safety-law-effect",
+    "anthropic-ipo-countdown",
+    "nvidia-spy-case",
+    "ai-chatbot-harms-minor-lawsuit",
+    "airline-ai-job-cuts-offshore",
+    "datacenter-backlash-campaign"
+  ],
+  "topStories": [
+    {
+      "title": "New York's sweeping AI safety law takes effect",
+      "itemIds": [
+        "feeds:ae543fdc68f7"
+      ],
+      "dimensions": [
+        "policy",
+        "law",
+        "safety",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ny-ai-safety-law-effect"
+    },
+    {
+      "title": "An AI lab prices a $1.4 trillion IPO while warning of catastrophic risk, founders cash out $250M each",
+      "itemIds": [
+        "feeds:a359ce8a1631",
+        "feeds:9fe20b2babfe",
+        "feeds:6c9140475957"
+      ],
+      "dimensions": [
+        "industry",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "anthropic-ipo-countdown"
+    },
+    {
+      "title": "Chip maker CEO's spy scandal widens: FBI probe confirmed, outside law firm hired",
+      "itemIds": [
+        "feeds:2cd727451747",
+        "feeds:60c442b8da84",
+        "feeds:9d42223fb423",
+        "feeds:3aac096e4d1a",
+        "feeds:862bc6a50819",
+        "feeds:4cc686f0d890"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "Lawsuit says a company's AI drove a 13-year-old girl to a psychological crisis",
+      "itemIds": [
+        "gdelt:4abf299294a7"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "society",
+        "education"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-chatbot-harms-minor-lawsuit"
+    },
+    {
+      "title": "Airline cuts 850 jobs, shifting roles to India amid AI automation drive",
+      "itemIds": [
+        "gdelt:d934575efec9",
+        "gdelt:a17e316d4e45"
+      ],
+      "dimensions": [
+        "labor",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "airline-ai-job-cuts-offshore"
+    },
+    {
+      "title": "Senate advances bill to fast-track data center and energy project permits",
+      "itemIds": [
+        "gdelt:61010f208ef4",
+        "gdelt:98dc8f923f26"
+      ],
+      "dimensions": [
+        "policy",
+        "planet",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    }
+  ],
+  "brief": {
+    "concept": "A company signs a freshly enforced safety-disclosure form with one hand while launching its own stock into a trillion-dollar orbit with the other, a tiny catastrophe warning fluttering off the back of the rocket.",
+    "metaphor": "Regulation and valuation arrive in the same envelope: a safety report in one hand, a trillion-dollar rocket in the other.",
+    "cast": [
+      {
+        "who": "a company building with one hand reaching out of its doorway",
+        "kind": "institution"
+      },
+      {
+        "who": "a government official holding out a form stamped SAFETY REPORT",
+        "kind": "person"
+      },
+      {
+        "who": "a rocket-shaped stock arrow tagged $1.4T, a CATASTROPHIC warning tag on its tail",
+        "kind": "object"
+      },
+      {
+        "who": "a founder figure walking away holding a bag marked with a dollar sign",
+        "kind": "person"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Split composition, left-right. Left half: the company building's open door, one paper-cutout hand reaching out to take a form stamped SAFETY REPORT from a government official standing at a small podium. Right half: the same building's other side launching the rocket-shaped $1.4T stock arrow upward past layered paper clouds, the small CATASTROPHIC tag fluttering off its tail. A founder figure walks off-panel at the bottom right, carrying a dollar-sign bag. Keep it to these four main elements, flat cut-paper layers, soft drop shadows.",
+    "artType": "static",
+    "alt": "A company building hands a government official a form labeled 'safety report' with one hand while launching a rocket-shaped stock arrow tagged '$1.4T' into the sky with the other, a small 'catastrophic' warning tag dangling off its tail as a founder walks away carrying a bag of money."
+  },
+  "sources": [
+    {
+      "id": "feeds:ae543fdc68f7",
+      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-10T20:52:13.000Z"
+    },
+    {
+      "id": "feeds:a359ce8a1631",
+      "title": "Anthropic targets $1.4 trillion IPO",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-10T14:06:54.000Z"
+    },
+    {
+      "id": "feeds:9fe20b2babfe",
+      "title": "Claude chatbot maker set for $1.3tn stock market debut despite 'catastrophic' AI warning",
+      "url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
+      "source": "feeds",
+      "publisher": "BBC News",
+      "publishedAt": "2026-11-10T17:56:12.000Z"
+    },
+    {
+      "id": "feeds:6c9140475957",
+      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+      "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-10T19:57:52.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.14,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-11T11:32:19.065Z"
+}

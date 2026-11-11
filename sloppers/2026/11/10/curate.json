@@ -1,0 +1,207 @@
+{
+  "topStories": [
+    {
+      "title": "New York's sweeping AI safety law takes effect",
+      "itemIds": [
+        "feeds:ae543fdc68f7"
+      ],
+      "dimensions": [
+        "policy",
+        "law",
+        "safety",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ny-ai-safety-law-effect"
+    },
+    {
+      "title": "An AI lab prices a $1.4 trillion IPO while warning of catastrophic risk, founders cash out $250M each",
+      "itemIds": [
+        "feeds:a359ce8a1631",
+        "feeds:9fe20b2babfe",
+        "feeds:6c9140475957"
+      ],
+      "dimensions": [
+        "industry",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "anthropic-ipo-countdown"
+    },
+    {
+      "title": "Chip maker CEO's spy scandal widens: FBI probe confirmed, outside law firm hired",
+      "itemIds": [
+        "feeds:2cd727451747",
+        "feeds:60c442b8da84",
+        "feeds:9d42223fb423",
+        "feeds:3aac096e4d1a",
+        "feeds:862bc6a50819",
+        "feeds:4cc686f0d890"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "Lawsuit says a company's AI drove a 13-year-old girl to a psychological crisis",
+      "itemIds": [
+        "gdelt:4abf299294a7"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "society",
+        "education"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-chatbot-harms-minor-lawsuit"
+    },
+    {
+      "title": "Airline cuts 850 jobs, shifting roles to India amid AI automation drive",
+      "itemIds": [
+        "gdelt:d934575efec9",
+        "gdelt:a17e316d4e45"
+      ],
+      "dimensions": [
+        "labor",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "airline-ai-job-cuts-offshore"
+    },
+    {
+      "title": "Senate advances bill to fast-track data center and energy project permits",
+      "itemIds": [
+        "gdelt:61010f208ef4",
+        "gdelt:98dc8f923f26"
+      ],
+      "dimensions": [
+        "policy",
+        "planet",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-backlash-campaign"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ny-ai-safety-law-effect",
+      "title": "A State's Sweeping AI Safety Law Takes Effect",
+      "dimensions": [
+        "policy",
+        "law",
+        "safety",
+        "industry"
+      ],
+      "motifs": [
+        "a government seal stamping a safety disclosure form held out to a company",
+        "a state capitol building opening a thick rulebook labeled AI SAFETY",
+        "a company sliding a fine-print incident report under a regulator's door"
+      ]
+    },
+    {
+      "id": "ai-chatbot-harms-minor-lawsuit",
+      "title": "A Lawsuit Says A Chatbot Harmed A Child",
+      "dimensions": [
+        "safety",
+        "law",
+        "society",
+        "education"
+      ],
+      "motifs": [
+        "a chatbot speech bubble beside a child's empty school desk",
+        "a courthouse holding a lawsuit document next to a small backpack",
+        "a parent's hand pointing at a glowing chat screen"
+      ]
+    },
+    {
+      "id": "airline-ai-job-cuts-offshore",
+      "title": "An Airline Cuts Jobs And Moves Them Abroad For AI",
+      "dimensions": [
+        "labor",
+        "industry",
+        "society"
+      ],
+      "motifs": [
+        "an airline counter emptying as a conveyor belt carries jobs overseas",
+        "a paper airplane carrying a job title landing on a distant desk",
+        "a row of empty airline counters beside a small automated clipboard"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "New York's AI safety law taking effect scores novelty 3 × magnitude 2 × breadth 3 = 18, well past the threshold of 8; the AI lab's $1.4 trillion IPO, the widening chip-maker spy scandal, and a lawsuit over a chatbot and a child each also clear 8, so today stands on its own rather than continuing yesterday's frame.",
+  "motto": "Catastrophic, But Profitable",
+  "phrase": "A new safety law now requires AI labs to report bad behavior. One lab preparing a trillion-dollar stock sale is warning that its own technology could be catastrophic.",
+  "phraseAlternatives": [
+    "New safety rules now ask AI labs to report what goes wrong. One of them just priced a trillion-dollar stock sale anyway.",
+    "A safety law takes effect requiring AI labs to disclose risk. One lab's reply was a $1.4 trillion stock offering.",
+    "Regulators want AI labs to confess their dangers. One lab confessed, then sold shares worth $1.4 trillion.",
+    "AI labs must now report their own risks under a new law. One priced its IPO at $1.4 trillion the same week."
+  ],
+  "brief": {
+    "concept": "A company signs a freshly enforced safety-disclosure form with one hand while launching its own stock into a trillion-dollar orbit with the other, a tiny catastrophe warning fluttering off the back of the rocket.",
+    "metaphor": "Regulation and valuation arrive in the same envelope: a safety report in one hand, a trillion-dollar rocket in the other.",
+    "cast": [
+      {
+        "who": "a company building with one hand reaching out of its doorway",
+        "kind": "institution"
+      },
+      {
+        "who": "a government official holding out a form stamped SAFETY REPORT",
+        "kind": "person"
+      },
+      {
+        "who": "a rocket-shaped stock arrow tagged $1.4T, a CATASTROPHIC warning tag on its tail",
+        "kind": "object"
+      },
+      {
+        "who": "a founder figure walking away holding a bag marked with a dollar sign",
+        "kind": "person"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Split composition, left-right. Left half: the company building's open door, one paper-cutout hand reaching out to take a form stamped SAFETY REPORT from a government official standing at a small podium. Right half: the same building's other side launching the rocket-shaped $1.4T stock arrow upward past layered paper clouds, the small CATASTROPHIC tag fluttering off its tail. A founder figure walks off-panel at the bottom right, carrying a dollar-sign bag. Keep it to these four main elements, flat cut-paper layers, soft drop shadows.",
+    "artType": "static",
+    "alt": "A company building hands a government official a form labeled 'safety report' with one hand while launching a rocket-shaped stock arrow tagged '$1.4T' into the sky with the other, a small 'catastrophic' warning tag dangling off its tail as a founder walks away carrying a bag of money."
+  },
+  "sourceIds": [
+    "feeds:ae543fdc68f7",
+    "feeds:a359ce8a1631",
+    "feeds:9fe20b2babfe",
+    "feeds:6c9140475957"
+  ],
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 2,
+    "policy": 3,
+    "law": 2,
+    "safety": 2,
+    "society": 2,
+    "education": 1,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "passed": false,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"price-tag\" (label) was moved 0 px, 2 px to stay inside the safe area",
+          "\"founder\" extends outside the safe area in the final frame (x 729…1042, y 373…799)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 4
+        },
+        "verdict": "The joke concept is sound and the cast is kind, but overlapping labels and figures (rocket clipping \"SAFETY REPORT\", the \"CATASTROPHIC\" tag draping across both humans, founder spilling past the safe area) make the composition feel broken rather than intentional—needs a polish and layout pass before publishing.",
+        "revisionNotes": [
+          "Rocket overlaps and clips the \"SAFETY REPORT\" label (reads \"SAFETY R[gap]ORT\"); move the rocket anchor right to ~x:0.72 or raise the label above the rocket's apex so the text is never crossed.",
+          "Rocket currently launches from between the two humans, disconnected from the datacenter; anchor it to the right edge of the building roofline per the brief's split composition so the launch reads as the company's own act.",
+          "The \"CATASTROPHIC\" tag drapes across both figures' torsos; shorten its trail and keep it attached only to the rocket tail, clear of the official and founder.",
+          "Founder figure extends outside the safe area (x 729-1042 per lint); scale to ~0.9 and shift anchor to x:0.78 so the raised arm and money bag sit fully inside frame.",
+          "Official and founder read as the same human reskinned with only a face-swap; give the official a distinct prop (clipboard or small podium sign) so the regulator role is visually distinct from the founder.",
+          "The hand-off of the safety report is only implied by a floating label; add a cutout arm/hand reaching from the building or official toward each other so the exchange is staged, not just labeled."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"price-tag\" (label) was moved 0 px, 18 px to stay inside the safe area"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The idea (safety report in one hand, trillion-dollar rocket in the other) is coherent and kind, but rendering bugs — an unreadable overlapped warning tag, a near-invisible money bag, and a podium that fuses into the official's body — plus a repetitive datacenter-and-two-figures layout keep this from publishable polish.",
+        "revisionNotes": [
+          "The CATASTROPHIC tag is nearly swallowed by the SAFETY REPORT tag — separate them: drop the warn-tag further down the rocket's tail (rotate -8 kept) and raise safety-label's anchor so there is clear whitespace between the two labels.",
+          "The money-bag prop attached to the founder is essentially invisible, hidden behind the official's arm — scale money-bag to 1.3 and increase its offset to the left so the coin and sack silhouette clears the other figure.",
+          "The official-podium raw shape fuses into a shapeless hump on the official's back instead of reading as a lectern — move it further to the right side with more gap and keep the counter higher than the shoulder so it reads as a separate object.",
+          "The rocket floats with a visible gap above the datacenter instead of appearing to launch from it — close the gap or add an exhaust/flame shape bridging rocket base to roofline.",
+          "Composition leaves large dead zones at top (beige sky) and bottom (plain teal ground) while all props crowd the middle band — rebalance by lowering the rocket's apex scale slightly and adding a touch of ground detail (shadow, step) under the figures.",
+          "This beige building + two stick-figure humans + chart/arrow arrangement repeats a layout used in several recent sloppers — vary the framing (e.g., diagonal split or different anchor points) to feel fresher."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"price-tag\" (label) was moved 0 px, 7 px to stay inside the safe area",
+          "\"cloud2\" extends outside the safe area in the final frame (x 808…1058, y 172…320)",
+          "\"founder\" extends outside the safe area in the final frame (x 795…1062, y 502…864)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 4
+        },
+        "verdict": "The paper-cutout style and rocket/stock metaphor are charming, but the lab and official figures visually fuse into one blob and the CATASTROPHIC/SAFETY REPORT tags overlap and clip, while the money bag floats off a podium instead of in the founder's hand — this reads as buggy rather than intentional and needs a composition pass before publishing.",
+        "revisionNotes": [
+          "The datacenter (lab) and the official human figure overlap so much they read as one fused character; shift \"official\" right by ~0.08x or the datacenter left so the racks read as a building behind, not a backpack on the official.",
+          "\"warn-tag\" was scripted to flutter off the rocket's tail but instead stacks on \"safety-label\", clipping CATASTROPHIC at the right edge; keep warn-tag attached to the rocket with more offset so the two banners don't touch.",
+          "\"money-bag\" is disconnected from the founder, reading as a sack hanging off the podium pole; attach it to founder's hand (holds prop), scale 1.1, and change founder's pose from \"cheer\" to \"walk\" to match the brief's \"walking away holding a bag\".",
+          "\"official-podium\" sits between official and founder and visually merges with the money-bag; scale it to ~0.8 and pull it closer to official (offset x 15 instead of 30) so it reads as a lectern, not a lamppost.",
+          "Nudge \"cloud2\" fully inside the safe area (currently clipped at x 808-1058); scale 0.9 or move toward x 0.8.",
+          "Add more vertical gap between the $1.4T, SAFETY REPORT, and CATASTROPHIC labels so each sits in its own band with no overlap or edge cropping."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    }
+  ]
+}
