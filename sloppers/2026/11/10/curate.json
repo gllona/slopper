@@ -1,0 +1,185 @@
+{
+  "topStories": [
+    {
+      "title": "Anthropic Prices Record IPO At Up To $1.4 Trillion",
+      "itemIds": [
+        "feeds:a359ce8a1631",
+        "feeds:6c9140475957",
+        "feeds:9fe20b2babfe"
+      ],
+      "dimensions": [
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "anthropic-ipo-countdown"
+    },
+    {
+      "title": "New York's AI Safety Law Takes Effect",
+      "itemIds": [
+        "feeds:ae543fdc68f7"
+      ],
+      "dimensions": [
+        "policy",
+        "law",
+        "safety"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "state-ai-safety-law-effect"
+    },
+    {
+      "title": "Nvidia's Spy Scandal Escalates With FBI Probe And Outside Law Firm",
+      "itemIds": [
+        "feeds:9d42223fb423",
+        "feeds:3aac096e4d1a",
+        "feeds:862bc6a50819"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "safety"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "Airline Cuts Hundreds Of Jobs, Citing AI Automation",
+      "itemIds": [
+        "gdelt:d934575efec9",
+        "gdelt:ab97305e2ae3"
+      ],
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "airline-ai-job-cuts"
+    },
+    {
+      "title": "Coding Agent's Leaky Defaults Expose Tens Of Thousands Of Apps",
+      "itemIds": [
+        "feeds:80500b1292cc"
+      ],
+      "dimensions": [
+        "safety",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "ai-coding-tool-leaks-secrets"
+    },
+    {
+      "title": "A Search Giant's Flagship Model Goes Public With New Safety Benchmark",
+      "itemIds": [
+        "feeds:f1875ca809ae",
+        "hackernews:5b4c18faabad",
+        "feeds:c86d08502069"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "state-ai-safety-law-effect",
+      "title": "A State's AI Safety Law Takes Effect",
+      "dimensions": [
+        "policy",
+        "law",
+        "safety"
+      ],
+      "motifs": [
+        "a government building stamping a rulebook seal onto two company doors",
+        "a registration form pinned above a server rack",
+        "an incident-report form sliding under a lab's front door"
+      ]
+    },
+    {
+      "id": "airline-ai-job-cuts",
+      "title": "An Airline Cuts Jobs And Moves Roles Abroad, Citing AI",
+      "dimensions": [
+        "labor",
+        "society",
+        "industry"
+      ],
+      "motifs": [
+        "an airplane-shaped desk emptying its seats one by one",
+        "a job envelope flying from one office window toward a distant skyline",
+        "a small robot checking off tasks at an empty check-in counter"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Two stories clear the relevance threshold on their own: Anthropic's record IPO (novelty 2 × magnitude 3 × breadth 2 = 12) and a state's AI safety law taking effect (novelty 3 × magnitude 2 × breadth 2 = 12), both well above the fresh threshold of 8.",
+  "motto": "Biggest Debut, First Checkup",
+  "phrase": "A top AI lab debuted at a $1.4 trillion valuation today, warning of 'catastrophic' AI risks. A new state law also began, asking AI firms to report their mistakes.",
+  "phraseAlternatives": [
+    "A chatbot maker's stock market debut valued it near $1.4 trillion today. The same day, a new state law started requiring AI firms to report serious mistakes.",
+    "One AI lab's IPO priced it at up to $1.4 trillion, even as its own filing calls AI risk 'catastrophic.' A new AI safety law took effect the same day.",
+    "Billions poured into one AI company's stock debut today. Meanwhile, a new rule quietly asked AI makers to start reporting when things go wrong."
+  ],
+  "brief": {
+    "concept": "A company climbs a tower of coins into the sky for the biggest AI stock debut yet, a small tag on its side reading 'catastrophic.' Right beside it, a government stamps a fresh rulebook onto two AI labs' doors, on the very same day.",
+    "metaphor": "Going public and getting policed, in the very same frame.",
+    "cast": [
+      {
+        "who": "a company building riding a tall tower of coins upward, a small flag reading IPO planted on its roof",
+        "kind": "institution"
+      },
+      {
+        "who": "a warning tag dangling off the building's side, its small print reading CATASTROPHIC",
+        "kind": "object"
+      },
+      {
+        "who": "a government building pressing a large round rulebook stamp onto two smaller company doors",
+        "kind": "institution"
+      },
+      {
+        "who": "a human official standing beside the stamped doors, checking a box on a clipboard",
+        "kind": "person"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Left half: a company building rides a rising stack of golden coins toward the top of the frame, an IPO flag on its roof and a CATASTROPHIC tag dangling off one corner. Right half, same ground line: a government building presses a round rulebook stamp down onto two smaller company doors, with a human official beside it checking a clipboard. A thin dotted vertical line separates the two halves.",
+    "artType": "static",
+    "alt": "On one side, a company building rides a tower of coins marked IPO into the sky, a small tag reading CATASTROPHIC dangling off it. On the other, a government building stamps a rulebook seal onto two smaller company doors while an official checks a clipboard."
+  },
+  "sourceIds": [
+    "feeds:a359ce8a1631",
+    "feeds:6c9140475957",
+    "feeds:9fe20b2babfe",
+    "feeds:ae543fdc68f7"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "law": 2,
+    "safety": 3,
+    "society": 2,
+    "education": 1,
+    "planet": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": 1,
+    "calm_frantic": 1
+  }
+}
