@@ -1,0 +1,123 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {},
+  "elements": [
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1,
+      "props": {
+        "width": 20,
+        "height": 700
+      },
+      "svg": "<path class=\"r-line\" d=\"M10,0 L10,700\" stroke-dasharray=\"18 18\"/>"
+    },
+    {
+      "id": "tower",
+      "component": "raw",
+      "at": {
+        "x": 0.3,
+        "y": 0.58
+      },
+      "scale": 0.78,
+      "props": {
+        "width": 260,
+        "height": 480
+      },
+      "svg": "<g><ellipse class=\"r-accent\" cx=\"130\" cy=\"470\" rx=\"110\" ry=\"20\"/><ellipse class=\"r-paper\" cx=\"130\" cy=\"440\" rx=\"110\" ry=\"20\"/><ellipse class=\"r-accent\" cx=\"130\" cy=\"410\" rx=\"110\" ry=\"20\"/><ellipse class=\"r-paper\" cx=\"130\" cy=\"380\" rx=\"110\" ry=\"20\"/><ellipse class=\"r-accent\" cx=\"130\" cy=\"350\" rx=\"110\" ry=\"20\"/><ellipse class=\"r-paper\" cx=\"130\" cy=\"320\" rx=\"110\" ry=\"20\"/><path class=\"r-accent\" d=\"M50,120 L210,120 L130,80 Z\"/><rect class=\"r-paper\" x=\"50\" y=\"120\" width=\"160\" height=\"180\" rx=\"8\"/><rect class=\"r-ink\" x=\"75\" y=\"150\" width=\"35\" height=\"35\" rx=\"4\"/><rect class=\"r-ink\" x=\"150\" y=\"150\" width=\"35\" height=\"35\" rx=\"4\"/><rect class=\"r-ink\" x=\"112\" y=\"255\" width=\"36\" height=\"45\" rx=\"4\"/></g>"
+    },
+    {
+      "id": "ipo-tag",
+      "component": "label",
+      "attachTo": "tower",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "IPO",
+        "kind": "tag",
+        "size": "md",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "catastrophic-tag",
+      "component": "label",
+      "at": {
+        "x": 0.205,
+        "y": 0.345
+      },
+      "scale": 1,
+      "rotate": -8,
+      "props": {
+        "text": "CATASTROPHIC",
+        "kind": "tag",
+        "size": "sm",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "govbuilding",
+      "component": "raw",
+      "at": {
+        "x": 0.655,
+        "y": 0.58
+      },
+      "scale": 0.85,
+      "props": {
+        "width": 300,
+        "height": 380
+      },
+      "svg": "<g><rect class=\"r-paper\" x=\"20\" y=\"70\" width=\"260\" height=\"310\" rx=\"8\"/><path class=\"r-accent-2\" d=\"M20,70 L280,70 L150,20 Z\"/><rect class=\"r-accent-2\" x=\"50\" y=\"70\" width=\"14\" height=\"220\"/><rect class=\"r-accent-2\" x=\"110\" y=\"70\" width=\"14\" height=\"220\"/><rect class=\"r-accent-2\" x=\"170\" y=\"70\" width=\"14\" height=\"220\"/><rect class=\"r-accent-2\" x=\"230\" y=\"70\" width=\"14\" height=\"220\"/><rect class=\"r-ink\" x=\"90\" y=\"300\" width=\"60\" height=\"80\" rx=\"6\"/><rect class=\"r-ink\" x=\"170\" y=\"300\" width=\"60\" height=\"80\" rx=\"6\"/></g>"
+    },
+    {
+      "id": "rules-tag",
+      "component": "label",
+      "attachTo": "govbuilding",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "RULES",
+        "kind": "tag",
+        "size": "md",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "stamp",
+      "component": "raw",
+      "at": {
+        "x": 0.663,
+        "y": 0.649
+      },
+      "scale": 1.2,
+      "rotate": -8,
+      "props": {
+        "width": 140,
+        "height": 160
+      },
+      "svg": "<g><rect class=\"r-accent-2\" x=\"55\" y=\"10\" width=\"30\" height=\"60\" rx=\"6\"/><circle class=\"r-accent-2\" cx=\"70\" cy=\"12\" r=\"16\"/><circle class=\"r-paper\" cx=\"70\" cy=\"100\" r=\"55\"/><circle class=\"r-line\" cx=\"70\" cy=\"100\" r=\"55\"/><circle class=\"r-accent\" cx=\"70\" cy=\"100\" r=\"28\"/></g>"
+    },
+    {
+      "id": "official",
+      "component": "human",
+      "at": {
+        "x": 0.84,
+        "y": 0.73
+      },
+      "scale": 0.68,
+      "flip": true,
+      "props": {
+        "mood": "neutral",
+        "pose": "point",
+        "holds": "book",
+        "kind": "adult"
+      }
+    }
+  ],
+  "alt": "A company building rides a stack of coins toward the sky with an IPO tag on its roof and a CATASTROPHIC tag floating beside it. A dotted line separates it from a government building whose columned facade has two doors; a round stamp marked RULES presses down from above onto the doors while a small official stands beside it pointing with a book in hand."
+}

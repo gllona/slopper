@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"official\" (human) was moved -30 px, 0 px to stay inside the artboard",
+          "\"divider\" extends outside the safe area in the final frame (x 540…540, y 52…812)",
+          "\"tower\" extends outside the safe area in the final frame (x 110…330, y 639…1049)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 4,
+          "composition": 2,
+          "style": 3,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The casting and metaphor land, but the whole scene is crammed into the bottom third with a cavernous empty sky above it, the CATASTROPHIC tag is swallowed by the government building, and the coin tower is clipped at the bottom edge — this needs a composition pass before it can publish.",
+        "revisionNotes": [
+          "Shift the whole cast upward: move tower, divider, and govbuilding group from y≈0.74 to roughly y≈0.55–0.6 so the composition uses the upper two-thirds of the frame instead of leaving a bare tan void above.",
+          "Tower clips the bottom edge (lint confirms it exceeds the safe area). Scale tower to ~0.8 and/or raise its anchor so the full coin stack is visible inside the safe area.",
+          "catastrophic-tag is hidden behind govbuilding, reading only 'CATASTR'. Re-anchor its offset to sit over open tan background to the left of the tower, or flip its side so it dangles clear of the right-half elements.",
+          "The stamp raw shape fuses into the government building's columns and reads as a face/sun rather than a stamp pressing on two doors. Scale the stamp up (~1.1–1.2) and offset it further out from the facade so the round disk and the two door rectangles are both clearly separated and legible.",
+          "Shorten the divider's height or recenter its y anchor so it stays within the safe area top and bottom per the lint warning.",
+          "Add a small horizontal gap between the RULES tag and the official's raised arm so the label doesn't visually merge with the pose."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "Cast and concept follow the lessons well (human official, institutions as buildings, no robots standing in for people), but the IPO tag is overlapped and nearly swallowed by the CATASTROPHIC tag, and the coin tower reads as a squat stack rather than a dramatic climb into the sky, weakening the 'biggest debut' side of the joke.",
+        "revisionNotes": [
+          "Separate ipo-tag and catastrophic-tag: they currently overlap so 'IPO' is nearly unreadable (only 'PO' visible). Move catastrophic-tag further left/down, or drop ipo-tag's size to 'sm' so the two bounding boxes clear each other.",
+          "Tower reads as a short, squat stack, not 'climbing into the sky'; raise the tower anchor (y ~0.45) and bump scale to ~1.0 so the building pushes toward the top third, matching the gov building's height and the 'biggest debut' stakes.",
+          "Large empty sky area above both tags wastes the square; pull the whole left-half group (tower + tags) upward to fill that space rather than leaving a blank band at top.",
+          "Official's pointing arm (pose: point) nearly touches the stamp's edge; nudge official's anchor to x 0.87 to leave a clean gap between hand and stamp circle.",
+          "Consider rendering the IPO element closer to the brief's 'small flag planted on its roof' (a literal flag shape on the roof peak) instead of a floating tag, to tie it more directly to the tower and reduce tag clutter in the sky."
+        ]
+      },
+      "average": 3.57,
+      "passed": true
+    }
+  ]
+}
