@@ -1,0 +1,38 @@
+{
+  "verdict": "hold",
+  "rounds": [
+    {
+      "verdict": "hold",
+      "findings": [
+        {
+          "check": "sensitive-events",
+          "severity": "high",
+          "evidence": "Phrase: \"A school's AI left a teenager's suicide-related messages unflagged for weeks.\" paired with motto \"Loud Scandal, Quiet Alarm\", drawing a contrast-for-effect between a CEO's sex scandal and a real minor's suicide-related crisis (Wired source: \"parents allege that she used Gemini ... to plan her suicide ... almost too late\").",
+          "suggestion": "This is not a trend or institution joke that happens to touch a serious topic — the entire right-hand half of the concept is built on a specific, real, still-unfolding child-safety tragedy, used as the punchline counterweight to a celebrity affair. No rewording fixes this; drop this source/story from the concept entirely and pick a 'quiet alarm' example that is not a real minor's suicide crisis.",
+          "stage": "curate"
+        },
+        {
+          "check": "privacy",
+          "severity": "high",
+          "evidence": "\"A school's AI left a teenager's suicide-related messages unflagged for weeks\" together with art text \"WEEKS LATER\" tracks one specific, unique, recent news story (Wired, a single 13-year-old's case) closely enough that the private minor involved is identifiable to anyone who saw that coverage.",
+          "suggestion": "Do not base the piece on an identifiable private minor's suicide-related ordeal; if the institutional-failure point must be made, use a composite/generic scenario not traceable to one real child.",
+          "stage": "curate"
+        },
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"A chip maker moved to oust its CEO after a second affair surfaced.\" The sources call this a \"second alleged affair\" and say the board \"is reportedly preparing\"/\"could decide\" to remove him — not a confirmed affair or completed ouster.",
+          "suggestion": "Add the sources' hedging: e.g. \"after a second affair was alleged\" and \"reportedly moved toward ousting its CEO,\" so the phrase doesn't assert as fact what the sources only report as alleged/unconfirmed.",
+          "stage": "curate"
+        },
+        {
+          "check": "real-people",
+          "severity": "medium",
+          "evidence": "\"A chip maker moved to oust its CEO after a second affair surfaced\" — all six listed sources are about one specific real CEO (Jensen Huang/Nvidia); the scenario's unique specifics (chip maker, CEO, second affair, board move to oust, same news day) make him unmistakably identifiable despite the generic wording.",
+          "suggestion": "Either further abstract the scenario so it no longer uniquely maps to one real, currently-named individual (change industry and drop the 'second affair' specificity), or acknowledge the identifiability and treat this as reporting a real person's unproven personal scandal, which carries its own defamation exposure.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}

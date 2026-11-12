@@ -1,0 +1,221 @@
+{
+  "topStories": [
+    {
+      "title": "Nvidia's Board Moves To Oust CEO Amid Spy-Affair Scandal",
+      "itemIds": [
+        "feeds:5f457e071974",
+        "feeds:eb294a56c70b",
+        "feeds:d1f3df81d4d1",
+        "feeds:f2c9646eac9d",
+        "feeds:3927e8656e24",
+        "feeds:236705559d28"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "School Laptop's AI Monitoring Missed A Teenager's Suicide-Related Messages",
+      "itemIds": [
+        "feeds:d3076e1629e1"
+      ],
+      "dimensions": [
+        "safety",
+        "education",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "school-ai-monitoring-suicide-gap"
+    },
+    {
+      "title": "AI Helps Mathematically Verify Signal's Encryption",
+      "itemIds": [
+        "feeds:7db3dbf05615"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science",
+        "safety"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-formal-verification-breakthrough"
+    },
+    {
+      "title": "Data Center Backlash And Red Tape Keep Stalling New Builds",
+      "itemIds": [
+        "feeds:321d8b43ce72",
+        "feeds:27ced9ec34f5"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet",
+        "society"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "A Major Airline Bans AI Agents From Booking Flights",
+      "itemIds": [
+        "feeds:62b247514cc7",
+        "hackernews:7ba20429e23e"
+      ],
+      "dimensions": [
+        "labor",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "airline-blocks-ai-booking-agents"
+    },
+    {
+      "title": "Indie Game And Open-Source Communities Push Back On AI Contributions",
+      "itemIds": [
+        "feeds:1e2d7b9998cc",
+        "hackernews:5e39c0b07352"
+      ],
+      "dimensions": [
+        "labor",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "communities-reject-ai-contributions"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "school-ai-monitoring-suicide-gap",
+      "title": "A School's AI Chat Monitoring Misses A Student In Crisis",
+      "dimensions": [
+        "safety",
+        "education",
+        "society"
+      ],
+      "motifs": [
+        "a school laptop's chat log glowing quietly for weeks before anyone notices",
+        "a flag rising slowly up a pole beside a stack of calendar pages",
+        "an empty hallway outside a locked counselor's office door"
+      ]
+    },
+    {
+      "id": "ai-formal-verification-breakthrough",
+      "title": "AI Speeds Up Formal Verification Of Code",
+      "dimensions": [
+        "capabilities",
+        "science",
+        "safety"
+      ],
+      "motifs": [
+        "a small robot hand stamping a chalkboard proof VERIFIED",
+        "a padlock tested by a wrench instead of a key",
+        "a four-week calendar flipping into a stack of checked proofs"
+      ]
+    },
+    {
+      "id": "airline-blocks-ai-booking-agents",
+      "title": "Airlines Block AI Agents From Booking Flights",
+      "dimensions": [
+        "labor",
+        "industry",
+        "society"
+      ],
+      "motifs": [
+        "a ticket counter robot turned back at a velvet rope",
+        "a boarding pass machine refusing a robot's printed request",
+        "an airplane door sign reading HUMANS ONLY"
+      ]
+    },
+    {
+      "id": "communities-reject-ai-contributions",
+      "title": "Creative And Open-Source Communities Push Back On AI Contributions",
+      "dimensions": [
+        "labor",
+        "society",
+        "industry"
+      ],
+      "motifs": [
+        "a pull request stamped REJECTED beside a small robot hand",
+        "a judge's clipboard with an AI-made entry crossed out",
+        "a contribution queue sign reading NO AI ALLOWED"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "placeholder",
+  "motto": "Loud Scandal, Quiet Alarm",
+  "phrase": "A chip maker moved to oust its CEO after a second affair surfaced. A school's AI left a teenager's suicide-related messages unflagged for weeks.",
+  "phraseAlternatives": [
+    "A chip maker weighed firing its CEO over a new affair. A school's AI failed to flag a teenager's suicide-related chats for weeks.",
+    "One company debated removing its own chief executive after a second affair came to light. One school's AI missed a student's warning signs for weeks.",
+    "A chip maker's board moved toward firing its chief executive. Meanwhile, a school's AI chat monitor missed a teenager's crisis for weeks.",
+    "While a chip maker weighed firing its CEO over scandal, a school's AI monitoring system missed a teenager's suicide-related messages for weeks."
+  ],
+  "brief": {
+    "concept": "A company's boardroom floor drops away beneath its own chief executive while, across town, a school laptop's quiet chat alert takes weeks to finally rise.",
+    "metaphor": "Two alarms ring at very different volumes: one a deafening boardroom scandal, the other a safety flag that barely moves.",
+    "cast": [
+      {
+        "who": "a company building with a trapdoor opening in its boardroom floor",
+        "kind": "institution"
+      },
+      {
+        "who": "a worried tech executive standing on the trapdoor, briefcase in hand",
+        "kind": "person"
+      },
+      {
+        "who": "a school laptop with a small chatbot speech bubble glowing inside its screen",
+        "kind": "ai"
+      },
+      {
+        "who": "a tiny alert flag slowly climbing a pole above the laptop, over a tall stack of calendar pages",
+        "kind": "object"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split scene on a fine blueprint grid. Left half: a company building with its boardroom trapdoor open, the executive mid-fall with a briefcase, one yellow highlight on the trapdoor hinge. Right half: a school laptop at a child's desk, a soft chat bubble glowing on its screen, a small flag inching up a pole beside a tall stack of calendar pages marking the weeks. A thin dashed line connects the two halves like shared wiring on the same technical drawing.",
+    "artType": "static",
+    "alt": "A blueprint-style diagram split in two: on one side a company building's boardroom trapdoor opens beneath a worried executive holding a briefcase, and on the other a school laptop glows with a chat bubble while a small alert flag slowly climbs a pole over a tall stack of calendar pages."
+  },
+  "sourceIds": [
+    "feeds:5f457e071974",
+    "feeds:eb294a56c70b",
+    "feeds:d1f3df81d4d1",
+    "feeds:f2c9646eac9d",
+    "feeds:3927e8656e24",
+    "feeds:d3076e1629e1"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 1,
+    "safety": 3,
+    "society": 2,
+    "education": 2,
+    "planet": 1,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}

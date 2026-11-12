@@ -1,0 +1,234 @@
+{
+  "date": "2026-11-11",
+  "number": 43,
+  "mode": "fresh",
+  "motto": "Loud Scandal, Quiet Alarm",
+  "phrase": "A chip maker moved to oust its CEO after a second affair surfaced. A school's AI left a teenager's suicide-related messages unflagged for weeks.",
+  "phraseAlternatives": [
+    "A chip maker weighed firing its CEO over a new affair. A school's AI failed to flag a teenager's suicide-related chats for weeks.",
+    "One company debated removing its own chief executive after a second affair came to light. One school's AI missed a student's warning signs for weeks.",
+    "A chip maker's board moved toward firing its chief executive. Meanwhile, a school's AI chat monitor missed a teenager's crisis for weeks.",
+    "While a chip maker weighed firing its CEO over scandal, a school's AI monitoring system missed a teenager's suicide-related messages for weeks."
+  ],
+  "alt": "Blueprint diagram split in two. Left: a yellow-hinged trapdoor opens in a company building's boardroom floor, and a worried executive falls through it with a briefcase. Right: a school laptop glows with a quiet chat bubble beside a flag barely risen on its pole above a tall stack of calendar pages labeled weeks later. A dashed line links the two halves like shared wiring on one drawing.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 1,
+    "safety": 3,
+    "society": 2,
+    "education": 2,
+    "planet": 1,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "nvidia-spy-case",
+    "school-ai-monitoring-suicide-gap",
+    "ai-formal-verification-breakthrough",
+    "datacenter-backlash-campaign",
+    "airline-blocks-ai-booking-agents",
+    "communities-reject-ai-contributions"
+  ],
+  "topStories": [
+    {
+      "title": "Nvidia's Board Moves To Oust CEO Amid Spy-Affair Scandal",
+      "itemIds": [
+        "feeds:5f457e071974",
+        "feeds:eb294a56c70b",
+        "feeds:d1f3df81d4d1",
+        "feeds:f2c9646eac9d",
+        "feeds:3927e8656e24",
+        "feeds:236705559d28"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "School Laptop's AI Monitoring Missed A Teenager's Suicide-Related Messages",
+      "itemIds": [
+        "feeds:d3076e1629e1"
+      ],
+      "dimensions": [
+        "safety",
+        "education",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "school-ai-monitoring-suicide-gap"
+    },
+    {
+      "title": "AI Helps Mathematically Verify Signal's Encryption",
+      "itemIds": [
+        "feeds:7db3dbf05615"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science",
+        "safety"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-formal-verification-breakthrough"
+    },
+    {
+      "title": "Data Center Backlash And Red Tape Keep Stalling New Builds",
+      "itemIds": [
+        "feeds:321d8b43ce72",
+        "feeds:27ced9ec34f5"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet",
+        "society"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "A Major Airline Bans AI Agents From Booking Flights",
+      "itemIds": [
+        "feeds:62b247514cc7",
+        "hackernews:7ba20429e23e"
+      ],
+      "dimensions": [
+        "labor",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "airline-blocks-ai-booking-agents"
+    },
+    {
+      "title": "Indie Game And Open-Source Communities Push Back On AI Contributions",
+      "itemIds": [
+        "feeds:1e2d7b9998cc",
+        "hackernews:5e39c0b07352"
+      ],
+      "dimensions": [
+        "labor",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "communities-reject-ai-contributions"
+    }
+  ],
+  "brief": {
+    "concept": "A company's boardroom floor drops away beneath its own chief executive while, across town, a school laptop's quiet chat alert takes weeks to finally rise.",
+    "metaphor": "Two alarms ring at very different volumes: one a deafening boardroom scandal, the other a safety flag that barely moves.",
+    "cast": [
+      {
+        "who": "a company building with a trapdoor opening in its boardroom floor",
+        "kind": "institution"
+      },
+      {
+        "who": "a worried tech executive standing on the trapdoor, briefcase in hand",
+        "kind": "person"
+      },
+      {
+        "who": "a school laptop with a small chatbot speech bubble glowing inside its screen",
+        "kind": "ai"
+      },
+      {
+        "who": "a tiny alert flag slowly climbing a pole above the laptop, over a tall stack of calendar pages",
+        "kind": "object"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split scene on a fine blueprint grid. Left half: a company building with its boardroom trapdoor open, the executive mid-fall with a briefcase, one yellow highlight on the trapdoor hinge. Right half: a school laptop at a child's desk, a soft chat bubble glowing on its screen, a small flag inching up a pole beside a tall stack of calendar pages marking the weeks. A thin dashed line connects the two halves like shared wiring on the same technical drawing.",
+    "artType": "static",
+    "alt": "A blueprint-style diagram split in two: on one side a company building's boardroom trapdoor opens beneath a worried executive holding a briefcase, and on the other a school laptop glows with a chat bubble while a small alert flag slowly climbs a pole over a tall stack of calendar pages."
+  },
+  "sources": [
+    {
+      "id": "feeds:5f457e071974",
+      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+      "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-11T22:44:36.000Z"
+    },
+    {
+      "id": "feeds:eb294a56c70b",
+      "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-11T23:28:45.000Z"
+    },
+    {
+      "id": "feeds:d1f3df81d4d1",
+      "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+      "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-11T23:17:05.000Z"
+    },
+    {
+      "id": "feeds:f2c9646eac9d",
+      "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+      "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-11T19:22:22.000Z"
+    },
+    {
+      "id": "feeds:3927e8656e24",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-11T23:50:00.000Z"
+    },
+    {
+      "id": "feeds:d3076e1629e1",
+      "title": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
+      "url": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-11-11T11:00:00.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.14,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "hold"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-12T11:32:41.352Z"
+}

@@ -1,0 +1,100 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"executive\" (human) was moved 0 px, 182 px to stay inside the artboard",
+          "\"weekslabel\" (label) was moved -91 px, 0 px to stay inside the safe area",
+          "\"executive\" extends outside the safe area in the final frame (x 37…551, y 8…538)",
+          "\"briefcase\" extends outside the safe area in the final frame (x 55…157, y 250…347)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 1,
+          "style": 3,
+          "polish": 1,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "Fails: the executive is oversized and clipped outside the safe area with no visible trapdoor, the briefcase is cut off and overlapping, and the two halves feel disconnected and unbalanced — this needs a composition and scale rework before it can publish.",
+        "revisionNotes": [
+          "Scale down \"executive\" to ~0.55–0.6 and move it fully inside the safe area; right now it's blown up so large it reads as sitting atop a cabinet rather than falling through a trapdoor, and it clips the top/side of the frame (per lint).",
+          "Redraw \"building\" with a visible trapdoor opening in the boardroom floor and the yellow hinge highlight called for in the brief — currently it reads as a filing cabinet or server rack, so the \"floor drops away\" beat doesn't land.",
+          "Reposition \"briefcase\" fully inside the safe area and reattach it cleanly to the executive's hand; it currently clips off the left edge and overlaps the arm awkwardly.",
+          "Thicken or lower the \"wire\" dashed connector so the two halves visibly link as one diagram; at 2px near the very top edge it's nearly invisible.",
+          "Rebalance left/right weight: the oversized executive dominates two-thirds of the frame while laptop+flagstack feel small and isolated on the right — shrink the left group and/or scale up the right group slightly for a true split composition.",
+          "Novelty: this blue-blueprint split-building-vs-human/robot layout closely echoes several recent sloppers (filmstrip rows 2–3); try a different palette treatment or panel arrangement next time."
+        ]
+      },
+      "average": 2.29,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 4
+        },
+        "verdict": "The casting and quiet-vs-loud concept are sound, but the key metaphor doesn't land: the executive reads as floating atop the building rather than falling through a trapdoor, and the 'quiet' flag looks fully raised near the top of the frame instead of barely risen, so the average falls short of passing.",
+        "revisionNotes": [
+          "Fix the trapdoor read: the executive is sprawled across the building top with legs crossing windows, reading as floating, not falling. Cut a visible trapdoor opening in the roof with the yellow hinge accent from the brief, and pose him dropping through it, legs below the roofline.",
+          "Lower the flag on its pole: it sits near the top of the canvas looking fully raised, contradicting the 'barely risen, quiet alarm' metaphor. Shorten the pole or move the flag to about a third up, inside the safe area.",
+          "Rebalance composition: the top half of the frame is nearly empty while everything crowds the bottom. Scale up the building/laptop/flagstack group and shift it upward to use the square more evenly.",
+          "Reattach the briefcase: it floats disconnected above the executive's hand. Tuck it closer at a smaller offset so the grip reads clearly.",
+          "Novelty: this blueprint-on-navy composition is close to two recent tiles ('Business As Usual' and 'Stock Falls / Jobs Cut'). Vary the accent color or prop arrangement so it stands apart from the recent set."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "The cast and metaphor are set up correctly (human exec, AI as laptop not robot), but the trapdoor/fall doesn't read clearly, the layout leaves the bottom third nearly empty while the top is cramped, and this blueprint split-scene look repeats too much of the recent batch — overall average falls below the pass bar.",
+        "revisionNotes": [
+          "Render the trapdoor as an actual gap in the roof with the yellow hinge highlight the brief calls for — right now the executive is just pasted overlapping the building's window grid, which reads as a registration error, not a fall.",
+          "Rebalance composition: the top two-thirds is crowded (building + exec on the left, laptop/flag/text on the right) while the bottom third is nearly empty except for a lonely dashed wire — pull the wire up near the laptop/flagpole, or raise all main elements toward center to fill the square.",
+          "Flagstack prop currently reads as a plain filing box, not a 'tall stack of calendar pages' — add visible stacked page lines or date marks so the 'weeks of waiting' beat is legible without relying on the WEEKS LATER label.",
+          "Scale the briefcase up (it's nearly invisible at current size) and clean up the executive's pose so arms/legs don't cross through the building windows.",
+          "This blueprint, split-scene, building-plus-text-label layout has appeared several times in the recent batch (dark blue grid, left institution/right AI panel, bold caption) — push the palette or framing somewhere fresher for this run.",
+          "Pair the laptop's '...' thought bubble with a tiny flag or alert icon inside it so the 'quiet alarm' idea doesn't rely purely on an ambiguous ellipsis."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    }
+  ]
+}
