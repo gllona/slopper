@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-11",
+  "number": 43,
+  "mode": "fresh",
+  "motto": "Everyone Said No",
+  "phrase": "Game festival judges, open-source coders, and an airline all said no to AI today. A chip maker invested another billion into it anyway.",
+  "phraseAlternatives": [
+    "An airline, game judges, and open-source coders all pushed back against AI this week. A chip maker answered with another billion-dollar bet.",
+    "Communities keep rejecting AI code and AI agents, from game festivals to airline bookings. The money kept flowing the other way.",
+    "AI was turned away from a coding contest, an open-source project, and a flight booking today. A chip maker still bet a billion on it.",
+    "Three separate groups told AI 'not here' today: game judges, coders, and an airline. A chip maker told it 'here's another billion.'"
+  ],
+  "alt": "A human airline worker holds up a stop hand toward a small worried robot standing at a check-in counter holding out a ticket. In the background, a smaller company building sits off to the side under a chip-shaped funnel pouring coins onto its roof, labeled MORE MONEY.",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 1,
+    "law": 1,
+    "safety": 2,
+    "society": 3,
+    "education": 1,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 0
+  },
+  "storylines": [
+    "open-source-ai-moratorium",
+    "ai-agent-bans-spread",
+    "ai-stock-bubble-risk",
+    "ai-verifies-real-world-code",
+    "ai-defends-against-ai-bioweapons",
+    "ai-books-in-libraries-scandal"
+  ],
+  "topStories": [
+    {
+      "title": "Game Judges And Open-Source Coders Reject AI-Assisted Work",
+      "itemIds": [
+        "feeds:1e2d7b9998cc",
+        "hackernews:5e39c0b07352"
+      ],
+      "dimensions": [
+        "labor",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "open-source-ai-moratorium"
+    },
+    {
+      "title": "An Airline Bans AI Agents From Booking Flights",
+      "itemIds": [
+        "hackernews:7ba20429e23e"
+      ],
+      "dimensions": [
+        "policy",
+        "law",
+        "labor",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agent-bans-spread"
+    },
+    {
+      "title": "A Chip Maker Invests $1B In Two AI Labs, Deepening Circular Financing",
+      "itemIds": [
+        "feeds:bb27561db5d1",
+        "hackernews:3dcdab220cd0"
+      ],
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-stock-bubble-risk"
+    },
+    {
+      "title": "AI Mathematically Verifies A Real Encryption System",
+      "itemIds": [
+        "feeds:7db3dbf05615"
+      ],
+      "dimensions": [
+        "capabilities",
+        "safety",
+        "science"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-verifies-real-world-code"
+    },
+    {
+      "title": "A Startup Builds An AI Model To Detect AI-Made Bioweapons",
+      "itemIds": [
+        "feeds:90a60e1bd614"
+      ],
+      "dimensions": [
+        "safety",
+        "science",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "ai-defends-against-ai-bioweapons"
+    },
+    {
+      "title": "An Indian Library System Faces An AI-Generated Books Scandal",
+      "itemIds": [
+        "feeds:e610d786acab"
+      ],
+      "dimensions": [
+        "education",
+        "society",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-books-in-libraries-scandal"
+    }
+  ],
+  "brief": {
+    "concept": "Game judges, open-source coders, and an airline all drew a line against AI today, while a chip maker poured another billion dollars into the companies making it.",
+    "metaphor": "A row of gates and counters turning small AI robots away, right beside a company building getting showered with coins from a chip-shaped funnel.",
+    "cast": [
+      {
+        "who": "a human airline agent at a counter, holding up a stop-sign hand",
+        "kind": "person"
+      },
+      {
+        "who": "a small AI robot holding out a ticket, turned away at the counter",
+        "kind": "ai"
+      },
+      {
+        "who": "a gate behind them stamped 'NO AI', with a rejected request bouncing off it",
+        "kind": "object"
+      },
+      {
+        "who": "a company building with a chip-shaped funnel pouring a stream of coins onto its roof",
+        "kind": "institution"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Left: a human agent's raised stop-hand facing a small robot holding a ticket at a counter. Center background: a gate or turnstile stamped 'NO AI' with a small paper request bouncing off it. Right: a company building under a chip-shaped funnel pouring coins onto its roof. Keep only these elements, thick riso outlines, one fluorescent-pink highlight on the 'NO AI' stamp.",
+    "artType": "static",
+    "alt": "A human airline worker holds up a stop hand to a small robot holding a ticket at a counter. Behind them a gate stamped 'NO AI' bounces back a request, while nearby a company building is showered with coins pouring from a chip-shaped funnel."
+  },
+  "sources": [
+    {
+      "id": "feeds:1e2d7b9998cc",
+      "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+      "url": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-11-11T17:37:32.000Z"
+    },
+    {
+      "id": "hackernews:5e39c0b07352",
+      "title": "OSS projects banning AI-generated contributions",
+      "url": "https://osssaysno.com/",
+      "source": "hackernews",
+      "publisher": "osssaysno.com",
+      "publishedAt": "2026-11-11T08:51:45.000Z"
+    },
+    {
+      "id": "hackernews:7ba20429e23e",
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "source": "hackernews",
+      "publisher": "cbsnews.com",
+      "publishedAt": "2026-11-11T21:24:35.000Z"
+    },
+    {
+      "id": "feeds:bb27561db5d1",
+      "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+      "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-11-11T18:16:40.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.71,
+    "iterations": 2
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-12T21:35:13.794Z"
+}

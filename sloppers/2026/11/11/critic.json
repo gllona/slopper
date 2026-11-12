@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"agent\" (human) was moved 34 px, 0 px to stay inside the artboard",
+          "\"funnel\" (raw) was moved 0 px, 18 px to stay inside the artboard",
+          "\"money-label\" (label) was moved 0 px, 114 px to stay inside the safe area",
+          "\"funnel\" extends outside the safe area in the final frame (x 730…870, y 4…258)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Reads clearly as \"human says no, money flows to AI anyway,\" but a clipped/out-of-safe-area funnel, an illegible overlapping money label, and an invisible ticket prop drag the average to roughly 3.4 — just below the publish bar.",
+        "revisionNotes": [
+          "Funnel/vent is clipped by the top edge and the lint flags it outside the safe area (y 4…258) — scale the funnel to ~0.85 and nudge it down so the vent clears the canvas top with margin.",
+          "\"MORE MONEY\" label overlaps the pink funnel spout and loses legibility where the colors match — recolor the label to r-ink/navy or raise its offset fully above the triangle.",
+          "The ticket prop (attached to bot, offset 10,-140) isn't visibly rendered — bring it forward in z-order and reposition into the robot's outstretched hand so 'holding out a ticket' actually reads.",
+          "Robot's arms stretch to touch both the agent and the server rack at once, reading as gripping neighbors rather than offering a ticket — set one arm toward the agent holding the ticket, tuck or lower the other.",
+          "Add a simple raw counter/desk shape between agent and bot so the scene reads as an airline check-in instead of a generic street encounter.",
+          "This human+robot+server-building triptych is close in composition to several recent pieces (Business As Usual, REJECTED, New Name) — vary the framing, e.g. angle the building or break the strict left-right triad, for more novelty."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Marginal pass: the robot-rejected-at-a-counter-while-money-pours-into-a-datacenter joke reads clearly and the cast and kindness are solid, but a large empty bottom third, an ambiguous arm gesture, a half-hidden ticket, and the missing 'NO AI' gate/stamp keep it from feeling fully resolved.",
+        "revisionNotes": [
+          "Fill the empty bottom third of the frame (roughly y=850–1080 is bare paper texture); ground the scene with a shadow line or small prop so the composition uses the full square.",
+          "The agent's arm reads as a diagonal rest/point rather than the brief's 'stop-sign hand'; raise the hand prop to scale ~1.1 and angle it vertically above the counter so the rejection gesture is unmistakable without relying on the NO bubble.",
+          "The ticket prop is tucked behind the counter edge and reads as a badge on the robot's torso, not something being held out; move it left/forward (offset further from 'bot', scale 1.2) so it's clearly visible.",
+          "The brief's 'gate stamped NO AI' with a bouncing rejected request and single pink highlight never made it into the scene; add that gate near the counter to anchor the rejection to the airline/gate metaphor instead of a generic speech bubble.",
+          "Pink accent is scattered across the robot's joints, the funnel triangle, and the steam puffs, diluting the single fluorescent-pink highlight the style brief calls for; reserve it for one focal element (e.g. the NO AI stamp).",
+          "The human + robot + server-rack-building layout is close to several recent sloppers (person/robot pair beside a datacenter with a stat or label); vary the framing or add an airport-specific prop (turnstile, luggage) to stand out."
+        ]
+      },
+      "average": 3.71,
+      "passed": true
+    }
+  ]
+}
