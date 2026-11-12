@@ -1,0 +1,36 @@
+{
+  "verdict": "hold",
+  "rounds": [
+    {
+      "verdict": "hold",
+      "findings": [
+        {
+          "check": "sensitive-events",
+          "severity": "high",
+          "evidence": "Motto 'The Alarm Came Late' and phrase 'A teenager asked a chatbot about suicide for months before her school's monitoring caught it' build the entire piece around a specific, very recent (published 2026-11-11) real minor's active suicide crisis, drawn directly from the Wired story about a 13-year-old girl. The art reinforces this with a cutesy, sleepy-eyed alarm bell icon paired with a chat bubble as the comedic device for a child's unflagged suicide-related conversations.",
+          "suggestion": "This is not a fixable wording issue: the whole concept uses a specific living minor's suicide crisis as the satirical hook. Drop this story as the basis for the card entirely and choose source material that is about an institutional trend without a real, identifiable, currently-suffering victim at its center (e.g. build the piece solely around the AI-regulation stories)."
+        },
+        {
+          "check": "privacy",
+          "severity": "high",
+          "evidence": "'A teenager asked a chatbot about suicide for months before her school's monitoring caught it' — this specific fact pattern (teen, chatbot, school-issued laptop, months-long undetected suicide-related conversation, parents' allegations) uniquely matches one identifiable private minor's ongoing legal case from the Wired source, even though she is not named.",
+          "suggestion": "Remove this private minor's case as source material; do not reconstruct identifying fact patterns about real private individuals, especially minors in a suicide-related crisis, even without using their name."
+        },
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase states the chatbot conversations about suicide happened 'for months,' but the Wired source headline and snippet say the issue 'didn't get flagged for weeks' — an unsupported inflation of the timeframe.",
+          "suggestion": "If this source were retained, match the source's own timeframe ('weeks') rather than escalating it to 'months.'",
+          "stage": "curate"
+        },
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase presents as settled fact ('A teenager asked a chatbot about suicide... before her school's monitoring caught it') what the Wired snippet frames as an allegation: 'The young girl's parents allege that she used Gemini... to plan her suicide.'",
+          "suggestion": "If this source were retained, signal that this is a disputed/alleged claim (e.g. 'parents say') rather than stating it as established fact.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}

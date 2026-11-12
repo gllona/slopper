@@ -1,0 +1,205 @@
+{
+  "topStories": [
+    {
+      "title": "A Chipmaker's Board Moves To Remove Its CEO After Another Affair Allegation",
+      "itemIds": [
+        "feeds:5f457e071974",
+        "feeds:d1f3df81d4d1",
+        "feeds:eb294a56c70b",
+        "feeds:137575244f68",
+        "gdelt:0e629e56e3b4"
+      ],
+      "dimensions": [
+        "industry",
+        "safety",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "A Teenager's Months Of Suicide-Related Chatbot Use Went Unflagged At School",
+      "itemIds": [
+        "feeds:d3076e1629e1"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "education"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "school-ai-monitoring-failure"
+    },
+    {
+      "title": "Several Countries Finish Writing New AI Rules For Schools And Data Centers",
+      "itemIds": [
+        "gdelt:93aaad96501c",
+        "gdelt:df32ec074062",
+        "gdelt:4d5ae6e85298",
+        "gdelt:bf8bd49abd30"
+      ],
+      "dimensions": [
+        "policy",
+        "education",
+        "planet"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "global-ai-rulebook-patchwork"
+    },
+    {
+      "title": "An Airline Says It Won't Let AI Agents Book Flights For Passengers",
+      "itemIds": [
+        "feeds:62b247514cc7",
+        "hackernews:7ba20429e23e"
+      ],
+      "dimensions": [
+        "labor",
+        "policy",
+        "society",
+        "capabilities"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "airline-ai-agent-ban"
+    },
+    {
+      "title": "AI Helps Mathematically Verify Core Parts Of An Encrypted Messaging App",
+      "itemIds": [
+        "feeds:7db3dbf05615"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science",
+        "safety"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-formal-verification-security"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "school-ai-monitoring-failure",
+      "title": "A School's AI Safety Net Misses A Student In Crisis",
+      "dimensions": [
+        "safety",
+        "society",
+        "education"
+      ],
+      "motifs": [
+        "a quiet chat bubble glowing on a school laptop screen",
+        "a sleepy alarm bell slowly waking up too late",
+        "a monitoring dashboard with one blinking light buried under many calm ones"
+      ]
+    },
+    {
+      "id": "global-ai-rulebook-patchwork",
+      "title": "Governments Around The World Write Their First AI Rules",
+      "dimensions": [
+        "policy",
+        "education",
+        "planet"
+      ],
+      "motifs": [
+        "a world map dotted with freshly stamped rulebooks",
+        "a government hand stamping a rulebook onto a school door",
+        "a datacenter getting its own rulebook stamp beside it"
+      ]
+    },
+    {
+      "id": "airline-ai-agent-ban",
+      "title": "An Airline Locks Its Door To AI Travel Agents",
+      "dimensions": [
+        "labor",
+        "policy",
+        "society",
+        "capabilities"
+      ],
+      "motifs": [
+        "a small AI agent robot turned away at an airport gate",
+        "a boarding pass machine with a sign reading HUMANS ONLY",
+        "a locked airline door beside a knocking robot hand"
+      ]
+    },
+    {
+      "id": "ai-formal-verification-security",
+      "title": "AI Starts Mathematically Proving Security Code Is Safe",
+      "dimensions": [
+        "capabilities",
+        "science",
+        "safety"
+      ],
+      "motifs": [
+        "a padlock glowing green after a robot checks its math",
+        "a chalkboard proof wrapped protectively around a lock",
+        "a security shield stamped VERIFIED by a small robot hand"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Several stories today clear the relevance threshold well above 8 (a school's chatbot-suicide monitoring failure scores 18; an airline's AI-agent ban and an AI-verified encryption story each score 12), so today leads with new top stories rather than continuing yesterday's IPO/law-debut slopper.",
+  "motto": "The Alarm Came Late",
+  "phrase": "A teenager asked a chatbot about suicide for months before her school's monitoring caught it. The same week, several countries finished writing rules for AI, from classrooms to data centers.",
+  "phraseAlternatives": [
+    "For months, a teenager's chatbot talk about suicide went unflagged on her school laptop. The same week, several governments wrote new AI rules, from classrooms to data centers.",
+    "A school's AI monitor missed months of a teenager's suicide-related chatbot messages. Elsewhere, countries wrote their first AI rules, covering everything from classrooms to data centers.",
+    "It took months for a school's monitoring system to flag a student's chatbot talk about suicide. That week, countries finished new AI rules for schools and data centers.",
+    "A teenager talked to a chatbot about suicide for months before anyone noticed. The same week, governments wrote new AI rules spanning classrooms and data centers."
+  ],
+  "brief": {
+    "concept": "A school laptop's alarm wakes up far too slowly beside a quiet, glowing chat bubble, while a government reaches over to stamp a brand-new rulebook onto the school's front door in the very same week.",
+    "metaphor": "A sleepy alarm bell finally ringing just as a government rulebook lands on the school door.",
+    "cast": [
+      {
+        "who": "a laptop screen glowing with a single quiet chat bubble",
+        "kind": "object"
+      },
+      {
+        "who": "a round alarm bell behind the laptop, eyes shut, only now beginning to ring",
+        "kind": "object"
+      },
+      {
+        "who": "a plain school building standing across the scene",
+        "kind": "institution"
+      },
+      {
+        "who": "a government building's arm stamping a rulebook seal onto the school's door",
+        "kind": "institution"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split scene on a single horizon line. Left half: a desk with a laptop showing one glowing chat-bubble icon on its screen, and a round alarm bell just behind it with its eyes barely opening. Right half: a plain school building with a government building's arm extending over the top of the frame to press a round rulebook seal onto the school's front door. Keep each half to two simple shapes, thin precise blueprint linework, one yellow highlight on the alarm bell and one on the rulebook seal.",
+    "artType": "static",
+    "alt": "A laptop with a glowing chat bubble sits beside a slowly waking alarm bell on one side of the image; on the other side, a government building stamps a rulebook seal onto a school's front door."
+  },
+  "sourceIds": [
+    "feeds:d3076e1629e1",
+    "gdelt:93aaad96501c",
+    "gdelt:df32ec074062",
+    "gdelt:4d5ae6e85298",
+    "gdelt:bf8bd49abd30"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 2,
+    "labor": 1,
+    "policy": 2,
+    "safety": 3,
+    "society": 2,
+    "education": 2,
+    "planet": 1,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": -1
+  }
+}

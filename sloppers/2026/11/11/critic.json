@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Passes: the split LATE/RULES composition is clear, the cast is correctly non-human, and the abstraction is appropriately gentle for a sensitive topic — but the empty left-side gap, the seal overlapping the school's windows instead of its door, and the repeated navy-blueprint-building look (seen in several recent pieces) keep it from being a strong, polished frame.",
+        "revisionNotes": [
+          "Lower the rulebook seal (stamp.at.y or the circle's cy within the stamp component) so it lands cleanly inside the school's door rectangle instead of overlapping the bottom of the two window squares — right now it reads like a target on the building's chest, not a seal on the door.",
+          "Tighten the left half: there's a large dead zone of empty blue between the bell (y~0.46) and the laptop (y~0.8). Pull the laptop up toward y~0.68 or add a small desk/prop to balance it against the tall, dense school+stamp on the right.",
+          "The government 'arm' is just two thin parallel lines with a short crossbar at the very top edge — it reads as a flagpole/crane, not an institution. Thicken it or add a small cornice/roofline at the crossbar so it clearly reads as a building's arm.",
+          "Bump the RULES label size inside the yellow seal to match LATE's weight/size; it currently looks noticeably smaller and cramped inside the 60px-radius circle.",
+          "Palette/motif repeats recent output: several recent pieces already use navy blueprint backgrounds with an isolated institution-building silhouette. Consider a tan/paper half or a different split treatment to stand apart from the current run."
+        ]
+      },
+      "average": 3.71,
+      "passed": true
+    }
+  ]
+}
