@@ -1,0 +1,121 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {},
+  "elements": [
+    {
+      "id": "agent",
+      "component": "human",
+      "at": {
+        "x": 0.2037,
+        "y": 0.78
+      },
+      "scale": 0.9,
+      "props": {
+        "mood": "neutral",
+        "pose": "point",
+        "holds": "none",
+        "color": "body"
+      }
+    },
+    {
+      "id": "no-bubble",
+      "component": "speech-bubble",
+      "attachTo": "agent",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "NO",
+        "kind": "speech",
+        "tail": "bottom",
+        "size": "lg"
+      }
+    },
+    {
+      "id": "counter",
+      "component": "raw",
+      "at": {
+        "x": 0.3333,
+        "y": 0.7056
+      },
+      "scale": 1,
+      "props": {
+        "width": 240,
+        "height": 160
+      },
+      "svg": "<rect x=\"0\" y=\"46\" width=\"240\" height=\"22\" rx=\"10\" class=\"r-paper\"/><rect x=\"14\" y=\"68\" width=\"212\" height=\"78\" rx=\"12\" class=\"r-body\"/><rect x=\"96\" y=\"82\" width=\"48\" height=\"30\" rx=\"6\" class=\"r-accent-2\"/>"
+    },
+    {
+      "id": "bot",
+      "component": "robot",
+      "at": {
+        "x": 0.463,
+        "y": 0.78
+      },
+      "scale": 0.9,
+      "props": {
+        "mood": "worried",
+        "arms": "down",
+        "color": "body",
+        "antenna": true
+      }
+    },
+    {
+      "id": "hq",
+      "component": "datacenter",
+      "at": {
+        "x": 0.6667,
+        "y": 0.6
+      },
+      "scale": 0.45,
+      "props": {
+        "racks": 3,
+        "lights": "busy",
+        "steam": true,
+        "fans": true
+      }
+    },
+    {
+      "id": "funnel",
+      "component": "raw",
+      "attachTo": "hq",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "width": 140,
+        "height": 170
+      },
+      "svg": "<rect x=\"25\" y=\"8\" width=\"90\" height=\"32\" rx=\"7\" class=\"r-body\"/><rect x=\"34\" y=\"0\" width=\"5\" height=\"9\" class=\"r-ink\"/><rect x=\"48\" y=\"0\" width=\"5\" height=\"9\" class=\"r-ink\"/><rect x=\"62\" y=\"0\" width=\"5\" height=\"9\" class=\"r-ink\"/><rect x=\"76\" y=\"0\" width=\"5\" height=\"9\" class=\"r-ink\"/><rect x=\"90\" y=\"0\" width=\"5\" height=\"9\" class=\"r-ink\"/><path d=\"M45,40 L95,40 L75,90 L65,90 Z\" class=\"r-accent\"/><circle cx=\"70\" cy=\"104\" r=\"11\" class=\"r-accent-2\"/><circle cx=\"52\" cy=\"126\" r=\"10\" class=\"r-body\"/><circle cx=\"88\" cy=\"130\" r=\"10\" class=\"r-accent-2\"/><circle cx=\"70\" cy=\"152\" r=\"11\" class=\"r-body\"/>"
+    },
+    {
+      "id": "money-label",
+      "component": "label",
+      "attachTo": "funnel",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "MORE MONEY",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "ticket",
+      "component": "raw",
+      "attachTo": "bot",
+      "side": "left",
+      "offset": [
+        -15,
+        40
+      ],
+      "scale": 1,
+      "props": {
+        "width": 70,
+        "height": 46
+      },
+      "svg": "<rect x=\"3\" y=\"4\" width=\"64\" height=\"38\" rx=\"8\" class=\"r-accent\"/><line x1=\"46\" y1=\"4\" x2=\"46\" y2=\"42\" class=\"r-thin\"/><circle cx=\"18\" cy=\"23\" r=\"5\" class=\"r-paper\"/>"
+    }
+  ],
+  "alt": "A human airline worker holds up a stop hand toward a small worried robot standing at a check-in counter holding out a ticket. In the background, a smaller company building sits off to the side under a chip-shaped funnel pouring coins onto its roof, labeled MORE MONEY."
+}
