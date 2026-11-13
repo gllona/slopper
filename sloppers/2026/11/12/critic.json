@@ -1,0 +1,95 @@
+{
+  "passed": false,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The calm-robot-vs-chaotic-human contrast reads, but a disconnected floating suitcase, an illegible toppled-shelf 'building', an overlapping gear, a sparse top half, and a composition that closely echoes a recent blueprint-grid slopper keep this from publish quality.",
+        "revisionNotes": [
+          "Suitcase: reattach to the human's hand (side: right, offset near [40, 10]) or switch pose to a carry stance; right now it floats alone near the divider with no visible connection to the body.",
+          "Building: swap the server-rack 'datacenter' stand-in for a recognizable office/building silhouette (door, window, roofline) so it reads as a toppled company rather than a broken shelf.",
+          "Nameplate: scale it up (0.8 → 1.1) and increase contrast/line weight so the 'knocked askew' sign is legible instead of reading as a stray rod.",
+          "Gear: shift it further along the belt, clear of the robot's leg, so it doesn't overlap the body and reads as a separate object rolling off the line.",
+          "Composition: raise the ground anchors (y ~0.78 → ~0.65) or add detail to the upper half; the top half of the square is empty and the scene feels bottom-heavy.",
+          "Novelty: this blueprint-grid + vertical divider + chart/building/human-left, robot-right template closely repeats at least one recent slopper — try a different palette, split direction, or drop the divider for a single continuous scene."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "Reads as \"something collapsed, something else calmly continues\" with correct human/robot casting, but the composition leaves nearly a third of the canvas empty, drops the brief's dividing line, and strands the suitcase and chart as disconnected props; it's also too close to a recent blueprint-grid piece. Average ~3.1 — below the 3.5 bar, does not pass.",
+        "revisionNotes": [
+          "Composition: the bottom ~30% of the canvas is empty grid; recenter/scale the group (or drop chart down, raise belt) so elements span the full square instead of hugging the top half.",
+          "Add the thin vertical dividing line called for in the brief between the building/human side and the robot side — right now nothing visually separates 'chaos' from 'calm', so the split-screen joke doesn't read.",
+          "Suitcase prop floats disconnected in open space between the human and robot (scale 0.5, offset 40,10 off the human's hand); reattach it directly at the hand anchor and bump to ~0.7 scale so it reads as carried, not stray.",
+          "Chart is floating top-center, disconnected from the building it's supposed to sit beside ('at its feet' per brief); move it down next to the building's base so the left side reads as one beat, not three separate islands.",
+          "Novelty: this building + falling chart + person + robot blueprint-grid layout is close to the recent 'Business As Usual' slopper — vary the background treatment or building silhouette to differentiate.",
+          "Building reads as a pitched-roof house, not an office; flatten the roofline or add a flat top/signage cue so 'company building' is legible at a glance."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Casting and metaphor are sound (human exec vs. calm robot), but a disconnected floating suitcase, an ambiguous toppled-sign shape, a top-heavy empty canvas, and a composition that closely echoes other recent blueprint split-divider pieces pull the average below the bar.",
+        "revisionNotes": [
+          "Suitcase floats disconnected near the divider instead of reading as held; attach it to the human's hand side with a tighter offset and scale it up to ~0.9 so the 'walking out with suitcase' beat is legible.",
+          "The toppled-nameplate shape overlaps the leaning doorway and reads as a ramp or ladder, not a fallen sign; redraw it as a flat plank with a couple of text-line strokes, lying clear of the door on the ground.",
+          "Content is crammed into the bottom third while the top ~60% of the canvas is empty grid; raise the building/human/chart group and the robot/belt group toward mid-canvas (y ~0.55-0.6) or scale them up to use the square better.",
+          "This blueprint split-by-vertical-divider layout (chart left, human, robot right) is close to two other recent blueprint entries with the same structure; vary the composition (diagonal split, different grouping) or switch palette/style so it doesn't read as a repeat.",
+          "The gear on the conveyor is a generic 'new product' symbol and doesn't specifically evoke 'smarter chatbot'; add a small screen or chat-bubble accent on the gear so the launch reads more precisely."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    }
+  ]
+}

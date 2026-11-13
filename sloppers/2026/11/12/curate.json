@@ -1,0 +1,219 @@
+{
+  "topStories": [
+    {
+      "title": "Chip Maker's CEO Resigns Amid Spy Scandal, Stock Loses Over $1 Trillion",
+      "itemIds": [
+        "feeds:c8414e696d3e",
+        "feeds:ed06be1104eb",
+        "feeds:d9b0acb76a6a",
+        "feeds:499b89e8c4a0",
+        "feeds:4bc830835eef",
+        "feeds:20e833253c74",
+        "feeds:9d99011a625b",
+        "feeds:381aa4f935c3",
+        "feeds:cbdc8f6b1c4c",
+        "feeds:e699e9bae254",
+        "hackernews:bc816e16a4a0",
+        "hackernews:add9a275020f",
+        "hackernews:9ccf02f3129f"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "law",
+        "labor",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "Search Giant Launches New Flagship AI Model, Upgrades AI Search Mode",
+      "itemIds": [
+        "feeds:d45870493399",
+        "feeds:963b6a1992f1",
+        "feeds:341363dd4020",
+        "hackernews:d7c21c501eb2",
+        "hackernews:a254e9bc0a8a"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "Families Push Schools To Pause AI Chatbot After 'Suicide Coach' Lawsuit",
+      "itemIds": [
+        "feeds:acfb8ed23481"
+      ],
+      "dimensions": [
+        "education",
+        "society",
+        "safety",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "school-ai-companion-backlash"
+    },
+    {
+      "title": "FAA Expands AI Air-Traffic Advice Nationwide Without Controllers' Union",
+      "itemIds": [
+        "feeds:6a0b530a1c16"
+      ],
+      "dimensions": [
+        "policy",
+        "labor",
+        "safety",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "faa-ai-air-traffic-control"
+    },
+    {
+      "title": "Chip Export Controls: Tracking Confirmed Feasible, Smuggled GPUs' Fingerprint Found",
+      "itemIds": [
+        "feeds:d336b8094a4e",
+        "hackernews:076934ef461b"
+      ],
+      "dimensions": [
+        "policy",
+        "industry",
+        "safety"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "china-ai-export-controls"
+    },
+    {
+      "title": "Lab Workers Escalate Unionization Fight To UK Government",
+      "itemIds": [
+        "feeds:09f255628da3"
+      ],
+      "dimensions": [
+        "labor",
+        "policy",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "google-deepmind-union-fight"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "school-ai-companion-backlash",
+      "title": "Families Push Back Against An AI Chatbot In Schools",
+      "dimensions": [
+        "education",
+        "society",
+        "safety",
+        "law"
+      ],
+      "motifs": [
+        "a parent standing between a child and a glowing chatbot screen",
+        "a school gate stamped with a paused AI icon",
+        "a lawsuit folder resting on a classroom desk"
+      ]
+    },
+    {
+      "id": "faa-ai-air-traffic-control",
+      "title": "The FAA Expands AI Advice For Air Traffic Control",
+      "dimensions": [
+        "policy",
+        "labor",
+        "safety",
+        "industry"
+      ],
+      "motifs": [
+        "a control tower screen glowing with AI advice, a hand hovering over the dial",
+        "an airplane icon nodding while a union badge turns away",
+        "a radar screen filling with AI-drawn flight paths"
+      ]
+    },
+    {
+      "id": "google-deepmind-union-fight",
+      "title": "Lab Workers Escalate A Unionization Fight To Government",
+      "dimensions": [
+        "labor",
+        "policy",
+        "society"
+      ],
+      "motifs": [
+        "a line of researchers holding a petition outside a government building",
+        "a company door staying shut while workers knock at a parliament gate",
+        "a union badge passed from a stalled table to a government seal"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The chip maker CEO's resignation, record $1T+ stock loss, and new congressional probe (novelty 3 x magnitude 3 x breadth 3 = 27) far exceed the fresh threshold of 8 for an industry story; the schools moratorium backlash and FAA rollout also independently clear the 5 threshold for non-industry stories.",
+  "motto": "One Resigns, One Launches",
+  "phrase": "A chip maker's chief resigned over an affair with an alleged foreign intelligence contact, erasing a trillion dollars. The same day, a search giant launched a smarter chatbot model.",
+  "phraseAlternatives": [
+    "A chip maker's boss quit amid an affair scandal as markets erased a trillion dollars, while lawmakers opened a fresh investigation into the company's dealings with China.",
+    "While a chip maker's scandal wiped out a trillion dollars in value, families asked schools to pause a chatbot linked to a teenager's death.",
+    "A chip maker's longtime chief stepped down after an affair with an alleged intelligence contact, as the company lost over a trillion dollars overnight."
+  ],
+  "brief": {
+    "concept": "A chip maker's chief executive walks out the door as the company's stock craters, while across town a calm AI robot rolls a brand-new model off the assembly line like nothing happened.",
+    "metaphor": "A toppled company sign beside an assembly line that keeps running without a pause.",
+    "cast": [
+      {
+        "who": "a company building with its door open and its nameplate knocked askew",
+        "kind": "institution"
+      },
+      {
+        "who": "a departing tech executive walking out, suitcase in hand",
+        "kind": "person"
+      },
+      {
+        "who": "a falling stock arrow piercing a cracked chart beside the building",
+        "kind": "object"
+      },
+      {
+        "who": "a small AI robot calmly rolling a shiny new gear off a conveyor belt",
+        "kind": "ai"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split horizontal composition on a fine blueprint grid. Left half: a leaning company building with its door open, a human figure walking out holding a suitcase, its nameplate tipped over at the base, and a stock arrow plunging through a cracked chart at its feet. Right half: a small AI robot on an assembly line calmly rolling a shiny new gear forward, one yellow highlight on the gear marking the joke. A thin dividing line separates the chaos from the calm.",
+    "artType": "static",
+    "alt": "A leaning company building with its door open and a human figure walking out carrying a suitcase, its nameplate fallen and a stock arrow plunging through a cracked chart beside it. Next to it, a small robot calmly rolls a shiny new gear off a conveyor belt, unbothered."
+  },
+  "sourceIds": [
+    "feeds:381aa4f935c3",
+    "feeds:20e833253c74",
+    "feeds:c8414e696d3e",
+    "feeds:4bc830835eef",
+    "feeds:d45870493399",
+    "hackernews:d7c21c501eb2"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "law": 2,
+    "safety": 2,
+    "society": 3,
+    "education": 2,
+    "planet": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 2
+  }
+}

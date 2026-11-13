@@ -1,0 +1,50 @@
+{
+  "verdict": "revise",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"A chip maker's chief resigned over an alleged affair\" — the Wired/Verge sources state the affair itself as fact (\"his affair with an alleged Chinese intelligence asset\", \"Jensen Huang's second affair\"); only the counterpart's status as a Chinese intelligence asset/spy is described as \"alleged\" in the sources.",
+          "suggestion": "Attach \"alleged\" to the correct element, e.g. \"resigned over an affair with an alleged foreign intelligence contact\", so the paraphrase keeps the nature of the sourced accusation instead of softening the affair itself and dropping the national-security angle.",
+          "stage": "curate"
+        },
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"a search giant quietly launched a smarter chatbot model\" — the Ars Technica source says the model \"isn't getting a slow, security-conscious release like Carbon and Argon\", which contradicts \"quietly\".",
+          "suggestion": "Remove or replace \"quietly\" (e.g. \"launched a smarter chatbot model\") so the claim is supported by the cited source instead of contradicted by it.",
+          "stage": "curate"
+        },
+        {
+          "check": "real-people",
+          "severity": "low",
+          "evidence": "\"A chip maker's chief resigned over an alleged affair, erasing a trillion dollars in value\" combined with the sources makes the unnamed executive identifiable as Jensen Huang (per The Verge source: \"he's the only CEO Nvidia has ever had\"), but the phrase and art use only a generic description with no name or likeness.",
+          "suggestion": "Keep descriptions this generic (no name, no distinctive visual likeness) in future drafts of this story; no change required now.",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "real-people",
+          "severity": "high",
+          "evidence": "phrase: \"A chip maker's chief resigned over an affair with an alleged foreign intelligence contact, erasing a trillion dollars.\"",
+          "suggestion": "This combination (chip-maker company type, exact '$1 trillion' figure, and the distinctive affair/foreign-intelligence scandal) unmistakably identifies a specific real, currently serving CEO and company even without naming them, like the rubric's 'rocket company CEO' example. Genericize: drop the exact dollar figure and company-type label, e.g. 'A tech company's chief resigned amid a personal scandal, wiping out a huge chunk of its market value.'",
+          "stage": "curate"
+        },
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "phrase: \"an affair with an alleged foreign intelligence contact\"",
+          "suggestion": "Even with 'alleged' and source support, repeating this very recent (published within the last day), serious personal accusation while the subject remains unmistakably identifiable raises defamation/false-light exposure. Fix alongside the real-people finding by genericizing to 'a personal scandal' rather than naming the nature of the alleged contact.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}

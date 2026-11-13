@@ -1,0 +1,244 @@
+{
+  "date": "2026-11-12",
+  "number": 44,
+  "mode": "fresh",
+  "motto": "One Resigns, One Launches",
+  "phrase": "A chip maker's chief resigned over an affair with an alleged foreign intelligence contact, erasing a trillion dollars. The same day, a search giant launched a smarter chatbot model.",
+  "phraseAlternatives": [
+    "A chip maker's boss quit amid an affair scandal as markets erased a trillion dollars, while lawmakers opened a fresh investigation into the company's dealings with China.",
+    "While a chip maker's scandal wiped out a trillion dollars in value, families asked schools to pause a chatbot linked to a teenager's death.",
+    "A chip maker's longtime chief stepped down after an affair with an alleged intelligence contact, as the company lost over a trillion dollars overnight."
+  ],
+  "alt": "A leaning company building with a flat roof and an open door stands on the left, its sign toppled at the base and a small chart with a falling line resting near its feet. A worried person walks away carrying a suitcase. A thin dashed line divides the scene. On the right, a calm robot stands beside a conveyor belt, rolling a shiny new gear off the end.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "law": 2,
+    "safety": 2,
+    "society": 3,
+    "education": 2,
+    "planet": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 2
+  },
+  "storylines": [
+    "nvidia-spy-case",
+    "frontier-model-race",
+    "school-ai-companion-backlash",
+    "faa-ai-air-traffic-control",
+    "china-ai-export-controls",
+    "google-deepmind-union-fight"
+  ],
+  "topStories": [
+    {
+      "title": "Chip Maker's CEO Resigns Amid Spy Scandal, Stock Loses Over $1 Trillion",
+      "itemIds": [
+        "feeds:c8414e696d3e",
+        "feeds:ed06be1104eb",
+        "feeds:d9b0acb76a6a",
+        "feeds:499b89e8c4a0",
+        "feeds:4bc830835eef",
+        "feeds:20e833253c74",
+        "feeds:9d99011a625b",
+        "feeds:381aa4f935c3",
+        "feeds:cbdc8f6b1c4c",
+        "feeds:e699e9bae254",
+        "hackernews:bc816e16a4a0",
+        "hackernews:add9a275020f",
+        "hackernews:9ccf02f3129f"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "law",
+        "labor",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "Search Giant Launches New Flagship AI Model, Upgrades AI Search Mode",
+      "itemIds": [
+        "feeds:d45870493399",
+        "feeds:963b6a1992f1",
+        "feeds:341363dd4020",
+        "hackernews:d7c21c501eb2",
+        "hackernews:a254e9bc0a8a"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "Families Push Schools To Pause AI Chatbot After 'Suicide Coach' Lawsuit",
+      "itemIds": [
+        "feeds:acfb8ed23481"
+      ],
+      "dimensions": [
+        "education",
+        "society",
+        "safety",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "school-ai-companion-backlash"
+    },
+    {
+      "title": "FAA Expands AI Air-Traffic Advice Nationwide Without Controllers' Union",
+      "itemIds": [
+        "feeds:6a0b530a1c16"
+      ],
+      "dimensions": [
+        "policy",
+        "labor",
+        "safety",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "faa-ai-air-traffic-control"
+    },
+    {
+      "title": "Chip Export Controls: Tracking Confirmed Feasible, Smuggled GPUs' Fingerprint Found",
+      "itemIds": [
+        "feeds:d336b8094a4e",
+        "hackernews:076934ef461b"
+      ],
+      "dimensions": [
+        "policy",
+        "industry",
+        "safety"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "china-ai-export-controls"
+    },
+    {
+      "title": "Lab Workers Escalate Unionization Fight To UK Government",
+      "itemIds": [
+        "feeds:09f255628da3"
+      ],
+      "dimensions": [
+        "labor",
+        "policy",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "google-deepmind-union-fight"
+    }
+  ],
+  "brief": {
+    "concept": "A chip maker's chief executive walks out the door as the company's stock craters, while across town a calm AI robot rolls a brand-new model off the assembly line like nothing happened.",
+    "metaphor": "A toppled company sign beside an assembly line that keeps running without a pause.",
+    "cast": [
+      {
+        "who": "a company building with its door open and its nameplate knocked askew",
+        "kind": "institution"
+      },
+      {
+        "who": "a departing tech executive walking out, suitcase in hand",
+        "kind": "person"
+      },
+      {
+        "who": "a falling stock arrow piercing a cracked chart beside the building",
+        "kind": "object"
+      },
+      {
+        "who": "a small AI robot calmly rolling a shiny new gear off a conveyor belt",
+        "kind": "ai"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split horizontal composition on a fine blueprint grid. Left half: a leaning company building with its door open, a human figure walking out holding a suitcase, its nameplate tipped over at the base, and a stock arrow plunging through a cracked chart at its feet. Right half: a small AI robot on an assembly line calmly rolling a shiny new gear forward, one yellow highlight on the gear marking the joke. A thin dividing line separates the chaos from the calm.",
+    "artType": "static",
+    "alt": "A leaning company building with its door open and a human figure walking out carrying a suitcase, its nameplate fallen and a stock arrow plunging through a cracked chart beside it. Next to it, a small robot calmly rolls a shiny new gear off a conveyor belt, unbothered."
+  },
+  "sources": [
+    {
+      "id": "feeds:381aa4f935c3",
+      "title": "Jensen Huang Resigns as Nvidia CEO",
+      "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-11-12T13:58:06.000Z"
+    },
+    {
+      "id": "feeds:20e833253c74",
+      "title": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month",
+      "url": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-11-12T17:59:15.000Z"
+    },
+    {
+      "id": "feeds:c8414e696d3e",
+      "title": "The Jensen Huang scandal is hardly over",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-12T17:44:33.000Z"
+    },
+    {
+      "id": "feeds:4bc830835eef",
+      "title": "Jensen Huang’s $470 Billion Affair",
+      "url": "https://www.wired.com/story/uncanny-valley-podcast-jensen-huangs-dollar470-billion-affair/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-11-12T18:59:58.000Z"
+    },
+    {
+      "id": "feeds:d45870493399",
+      "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+      "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-11-12T19:23:03.000Z"
+    },
+    {
+      "id": "hackernews:d7c21c501eb2",
+      "title": "Gemini 4 Hydrogen",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "source": "hackernews",
+      "publisher": "blog.google",
+      "publishedAt": "2026-11-12T18:01:48.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.43,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "revise"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-13T19:26:55.055Z"
+}
