@@ -1,0 +1,175 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {
+    "type": "split",
+    "horizon": 0.65,
+    "color": "bg",
+    "color2": "paper"
+  },
+  "elements": [
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.59,
+        "y": 0.5
+      },
+      "scale": 1,
+      "props": {
+        "width": 6,
+        "height": 900
+      },
+      "svg": "<rect x=\"0\" y=\"0\" width=\"6\" height=\"900\" class=\"r-accent-2\"/>"
+    },
+    {
+      "id": "building",
+      "component": "raw",
+      "at": {
+        "x": 0.23,
+        "y": 0.65
+      },
+      "offset": [
+        0,
+        -152
+      ],
+      "scale": 0.95,
+      "props": {
+        "width": 260,
+        "height": 320
+      },
+      "svg": "<rect x=\"20\" y=\"40\" width=\"220\" height=\"280\" class=\"r-body\"/><rect x=\"95\" y=\"230\" width=\"70\" height=\"90\" class=\"r-body-alt\"/><rect x=\"150\" y=\"195\" width=\"60\" height=\"14\" class=\"r-line\" transform=\"rotate(-40 150 195)\"/><rect x=\"40\" y=\"70\" width=\"28\" height=\"28\" class=\"r-line\"/><rect x=\"100\" y=\"70\" width=\"28\" height=\"28\" class=\"r-line\"/><rect x=\"160\" y=\"70\" width=\"28\" height=\"28\" class=\"r-line\"/><rect x=\"40\" y=\"120\" width=\"28\" height=\"28\" class=\"r-line\"/><rect x=\"100\" y=\"120\" width=\"28\" height=\"28\" class=\"r-line\"/><rect x=\"160\" y=\"120\" width=\"28\" height=\"28\" class=\"r-line\"/><rect x=\"15\" y=\"35\" width=\"230\" height=\"10\" class=\"r-thin\"/>"
+    },
+    {
+      "id": "chair",
+      "component": "raw",
+      "attachTo": "building",
+      "side": "right",
+      "offset": [
+        0,
+        100
+      ],
+      "scale": 1,
+      "rotate": -8,
+      "props": {
+        "width": 90,
+        "height": 90
+      },
+      "svg": "<rect x=\"15\" y=\"10\" width=\"55\" height=\"8\" class=\"r-accent\"/><rect x=\"15\" y=\"10\" width=\"8\" height=\"30\" class=\"r-accent\"/><rect x=\"62\" y=\"10\" width=\"8\" height=\"30\" class=\"r-accent\"/><rect x=\"15\" y=\"38\" width=\"55\" height=\"8\" class=\"r-accent\"/><rect x=\"20\" y=\"46\" width=\"6\" height=\"25\" class=\"r-accent\"/><rect x=\"60\" y=\"46\" width=\"6\" height=\"25\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "chart",
+      "component": "chart",
+      "at": {
+        "x": 0.51,
+        "y": 0.65
+      },
+      "offset": [
+        0,
+        -53
+      ],
+      "scale": 0.35,
+      "rotate": -5,
+      "props": {
+        "type": "line",
+        "values": [
+          0.85,
+          0.65,
+          0.5,
+          0.32,
+          0.15
+        ],
+        "highlight": "last",
+        "arrow": true,
+        "frame": true
+      }
+    },
+    {
+      "id": "robot",
+      "component": "robot",
+      "at": {
+        "x": 0.69,
+        "y": 0.65
+      },
+      "scale": 0.85,
+      "props": {
+        "mood": "happy",
+        "arms": "out",
+        "antenna": true
+      }
+    },
+    {
+      "id": "box",
+      "component": "raw",
+      "attachTo": "robot",
+      "side": "bottom",
+      "offset": [
+        0,
+        -30
+      ],
+      "scale": 1,
+      "props": {
+        "width": 170,
+        "height": 100
+      },
+      "svg": "<rect x=\"30\" y=\"40\" width=\"110\" height=\"55\" class=\"r-body-alt\"/><polygon points=\"30,40 5,20 30,60\" class=\"r-line\"/><polygon points=\"140,40 165,20 140,60\" class=\"r-line\"/><rect x=\"78\" y=\"40\" width=\"14\" height=\"55\" class=\"r-accent\"/><rect x=\"30\" y=\"40\" width=\"110\" height=\"8\" class=\"r-line\"/><polygon points=\"60,38 85,10 85,38\" class=\"r-accent\"/><polygon points=\"110,38 85,10 85,38\" class=\"r-accent\"/><rect x=\"79\" y=\"28\" width=\"12\" height=\"12\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "human",
+      "component": "human",
+      "at": {
+        "x": 0.86,
+        "y": 0.65
+      },
+      "scale": 0.78,
+      "props": {
+        "mood": "neutral",
+        "pose": "stand",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "glasses",
+      "component": "raw",
+      "attachTo": "human",
+      "side": "top",
+      "offset": [
+        0,
+        46
+      ],
+      "scale": 0.55,
+      "props": {
+        "width": 140,
+        "height": 60
+      },
+      "svg": "<circle cx=\"35\" cy=\"30\" r=\"22\" class=\"r-line\"/><circle cx=\"105\" cy=\"30\" r=\"22\" class=\"r-line\"/><rect x=\"57\" y=\"26\" width=\"26\" height=\"8\" class=\"r-line\"/><rect x=\"5\" y=\"28\" width=\"8\" height=\"5\" class=\"r-thin\"/><rect x=\"127\" y=\"28\" width=\"8\" height=\"5\" class=\"r-thin\"/>"
+    },
+    {
+      "id": "label-left",
+      "component": "label",
+      "attachTo": "building",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "CHIEF RESIGNS",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    },
+    {
+      "id": "label-right",
+      "component": "label",
+      "attachTo": "robot",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "RIVAL LAUNCHES",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "A blueprint building has its door open with an empty yellow chair sliding out beside a falling chart, labeled CHIEF RESIGNS. Across a dividing line, a cheerful robot steps from a bow-topped box while a calm person wears new glasses, labeled RIVAL LAUNCHES."
+}
