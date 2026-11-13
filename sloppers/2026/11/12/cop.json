@@ -1,0 +1,21 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "real-people",
+          "severity": "high",
+          "evidence": "Phrase: \"A chip maker's chief resigned after a spy scandal erased a trillion dollars.\" No name used, but the detail combination (sole chief of a chip maker, resignation over an alleged-spy scandal, ~$1 trillion loss, same-day rival Gemini launch) uniquely identifies Jensen Huang/Nvidia per sources, matching the rubric's banned pattern of unmistakable description (e.g. 'the richest man's rocket company CEO').",
+          "suggestion": "Curate stage should genericize the phrase so it no longer uniquely resolves to one identifiable person: drop the specific dollar figure and/or the 'spy' framing, e.g. 'A chip maker's leadership shake-up rattled investors.'",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "pass",
+      "findings": []
+    }
+  ]
+}

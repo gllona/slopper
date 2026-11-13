@@ -1,0 +1,221 @@
+{
+  "date": "2026-11-12",
+  "number": 44,
+  "mode": "fresh",
+  "motto": "Chief Resigns, Rollout Continues",
+  "phrase": "A chip maker's leadership shake-up rattled investors today. The same day, a search giant launched a smarter model, a sharper search tool, and new glasses.",
+  "phraseAlternatives": [
+    "A chip maker lost its chief executive amid scandal, and investors took notice. Elsewhere, a search giant rolled out a smarter model and stylish new glasses.",
+    "One company's chief executive resigned in scandal today, rattling its investors. Another company spent the day showing off a smarter model and new glasses.",
+    "A chip maker's boardroom scandal cost it a chief executive today. A rival calmly launched a smarter model, sharper search, and new glasses."
+  ],
+  "alt": "A blueprint building has its door open with an empty yellow chair sliding out beside a falling chart, labeled CHIEF RESIGNS. Across a dividing line, a cheerful robot steps from a bow-topped box while a calm person wears new glasses, labeled RIVAL LAUNCHES.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 3,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "education": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 2
+  },
+  "storylines": [
+    "nvidia-spy-case",
+    "frontier-model-race",
+    "school-ai-moratorium-lawsuit",
+    "faa-ai-air-traffic-expansion",
+    "china-ai-export-controls"
+  ],
+  "topStories": [
+    {
+      "title": "Chip Maker's CEO Resigns Amid Scandal, Markets Reel",
+      "itemIds": [
+        "hackernews:bc816e16a4a0",
+        "feeds:c8414e696d3e",
+        "feeds:e699e9bae254",
+        "feeds:20e833253c74",
+        "feeds:9d99011a625b",
+        "feeds:cbdc8f6b1c4c",
+        "feeds:ed06be1104eb",
+        "hackernews:9ccf02f3129f"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "safety",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "A Search Giant's AI Product Blitz: New Model, Smarter Search, Smart Glasses",
+      "itemIds": [
+        "feeds:d45870493399",
+        "feeds:963b6a1992f1",
+        "feeds:e730f1fd52f7",
+        "feeds:341363dd4020",
+        "hackernews:d7c21c501eb2",
+        "hackernews:a254e9bc0a8a"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "Families Push Back On AI Chatbots In Schools After Teen Lawsuit",
+      "itemIds": [
+        "feeds:acfb8ed23481"
+      ],
+      "dimensions": [
+        "education",
+        "safety",
+        "society",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "school-ai-moratorium-lawsuit"
+    },
+    {
+      "title": "FAA Expands AI Advice For Air Traffic, Without Its Union",
+      "itemIds": [
+        "feeds:6a0b530a1c16"
+      ],
+      "dimensions": [
+        "policy",
+        "labor",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "faa-ai-air-traffic-expansion"
+    },
+    {
+      "title": "Export Control Cracks: Chinese Models Bear GPU Fingerprints",
+      "itemIds": [
+        "hackernews:076934ef461b",
+        "feeds:d336b8094a4e"
+      ],
+      "dimensions": [
+        "policy",
+        "industry",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "china-ai-export-controls"
+    }
+  ],
+  "brief": {
+    "concept": "A chip maker's chief executive resigns amid scandal as markets wobble, while right next door a rival company calmly unveils a smarter model, smarter search, and a pair of smart glasses.",
+    "metaphor": "A toppling company tower losing its chief's chair through the front door, beside a calm rival handing out shiny new gadgets as if nothing happened.",
+    "cast": [
+      {
+        "who": "a company building with its front door swinging open, a chief's empty chair sliding out",
+        "kind": "institution"
+      },
+      {
+        "who": "a falling stock arrow cracking the ground beneath the building",
+        "kind": "object"
+      },
+      {
+        "who": "a cheerful AI robot stepping out of a gift-wrapped box, holding out a pair of glasses",
+        "kind": "ai"
+      },
+      {
+        "who": "a calm human figure trying on the new glasses, unbothered by the chaos next door",
+        "kind": "person"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split frame divided by the blueprint grid. Left half: a company building with its door swinging open, an empty chair sliding out past a falling stock arrow cracking the ground beneath it. Right half: a cheerful AI robot steps out of a box, offering a pair of glasses to a calm human figure. One yellow highlight marks the empty chair as the frame's punchline.",
+    "artType": "static",
+    "alt": "On the left, a company building's front door swings open as an empty chief's chair slides out past a falling stock arrow cracking the ground. On the right, a cheerful robot calmly hands a pair of glasses to a relaxed human, unaffected by the chaos nearby."
+  },
+  "sources": [
+    {
+      "id": "hackernews:bc816e16a4a0",
+      "title": "Jensen Huang resigns",
+      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "source": "hackernews",
+      "publisher": "apnews.com",
+      "publishedAt": "2026-11-12T13:52:29.000Z"
+    },
+    {
+      "id": "feeds:20e833253c74",
+      "title": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month",
+      "url": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-11-12T17:59:15.000Z"
+    },
+    {
+      "id": "feeds:c8414e696d3e",
+      "title": "The Jensen Huang scandal is hardly over",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-12T17:44:33.000Z"
+    },
+    {
+      "id": "feeds:d45870493399",
+      "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+      "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-11-12T19:23:03.000Z"
+    },
+    {
+      "id": "feeds:963b6a1992f1",
+      "title": "Google’s new Gemini model is better at understanding complicated questions",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-12T21:55:32.000Z"
+    },
+    {
+      "id": "feeds:e730f1fd52f7",
+      "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+      "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-11-12T14:50:17.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.71,
+    "iterations": 2
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-13T20:28:07.602Z"
+}
