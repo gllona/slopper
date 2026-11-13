@@ -1,0 +1,82 @@
+{
+  "passed": false,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": false,
+        "errors": [
+          "\"trillion-label\" (label) must be inside the safe area 60…1020 px (now x 398…706, y 55…97)"
+        ],
+        "warnings": [
+          "\"trillion-label\" (label) was moved 0 px, 51 px to stay inside the safe area"
+        ]
+      },
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 2,
+          "style": 4,
+          "polish": 4,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The split \"two doors\" metaphor never materializes: both buildings and both doors are missing, the briefcase prop didn't render, and the exec/parent/robot end up standing together in one undifferentiated line that reads as a group photo, not two separate stories of resignation vs. blocking.",
+        "revisionNotes": [
+          "Add the company building component (door swung open) on the left-third and the schoolhouse component (door partly open) on the right-third — both buildings specified in the brief are absent from the render.",
+          "Separate the scene into two visibly distinct halves with a gap or divider line; right now exec, parent, and robot stand in one continuous row with no visual break between the 'company' and 'school' stories.",
+          "Attach the briefcase prop to exec at scale 0.5 on the right side as scripted — it's missing from the final frame.",
+          "Add a second parent figure (brief calls for two parents) and pose both with arms crossed blocking the robot at the schoolhouse step, instead of the robot standing calmly beside them.",
+          "Move robot to right-third near the schoolhouse doorway so the 'blocked at the step' beat is legible, not just adjacent to the humans.",
+          "Palette and layout (blueprint grid, chart + building + human/robot row) are close to the recent blueprint sloppers; vary the arrangement or accent color to read as fresh."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"parent-two\" (human) was moved -14 px, 0 px to stay inside the artboard",
+          "\"parent-two\" extends outside the safe area in the final frame (x 843…1069, y 544…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "Cast and basic read are sound (human exec and parents, robot correctly stands for the chatbot), but a flagged clipping bug, a disconnected briefcase, a robot crowded between parents instead of blocked at a door, and a composition very close to recent blueprint-splits pull the average below the bar.",
+        "revisionNotes": [
+          "Pull parent-two in from x=0.86 toward ~0.80 and trim the pointing-arm length; lint already flags it clipping the safe area at x 843-1069.",
+          "Attach the briefcase to exec's hand (attachTo: exec, side: right) instead of floating it near the door as a separate icon — right now it reads as an unrelated prop.",
+          "Move the robot to stand at the schoolhouse threshold in front of the parents rather than sandwiched between them, so the 'blocked at the door' beat actually reads.",
+          "Render the company door as an open leaf (angled panel) rather than a closed flat rectangle — the brief calls for a door swinging open, but it reads as shut.",
+          "Add a visible door/opening to the schoolhouse shape so 'door only partly open' is legible, not just windows.",
+          "This split blueprint layout (building + crashing chart one side, human+robot the other) is close in composition and palette to two recent sloppers; try a stacked or diagonal layout, or a different accent color, for freshness."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    }
+  ]
+}

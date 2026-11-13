@@ -1,0 +1,226 @@
+{
+  "date": "2026-11-12",
+  "number": 44,
+  "mode": "fresh",
+  "motto": "A Trillion-Dollar Resignation",
+  "phrase": "A chip maker's chief resigned amid a spy scandal, erasing a trillion dollars in value. Families, meanwhile, pushed to pull a chatbot from schools over unsafe teen advice.",
+  "phraseAlternatives": [
+    "A spy scandal cost a chip company its chief executive and a trillion dollars in value, all in one day.",
+    "One chip maker lost its chief and a trillion dollars this week. A chatbot lost its welcome in schools.",
+    "The chip industry's most famous boss stepped down over a scandal. Parents, separately, told a chatbot to stay out of class.",
+    "A chief executive's exit wiped a trillion dollars off a chip maker's stock. A chatbot's school debut is going worse."
+  ],
+  "alt": "Split blueprint drawing: on the left, a company building's door swings wide open as a worried executive walks out with a briefcase while a stock chart crashes under a $1 trillion label. On the right, a schoolhouse door stands only partly open, with two worried parents blocking a small sad robot at the step and shouting \"NO\".",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "industry": 3,
+    "policy": 2,
+    "law": 2,
+    "labor": 2,
+    "safety": 2,
+    "society": 2,
+    "education": 2,
+    "planet": 1,
+    "capabilities": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 2
+  },
+  "storylines": [
+    "nvidia-spy-case",
+    "faa-ai-air-traffic-congestion",
+    "google-gemini-school-moratorium",
+    "frontier-model-race",
+    "ai-energy-bet-backfires"
+  ],
+  "topStories": [
+    {
+      "title": "Nvidia CEO Jensen Huang resigns amid spy scandal, wiping out over $1 trillion in value",
+      "itemIds": [
+        "feeds:381aa4f935c3",
+        "feeds:9d99011a625b",
+        "feeds:20e833253c74",
+        "feeds:e699e9bae254",
+        "hackernews:bc816e16a4a0",
+        "feeds:cbdc8f6b1c4c",
+        "feeds:4a496b32dce8",
+        "feeds:9ccf02f3129f"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "FAA expands AI air-traffic advice across US airspace without controllers' union",
+      "itemIds": [
+        "feeds:6a0b530a1c16"
+      ],
+      "dimensions": [
+        "labor",
+        "policy",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "faa-ai-air-traffic-congestion"
+    },
+    {
+      "title": "Families push for AI moratoriums in schools after a chatbot pilot is called a 'suicide coach' in a lawsuit",
+      "itemIds": [
+        "feeds:acfb8ed23481"
+      ],
+      "dimensions": [
+        "education",
+        "safety",
+        "law",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "google-gemini-school-moratorium"
+    },
+    {
+      "title": "A search giant rolls out its newest model, replacing its previous flagship",
+      "itemIds": [
+        "feeds:d45870493399",
+        "feeds:963b6a1992f1",
+        "feeds:341363dd4020",
+        "hackernews:d7c21c501eb2",
+        "hackernews:a254e9bc0a8a"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "frontier-model-race"
+    },
+    {
+      "title": "A tech investor's billion-dollar natural-gas turbine loss cools AI's energy ambitions",
+      "itemIds": [
+        "feeds:743bb9f48555"
+      ],
+      "dimensions": [
+        "planet",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-energy-bet-backfires"
+    }
+  ],
+  "brief": {
+    "concept": "A chip company's door swings open as its chief walks out under a trillion-dollar stock crash, while across town worried parents block a small chatbot from a schoolhouse door.",
+    "metaphor": "A collapsing corporate doorway on one side, a guarded schoolhouse doorway on the other: two kinds of 'no' to AI on the same day.",
+    "cast": [
+      {
+        "who": "a company building with its front door swinging wide open",
+        "kind": "institution"
+      },
+      {
+        "who": "a human executive walking out of the doorway, a briefcase in hand",
+        "kind": "person"
+      },
+      {
+        "who": "a falling stock arrow crashing through a chart marked with a huge dollar sign",
+        "kind": "object"
+      },
+      {
+        "who": "a small schoolhouse with its door only partly open",
+        "kind": "object"
+      },
+      {
+        "who": "two worried human parents standing in the schoolhouse doorway",
+        "kind": "person"
+      },
+      {
+        "who": "a small AI chatbot robot being turned away at the schoolhouse step",
+        "kind": "ai"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split composition, blueprint grid background. Left half: a company building with its door open, a human executive figure walking out carrying a briefcase, and a steep stock arrow plunging through a cracked chart beside a dollar-sign label. Right half: a small schoolhouse with two parent figures standing in its doorway, arms crossed, blocking a small chatbot robot that holds out a speech bubble. One yellow highlight marks the dollar sign on the left and the blocked doorway on the right. No more than 4 words of text total (e.g. a small dollar-sign label).",
+    "artType": "static",
+    "alt": "A split illustration: on the left, a company building's door swings open as an executive walks out with a briefcase while a stock arrow crashes through a chart marked with a huge dollar sign; on the right, two worried parents stand in a schoolhouse doorway, blocking a small AI chatbot robot from entering."
+  },
+  "sources": [
+    {
+      "id": "feeds:381aa4f935c3",
+      "title": "Jensen Huang Resigns as Nvidia CEO",
+      "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-11-12T13:58:06.000Z"
+    },
+    {
+      "id": "feeds:20e833253c74",
+      "title": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month",
+      "url": "https://www.wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-11-12T17:59:15.000Z"
+    },
+    {
+      "id": "feeds:2fb17be69fec",
+      "title": "What we know as Nvidia CEO Jensen Huang resigns over affair allegations",
+      "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+      "source": "feeds",
+      "publisher": "BBC News",
+      "publishedAt": "2026-11-12T15:26:39.000Z"
+    },
+    {
+      "id": "feeds:e699e9bae254",
+      "title": "Jensen Huang was having a third affair, Reuters reports",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-12T20:26:47.000Z"
+    },
+    {
+      "id": "hackernews:bc816e16a4a0",
+      "title": "Jensen Huang resigns",
+      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+      "source": "hackernews",
+      "publisher": "apnews.com",
+      "publishedAt": "2026-11-12T13:52:29.000Z"
+    },
+    {
+      "id": "feeds:acfb8ed23481",
+      "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+      "url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-11-12T18:57:45.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.14,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "hold"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-13T11:32:47.083Z"
+}

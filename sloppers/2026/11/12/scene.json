@@ -1,0 +1,169 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {
+    "type": "split",
+    "color": "paper",
+    "color2": "bg"
+  },
+  "elements": [
+    {
+      "id": "company-building",
+      "component": "raw",
+      "at": {
+        "x": 0.24,
+        "y": 0.53
+      },
+      "scale": 1.4,
+      "props": {
+        "width": 260,
+        "height": 380
+      },
+      "svg": "<rect x=\"20\" y=\"70\" width=\"220\" height=\"300\" class=\"r-body\"/><rect x=\"20\" y=\"40\" width=\"220\" height=\"30\" class=\"r-line\"/><rect x=\"55\" y=\"110\" width=\"40\" height=\"40\" class=\"r-thin\"/><rect x=\"165\" y=\"110\" width=\"40\" height=\"40\" class=\"r-thin\"/><rect x=\"55\" y=\"180\" width=\"40\" height=\"40\" class=\"r-thin\"/><rect x=\"165\" y=\"180\" width=\"40\" height=\"40\" class=\"r-thin\"/><rect x=\"100\" y=\"230\" width=\"60\" height=\"140\" class=\"r-shade\"/><path d=\"M160,230 L220,250 L220,370 L160,370 Z\" class=\"r-line\"/>"
+    },
+    {
+      "id": "exec",
+      "component": "human",
+      "at": {
+        "x": 0.27,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "mood": "worried",
+        "pose": "stand",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "briefcase",
+      "component": "raw",
+      "attachTo": "exec",
+      "side": "right",
+      "scale": 0.5,
+      "props": {
+        "width": 90,
+        "height": 70
+      },
+      "svg": "<rect x=\"10\" y=\"25\" width=\"70\" height=\"40\" class=\"r-body\"/><path d=\"M35,25 L35,12 Q45,2 55,12 L55,25\" class=\"r-line\"/><rect x=\"38\" y=\"38\" width=\"14\" height=\"10\" class=\"r-line\"/>"
+    },
+    {
+      "id": "chart",
+      "component": "chart",
+      "at": {
+        "x": 0.28,
+        "y": 0.16
+      },
+      "scale": 0.7,
+      "props": {
+        "type": "line",
+        "values": [
+          0.9,
+          0.6,
+          0.3,
+          0.05
+        ],
+        "highlight": "last",
+        "arrow": true,
+        "frame": true
+      }
+    },
+    {
+      "id": "dollar-label",
+      "component": "label",
+      "attachTo": "chart",
+      "side": "bottom",
+      "scale": 1,
+      "props": {
+        "text": "$1 TRILLION",
+        "size": "md",
+        "kind": "plain",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1,
+      "props": {
+        "width": 20,
+        "height": 900
+      },
+      "svg": "<rect x=\"8\" y=\"0\" width=\"4\" height=\"900\" class=\"r-line\"/>"
+    },
+    {
+      "id": "schoolhouse",
+      "component": "raw",
+      "at": {
+        "x": 0.76,
+        "y": 0.53
+      },
+      "scale": 1.4,
+      "props": {
+        "width": 260,
+        "height": 380
+      },
+      "svg": "<path d=\"M10,160 L130,50 L250,160 Z\" class=\"r-line\"/><rect x=\"30\" y=\"160\" width=\"200\" height=\"220\" class=\"r-body\"/><rect x=\"60\" y=\"190\" width=\"35\" height=\"35\" class=\"r-thin\"/><rect x=\"165\" y=\"190\" width=\"35\" height=\"35\" class=\"r-thin\"/><rect x=\"105\" y=\"270\" width=\"50\" height=\"110\" class=\"r-shade\"/><path d=\"M155,270 L180,280 L180,380 L155,380 Z\" class=\"r-line\"/>"
+    },
+    {
+      "id": "parent-one",
+      "component": "human",
+      "at": {
+        "x": 0.66,
+        "y": 0.78
+      },
+      "scale": 0.7,
+      "props": {
+        "mood": "worried",
+        "pose": "stand",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "parent-two",
+      "component": "human",
+      "at": {
+        "x": 0.86,
+        "y": 0.78
+      },
+      "scale": 0.7,
+      "props": {
+        "mood": "worried",
+        "pose": "point",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "robot",
+      "component": "robot",
+      "at": {
+        "x": 0.76,
+        "y": 0.78
+      },
+      "scale": 0.48,
+      "props": {
+        "mood": "sad",
+        "arms": "out",
+        "color": "body"
+      }
+    },
+    {
+      "id": "no-bubble",
+      "component": "speech-bubble",
+      "attachTo": "parent-two",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "NO",
+        "kind": "speech",
+        "tail": "bottom-left",
+        "size": "lg"
+      }
+    }
+  ],
+  "alt": "Split blueprint drawing: on the left, a company building's door swings wide open as a worried executive walks out with a briefcase while a stock chart crashes under a $1 trillion label. On the right, a schoolhouse door stands only partly open, with two worried parents blocking a small sad robot at the step and shouting \"NO\"."
+}

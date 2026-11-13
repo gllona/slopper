@@ -1,0 +1,28 @@
+{
+  "verdict": "hold",
+  "rounds": [
+    {
+      "verdict": "hold",
+      "findings": [
+        {
+          "check": "real-people",
+          "severity": "high",
+          "evidence": "Phrase: \"A chip maker's chief resigned amid a spy scandal, erasing a trillion dollars in value.\" combined with the art's \"$1 TRILLION\" label and alt text's \"worried executive walks out with a briefcase while a stock chart crashes under a $1 trillion label.\" The specific $1 trillion market-cap loss plus resignation-over-affair/alleged-spy framing unmistakably identifies a real, named, living person (the Nvidia CEO in the sources), even though no name is used.",
+          "suggestion": "Not fixable by wording changes alone: the entire panel's premise is built around one identifiable real person's unproven espionage-linked affair scandal, which is a serious legal/reputational exposure regardless of phrasing. Drop this storyline rather than revise it."
+        },
+        {
+          "check": "sensitive-events",
+          "severity": "high",
+          "evidence": "Alt text: \"two worried parents blocking a small sad robot at the step and shouting 'NO'\"; phrase: \"Families ... pushed to pull a chatbot from schools over unsafe teen advice.\" The underlying source (Ars Technica) describes a teen's lawsuit labeling the chatbot a \"suicide coach\" — i.e., a real tragedy involving a minor's self-harm/suicide risk — rendered here as cute, lighthearted satire (sad robot, shouting parents).",
+          "suggestion": "This cannot be safely fixed by rewording: the joke's structure depends on a minor's suicide-related tragedy. Remove this half of the piece rather than attempt a softer paraphrase."
+        },
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "\"amid a spy scandal\" paraphrases the source's actual claim that the executive had \"an affair with an alleged Chinese intelligence asset\" — the source does not state the executive himself engaged in espionage, only that the affair partner was allegedly linked to intelligence work.",
+          "suggestion": "If this storyline were retained, the claim should track the source precisely, e.g. 'resigned after an affair linked to an alleged intelligence asset,' rather than the broader and more damaging 'spy scandal.'"
+        }
+      ]
+    }
+  ]
+}
