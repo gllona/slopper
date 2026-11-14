@@ -1,0 +1,124 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {},
+  "elements": [
+    {
+      "id": "roofline",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.3843
+      },
+      "scale": 1,
+      "props": {
+        "width": 940,
+        "height": 700
+      },
+      "svg": "<rect class=\"r-ink\" x=\"0\" y=\"70\" width=\"940\" height=\"40\" rx=\"8\"/><path class=\"r-ink\" d=\"M420 70 L470 10 L520 70 Z\"/><circle class=\"r-paper\" cx=\"470\" cy=\"45\" r=\"22\"/><circle class=\"r-line\" cx=\"470\" cy=\"45\" r=\"22\"/><line class=\"r-line\" x1=\"470\" y1=\"45\" x2=\"470\" y2=\"30\"/><line class=\"r-line\" x1=\"470\" y1=\"45\" x2=\"482\" y2=\"50\"/><rect class=\"r-ink\" x=\"467\" y=\"110\" width=\"6\" height=\"590\" opacity=\"0.3\"/>"
+    },
+    {
+      "id": "shadow",
+      "component": "raw",
+      "at": {
+        "x": 0.3426,
+        "y": 0.3056
+      },
+      "scale": 1,
+      "opacity": 0.45,
+      "props": {
+        "width": 300,
+        "height": 440
+      },
+      "svg": "<circle class=\"r-ink\" cx=\"150\" cy=\"14\" r=\"11\"/><rect class=\"r-ink\" x=\"145\" y=\"23\" width=\"10\" height=\"24\"/><rect class=\"r-ink\" x=\"88\" y=\"47\" width=\"124\" height=\"98\" rx=\"15\"/><path class=\"r-ink\" d=\"M66 145 L234 145 L264 420 L36 420 Z\"/><path class=\"r-ink\" d=\"M74 160 L16 38 L42 30 L98 156 Z\"/><path class=\"r-ink\" d=\"M226 160 L284 38 L258 30 L202 156 Z\"/>"
+    },
+    {
+      "id": "boardmember",
+      "component": "human",
+      "at": "left-third",
+      "scale": 1,
+      "props": {
+        "mood": "worried",
+        "pose": "stand",
+        "color": "accent",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "podium",
+      "component": "raw",
+      "at": "left-third",
+      "offset": [
+        0,
+        -80
+      ],
+      "scale": 1,
+      "props": {
+        "width": 140,
+        "height": 170
+      },
+      "svg": "<path class=\"r-paper\" d=\"M18 170 L122 170 L102 36 L38 36 Z\"/><rect class=\"r-accent\" x=\"46\" y=\"62\" width=\"48\" height=\"78\" rx=\"8\"/>"
+    },
+    {
+      "id": "warnsign",
+      "component": "label",
+      "attachTo": "boardmember",
+      "side": "left",
+      "offset": [
+        -20,
+        -30
+      ],
+      "scale": 1,
+      "props": {
+        "text": "MONTHS AWAY",
+        "size": "md",
+        "kind": "sign",
+        "color": "text"
+      }
+    },
+    {
+      "id": "door",
+      "component": "raw",
+      "at": "right-third",
+      "offset": [
+        0,
+        -215
+      ],
+      "scale": 1,
+      "props": {
+        "width": 260,
+        "height": 480
+      },
+      "svg": "<rect class=\"r-shade\" x=\"40\" y=\"46\" width=\"180\" height=\"420\"/><rect class=\"r-ink\" x=\"10\" y=\"10\" width=\"30\" height=\"460\" rx=\"6\"/><rect class=\"r-ink\" x=\"220\" y=\"10\" width=\"30\" height=\"460\" rx=\"6\"/><rect class=\"r-ink\" x=\"10\" y=\"10\" width=\"240\" height=\"36\" rx=\"10\"/>"
+    },
+    {
+      "id": "shopbot",
+      "component": "robot",
+      "at": "right-third",
+      "scale": 1,
+      "props": {
+        "mood": "happy",
+        "arms": "down",
+        "color": "accent",
+        "antenna": true
+      }
+    },
+    {
+      "id": "shopping",
+      "component": "raw",
+      "attachTo": "shopbot",
+      "side": "right",
+      "offset": [
+        -40,
+        10
+      ],
+      "scale": 1,
+      "props": {
+        "width": 200,
+        "height": 190
+      },
+      "svg": "<rect class=\"r-body-alt\" x=\"10\" y=\"78\" width=\"88\" height=\"64\" rx=\"12\"/><rect class=\"r-accent\" x=\"34\" y=\"100\" width=\"40\" height=\"18\" rx=\"5\"/><path class=\"r-accent-2\" d=\"M108 40 L198 40 L186 178 L120 178 Z\"/><path class=\"r-line\" d=\"M130 40 C130 10 176 10 176 40\" fill=\"none\"/>"
+    }
+  ],
+  "alt": "A paper-cutout scene shows one building split by a seam under a shared roofline with a clock. On the left, a worried person stands at a podium holding a sign that reads MONTHS AWAY, with a huge dark robot-shaped shadow looming on the wall behind them. On the right, a small cheerful robot steps out of an open doorway holding a wallet and a shopping bag."
+}
