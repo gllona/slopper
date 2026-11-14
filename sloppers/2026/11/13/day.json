@@ -1,0 +1,242 @@
+{
+  "date": "2026-11-13",
+  "number": 45,
+  "mode": "fresh",
+  "motto": "Nationwide AI, Nationwide Halt",
+  "phrase": "An aviation agency expanded its AI tool nationwide today, and still grounded every flight. Meanwhile, AI agents got a wallet to spend your money while you wait.",
+  "phraseAlternatives": [
+    "A flight agency rolled out AI help for congested skies today. Every airport in the country stopped flying anyway, and AI agents got a wallet instead.",
+    "Today an aviation agency expanded AI traffic help nationwide. The whole country's airports stopped regardless, while an AI agent quietly got permission to spend your money.",
+    "AI traffic help went nationwide today, and every airport stopped flying anyway. Elsewhere, an AI agent got a wallet, so now it can wait for you too."
+  ],
+  "alt": "A worried airport worker stands beside a glowing AI control panel on an empty runway where a paper airplane sits grounded, under a sign reading ALL FLIGHTS STOPPED. A thin line separates them from a proud robot on the right, holding a wallet overhead, unbothered.",
+  "artType": "static",
+  "style": "paper-cutout",
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 2,
+    "policy": 3,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "education": 2,
+    "planet": 1,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 2
+  },
+  "storylines": [
+    "nvidia-spy-case",
+    "faa-ai-air-traffic-expansion",
+    "ai-services-global-outage",
+    "ai-agents-start-shopping",
+    "school-ai-moratorium-lawsuit",
+    "ai-unlocks-historical-archives"
+  ],
+  "topStories": [
+    {
+      "title": "A chip maker's scandal escalates to a congressional summons and a funding hole",
+      "itemIds": [
+        "feeds:a31ebb658059",
+        "feeds:e977920d3916",
+        "feeds:9d694fa95af0",
+        "feeds:a5cbeaaf0b4d",
+        "feeds:ad83f8c3766b",
+        "feeds:a17f152d477f",
+        "feeds:0a709ef8734d",
+        "feeds:b93fcc1a72e6",
+        "feeds:320f82c0184e",
+        "feeds:c9b233c26248",
+        "gdelt:416f91b83079",
+        "gdelt:3b7b60c7a6d7",
+        "gdelt:c5c67ac15c01"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "AI traffic tool expands nationwide, and all US airports ground stop anyway",
+      "itemIds": [
+        "feeds:05648108c876",
+        "hackernews:cdfd26896257",
+        "hackernews:282df205597a"
+      ],
+      "dimensions": [
+        "policy",
+        "labor",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "faa-ai-air-traffic-expansion"
+    },
+    {
+      "title": "A global outage knocks out major office software and an AI chatbot together",
+      "itemIds": [
+        "feeds:2de205def8cb",
+        "feeds:7fb6452e11ac",
+        "feeds:7c8f55cad067",
+        "gdelt:62411d5387ef",
+        "gdelt:5a5ded012c3a",
+        "gdelt:188ccc1cd033",
+        "hackernews:1a09f77a4836",
+        "hackernews:97df97d02a06"
+      ],
+      "dimensions": [
+        "industry",
+        "safety",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-services-global-outage"
+    },
+    {
+      "title": "AI agents get a wallet and a world-spanning shopping index",
+      "itemIds": [
+        "feeds:e626a6ba37c5",
+        "feeds:bbcb79fadd39",
+        "feeds:05808b99d747"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agents-start-shopping"
+    },
+    {
+      "title": "Schools keep pushing back on AI, from classroom bans to search lockouts",
+      "itemIds": [
+        "gdelt:33ec3fd334d5",
+        "hackernews:99f24ac47416",
+        "hackernews:0d4c924e6437",
+        "hackernews:5c4f352f53a3"
+      ],
+      "dimensions": [
+        "education",
+        "society",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "school-ai-moratorium-lawsuit"
+    },
+    {
+      "title": "AI deciphers a mathematician's old notebooks, revealing hundreds of unproven theorems",
+      "itemIds": [
+        "hackernews:5bfca8e96e51"
+      ],
+      "dimensions": [
+        "science",
+        "capabilities"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "ai-unlocks-historical-archives"
+    }
+  ],
+  "brief": {
+    "concept": "An aviation agency rolls its AI traffic tool out across the whole country, and the whole country's flights stop anyway; meanwhile, an AI agent calmly gets a wallet so it can shop while everyone waits.",
+    "metaphor": "A grounded paper airplane frozen on an empty runway beside a flashing AI control panel, while next door a small robot calmly checks out at a shop counter with its own wallet.",
+    "cast": [
+      {
+        "who": "a human air traffic worker standing with arms crossed beside a glowing AI control panel",
+        "kind": "person"
+      },
+      {
+        "who": "a paper airplane grounded on an empty runway, wheels stuck",
+        "kind": "object"
+      },
+      {
+        "who": "a departures board reading ALL FLIGHTS STOPPED",
+        "kind": "object"
+      },
+      {
+        "who": "a cheerful AI robot holding a wallet, reaching into a shopping cart",
+        "kind": "ai"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Split single frame: left two-thirds shows an airport with a grounded paper airplane stuck on an empty runway, a departures board reading ALL FLIGHTS STOPPED behind it, and a human air traffic worker standing with arms crossed beside a glowing AI control panel. Right third, separated by a thin horizon line, shows a small cheerful AI robot holding a wallet, reaching into a shopping cart, calm and unaffected by the chaos next door.",
+    "artType": "static",
+    "alt": "On one side, a paper airplane sits grounded on an empty runway next to a departures board reading ALL FLIGHTS STOPPED, while a human worker stands beside a glowing AI control panel. On the other side, a cheerful robot holds a wallet and reaches into a shopping cart, unaffected by the chaos."
+  },
+  "sources": [
+    {
+      "id": "feeds:05648108c876",
+      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+      "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-11-13T21:20:47.000Z"
+    },
+    {
+      "id": "hackernews:cdfd26896257",
+      "title": "All US airports are currently ground stopped",
+      "url": "https://twitter.com/flightradar24/status/2121347654714077605",
+      "source": "hackernews",
+      "publisher": "twitter.com",
+      "publishedAt": "2026-11-13T21:06:52.000Z"
+    },
+    {
+      "id": "hackernews:282df205597a",
+      "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+      "url": "https://orcasairband.com/",
+      "source": "hackernews",
+      "publisher": "orcasairband.com",
+      "publishedAt": "2026-11-13T22:04:24.000Z"
+    },
+    {
+      "id": "feeds:e626a6ba37c5",
+      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-13T20:45:10.000Z"
+    },
+    {
+      "id": "feeds:bbcb79fadd39",
+      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-13T16:00:12.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.43,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-14T11:26:48.709Z"
+}

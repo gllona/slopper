@@ -1,0 +1,109 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {},
+  "elements": [
+    {
+      "id": "sign",
+      "component": "label",
+      "at": {
+        "x": 0.35,
+        "y": 0.17
+      },
+      "scale": 1,
+      "props": {
+        "text": "ALL FLIGHTS STOPPED",
+        "size": "md",
+        "kind": "tag",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "worker",
+      "component": "human",
+      "at": {
+        "x": 0.14,
+        "y": 0.74
+      },
+      "scale": 0.8,
+      "props": {
+        "mood": "worried",
+        "pose": "stand",
+        "holds": "none",
+        "color": "body"
+      }
+    },
+    {
+      "id": "panel",
+      "component": "datacenter",
+      "at": {
+        "x": 0.32,
+        "y": 0.74
+      },
+      "scale": 0.65,
+      "props": {
+        "racks": 2,
+        "lights": "busy",
+        "steam": false,
+        "fans": false
+      }
+    },
+    {
+      "id": "plane",
+      "component": "raw",
+      "at": {
+        "x": 0.54,
+        "y": 0.683
+      },
+      "scale": 0.7,
+      "rotate": -5,
+      "props": {
+        "width": 320,
+        "height": 150
+      },
+      "svg": "<path d=\"M20,110 L180,40 L300,80 L180,85 L70,130 Z\" class=\"r-body-alt\"/><path d=\"M20,110 L300,80\" class=\"r-line\"/><circle cx=\"110\" cy=\"138\" r=\"10\" class=\"r-ink\"/><circle cx=\"200\" cy=\"138\" r=\"10\" class=\"r-ink\"/><path d=\"M205,148 L230,148 L230,130 Z\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.698,
+        "y": 0.398
+      },
+      "scale": 1,
+      "props": {
+        "width": 10,
+        "height": 739
+      },
+      "svg": "<line x1=\"5\" y1=\"0\" x2=\"5\" y2=\"739\" class=\"r-thin\"/>"
+    },
+    {
+      "id": "bot",
+      "component": "robot",
+      "at": {
+        "x": 0.83,
+        "y": 0.74
+      },
+      "scale": 0.75,
+      "props": {
+        "mood": "proud",
+        "arms": "up",
+        "color": "body",
+        "antenna": true
+      }
+    },
+    {
+      "id": "wallet",
+      "component": "raw",
+      "attachTo": "bot",
+      "side": "top",
+      "scale": 0.7,
+      "props": {
+        "width": 140,
+        "height": 100
+      },
+      "svg": "<rect x=\"10\" y=\"25\" width=\"120\" height=\"65\" rx=\"12\" class=\"r-accent\"/><rect x=\"10\" y=\"25\" width=\"120\" height=\"26\" rx=\"12\" class=\"r-body-alt\"/><path d=\"M55,25 L55,8 L85,8 L85,25\" class=\"r-line\"/><circle cx=\"70\" cy=\"58\" r=\"9\" class=\"r-ink\"/>"
+    }
+  ],
+  "alt": "A worried airport worker stands beside a glowing AI control panel on an empty runway where a paper airplane sits grounded, under a sign reading ALL FLIGHTS STOPPED. A thin line separates them from a proud robot on the right, holding a wallet overhead, unbothered."
+}
