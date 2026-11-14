@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"bag\" (raw) was moved -64 px, 0 px to stay inside the artboard",
+          "\"shadow\" extends outside the safe area in the final frame (x 76…644, y 20…799)",
+          "\"bag\" extends outside the safe area in the final frame (x 946…1056, y 487…632)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 3,
+          "composition": 2,
+          "style": 3,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The warning-vs-shopping contrast reads, and the human/robot casting is correct, but the piece is undercut by missing/garbled components: the shared building is absent, the podium is nearly invisible, the shadow blends into the background, the doorway reads as a black box, and two elements clip the safe area — this needs another pass before publishing.",
+        "revisionNotes": [
+          "Add the shared company building/roofline with a clock connecting both halves, as the brief specifies — it's missing entirely, so the 'same lab, same day' punchline doesn't land.",
+          "Recolor the 'shadow' robot darker (dark ink/charcoal at ~0.4-0.5 opacity) — at its current pale cream tone it nearly vanishes into the kraft background and reads as a ghost, not an ominous loom; also pull it inside the safe area (currently clipped x 76-644, y 20-799).",
+          "The 'podium' raw shape is effectively invisible, lost behind the shadow — bring it forward in z-order or give it a contrasting fill so the board member clearly stands at a podium.",
+          "Redesign the 'door' raw shape so it reads as an open doorway in profile (frame + gap), not a solid black rectangle boxing in the robot like a phone/TV bezel.",
+          "Shift 'bag' left ~80-100px so it sits fully inside the safe area; it's currently clipped at the right edge (x 946-1056).",
+          "Add the thin vertical seam divider from the brief between the two halves so the split reads intentionally instead of the figures blending together mid-frame."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"warnsign\" (label) was moved 270 px, 0 px to stay inside the safe area"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 5,
+          "kindness": 5
+        },
+        "verdict": "The core doom-warning vs. cheerful-shopping contrast reads quickly and the cast/kindness are clean, but the unifying roofline reads as a barbell rather than a shared building, and the wallet/bag props float disconnected from the robot's hand, weakening the 'same lab, same day' punchline and the polish.",
+        "revisionNotes": [
+          "Redesign the roofline/clock piece: right now it reads as a barbell or scale beam gripped overhead by the shadow's raised arms, not a shared rooftop — flatten it into a simple eave with a small clock tower so the 'same building' unity actually lands.",
+          "Attach the wallet and shopping bag to shopbot's hand instead of floating them to its right with visible gaps; set arms to 'raised' or remove the offset so the props read as held, not scattered debris.",
+          "Enlarge the wallet prop — the tiny red rectangle near the robot's shoulder is unreadable at a glance; use a distinct raw shape (fold + clasp) at a bigger scale.",
+          "Separate the podium silhouette from the board member's legs; the orange trapezoid currently fuses with the figure's lower body so the lectern isn't legible as a distinct prop.",
+          "Give the door more interior contrast (a lighter window panel) so it reads as an open doorway the robot is stepping through, not a dark frame caging it."
+        ]
+      },
+      "average": 3.71,
+      "passed": true
+    }
+  ]
+}

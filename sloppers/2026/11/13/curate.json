@@ -1,0 +1,198 @@
+{
+  "topStories": [
+    {
+      "title": "A chip maker's chief resignation blasts a hole in AI funding and geopolitics",
+      "itemIds": [
+        "feeds:a31ebb658059",
+        "feeds:9d694fa95af0",
+        "feeds:a5cbeaaf0b4d",
+        "feeds:a17f152d477f",
+        "feeds:0a709ef8734d",
+        "feeds:c9b233c26248"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "safety"
+      ],
+      "novelty": 1,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "An AI lab's board member warns a societal takeover could be months away",
+      "itemIds": [
+        "feeds:4513c6ea6021"
+      ],
+      "dimensions": [
+        "safety",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-takeover-timeline-warning"
+    },
+    {
+      "title": "A chatbot wallet lets AI agents shop and check out for users",
+      "itemIds": [
+        "feeds:e626a6ba37c5",
+        "feeds:bbcb79fadd39"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agents-for-daily-life"
+    },
+    {
+      "title": "Chicago schools reject a search giant's AI-only terms, theories spread for why",
+      "itemIds": [
+        "hackernews:99f24ac47416",
+        "hackernews:0d4c924e6437"
+      ],
+      "dimensions": [
+        "education",
+        "policy",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "google-school-ai-overviews-backlash"
+    },
+    {
+      "title": "AI helps unlock a mathematician's notebooks, revealing hundreds of proved theorems",
+      "itemIds": [
+        "hackernews:5bfca8e96e51"
+      ],
+      "dimensions": [
+        "science",
+        "capabilities",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-unlocks-historical-math-archive"
+    },
+    {
+      "title": "AI-written scams erode trust between writers and readers",
+      "itemIds": [
+        "hackernews:ae3943fd2aed"
+      ],
+      "dimensions": [
+        "society",
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-literary-trust-collapse"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-takeover-timeline-warning",
+      "title": "An AI Lab Insider Puts A Timeline On Takeover Risk",
+      "dimensions": [
+        "safety",
+        "policy"
+      ],
+      "motifs": [
+        "a calendar page marked with a countdown beside a warning klaxon",
+        "a boardroom chair facing a looming robot shadow",
+        "a doom meter needle creeping toward red"
+      ]
+    },
+    {
+      "id": "ai-unlocks-historical-math-archive",
+      "title": "AI Unlocks A Mathematician's Lost Notebooks",
+      "dimensions": [
+        "science",
+        "capabilities",
+        "society"
+      ],
+      "motifs": [
+        "a dusty notebook opened by a small AI magnifying glass",
+        "handwritten equations glowing beside a translating robot hand",
+        "a vault of old notebooks swinging open to reveal hidden proofs"
+      ]
+    },
+    {
+      "id": "ai-literary-trust-collapse",
+      "title": "AI Erodes Trust Between Writers And Readers",
+      "dimensions": [
+        "society",
+        "law",
+        "industry"
+      ],
+      "motifs": [
+        "a bookshelf with one spine glitching into static text",
+        "a handshake between a pen and a robot hand, fingers crossed behind the back",
+        "a reader's magnifying glass finding a hidden AI watermark on a book cover"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The chip maker's leadership fallout (industry) scores novelty1×magnitude3×breadth3=9, clearing the 8 threshold on its own. Several non-industry stories (the AI-takeover timeline warning, Chicago schools vs. the search giant, the Gödel notebooks discovery, eroding reader trust) each score 8, well past the 5 threshold that applies since industry has led the last three days.",
+  "motto": "Takeover Warning, Wallet Ready",
+  "phrase": "A lab's board member warned an AI takeover could be months away. The same lab launched a wallet so its AI agents could go shopping.",
+  "phraseAlternatives": [
+    "A safety warning said an AI takeover could arrive within months. Days later, the same lab gave its AI agents a wallet to go shopping.",
+    "One AI lab warned society could face a takeover within months. It still found time to give its AI agents a wallet and let them shop.",
+    "A board member warned an AI takeover could be only months away. The lab's response: give its AI agents a wallet and let them shop."
+  ],
+  "brief": {
+    "concept": "A lab's board member warns at a podium that an AI takeover could be only months away, while right next door the same lab's own AI robot strolls out the door with a new wallet to go shopping.",
+    "metaphor": "Doom warning and shopping spree, same address, same day.",
+    "cast": [
+      {
+        "who": "a worried human board member standing at a podium, holding a small sign",
+        "kind": "person"
+      },
+      {
+        "who": "a huge robot-shaped shadow looming across the wall behind the podium",
+        "kind": "ai"
+      },
+      {
+        "who": "a small cheerful AI robot stepping out of a doorway, holding a wallet and a shopping bag",
+        "kind": "ai"
+      },
+      {
+        "who": "a company building whose roofline connects both scenes, a clock on its wall",
+        "kind": "institution"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Split composition under one shared roofline. Left half: a human board member at a podium, dwarfed by an oversized ominous robot shadow stretching up the wall behind them; the podium sign reads 'MONTHS AWAY'. Right half, same building, different door: a small round AI robot steps out cheerfully, wallet in one hand, shopping bag in the other. A thin vertical seam in the paper layers divides the two moods without a hard wall. Keep to 3-4 cut-paper shapes per side, soft drop shadows, warm kraft background.",
+    "artType": "static",
+    "alt": "A paper-cutout illustration shows a company building split in two. On the left, a worried person at a podium holds a sign reading 'MONTHS AWAY' beneath a huge looming robot-shaped shadow. On the right, a small cheerful robot steps out of a door holding a wallet and a shopping bag."
+  },
+  "sourceIds": [
+    "feeds:4513c6ea6021",
+    "feeds:e626a6ba37c5",
+    "feeds:bbcb79fadd39"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 3,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "education": 2,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
