@@ -1,0 +1,50 @@
+{
+  "verdict": "revise",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: 'A chip maker's ousted founder drew more than 100,000 signatures begging for his return.' Sources only say 'exit' (TechCrunch), 'former CEO' (Business Insider/Techmeme), and that lacking super-voting shares made it 'easier for him to lose control of the company' (Forbes/Techmeme). None confirm a forced removal/firing by the board, which 'ousted' specifically asserts.",
+          "suggestion": "Replace 'ousted founder' with 'former founder' or 'departed founder' unless a source explicitly confirms an involuntary removal.",
+          "stage": "curate"
+        },
+        {
+          "check": "defamation",
+          "severity": "low",
+          "evidence": "Phrase: 'A new report says the same company engineered the shortage that made its chips so valuable.' The only supporting source hedges this as 'allegedly engineered scarcity' and is itself a summary of a Hacker News discussion, not a confirmed investigative report.",
+          "suggestion": "Add the source's hedge, e.g. 'A new report says the same company allegedly engineered the shortage...'",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "real-people",
+          "severity": "high",
+          "evidence": "Phrase: \"A chip maker's former founder drew more than 100,000 signatures begging for his return.\" Alt: \"...a small crowd holding a sign reading BRING HIM BACK.\" Combined with the exact matching detail (100,000+ signatures) from the real, very recent Jensen Huang/Nvidia reinstatement petition story, this is an unmistakable description of a specific, identifiable real person.",
+          "suggestion": "Reduce identifying specificity: drop the precise '100,000' figure (use a vaguer 'tens of thousands') and generalize the company/role description further (e.g. a fictionalized or composite company) so it reads as satire of a trend rather than a depiction of one unmistakable real person.",
+          "stage": "curate"
+        },
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase/alt call him a \"former founder.\" Source wording (Techmeme/Business Insider, TechCrunch) consistently calls him \"former CEO Jensen Huang,\" not former founder — he lost the CEO role, not founder status, so 'former founder' misstates what happened to him.",
+          "suggestion": "Change 'former founder' to 'former CEO' (or 'ousted CEO') in both the phrase and the alt text to match the source wording, per the paraphrase-carefully lesson.",
+          "stage": "curate"
+        },
+        {
+          "check": "real-people",
+          "severity": "low",
+          "evidence": "In still.png, the central human figure (the 'founder' with the briefcase) is drawn with rounded, ball-jointed robotic arms, while the other two human figures are drawn with plain human limbs.",
+          "suggestion": "Redraw the founder figure's arms as plain human limbs to match the other figures, per the house rule that only AI systems (not people) are drawn as robots.",
+          "stage": "art"
+        }
+      ]
+    }
+  ]
+}
