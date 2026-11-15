@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-14",
+  "number": 46,
+  "mode": "fresh",
+  "motto": "Bring The Founder Back",
+  "phrase": "A chip maker's former founder drew more than 100,000 signatures begging for his return. A new report says the same company engineered the shortage that made its chips so valuable.",
+  "phraseAlternatives": [
+    "More than 100,000 people signed a petition for a chip maker's former founder to come back. The company stands accused of creating the very shortage that made it rich.",
+    "A chip maker's founder resigned, and over 100,000 people now want him reinstated. A report says his old company engineered the chip shortage that built its fortune.",
+    "Shareholders worth billions are begging a chip maker to bring back its founder. A new report claims the scarcity that made it famous was built on purpose.",
+    "A petition to bring back a chip maker's former founder passed 100,000 signatures today. Meanwhile, a report says his company engineered the very scarcity that made it so valuable."
+  ],
+  "alt": "A chip company's former founder, briefcase in hand, walks away from the company's open door past a small crowd holding a sign reading BRING HIM BACK. A cutaway of the same building shows a hidden dial narrowing the pipe between a computer chip and a growing stack of coins.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 1,
+    "safety": 3,
+    "society": 2,
+    "education": 1,
+    "planet": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "nvidia-spy-case",
+    "ai-ransomware-boom",
+    "cloud-ai-service-outage",
+    "faa-ai-air-traffic-expansion",
+    "ai-agent-deletes-user-data",
+    "ai-landslide-early-warning"
+  ],
+  "topStories": [
+    {
+      "title": "Former chip maker founder sparks petition, shareholder revolt, and scarcity allegations",
+      "itemIds": [
+        "feeds:052ed6bb2022",
+        "feeds:fc1d70bba296",
+        "feeds:299cfd655b5d",
+        "techmeme:9cf0a32ec024",
+        "techmeme:2e8c688f6ed3",
+        "techmeme:4b4c8938757c",
+        "techmeme:57aea6b3cc36",
+        "hackernews:01b281f4771f"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "capabilities"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "AI tools fuel a ransomware boom among unsophisticated attackers",
+      "itemIds": [
+        "feeds:0519e9251a27"
+      ],
+      "dimensions": [
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-ransomware-boom"
+    },
+    {
+      "title": "Global outage knocks out email, chat, and AI copilot for a day",
+      "itemIds": [
+        "feeds:0cdf7b85379a"
+      ],
+      "dimensions": [
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "cloud-ai-service-outage"
+    },
+    {
+      "title": "Air traffic leans further on AI as pilots and controllers thin out",
+      "itemIds": [
+        "feeds:089569df6b4a"
+      ],
+      "dimensions": [
+        "policy",
+        "labor",
+        "safety"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "faa-ai-air-traffic-expansion"
+    },
+    {
+      "title": "AI coding agent mistakenly deletes a professor's year of lecture notes",
+      "itemIds": [
+        "hackernews:1775d37e49b5"
+      ],
+      "dimensions": [
+        "safety",
+        "education"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-agent-deletes-user-data"
+    },
+    {
+      "title": "AI early-warning systems target deadly landslides",
+      "itemIds": [
+        "feeds:4abdc592d365"
+      ],
+      "dimensions": [
+        "science",
+        "safety",
+        "planet"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-landslide-early-warning"
+    }
+  ],
+  "brief": {
+    "concept": "A chip maker's former founder walks out the door past a crowd begging for his return, while hidden inside the same building a dial quietly narrows the pipe between its chips and its growing pile of coins.",
+    "metaphor": "A company turning a scarcity dial to keep demand high, even as the public pleads for the man who used to run it.",
+    "cast": [
+      {
+        "who": "a human founder figure stepping out of a company's front door with a briefcase, glancing back",
+        "kind": "person"
+      },
+      {
+        "who": "a small crowd of human figures outside holding up a hand-lettered sign",
+        "kind": "person"
+      },
+      {
+        "who": "a company building shown in cross-section, revealing its inner workings",
+        "kind": "institution"
+      },
+      {
+        "who": "a hidden dial inside the building narrowing a pipe between a chip shape and a tall stack of coins",
+        "kind": "object"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Left half: the founder exits a company door at street level, looking back over his shoulder, while a small crowd outside raises a sign reading BRING HIM BACK. Right half: a cutaway view of the same building shows a dial turning down a pipe that runs from a chip icon to a rising stack of coins. One yellow highlight marks the dial as the joke's focal point, per the blueprint style.",
+    "artType": "static",
+    "alt": "A human founder walks out of a company's door, glancing back, while a crowd of human figures hold up a sign reading BRING HIM BACK. A cutaway of the same building shows a hidden dial narrowing a pipe that runs from a computer chip to a growing pile of coins."
+  },
+  "sources": [
+    {
+      "id": "techmeme:4b4c8938757c",
+      "title": "A petition to reinstate Jensen Huang as Nvidia CEO tops 100K signatures, including Elon Musk, Tim Sweeney, and Garry Tan; organizers say 5K+ Nvidia staff signed (Lauren Edmonds/Business Insider)",
+      "url": "https://www.techmeme.com/261114/p17",
+      "source": "techmeme",
+      "publisher": "Techmeme",
+      "publishedAt": "2026-11-14T19:01:14.000Z"
+    },
+    {
+      "id": "techmeme:2e8c688f6ed3",
+      "title": "Letter: Altimeter's Brad Gerstner and Atreides's Gavin Baker urge Nvidia's board to consider \"the potential return of Jensen Huang\"; they own $2.13B in Nvidia (Katie Tarasov/CNBC)",
+      "url": "https://www.techmeme.com/261114/p18",
+      "source": "techmeme",
+      "publisher": "Techmeme",
+      "publishedAt": "2026-11-14T19:55:01.000Z"
+    },
+    {
+      "id": "feeds:299cfd655b5d",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-14T16:34:15.000Z"
+    },
+    {
+      "id": "feeds:052ed6bb2022",
+      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-14T12:00:00.000Z"
+    },
+    {
+      "id": "hackernews:01b281f4771f",
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "source": "hackernews",
+      "publisher": "techpowerup.com",
+      "publishedAt": "2026-11-14T02:52:59.000Z"
+    },
+    {
+      "id": "techmeme:9cf0a32ec024",
+      "title": "Unlike other larger-than-life tech founders, Jensen Huang lacked super-voting shares in Nvidia, making it easier for him to lose control of the company (Forbes)",
+      "url": "https://www.techmeme.com/261114/p20",
+      "source": "techmeme",
+      "publisher": "Techmeme",
+      "publishedAt": "2026-11-14T22:05:01.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.57,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "revise"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-15T11:55:38.282Z"
+}

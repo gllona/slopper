@@ -1,0 +1,212 @@
+{
+  "topStories": [
+    {
+      "title": "Former chip maker founder sparks petition, shareholder revolt, and scarcity allegations",
+      "itemIds": [
+        "feeds:052ed6bb2022",
+        "feeds:fc1d70bba296",
+        "feeds:299cfd655b5d",
+        "techmeme:9cf0a32ec024",
+        "techmeme:2e8c688f6ed3",
+        "techmeme:4b4c8938757c",
+        "techmeme:57aea6b3cc36",
+        "hackernews:01b281f4771f"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "capabilities"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "AI tools fuel a ransomware boom among unsophisticated attackers",
+      "itemIds": [
+        "feeds:0519e9251a27"
+      ],
+      "dimensions": [
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-ransomware-boom"
+    },
+    {
+      "title": "Global outage knocks out email, chat, and AI copilot for a day",
+      "itemIds": [
+        "feeds:0cdf7b85379a"
+      ],
+      "dimensions": [
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "cloud-ai-service-outage"
+    },
+    {
+      "title": "Air traffic leans further on AI as pilots and controllers thin out",
+      "itemIds": [
+        "feeds:089569df6b4a"
+      ],
+      "dimensions": [
+        "policy",
+        "labor",
+        "safety"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "faa-ai-air-traffic-expansion"
+    },
+    {
+      "title": "AI coding agent mistakenly deletes a professor's year of lecture notes",
+      "itemIds": [
+        "hackernews:1775d37e49b5"
+      ],
+      "dimensions": [
+        "safety",
+        "education"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-agent-deletes-user-data"
+    },
+    {
+      "title": "AI early-warning systems target deadly landslides",
+      "itemIds": [
+        "feeds:4abdc592d365"
+      ],
+      "dimensions": [
+        "science",
+        "safety",
+        "planet"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-landslide-early-warning"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-ransomware-boom",
+      "title": "AI Tools Fuel A Ransomware Boom",
+      "dimensions": [
+        "safety",
+        "industry"
+      ],
+      "motifs": [
+        "a ransomware padlock wearing a small AI badge",
+        "an unskilled attacker typing while a chatbot writes the actual code",
+        "a ransom note that writes itself faster than the hacker can read it"
+      ]
+    },
+    {
+      "id": "cloud-ai-service-outage",
+      "title": "A Global Outage Hits A Tech Giant's AI-Linked Services",
+      "dimensions": [
+        "industry",
+        "society"
+      ],
+      "motifs": [
+        "a cloud icon flickering between a green light and a red one",
+        "a repair wrench mending a crack running through a company's cloud sign",
+        "a row of app icons turning from grey back to color one by one"
+      ]
+    },
+    {
+      "id": "ai-agent-deletes-user-data",
+      "title": "An AI Agent Mistakenly Deletes A User's Work",
+      "dimensions": [
+        "safety",
+        "education"
+      ],
+      "motifs": [
+        "a robot hand erasing a shelf of lecture notes by mistake",
+        "an empty folder where a year of files used to sit",
+        "a speech bubble from a robot reading 'I'm sorry' beside a shredded notebook"
+      ]
+    },
+    {
+      "id": "ai-landslide-early-warning",
+      "title": "AI Early-Warning Systems Target Landslides",
+      "dimensions": [
+        "science",
+        "safety",
+        "planet"
+      ],
+      "motifs": [
+        "a mountain slope wired with a small sensor sending out an alert",
+        "a warning siren icon lighting up beside a shifting hillside",
+        "a chart tracking ground movement next to a glowing AI eye"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The chip maker founder's petition/shareholder-revolt story (novelty 2 × magnitude 3 × breadth 3 = 18) clears the industry threshold of 8 on its own, so today is a fresh day despite industry leading the last three days.",
+  "motto": "Bring The Founder Back",
+  "phrase": "A chip maker's former founder drew more than 100,000 signatures begging for his return. A new report says the same company engineered the shortage that made its chips so valuable.",
+  "phraseAlternatives": [
+    "More than 100,000 people signed a petition for a chip maker's former founder to come back. The company stands accused of creating the very shortage that made it rich.",
+    "A chip maker's founder resigned, and over 100,000 people now want him reinstated. A report says his old company engineered the chip shortage that built its fortune.",
+    "Shareholders worth billions are begging a chip maker to bring back its founder. A new report claims the scarcity that made it famous was built on purpose.",
+    "A petition to bring back a chip maker's former founder passed 100,000 signatures today. Meanwhile, a report says his company engineered the very scarcity that made it so valuable."
+  ],
+  "brief": {
+    "concept": "A chip maker's former founder walks out the door past a crowd begging for his return, while hidden inside the same building a dial quietly narrows the pipe between its chips and its growing pile of coins.",
+    "metaphor": "A company turning a scarcity dial to keep demand high, even as the public pleads for the man who used to run it.",
+    "cast": [
+      {
+        "who": "a human founder figure stepping out of a company's front door with a briefcase, glancing back",
+        "kind": "person"
+      },
+      {
+        "who": "a small crowd of human figures outside holding up a hand-lettered sign",
+        "kind": "person"
+      },
+      {
+        "who": "a company building shown in cross-section, revealing its inner workings",
+        "kind": "institution"
+      },
+      {
+        "who": "a hidden dial inside the building narrowing a pipe between a chip shape and a tall stack of coins",
+        "kind": "object"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Left half: the founder exits a company door at street level, looking back over his shoulder, while a small crowd outside raises a sign reading BRING HIM BACK. Right half: a cutaway view of the same building shows a dial turning down a pipe that runs from a chip icon to a rising stack of coins. One yellow highlight marks the dial as the joke's focal point, per the blueprint style.",
+    "artType": "static",
+    "alt": "A human founder walks out of a company's door, glancing back, while a crowd of human figures hold up a sign reading BRING HIM BACK. A cutaway of the same building shows a hidden dial narrowing a pipe that runs from a computer chip to a growing pile of coins."
+  },
+  "sourceIds": [
+    "techmeme:4b4c8938757c",
+    "techmeme:2e8c688f6ed3",
+    "feeds:299cfd655b5d",
+    "feeds:052ed6bb2022",
+    "hackernews:01b281f4771f",
+    "techmeme:9cf0a32ec024"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 1,
+    "safety": 3,
+    "society": 2,
+    "education": 1,
+    "planet": 1,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
