@@ -1,0 +1,133 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {},
+  "elements": [
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.53,
+        "y": 0.5
+      },
+      "scale": 1,
+      "rotate": 5,
+      "props": {
+        "width": 10,
+        "height": 760
+      },
+      "svg": "<rect class=\"r-ink\" x=\"2\" y=\"0\" width=\"6\" height=\"760\" rx=\"3\"/>"
+    },
+    {
+      "id": "building",
+      "component": "raw",
+      "at": {
+        "x": 0.2,
+        "y": 0.602
+      },
+      "scale": 1,
+      "props": {
+        "width": 280,
+        "height": 600
+      },
+      "svg": "<rect class=\"r-body-alt\" x=\"10\" y=\"10\" width=\"260\" height=\"580\" rx=\"18\"/><rect class=\"r-line\" x=\"40\" y=\"40\" width=\"60\" height=\"60\" rx=\"6\"/><rect class=\"r-line\" x=\"180\" y=\"40\" width=\"60\" height=\"60\" rx=\"6\"/><rect class=\"r-shade\" x=\"40\" y=\"270\" width=\"26\" height=\"310\"/><rect class=\"r-glow\" x=\"64\" y=\"270\" width=\"6\" height=\"310\"/><rect class=\"r-line\" x=\"40\" y=\"270\" width=\"180\" height=\"310\" rx=\"6\"/>"
+    },
+    {
+      "id": "ex-boss",
+      "component": "human",
+      "at": {
+        "x": 0.2,
+        "y": 0.833
+      },
+      "scale": 0.95,
+      "flip": true,
+      "props": {
+        "mood": "proud",
+        "pose": "stand",
+        "color": "accent",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "door-slab",
+      "component": "raw",
+      "at": {
+        "x": 0.2,
+        "y": 0.602
+      },
+      "scale": 1,
+      "props": {
+        "width": 280,
+        "height": 600
+      },
+      "svg": "<rect class=\"r-body\" x=\"66\" y=\"270\" width=\"154\" height=\"310\" rx=\"6\"/><circle class=\"r-ink\" cx=\"85\" cy=\"420\" r=\"8\"/>"
+    },
+    {
+      "id": "exam-taker",
+      "component": "human",
+      "at": {
+        "x": 0.68,
+        "y": 0.72
+      },
+      "scale": 0.95,
+      "props": {
+        "mood": "worried",
+        "pose": "sit",
+        "color": "body",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "exam-desk",
+      "component": "raw",
+      "at": {
+        "x": 0.68,
+        "y": 0.72
+      },
+      "offset": [
+        0,
+        -60
+      ],
+      "scale": 0.9,
+      "props": {
+        "width": 200,
+        "height": 150
+      },
+      "svg": "<rect class=\"r-body-alt\" x=\"10\" y=\"55\" width=\"180\" height=\"18\" rx=\"6\"/><rect class=\"r-line\" x=\"25\" y=\"73\" width=\"14\" height=\"60\" rx=\"4\"/><rect class=\"r-line\" x=\"161\" y=\"73\" width=\"14\" height=\"60\" rx=\"4\"/><rect class=\"r-paper\" x=\"55\" y=\"18\" width=\"90\" height=\"40\" rx=\"4\"/><line class=\"r-thin\" x1=\"65\" y1=\"32\" x2=\"135\" y2=\"32\"/><line class=\"r-thin\" x1=\"65\" y1=\"44\" x2=\"135\" y2=\"44\"/>"
+    },
+    {
+      "id": "whisper-bot",
+      "component": "robot",
+      "attachTo": "exam-taker",
+      "side": "right",
+      "offset": [
+        -100,
+        -120
+      ],
+      "scale": 0.4,
+      "props": {
+        "mood": "happy",
+        "arms": "out",
+        "color": "body",
+        "antenna": true
+      }
+    },
+    {
+      "id": "camera-button",
+      "component": "raw",
+      "attachTo": "exam-taker",
+      "side": "top",
+      "offset": [
+        20,
+        100
+      ],
+      "scale": 0.7,
+      "props": {
+        "width": 30,
+        "height": 30
+      },
+      "svg": "<circle class=\"r-glow\" cx=\"15\" cy=\"15\" r=\"13\"/><circle class=\"r-line\" cx=\"15\" cy=\"15\" r=\"9\"/><circle class=\"r-accent\" cx=\"15\" cy=\"15\" r=\"4\"/>"
+    }
+  ],
+  "alt": "A staggered two-panel scene: on the left, a person's head and shoulders peek above a cracked-open door set in a building, with a glowing gap at its edge; on the right, a seated person lowers their eyes while a small robot leans in to whisper near their ear beside a tiny glowing button on their collar."
+}

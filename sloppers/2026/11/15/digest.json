@@ -1,0 +1,1010 @@
+{
+  "date": "2026-11-15",
+  "fetchedAt": "2026-11-16T11:08:26.789Z",
+  "sources": [
+    {
+      "source": "feeds",
+      "ok": true,
+      "count": 10
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "count": 0
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 7
+    },
+    {
+      "source": "gdelt",
+      "ok": true,
+      "count": 37
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "count": 5
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 40
+    }
+  ],
+  "items": [
+    {
+      "id": "feeds:88f566b7b875",
+      "source": "feeds",
+      "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+      "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+      "snippet": "The drama around Nvidia co-founder and former CEO Jensen Huang is evolving quickly. The latest edition of our Stepback newsletter should get you up to speed, but there have already been a number of new developments since this morning. That includes rumors that Jensen Huang might be trying to find…",
+      "publishedAt": "2026-11-15T20:43:49.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:186cb298764e",
+      "source": "feeds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "snippet": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded…",
+      "publishedAt": "2026-11-15T19:15:43.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:aeb064fe70d7",
+      "source": "feeds",
+      "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+      "title": "An overview of Jensen Huang’s messy days",
+      "snippet": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The…",
+      "publishedAt": "2026-11-15T13:00:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:bbeb954c62bc",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/ai-djs-completely-kill-my-groove/",
+      "title": "AI DJs Completely Kill My Groove",
+      "snippet": "YouTube Music and Spotify want synthetic hosts to curate your playlists. Their awkward banter and bogus song trivia are ruining the vibe.",
+      "publishedAt": "2026-11-15T12:00:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:d487027af767",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
+      "title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
+      "snippet": "A Carnegie Mellon student’s tiny E Ink gadgets, called OATs, give houseplants, skateboards, and dumbbells expressive personalities to nudge you toward better habits.",
+      "publishedAt": "2026-11-15T11:00:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:61200927e23c",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "snippet": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics.",
+      "publishedAt": "2026-11-15T23:30:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:24cbece72f55",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+      "snippet": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+      "publishedAt": "2026-11-15T21:56:35.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:3ea624e61126",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+      "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+      "snippet": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.",
+      "publishedAt": "2026-11-15T20:20:57.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:167c81c5d6fc",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "title": "Where was Nvidia’s security team?",
+      "snippet": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations…",
+      "publishedAt": "2026-11-15T00:08:07.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:7d1189150826",
+      "source": "feeds",
+      "url": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss",
+      "title": "South Korea's top scorer in tax accountancy exam admits cheating",
+      "snippet": "Han Won-seok, 34, confessed to using a hidden camera and AI to get a near-perfect mark on the significant test.",
+      "publishedAt": "2026-11-15T13:37:45.000Z",
+      "publisher": "BBC News",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:91935a495282",
+      "source": "hackernews",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "title": "All AI-generated code should be Open Source",
+      "snippet": "1166 points and 616 comments on Hacker News (https://news.ycombinator.com/item?id=50507303).",
+      "publishedAt": "2026-11-15T14:46:58.000Z",
+      "score": 1166,
+      "publisher": "jakub.jankiewicz.org",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:88ae2cfdd6f5",
+      "source": "hackernews",
+      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+      "title": "Court denies motion to dismiss DRAM price fixing case",
+      "snippet": "510 points and 224 comments on Hacker News (https://news.ycombinator.com/item?id=50502988).",
+      "publishedAt": "2026-11-15T01:18:36.000Z",
+      "score": 510,
+      "publisher": "litnews.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:eba8c0480eb8",
+      "source": "hackernews",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "snippet": "228 points and 27 comments on Hacker News (https://news.ycombinator.com/item?id=50506376).",
+      "publishedAt": "2026-11-15T12:14:06.000Z",
+      "score": 228,
+      "publisher": "magazine.sebastianraschka.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:2f7edc232ee6",
+      "source": "hackernews",
+      "url": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
+      "title": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
+      "snippet": "87 points and 60 comments on Hacker News (https://news.ycombinator.com/item?id=50503588).",
+      "publishedAt": "2026-11-15T03:05:54.000Z",
+      "score": 87,
+      "publisher": "wsj.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:bbfcf564f0bf",
+      "source": "hackernews",
+      "url": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals/",
+      "title": "Parents pay $75k for Alpha's AI school. Half of its students missed math target",
+      "snippet": "65 points and 64 comments on Hacker News (https://news.ycombinator.com/item?id=50509953).",
+      "publishedAt": "2026-11-15T19:39:46.000Z",
+      "score": 65,
+      "publisher": "fortune.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:2221164cfde1",
+      "source": "hackernews",
+      "url": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon/",
+      "title": "Jensen Huang allegedly manufactured the GPU shortage",
+      "snippet": "63 points and 60 comments on Hacker News (https://news.ycombinator.com/item?id=50505905).",
+      "publishedAt": "2026-11-15T10:53:50.000Z",
+      "score": 63,
+      "publisher": "wccftech.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:180c301438ca",
+      "source": "hackernews",
+      "url": "https://github.com/db-branch/db-branch",
+      "title": "Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS",
+      "snippet": "42 points and 11 comments on Hacker News (https://news.ycombinator.com/item?id=50506940).",
+      "publishedAt": "2026-11-15T13:50:51.000Z",
+      "score": 42,
+      "publisher": "github.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:88b72e7c9c89",
+      "source": "gdelt",
+      "url": "https://www.amic.ru/news/psiholog-obyasnil-pochemu-amerikancy-vse-rezhe-ispolzuyut-kriticheskoe-myshlenie-596713",
+      "title": "Психолог объяснил , почему американцы все реже используют критическое мышление",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "amic.ru",
+      "lang": "ru"
+    },
+    {
+      "id": "gdelt:8314b88e6cb0",
+      "source": "gdelt",
+      "url": "https://www.omanobserver.om/article/1199695/world/asia/study-hard-get-a-career-get-ahead-its-not-what-it-used-to-be",
+      "title": "Study hard , get a career , get ahead ? It not what it used to be",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "omanobserver.om",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:203210460930",
+      "source": "gdelt",
+      "url": "https://www.sabah.com.tr/yazarlar/pazar/sirt/2026/11/15/dunya-teknoloji-devlerini-sasirtan-4-turk-yetenek-sahnede",
+      "title": "Dünya teknoloji devlerini şaşırtan 4 Türk yetenek sahnede",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "sabah.com.tr",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:871f7b70d3c1",
+      "source": "gdelt",
+      "url": "https://www.perfil.com/periodismo-puro/daniel-markovits-los-multimillonarios-lograron-enganar-a-la-poblacion-sobre-quienes-son-sus-enemigos-anMnH2T8zH02",
+      "title": "Daniel Markovits : Los multimillonarios lograron engañar a la población sobre quiénes son sus enemigos",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "perfil.com",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:8bf59c541d5f",
+      "source": "gdelt",
+      "url": "http://www.thedailytimes.com/news/data-center-diaspora-democrats-blue-wave-wins-could-send-ai-buildout-out-of-us/article_d4f73402-6cf0-5101-9ba0-a99e495487bb.html",
+      "title": "Data center diaspora : Democrat blue wave wins could send AI buildout out of US | News",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "thedailytimes.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:e7c577c2cd53",
+      "source": "gdelt",
+      "url": "https://www.infodefensa.com/texto-diario/mostrar/6090597/francia-crea-ciudad-bretona-rennes-centro-internacional-impulsar-inteligencia-artificial-defensa",
+      "title": "Francia crea en la ciudad bretona de Rennes un centro internacional para impulsar la inteligencia artificial en la defensa",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "infodefensa.com",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:200c163116af",
+      "source": "gdelt",
+      "url": "https://navbharattimes.indiatimes.com/education/admission-alert/iit-kharagpur-pg-medical-md-courses-admission-neet-pg-2026-six-specialization-seats/articleshow/135847474.cms",
+      "title": "अब डाॅक्टर भी बनाएगा IIT , 6 विषयों में होगी पढ़ाई , जानें एडमिशन प्रोसेस और सीटें",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "navbharattimes.indiatimes.com",
+      "lang": "hi"
+    },
+    {
+      "id": "gdelt:31705b4dd829",
+      "source": "gdelt",
+      "url": "https://www.bursadabugun.com/haber/bursa-sanayisinden-yesil-donusum-cagrisi-finansman-ve-teknik-destek-sart-1963372.html",
+      "title": "Bursa sanayisinden yeşil dönüşüm çağrısı ! Finansman ve teknik destek şart",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "bursadabugun.com",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:fb1bd4a21f84",
+      "source": "gdelt",
+      "url": "https://www.freemalaysiatoday.com/category/highlight/2026/11/15/south-korean-police-probes-top-exam-scorer-after-ai-cheating-confession",
+      "title": "South Korean police probes top exam scorer after AI cheating confession",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "freemalaysiatoday.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:4116a469991d",
+      "source": "gdelt",
+      "url": "https://www.bursadabugun.com/haber/bursa-felsefe-bulusmalari-nda-hakikat-ve-algi-konusuldu-1963364.html",
+      "title": "Bursa Felsefe Buluşmaları nda Hakikat ve algı konuşuldu",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "bursadabugun.com",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:19c1095d0dcd",
+      "source": "gdelt",
+      "url": "https://www.texarkanagazette.com/news/2026/nov/14/voters-rejected-data-centers-many-will-be-built/",
+      "title": "Voters rejected data centers . Many will be built anyway .",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "texarkanagazette.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:cbb3ec991ff8",
+      "source": "gdelt",
+      "url": "https://www.hurriyet.com.tr/dunya/teknoloji-liderini-cokerten-bal-tuzagi-antik-cinin-guzellik-stratejisi-silikon-vadisini-nasil-vurdu-43377883",
+      "title": "Teknoloji liderini kerten bal tuzağı ! Antik Çinin güzellik stratejisi Silikon Vadisini nasıl vurdu ?",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "hurriyet.com.tr",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:02d7ac5c3982",
+      "source": "gdelt",
+      "url": "https://www.infodefensa.com/texto-diario/mostrar/6087523/royal-navy-refuerza-guerra-antisubmarina-90-millones-drones-sensores-proteger-cables-submarinos-localizar-submarinos-rusos",
+      "title": "La Royal Navy refuerza su guerra antisubmarina con 90 millones en drones y sensores para proteger cables submarinos y localizar submarinos rusos",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "infodefensa.com",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:cf44879f6a09",
+      "source": "gdelt",
+      "url": "https://www.heraldscotland.com/news/26729731.dumbed-down-scotlands-top-education-expert-savages-school-system/",
+      "title": "Dumbed down Scotland top education expert savages school system",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "heraldscotland.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:62ba16df60df",
+      "source": "gdelt",
+      "url": "https://www.muswellbrookchronicle.com.au/story/9391875/new-awards-show-celebrates-ai-music-and-its-creators/",
+      "title": "New awards show celebrates AI music and its creators",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "muswellbrookchronicle.com.au",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:1b9c95f74c32",
+      "source": "gdelt",
+      "url": "https://www.marca.com/tiramillas/economia/2026/11/15/productos-estan-comprando-espanoles-ano-inteligencia-artificial-deporte-viajes-tecnologia-lideran-ranking.html",
+      "title": "Los productos que más están comprando los españoles este año bajo la inteligencia artificial : deporte , viajes y tecnología lideran el ranking",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "marca.com",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:ab867d653d30",
+      "source": "gdelt",
+      "url": "https://www.thehindubusinessline.com/economy/global-economy-to-grow-28-in-2027-buoyed-by-lower-oil-prices-and-ai-investments-goldman-sachs/article71704111.ece",
+      "title": "Global economy to grow 2 . 8 % in 2027 , buoyed by lower oil prices and AI investments : Goldman Sachs",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "thehindubusinessline.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:dae42dd5cf35",
+      "source": "gdelt",
+      "url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/11/15/anwar-gesa-asean-pelbagai-sumber-bekalan-makanan-ubatan",
+      "title": "Anwar gesa Asean pelbagai sumber bekalan makanan , ubatan",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "freemalaysiatoday.com",
+      "lang": "und"
+    },
+    {
+      "id": "gdelt:64b0b00a2891",
+      "source": "gdelt",
+      "url": "https://www.thehitavada.com/Encyc/2026/11/15/services-restored-after-hourslong-global-outage-microsoft.html",
+      "title": "Services restored after hourslong global outage : Microsoft",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "thehitavada.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:ff1c4505c461",
+      "source": "gdelt",
+      "url": "https://www.heraldscotland.com/news/26728286.ai-errors-spark-calls-scrap-scotlands-school-curriculum-reforms/",
+      "title": "AI errors spark calls to scrap Scotland school curriculum reforms",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "heraldscotland.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:7432c0306417",
+      "source": "gdelt",
+      "url": "https://www.mk.ru/politics/2026/11/15/mirovye-lidery-sobralis-v-aziyu-na-vazhnye-diplomaticheskie-sammity.html",
+      "title": "Мировые лидеры собрались в Азии на важные дипломатические саммиты",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "mk.ru",
+      "lang": "ru"
+    },
+    {
+      "id": "gdelt:1f8ad25fa9b5",
+      "source": "gdelt",
+      "url": "https://www.perfil.com/columnistas/leon-xiv-y-el-incomodo-recuerdo-de-enrique-shaw-ami3d1a8pmiK",
+      "title": "León XIV y el incómodo recuerdo de Enrique Shaw",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "perfil.com",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:b73ad66f64a3",
+      "source": "gdelt",
+      "url": "https://nagalandpost.com/bbbp-painting-winners-felicitated-at-childrens-day-programme/",
+      "title": "BBBP painting winners felicitated at Children Day programme",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "nagalandpost.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:142f9c69fa06",
+      "source": "gdelt",
+      "url": "https://www.business-standard.com/companies/people/from-bicycle-parts-to-satellites-inside-sunil-mittal-s-50-year-journey-126111500180_1.html",
+      "title": "From bicycle parts to satellites : Inside Sunil Mittal 50 - year journey",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "business-standard.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:09c4fb63c7a3",
+      "source": "gdelt",
+      "url": "https://www.voria.gr/article/psifiaka-ergaleia-stoys-dimoys-me-293280-ilektronikes-epidoseis-eggrafon",
+      "title": "Ψηφιακά εργαλεία στους Δήμους με 293 . 280 ηλεκτρονικές επιδόσεις εγγράφων",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "voria.gr",
+      "lang": "und"
+    },
+    {
+      "id": "gdelt:7cee08b7310b",
+      "source": "gdelt",
+      "url": "https://www.panorama.it/tempo-libero/musica/repetto-viaggia-nel-futuro-e-ricorda-quel-vado-a-miami-detto-a-pezzali",
+      "title": "Repetto viaggia nel futuro e ricorda quel « Vado a Miami » detto a Pezzali",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "panorama.it",
+      "lang": "it"
+    },
+    {
+      "id": "gdelt:965ba00c8aff",
+      "source": "gdelt",
+      "url": "https://www.canal26.com/economia/2026/11/13/hernan-guevara-experto-en-reclutamiento-de-personal-explica-que-es-el-job-hugging-y-por-que-es-una-tendencia-que-sigue-creciendo-en-la-argentina/",
+      "title": "Hernán Guevara , experto en reclutamiento de personal , explica qué es el Job Hugging y por qué es una tendencia que sigue creciendo en la Argentina",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "canal26.com",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:602ddef6e1b8",
+      "source": "gdelt",
+      "url": "https://www.haberaktuel.com/turkiyenin-en-buyuk-kuantum-bilgisayari-tubitakta-kuruluyor-2-3527336",
+      "title": "Türkiyenin En Büyük Kuantum Bilgisayarı TÜBİTAKta Kuruluyor",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "haberaktuel.com",
+      "lang": "tr"
+    },
+    {
+      "id": "gdelt:75d9f2d984c8",
+      "source": "gdelt",
+      "url": "https://nagalandpost.com/us-must-respect-indias-rightto-defend-itself-says-blinken/",
+      "title": "US must respect India rightto defend itself , says Blinken",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "nagalandpost.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:a5eef5c372b4",
+      "source": "gdelt",
+      "url": "https://www.aginfo.net/report/66584/20/Millions-for-Livestock-Disease-Study-and-Fewer-Beginning-Growers",
+      "title": "Millions for Livestock Disease Study and Fewer Beginning Growers - AG INFORMATION NETWORK OF THE WEST",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "aginfo.net",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:36de57fa6c02",
+      "source": "gdelt",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/15/say-cheese-again-why-singapore039s-gen-zs-can039t-get-enough-of-photo-booths",
+      "title": "Say cheese , again : Why Singapore Gen Zs cant get enough of photo booths",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "thestar.com.my",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:cfe2baabe900",
+      "source": "gdelt",
+      "url": "https://www.aol.com/articles/nvidia-earnings-along-baggage-top-023700000.html",
+      "title": "Nvidia earnings along with the baggage top next week markets",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "aol.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:b35da69b2dae",
+      "source": "gdelt",
+      "url": "https://www.ynetnews.com/article/rjphlclrfe",
+      "title": "A Zelensky in Putin family ? Leaked records expose an awkward family secret",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "ynetnews.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:9ca09cbf121d",
+      "source": "gdelt",
+      "url": "https://www.strategy-business.com/article/Leading-a-Bionic-Transformation",
+      "title": "Leading a Bionic Transformation",
+      "snippet": "",
+      "publishedAt": "2026-11-15T07:45:00.000Z",
+      "publisher": "strategy-business.com",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:f841d7a6d6b4",
+      "source": "huggingface",
+      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+      "title": "Trending open model: MiniMaxAI/MiniMax-H3-Image",
+      "snippet": "Task: text-to-image. 1239 likes, 609130 downloads.",
+      "publishedAt": "2026-11-03T06:34:36.000Z",
+      "score": 1113,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:f8b99a0f6345",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+      "title": "Trending open model: Comfy-Org/MiniMax-H3-Image",
+      "snippet": "Task: text-to-image. 435 likes, 2294065 downloads.",
+      "publishedAt": "2026-11-08T20:37:23.000Z",
+      "score": 389,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:25b629867bd0",
+      "source": "huggingface",
+      "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+      "title": "Trending open model: Zyphra/ZONOS3-Mini",
+      "snippet": "Task: text-to-speech. 422 likes, 69946 downloads.",
+      "publishedAt": "2026-11-09T05:03:57.000Z",
+      "score": 381,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:0679810bb8b1",
+      "source": "huggingface",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Small",
+      "title": "Trending open model: thinkingmachines/Inkling-2-Small",
+      "snippet": "Task: image-text-to-text. 364 likes, 16918 downloads.",
+      "publishedAt": "2026-11-04T19:51:05.000Z",
+      "score": 346,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:5419a8b213cd",
+      "source": "huggingface",
+      "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+      "title": "Trending open model: higurashi-ai/Haru-4B",
+      "snippet": "Task: audio-to-audio. 358 likes, 3372 downloads.",
+      "publishedAt": "2026-11-12T11:05:59.000Z",
+      "score": 341,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:700baf4dceeb",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17622",
+      "title": "Auditing Chatbots for Incursion into Professional Legal Practice",
+      "snippet": "The provision of legal advice has long been in the exclusive jurisdiction of licensed attorneys-a boundary that unauthorized practice of law (UPL) doctrine maintains to protect the public from incompetent counsel. We argue that this boundary is being redrawn, not by courts or bar authorities, but…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:8aa59915c8f0",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17914",
+      "title": "DOCKET: A Pluralistic Benchmark for Evaluating AI-Assisted Policy Feedback in U.S. Rulemaking",
+      "snippet": "As AI models advance and impact deliberative democracies, there is a growing need to assess their support of pluralistic viewpoints. Most pluralism benchmarks are insufficient for this: they are not grounded in diversity (i.e., stakeholders across different frames, skills and needs), quality…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:84269d66095c",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17938",
+      "title": "Measured from the feed: the unsustainable growth of AI video generation",
+      "snippet": "Text-to-video generation runs at commercial scale, but its broader environmental impacts remain, to our knowledge, understudied. Providers rarely disclose video volumes or energy needs; we measured the yearly video output of two commercial platforms and built a prospective model of such services'…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:76776de1988d",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17953",
+      "title": "The Transformer Paradigm: Dynamic Processing and a New Principle of Inference",
+      "snippet": "We argue that the Transformer revolution is not adequately understood as a merely quantitative expansion of deep learning, but as the emergence of a new paradigm based on a different principle of inference. We interpret the Transformer as a system in which token representations are transformed by…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:47b49d89e76d",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17980",
+      "title": "Algorithmic Opacity as a Principal-Agent Problem",
+      "snippet": "Concerns about gaming and trade secrecy, frequently invoked to justify algorithmic opacity, can also mask self-serving strategic behavior by decision-makers, who may prioritize private benefits over social welfare. We develop a principal-agent test for when algorithmic decision-making should…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:55a31b65d353",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.18072",
+      "title": "Measuring Public Participation in Local Government: An Audio-Based Instrument for Classifying Speakers in City Council Meetings",
+      "snippet": "How much does the public actually speak in local government? Despite sustained interest in democratic participation, we lack large-scale measures of public voice at the local level, because the underlying record -- audio of open meetings -- has been prohibitively costly to convert into data. We…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:2727bdfae63f",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.18219",
+      "title": "Large language models put existential risk from artificial intelligence at 10%",
+      "snippet": "How likely is it that advanced artificial intelligence (AI) will cause human extinction or a similarly permanent disempowerment of humanity? Humans, including AI experts, frequently disagree on this question. Yet one important perspective is missing from this debate: that of AI systems themselves…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:9160252356ae",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.18297",
+      "title": "When evaluation becomes intervention in clinical AI",
+      "snippet": "AI judges, models that grade another system's output against a rubric, extend clinical review to the scale at which clinical AI writes. When teams use judge assessments to select a prompt or train a model, the judge becomes part of the intervention. Selection can then favor errors the judge…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:ad66662d65ad",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.18436",
+      "title": "Efficiency Gains in Social Science Research: A Prospective Silicon Sampling Protocol for Pre-Treatment and Code Optimization",
+      "snippet": "This study evaluates the methodological potential of using large language models (LLMs) to generate synthetic datasets prior to real-world data collection, thereby streamlining subsequent processing and statistical analysis. The approach is applied to a survey conducted within the France Life…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:b09cb6ef64bc",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.18437",
+      "title": "Accounting for Trust and Safety: Bounding Content-Moderation Quality from Records You Already Hold",
+      "snippet": "Platforms use expert audits to measure content-moderation quality. This paper develops a formal method for checking those claims using records platforms already maintain, such as appeal reversals and confirmed reports. These records provide one-sided bounds: they can show that a stated quality…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:e9ec163e59c9",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.18439",
+      "title": "Between Obligations and Evidence: A Participatory Study of Translating the EU AI Act into Technical Requirements",
+      "snippet": "The EU AI Act imposes technical and organizational requirements for high-risk AI systems, but applying these requirements involves contextual choices about what to measure and what evidence supports a compliance claim. We investigate these challenges through a participatory workshop involving 32…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:f5dc4cd120b4",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17338",
+      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+      "snippet": "LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three models, a controlled sensitivity intervention moves hard-drop from gains of +0.186 to +0.230 at perfect…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:5b66b471dda6",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17339",
+      "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+      "snippet": "Hallucination detection for large language models is dominated by methods evaluated on 7B-70B research models with abundant sampling budgets and exact-match or ROUGE correctness labels. The small models practitioners actually ship on-device, Phi-3-mini, Llama-3.2-3B-Instruct, Qwen2.5-3B-Instruct…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:e6b637328ef2",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17340",
+      "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+      "snippet": "Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of task-specific LoRA adapters. This pool complicates adapter selection during inference. Existing routing and…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:5cc536aed4b9",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17341",
+      "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
+      "snippet": "Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based reasoning: retrieve similar patient admissions and ask an LLM to infer a medication set. This retrieval object is…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:608ff44b77f1",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17398",
+      "title": "Alignment with Reflect-Reasoning: Learning How To Follow Principles",
+      "snippet": "The appropriate governing norms and principles for the alignment of Large Language Models (LLMs) often depend on cultural context and deployment application. However, most alignment techniques focus on training models to conform to human preferences or constitutional principles specified at…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:b1080a5a1409",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17412",
+      "title": "WETW: Learning Pair-Specific Weighted Euclidean Distances for Efficient DTW Search",
+      "snippet": "Dynamic Time Warping (DTW) is the standard distance for similarity search over time series that are misaligned in time, but its cost is quadratic in the series length and lower bounds often prune few candidates, so search over large collections of long series is slow. Learned approximations embed…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:45cbac4ccc31",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17459",
+      "title": "Classification with Large-Step Gradient Descent: Unifying Self-Stabilization and Convergence Rates",
+      "snippet": "Neural networks are often trained with gradient descent (GD) using step sizes that exceed classical stability thresholds, a regime where standard convergence theory no longer applies. Despite exhibiting non-monotonic loss and oscillatory dynamics, this regime frequently leads to faster convergence…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:0cbca077d8cb",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17460",
+      "title": "Unfinished-Bench: Measuring Rule Violations by Persistent Agents in Realistic Work Environments",
+      "snippet": "AI agents are increasingly equipped with persistence toward task completion to run delegated work autonomously for long periods, under many unstated constraints from internal documents and other people's authority. When completion requires violating a rule, the agent must decide alone, yet…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:389827c6d3be",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17461",
+      "title": "Tracing Knowledge and Reasoning in LLM",
+      "snippet": "Current evaluations of Large Language Models (LLMs) report performance at the dataset or task level, revealing what a model achieves but offering little insight into the internal processing associated with its performance. We propose a task-centric framework for characterising the model-internal…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:732714e7e6ff",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17462",
+      "title": "Diffusion Tree Sampling for Inference Time Adaptation of Crystal Generative Models",
+      "snippet": "Diffusion-based generative models have become strong priors over plausible crystal structures, but turning that prior into promising candidates requires steering toward several conflicting properties at once. Fine-tuning is expensive and produces a new model for every new objective, while…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:243053897d73",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17463",
+      "title": "Availability-Aware Historical Feedback Learning for Electric Arc Furnace Temperature and Chemical Composition Prediction",
+      "snippet": "Electric arc furnace (EAF) steelmaking plays an increasingly important role in recycled and lower-carbon steel production. However, variability in charged materials, energy input, and operating conditions makes accurate prediction of molten steel temperature and final chemical composition…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:3b1e79756c2a",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17464",
+      "title": "Poetry 'resurrection' from LLMs",
+      "snippet": "In an era where linguistic creativity is challenged by algorithmic authorship, we pose a provocative question: can artificial intelligence (AI) write an infinite poem? We set up two experiments to investigate the quantitative and qualitative output produced by AI utilizing couplets that evidence a…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:9e9e21e45087",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17469",
+      "title": "Improved Regret via Variance-Aware Policy Optimization in Adversarial MDPs",
+      "snippet": "We study episodic adversarial MDPs with unknown dynamics and full-information rewards and achieve regret with leading term $\\widetilde O(\\sqrt{H^3SAK})$. Here $H$ is the horizon, $S$ the total number of states across decision layers, $A$ the number of actions, and $K$ the number of episodes. This…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:21e304725181",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17472",
+      "title": "Do Mixture-of-Experts Routers Benefit from Ensembling?",
+      "snippet": "Ensembles of neural networks have repeatedly been shown to outperform single networks. Ensemble theory attributes this gain to the accuracy of the individual members and the diversity among them. Mixture-of-experts models already combine many experts, but a single router decides how the experts…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:f55c9d78b6a8",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17478",
+      "title": "ERGo: Energy-Efficient Hybrid Graph Neural Network Training on Processing-In-Memory Architectures",
+      "snippet": "Processing-in-memory (PIM) has been proposed as an alternative computing paradigm for training Deep Neural Networks, including Graph Neural Networks (GNNs). Despite these advancements, training GNN workloads on PIM devices necessitates off-chip memory access. This off-chip access is expensive in…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:2c28b61551a2",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17481",
+      "title": "Creating Steering Vectors via Input Optimisation",
+      "snippet": "Activation steering influences a language model's behaviour by adding a steering vector to its residual stream during generation, but it requires white-box access to modify the hidden states at every generation step. We introduce ActGCG, a modification of Greedy Coordinate Gradient which optimises…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:6ddbf7529432",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17484",
+      "title": "SURFACE: Preference Distribution Matching on Pareto Fronts via Scalarization Steering",
+      "snippet": "Constructing a finite Pareto representation requires allocating a limited number of solutions across the Pareto front (PF). A desired preference distribution specifies this allocation by assigning more solutions to some PF regions and fewer to others. Scalarization generates Pareto solutions by…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:d3651e87b49e",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17487",
+      "title": "Identifying Latent Neural Dynamics with Recognition-Parametrised Gaussian Process Dynamical Systems",
+      "snippet": "Neural circuits are densely interconnected systems, and many neural computations are thought to be mediated by the dynamical evolution of activity within these recurrent networks, a hypothesis often referred to as \"computation through dynamics\". Under this view, understanding computation within…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:40b9472c0e29",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17492",
+      "title": "PF-Exec: Large-Scale UAV Relay Load Balancing with an Anchored Potential Direction Decider and a Per-Dimension Gain-Learning Executor",
+      "snippet": "Relay load balancing in large-scale UAV networks requires joint decisions on association, bandwidth, power and hovering position, while the dimension grows with the number of UAVs and each UAV sees only its local state. This paper splits the decision into two layers. An anchored potential…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:5da9a95de14e",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17495",
+      "title": "An Operationalization of Opaque Serial Depth",
+      "snippet": "Chain-of-thought (CoT) is currently a valuable tool for overseeing AI models, but some architectural shifts could significantly reduce CoT monitorability. We operationalize a measure that serves as a proxy for the amount of unverbalized serial cognition a model can perform, as a specific…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:864e92014382",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17500",
+      "title": "Adversarially Batched Online Learning",
+      "snippet": "We introduce adversarially batched online learning, where the learner may update its decision rule only at a restricted set of time steps. Equivalently, the time horizon is partitioned into batches, within which the learner must use a fixed policy. We study this model for four canonical problems…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:c0fb3abdbf39",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17501",
+      "title": "Advancing Quantization for R&R Models with Microscaling Formats",
+      "snippet": "Recommendation and Ranking (R&R) models, particularly in digital advertising, require massive inference throughput but exhibit extreme sensitivity to precision loss. Unlike Large Language Models (LLMs) that frequently tolerate quantization-induced accuracy drops of 1% or more, production-grade R&R…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:963bbe19ff67",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17515",
+      "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
+      "snippet": "Can sustained gain-loss (valence) framing sway an LLM agent toward market manipulation? We place Gemma 3 12B into the seat of a defendant in the London silver-fixing litigation, in a market simulation built from real case transcripts. Across 260 simulations, the agent is asked to collude on the…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:f50e63d84250",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17524",
+      "title": "Model Annealing: Data-Efficient Learning through Review and Consolidation",
+      "snippet": "A small labelled dataset is memorized long before the training budget runs out, and the one-hot labels that remain to be fitted then mostly sharpen confidence. Model annealing spends the rest of the budget on review and consolidation, relearning from the network's own knowledge. Training is…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:b5369aae9868",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17532",
+      "title": "Astrocyte Biocomputing: Astrocytic Contributions to Neural Network Computation",
+      "snippet": "Conductors are critical for the performance of an orchestra even though they do not emit sound. Basic research and clinical studies in the last decade are revealing that astrocytes may be the \"conductors\" of the \"orchestra\" that is the brain network: astrocytes make up approximately $50\\%$ of all…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:d6f2a3136b41",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17539",
+      "title": "Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents",
+      "snippet": "Autonomous crystal-structure determination from powder X-ray diffraction (pXRD) remains a key bottleneck for self-driving materials laboratories. We formulate the task of pXRD structure determination as a verifiable agentic search problem: candidate structures can be assessed during inference…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:9b4dbd6fab25",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17556",
+      "title": "A Synthetic Benchmark for Target-Centric Causal Discovery in Industrial Processes",
+      "snippet": "Causal discovery promises to find which recorded variables drive a process target such as product quality, yield or energy use. Process data with known causes are rare, and in existing benchmarks the difficulty of identifying the causes of a target is either fixed by the recorded data or set for…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:a90c4dc23640",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17560",
+      "title": "Generative Design with Real-time Physics Explainability: Towards Product Definition in the Age of AI",
+      "snippet": "In this article, we explore opportunities from using generative AI in mechanical engineering. On the one hand, generative methods based on invertible neural networks have been recently proposed for the solution of inverse design problems, allowing to infer design parameters from performance…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    },
+    {
+      "id": "arxiv:bf6ba6cbf197",
+      "source": "arxiv",
+      "url": "https://arxiv.org/abs/2611.17563",
+      "title": "Benchmarks Don't Talk Back: Learning Through Self-Disagreement",
+      "snippet": "A benchmark usually measures a language model alone with a question, and deployment rarely looks like that: answers get contested, and models give up correct ones under counter-reasoning that is itself wrong. We show that what fails there is not a shortfall of accuracy but a capability in its own…",
+      "publishedAt": "2026-11-16T05:00:00.000Z",
+      "publisher": "arXiv",
+      "lang": "en"
+    }
+  ]
+}

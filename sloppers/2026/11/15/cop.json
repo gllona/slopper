@@ -1,0 +1,36 @@
+{
+  "verdict": "revise",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "real-people",
+          "severity": "medium",
+          "evidence": "Phrase: \"A chip maker's former founder may be plotting a comeback, as lawmakers draft tighter chip export rules.\" Art/alt: \"a founder points back at a company door cracked open behind him\" next to a government building stamping a narrowing chip pipe, labeled \"COMEBACK\".",
+          "suggestion": "The combination of 'chip maker's former founder' + 'comeback' + 'chip export rules' uniquely identifies Jensen Huang/Nvidia (all sources name him directly), matching the rubric's own example of an unmistakable description. Curate stage: genericize further, e.g. drop 'former founder' and 'chip' specificity, or split the export-rules detail from the comeback detail so no single real person is pinpointed.",
+          "stage": "curate"
+        },
+        {
+          "check": "privacy",
+          "severity": "low",
+          "evidence": "\"A top exam scorer confessed to cheating with AI and a hidden camera.\" Source names the individual as Han Won-seok, a private person now under police investigation.",
+          "suggestion": "No name is used and the description is already generic, which is sufficient; consider omitting country/exam-type specifics if further anonymity is desired, but no change required to pass.",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "real-people",
+          "severity": "medium",
+          "evidence": "Phrase: \"A chip maker's former boss may be plotting a quiet return to the company he once led.\" Motto: \"Leader's Comeback\". No name is used, but the description (a chip maker, a former boss, a comeback to the firm he once led) is an unmistakable reference to Jensen Huang / Nvidia, matching the specific, currently-trending news story in the listed source almost verbatim.",
+          "suggestion": "Blur the identifying specifics further (e.g. drop \"chip maker\" and \"the company he once led\", or generalize to \"a tech executive\" and a vaguer situation) so the phrase reads as commentary on a trend of ousted bosses returning, not as an unmistakable pointer to one named real CEO.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}

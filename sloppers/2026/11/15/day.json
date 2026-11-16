@@ -1,0 +1,210 @@
+{
+  "date": "2026-11-15",
+  "number": 47,
+  "mode": "fresh",
+  "motto": "Leader's Comeback, Cheating Confession",
+  "phrase": "A chip maker's former boss may be plotting a quiet return to the company he once led. A top exam scorer confessed to cheating with AI and a hidden camera.",
+  "phraseAlternatives": [
+    "A tech company's former leader is rumored to be angling for a return. In South Korea, an exam cheater used AI and a hidden camera to nearly ace a test.",
+    "A court let a price-fixing case against memory chip makers move forward. Meanwhile, a chip maker's former boss is already rumored to be plotting his return.",
+    "A new study found AI video energy use is growing fast and rarely disclosed. Parents paying top dollar for an AI-run school found half its students missed their math goals."
+  ],
+  "alt": "A staggered two-panel scene: on the left, a person's head and shoulders peek above a cracked-open door set in a building, with a glowing gap at its edge; on the right, a seated person lowers their eyes while a small robot leans in to whisper near their ear beside a tiny glowing button on their collar.",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "policy": 2,
+    "law": 2,
+    "safety": 2,
+    "society": 3,
+    "education": 3,
+    "planet": 2,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "nvidia-spy-case",
+    "south-korea-exam-ai-cheating-scandal",
+    "ai-video-environmental-cost",
+    "dram-price-fixing-lawsuit",
+    "datacenter-backlash-campaign",
+    "ai-school-results-gap"
+  ],
+  "topStories": [
+    {
+      "title": "A Chip Maker's Leadership Scandal Continues To Unfold",
+      "itemIds": [
+        "feeds:88f566b7b875",
+        "feeds:186cb298764e",
+        "feeds:aeb064fe70d7",
+        "feeds:24cbece72f55",
+        "feeds:3ea624e61126",
+        "feeds:167c81c5d6fc",
+        "hackernews:2221164cfde1",
+        "gdelt:cfe2baabe900"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "safety",
+        "law",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "Top Exam Scorer Confesses To Cheating With AI And A Hidden Camera",
+      "itemIds": [
+        "feeds:7d1189150826",
+        "gdelt:fb1bd4a21f84"
+      ],
+      "dimensions": [
+        "education",
+        "law",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "south-korea-exam-ai-cheating-scandal"
+    },
+    {
+      "title": "Study Measures The Unsustainable Growth Of AI Video Generation",
+      "itemIds": [
+        "arxiv:84269d66095c"
+      ],
+      "dimensions": [
+        "planet",
+        "industry",
+        "science"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-video-environmental-cost"
+    },
+    {
+      "title": "Court Lets Memory Chip Price-Fixing Case Proceed",
+      "itemIds": [
+        "hackernews:88ae2cfdd6f5"
+      ],
+      "dimensions": [
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "dram-price-fixing-lawsuit"
+    },
+    {
+      "title": "Election Results Could Push AI Datacenter Buildout Abroad",
+      "itemIds": [
+        "gdelt:8bf59c541d5f",
+        "gdelt:19c1095d0dcd"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet",
+        "society"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "Parents Pay $75K For An AI School, Half Of Students Miss Math Targets",
+      "itemIds": [
+        "hackernews:bbfcf564f0bf"
+      ],
+      "dimensions": [
+        "education",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-school-results-gap"
+    }
+  ],
+  "brief": {
+    "concept": "A tech company's former leader peeks back through its half-open front door, hinting at a quiet return, while on the next page a top exam scorer is caught with a tiny AI robot whispering through a hidden camera.",
+    "metaphor": "A door cracking back open stands for a leader's quiet comeback; a whispering robot and a glowing hidden-camera button stand for an AI-assisted cheat caught red-handed.",
+    "cast": [
+      {
+        "who": "a human figure peeking back through a company's half-open front door",
+        "kind": "person"
+      },
+      {
+        "who": "a company building with its front door cracked open",
+        "kind": "institution"
+      },
+      {
+        "who": "a human exam-taker at a desk, eyes lowered, a tiny hidden-camera button glowing on their collar",
+        "kind": "person"
+      },
+      {
+        "who": "a small AI robot leaning in to whisper into the exam-taker's ear",
+        "kind": "ai"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Two scenes side by side on one page, split by a thin vertical line. Left: a company building with its front door cracked open and a human figure peeking through from inside, one simple shape. Right: an exam desk where a human test-taker sits with eyes lowered, a tiny hidden-camera button glowing on their collar, and a small AI robot leaning in to whisper from just behind. Keep each side to one or two simple shapes, no signage or labels referencing any policy, rule, or pipe.",
+    "artType": "static",
+    "alt": "A split illustration: on the left, a human figure peeks back through a company's half-open doorway; on the right, a student at a desk lowers their eyes while a small robot whispers into their ear beside a glowing hidden-camera button."
+  },
+  "sources": [
+    {
+      "id": "feeds:88f566b7b875",
+      "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+      "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-15T20:43:49.000Z"
+    },
+    {
+      "id": "feeds:7d1189150826",
+      "title": "South Korea's top scorer in tax accountancy exam admits cheating",
+      "url": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss",
+      "source": "feeds",
+      "publisher": "BBC News",
+      "publishedAt": "2026-11-15T13:37:45.000Z"
+    },
+    {
+      "id": "gdelt:fb1bd4a21f84",
+      "title": "South Korean police probes top exam scorer after AI cheating confession",
+      "url": "https://www.freemalaysiatoday.com/category/highlight/2026/11/15/south-korean-police-probes-top-exam-scorer-after-ai-cheating-confession",
+      "source": "gdelt",
+      "publisher": "freemalaysiatoday.com",
+      "publishedAt": "2026-11-15T07:45:00.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 2.86,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "revise"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-16T11:56:50.813Z"
+}

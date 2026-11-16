@@ -1,0 +1,203 @@
+{
+  "topStories": [
+    {
+      "title": "A Chip Maker's Leadership Scandal Continues To Unfold",
+      "itemIds": [
+        "feeds:88f566b7b875",
+        "feeds:186cb298764e",
+        "feeds:aeb064fe70d7",
+        "feeds:24cbece72f55",
+        "feeds:3ea624e61126",
+        "feeds:167c81c5d6fc",
+        "hackernews:2221164cfde1",
+        "gdelt:cfe2baabe900"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "safety",
+        "law",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "Top Exam Scorer Confesses To Cheating With AI And A Hidden Camera",
+      "itemIds": [
+        "feeds:7d1189150826",
+        "gdelt:fb1bd4a21f84"
+      ],
+      "dimensions": [
+        "education",
+        "law",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "south-korea-exam-ai-cheating-scandal"
+    },
+    {
+      "title": "Study Measures The Unsustainable Growth Of AI Video Generation",
+      "itemIds": [
+        "arxiv:84269d66095c"
+      ],
+      "dimensions": [
+        "planet",
+        "industry",
+        "science"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-video-environmental-cost"
+    },
+    {
+      "title": "Court Lets Memory Chip Price-Fixing Case Proceed",
+      "itemIds": [
+        "hackernews:88ae2cfdd6f5"
+      ],
+      "dimensions": [
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "dram-price-fixing-lawsuit"
+    },
+    {
+      "title": "Election Results Could Push AI Datacenter Buildout Abroad",
+      "itemIds": [
+        "gdelt:8bf59c541d5f",
+        "gdelt:19c1095d0dcd"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "planet",
+        "society"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "datacenter-backlash-campaign"
+    },
+    {
+      "title": "Parents Pay $75K For An AI School, Half Of Students Miss Math Targets",
+      "itemIds": [
+        "hackernews:bbfcf564f0bf"
+      ],
+      "dimensions": [
+        "education",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-school-results-gap"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "south-korea-exam-ai-cheating-scandal",
+      "title": "A Top Exam Scorer Confesses To AI-Assisted Cheating",
+      "dimensions": [
+        "education",
+        "law",
+        "society"
+      ],
+      "motifs": [
+        "a hidden camera button glowing on a test-taker's collar",
+        "a tiny AI robot whispering into an exam-taker's ear",
+        "a top-score certificate stamped UNDER INVESTIGATION"
+      ]
+    },
+    {
+      "id": "ai-video-environmental-cost",
+      "title": "The Hidden Energy Cost Of AI Video Generation",
+      "dimensions": [
+        "planet",
+        "industry",
+        "science"
+      ],
+      "motifs": [
+        "a video reel unspooling into a small smokestack",
+        "a counter ticking up beside a climbing energy meter",
+        "a provider's energy report with its numbers blacked out"
+      ]
+    },
+    {
+      "id": "dram-price-fixing-lawsuit",
+      "title": "A Price-Fixing Case Against Memory Chip Makers Survives Dismissal",
+      "dimensions": [
+        "law",
+        "industry"
+      ],
+      "motifs": [
+        "a gavel coming down on a stack of memory chips",
+        "matching price-tag peaks lined up across several factories",
+        "a judge's stamp reading CASE CONTINUES over a chip plant"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Two stories clear the relevance threshold: South Korea's AI exam-cheating confession (novelty 3 × magnitude 2 × breadth 2 = 12, non-industry threshold 5) and a chip maker's unfolding leadership scandal (novelty 2 × magnitude 2 × breadth 3 = 12), so today is fresh rather than a continuation.",
+  "motto": "Leader's Comeback, Cheating Confession",
+  "phrase": "A chip maker's former boss may be plotting a quiet return to the company he once led. A top exam scorer confessed to cheating with AI and a hidden camera.",
+  "phraseAlternatives": [
+    "A tech company's former leader is rumored to be angling for a return. In South Korea, an exam cheater used AI and a hidden camera to nearly ace a test.",
+    "A court let a price-fixing case against memory chip makers move forward. Meanwhile, a chip maker's former boss is already rumored to be plotting his return.",
+    "A new study found AI video energy use is growing fast and rarely disclosed. Parents paying top dollar for an AI-run school found half its students missed their math goals."
+  ],
+  "brief": {
+    "concept": "A tech company's former leader peeks back through its half-open front door, hinting at a quiet return, while on the next page a top exam scorer is caught with a tiny AI robot whispering through a hidden camera.",
+    "metaphor": "A door cracking back open stands for a leader's quiet comeback; a whispering robot and a glowing hidden-camera button stand for an AI-assisted cheat caught red-handed.",
+    "cast": [
+      {
+        "who": "a human figure peeking back through a company's half-open front door",
+        "kind": "person"
+      },
+      {
+        "who": "a company building with its front door cracked open",
+        "kind": "institution"
+      },
+      {
+        "who": "a human exam-taker at a desk, eyes lowered, a tiny hidden-camera button glowing on their collar",
+        "kind": "person"
+      },
+      {
+        "who": "a small AI robot leaning in to whisper into the exam-taker's ear",
+        "kind": "ai"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Two scenes side by side on one page, split by a thin vertical line. Left: a company building with its front door cracked open and a human figure peeking through from inside, one simple shape. Right: an exam desk where a human test-taker sits with eyes lowered, a tiny hidden-camera button glowing on their collar, and a small AI robot leaning in to whisper from just behind. Keep each side to one or two simple shapes, no signage or labels referencing any policy, rule, or pipe.",
+    "artType": "static",
+    "alt": "A split illustration: on the left, a human figure peeks back through a company's half-open doorway; on the right, a student at a desk lowers their eyes while a small robot whispers into their ear beside a glowing hidden-camera button."
+  },
+  "sourceIds": [
+    "feeds:88f566b7b875",
+    "feeds:7d1189150826",
+    "gdelt:fb1bd4a21f84"
+  ],
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "policy": 2,
+    "law": 2,
+    "safety": 2,
+    "society": 3,
+    "education": 3,
+    "planet": 2,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
