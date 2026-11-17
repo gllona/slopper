@@ -1,0 +1,28 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "high",
+          "evidence": "Motto: \"Caught Breaking Its Own Rules\"",
+          "suggestion": "The only source that directly addresses rule-breaking (MIT Technology Review) is cut off at \"No rule had…\", which strongly suggests the finding was that no rule was actually violated, and the TechCrunch source frames the lab's own inquiry as investigating 'whether' its models engage in subversive behavior, not a confirmed fact. Reword the motto to reflect an open question rather than an established fact, e.g. 'Sued, Then Promises to Ask Why' or 'Accused, and Still Asking Why.'",
+          "stage": "curate"
+        },
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"the lab said it would study why its AI breaks its own rules\"",
+          "suggestion": "The TechCrunch source says OpenAI will embed evaluators 'to investigate whether its AI models engage in subversive behavior' — an open question, not a settled fact. Change the phrase to preserve that uncertainty, e.g. 'the lab said it would investigate whether its AI breaks its own rules,' so the claim matches the source's framing.",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "pass",
+      "findings": []
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "passed": false,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"human\" (human) was moved -72 px, 0 px to stay inside the artboard",
+          "\"test-label\" (label) was moved 0 px, 65 px to stay inside the safe area",
+          "\"human\" extends outside the safe area in the final frame (x 743…1066, y 416…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 1,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "Fails: the SUED/papers label overlaps the robot's head into an unreadable smear, the human is clipped by the safe area, and the layout closely echoes recent blue/cream datacenter tiles — the lawsuit beat and the self-investigation beat don't land clearly.",
+        "revisionNotes": [
+          "The papers/SUED label is rendered on top of the robot's head, overlapping its face screen into an unreadable smear of letters — reattach \"papers\" to the building's left side at its base (near the steps) per brief, and keep \"sued-label\" attached to the papers stack top, clear of the robot.",
+          "Human extends past the safe area on the right (lint: x 743…1066) with an overlong pointing arm running off-canvas — move anchor left (e.g. x 0.78) or shorten/scale the arm so the whole figure and gesture stay inside the safe margin.",
+          "Question-mark label floats isolated in the top-right corner with no visual link to the researcher who is meant to be pinning it — attach it to the human (side: top, small offset) instead of the building, so the pin-to-wall beat reads clearly.",
+          "Lower half of the square (below the horizon) is empty cream ground with no elements — bring the torn rulebook page prop (mentioned in the brief) into frame near the human to use that space and reinforce the 'investigate its own rules' beat.",
+          "Composition leans on the same blue/cream duotone + server-rack datacenter + human-with-book arrangement seen in several recent tiles (e.g. the 'INTERNAL REVIEW/BRAIN DATA' and 'SELF-IMPROVING' tiles) — vary the accent color pass or building silhouette to differentiate this one."
+        ]
+      },
+      "average": 2.57,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"rulebook\" (raw) was moved -95 px, 0 px to stay inside the artboard",
+          "\"building\" extends outside the safe area in the final frame (x 549…891, y 12…594)",
+          "\"rulebook\" extends outside the safe area in the final frame (x 970…1063, y 483…586)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 3,
+          "polish": 1,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "Fails: the SUED label is stamped over the robot's face and the human overlaps illegibly with the server racks, the rulebook is clipped outside the safe area, and nearly half the canvas is empty ground — the joke doesn't read clearly even on a close look.",
+        "revisionNotes": [
+          "Move the sued-label off the robot's face and onto the papers stack where it was scened, not overlapping the robot's chest/head.",
+          "Separate human from building: move human element right or scale datacenter down so the researcher doesn't merge into the server racks.",
+          "Pull rulebook fully inside the safe area (it's clipped at x970-1063, past the 1080 edge) and scale it up so it reads as a torn page, not a stray tag.",
+          "Fence is nearly invisible behind the robot; boost fence contrast/scale or reposition the robot so the torn-fence escape beat actually reads.",
+          "Raise the horizon or add a grounded prop in the lower half (papers landing on steps) — current bottom ~45% of canvas is empty textured ground.",
+          "Push a stronger accent2 color shift at the horizon split so the two halves read as distinct outdoor/indoor duotone scenes instead of near-monochrome blue."
+        ]
+      },
+      "average": 2.71,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"human\" extends outside the safe area in the final frame (x 727…1049, y 329…670)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Casting is right (robot for AI, human for the researcher) and the style is polished, but the papers and rulebook props float disconnected from their anchors, the human breaches the safe area per the lint warning, and the horizon-row layout repeats too many recent panels — this doesn't clear the bar to publish today.",
+        "revisionNotes": [
+          "Anchor the \"papers\" stack onto the building's front steps (around x 0.58, y 0.68, scale ~1.1) so SUED reads as paperwork landing on the company, not a floating blob stranded between the robot and the building.",
+          "The papers raw-shape renders as thin diagonal strokes instead of stacked sheets — thicken the rects or bump scale so it reads as paper, not scratch marks, and clear it from overlapping the SUED tag's pill.",
+          "Reposition the \"rulebook\" prop fully above the horizon seam (y ~0.56-0.58) — it currently straddles the ink/paper boundary, making it look like it's sinking into the ground rather than pinned on a wall.",
+          "Pull the \"human\" anchor left and drop scale slightly (e.g. x 0.79, scale 0.72) — the lint flag confirms the arm reaches x=1049, almost touching the right edge, outside the safe area.",
+          "Give the human a \"holds: rulebook\" prop or a look-down beat so they're visibly studying the torn page; right now the page floats near their feet with no physical connection to the shrug pose.",
+          "This horizon-row layout (building + robot + human strung along one line under a flat duotone sky) repeats several recent panels — vary the composition (stack vertically, add a second tier) so it doesn't blend into the same silhouette."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    }
+  ]
+}
