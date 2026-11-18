@@ -1,0 +1,102 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"term\" (raw) was moved -34 px, 0 px to stay inside the artboard",
+          "\"term\" extends outside the safe area in the final frame (x 966…1066, y 525…649)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The casting and concept are solid, but execution bugs undercut it: the stop sign overlaps the door, the exec's and robot's arms appear to touch across the dividing wall, the exec's face is hidden, the briefcase prop is missing from view, and the terminal clips the safe area per the lint warning — this needs a composition pass before it's ready to publish.",
+        "revisionNotes": [
+          "Separate the stop-sign octagon from the door/NO stamp: it currently renders overlapping the door at center instead of beside the robot on the right-third; move its anchor further right so each half reads independently.",
+          "The exec's and bot's outstretched arms meet at the center wall line, making the two figures look like they're touching hands across the divide — set exec 'holds' arm pose to none/down so the mirrored-refusal halves stay visually separate.",
+          "Exec's face is fully hidden behind the door (door height 380 at x0.38 covers the head); shift the door right or drop its height so the sad expression reads.",
+          "Terminal ('term') clips outside the safe area per lint (x 966-1066) — scale it to ~0.85 and move its anchor left/inward from the bot's right side so it sits fully on the artboard.",
+          "Briefcase ('case') prop isn't visible in the final frame, likely hidden behind the door — scale it to 1.1 and offset it clearly below/beside the exec so it reads as a held object.",
+          "This blueprint split-scene (vertical divider, building/person left, robot right, yellow accents) is close in composition and palette to the recent 'Business As Usual' slopper — vary the divider orientation or accent treatment for more novelty."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The mirrored-refusal concept reads clearly and the human/robot casting is correct, but a mispositioned speech bubble overlaps the divider, the door window, and the briefcase, and the split-blueprint-with-building-vs-robot layout repeats a device used in at least three recent pieces — just below the bar.",
+        "revisionNotes": [
+          "The speech bubble (attached to bot, side top) is oversized and floats up across the divider line, overlapping the door's left window and nearly swallowing the briefcase — shrink bubble scale and shorten its offset so it sits entirely in the robot's half, just above the antenna.",
+          "The briefcase (id: case) is almost fully hidden under the bubble's corner — move its offset further down/left from the exec so it clears the bubble and reads clearly as a prop.",
+          "This divider-split blueprint layout (institution on one side, robot on the other) repeats at least three recent pieces — try a diagonal divider or one continuous room instead of a straight split line for more novelty.",
+          "The stop sign sits with a visible gap left of the robot rather than planted right beside it per the brief — pull it in closer (reduce offset, scale to ~1.0) so it reads as the ignored object next to the terminal.",
+          "Terminal prop reads small next to the stop sign and robot — scale it up slightly (~1.0) so the 'ignoring the order at the terminal' beat is unmistakable."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"door\" (raw) was moved 0 px, -26 px to stay inside the artboard",
+          "\"case\" extends outside the safe area in the final frame (x 104…174, y 997…1034)",
+          "\"door\" extends outside the safe area in the final frame (x 374…534, y 784…1068)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "The two-refusal concept and correct human/robot casting land, but a bottom-heavy composition with large dead space up top, clipped/floating props flagged by the linter, and a blueprint palette that repeats several recent pieces keep this below publish quality.",
+        "revisionNotes": [
+          "Composition: nearly 55% of the canvas (the entire top half) is empty blueprint grid, leaving all five elements crammed into the bottom third — raise the whole group to center around y=0.55-0.65 or add the brief's thin center wall-line to justify two 'rooms,' filling the dead space.",
+          "Fix the lint-flagged clipping: 'door' extends outside the safe area (y 784-1068) and 'case' extends outside it (x 104-174, y 997-1034) — nudge door up and shrink case or move it fully inside the 1080 safe margin.",
+          "Attach the briefcase to exec's hand (set exec.props.holds to a briefcase) instead of a disconnected raw shape floating near his feet at offset (-55,20); right now it reads as a dropped object, not 'briefcase in hand.'",
+          "The 'door' raw shape (a small peaked-roof shed with two tiny windows) reads as a generic house, not a company building — enlarge it and add more windows/a sign so the 'board shutting its door' beat is legible at a glance.",
+          "Palette and layout (blue blueprint grid, small figures lined along a bottom baseline, yellow accent stamp) closely echo several recent pieces ('AI Rules', 'Business As Usual', 'Chief Resigns / Rival Launches') — vary composition or accent treatment to stand out.",
+          "Scale the stop sign up slightly (currently a small plain yellow octagon, scale ~0.6 relative to bot) and/or outline it in a visibly different line weight so it reads as a stop sign and not a flat yellow accent shape."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    }
+  ]
+}

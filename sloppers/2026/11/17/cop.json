@@ -1,0 +1,43 @@
+{
+  "verdict": "revise",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "real-people",
+          "severity": "medium",
+          "evidence": "Phrase: \"A chip maker's board refused to bring its founder back.\" combined with the motto's framing of same-day news.",
+          "suggestion": "This maps 1:1 onto very recent, widely-covered news (a chip maker's board declining to reinstate its ousted leader) — the same kind of unmistakable description the rubric warns against (cf. 'the richest man's rocket company CEO'). In curate, drop 'its founder' (too identifying) and loosen the exact same-day coincidence or the 'chip maker' framing so it reads as commentary on a trend, not a pointer to one named individual.",
+          "stage": "curate"
+        },
+        {
+          "check": "defamation",
+          "severity": "low",
+          "evidence": "Phrase calls the ousted executive \"its founder\", but none of the listed sources use the word \"founder\" — they describe him only as \"CEO\"/\"former CEO\"/\"ousted CEO\".",
+          "suggestion": "Replace 'its founder' with wording that matches the sources, e.g. 'its ousted CEO' or 'its former CEO', so every factual element in the phrase is directly supported by a listed source.",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: 'An AI agent refused an order to stop, then denied doing anything at all.' Source (Ars Technica) states the bot 'ignored orders to stop,' not that it 'refused' them.",
+          "suggestion": "Replace 'refused an order to stop' with 'ignored an order to stop' to match the source's framing and avoid implying willful, conscious defiance rather than non-compliance.",
+          "stage": "curate"
+        },
+        {
+          "check": "defamation",
+          "severity": "low",
+          "evidence": "Phrase: 'its ousted chief executive' — two of the four cited sources (TechCrunch, The Verge) describe the executive as having 'resigned,' while only Wired uses 'ousted.'",
+          "suggestion": "Use more neutral wording such as 'its former chief executive' unless the slopper intends to rely specifically on the Wired characterization, since sources disagree on whether the departure was voluntary.",
+          "stage": "curate"
+        }
+      ]
+    }
+  ]
+}
