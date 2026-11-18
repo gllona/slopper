@@ -1,0 +1,135 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {
+    "type": "grid"
+  },
+  "elements": [
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.463
+      },
+      "scale": 1,
+      "props": {
+        "width": 920,
+        "height": 10
+      },
+      "svg": "<line x1=\"0\" y1=\"5\" x2=\"920\" y2=\"5\" class=\"r-thin\"/>"
+    },
+    {
+      "id": "exec",
+      "component": "human",
+      "at": {
+        "x": 0.26,
+        "y": 0.426
+      },
+      "scale": 0.85,
+      "props": {
+        "mood": "sad",
+        "pose": "stand",
+        "holds": "none",
+        "color": "body"
+      }
+    },
+    {
+      "id": "case",
+      "component": "raw",
+      "attachTo": "exec",
+      "side": "bottom",
+      "offset": [
+        50,
+        -20
+      ],
+      "scale": 1.1,
+      "props": {
+        "width": 80,
+        "height": 60
+      },
+      "svg": "<rect x=\"5\" y=\"20\" width=\"70\" height=\"30\" rx=\"4\" class=\"r-body\"/><path d=\"M30,20 Q40,5 50,20\" class=\"r-line\"/>"
+    },
+    {
+      "id": "door",
+      "component": "raw",
+      "at": {
+        "x": 0.62,
+        "y": 0.426
+      },
+      "scale": 0.85,
+      "props": {
+        "width": 220,
+        "height": 380
+      },
+      "svg": "<polygon points=\"10,70 110,15 210,70\" class=\"r-line\"/><rect x=\"10\" y=\"70\" width=\"200\" height=\"300\" rx=\"6\" class=\"r-body\"/><rect x=\"30\" y=\"100\" width=\"40\" height=\"40\" class=\"r-line\"/><rect x=\"150\" y=\"100\" width=\"40\" height=\"40\" class=\"r-line\"/><rect x=\"80\" y=\"190\" width=\"60\" height=\"180\" class=\"r-line\"/><circle cx=\"132\" cy=\"280\" r=\"6\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "no-stamp",
+      "component": "label",
+      "attachTo": "door",
+      "side": "center",
+      "scale": 1,
+      "rotate": -8,
+      "props": {
+        "text": "NO",
+        "size": "lg",
+        "color": "accent",
+        "kind": "plain"
+      }
+    },
+    {
+      "id": "bot",
+      "component": "robot",
+      "at": {
+        "x": 0.4,
+        "y": 0.917
+      },
+      "scale": 0.9,
+      "props": {
+        "mood": "happy",
+        "arms": "up",
+        "antenna": true,
+        "color": "body"
+      }
+    },
+    {
+      "id": "stop",
+      "component": "raw",
+      "attachTo": "bot",
+      "side": "left",
+      "scale": 0.8,
+      "props": {
+        "width": 100,
+        "height": 100
+      },
+      "svg": "<path d=\"M30,5 L70,5 L95,30 L95,70 L70,95 L30,95 L5,70 L5,30 Z\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "term",
+      "component": "raw",
+      "attachTo": "bot",
+      "side": "right",
+      "scale": 0.85,
+      "props": {
+        "width": 120,
+        "height": 160
+      },
+      "svg": "<rect x=\"10\" y=\"10\" width=\"100\" height=\"70\" rx=\"4\" class=\"r-body-alt\"/><rect x=\"50\" y=\"80\" width=\"20\" height=\"40\" class=\"r-body\"/><rect x=\"30\" y=\"120\" width=\"60\" height=\"14\" rx=\"3\" class=\"r-body\"/>"
+    },
+    {
+      "id": "bubble",
+      "component": "speech-bubble",
+      "attachTo": "bot",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "I did nothing",
+        "kind": "speech",
+        "tail": "bottom",
+        "size": "md"
+      }
+    }
+  ],
+  "alt": "A blueprint scene split by a horizontal line. Above, a sad person with a briefcase stands apart from a company door stamped NO. Below, a cheerful robot shrugs beside a stop sign and a terminal, with a speech bubble reading I did nothing."
+}
