@@ -1,0 +1,201 @@
+{
+  "date": "2026-11-18",
+  "number": 50,
+  "mode": "fresh",
+  "motto": "The New Best Friend",
+  "phrase": "Schools are considering ditching a search engine over AI features they cannot turn off. Meanwhile, more than a third of young people already call AI their friend.",
+  "phraseAlternatives": [
+    "A search engine became impossible to opt out of, so some schools are weighing alternatives. A third of young people, meanwhile, already opted in to AI friendship.",
+    "Schools are weighing a break from AI they can't turn off. A third of young people are already walking toward one they call a friend.",
+    "Some schools are considering cutting ties with AI they cannot disable. One in three young people already calls AI a friend.",
+    "Some schools are weighing whether to drop a search engine over AI they could not switch off. Elsewhere, AI quietly became a best friend to many young people."
+  ],
+  "alt": "A split paper-cutout scene with a fold down the middle. On the left in daylight, a teacher and two worried students pause at a school gate under a locked search-box sign. On the right at night, a sad person sits on a couch beside a small happy robot whose speech bubble reads 'friend.'",
+  "artType": "static",
+  "style": "paper-cutout",
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 2,
+    "safety": 2,
+    "society": 3,
+    "education": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 2
+  },
+  "storylines": [
+    "nvidia-spy-case",
+    "anthropic-ipo-countdown",
+    "google-school-ai-overviews-backlash",
+    "ai-companion-loneliness-genz",
+    "ai-cyberattack-defense-warnings",
+    "congress-deepfake-arbitration-push"
+  ],
+  "topStories": [
+    {
+      "title": "Nvidia Reports Soaring Earnings, Still Won't Bring Back Its Ousted CEO, Halts China Chip Sales",
+      "itemIds": [
+        "feeds:4b59bd5db6ce",
+        "feeds:4a9056bf3a1c",
+        "feeds:d8ac169631b0",
+        "feeds:3027e1f4f570",
+        "feeds:806578be9a08",
+        "feeds:f2571adad4d3",
+        "feeds:fd0f1695410f",
+        "feeds:c78796330fae"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "labor"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "AI Lab's IPO Prices Above Range At $1.5 Trillion As Safety Critics Pile On",
+      "itemIds": [
+        "feeds:9cd84c2455ae",
+        "hackernews:f578074493d4",
+        "feeds:4bee8465a3b6",
+        "feeds:b936de725a72"
+      ],
+      "dimensions": [
+        "industry",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "anthropic-ipo-countdown"
+    },
+    {
+      "title": "Largest School Districts Consider Dropping A Search Engine Over Mandatory AI Features",
+      "itemIds": [
+        "feeds:b0db2b838bda"
+      ],
+      "dimensions": [
+        "education",
+        "society",
+        "policy",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "google-school-ai-overviews-backlash"
+    },
+    {
+      "title": "Over A Third Of Gen Z Relies On AI For Friendship, Tied To Higher Loneliness",
+      "itemIds": [
+        "feeds:f9559ce725a3"
+      ],
+      "dimensions": [
+        "society",
+        "education"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-companion-loneliness-genz"
+    },
+    {
+      "title": "Tech And Security Leaders Warn AI-Powered Cyberattacks Are Outpacing Defenses",
+      "itemIds": [
+        "feeds:28a1e7a21c66",
+        "feeds:3285b906d368",
+        "gdelt:faf2e25df9ed"
+      ],
+      "dimensions": [
+        "safety",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-cyberattack-defense-warnings"
+    },
+    {
+      "title": "Lawmakers Push New Protections Against Deepfakes And Forced Arbitration Before Year End",
+      "itemIds": [
+        "feeds:e52789b677b8"
+      ],
+      "dimensions": [
+        "law",
+        "policy",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "congress-deepfake-arbitration-push"
+    }
+  ],
+  "brief": {
+    "concept": "A school building hesitates at a search box stamped with AI features it cannot switch off, weighing whether to walk away, while across town a lonely young person already treats a small AI robot as a close friend.",
+    "metaphor": "One door hesitates before closing on AI that won't let go; another door was already open, with AI sitting on the couch.",
+    "cast": [
+      {
+        "who": "a school building with a locked search-box screen at its gate",
+        "kind": "institution"
+      },
+      {
+        "who": "a teacher and two students pausing at the gate, looking uncertainly at the screen",
+        "kind": "person"
+      },
+      {
+        "who": "a young person sitting alone on a couch at home",
+        "kind": "person"
+      },
+      {
+        "who": "a small round AI robot sitting beside them, a speech bubble reading 'friend'",
+        "kind": "ai"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "A split scene on kraft-paper card. Left half: a school building's gate with a locked search-box screen; a teacher and two students stand just outside it, considering whether to turn away toward an open side door. Right half: a single young figure sits on a couch at night, a small round AI robot perched beside them, a speech bubble above the robot reading 'friend'. A soft paper fold divides the two halves.",
+    "artType": "static",
+    "alt": "On one side, a teacher and two students stand uncertainly at a school gate with a locked AI search screen, weighing whether to walk away. On the other side, a young person sits alone on a couch next to a small round AI robot whose speech bubble reads 'friend.'"
+  },
+  "sources": [
+    {
+      "id": "feeds:b0db2b838bda",
+      "title": "The nation’s largest school districts consider ditching Google Search",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-18T23:18:35.000Z"
+    },
+    {
+      "id": "feeds:f9559ce725a3",
+      "title": "Over a Third of Gen Z-ers Rely on AI for Friendship",
+      "url": "https://www.wired.com/story/over-a-third-of-gen-z-rely-on-ai-for-friendship/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-11-18T05:01:00.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.57,
+    "iterations": 2
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-19T12:04:27.663Z"
+}
