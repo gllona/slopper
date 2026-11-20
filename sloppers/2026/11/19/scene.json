@@ -1,0 +1,158 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {
+    "type": "split",
+    "horizon": 0.78,
+    "color": "bg",
+    "color2": "accent2"
+  },
+  "elements": [
+    {
+      "id": "coin-tower",
+      "component": "raw",
+      "at": {
+        "x": 0.17,
+        "y": 0.53
+      },
+      "scale": 1,
+      "props": {
+        "width": 150,
+        "height": 560
+      },
+      "svg": "<rect x=\"15\" y=\"20\" width=\"120\" height=\"520\" rx=\"60\" class=\"r-accent\"/><ellipse cx=\"75\" cy=\"20\" rx=\"60\" ry=\"18\" class=\"r-accent\"/><line x1=\"15\" y1=\"85\" x2=\"135\" y2=\"85\" class=\"r-line\"/><line x1=\"15\" y1=\"150\" x2=\"135\" y2=\"150\" class=\"r-line\"/><line x1=\"15\" y1=\"215\" x2=\"135\" y2=\"215\" class=\"r-line\"/><line x1=\"15\" y1=\"280\" x2=\"135\" y2=\"280\" class=\"r-line\"/><line x1=\"15\" y1=\"345\" x2=\"135\" y2=\"345\" class=\"r-line\"/><line x1=\"15\" y1=\"410\" x2=\"135\" y2=\"410\" class=\"r-line\"/><line x1=\"15\" y1=\"475\" x2=\"135\" y2=\"475\" class=\"r-line\"/>"
+    },
+    {
+      "id": "hq",
+      "component": "datacenter",
+      "at": {
+        "x": 0.17,
+        "y": 0.271
+      },
+      "scale": 0.65,
+      "props": {
+        "racks": 2,
+        "lights": "busy",
+        "steam": false,
+        "fans": false
+      }
+    },
+    {
+      "id": "safe-badge",
+      "component": "label",
+      "attachTo": "hq",
+      "side": "top",
+      "offset": [
+        20,
+        10
+      ],
+      "scale": 1,
+      "props": {
+        "text": "SAFE",
+        "size": "md",
+        "kind": "tag",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "trader",
+      "component": "human",
+      "at": {
+        "x": 0.39,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "mood": "happy",
+        "pose": "cheer",
+        "color": "accent",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "chart",
+      "component": "chart",
+      "attachTo": "trader",
+      "side": "top",
+      "offset": [
+        0,
+        -20
+      ],
+      "scale": 0.48,
+      "props": {
+        "type": "line",
+        "values": [
+          0.15,
+          0.25,
+          0.3,
+          0.45,
+          0.55,
+          0.7,
+          0.9
+        ],
+        "highlight": "last",
+        "arrow": true,
+        "frame": true
+      }
+    },
+    {
+      "id": "alarm",
+      "component": "robot",
+      "at": {
+        "x": 0.72,
+        "y": 0.45
+      },
+      "scale": 0.6,
+      "props": {
+        "mood": "worried",
+        "arms": "up",
+        "color": "body",
+        "antenna": true
+      }
+    },
+    {
+      "id": "siren-waves",
+      "component": "raw",
+      "attachTo": "alarm",
+      "side": "top",
+      "offset": [
+        0,
+        -10
+      ],
+      "scale": 1,
+      "props": {
+        "width": 160,
+        "height": 100
+      },
+      "svg": "<path d=\"M55,95 A25,25 0 0 1 105,95\" class=\"r-line\"/><path d=\"M35,95 A45,45 0 0 1 125,95\" class=\"r-line\"/><path d=\"M15,95 A65,65 0 0 1 145,95\" class=\"r-line\"/>"
+    },
+    {
+      "id": "beam",
+      "component": "raw",
+      "attachTo": "alarm",
+      "side": "bottom",
+      "scale": 1,
+      "props": {
+        "width": 120,
+        "height": 300
+      },
+      "svg": "<path d=\"M55,0 L65,0 L110,300 L10,300 Z\" class=\"r-glow\"/>"
+    },
+    {
+      "id": "bag",
+      "component": "raw",
+      "at": {
+        "x": 0.72,
+        "y": 0.85
+      },
+      "scale": 1,
+      "props": {
+        "width": 240,
+        "height": 160
+      },
+      "svg": "<path d=\"M40,30 L195,18 Q215,20 212,45 L205,125 Q203,148 178,150 L45,140 Q22,138 25,105 Z\" class=\"r-body-alt\"/><line x1=\"50\" y1=\"35\" x2=\"50\" y2=\"128\" class=\"r-line\"/>"
+    }
+  ],
+  "alt": "A company headquarters rides a tower of coins skyward on the left, cheered by a trader holding up a rising chart, while on the right a small wall-mounted AI alarm sounds a siren at a plain flat bag of chips lying on the ground."
+}

@@ -1,0 +1,231 @@
+{
+  "topStories": [
+    {
+      "title": "Anthropic's record Nasdaq debut tests its 'good guy' reputation",
+      "itemIds": [
+        "feeds:0a77450ddf11",
+        "feeds:5071dbd223f6",
+        "feeds:7d071c7a377b",
+        "feeds:694eda776709",
+        "feeds:56f5de5b11ae",
+        "feeds:74b46c8b5e6a",
+        "feeds:41a7d75302cd",
+        "feeds:32b69669f00c",
+        "hackernews:7b4d99ca3afb",
+        "hackernews:3bbbeb029cfe"
+      ],
+      "dimensions": [
+        "industry",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "anthropic-ipo-countdown"
+    },
+    {
+      "title": "Students sue school and police after AI gun-alert mistakes chip bag for firearm",
+      "itemIds": [
+        "feeds:eaecd34f2a6c",
+        "hackernews:14422b66a2e2"
+      ],
+      "dimensions": [
+        "education",
+        "safety",
+        "law",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-school-gun-alert-false-positive"
+    },
+    {
+      "title": "Court rules AI-generated 'probable cause' can't justify searches",
+      "itemIds": [
+        "hackernews:1dd84aa7447e"
+      ],
+      "dimensions": [
+        "law",
+        "policy",
+        "safety"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-probable-cause-ruling"
+    },
+    {
+      "title": "AI training platforms turn skilled professionals into low-paid, ghosted gig workers",
+      "itemIds": [
+        "feeds:bd2c18ba4684"
+      ],
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-gig-ifies-skilled-professionals"
+    },
+    {
+      "title": "A company's AI assistant mixes up employees' private messages and data",
+      "itemIds": [
+        "feeds:47396adf5e31"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agent-privacy-mixup"
+    },
+    {
+      "title": "Dutch watchdog warns consumers off AI smart glasses over safety failures",
+      "itemIds": [
+        "feeds:083a83b51783"
+      ],
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-smart-glasses-safety-warning"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-school-gun-alert-false-positive",
+      "title": "A School AI Gun-Detection System's False Alarms Spark A Lawsuit",
+      "dimensions": [
+        "education",
+        "safety",
+        "law",
+        "society"
+      ],
+      "motifs": [
+        "a gun-detection alarm pointing at an ordinary snack bag",
+        "a false-alarm counter ticking past 99 percent",
+        "a school hallway with a siren light flashing over students"
+      ]
+    },
+    {
+      "id": "ai-gig-ifies-skilled-professionals",
+      "title": "AI Platforms Turn Skilled Professionals Into Gig Workers",
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "motifs": [
+        "a doctor's white coat hung next to a gig-work lanyard",
+        "a pay rate shrinking on a contract screen after the first week",
+        "a lawyer's desk replaced by a laptop and a ticking task timer"
+      ]
+    },
+    {
+      "id": "ai-agent-privacy-mixup",
+      "title": "A Company's AI Assistant Mixes Up Users' Private Data",
+      "dimensions": [
+        "safety",
+        "society",
+        "industry"
+      ],
+      "motifs": [
+        "a speech bubble showing someone else's bank balance by mistake",
+        "a filing drawer spilling one person's secrets into another's folder",
+        "an AI assistant icon short-circuiting between two users' chats"
+      ]
+    },
+    {
+      "id": "ai-probable-cause-ruling",
+      "title": "A Court Rules AI Can't Supply Probable Cause For Searches",
+      "dimensions": [
+        "law",
+        "policy",
+        "safety"
+      ],
+      "motifs": [
+        "a judge's gavel striking down a robot-held search warrant",
+        "a police badge turned away from an AI tip sheet",
+        "a courtroom scale tipping away from a blinking AI icon"
+      ]
+    },
+    {
+      "id": "ai-smart-glasses-safety-warning",
+      "title": "A Consumer Watchdog Warns Against AI Smart Glasses",
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "motifs": [
+        "a pair of glasses whispering the wrong medicine dose into an ear",
+        "a watchdog badge holding up a stop sign to a glasses display",
+        "a glasses icon pretending to dial an ambulance that never rings"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Anthropic's actual Nasdaq IPO debut (novelty 3 × magnitude 3 × breadth 3 = 27) clears the fresh threshold by a wide margin, so today starts a new slopper rather than continuing Nov 17's agent-defiance story.",
+  "motto": "Trillion Dollar Trust",
+  "phrase": "A safety-focused AI lab went public today, valued near $1.5 trillion. Elsewhere, a school's AI alarm mistook a bag of chips for a gun, and now faces a lawsuit.",
+  "phraseAlternatives": [
+    "An AI company known for caution just became one of the priciest firms on Earth. Nearby, a school's AI security system still can't tell a snack from a firearm.",
+    "One AI lab's safety pledge was priced today at $1.5 trillion. One AI alarm still thinks a chip bag is a gun.",
+    "A company built on AI safety promises opened on the stock market worth $1.5 trillion. Its cheaper cousins still mistake snacks for weapons.",
+    "The AI industry's most cautious lab is now worth $1.5 trillion. A school's AI alarm, less cautious, keeps mistaking chips for guns."
+  ],
+  "brief": {
+    "concept": "A safety-focused AI lab's headquarters rockets into the stock market on a tower of coins, while across town a school's AI alarm sounds the siren on an ordinary bag of chips.",
+    "metaphor": "Being trusted with trillions turns out to be easier for AI than telling a snack from a weapon.",
+    "cast": [
+      {
+        "who": "a company building riding a column of coins upward, a small badge on its side reading 'SAFE'",
+        "kind": "institution"
+      },
+      {
+        "who": "a cheering human trader standing below, holding up a rising stock chart",
+        "kind": "person"
+      },
+      {
+        "who": "a small AI alarm box mounted on a school wall, sounding a siren",
+        "kind": "ai"
+      },
+      {
+        "who": "a flat, crimped-top bag of chips lying on the ground, no can shape",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Split the frame left/right with a thin divider. Left: the company building rides a tall column of coins upward off the top edge, a small 'SAFE' badge on its facade, a cheering human trader below holding a rising chart. Right: a plain school wall with a small AI alarm box sounding a siren, its alert beam pointed down at a flat, triangular bag of chips lying on the ground, drawn simply as a sealed flat pouch (not a can, no crown top, no color stripe). Keep both scenes at the same simple scale so the contrast reads at a glance.",
+    "artType": "static",
+    "alt": "A company building rides a tower of coins skyward on one side, cheered by a trader, while on the other side a small AI alarm on a school wall sounds a siren at a flat bag of chips lying on the ground."
+  },
+  "sourceIds": [
+    "feeds:0a77450ddf11",
+    "feeds:5071dbd223f6",
+    "feeds:56f5de5b11ae",
+    "feeds:32b69669f00c",
+    "feeds:eaecd34f2a6c",
+    "hackernews:14422b66a2e2"
+  ],
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "education": 2
+  },
+  "mood": {
+    "hype_doom": 0,
+    "calm_frantic": 1
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "date": "2026-11-19",
+  "number": 51,
+  "mode": "fresh",
+  "motto": "Trillion Dollar Trust",
+  "phrase": "A safety-focused AI lab went public today, valued near $1.5 trillion. Elsewhere, a school's AI alarm mistook a bag of chips for a gun, and now faces a lawsuit.",
+  "phraseAlternatives": [
+    "An AI company known for caution just became one of the priciest firms on Earth. Nearby, a school's AI security system still can't tell a snack from a firearm.",
+    "One AI lab's safety pledge was priced today at $1.5 trillion. One AI alarm still thinks a chip bag is a gun.",
+    "A company built on AI safety promises opened on the stock market worth $1.5 trillion. Its cheaper cousins still mistake snacks for weapons.",
+    "The AI industry's most cautious lab is now worth $1.5 trillion. A school's AI alarm, less cautious, keeps mistaking chips for guns."
+  ],
+  "alt": "A company headquarters rides a tower of coins skyward on the left, cheered by a trader holding up a rising chart, while on the right a small wall-mounted AI alarm sounds a siren at a plain flat bag of chips lying on the ground.",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "education": 2
+  },
+  "mood": {
+    "hype_doom": 0,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "anthropic-ipo-countdown",
+    "ai-school-gun-alert-false-positive",
+    "ai-probable-cause-ruling",
+    "ai-gig-ifies-skilled-professionals",
+    "ai-agent-privacy-mixup",
+    "ai-smart-glasses-safety-warning"
+  ],
+  "topStories": [
+    {
+      "title": "Anthropic's record Nasdaq debut tests its 'good guy' reputation",
+      "itemIds": [
+        "feeds:0a77450ddf11",
+        "feeds:5071dbd223f6",
+        "feeds:7d071c7a377b",
+        "feeds:694eda776709",
+        "feeds:56f5de5b11ae",
+        "feeds:74b46c8b5e6a",
+        "feeds:41a7d75302cd",
+        "feeds:32b69669f00c",
+        "hackernews:7b4d99ca3afb",
+        "hackernews:3bbbeb029cfe"
+      ],
+      "dimensions": [
+        "industry",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "anthropic-ipo-countdown"
+    },
+    {
+      "title": "Students sue school and police after AI gun-alert mistakes chip bag for firearm",
+      "itemIds": [
+        "feeds:eaecd34f2a6c",
+        "hackernews:14422b66a2e2"
+      ],
+      "dimensions": [
+        "education",
+        "safety",
+        "law",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-school-gun-alert-false-positive"
+    },
+    {
+      "title": "Court rules AI-generated 'probable cause' can't justify searches",
+      "itemIds": [
+        "hackernews:1dd84aa7447e"
+      ],
+      "dimensions": [
+        "law",
+        "policy",
+        "safety"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-probable-cause-ruling"
+    },
+    {
+      "title": "AI training platforms turn skilled professionals into low-paid, ghosted gig workers",
+      "itemIds": [
+        "feeds:bd2c18ba4684"
+      ],
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-gig-ifies-skilled-professionals"
+    },
+    {
+      "title": "A company's AI assistant mixes up employees' private messages and data",
+      "itemIds": [
+        "feeds:47396adf5e31"
+      ],
+      "dimensions": [
+        "safety",
+        "society",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agent-privacy-mixup"
+    },
+    {
+      "title": "Dutch watchdog warns consumers off AI smart glasses over safety failures",
+      "itemIds": [
+        "feeds:083a83b51783"
+      ],
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-smart-glasses-safety-warning"
+    }
+  ],
+  "brief": {
+    "concept": "A safety-focused AI lab's headquarters rockets into the stock market on a tower of coins, while across town a school's AI alarm sounds the siren on an ordinary bag of chips.",
+    "metaphor": "Being trusted with trillions turns out to be easier for AI than telling a snack from a weapon.",
+    "cast": [
+      {
+        "who": "a company building riding a column of coins upward, a small badge on its side reading 'SAFE'",
+        "kind": "institution"
+      },
+      {
+        "who": "a cheering human trader standing below, holding up a rising stock chart",
+        "kind": "person"
+      },
+      {
+        "who": "a small AI alarm box mounted on a school wall, sounding a siren",
+        "kind": "ai"
+      },
+      {
+        "who": "a flat, crimped-top bag of chips lying on the ground, no can shape",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Split the frame left/right with a thin divider. Left: the company building rides a tall column of coins upward off the top edge, a small 'SAFE' badge on its facade, a cheering human trader below holding a rising chart. Right: a plain school wall with a small AI alarm box sounding a siren, its alert beam pointed down at a flat, triangular bag of chips lying on the ground, drawn simply as a sealed flat pouch (not a can, no crown top, no color stripe). Keep both scenes at the same simple scale so the contrast reads at a glance.",
+    "artType": "static",
+    "alt": "A company building rides a tower of coins skyward on one side, cheered by a trader, while on the other side a small AI alarm on a school wall sounds a siren at a flat bag of chips lying on the ground."
+  },
+  "sources": [
+    {
+      "id": "feeds:0a77450ddf11",
+      "title": "Anthropic starts trading on Wall Street",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-19T16:52:01.000Z"
+    },
+    {
+      "id": "feeds:5071dbd223f6",
+      "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-19T14:25:37.000Z"
+    },
+    {
+      "id": "feeds:56f5de5b11ae",
+      "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+      "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-19T16:59:23.000Z"
+    },
+    {
+      "id": "feeds:32b69669f00c",
+      "title": "Anthropic raises $81bn in record-breaking stock market debut",
+      "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+      "source": "feeds",
+      "publisher": "BBC News",
+      "publishedAt": "2026-11-19T15:58:58.000Z"
+    },
+    {
+      "id": "feeds:eaecd34f2a6c",
+      "title": "Traumatized teens sue school, cops after Doritos bag triggers AI gun alert",
+      "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-11-19T20:19:28.000Z"
+    },
+    {
+      "id": "hackernews:14422b66a2e2",
+      "title": "Black high school students sue after AI mistakes Doritos bag for gun",
+      "url": "https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm/",
+      "source": "hackernews",
+      "publisher": "lawyerscommittee.org",
+      "publishedAt": "2026-11-19T00:57:20.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.43,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-20T11:43:11.915Z"
+}
