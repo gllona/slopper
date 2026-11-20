@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"resident\" extends outside the safe area in the final frame (x 763…1030, y 299…695)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 2,
+          "style": 3,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "The two-location split story collapses into one muddled scene with a clipped, oddly-posed figure and an ambiguous speech bubble, so the joke doesn't read on its own — this needs a rework before it can publish.",
+        "revisionNotes": [
+          "Restore the split-scene divider: add a visible paper-fold seam and distinct backgrounds for the school half vs the home half — right now both stories blend into one confusing family scene.",
+          "Fix the 'resident' component: it reads as standing on the couch armrests with legs clipped outside the safe area, not sitting. Reset pose to a true seated silhouette, scale down to ~0.9, and anchor feet on the ground/seat inside the frame.",
+          "Move 'bot' and 'bubble' fully onto the home side, attached directly beside the resident — currently they sit between the teacher and resident so it's unclear whose 'friend' bubble it is.",
+          "Reinstate the two missing student figures at the school gate per the brief; right now only one teacher stands there, losing the 'teacher and two students' cast.",
+          "Scale up the 'screen' prop (now ~70x60, reads under 40px effectively) to at least 1.4x so the locked search-box icon is legible.",
+          "Separate the robot from the teacher's foot — its arm currently overlaps the teacher's shoe, an accidental collision that muddies the composition."
+        ]
+      },
+      "average": 2.43,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"divider\" extends outside the safe area in the final frame (x 668…1080, y 0…1080)",
+          "\"resident\" extends outside the safe area in the final frame (x 801…1029, y 412…749)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "A tidy paper-cut diptych where the right side (sad person, happy robot, 'friend' bubble) lands cleanly, but the left side reads as a family outside a house rather than a school gate, and the seated figure overlaps the couch awkwardly — a marginal pass that needs a clearer institutional read and a fixed sit pose.",
+        "revisionNotes": [
+          "The 'school' reads as a generic teal house (same silhouette as 'house' assets used elsewhere), not an institution — add a flagpole, bell, or wider multi-window facade so the gate scene doesn't look like a family outside their own home.",
+          "The left-side human group (teacher + student1 + student2) poses as a hand-holding nuclear family rather than a teacher pausing with two students at a gate; vary the poses (e.g. teacher pointing at the screen, students half-step back) to read as a school group, not a family portrait.",
+          "The 'resident' figure on the couch is drawn standing, not sitting — the 'sit' pose isn't visually distinct, and the couch's tan seat cushion collides with the figure's feet into an unclear blob. Lower the resident's anchor y and bend the knees/shorten the legs so they visibly rest on the couch seat.",
+          "Divider and resident both clip the safe area per lint (divider x668-1080 y0-1080; resident x801-1029 y412-749) — pull the resident in by ~20-30px and trim the divider rect so neither touches the canvas edge.",
+          "Left group is at 5 main elements (school, screen, teacher, student1, student2); consider merging the screen onto the school facade more tightly or dropping one student to keep the focal cluster tighter."
+        ]
+      },
+      "average": 3.57,
+      "passed": true
+    }
+  ]
+}
