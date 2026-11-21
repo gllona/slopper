@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"researcher\" (human) was moved 50 px, 0 px to stay inside the artboard",
+          "\"price-tag\" (raw) was moved -19 px, 0 px to stay inside the artboard",
+          "\"investor\" extends outside the safe area in the final frame (x 619…1022, y 578…1004)",
+          "\"price-tag\" extends outside the safe area in the final frame (x 1014…1068, y 767…807)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 2,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The cast is correctly drawn (human researcher and investor, robot AI), but the core 'cracked building under one roof' metaphor never materializes - there's no building, the crack is a disconnected squiggle, the chalkboard is a near-blank document, the style lacks blueprint grid texture, and the investor/price-tag both clip the safe area per the lint warnings. Does not pass.</verdict>\n</invoke>\n",
+        "revisionNotes": [
+          "Add an actual cross-sectioned building component spanning both halves so the crack connects to a structure - right now the crack is a floating squiggle, so the brief's core 'same roof' metaphor never reads.",
+          "Pull the investor and price-tag anchors inward (x ~0.65-0.70) and reduce their scale slightly; lint flags both extending past the safe area on the right edge, so they'll crop on a phone.",
+          "Densify the chalkboard: it reads as a near-empty document with two thin lines and a checkmark circle. Add more line props to suggest actual equations, and scale the checked circle to ~1.2 so the 'math breakthrough' beat is legible.",
+          "Apply the blueprint style card's grid/technical-paper texture to the background instead of flat two-tone navy blocks - compare to other blueprint pieces that use visible grid lines; this one looks like a generic icon set, not blueprint.",
+          "Set investor pose to a contained 'shrug' or 'worried' at scale 1 instead of arms stretched edge-to-edge; the current reach looks anatomically broken and is what pushes the price tag off-canvas.",
+          "Vary palette/layout from recent split-building pieces (navy+yellow building-divide compositions appear multiple times recently) to improve novelty."
+        ]
+      },
+      "average": 2.71,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"investor\" extends outside the safe area in the final frame (x 704…1046, y 588…950)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The split-building metaphor (checkmark triumph above, crashing chart below, worried investor outside) reads clearly and keeps casting honest, but the investor clips the safe area, the price tag floats unheld, and the palette/cast closely echoes the last blueprint-style post — a narrow pass that needs polish before publishing.",
+        "revisionNotes": [
+          "Nudge the \"investor\" anchor left and scale down (e.g. x 0.78, scale 0.75) to clear the safe area — lint flags it extending to x1046/y950.",
+          "Set investor \"holds\" to the price-tag so it attaches to the hand/side instead of floating disconnected above the head; right now it reads as a thought bubble, not something held.",
+          "Space \"researcher\" and \"robot\" anchors further apart (e.g. researcher x0.17, robot x0.40) — their raised arms currently merge into one shape at the shoulder.",
+          "Angle the researcher's \"point\" pose toward the chalkboard panel, not through the robot's head, so the pointing beat reads cleanly.",
+          "Turn the investor's pose toward the building (looking up) rather than straight ahead, to land the brief's \"looking up at the lit window\" beat.",
+          "Swap in a secondary accent or alter the building silhouette — the blueprint blue/yellow palette and robot-beside-building cast closely echoes the recent \"I did nothing\" slopper."
+        ]
+      },
+      "average": 3.57,
+      "passed": true
+    }
+  ]
+}

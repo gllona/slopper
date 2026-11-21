@@ -1,0 +1,239 @@
+{
+  "date": "2026-11-20",
+  "number": 52,
+  "mode": "fresh",
+  "motto": "Market Crash, Math Breakthrough",
+  "phrase": "AI stocks just had their worst week in years, erasing trillions in value. Meanwhile, a company's own researcher says its chatbot helped him solve a 167-year-old math problem.",
+  "phraseAlternatives": [
+    "This week, AI companies lost trillions in stock value. This week, one of their own researchers says he might have solved a 167-year-old math problem.",
+    "A sell-off wiped trillions off AI stocks this week. The same company's researcher claims a chatbot helped him crack a problem mathematicians couldn't solve in 167 years.",
+    "Investors erased trillions from AI stocks in days. A researcher at the same company says an AI just helped him solve one of math's oldest open problems.",
+    "AI markets had their worst week in six years. One struggling company's researcher says its own chatbot just helped crack a 167-year-old math problem."
+  ],
+  "alt": "A blueprint cross-section of a building: downstairs a falling stock chart sits beside a jagged crack running through the foundation, while upstairs a researcher and a small robot circle a checked equation on a crowded chalkboard; outside, a worried investor looks up holding a shrinking price tag.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 1,
+    "safety": 2,
+    "society": 2,
+    "education": 1,
+    "planet": 2,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "ai-stock-bubble-risk",
+    "ai-claims-riemann-proof",
+    "us-offshore-datacenter-tax-threat",
+    "datacenter-energy-footprint",
+    "ai-agent-privacy-leaks",
+    "google-school-ai-overviews-backlash"
+  ],
+  "topStories": [
+    {
+      "title": "AI stock market suffers its worst week in years",
+      "itemIds": [
+        "techmeme:7ba18ebf91b5",
+        "hackernews:e32cbd51ef17",
+        "hackernews:ffe5471d0a69",
+        "feeds:0cb6da0c8a68"
+      ],
+      "dimensions": [
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "ai-stock-bubble-risk"
+    },
+    {
+      "title": "An AI-assisted claim to solve the Riemann hypothesis divides mathematicians",
+      "itemIds": [
+        "feeds:918b3c43b194",
+        "feeds:9902c56a3855",
+        "feeds:861ca51b04b5",
+        "hackernews:4b1db67db74c"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-claims-riemann-proof"
+    },
+    {
+      "title": "A president threatens a tax on AI datacenters built overseas",
+      "itemIds": [
+        "feeds:b97676b351ca",
+        "feeds:7aed5677fa19",
+        "gdelt:3c44e1f52aec",
+        "gdelt:265d16a06dfa"
+      ],
+      "dimensions": [
+        "policy",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "us-offshore-datacenter-tax-threat"
+    },
+    {
+      "title": "A tech giant reconsiders its net-zero pledge as AI datacenter emissions hit a record",
+      "itemIds": [
+        "feeds:66eae4612900",
+        "gdelt:3507d881fe93"
+      ],
+      "dimensions": [
+        "planet",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-energy-footprint"
+    },
+    {
+      "title": "AI agents and leaky pipelines raise fresh privacy alarms",
+      "itemIds": [
+        "feeds:f22d46a83ecd",
+        "feeds:1cd161c23a23",
+        "hackernews:266efb82a5bf"
+      ],
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agent-privacy-leaks"
+    },
+    {
+      "title": "Workers ask their employer not to punish schools that reject AI",
+      "itemIds": [
+        "hackernews:3edabf9cadff"
+      ],
+      "dimensions": [
+        "education",
+        "labor",
+        "society"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "google-school-ai-overviews-backlash"
+    }
+  ],
+  "brief": {
+    "concept": "A company's building cracks open above a plunging stock chart while, inside the very same walls, one of its own researchers proudly circles a checked equation on a chalkboard with a small AI robot beside him.",
+    "metaphor": "Financial collapse and intellectual triumph happening under the same roof, on the same day.",
+    "cast": [
+      {
+        "who": "a company building cracking above a steep falling stock chart",
+        "kind": "institution"
+      },
+      {
+        "who": "a human researcher at a chalkboard, chalk in hand, circling a dense equation",
+        "kind": "person"
+      },
+      {
+        "who": "a small AI robot beside the researcher, pointing at a checkmark on the chalkboard",
+        "kind": "ai"
+      },
+      {
+        "who": "a worried investor figure outside, holding a shrinking price tag, looking up at the lit window",
+        "kind": "person"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split scene within one cross-sectioned building, blueprint-style: lower half shows the building's foundation cracking over a sharp downward stock-chart line with a falling arrow; upper half shows the interior where the researcher and the small robot stand at a chalkboard dense with careful line-drawn equations, one term circled and checked. Outside on the pavement, the investor stands small and separate, clutching a shrinking price tag, looking up. One yellow highlight marks the checked equation as the point of the joke.",
+    "artType": "static",
+    "alt": "A technical blueprint-style drawing of a building cracking above a plunging stock chart, while inside, a researcher and a small robot proudly circle a checked equation on a chalkboard, as a worried investor outside watches a shrinking price tag."
+  },
+  "sources": [
+    {
+      "id": "techmeme:7ba18ebf91b5",
+      "title": "Nasdaq 100 fell 5.6% on Friday, taking its loss for the week to 10.4%, its worst run in more than six years, amid fears of a slowdown in the AI investment boom (George Steer/Financial Times)",
+      "url": "https://www.techmeme.com/261120/p42",
+      "source": "techmeme",
+      "publisher": "Techmeme",
+      "publishedAt": "2026-11-20T23:50:00.000Z"
+    },
+    {
+      "id": "hackernews:e32cbd51ef17",
+      "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
+      "url": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+      "source": "hackernews",
+      "publisher": "wsj.com",
+      "publishedAt": "2026-11-20T21:18:46.000Z"
+    },
+    {
+      "id": "hackernews:ffe5471d0a69",
+      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "source": "hackernews",
+      "publisher": "theguardian.com",
+      "publishedAt": "2026-11-20T13:29:59.000Z"
+    },
+    {
+      "id": "feeds:0cb6da0c8a68",
+      "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
+      "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+      "source": "feeds",
+      "publisher": "BBC News",
+      "publishedAt": "2026-11-20T22:42:47.000Z"
+    },
+    {
+      "id": "feeds:918b3c43b194",
+      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-20T16:34:13.000Z"
+    },
+    {
+      "id": "feeds:9902c56a3855",
+      "title": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
+      "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
+      "source": "feeds",
+      "publisher": "BBC News",
+      "publishedAt": "2026-11-20T23:08:57.000Z"
+    },
+    {
+      "id": "feeds:861ca51b04b5",
+      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-20T19:32:08.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.57,
+    "iterations": 2
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-21T13:25:39.427Z"
+}
