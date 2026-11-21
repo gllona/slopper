@@ -1,0 +1,203 @@
+{
+  "topStories": [
+    {
+      "title": "AI stock market suffers its worst week in years",
+      "itemIds": [
+        "techmeme:7ba18ebf91b5",
+        "hackernews:e32cbd51ef17",
+        "hackernews:ffe5471d0a69",
+        "feeds:0cb6da0c8a68"
+      ],
+      "dimensions": [
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "ai-stock-bubble-risk"
+    },
+    {
+      "title": "An AI-assisted claim to solve the Riemann hypothesis divides mathematicians",
+      "itemIds": [
+        "feeds:918b3c43b194",
+        "feeds:9902c56a3855",
+        "feeds:861ca51b04b5",
+        "hackernews:4b1db67db74c"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "ai-claims-riemann-proof"
+    },
+    {
+      "title": "A president threatens a tax on AI datacenters built overseas",
+      "itemIds": [
+        "feeds:b97676b351ca",
+        "feeds:7aed5677fa19",
+        "gdelt:3c44e1f52aec",
+        "gdelt:265d16a06dfa"
+      ],
+      "dimensions": [
+        "policy",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "us-offshore-datacenter-tax-threat"
+    },
+    {
+      "title": "A tech giant reconsiders its net-zero pledge as AI datacenter emissions hit a record",
+      "itemIds": [
+        "feeds:66eae4612900",
+        "gdelt:3507d881fe93"
+      ],
+      "dimensions": [
+        "planet",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-energy-footprint"
+    },
+    {
+      "title": "AI agents and leaky pipelines raise fresh privacy alarms",
+      "itemIds": [
+        "feeds:f22d46a83ecd",
+        "feeds:1cd161c23a23",
+        "hackernews:266efb82a5bf"
+      ],
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agent-privacy-leaks"
+    },
+    {
+      "title": "Workers ask their employer not to punish schools that reject AI",
+      "itemIds": [
+        "hackernews:3edabf9cadff"
+      ],
+      "dimensions": [
+        "education",
+        "labor",
+        "society"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "google-school-ai-overviews-backlash"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-claims-riemann-proof",
+      "title": "An AI-Assisted Proof Of The Riemann Hypothesis Divides Mathematicians",
+      "dimensions": [
+        "capabilities",
+        "science",
+        "society"
+      ],
+      "motifs": [
+        "a chalkboard half filled with robot-neat symbols, half with human handwriting",
+        "a researcher checking a proof line by line with a magnifying glass",
+        "two rival proofs racing toward a finish line marked 'VERIFIED?'"
+      ]
+    },
+    {
+      "id": "us-offshore-datacenter-tax-threat",
+      "title": "A President Threatens Tax Penalties For Offshore AI Datacenters",
+      "dimensions": [
+        "policy",
+        "industry"
+      ],
+      "motifs": [
+        "a datacenter abroad getting stamped with a tax symbol",
+        "a company building glancing nervously between two border gates",
+        "an official holding up a blank tax sign with no details written on it"
+      ]
+    },
+    {
+      "id": "ai-agent-privacy-leaks",
+      "title": "AI Agents And Supply Chains Leak Private Data, Triggering Defenses",
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "motifs": [
+        "a messaging app sprouting a small lock against a screen-reading robot eye",
+        "a canary-shaped flag planted in a leaking data pipe",
+        "a privacy shield cracking open to reveal a trail of secrets"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Several top stories clear the threshold on their own: the AI stock sell-off (novelty 2 × magnitude 3 × breadth 3 = 18) and the AI-assisted Riemann hypothesis claim (3 × 3 × 2 = 18) both exceed 8, so today is a fresh day regardless of the industry balance rule.",
+  "motto": "Market Crash, Math Breakthrough",
+  "phrase": "AI stocks just had their worst week in years, erasing trillions in value. Meanwhile, a company's own researcher says its chatbot helped him solve a 167-year-old math problem.",
+  "phraseAlternatives": [
+    "This week, AI companies lost trillions in stock value. This week, one of their own researchers says he might have solved a 167-year-old math problem.",
+    "A sell-off wiped trillions off AI stocks this week. The same company's researcher claims a chatbot helped him crack a problem mathematicians couldn't solve in 167 years.",
+    "Investors erased trillions from AI stocks in days. A researcher at the same company says an AI just helped him solve one of math's oldest open problems.",
+    "AI markets had their worst week in six years. One struggling company's researcher says its own chatbot just helped crack a 167-year-old math problem."
+  ],
+  "brief": {
+    "concept": "A company's building cracks open above a plunging stock chart while, inside the very same walls, one of its own researchers proudly circles a checked equation on a chalkboard with a small AI robot beside him.",
+    "metaphor": "Financial collapse and intellectual triumph happening under the same roof, on the same day.",
+    "cast": [
+      {
+        "who": "a company building cracking above a steep falling stock chart",
+        "kind": "institution"
+      },
+      {
+        "who": "a human researcher at a chalkboard, chalk in hand, circling a dense equation",
+        "kind": "person"
+      },
+      {
+        "who": "a small AI robot beside the researcher, pointing at a checkmark on the chalkboard",
+        "kind": "ai"
+      },
+      {
+        "who": "a worried investor figure outside, holding a shrinking price tag, looking up at the lit window",
+        "kind": "person"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split scene within one cross-sectioned building, blueprint-style: lower half shows the building's foundation cracking over a sharp downward stock-chart line with a falling arrow; upper half shows the interior where the researcher and the small robot stand at a chalkboard dense with careful line-drawn equations, one term circled and checked. Outside on the pavement, the investor stands small and separate, clutching a shrinking price tag, looking up. One yellow highlight marks the checked equation as the point of the joke.",
+    "artType": "static",
+    "alt": "A technical blueprint-style drawing of a building cracking above a plunging stock chart, while inside, a researcher and a small robot proudly circle a checked equation on a chalkboard, as a worried investor outside watches a shrinking price tag."
+  },
+  "sourceIds": [
+    "techmeme:7ba18ebf91b5",
+    "hackernews:e32cbd51ef17",
+    "hackernews:ffe5471d0a69",
+    "feeds:0cb6da0c8a68",
+    "feeds:918b3c43b194",
+    "feeds:9902c56a3855",
+    "feeds:861ca51b04b5"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 1,
+    "safety": 2,
+    "society": 2,
+    "education": 1,
+    "planet": 2,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
