@@ -1,0 +1,151 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {},
+  "elements": [
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1,
+      "props": {
+        "width": 16,
+        "height": 900
+      },
+      "svg": "<line class=\"r-line\" x1=\"8\" y1=\"0\" x2=\"8\" y2=\"900\"/>"
+    },
+    {
+      "id": "robot",
+      "component": "robot",
+      "at": {
+        "x": 0.17,
+        "y": 0.78
+      },
+      "scale": 1.1,
+      "props": {
+        "mood": "neutral",
+        "arms": "down",
+        "color": "body",
+        "antenna": false
+      }
+    },
+    {
+      "id": "diplomat",
+      "component": "human",
+      "at": {
+        "x": 0.4,
+        "y": 0.78
+      },
+      "scale": 0.9,
+      "props": {
+        "mood": "worried",
+        "pose": "sit",
+        "color": "accent",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "table",
+      "component": "raw",
+      "at": {
+        "x": 0.4,
+        "y": 0.719
+      },
+      "scale": 1,
+      "props": {
+        "width": 170,
+        "height": 130
+      },
+      "svg": "<rect class=\"r-ink\" x=\"18\" y=\"72\" width=\"10\" height=\"58\"/><rect class=\"r-ink\" x=\"142\" y=\"72\" width=\"10\" height=\"58\"/><rect class=\"r-body-alt\" x=\"8\" y=\"52\" width=\"154\" height=\"20\" rx=\"10\"/><rect class=\"r-paper\" x=\"58\" y=\"18\" width=\"54\" height=\"36\" rx=\"6\"/><line class=\"r-line\" x1=\"85\" y1=\"18\" x2=\"85\" y2=\"54\"/>"
+    },
+    {
+      "id": "no-rules",
+      "component": "label",
+      "attachTo": "table",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "NO RULES",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    },
+    {
+      "id": "eye-bag",
+      "component": "raw",
+      "at": {
+        "x": 0.62,
+        "y": 0.65
+      },
+      "scale": 1,
+      "props": {
+        "width": 200,
+        "height": 280
+      },
+      "svg": "<rect class=\"r-ink\" x=\"25\" y=\"30\" width=\"10\" height=\"250\"/><rect class=\"r-body\" x=\"0\" y=\"0\" width=\"55\" height=\"40\" rx=\"10\"/><circle class=\"r-ink\" cx=\"27\" cy=\"20\" r=\"10\"/><circle class=\"r-paper\" cx=\"27\" cy=\"20\" r=\"4\"/><line class=\"r-thin\" x1=\"27\" y1=\"40\" x2=\"140\" y2=\"210\"/><path class=\"r-accent\" d=\"M100 280 L94 218 Q140 198 178 218 L172 280 Z\"/><line class=\"r-ink\" x1=\"94\" y1=\"218\" x2=\"172\" y2=\"218\"/><line class=\"r-thin\" x1=\"115\" y1=\"228\" x2=\"115\" y2=\"268\"/><line class=\"r-thin\" x1=\"135\" y1=\"228\" x2=\"135\" y2=\"268\"/><line class=\"r-thin\" x1=\"155\" y1=\"228\" x2=\"155\" y2=\"268\"/>"
+    },
+    {
+      "id": "teen1",
+      "component": "human",
+      "at": {
+        "x": 0.77,
+        "y": 0.78
+      },
+      "scale": 0.68,
+      "props": {
+        "mood": "worried",
+        "pose": "shrug",
+        "color": "accent",
+        "kind": "child",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "teen2",
+      "component": "human",
+      "at": {
+        "x": 0.888,
+        "y": 0.78
+      },
+      "scale": 0.68,
+      "props": {
+        "mood": "worried",
+        "pose": "shrug",
+        "color": "accent",
+        "kind": "child",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "siren",
+      "component": "raw",
+      "attachTo": "teen2",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "width": 80,
+        "height": 50
+      },
+      "svg": "<rect class=\"r-ink\" x=\"5\" y=\"30\" width=\"70\" height=\"12\" rx=\"6\"/><path class=\"r-accent\" d=\"M10 30 a15 15 0 0 1 30 0 Z\"/><path class=\"r-body\" d=\"M40 30 a15 15 0 0 1 30 0 Z\"/>"
+    },
+    {
+      "id": "false-alarm",
+      "component": "label",
+      "attachTo": "eye-bag",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "FALSE ALARM",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "A split scene. On the left, a tall robot looms behind a diplomat sitting at a table with an open, blank book, labeled \"no rules.\" On the right, a camera on a pole points down at a bag on the ground while two worried teenagers stand nearby, labeled \"false alarm.\""
+}

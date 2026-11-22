@@ -1,0 +1,680 @@
+{
+  "date": "2026-11-21",
+  "fetchedAt": "2026-11-22T11:08:00.803Z",
+  "sources": [
+    {
+      "source": "feeds",
+      "ok": true,
+      "count": 9
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "count": 6
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 5
+    },
+    {
+      "source": "gdelt",
+      "ok": true,
+      "count": 40
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "count": 7
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "feeds:63572d439b34",
+      "source": "feeds",
+      "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "title": "The UN fails to agree on rules regulating ‘killer robots’",
+      "snippet": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of…",
+      "publishedAt": "2026-11-21T20:03:37.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:a9e4add386cc",
+      "source": "feeds",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "title": "Can Anthropic afford to put safety first?",
+      "snippet": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this…",
+      "publishedAt": "2026-11-21T15:00:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:6df4f7d48f25",
+      "source": "feeds",
+      "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+      "snippet": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word. They're all part…",
+      "publishedAt": "2026-11-21T14:00:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:2d741bc28ead",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
+      "title": "The Outages Are Just Getting Started",
+      "snippet": "AI is forcing companies to patch their systems faster as attackers race to exploit newly discovered vulnerabilities. Welcome to internet outage hell.",
+      "publishedAt": "2026-11-21T13:00:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:f6f5282ad9e3",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "snippet": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+      "publishedAt": "2026-11-21T21:37:10.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:044fb7804e00",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "title": "A tale of two Nvidias",
+      "snippet": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+      "publishedAt": "2026-11-21T21:07:42.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:f52216bdae32",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "snippet": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "publishedAt": "2026-11-21T17:00:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:f2e0e504895b",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "snippet": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+      "publishedAt": "2026-11-21T16:00:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:f2367fc9dc98",
+      "source": "feeds",
+      "url": "https://www.bbc.co.uk/news/articles/cw8dv4jmnle2o?at_medium=RSS&at_campaign=rss",
+      "title": "Can AI really help spot Black Friday deals? We put it to the test",
+      "snippet": "We put four AI models to the test to see if they could save us money on a new TV.",
+      "publishedAt": "2026-11-21T00:06:11.000Z",
+      "publisher": "BBC News",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:82b59f88ac95",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261121/p10",
+      "title": "Researchers used canary credentials in requests to AI routers like OpenRouter and Vercel, even under \"ZDR\" policies, and saw \"privacy\" often broken, keys stolen (Dan Goodin/Ars Technica)",
+      "snippet": "Dan Goodin / Ars Technica : Researchers used canary credentials in requests to AI routers like OpenRouter and Vercel, even under “ZDR” policies, and saw “privacy” often broken, keys stolen — Researchers planted 2 million digital tripwires in requests sent through a sprawling network of AI services …",
+      "publishedAt": "2026-11-21T20:10:02.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:0bb7d453392b",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261121/p9",
+      "title": "Investigation: Alice Huang had ties to gaming firms, alleged Prince Group figures and hundreds of shell companies in a network moving Nvidia chips to China (Financial Times)",
+      "snippet": "Financial Times : Investigation: Alice Huang had ties to gaming firms, alleged Prince Group figures and hundreds of shell companies in a network moving Nvidia chips to China — Chinese executive in romantic relationship with former Nvidia CEO Jensen Huang had connections to the lucrative trade…",
+      "publishedAt": "2026-11-21T18:55:01.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:cb7557a6287d",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261121/p8",
+      "title": "Sources: Amazon is nearing a $7.5B deal to buy AI startup Decart; talks are at an advanced stage and a deal could come together as soon as next week (Financial Times)",
+      "snippet": "Financial Times : Sources: Amazon is nearing a $7.5B deal to buy AI startup Decart; talks are at an advanced stage and a deal could come together as soon as next week — Acquisition would help AWS compete with Nvidia in race for computing power — Amazon is nearing a $7.5bn deal to buy start-up…",
+      "publishedAt": "2026-11-21T17:55:01.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:3366c6a3f60f",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261121/p7",
+      "title": "Rhodium: China's biggest tech companies are set to double capex to $139B in 2026 with AI lab revenue under 8% of it, a gap that may matter more than chip curbs (New York Times)",
+      "snippet": "New York Times : Rhodium: China's biggest tech companies are set to double capex to $139B in 2026 with AI lab revenue under 8% of it, a gap that may matter more than chip curbs — While Anthropic and other Silicon Valley A.I. giants are raising tens of billions in capital, Chinese rivals are…",
+      "publishedAt": "2026-11-21T15:10:01.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:99f10e4d9e7f",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261121/p6",
+      "title": "An interview with Google DeepMind in-house philosopher Henry Shevlin on being hired to work on machine consciousness, human-AI relationships, and AGI readiness (Cristina Criddle/Financial Times)",
+      "snippet": "Cristina Criddle / Financial Times : An interview with Google DeepMind in-house philosopher Henry Shevlin on being hired to work on machine consciousness, human-AI relationships, and AGI readiness — The in-house philosopher on the problem of consciousness and what it might feel like to be an AI…",
+      "publishedAt": "2026-11-21T11:30:01.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:cf42b883ad24",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261121/p4",
+      "title": "NYU's Tristan Buckmaster and Anthropic's Levent Alpöge publish an AI-aided proof of Navier-Stokes blowup, saying it closes a loophole in OpenAI's solution (Peter Hall/Scientific American)",
+      "snippet": "Peter Hall / Scientific American : NYU's Tristan Buckmaster and Anthropic's Levent Alpöge publish an AI-aided proof of Navier-Stokes blowup, saying it closes a loophole in OpenAI's solution — Two months after getting scooped by OpenAI, N.Y.U. professor Tristan Buckmaster and Anthropic employee…",
+      "publishedAt": "2026-11-21T06:30:00.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:4fd24093a146",
+      "source": "hackernews",
+      "url": "http://ricapar.net/ClawDOS/",
+      "title": "ClawDOS – An AI coding agent for DOS",
+      "snippet": "164 points and 52 comments on Hacker News (https://news.ycombinator.com/item?id=50586292).",
+      "publishedAt": "2026-11-21T05:38:01.000Z",
+      "score": 164,
+      "publisher": "ricapar.net",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:1a6bc61cbec2",
+      "source": "hackernews",
+      "url": "https://pwn.ai/upload2shell",
+      "title": "Upload2Shell (CVE-2026-125396)",
+      "snippet": "123 points and 59 comments on Hacker News (https://news.ycombinator.com/item?id=50592097).",
+      "publishedAt": "2026-11-21T18:29:29.000Z",
+      "score": 123,
+      "publisher": "pwn.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:a5ff861b39f2",
+      "source": "hackernews",
+      "url": "https://www.pandex.io/",
+      "title": "Pandex – Official European Law for AI Agents, over MCP",
+      "snippet": "97 points and 22 comments on Hacker News (https://news.ycombinator.com/item?id=50593481).",
+      "publishedAt": "2026-11-21T20:47:41.000Z",
+      "score": 97,
+      "publisher": "pandex.io",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:2134cd70653f",
+      "source": "hackernews",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+      "title": "International UN talks on controlling use of autonomous weapons collapse",
+      "snippet": "43 points and 31 comments on Hacker News (https://news.ycombinator.com/item?id=50594564).",
+      "publishedAt": "2026-11-21T23:10:21.000Z",
+      "score": 43,
+      "publisher": "theguardian.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:98a52954bd12",
+      "source": "hackernews",
+      "url": "https://outpostracer.com/",
+      "title": "Show HN: I made a PS1 style racing game",
+      "snippet": "32 points and 25 comments on Hacker News (https://news.ycombinator.com/item?id=50589184).",
+      "publishedAt": "2026-11-21T13:47:45.000Z",
+      "score": 32,
+      "publisher": "outpostracer.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:065e44db00b0",
+      "source": "gdelt",
+      "url": "https://www.theroot.com/new-lawsuit-reveals-more-about-ai-error-that-put-baltim-2000136390",
+      "title": "New Lawsuit Reveals More About AI Error That Put Baltimore Teens in Police Crosshairs Over a Bag of Chips – The Root",
+      "snippet": "",
+      "publishedAt": "2026-11-21T00:30:00.000Z",
+      "publisher": "theroot.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:6fc612ee755a",
+      "source": "gdelt",
+      "url": "https://www.acritica.com/educacao/feira-tecnologica-da-fucapi-apresenta-ia-que-classifica-produtos-da-floresta-e-canoa-movida-a-energia-solar/",
+      "title": "Feira Tecnológica da Fucapi apresenta IA que classifica produtos da floresta e canoa movida a energia solar",
+      "snippet": "",
+      "publishedAt": "2026-11-21T20:30:00.000Z",
+      "publisher": "acritica.com",
+      "lang": "pt"
+    },
+    {
+      "id": "gdelt:e0eb96f2393f",
+      "source": "gdelt",
+      "url": "https://www.cuartopoder.mx/chiapas/comenzo-ia-a-reemplazar-empleos-formales/598822",
+      "title": "Comenzó IA a reemplazar empleos formales",
+      "snippet": "",
+      "publishedAt": "2026-11-21T12:30:00.000Z",
+      "publisher": "cuartopoder.mx",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:08902ea06fee",
+      "source": "gdelt",
+      "url": "https://www.portalaz.com.br/noticia/geral/99987/estudantes-da-rede-publica-do-piaui-levam-projetos-de-tecnologia-a-campus-party/",
+      "title": "Estudantes da rede pública do Piauí levam projetos de tecnologia à Campus Party",
+      "snippet": "",
+      "publishedAt": "2026-11-21T13:30:00.000Z",
+      "publisher": "portalaz.com.br",
+      "lang": "pt"
+    },
+    {
+      "id": "gdelt:2c1bdd87bbb9",
+      "source": "gdelt",
+      "url": "https://www.wsls.com/news/politics/2026/11/20/senator-proposes-select-committee-on-ai-as-democrats-hope-to-move-quickly-to-regulate-it/",
+      "title": "Senator proposes select committee on AI as Democrats hope to move quickly to regulate it",
+      "snippet": "",
+      "publishedAt": "2026-11-21T00:30:00.000Z",
+      "publisher": "wsls.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:f3a8b8eefab7",
+      "source": "gdelt",
+      "url": "https://www.wokv.com/news/politics/senator-proposes/HRE7RIGEPA46NJUNVWMFLN67UY/",
+      "title": "Democrats hope to move quickly to regulate AI",
+      "snippet": "",
+      "publishedAt": "2026-11-21T00:30:00.000Z",
+      "publisher": "wokv.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:4901a95ba21c",
+      "source": "gdelt",
+      "url": "https://www.grandforksherald.com/opinion/columns/hennen-america-needs-energy-not-more-paperwork",
+      "title": "Hennen : America needs energy , not more paperwork",
+      "snippet": "",
+      "publishedAt": "2026-11-21T12:30:00.000Z",
+      "publisher": "grandforksherald.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:e091d376802b",
+      "source": "gdelt",
+      "url": "https://thebeatdfw.com/4548921/lawsuit-baltimore-teens-detained-after-ai-mistook-chips-for-a-gun/",
+      "title": "Lawsuit : Baltimore Teens Detained , AI Mistook Chips For Gun",
+      "snippet": "",
+      "publishedAt": "2026-11-21T11:30:00.000Z",
+      "publisher": "thebeatdfw.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:6d79d5dc136a",
+      "source": "gdelt",
+      "url": "https://zn.ua/ukr/ECONOMICS/amerikantsi-kazhut-data-tsentram-ni-chomu-miljardi-investitsij-perestali-buti-politichnim-kozirem.html",
+      "title": "Перегони у сфері ШІ – чому будівництво дата - центрів стало проблемою для політиків – ZN . ua",
+      "snippet": "",
+      "publishedAt": "2026-11-21T11:30:00.000Z",
+      "publisher": "zn.ua",
+      "lang": "uk"
+    },
+    {
+      "id": "gdelt:22d316f7efe6",
+      "source": "gdelt",
+      "url": "https://pulsoslp.com.mx/slp/uaslp-detecta-microplasticos-en-agua-de-purificadoras-potosinas/2109833",
+      "title": "UASLP detecta microplásticos en agua de purificadoras potosinas",
+      "snippet": "",
+      "publishedAt": "2026-11-21T13:30:00.000Z",
+      "publisher": "pulsoslp.com.mx",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:8c9053f19d04",
+      "source": "gdelt",
+      "url": "https://pulsoslp.com.mx/detodos/riesgo-sanitario-pretextos-legislativos/2109817",
+      "title": "Riesgo sanitario Pretextos legislativos",
+      "snippet": "",
+      "publishedAt": "2026-11-21T13:30:00.000Z",
+      "publisher": "pulsoslp.com.mx",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:a5116fe4361c",
+      "source": "gdelt",
+      "url": "https://www.pressian.com/pages/articles/2026112015003486195",
+      "title": "AI 못쓰면 도태된다 는 한국사회에서 시험에서만은 AI 쓰지 말라 ?",
+      "snippet": "",
+      "publishedAt": "2026-11-21T13:30:00.000Z",
+      "publisher": "pressian.com",
+      "lang": "ko"
+    },
+    {
+      "id": "gdelt:63308adac976",
+      "source": "gdelt",
+      "url": "https://www.vetogate.com/5775064",
+      "title": "وصول شهادات « توفاس » الدولية في البرمجة لـ 90 طالبًا بثانوي نجع حمادي في قنا",
+      "snippet": "",
+      "publishedAt": "2026-11-21T12:30:00.000Z",
+      "publisher": "vetogate.com",
+      "lang": "ar"
+    },
+    {
+      "id": "gdelt:36342e203ba5",
+      "source": "gdelt",
+      "url": "https://pulsoslp.com.mx/detodos/editorial-microplasticos-en-agua-de-garrafon-en-slp/2109817",
+      "title": "Editorial : Microplásticos en agua de garrafón en SLP",
+      "snippet": "",
+      "publishedAt": "2026-11-21T16:30:00.000Z",
+      "publisher": "pulsoslp.com.mx",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:74ae95b5326c",
+      "source": "gdelt",
+      "url": "https://pulsoslp.com.mx/slp/microplasticos-en-agua-de-garrafon-en-slp-estudio-de-la-uaslp/2109833",
+      "title": "Microplásticos en agua de garrafón en SLP : estudio de la UASLP",
+      "snippet": "",
+      "publishedAt": "2026-11-21T16:30:00.000Z",
+      "publisher": "pulsoslp.com.mx",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:c6a84729fdf4",
+      "source": "gdelt",
+      "url": "https://kval.com/news/nation-world/anthropics-record-ipo-puts-pensions-and-401k-plans-closer-to-ai-boom-and-bust-risk",
+      "title": "Anthropic record IPO puts pensions and 401 ( k ) plans closer to AI boom - and - bust risk",
+      "snippet": "",
+      "publishedAt": "2026-11-21T00:30:00.000Z",
+      "publisher": "kval.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:80e0c535841e",
+      "source": "gdelt",
+      "url": "https://www.redaccionmedica.com/profesionales/medicina/20261121/estudiar-medicina-con-un-truco-para-aprender-de-forma-mas-facil-una-tecnologia-al-alcance-todos/366296_0.html",
+      "title": "Estudiar Medicina con un truco para aprender de forma más fácil con una tecnología al alcance de todos",
+      "snippet": "",
+      "publishedAt": "2026-11-21T16:30:00.000Z",
+      "publisher": "redaccionmedica.com",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:15e1306a21ad",
+      "source": "gdelt",
+      "url": "https://www.rondoniaovivo.com/noticia/geral/2026/11/20/tecnologia-projeto-prisma-preve-integracao-de-data-centers-com-inteligencia-artificial.html",
+      "title": "TECNOLOGIA : Projeto Prisma prevê integrao de data centers com inteligência artificial",
+      "snippet": "",
+      "publishedAt": "2026-11-21T00:30:00.000Z",
+      "publisher": "rondoniaovivo.com",
+      "lang": "pt"
+    },
+    {
+      "id": "gdelt:424c2ecdf7ba",
+      "source": "gdelt",
+      "url": "https://www.inewsgr.com/345/techniti-noimosyni-stin-agora-ergasias-katatethike-sti-vouli-to-nomoschedio--ti-provlepei-gia-tous-ergazomenous-se-platformes.htm",
+      "title": "Τεχνητή νοημοσύνη στην αγορά εργασίας : Κατατέθηκε στη βουλή το νομοσχέδιο – Τι προβλέπει για τους εργαζόμενους σε πλατφόρμες",
+      "snippet": "",
+      "publishedAt": "2026-11-21T12:30:00.000Z",
+      "publisher": "inewsgr.com",
+      "lang": "und"
+    },
+    {
+      "id": "gdelt:8d677726810c",
+      "source": "gdelt",
+      "url": "https://www.microsiervos.com/archivo/energia/centros-datos-espana-mas-eficientes-optimizar-uso-renovables.html",
+      "title": "Los centros de datos en España tendrán que ser más eficientes , consumir menos agua y optimizar el uso de renovables",
+      "snippet": "",
+      "publishedAt": "2026-11-21T20:30:00.000Z",
+      "publisher": "microsiervos.com",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:555de45a1229",
+      "source": "gdelt",
+      "url": "https://www.jiji.com/jc/article?k=2026112100372&g=int",
+      "title": "ＡＩブーム 、 息切れ鮮明 アンソロ上場も売りやまず ： 時事ドットコム",
+      "snippet": "",
+      "publishedAt": "2026-11-21T12:30:00.000Z",
+      "publisher": "jiji.com",
+      "lang": "ja"
+    },
+    {
+      "id": "gdelt:25544c1164fc",
+      "source": "gdelt",
+      "url": "https://www.stiripesurse.ro/se-intampla-ceva-mare-gigantii-de-pe-wall-street-se-prabusesc-la-fel-ca-la-inceputul-pandemiei-de-covid-19_3938656",
+      "title": "Giganții tech se prăbușesc la fel ca în pandemia de Covid",
+      "snippet": "",
+      "publishedAt": "2026-11-21T12:30:00.000Z",
+      "publisher": "stiripesurse.ro",
+      "lang": "und"
+    },
+    {
+      "id": "gdelt:dccbac05c2da",
+      "source": "gdelt",
+      "url": "https://www.kathimerini.gr/world/564605806/tramp-tsoychteros-foros-se-etaireies-poy-kataskeyazoyn-data-centers-sto-exoteriko/",
+      "title": "Τραμπ : « Τσουχτερός φόρος » σε εταιρείες που κατασκευάζουν data centers στο εξωτερικό",
+      "snippet": "",
+      "publishedAt": "2026-11-21T12:30:00.000Z",
+      "publisher": "kathimerini.gr",
+      "lang": "und"
+    },
+    {
+      "id": "gdelt:c21f3cd263a1",
+      "source": "gdelt",
+      "url": "https://www.zocalo.com.mx/cohetes-uadec-fomenta-vocaciones-cientificas-con-el-septimo-concurso-estatal-de-cohetes-impulsados-por-agua/",
+      "title": "Cohetes UAdeC ; fomenta vocaciones científicas con el séptimo Concurso Estatal de Cohetes Impulsados por Agua – Periódico Zócalo",
+      "snippet": "",
+      "publishedAt": "2026-11-21T00:30:00.000Z",
+      "publisher": "zocalo.com.mx",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:3ddea383bd4d",
+      "source": "gdelt",
+      "url": "https://www.ilsole24ore.com/art/ai-l-obbligo-trasparenza-non-vale-li-sviluppatori-AJafroNC",
+      "title": "AI , lobbligo di trasparenza non vale verso li sviluppatori",
+      "snippet": "",
+      "publishedAt": "2026-11-21T06:45:00.000Z",
+      "publisher": "ilsole24ore.com",
+      "lang": "it"
+    },
+    {
+      "id": "gdelt:929c73ee7712",
+      "source": "gdelt",
+      "url": "http://www.iraqsun.com/news/279447434/pm-modi-pitches-skilled-workforce-self-reliance-highlights-brahmos-manufacturing-in-up-aptitude-certificate-proposal",
+      "title": "PM Modi pitches skilled workforce , self - reliance ; highlights BrahMos manufacturing in UP , aptitude certificate proposal",
+      "snippet": "",
+      "publishedAt": "2026-11-21T20:30:00.000Z",
+      "publisher": "iraqsun.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:0f71514aac81",
+      "source": "gdelt",
+      "url": "http://www.akilanews.com/main-news-detail/india-bulgaria-towards-a-new-chapter-field-technology",
+      "title": "ટેક્નોલોજી અને સુરક્ષા ક્ષેત્રે ભારત - બલ્ગેરિયા નવા અધ્યાય તરફ :...",
+      "snippet": "",
+      "publishedAt": "2026-11-21T13:30:00.000Z",
+      "publisher": "akilanews.com",
+      "lang": "und"
+    },
+    {
+      "id": "gdelt:984df9010d82",
+      "source": "gdelt",
+      "url": "https://www.dziennikwschodni.pl/artykul/394110,sztuczna-inteligencja-na-dyzurze-szpital-w-chelmie-przechodzi-cyfrowa-rewolucje",
+      "title": "Sztuczna inteligencja na dyżurze . Szpital w Chełmie przechodzi cyfrową rewolucję",
+      "snippet": "",
+      "publishedAt": "2026-11-21T20:30:00.000Z",
+      "publisher": "dziennikwschodni.pl",
+      "lang": "pl"
+    },
+    {
+      "id": "gdelt:54bbdb53effa",
+      "source": "gdelt",
+      "url": "https://www.swp.de/lokales/ulm/hilferuf-an-aktion-100000-aus-angst-vor-gewalt-mutter-verbringt-mit-kindern-nacht-im-auto-79720661.html",
+      "title": "Hilferuf an Aktion 100 . 000 : Aus Angst vor Gewalt : Mutter verbringt mit Kindern Nacht im Auto",
+      "snippet": "",
+      "publishedAt": "2026-11-21T06:45:00.000Z",
+      "publisher": "swp.de",
+      "lang": "de"
+    },
+    {
+      "id": "gdelt:7babd74959f3",
+      "source": "gdelt",
+      "url": "https://pulsoslp.com.mx/nacional/presidenta-del-ine-a-eleccion-por-consenso/2109808",
+      "title": "Presidenta del INE , a elección por consenso",
+      "snippet": "",
+      "publishedAt": "2026-11-21T13:30:00.000Z",
+      "publisher": "pulsoslp.com.mx",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:46ffea585c5f",
+      "source": "gdelt",
+      "url": "https://biz.heraldcorp.com/article/10944336",
+      "title": "특허괴물 방어 총력전 … 삼성전자 , 美 특허 전문 변호사 영입",
+      "snippet": "",
+      "publishedAt": "2026-11-21T00:30:00.000Z",
+      "publisher": "biz.heraldcorp.com",
+      "lang": "ko"
+    },
+    {
+      "id": "gdelt:39b05ca09ae5",
+      "source": "gdelt",
+      "url": "http://www.rockymounttelegram.com/features/columnists/tameka-kenan-norman-project-edge-to-bring-advanced-tech-ai-paid-apprenticeship-opportunities-to-ecc/article_db16bbe1-2e8b-48ef-83de-967ae36f3d93.html",
+      "title": "Tameka Kenan - Norman : Project Edge to bring advanced tech , AI , paid apprenticeship opportunities to ECC",
+      "snippet": "",
+      "publishedAt": "2026-11-21T16:30:00.000Z",
+      "publisher": "rockymounttelegram.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:c8f76d3991a4",
+      "source": "gdelt",
+      "url": "https://www.diariolibre.com/mundo/estados-unidos/2026/11/20/regulacion-de-robots-asesinos-en-debate-en-onu/3727262",
+      "title": "Regulación de robots asesinos en debate en ONU",
+      "snippet": "",
+      "publishedAt": "2026-11-21T06:45:00.000Z",
+      "publisher": "diariolibre.com",
+      "lang": "es"
+    },
+    {
+      "id": "gdelt:72e6f541b6a9",
+      "source": "gdelt",
+      "url": "https://www.dailyexcelsior.com/indias-strength-lies-in-embracing-and-respecting-diverse-cultures-vice-president/",
+      "title": "India strength lies in embracing and respecting diverse cultures : Vice President",
+      "snippet": "",
+      "publishedAt": "2026-11-21T12:30:00.000Z",
+      "publisher": "dailyexcelsior.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:efdcb08856b6",
+      "source": "gdelt",
+      "url": "https://freerepublic.com/tag/*/index?more=4403808",
+      "title": "Latest Articles",
+      "snippet": "",
+      "publishedAt": "2026-11-21T06:45:00.000Z",
+      "publisher": "freerepublic.com",
+      "lang": "en"
+    },
+    {
+      "id": "gdelt:9a49ef8f5fa2",
+      "source": "gdelt",
+      "url": "https://www.foxnews.com/tech/500m-investment-bring-ai-robots-workplace",
+      "title": "Genesis AI raises $500 million at $3 . 5 billion valuation for Eno robot",
+      "snippet": "",
+      "publishedAt": "2026-11-21T12:30:00.000Z",
+      "publisher": "foxnews.com",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:1e52228e1c5c",
+      "source": "huggingface",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+      "title": "Trending open model: thinkingmachines/Inkling-2-Mini",
+      "snippet": "Task: image-text-to-text. 3701 likes, 23543 downloads.",
+      "publishedAt": "2026-11-17T00:26:57.000Z",
+      "score": 775.5,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:7bbde4382a9f",
+      "source": "huggingface",
+      "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+      "title": "Trending open model: unsloth/Inkling-2-Mini-GGUF",
+      "snippet": "Task: image-text-to-text. 733 likes, 805993 downloads.",
+      "publishedAt": "2026-11-20T13:09:48.000Z",
+      "score": 681,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:552aaf9e3350",
+      "source": "huggingface",
+      "url": "https://huggingface.co/inworld/voice-isolator",
+      "title": "Trending open model: inworld/voice-isolator",
+      "snippet": "Task: audio-to-audio. 560 likes, 0 downloads.",
+      "publishedAt": "2026-11-14T02:14:35.000Z",
+      "score": 413,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:364859f834c8",
+      "source": "huggingface",
+      "url": "https://huggingface.co/tencent/Hy4-flash",
+      "title": "Trending open model: tencent/Hy4-flash",
+      "snippet": "Task: image-text-to-text. 569 likes, 6617 downloads.",
+      "publishedAt": "2026-11-17T03:44:46.000Z",
+      "score": 403,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:0f2a3986db5a",
+      "source": "huggingface",
+      "url": "https://huggingface.co/apple/FastFrames-L",
+      "title": "Trending open model: apple/FastFrames-L",
+      "snippet": "Task: text-to-video. 507 likes, 0 downloads.",
+      "publishedAt": "2026-11-16T17:21:04.000Z",
+      "score": 349,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:dbede62d4d71",
+      "source": "huggingface",
+      "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+      "title": "Trending open model: harness-hub/Qwen3.8-27B-pi-adapted",
+      "snippet": "Task: image-text-to-text. 951 likes, 2831 downloads.",
+      "publishedAt": "2026-11-16T06:52:31.000Z",
+      "score": 322,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:5419a8b213cd",
+      "source": "huggingface",
+      "url": "https://huggingface.co/higurashi-ai/Haru-4B",
+      "title": "Trending open model: higurashi-ai/Haru-4B",
+      "snippet": "Task: audio-to-audio. 852 likes, 8608 downloads.",
+      "publishedAt": "2026-11-12T11:05:59.000Z",
+      "score": 295.5,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    }
+  ]
+}

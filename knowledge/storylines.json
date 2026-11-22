@@ -2,6 +2,148 @@
   "version": 1,
   "storylines": [
     {
+      "id": "ai-agent-privacy-leaks",
+      "title": "AI Agents And Supply Chains Leak Private Data, Triggering Defenses",
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "firstSeen": "2026-11-20",
+      "lastSeen": "2026-11-21",
+      "daysActive": 2,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-11-20",
+        "2026-11-21"
+      ],
+      "motifs": [
+        "a messaging app sprouting a small lock against a screen-reading robot eye",
+        "a canary-shaped flag planted in a leaking data pipe",
+        "a privacy shield cracking open to reveal a trail of secrets"
+      ]
+    },
+    {
+      "id": "nvidia-spy-case",
+      "title": "China's Spy Campaign Targets A Chipmaker's CEO",
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry"
+      ],
+      "firstSeen": "2026-11-06",
+      "lastSeen": "2026-11-21",
+      "daysActive": 12,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-21"
+      ],
+      "motifs": [
+        "a shadowy figure photographing a glowing chip blueprint",
+        "a handshake hiding a tiny recording device",
+        "a corporate badge flipping over to reveal a spy symbol"
+      ]
+    },
+    {
+      "id": "un-killer-robots-talks-collapse",
+      "title": "UN Talks On Banning Autonomous Weapons Collapse",
+      "dimensions": [
+        "policy",
+        "safety"
+      ],
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-11-21"
+      ],
+      "motifs": [
+        "diplomats around a table with a blank rulebook",
+        "a tall robot soldier silhouette looming unaddressed in a corner",
+        "a stalled clock beside an unsigned treaty page"
+      ]
+    },
+    {
+      "id": "ai-misidentifies-teens-as-armed",
+      "title": "An AI Security System Mistakes An Everyday Object For A Weapon",
+      "dimensions": [
+        "safety",
+        "law",
+        "society"
+      ],
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-11-21"
+      ],
+      "motifs": [
+        "a small AI eye zeroing in on an everyday bag on the ground",
+        "two young figures standing with raised hands beside a flashing light",
+        "a lawsuit paper landing beside a police badge"
+      ]
+    },
+    {
+      "id": "ai-navier-stokes-proof-rivalry",
+      "title": "Rival Labs Race To Patch Gaps In An AI-Aided Fluid-Dynamics Proof",
+      "dimensions": [
+        "capabilities",
+        "science",
+        "society"
+      ],
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-11-21"
+      ],
+      "motifs": [
+        "two chalkboards side by side, one patching the other's gap",
+        "a magnifying glass checking a swirling, looping proof",
+        "a relay baton passed mid-equation between two labs"
+      ]
+    },
+    {
+      "id": "spain-datacenter-efficiency-rules",
+      "title": "A Country Orders Its Datacenters To Use Less Water And More Renewables",
+      "dimensions": [
+        "planet",
+        "policy",
+        "industry"
+      ],
+      "firstSeen": "2026-11-21",
+      "lastSeen": "2026-11-21",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-11-21"
+      ],
+      "motifs": [
+        "a datacenter plugged into a sun-and-wind dial instead of a tap",
+        "a water-droplet meter shrinking beside a server rack",
+        "an official stamping an efficiency seal on a cloud-shaped building"
+      ]
+    },
+    {
       "id": "google-school-ai-overviews-backlash",
       "title": "A Search Engine's School AI Overviews Policy Draws Backlash",
       "dimensions": [
@@ -13,7 +155,7 @@
       "firstSeen": "2026-11-04",
       "lastSeen": "2026-11-20",
       "daysActive": 5,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-11-04",
@@ -38,7 +180,7 @@
       "firstSeen": "2026-10-13",
       "lastSeen": "2026-11-20",
       "daysActive": 11,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-10-13",
@@ -69,7 +211,7 @@
       "firstSeen": "2026-11-16",
       "lastSeen": "2026-11-20",
       "daysActive": 2,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-11-16",
@@ -92,7 +234,7 @@
       "firstSeen": "2026-11-20",
       "lastSeen": "2026-11-20",
       "daysActive": 1,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-11-20"
@@ -113,7 +255,7 @@
       "firstSeen": "2026-11-20",
       "lastSeen": "2026-11-20",
       "daysActive": 1,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-11-20"
@@ -125,59 +267,6 @@
       ]
     },
     {
-      "id": "ai-agent-privacy-leaks",
-      "title": "AI Agents And Supply Chains Leak Private Data, Triggering Defenses",
-      "dimensions": [
-        "safety",
-        "society"
-      ],
-      "firstSeen": "2026-11-20",
-      "lastSeen": "2026-11-20",
-      "daysActive": 1,
-      "heat": 1,
-      "status": "active",
-      "sloppers": [
-        "2026-11-20"
-      ],
-      "motifs": [
-        "a messaging app sprouting a small lock against a screen-reading robot eye",
-        "a canary-shaped flag planted in a leaking data pipe",
-        "a privacy shield cracking open to reveal a trail of secrets"
-      ]
-    },
-    {
-      "id": "nvidia-spy-case",
-      "title": "China's Spy Campaign Targets A Chipmaker's CEO",
-      "dimensions": [
-        "policy",
-        "safety",
-        "industry"
-      ],
-      "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-18",
-      "daysActive": 11,
-      "heat": 0.49,
-      "status": "active",
-      "sloppers": [
-        "2026-11-06",
-        "2026-11-07",
-        "2026-11-08",
-        "2026-11-09",
-        "2026-11-10",
-        "2026-11-12",
-        "2026-11-13",
-        "2026-11-14",
-        "2026-11-16",
-        "2026-11-17",
-        "2026-11-18"
-      ],
-      "motifs": [
-        "a shadowy figure photographing a glowing chip blueprint",
-        "a handshake hiding a tiny recording device",
-        "a corporate badge flipping over to reveal a spy symbol"
-      ]
-    },
-    {
       "id": "anthropic-ipo-countdown",
       "title": "An AI Lab's Rocky Road To IPO",
       "dimensions": [
@@ -186,7 +275,7 @@
       "firstSeen": "2026-10-20",
       "lastSeen": "2026-11-18",
       "daysActive": 5,
-      "heat": 0.49,
+      "heat": 0.343,
       "status": "active",
       "sloppers": [
         "2026-10-20",
@@ -210,7 +299,7 @@
       "firstSeen": "2026-11-18",
       "lastSeen": "2026-11-18",
       "daysActive": 1,
-      "heat": 0.49,
+      "heat": 0.343,
       "status": "active",
       "sloppers": [
         "2026-11-18"
@@ -231,7 +320,7 @@
       "firstSeen": "2026-11-18",
       "lastSeen": "2026-11-18",
       "daysActive": 1,
-      "heat": 0.49,
+      "heat": 0.343,
       "status": "active",
       "sloppers": [
         "2026-11-18"
@@ -253,7 +342,7 @@
       "firstSeen": "2026-11-18",
       "lastSeen": "2026-11-18",
       "daysActive": 1,
-      "heat": 0.49,
+      "heat": 0.343,
       "status": "active",
       "sloppers": [
         "2026-11-18"
@@ -274,7 +363,7 @@
       "firstSeen": "2026-11-17",
       "lastSeen": "2026-11-17",
       "daysActive": 1,
-      "heat": 0.343,
+      "heat": 0.24,
       "status": "active",
       "sloppers": [
         "2026-11-17"
@@ -296,7 +385,7 @@
       "firstSeen": "2026-11-17",
       "lastSeen": "2026-11-17",
       "daysActive": 1,
-      "heat": 0.343,
+      "heat": 0.24,
       "status": "active",
       "sloppers": [
         "2026-11-17"
@@ -317,7 +406,7 @@
       "firstSeen": "2026-11-17",
       "lastSeen": "2026-11-17",
       "daysActive": 1,
-      "heat": 0.343,
+      "heat": 0.24,
       "status": "active",
       "sloppers": [
         "2026-11-17"
@@ -338,7 +427,7 @@
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-16",
       "daysActive": 3,
-      "heat": 0.24,
+      "heat": 0.168,
       "status": "active",
       "sloppers": [
         "2026-11-02",
@@ -361,7 +450,7 @@
       "firstSeen": "2026-11-16",
       "lastSeen": "2026-11-16",
       "daysActive": 1,
-      "heat": 0.24,
+      "heat": 0.168,
       "status": "active",
       "sloppers": [
         "2026-11-16"
@@ -383,7 +472,7 @@
       "firstSeen": "2026-11-16",
       "lastSeen": "2026-11-16",
       "daysActive": 1,
-      "heat": 0.24,
+      "heat": 0.168,
       "status": "active",
       "sloppers": [
         "2026-11-16"
@@ -404,7 +493,7 @@
       "firstSeen": "2026-11-16",
       "lastSeen": "2026-11-16",
       "daysActive": 1,
-      "heat": 0.24,
+      "heat": 0.168,
       "status": "active",
       "sloppers": [
         "2026-11-16"
@@ -426,8 +515,8 @@
       "firstSeen": "2026-11-12",
       "lastSeen": "2026-11-14",
       "daysActive": 2,
-      "heat": 0.118,
-      "status": "active",
+      "heat": 0.082,
+      "status": "dormant",
       "sloppers": [
         "2026-11-12",
         "2026-11-14"
@@ -448,8 +537,8 @@
       "firstSeen": "2026-11-14",
       "lastSeen": "2026-11-14",
       "daysActive": 1,
-      "heat": 0.118,
-      "status": "active",
+      "heat": 0.082,
+      "status": "dormant",
       "sloppers": [
         "2026-11-14"
       ],
@@ -469,8 +558,8 @@
       "firstSeen": "2026-11-14",
       "lastSeen": "2026-11-14",
       "daysActive": 1,
-      "heat": 0.118,
-      "status": "active",
+      "heat": 0.082,
+      "status": "dormant",
       "sloppers": [
         "2026-11-14"
       ],
@@ -490,8 +579,8 @@
       "firstSeen": "2026-11-14",
       "lastSeen": "2026-11-14",
       "daysActive": 1,
-      "heat": 0.118,
-      "status": "active",
+      "heat": 0.082,
+      "status": "dormant",
       "sloppers": [
         "2026-11-14"
       ],
@@ -512,8 +601,8 @@
       "firstSeen": "2026-11-14",
       "lastSeen": "2026-11-14",
       "daysActive": 1,
-      "heat": 0.118,
-      "status": "active",
+      "heat": 0.082,
+      "status": "dormant",
       "sloppers": [
         "2026-11-14"
       ],
@@ -534,7 +623,7 @@
       "firstSeen": "2026-11-05",
       "lastSeen": "2026-11-13",
       "daysActive": 2,
-      "heat": 0.082,
+      "heat": 0.058,
       "status": "dormant",
       "sloppers": [
         "2026-11-05",
@@ -556,7 +645,7 @@
       "firstSeen": "2026-11-13",
       "lastSeen": "2026-11-13",
       "daysActive": 1,
-      "heat": 0.082,
+      "heat": 0.058,
       "status": "dormant",
       "sloppers": [
         "2026-11-13"
@@ -578,7 +667,7 @@
       "firstSeen": "2026-11-13",
       "lastSeen": "2026-11-13",
       "daysActive": 1,
-      "heat": 0.082,
+      "heat": 0.058,
       "status": "dormant",
       "sloppers": [
         "2026-11-13"
@@ -600,7 +689,7 @@
       "firstSeen": "2026-11-13",
       "lastSeen": "2026-11-13",
       "daysActive": 1,
-      "heat": 0.082,
+      "heat": 0.058,
       "status": "dormant",
       "sloppers": [
         "2026-11-13"
@@ -621,7 +710,7 @@
       "firstSeen": "2026-09-30",
       "lastSeen": "2026-11-12",
       "daysActive": 9,
-      "heat": 0.058,
+      "heat": 0.04,
       "status": "dormant",
       "sloppers": [
         "2026-09-30",
@@ -652,7 +741,7 @@
       "firstSeen": "2026-11-12",
       "lastSeen": "2026-11-12",
       "daysActive": 1,
-      "heat": 0.058,
+      "heat": 0.04,
       "status": "dormant",
       "sloppers": [
         "2026-11-12"
@@ -673,7 +762,7 @@
       "firstSeen": "2026-10-12",
       "lastSeen": "2026-11-11",
       "daysActive": 3,
-      "heat": 0.04,
+      "heat": 0.028,
       "status": "dormant",
       "sloppers": [
         "2026-10-12",
@@ -697,7 +786,7 @@
       "firstSeen": "2026-11-11",
       "lastSeen": "2026-11-11",
       "daysActive": 1,
-      "heat": 0.04,
+      "heat": 0.028,
       "status": "dormant",
       "sloppers": [
         "2026-11-11"
@@ -719,7 +808,7 @@
       "firstSeen": "2026-11-11",
       "lastSeen": "2026-11-11",
       "daysActive": 1,
-      "heat": 0.04,
+      "heat": 0.028,
       "status": "dormant",
       "sloppers": [
         "2026-11-11"
@@ -741,7 +830,7 @@
       "firstSeen": "2026-11-11",
       "lastSeen": "2026-11-11",
       "daysActive": 1,
-      "heat": 0.04,
+      "heat": 0.028,
       "status": "dormant",
       "sloppers": [
         "2026-11-11"
@@ -763,7 +852,7 @@
       "firstSeen": "2026-11-11",
       "lastSeen": "2026-11-11",
       "daysActive": 1,
-      "heat": 0.04,
+      "heat": 0.028,
       "status": "dormant",
       "sloppers": [
         "2026-11-11"
@@ -784,7 +873,7 @@
       "firstSeen": "2026-11-09",
       "lastSeen": "2026-11-10",
       "daysActive": 2,
-      "heat": 0.028,
+      "heat": 0.02,
       "status": "dormant",
       "sloppers": [
         "2026-11-09",
@@ -807,7 +896,7 @@
       "firstSeen": "2026-11-10",
       "lastSeen": "2026-11-10",
       "daysActive": 1,
-      "heat": 0.028,
+      "heat": 0.02,
       "status": "dormant",
       "sloppers": [
         "2026-11-10"
@@ -829,7 +918,7 @@
       "firstSeen": "2026-11-10",
       "lastSeen": "2026-11-10",
       "daysActive": 1,
-      "heat": 0.028,
+      "heat": 0.02,
       "status": "dormant",
       "sloppers": [
         "2026-11-10"
@@ -851,7 +940,7 @@
       "firstSeen": "2026-11-08",
       "lastSeen": "2026-11-09",
       "daysActive": 2,
-      "heat": 0.02,
+      "heat": 0.014,
       "status": "dormant",
       "sloppers": [
         "2026-11-08",
@@ -875,7 +964,7 @@
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-11-09",
       "daysActive": 20,
-      "heat": 0.02,
+      "heat": 0.014,
       "status": "dormant",
       "sloppers": [
         "2026-10-02",
@@ -915,7 +1004,7 @@
       "firstSeen": "2026-11-09",
       "lastSeen": "2026-11-09",
       "daysActive": 1,
-      "heat": 0.02,
+      "heat": 0.014,
       "status": "dormant",
       "sloppers": [
         "2026-11-09"
@@ -937,7 +1026,7 @@
       "firstSeen": "2026-11-08",
       "lastSeen": "2026-11-08",
       "daysActive": 1,
-      "heat": 0.014,
+      "heat": 0.01,
       "status": "dormant",
       "sloppers": [
         "2026-11-08"
@@ -959,7 +1048,7 @@
       "firstSeen": "2026-11-08",
       "lastSeen": "2026-11-08",
       "daysActive": 1,
-      "heat": 0.014,
+      "heat": 0.01,
       "status": "dormant",
       "sloppers": [
         "2026-11-08"
@@ -981,7 +1070,7 @@
       "firstSeen": "2026-11-08",
       "lastSeen": "2026-11-08",
       "daysActive": 1,
-      "heat": 0.014,
+      "heat": 0.01,
       "status": "dormant",
       "sloppers": [
         "2026-11-08"
@@ -1003,7 +1092,7 @@
       "firstSeen": "2026-11-08",
       "lastSeen": "2026-11-08",
       "daysActive": 1,
-      "heat": 0.014,
+      "heat": 0.01,
       "status": "dormant",
       "sloppers": [
         "2026-11-08"
@@ -1024,7 +1113,7 @@
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-07",
       "daysActive": 2,
-      "heat": 0.01,
+      "heat": 0.007,
       "status": "dormant",
       "sloppers": [
         "2026-11-02",
@@ -1047,7 +1136,7 @@
       "firstSeen": "2026-11-07",
       "lastSeen": "2026-11-07",
       "daysActive": 1,
-      "heat": 0.01,
+      "heat": 0.007,
       "status": "dormant",
       "sloppers": [
         "2026-11-07"
@@ -1068,7 +1157,7 @@
       "firstSeen": "2026-11-07",
       "lastSeen": "2026-11-07",
       "daysActive": 1,
-      "heat": 0.01,
+      "heat": 0.007,
       "status": "dormant",
       "sloppers": [
         "2026-11-07"
@@ -1090,7 +1179,7 @@
       "firstSeen": "2026-11-07",
       "lastSeen": "2026-11-07",
       "daysActive": 1,
-      "heat": 0.01,
+      "heat": 0.007,
       "status": "dormant",
       "sloppers": [
         "2026-11-07"
@@ -1112,7 +1201,7 @@
       "firstSeen": "2026-11-06",
       "lastSeen": "2026-11-06",
       "daysActive": 1,
-      "heat": 0.007,
+      "heat": 0.005,
       "status": "dormant",
       "sloppers": [
         "2026-11-06"
@@ -1133,7 +1222,7 @@
       "firstSeen": "2026-11-06",
       "lastSeen": "2026-11-06",
       "daysActive": 1,
-      "heat": 0.007,
+      "heat": 0.005,
       "status": "dormant",
       "sloppers": [
         "2026-11-06"
@@ -1155,7 +1244,7 @@
       "firstSeen": "2026-10-06",
       "lastSeen": "2026-11-05",
       "daysActive": 4,
-      "heat": 0.005,
+      "heat": 0.003,
       "status": "dormant",
       "sloppers": [
         "2026-10-06",
@@ -1179,7 +1268,7 @@
       "firstSeen": "2026-11-05",
       "lastSeen": "2026-11-05",
       "daysActive": 1,
-      "heat": 0.005,
+      "heat": 0.003,
       "status": "dormant",
       "sloppers": [
         "2026-11-05"
@@ -1200,7 +1289,7 @@
       "firstSeen": "2026-10-24",
       "lastSeen": "2026-11-04",
       "daysActive": 3,
-      "heat": 0.003,
+      "heat": 0.002,
       "status": "dormant",
       "sloppers": [
         "2026-10-24",
@@ -1223,7 +1312,7 @@
       "firstSeen": "2026-11-04",
       "lastSeen": "2026-11-04",
       "daysActive": 1,
-      "heat": 0.003,
+      "heat": 0.002,
       "status": "dormant",
       "sloppers": [
         "2026-11-04"
@@ -1244,7 +1333,7 @@
       "firstSeen": "2026-11-04",
       "lastSeen": "2026-11-04",
       "daysActive": 1,
-      "heat": 0.003,
+      "heat": 0.002,
       "status": "dormant",
       "sloppers": [
         "2026-11-04"
@@ -1264,7 +1353,7 @@
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02",
       "daysActive": 1,
-      "heat": 0.002,
+      "heat": 0.001,
       "status": "dormant",
       "sloppers": [
         "2026-11-02"
@@ -1284,7 +1373,7 @@
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02",
       "daysActive": 1,
-      "heat": 0.002,
+      "heat": 0.001,
       "status": "dormant",
       "sloppers": [
         "2026-11-02"
@@ -1305,7 +1394,7 @@
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02",
       "daysActive": 1,
-      "heat": 0.002,
+      "heat": 0.001,
       "status": "dormant",
       "sloppers": [
         "2026-11-02"
@@ -1453,7 +1542,7 @@
       "firstSeen": "2026-10-30",
       "lastSeen": "2026-10-30",
       "daysActive": 1,
-      "heat": 0.001,
+      "heat": 0,
       "status": "dormant",
       "sloppers": [
         "2026-10-30"
@@ -1475,7 +1564,7 @@
       "firstSeen": "2026-10-30",
       "lastSeen": "2026-10-30",
       "daysActive": 1,
-      "heat": 0.001,
+      "heat": 0,
       "status": "dormant",
       "sloppers": [
         "2026-10-30"
@@ -1497,7 +1586,7 @@
       "firstSeen": "2026-10-30",
       "lastSeen": "2026-10-30",
       "daysActive": 1,
-      "heat": 0.001,
+      "heat": 0,
       "status": "dormant",
       "sloppers": [
         "2026-10-30"
@@ -1518,7 +1607,7 @@
       "firstSeen": "2026-10-30",
       "lastSeen": "2026-10-30",
       "daysActive": 1,
-      "heat": 0.001,
+      "heat": 0,
       "status": "dormant",
       "sloppers": [
         "2026-10-30"
