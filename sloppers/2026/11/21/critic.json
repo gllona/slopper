@@ -1,0 +1,104 @@
+{
+  "passed": false,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"robot\" extends outside the safe area in the final frame (x 45…322, y 380…842)",
+          "\"teen2\" extends outside the safe area in the final frame (x 856…1062, y 625…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "Casting and color are solid, but clipped elements at the frame edges, an underfilled right half with an uneven gap, a near-illegible blank rulebook, and a vertical-divider-plus-tag-label composition that's been used twice recently pull the average below the bar.",
+        "revisionNotes": [
+          "Robot and teen2 clip the safe area (lint-flagged): scale robot down to ~1.0 or shift x 0.17→0.21; shift teen2 to x~0.84 so the right arm stops clipping at the frame edge.",
+          "Composition is lopsided in both halves — left mass (robot+diplomat+label) crowds x 0.17-0.4 leaving the center empty, and the right half has a dead gap between the divider and the eye-bag; pull eye-bag to x~0.56 and spread teens to fill the half.",
+          "Brief calls for 'a cluster of diplomats' but only one sitting figure appears, reading as one shrugging person rather than a stalled summit — add a second seated human at the table.",
+          "The table/open-rulebook prop reads as a small stool with a tiny tag at this scale; bump table scale to ~1.3 and keep the paper rect clearly white so 'blank rulebook' is legible.",
+          "'FALSE ALARM' label straddles the vertical divider line, visually crossing into the left half; reposition it (or change attach side) so it sits fully inside the right half.",
+          "The siren above teen2 reads as a beret/hat, not a flashing police light; enlarge the red/blue domes and add a flash mark so it's unmistakably a siren.",
+          "Composition device (vertical-divider split frame with two short tag labels) repeats at least two recent sloppers ('CHIEF RESIGNS/RIVAL LAUNCHES', 'PAUSED/TWICE AS FAST') — try a different split device or a single unified scene for freshness."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 2,
+          "style": 3,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 4
+        },
+        "verdict": "The cast and metaphor are sound, but the left scene is a tangled overlap of robot/diplomats/table and the right scene is missing its key prop (the bag), so the joke doesn't read cleanly in 3 seconds — not ready to publish.",
+        "revisionNotes": [
+          "The robot, table, and both diplomats are anchored almost on top of each other (x 0.2/0.3/0.39, same y) — pull the robot back to a background anchor (x 0.15, y 0.55, scale 1.3) so it looms behind without its arms/torso colliding with the diplomats' bodies.",
+          "The bag of chips is missing from the render — it's the whole point of the right-hand joke. Give it its own visible raw-shape component (rounded rectangle, a few horizontal snack-bag lines) at the base of the camera pole, scaled ~0.4, clearly separate from the pole's foot.",
+          "The open rulebook is swallowed inside the diplomats' chests — raise the table/paper anchor or shrink diplomat scale slightly so the blank page is visible above their laps.",
+          "No thin vertical divider line between the two halves as specified in the brief — add it to separate 'no rules' from 'false alarm' and tighten the composition.",
+          "The siren/flashing-light raw shape (two overlapping half-domes) doesn't read as a police light; redraw with a clear dome plus flash rays or swap for a simpler recognizable shape.",
+          "Left half is crowded and tangled while the right half floats in empty space — rebalance by spreading the camera/bag/teens/siren group wider or bumping teen scale to ~0.7."
+        ]
+      },
+      "average": 2.57,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"robot\" (robot) was moved 11 px, 56 px to stay inside the artboard",
+          "\"robot\" extends outside the safe area in the final frame (x 9…337, y 17…650)",
+          "\"teen2\" extends outside the safe area in the final frame (x 845…1056, y 683…907)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "The split-frame concept and casting are sound, but execution is lopsided and buggy: the left half is overcrowded and clipping the safe area while the right half is sparse with a nearly invisible bag and a floating, disconnected siren, and the composition repeats a vertical-divider split seen in several recent pieces. Does not pass as-is.",
+        "revisionNotes": [
+          "Robot and diplomat cluster are clipped against the left/top edges (lint flags robot's safe-area breach at x9-337, y17-650); scale the robot down to ~1.1 and move its anchor to x=0.18, y=0.5 so it sits clear of the margin.",
+          "Teen2 is clipped at the right safe-area edge (x845-1056); move its anchor left to x=0.84 and reduce scale to 0.65 so both teens are fully inside the frame.",
+          "The bag is nearly invisible at scale 0.4; bump it to ~0.9 and move it directly beneath the camera-pole (e.g. x=0.63, y=0.83) so the AI-eye's downward gaze and the bag read as one connected beat instead of two unrelated props.",
+          "The siren floats in empty space between the divider and the teens with no visual link to them; move its anchor closer to the teens (x≈0.8, y≈0.6) and ground its pole on the sidewalk line.",
+          "The 'NO RULES' label sits directly over the diplomats' faces/book; reattach it to the side of the table instead of on top to avoid overlapping the cast.",
+          "Right half reads sparse while left half reads crowded against the edge; rebalance element scale/spacing across the divider so both halves carry comparable visual weight."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    }
+  ]
+}

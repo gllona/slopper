@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-21",
+  "number": 53,
+  "mode": "fresh",
+  "motto": "Talks Stall, Harm Doesn't",
+  "phrase": "World leaders failed to agree on rules for killer robots this week. Meanwhile, an AI algorithm mistook a bag of chips for a gun, sending police after two teenagers.",
+  "phraseAlternatives": [
+    "World powers could not agree on rules for killer robots this week. Elsewhere, an AI system mistook a bag of chips for a gun and sent police after two teenagers.",
+    "Diplomats talked for a week about rules for autonomous weapons, then stopped. An ordinary AI system already sent police after two teenagers over a mistaken bag of chips.",
+    "Global talks on banning killer robots collapsed this week. A smaller AI mistake already sent police after two teenagers, over a bag of chips mistaken for a gun."
+  ],
+  "alt": "A split scene. On the left, a tall robot looms behind a diplomat sitting at a table with an open, blank book, labeled \"no rules.\" On the right, a camera on a pole points down at a bag on the ground while two worried teenagers stand nearby, labeled \"false alarm.\"",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "policy": 3,
+    "safety": 3,
+    "law": 2,
+    "society": 2,
+    "industry": 2,
+    "capabilities": 1,
+    "science": 2,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 0
+  },
+  "storylines": [
+    "un-killer-robots-talks-collapse",
+    "ai-misidentifies-teens-as-armed",
+    "nvidia-spy-case",
+    "ai-agent-privacy-leaks",
+    "ai-navier-stokes-proof-rivalry",
+    "spain-datacenter-efficiency-rules"
+  ],
+  "topStories": [
+    {
+      "title": "UN Fails To Agree On Rules For Autonomous Weapons",
+      "itemIds": [
+        "feeds:63572d439b34",
+        "hackernews:2134cd70653f",
+        "gdelt:c8f76d3991a4"
+      ],
+      "dimensions": [
+        "policy",
+        "safety"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "un-killer-robots-talks-collapse"
+    },
+    {
+      "title": "Lawsuit Says AI Mistook A Bag Of Chips For A Gun, Teens Detained",
+      "itemIds": [
+        "gdelt:065e44db00b0",
+        "gdelt:e091d376802b"
+      ],
+      "dimensions": [
+        "safety",
+        "law",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-misidentifies-teens-as-armed"
+    },
+    {
+      "title": "Investigation Ties Shell Company Network To Nvidia Chip Smuggling Into China",
+      "itemIds": [
+        "techmeme:0bb7d453392b"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "Signal Restricts Screenshots To Fight AI Surveillance",
+      "itemIds": [
+        "feeds:f6f5282ad9e3"
+      ],
+      "dimensions": [
+        "safety",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agent-privacy-leaks"
+    },
+    {
+      "title": "Rival AI-Aided Proof Challenges Prior Fluid-Dynamics Breakthrough",
+      "itemIds": [
+        "techmeme:cf42b883ad24"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-navier-stokes-proof-rivalry"
+    },
+    {
+      "title": "Spain Orders Datacenters To Cut Water Use And Boost Renewables",
+      "itemIds": [
+        "gdelt:8d677726810c"
+      ],
+      "dimensions": [
+        "planet",
+        "policy",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "spain-datacenter-efficiency-rules"
+    }
+  ],
+  "brief": {
+    "concept": "Diplomats sit around a table with a blank rulebook for autonomous weapons, a tall robot shape looming unchecked behind them, while on the other side of the frame a small AI eye mistakes an ordinary bag of chips on the ground for a weapon and sends two teenagers into a police stop.",
+    "metaphor": "The world can't agree on rules for the biggest kind of killer robot, while a much smaller, everyday AI has already decided who looks dangerous.",
+    "cast": [
+      {
+        "who": "a cluster of diplomats sitting around a table with a blank, open rulebook",
+        "kind": "person"
+      },
+      {
+        "who": "a tall robot-soldier silhouette looming unchecked in the corner of the room",
+        "kind": "ai"
+      },
+      {
+        "who": "a small AI-eye camera on a pole, pointing down at an ordinary bag on the sidewalk",
+        "kind": "ai"
+      },
+      {
+        "who": "two teenagers standing with raised hands beside a flashing police light",
+        "kind": "person"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Split frame divided by a thin vertical line. Left half: diplomat figures around a round table, shrugging over an open, empty rulebook page, a tall robot silhouette looming behind them in shadow; small text 'NO RULES'. Right half: a street scene with a small AI-eye icon on a pole pointing down at a bag on the sidewalk, two human figures standing with hands raised beside a flashing police light; small text 'FALSE ALARM'. Keep each half to 2-3 shapes; limit text to the two short labels.",
+    "artType": "static",
+    "alt": "A split illustration. On the left, diplomats sit at a table with a blank rulebook while a tall robot silhouette looms unchecked behind them, labeled 'no rules'. On the right, a small AI-eye camera points at an ordinary bag on the sidewalk while two teenagers stand with raised hands beside a flashing police light, labeled 'false alarm'."
+  },
+  "sources": [
+    {
+      "id": "feeds:63572d439b34",
+      "title": "The UN fails to agree on rules regulating ‘killer robots’",
+      "url": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-21T20:03:37.000Z"
+    },
+    {
+      "id": "hackernews:2134cd70653f",
+      "title": "International UN talks on controlling use of autonomous weapons collapse",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
+      "source": "hackernews",
+      "publisher": "theguardian.com",
+      "publishedAt": "2026-11-21T23:10:21.000Z"
+    },
+    {
+      "id": "gdelt:c8f76d3991a4",
+      "title": "Regulación de robots asesinos en debate en ONU",
+      "url": "https://www.diariolibre.com/mundo/estados-unidos/2026/11/20/regulacion-de-robots-asesinos-en-debate-en-onu/3727262",
+      "source": "gdelt",
+      "publisher": "diariolibre.com",
+      "publishedAt": "2026-11-21T06:45:00.000Z"
+    },
+    {
+      "id": "gdelt:065e44db00b0",
+      "title": "New Lawsuit Reveals More About AI Error That Put Baltimore Teens in Police Crosshairs Over a Bag of Chips – The Root",
+      "url": "https://www.theroot.com/new-lawsuit-reveals-more-about-ai-error-that-put-baltim-2000136390",
+      "source": "gdelt",
+      "publisher": "theroot.com",
+      "publishedAt": "2026-11-21T00:30:00.000Z"
+    },
+    {
+      "id": "gdelt:e091d376802b",
+      "title": "Lawsuit : Baltimore Teens Detained , AI Mistook Chips For Gun",
+      "url": "https://thebeatdfw.com/4548921/lawsuit-baltimore-teens-detained-after-ai-mistook-chips-for-a-gun/",
+      "source": "gdelt",
+      "publisher": "thebeatdfw.com",
+      "publishedAt": "2026-11-21T11:30:00.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.14,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-22T11:34:03.302Z"
+}
