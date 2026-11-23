@@ -1,0 +1,155 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {},
+  "elements": [
+    {
+      "id": "divider",
+      "component": "raw",
+      "at": {
+        "x": 0.5,
+        "y": 0.417
+      },
+      "scale": 1,
+      "opacity": 0.4,
+      "props": {
+        "width": 10,
+        "height": 740
+      },
+      "svg": "<rect x=\"2\" y=\"0\" width=\"6\" height=\"740\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "gov-building",
+      "component": "raw",
+      "at": {
+        "x": 0.26,
+        "y": 0.527
+      },
+      "scale": 1,
+      "props": {
+        "width": 380,
+        "height": 460
+      },
+      "svg": "<rect x=\"20\" y=\"120\" width=\"340\" height=\"340\" class=\"r-body-alt\"/><polygon points=\"20,120 190,20 360,120\" class=\"r-accent\"/><rect x=\"150\" y=\"330\" width=\"80\" height=\"130\" class=\"r-ink\"/><rect x=\"60\" y=\"160\" width=\"50\" height=\"70\" class=\"r-shade\"/><rect x=\"270\" y=\"160\" width=\"50\" height=\"70\" class=\"r-shade\"/>"
+    },
+    {
+      "id": "official",
+      "component": "human",
+      "at": {
+        "x": 0.26,
+        "y": 0.74
+      },
+      "scale": 1,
+      "props": {
+        "mood": "sad",
+        "pose": "stand",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "box",
+      "component": "raw",
+      "attachTo": "official",
+      "side": "right",
+      "offset": [
+        -10,
+        30
+      ],
+      "scale": 1,
+      "props": {
+        "width": 120,
+        "height": 100
+      },
+      "svg": "<rect x=\"10\" y=\"30\" width=\"100\" height=\"60\" class=\"r-accent\"/><rect x=\"10\" y=\"20\" width=\"100\" height=\"15\" class=\"r-body-alt\"/><path d=\"M60,20 L60,90\" class=\"r-thin\"/><path d=\"M10,55 L110,55\" class=\"r-thin\"/>"
+    },
+    {
+      "id": "resigned-label",
+      "component": "label",
+      "attachTo": "gov-building",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "RESIGNED",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    },
+    {
+      "id": "bank-building",
+      "component": "raw",
+      "at": {
+        "x": 0.74,
+        "y": 0.527
+      },
+      "scale": 1,
+      "props": {
+        "width": 380,
+        "height": 460
+      },
+      "svg": "<rect x=\"0\" y=\"80\" width=\"380\" height=\"40\" class=\"r-accent-2\"/><rect x=\"20\" y=\"120\" width=\"340\" height=\"340\" class=\"r-body-alt\"/><rect x=\"160\" y=\"330\" width=\"60\" height=\"130\" class=\"r-ink\"/>"
+    },
+    {
+      "id": "bank-robot",
+      "component": "robot",
+      "at": {
+        "x": 0.6,
+        "y": 0.74
+      },
+      "scale": 0.5,
+      "rotate": -6,
+      "flip": true,
+      "props": {
+        "mood": "worried",
+        "arms": "down",
+        "color": "body"
+      }
+    },
+    {
+      "id": "customer",
+      "component": "human",
+      "at": {
+        "x": 0.79,
+        "y": 0.74
+      },
+      "scale": 0.7,
+      "props": {
+        "mood": "worried",
+        "pose": "stand",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "bill",
+      "component": "raw",
+      "attachTo": "customer",
+      "side": "top",
+      "offset": [
+        -90,
+        10
+      ],
+      "scale": 1,
+      "props": {
+        "width": 120,
+        "height": 150
+      },
+      "svg": "<polygon points=\"10,10 110,10 110,120 100,130 90,120 80,130 70,120 60,130 50,120 40,130 30,120 20,130 10,120\" class=\"r-paper\"/><path d=\"M25,35 L95,35\" class=\"r-thin\"/><path d=\"M25,55 L95,55\" class=\"r-thin\"/><path d=\"M25,75 L95,75\" class=\"r-thin\"/><circle cx=\"75\" cy=\"95\" r=\"20\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "problem-label",
+      "component": "label",
+      "attachTo": "bill",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "YOUR PROBLEM",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "Split paper-cutout scene divided by a thin vertical line. Left: a sad official carries a box out of a government building tagged RESIGNED. Right: a small worried robot, facing away, steps back from a bank building while a human customer stands nearby under a receipt-shaped bill tagged YOUR PROBLEM."
+}

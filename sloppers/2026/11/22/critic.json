@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"customer\" extends outside the safe area in the final frame (x 857…1022, y 458…799)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 5
+        },
+        "verdict": "The left half (official, box, RESIGNED) reads cleanly, but the right half is cluttered and overlapping — robot, bill, and customer collide, the customer clips the safe area, and the 'turned away' beat isn't staged, so the joke doesn't land as a clean split comparison. Not ready to publish.",
+        "revisionNotes": [
+          "The right half is a tangled cluster: bank-robot, bill, and customer overlap each other and the building pillars. Space them out — move bank-robot to x≈0.60, customer to x≈0.90, and inset the pillars so nothing collides.",
+          "Pull 'customer' inside the safe area: shift anchor from x 0.87 to about x 0.80-0.82 and drop scale to 0.7 so the figure doesn't clip the right edge (per lint warning).",
+          "The YOUR PROBLEM label currently overlaps the bank's roof banner and the customer's head — attach it directly above 'bill' only, not spanning the whole building top, or raise its y offset.",
+          "Show the robot actually being turned away at the door (e.g. give it a 'walk/retreat' pose facing left, away from the bank, with the door shape behind it) — right now it just stands flat next to the customer with no sense of rejection.",
+          "Add a thin vertical divider line between the two halves as the brief specifies; currently there's no visual split, which weakens the 'two institutions, same pattern' joke.",
+          "Swap the bill's rectangle/circle raw shape for something clearer (e.g. a flatter ticket shape) so it doesn't read as another robot part when nested next to bank-robot."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 4,
+          "style": 4,
+          "polish": 4,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "A clean, readable split-screen with correct human/robot casting and strong paper-cutout polish, but it leans on the labels to carry meaning the art should: the left panel has no AI visual cue at all, and the robot on the right is just standing there rather than visibly being turned away, while its composition closely echoes a recent 'chief resigns' slopper.",
+        "revisionNotes": [
+          "Add back the AI cue on the left half (tiny AI-eye earpiece beside an exam paper near a desk) — right now the left panel shows only a sad man with a box and reads as a generic resignation, with no visual link to the AI-cheating scandal without the caption.",
+          "Show the robot actively being turned away at the bank door (e.g. a door/arm shape pushing it back, or robot mid-step away from the entrance) — currently it just stands passively beside the customer, so the 'banned' beat doesn't read.",
+          "Reattach the 'YOUR PROBLEM' bill into the customer's hand (set holds to the bill prop instead of 'none') — right now it floats in the gap between robot and customer, closer to the robot, so ownership of the bill is ambiguous.",
+          "Give bank-robot a card prop in hand per the brief, to sell the 'card in hand, turned away' beat.",
+          "Novelty: the vertical-divider split-screen with a labeled building and a resignation beat is very close to the recent 'CHIEF RESIGNS / RIVAL LAUNCHES' slopper — vary the framing device (e.g. drop the hard divider, or use a different split like a counter/desk) so it doesn't read as a reskin."
+        ]
+      },
+      "average": 3.57,
+      "passed": true
+    }
+  ]
+}
