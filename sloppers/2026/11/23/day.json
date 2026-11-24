@@ -1,0 +1,237 @@
+{
+  "date": "2026-11-23",
+  "number": 55,
+  "mode": "fresh",
+  "motto": "Resigned, Reinstated, Richer",
+  "phrase": "A chip maker's chief executive got the job back, and its stock gained nearly a trillion dollars. Two states sued a social network over a chatbot making illegal child images.",
+  "phraseAlternatives": [
+    "Investors cheered as a chip maker's ousted chief executive returned to the top job within days. Two states sued a social network over illegal AI-made images of children.",
+    "An AI company let its own chatbot start reviewing and approving code without a human. Meanwhile, a reinstated chip-company chief executive watched the stock gain nearly a trillion dollars overnight.",
+    "The UN asked for a year to build rules against AI risks, while one chip company's stock gained nearly a trillion dollars in a single afternoon.",
+    "A chief executive lost the job, then got it back in two weeks, a trillion dollars richer. Two states still want a chatbot stopped from making illegal child images."
+  ],
+  "alt": "Top half: a company building with its door open, a proud executive walking toward it holding a briefcase, and a rising stock chart tagged plus one trillion dollars. Bottom half: a large gavel hangs in clear air above a small worried robot that holds up a photo covered by a black censor bar.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 2,
+    "safety": 2,
+    "society": 2,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": 1,
+    "calm_frantic": 2
+  },
+  "storylines": [
+    "nvidia-spy-case",
+    "states-sue-grok-csam",
+    "ai-coding-bottleneck-code-review",
+    "datacenter-energy-footprint",
+    "un-ai-risk-mechanism-call",
+    "china-ai-export-controls"
+  ],
+  "topStories": [
+    {
+      "title": "Nvidia's ousted CEO reinstated after political pressure, stock jumps nearly $1 trillion",
+      "itemIds": [
+        "feeds:27a6b6af092d",
+        "feeds:d40dd027bfff",
+        "feeds:4e08509e1a0d",
+        "feeds:16d017c8f7e9",
+        "feeds:76b72dfbff18",
+        "feeds:29c9de3a1f86",
+        "feeds:d70157d1228f",
+        "feeds:4aa489ee2a12"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "States sue a social network over chatbot-made child sexual abuse images",
+      "itemIds": [
+        "feeds:bf2b853553a4",
+        "feeds:590844463446",
+        "feeds:58aaa640d6e8"
+      ],
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "states-sue-grok-csam"
+    },
+    {
+      "title": "AI coding agent now reviews and approves its own pull requests",
+      "itemIds": [
+        "feeds:a71658de3025",
+        "feeds:5e2478fb7557"
+      ],
+      "dimensions": [
+        "labor",
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-coding-bottleneck-code-review"
+    },
+    {
+      "title": "AI datacenters' power demand disrupts UN climate talks",
+      "itemIds": [
+        "feeds:50c35b09d2ce"
+      ],
+      "dimensions": [
+        "planet",
+        "policy",
+        "industry"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-energy-footprint"
+    },
+    {
+      "title": "UN Secretary-General calls for global AI risk mechanism within a year",
+      "itemIds": [
+        "gdelt:6cc5ae4805c4",
+        "gdelt:b6bccd0dddb4"
+      ],
+      "dimensions": [
+        "policy",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "un-ai-risk-mechanism-call"
+    },
+    {
+      "title": "Chip supplier at center of scandal heads for US blacklist",
+      "itemIds": [
+        "feeds:ea39f8a43a60",
+        "feeds:ab9255fea6bc"
+      ],
+      "dimensions": [
+        "policy",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "china-ai-export-controls"
+    }
+  ],
+  "brief": {
+    "concept": "A disgraced chip-company executive strides back through his firm's reopened door as the stock rockets behind him, while across the frame a court gavel falls on a small AI robot still handing out images the law says it shouldn't.",
+    "metaphor": "Swift forgiveness for power, slow justice for harm.",
+    "cast": [
+      {
+        "who": "a company building with its front door swinging open again",
+        "kind": "institution"
+      },
+      {
+        "who": "a human chief executive walking back through the door, briefcase in hand, glancing back",
+        "kind": "person"
+      },
+      {
+        "who": "a steep stock arrow rocketing upward beside the building",
+        "kind": "object"
+      },
+      {
+        "who": "a courthouse gavel coming down",
+        "kind": "institution"
+      },
+      {
+        "who": "a small AI robot holding up a photo covered by a censor bar",
+        "kind": "ai"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split composition. Left half: a company building with its door open, a human executive stepping back inside with a briefcase, a steep arrow climbing the sky behind the roofline. Right half: a large gavel descending toward a small AI robot holding a photo blacked out by a censor bar. A thin vertical line divides the two scenes. At most one small text tag near the arrow (e.g. '+$1T'). Clean blueprint linework, pale fills, one yellow highlight on the arrow's tip.",
+    "artType": "static",
+    "alt": "A chief executive walks back through his company's reopened door as a stock arrow rockets upward beside him. On the other side of the image, a gavel comes down on a small AI robot holding a photo covered by a censor bar."
+  },
+  "sources": [
+    {
+      "id": "feeds:27a6b6af092d",
+      "title": "Jensen Huang reinstated as Nvidia CEO, board chair",
+      "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-11-23T15:46:18.000Z"
+    },
+    {
+      "id": "feeds:16d017c8f7e9",
+      "title": "Nvidia value climbs by almost $1tn and tech stocks rally after Jensen Huang returns",
+      "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+      "source": "feeds",
+      "publisher": "BBC News",
+      "publishedAt": "2026-11-23T21:23:42.000Z"
+    },
+    {
+      "id": "feeds:f4cd1d636b48",
+      "title": "Jensen Huang Is Back as Nvidia CEO",
+      "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-11-23T14:27:35.000Z"
+    },
+    {
+      "id": "feeds:bf2b853553a4",
+      "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-11-23T21:30:44.000Z"
+    },
+    {
+      "id": "feeds:590844463446",
+      "title": "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-23T18:26:47.000Z"
+    },
+    {
+      "id": "feeds:58aaa640d6e8",
+      "title": "States Sue SpaceX Over Grok Deepfakes",
+      "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-11-23T11:00:00.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-24T11:32:39.424Z"
+}

@@ -1,0 +1,195 @@
+{
+  "topStories": [
+    {
+      "title": "Nvidia's ousted CEO reinstated after political pressure, stock jumps nearly $1 trillion",
+      "itemIds": [
+        "feeds:27a6b6af092d",
+        "feeds:d40dd027bfff",
+        "feeds:4e08509e1a0d",
+        "feeds:16d017c8f7e9",
+        "feeds:76b72dfbff18",
+        "feeds:29c9de3a1f86",
+        "feeds:d70157d1228f",
+        "feeds:4aa489ee2a12"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 3,
+      "breadth": 3,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "States sue a social network over chatbot-made child sexual abuse images",
+      "itemIds": [
+        "feeds:bf2b853553a4",
+        "feeds:590844463446",
+        "feeds:58aaa640d6e8"
+      ],
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "states-sue-grok-csam"
+    },
+    {
+      "title": "AI coding agent now reviews and approves its own pull requests",
+      "itemIds": [
+        "feeds:a71658de3025",
+        "feeds:5e2478fb7557"
+      ],
+      "dimensions": [
+        "labor",
+        "capabilities",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-coding-bottleneck-code-review"
+    },
+    {
+      "title": "AI datacenters' power demand disrupts UN climate talks",
+      "itemIds": [
+        "feeds:50c35b09d2ce"
+      ],
+      "dimensions": [
+        "planet",
+        "policy",
+        "industry"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "datacenter-energy-footprint"
+    },
+    {
+      "title": "UN Secretary-General calls for global AI risk mechanism within a year",
+      "itemIds": [
+        "gdelt:6cc5ae4805c4",
+        "gdelt:b6bccd0dddb4"
+      ],
+      "dimensions": [
+        "policy",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 2,
+      "storyline": "un-ai-risk-mechanism-call"
+    },
+    {
+      "title": "Chip supplier at center of scandal heads for US blacklist",
+      "itemIds": [
+        "feeds:ea39f8a43a60",
+        "feeds:ab9255fea6bc"
+      ],
+      "dimensions": [
+        "policy",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "china-ai-export-controls"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "states-sue-grok-csam",
+      "title": "States Sue A Social Network Over AI-Made Child Sexual Abuse Images",
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "motifs": [
+        "a gavel coming down on a small robot holding a censored photo",
+        "a courthouse step piled with lawsuit papers beside a glowing chat icon",
+        "a censor bar sliding over a robot's camera lens"
+      ]
+    },
+    {
+      "id": "un-ai-risk-mechanism-call",
+      "title": "UN Chief Calls For A Global AI Risk Mechanism",
+      "dimensions": [
+        "policy",
+        "safety"
+      ],
+      "motifs": [
+        "a globe wrapped in a loose safety belt with a one-year clock beside it",
+        "a podium figure holding up a blank international rulebook",
+        "a countdown clock beside a handshake of many small flags"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "The Nvidia CEO reinstatement scores novelty 3 × magnitude 3 × breadth 3 = 27, far past the fresh threshold of 8, with new facts (reinstatement, political pressure, $1T stock swing) not covered in any recent slopper.",
+  "motto": "Resigned, Reinstated, Richer",
+  "phrase": "A chip maker's chief executive got the job back, and its stock gained nearly a trillion dollars. Two states sued a social network over a chatbot making illegal child images.",
+  "phraseAlternatives": [
+    "Investors cheered as a chip maker's ousted chief executive returned to the top job within days. Two states sued a social network over illegal AI-made images of children.",
+    "An AI company let its own chatbot start reviewing and approving code without a human. Meanwhile, a reinstated chip-company chief executive watched the stock gain nearly a trillion dollars overnight.",
+    "The UN asked for a year to build rules against AI risks, while one chip company's stock gained nearly a trillion dollars in a single afternoon.",
+    "A chief executive lost the job, then got it back in two weeks, a trillion dollars richer. Two states still want a chatbot stopped from making illegal child images."
+  ],
+  "brief": {
+    "concept": "A disgraced chip-company executive strides back through his firm's reopened door as the stock rockets behind him, while across the frame a court gavel falls on a small AI robot still handing out images the law says it shouldn't.",
+    "metaphor": "Swift forgiveness for power, slow justice for harm.",
+    "cast": [
+      {
+        "who": "a company building with its front door swinging open again",
+        "kind": "institution"
+      },
+      {
+        "who": "a human chief executive walking back through the door, briefcase in hand, glancing back",
+        "kind": "person"
+      },
+      {
+        "who": "a steep stock arrow rocketing upward beside the building",
+        "kind": "object"
+      },
+      {
+        "who": "a courthouse gavel coming down",
+        "kind": "institution"
+      },
+      {
+        "who": "a small AI robot holding up a photo covered by a censor bar",
+        "kind": "ai"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split composition. Left half: a company building with its door open, a human executive stepping back inside with a briefcase, a steep arrow climbing the sky behind the roofline. Right half: a large gavel descending toward a small AI robot holding a photo blacked out by a censor bar. A thin vertical line divides the two scenes. At most one small text tag near the arrow (e.g. '+$1T'). Clean blueprint linework, pale fills, one yellow highlight on the arrow's tip.",
+    "artType": "static",
+    "alt": "A chief executive walks back through his company's reopened door as a stock arrow rockets upward beside him. On the other side of the image, a gavel comes down on a small AI robot holding a photo covered by a censor bar."
+  },
+  "sourceIds": [
+    "feeds:27a6b6af092d",
+    "feeds:16d017c8f7e9",
+    "feeds:f4cd1d636b48",
+    "feeds:bf2b853553a4",
+    "feeds:590844463446",
+    "feeds:58aaa640d6e8"
+  ],
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 2,
+    "safety": 2,
+    "society": 2,
+    "planet": 1
+  },
+  "mood": {
+    "hype_doom": 1,
+    "calm_frantic": 2
+  }
+}
