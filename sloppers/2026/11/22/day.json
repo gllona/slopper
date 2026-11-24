@@ -1,0 +1,207 @@
+{
+  "date": "2026-11-22",
+  "number": 54,
+  "mode": "fresh",
+  "motto": "Minister Resigns, Banks Don't",
+  "phrase": "A country's top education official resigned after an AI exam-cheating scandal. Meanwhile, banks are banning AI agents from accounts, blaming customers for any mistakes.",
+  "phraseAlternatives": [
+    "An education minister lost their job over an AI cheating scandal. Banks, meanwhile, are making sure nobody at their end pays for an AI agent's mistakes.",
+    "AI cheating cost an education minister their job. Banks are making sure an AI agent's mistakes cost only the customer.",
+    "One official resigned over AI cheating in exams. Banks just made sure AI mistakes never cost them a thing."
+  ],
+  "alt": "Split paper-cutout scene divided by a thin vertical line. Left: a sad official carries a box out of a government building tagged RESIGNED. Right: a small worried robot, facing away, steps back from a bank building while a human customer stands nearby under a receipt-shaped bill tagged YOUR PROBLEM.",
+  "artType": "static",
+  "style": "paper-cutout",
+  "dimensions": {
+    "education": 3,
+    "policy": 2,
+    "society": 2,
+    "industry": 2,
+    "labor": 1,
+    "law": 1,
+    "safety": 1,
+    "planet": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "ai-exam-cheating-nationwide-alert",
+    "datacenter-energy-footprint",
+    "ai-agent-bans-spread",
+    "china-ai-export-controls",
+    "ai-layoffs-worker-occupation"
+  ],
+  "topStories": [
+    {
+      "title": "South Korea's AI exam-cheating scandal forces education minister to resign",
+      "itemIds": [
+        "gdelt:fa57f9654dcc",
+        "gdelt:da1a62cf07e8",
+        "gdelt:223f96f7a84d",
+        "gdelt:53411eeaace3",
+        "gdelt:807f5d0986d8"
+      ],
+      "dimensions": [
+        "education",
+        "policy",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-exam-cheating-nationwide-alert"
+    },
+    {
+      "title": "Data centers' power mix and emissions draw fresh climate warnings",
+      "itemIds": [
+        "hackernews:d7e78f94bca2",
+        "hackernews:16636a52f663",
+        "gdelt:5ebc9900539f",
+        "gdelt:eb6eda713975",
+        "gdelt:f4930b5ecfd8"
+      ],
+      "dimensions": [
+        "planet",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "datacenter-energy-footprint"
+    },
+    {
+      "title": "Major banks ban AI agents from accounts, shift mistake liability to customers",
+      "itemIds": [
+        "feeds:de7fcf448158"
+      ],
+      "dimensions": [
+        "industry",
+        "safety",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agent-bans-spread"
+    },
+    {
+      "title": "US presses a major chip maker to explain chip sales to China",
+      "itemIds": [
+        "gdelt:2a8cbf691b52"
+      ],
+      "dimensions": [
+        "policy",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "china-ai-export-controls"
+    },
+    {
+      "title": "Developers laid off by AI occupy the software they used to maintain",
+      "itemIds": [
+        "gdelt:905da9d050b0"
+      ],
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-layoffs-worker-occupation"
+    }
+  ],
+  "brief": {
+    "concept": "An education official walks out of a government building carrying a box after an AI cheating scandal, while across town a bank's door turns away a small AI robot and hands the bill to a human customer instead.",
+    "metaphor": "Accountability flows downhill: a human official pays for the AI's trick, and a human customer pays for the AI's mistake, while the AI itself is simply shown the door.",
+    "cast": [
+      {
+        "who": "a human education official carrying a box out of a government building",
+        "kind": "person"
+      },
+      {
+        "who": "a tiny AI-eye earpiece resting beside a student's exam paper",
+        "kind": "ai"
+      },
+      {
+        "who": "a bank building with its door shown turning something away",
+        "kind": "institution"
+      },
+      {
+        "who": "a small AI robot being turned away at the bank door, card in hand",
+        "kind": "ai"
+      },
+      {
+        "who": "a human customer standing nearby holding a bill stamped 'YOUR PROBLEM'",
+        "kind": "person"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Split scene divided by a thin vertical line. Left half: a government building with its door open; the official walks out carrying a box, and below, a small desk shows an exam paper with a tiny AI-eye earpiece resting beside it. Right half: a bank building whose door is shown turning away a small AI robot holding a card; beside it, a human customer holds up a bill stamped 'YOUR PROBLEM.' Keep both halves simple and visually balanced, 3-4 shapes per side.",
+    "artType": "static",
+    "alt": "Split illustration: on the left, an official carries a box out of a government building above a desk holding an exam paper with a tiny AI-eye earpiece; on the right, a bank turns away a small AI robot at its door while a human customer holds a bill stamped 'YOUR PROBLEM.'"
+  },
+  "sources": [
+    {
+      "id": "gdelt:fa57f9654dcc",
+      "title": "최교진 , 수능 대혼란 책임지고 사임 … 취임 14개월 만 ( 종합2보 )",
+      "url": "https://www.koreatimes.com/article/11632407",
+      "source": "gdelt",
+      "publisher": "koreatimes.com",
+      "publishedAt": "2026-11-22T22:30:00.000Z"
+    },
+    {
+      "id": "gdelt:da1a62cf07e8",
+      "title": "Renuncia ministro de Educación de Corea del Sur tras fraude con IA en exámenes",
+      "url": "https://www.sopitas.com/noticias/renuncia-ministro-educacion-corea-sur-fraude-ia-examenes/",
+      "source": "gdelt",
+      "publisher": "sopitas.com",
+      "publishedAt": "2026-11-22T18:45:00.000Z"
+    },
+    {
+      "id": "gdelt:223f96f7a84d",
+      "title": "South Korea Education Minister quits after AI cheating scandal rocks Suneung exam",
+      "url": "https://www.moneycontrol.com/world/south-korea-education-minister-quits-after-ai-cheating-scandal-rocks-suneung-exam-article-14086588.html",
+      "source": "gdelt",
+      "publisher": "moneycontrol.com",
+      "publishedAt": "2026-11-22T12:30:00.000Z"
+    },
+    {
+      "id": "gdelt:53411eeaace3",
+      "title": "수능 사흘 만에 물러난 교육장관 ... 작년부터 줄잇는 AI 커닝 에도 급조 대책만 - 사회ㅣ한국일보",
+      "url": "https://www.hankookilbo.com/news/article/A2026112213470002056",
+      "source": "gdelt",
+      "publisher": "hankookilbo.com",
+      "publishedAt": "2026-11-22T07:30:00.000Z"
+    },
+    {
+      "id": "feeds:de7fcf448158",
+      "title": "Banks Have Had It Up to Here With Your AI Agent",
+      "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+      "source": "feeds",
+      "publisher": "Wired",
+      "publishedAt": "2026-11-22T11:00:00.000Z"
+    }
+  ],
+  "critic": {
+    "passed": true,
+    "average": 3.57,
+    "iterations": 2
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-23T11:27:01.116Z"
+}

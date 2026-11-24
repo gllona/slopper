@@ -1,0 +1,159 @@
+{
+  "topStories": [
+    {
+      "title": "South Korea's AI exam-cheating scandal forces education minister to resign",
+      "itemIds": [
+        "gdelt:fa57f9654dcc",
+        "gdelt:da1a62cf07e8",
+        "gdelt:223f96f7a84d",
+        "gdelt:53411eeaace3",
+        "gdelt:807f5d0986d8"
+      ],
+      "dimensions": [
+        "education",
+        "policy",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-exam-cheating-nationwide-alert"
+    },
+    {
+      "title": "Data centers' power mix and emissions draw fresh climate warnings",
+      "itemIds": [
+        "hackernews:d7e78f94bca2",
+        "hackernews:16636a52f663",
+        "gdelt:5ebc9900539f",
+        "gdelt:eb6eda713975",
+        "gdelt:f4930b5ecfd8"
+      ],
+      "dimensions": [
+        "planet",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "datacenter-energy-footprint"
+    },
+    {
+      "title": "Major banks ban AI agents from accounts, shift mistake liability to customers",
+      "itemIds": [
+        "feeds:de7fcf448158"
+      ],
+      "dimensions": [
+        "industry",
+        "safety",
+        "law"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agent-bans-spread"
+    },
+    {
+      "title": "US presses a major chip maker to explain chip sales to China",
+      "itemIds": [
+        "gdelt:2a8cbf691b52"
+      ],
+      "dimensions": [
+        "policy",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "china-ai-export-controls"
+    },
+    {
+      "title": "Developers laid off by AI occupy the software they used to maintain",
+      "itemIds": [
+        "gdelt:905da9d050b0"
+      ],
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-layoffs-worker-occupation"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "ai-layoffs-worker-occupation",
+      "title": "Developers Laid Off By AI Occupy Their Former Software",
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "motifs": [
+        "software windows occupied by sit-in protesters",
+        "a padlocked office door plastered with protest notices",
+        "a server rack with a tiny picket sign leaning against it"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Two top stories today (the growing climate/energy toll of datacenters, and banks banning AI agents while pushing mistake liability onto customers) each score 12 on novelty×magnitude×breadth, well above the threshold of 8, so today earns its own fresh framing rather than continuing yesterday's killer-robots story.",
+  "motto": "Minister Resigns, Banks Don't",
+  "phrase": "A country's top education official resigned after an AI exam-cheating scandal. Meanwhile, banks are banning AI agents from accounts, blaming customers for any mistakes.",
+  "phraseAlternatives": [
+    "An education minister lost their job over an AI cheating scandal. Banks, meanwhile, are making sure nobody at their end pays for an AI agent's mistakes.",
+    "AI cheating cost an education minister their job. Banks are making sure an AI agent's mistakes cost only the customer.",
+    "One official resigned over AI cheating in exams. Banks just made sure AI mistakes never cost them a thing."
+  ],
+  "brief": {
+    "concept": "An education official walks out of a government building carrying a box after an AI cheating scandal, while across town a bank's door turns away a small AI robot and hands the bill to a human customer instead.",
+    "metaphor": "Accountability flows downhill: a human official pays for the AI's trick, and a human customer pays for the AI's mistake, while the AI itself is simply shown the door.",
+    "cast": [
+      {
+        "who": "a human education official carrying a box out of a government building",
+        "kind": "person"
+      },
+      {
+        "who": "a tiny AI-eye earpiece resting beside a student's exam paper",
+        "kind": "ai"
+      },
+      {
+        "who": "a bank building with its door shown turning something away",
+        "kind": "institution"
+      },
+      {
+        "who": "a small AI robot being turned away at the bank door, card in hand",
+        "kind": "ai"
+      },
+      {
+        "who": "a human customer standing nearby holding a bill stamped 'YOUR PROBLEM'",
+        "kind": "person"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Split scene divided by a thin vertical line. Left half: a government building with its door open; the official walks out carrying a box, and below, a small desk shows an exam paper with a tiny AI-eye earpiece resting beside it. Right half: a bank building whose door is shown turning away a small AI robot holding a card; beside it, a human customer holds up a bill stamped 'YOUR PROBLEM.' Keep both halves simple and visually balanced, 3-4 shapes per side.",
+    "artType": "static",
+    "alt": "Split illustration: on the left, an official carries a box out of a government building above a desk holding an exam paper with a tiny AI-eye earpiece; on the right, a bank turns away a small AI robot at its door while a human customer holds a bill stamped 'YOUR PROBLEM.'"
+  },
+  "sourceIds": [
+    "gdelt:fa57f9654dcc",
+    "gdelt:da1a62cf07e8",
+    "gdelt:223f96f7a84d",
+    "gdelt:53411eeaace3",
+    "feeds:de7fcf448158"
+  ],
+  "dimensions": {
+    "education": 3,
+    "policy": 2,
+    "society": 2,
+    "industry": 2,
+    "labor": 1,
+    "law": 1,
+    "safety": 1,
+    "planet": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
