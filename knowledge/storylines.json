@@ -2,6 +2,155 @@
   "version": 1,
   "storylines": [
     {
+      "id": "nvidia-spy-case",
+      "title": "China's Spy Campaign Targets A Chipmaker's CEO",
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry"
+      ],
+      "firstSeen": "2026-11-06",
+      "lastSeen": "2026-11-24",
+      "daysActive": 14,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-21",
+        "2026-11-23",
+        "2026-11-24"
+      ],
+      "motifs": [
+        "a shadowy figure photographing a glowing chip blueprint",
+        "a handshake hiding a tiny recording device",
+        "a corporate badge flipping over to reveal a spy symbol"
+      ]
+    },
+    {
+      "id": "ai-claims-riemann-proof",
+      "title": "An AI-Assisted Proof Of The Riemann Hypothesis Divides Mathematicians",
+      "dimensions": [
+        "capabilities",
+        "science",
+        "society"
+      ],
+      "firstSeen": "2026-11-20",
+      "lastSeen": "2026-11-24",
+      "daysActive": 2,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-11-20",
+        "2026-11-24"
+      ],
+      "motifs": [
+        "a chalkboard half filled with robot-neat symbols, half with human handwriting",
+        "a researcher checking a proof line by line with a magnifying glass",
+        "two rival proofs racing toward a finish line marked 'VERIFIED?'"
+      ]
+    },
+    {
+      "id": "ai-cyberattack-defense-warnings",
+      "title": "Leaders Warn AI-Powered Cyberattacks Are Outpacing Defenses",
+      "dimensions": [
+        "safety",
+        "policy"
+      ],
+      "firstSeen": "2026-11-18",
+      "lastSeen": "2026-11-24",
+      "daysActive": 2,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-11-18",
+        "2026-11-24"
+      ],
+      "motifs": [
+        "a shield cracking faster than it can be patched",
+        "a padlock picked open by a swarm of small AI hands",
+        "a siren blinking beside an old, unpatched control panel"
+      ]
+    },
+    {
+      "id": "ai-agents-for-daily-life",
+      "title": "AI Agents Expand Into Everyday Personal Tasks",
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "society"
+      ],
+      "firstSeen": "2026-11-05",
+      "lastSeen": "2026-11-24",
+      "daysActive": 3,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-11-05",
+        "2026-11-13",
+        "2026-11-24"
+      ],
+      "motifs": [
+        "small AI robots marching out, each holding a different everyday item",
+        "a speech-bubble robot peeking out of a bank or travel-booking icon",
+        "a parade of agent icons each labeled with a different daily task"
+      ]
+    },
+    {
+      "id": "tidal-ai-music-ban",
+      "title": "A Streaming Platform Bans And Deletes AI-Generated Music",
+      "dimensions": [
+        "industry",
+        "society",
+        "law"
+      ],
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-11-24"
+      ],
+      "motifs": [
+        "a music app purging rows of AI-generated song icons",
+        "a conveyor belt rejecting thousands of AI tracks a day",
+        "a turntable spinning a song label stamped 'DELETED'"
+      ]
+    },
+    {
+      "id": "ai-toy-ban-child-protection",
+      "title": "A State Bans AI Companion Toys For Children",
+      "dimensions": [
+        "policy",
+        "law",
+        "education",
+        "society"
+      ],
+      "firstSeen": "2026-11-24",
+      "lastSeen": "2026-11-24",
+      "daysActive": 1,
+      "heat": 1,
+      "status": "active",
+      "sloppers": [
+        "2026-11-24"
+      ],
+      "motifs": [
+        "a toy shelf with a small AI robot toy stamped BANNED for five years",
+        "a government building placing a padlock on a child's robot toy",
+        "a countdown calendar marking five years beside a shelved toy box"
+      ]
+    },
+    {
       "id": "datacenter-energy-footprint",
       "title": "Data Centers' Electricity Use Rivals A Country's",
       "dimensions": [
@@ -11,7 +160,7 @@
       "firstSeen": "2026-11-16",
       "lastSeen": "2026-11-23",
       "daysActive": 4,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-11-16",
@@ -35,7 +184,7 @@
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-23",
       "daysActive": 5,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-11-02",
@@ -50,40 +199,6 @@
       ]
     },
     {
-      "id": "nvidia-spy-case",
-      "title": "China's Spy Campaign Targets A Chipmaker's CEO",
-      "dimensions": [
-        "policy",
-        "safety",
-        "industry"
-      ],
-      "firstSeen": "2026-11-06",
-      "lastSeen": "2026-11-23",
-      "daysActive": 13,
-      "heat": 1,
-      "status": "active",
-      "sloppers": [
-        "2026-11-06",
-        "2026-11-07",
-        "2026-11-08",
-        "2026-11-09",
-        "2026-11-10",
-        "2026-11-12",
-        "2026-11-13",
-        "2026-11-14",
-        "2026-11-16",
-        "2026-11-17",
-        "2026-11-18",
-        "2026-11-21",
-        "2026-11-23"
-      ],
-      "motifs": [
-        "a shadowy figure photographing a glowing chip blueprint",
-        "a handshake hiding a tiny recording device",
-        "a corporate badge flipping over to reveal a spy symbol"
-      ]
-    },
-    {
       "id": "ai-coding-bottleneck-code-review",
       "title": "AI Coding Agents Shift The Bottleneck To Code Review",
       "dimensions": [
@@ -93,7 +208,7 @@
       "firstSeen": "2026-11-17",
       "lastSeen": "2026-11-23",
       "daysActive": 2,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-11-17",
@@ -116,7 +231,7 @@
       "firstSeen": "2026-11-23",
       "lastSeen": "2026-11-23",
       "daysActive": 1,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-11-23"
@@ -137,7 +252,7 @@
       "firstSeen": "2026-11-23",
       "lastSeen": "2026-11-23",
       "daysActive": 1,
-      "heat": 1,
+      "heat": 0.7,
       "status": "active",
       "sloppers": [
         "2026-11-23"
@@ -159,7 +274,7 @@
       "firstSeen": "2026-11-17",
       "lastSeen": "2026-11-22",
       "daysActive": 2,
-      "heat": 0.7,
+      "heat": 0.49,
       "status": "active",
       "sloppers": [
         "2026-11-17",
@@ -183,7 +298,7 @@
       "firstSeen": "2026-11-11",
       "lastSeen": "2026-11-22",
       "daysActive": 2,
-      "heat": 0.7,
+      "heat": 0.49,
       "status": "active",
       "sloppers": [
         "2026-11-11",
@@ -205,7 +320,7 @@
       "firstSeen": "2026-11-22",
       "lastSeen": "2026-11-22",
       "daysActive": 1,
-      "heat": 0.7,
+      "heat": 0.49,
       "status": "active",
       "sloppers": [
         "2026-11-22"
@@ -226,7 +341,7 @@
       "firstSeen": "2026-11-20",
       "lastSeen": "2026-11-21",
       "daysActive": 2,
-      "heat": 0.49,
+      "heat": 0.343,
       "status": "active",
       "sloppers": [
         "2026-11-20",
@@ -248,7 +363,7 @@
       "firstSeen": "2026-11-21",
       "lastSeen": "2026-11-21",
       "daysActive": 1,
-      "heat": 0.49,
+      "heat": 0.343,
       "status": "active",
       "sloppers": [
         "2026-11-21"
@@ -270,7 +385,7 @@
       "firstSeen": "2026-11-21",
       "lastSeen": "2026-11-21",
       "daysActive": 1,
-      "heat": 0.49,
+      "heat": 0.343,
       "status": "active",
       "sloppers": [
         "2026-11-21"
@@ -292,7 +407,7 @@
       "firstSeen": "2026-11-21",
       "lastSeen": "2026-11-21",
       "daysActive": 1,
-      "heat": 0.49,
+      "heat": 0.343,
       "status": "active",
       "sloppers": [
         "2026-11-21"
@@ -314,7 +429,7 @@
       "firstSeen": "2026-11-21",
       "lastSeen": "2026-11-21",
       "daysActive": 1,
-      "heat": 0.49,
+      "heat": 0.343,
       "status": "active",
       "sloppers": [
         "2026-11-21"
@@ -337,7 +452,7 @@
       "firstSeen": "2026-11-04",
       "lastSeen": "2026-11-20",
       "daysActive": 5,
-      "heat": 0.343,
+      "heat": 0.24,
       "status": "active",
       "sloppers": [
         "2026-11-04",
@@ -362,7 +477,7 @@
       "firstSeen": "2026-10-13",
       "lastSeen": "2026-11-20",
       "daysActive": 11,
-      "heat": 0.343,
+      "heat": 0.24,
       "status": "active",
       "sloppers": [
         "2026-10-13",
@@ -384,28 +499,6 @@
       ]
     },
     {
-      "id": "ai-claims-riemann-proof",
-      "title": "An AI-Assisted Proof Of The Riemann Hypothesis Divides Mathematicians",
-      "dimensions": [
-        "capabilities",
-        "science",
-        "society"
-      ],
-      "firstSeen": "2026-11-20",
-      "lastSeen": "2026-11-20",
-      "daysActive": 1,
-      "heat": 0.343,
-      "status": "active",
-      "sloppers": [
-        "2026-11-20"
-      ],
-      "motifs": [
-        "a chalkboard half filled with robot-neat symbols, half with human handwriting",
-        "a researcher checking a proof line by line with a magnifying glass",
-        "two rival proofs racing toward a finish line marked 'VERIFIED?'"
-      ]
-    },
-    {
       "id": "us-offshore-datacenter-tax-threat",
       "title": "A President Threatens Tax Penalties For Offshore AI Datacenters",
       "dimensions": [
@@ -415,7 +508,7 @@
       "firstSeen": "2026-11-20",
       "lastSeen": "2026-11-20",
       "daysActive": 1,
-      "heat": 0.343,
+      "heat": 0.24,
       "status": "active",
       "sloppers": [
         "2026-11-20"
@@ -435,7 +528,7 @@
       "firstSeen": "2026-10-20",
       "lastSeen": "2026-11-18",
       "daysActive": 5,
-      "heat": 0.168,
+      "heat": 0.118,
       "status": "active",
       "sloppers": [
         "2026-10-20",
@@ -459,7 +552,7 @@
       "firstSeen": "2026-11-18",
       "lastSeen": "2026-11-18",
       "daysActive": 1,
-      "heat": 0.168,
+      "heat": 0.118,
       "status": "active",
       "sloppers": [
         "2026-11-18"
@@ -468,27 +561,6 @@
         "a young figure sitting beside a small AI robot, a speech bubble reading 'friend'",
         "a loneliness meter ticking up next to a chatbot icon",
         "an empty chair beside a glowing phone screen"
-      ]
-    },
-    {
-      "id": "ai-cyberattack-defense-warnings",
-      "title": "Leaders Warn AI-Powered Cyberattacks Are Outpacing Defenses",
-      "dimensions": [
-        "safety",
-        "policy"
-      ],
-      "firstSeen": "2026-11-18",
-      "lastSeen": "2026-11-18",
-      "daysActive": 1,
-      "heat": 0.168,
-      "status": "active",
-      "sloppers": [
-        "2026-11-18"
-      ],
-      "motifs": [
-        "a shield cracking faster than it can be patched",
-        "a padlock picked open by a swarm of small AI hands",
-        "a siren blinking beside an old, unpatched control panel"
       ]
     },
     {
@@ -502,7 +574,7 @@
       "firstSeen": "2026-11-18",
       "lastSeen": "2026-11-18",
       "daysActive": 1,
-      "heat": 0.168,
+      "heat": 0.118,
       "status": "active",
       "sloppers": [
         "2026-11-18"
@@ -523,8 +595,8 @@
       "firstSeen": "2026-11-17",
       "lastSeen": "2026-11-17",
       "daysActive": 1,
-      "heat": 0.118,
-      "status": "active",
+      "heat": 0.082,
+      "status": "dormant",
       "sloppers": [
         "2026-11-17"
       ],
@@ -545,7 +617,7 @@
       "firstSeen": "2026-11-16",
       "lastSeen": "2026-11-16",
       "daysActive": 1,
-      "heat": 0.082,
+      "heat": 0.058,
       "status": "dormant",
       "sloppers": [
         "2026-11-16"
@@ -567,7 +639,7 @@
       "firstSeen": "2026-11-16",
       "lastSeen": "2026-11-16",
       "daysActive": 1,
-      "heat": 0.082,
+      "heat": 0.058,
       "status": "dormant",
       "sloppers": [
         "2026-11-16"
@@ -588,7 +660,7 @@
       "firstSeen": "2026-11-16",
       "lastSeen": "2026-11-16",
       "daysActive": 1,
-      "heat": 0.082,
+      "heat": 0.058,
       "status": "dormant",
       "sloppers": [
         "2026-11-16"
@@ -610,7 +682,7 @@
       "firstSeen": "2026-11-12",
       "lastSeen": "2026-11-14",
       "daysActive": 2,
-      "heat": 0.04,
+      "heat": 0.028,
       "status": "dormant",
       "sloppers": [
         "2026-11-12",
@@ -632,7 +704,7 @@
       "firstSeen": "2026-11-14",
       "lastSeen": "2026-11-14",
       "daysActive": 1,
-      "heat": 0.04,
+      "heat": 0.028,
       "status": "dormant",
       "sloppers": [
         "2026-11-14"
@@ -653,7 +725,7 @@
       "firstSeen": "2026-11-14",
       "lastSeen": "2026-11-14",
       "daysActive": 1,
-      "heat": 0.04,
+      "heat": 0.028,
       "status": "dormant",
       "sloppers": [
         "2026-11-14"
@@ -674,7 +746,7 @@
       "firstSeen": "2026-11-14",
       "lastSeen": "2026-11-14",
       "daysActive": 1,
-      "heat": 0.04,
+      "heat": 0.028,
       "status": "dormant",
       "sloppers": [
         "2026-11-14"
@@ -696,7 +768,7 @@
       "firstSeen": "2026-11-14",
       "lastSeen": "2026-11-14",
       "daysActive": 1,
-      "heat": 0.04,
+      "heat": 0.028,
       "status": "dormant",
       "sloppers": [
         "2026-11-14"
@@ -705,29 +777,6 @@
         "a mountain slope wired with a small sensor sending out an alert",
         "a warning siren icon lighting up beside a shifting hillside",
         "a chart tracking ground movement next to a glowing AI eye"
-      ]
-    },
-    {
-      "id": "ai-agents-for-daily-life",
-      "title": "AI Agents Expand Into Everyday Personal Tasks",
-      "dimensions": [
-        "capabilities",
-        "industry",
-        "society"
-      ],
-      "firstSeen": "2026-11-05",
-      "lastSeen": "2026-11-13",
-      "daysActive": 2,
-      "heat": 0.028,
-      "status": "dormant",
-      "sloppers": [
-        "2026-11-05",
-        "2026-11-13"
-      ],
-      "motifs": [
-        "small AI robots marching out, each holding a different everyday item",
-        "a speech-bubble robot peeking out of a bank or travel-booking icon",
-        "a parade of agent icons each labeled with a different daily task"
       ]
     },
     {
@@ -740,7 +789,7 @@
       "firstSeen": "2026-11-13",
       "lastSeen": "2026-11-13",
       "daysActive": 1,
-      "heat": 0.028,
+      "heat": 0.02,
       "status": "dormant",
       "sloppers": [
         "2026-11-13"
@@ -762,7 +811,7 @@
       "firstSeen": "2026-11-13",
       "lastSeen": "2026-11-13",
       "daysActive": 1,
-      "heat": 0.028,
+      "heat": 0.02,
       "status": "dormant",
       "sloppers": [
         "2026-11-13"
@@ -784,7 +833,7 @@
       "firstSeen": "2026-11-13",
       "lastSeen": "2026-11-13",
       "daysActive": 1,
-      "heat": 0.028,
+      "heat": 0.02,
       "status": "dormant",
       "sloppers": [
         "2026-11-13"
@@ -805,7 +854,7 @@
       "firstSeen": "2026-09-30",
       "lastSeen": "2026-11-12",
       "daysActive": 9,
-      "heat": 0.02,
+      "heat": 0.014,
       "status": "dormant",
       "sloppers": [
         "2026-09-30",
@@ -836,7 +885,7 @@
       "firstSeen": "2026-11-12",
       "lastSeen": "2026-11-12",
       "daysActive": 1,
-      "heat": 0.02,
+      "heat": 0.014,
       "status": "dormant",
       "sloppers": [
         "2026-11-12"
@@ -857,7 +906,7 @@
       "firstSeen": "2026-10-12",
       "lastSeen": "2026-11-11",
       "daysActive": 3,
-      "heat": 0.014,
+      "heat": 0.01,
       "status": "dormant",
       "sloppers": [
         "2026-10-12",
@@ -880,7 +929,7 @@
       "firstSeen": "2026-11-11",
       "lastSeen": "2026-11-11",
       "daysActive": 1,
-      "heat": 0.014,
+      "heat": 0.01,
       "status": "dormant",
       "sloppers": [
         "2026-11-11"
@@ -902,7 +951,7 @@
       "firstSeen": "2026-11-11",
       "lastSeen": "2026-11-11",
       "daysActive": 1,
-      "heat": 0.014,
+      "heat": 0.01,
       "status": "dormant",
       "sloppers": [
         "2026-11-11"
@@ -924,7 +973,7 @@
       "firstSeen": "2026-11-11",
       "lastSeen": "2026-11-11",
       "daysActive": 1,
-      "heat": 0.014,
+      "heat": 0.01,
       "status": "dormant",
       "sloppers": [
         "2026-11-11"
@@ -945,7 +994,7 @@
       "firstSeen": "2026-11-09",
       "lastSeen": "2026-11-10",
       "daysActive": 2,
-      "heat": 0.01,
+      "heat": 0.007,
       "status": "dormant",
       "sloppers": [
         "2026-11-09",
@@ -968,7 +1017,7 @@
       "firstSeen": "2026-11-10",
       "lastSeen": "2026-11-10",
       "daysActive": 1,
-      "heat": 0.01,
+      "heat": 0.007,
       "status": "dormant",
       "sloppers": [
         "2026-11-10"
@@ -990,7 +1039,7 @@
       "firstSeen": "2026-11-10",
       "lastSeen": "2026-11-10",
       "daysActive": 1,
-      "heat": 0.01,
+      "heat": 0.007,
       "status": "dormant",
       "sloppers": [
         "2026-11-10"
@@ -1012,7 +1061,7 @@
       "firstSeen": "2026-11-08",
       "lastSeen": "2026-11-09",
       "daysActive": 2,
-      "heat": 0.007,
+      "heat": 0.005,
       "status": "dormant",
       "sloppers": [
         "2026-11-08",
@@ -1036,7 +1085,7 @@
       "firstSeen": "2026-10-02",
       "lastSeen": "2026-11-09",
       "daysActive": 20,
-      "heat": 0.007,
+      "heat": 0.005,
       "status": "dormant",
       "sloppers": [
         "2026-10-02",
@@ -1076,7 +1125,7 @@
       "firstSeen": "2026-11-09",
       "lastSeen": "2026-11-09",
       "daysActive": 1,
-      "heat": 0.007,
+      "heat": 0.005,
       "status": "dormant",
       "sloppers": [
         "2026-11-09"
@@ -1098,7 +1147,7 @@
       "firstSeen": "2026-11-08",
       "lastSeen": "2026-11-08",
       "daysActive": 1,
-      "heat": 0.005,
+      "heat": 0.003,
       "status": "dormant",
       "sloppers": [
         "2026-11-08"
@@ -1120,7 +1169,7 @@
       "firstSeen": "2026-11-08",
       "lastSeen": "2026-11-08",
       "daysActive": 1,
-      "heat": 0.005,
+      "heat": 0.003,
       "status": "dormant",
       "sloppers": [
         "2026-11-08"
@@ -1142,7 +1191,7 @@
       "firstSeen": "2026-11-08",
       "lastSeen": "2026-11-08",
       "daysActive": 1,
-      "heat": 0.005,
+      "heat": 0.003,
       "status": "dormant",
       "sloppers": [
         "2026-11-08"
@@ -1164,7 +1213,7 @@
       "firstSeen": "2026-11-08",
       "lastSeen": "2026-11-08",
       "daysActive": 1,
-      "heat": 0.005,
+      "heat": 0.003,
       "status": "dormant",
       "sloppers": [
         "2026-11-08"
@@ -1185,7 +1234,7 @@
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-07",
       "daysActive": 2,
-      "heat": 0.003,
+      "heat": 0.002,
       "status": "dormant",
       "sloppers": [
         "2026-11-02",
@@ -1208,7 +1257,7 @@
       "firstSeen": "2026-11-07",
       "lastSeen": "2026-11-07",
       "daysActive": 1,
-      "heat": 0.003,
+      "heat": 0.002,
       "status": "dormant",
       "sloppers": [
         "2026-11-07"
@@ -1229,7 +1278,7 @@
       "firstSeen": "2026-11-07",
       "lastSeen": "2026-11-07",
       "daysActive": 1,
-      "heat": 0.003,
+      "heat": 0.002,
       "status": "dormant",
       "sloppers": [
         "2026-11-07"
@@ -1251,7 +1300,7 @@
       "firstSeen": "2026-11-07",
       "lastSeen": "2026-11-07",
       "daysActive": 1,
-      "heat": 0.003,
+      "heat": 0.002,
       "status": "dormant",
       "sloppers": [
         "2026-11-07"
@@ -1316,7 +1365,7 @@
       "firstSeen": "2026-10-06",
       "lastSeen": "2026-11-05",
       "daysActive": 4,
-      "heat": 0.002,
+      "heat": 0.001,
       "status": "dormant",
       "sloppers": [
         "2026-10-06",
@@ -1340,7 +1389,7 @@
       "firstSeen": "2026-11-05",
       "lastSeen": "2026-11-05",
       "daysActive": 1,
-      "heat": 0.002,
+      "heat": 0.001,
       "status": "dormant",
       "sloppers": [
         "2026-11-05"
@@ -1425,7 +1474,7 @@
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02",
       "daysActive": 1,
-      "heat": 0.001,
+      "heat": 0,
       "status": "dormant",
       "sloppers": [
         "2026-11-02"
@@ -1445,7 +1494,7 @@
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02",
       "daysActive": 1,
-      "heat": 0.001,
+      "heat": 0,
       "status": "dormant",
       "sloppers": [
         "2026-11-02"
@@ -1466,7 +1515,7 @@
       "firstSeen": "2026-11-02",
       "lastSeen": "2026-11-02",
       "daysActive": 1,
-      "heat": 0.001,
+      "heat": 0,
       "status": "dormant",
       "sloppers": [
         "2026-11-02"

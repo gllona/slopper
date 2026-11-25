@@ -1,0 +1,100 @@
+{
+  "passed": false,
+  "bestIteration": 3,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"bot\" (robot) was moved 0 px, 16 px to stay inside the artboard",
+          "\"bot\" extends outside the safe area in the final frame (x 294…936, y 13…636)",
+          "\"spill\" extends outside the safe area in the final frame (x 860…1041, y 165…332)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 3,
+          "polish": 1,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The cast and joke concept are sound, but execution breaks down: the robot overlaps the human's head, the doorway sits empty and disconnected, the wire is nowhere near the bot's foot, and the bot/spill clip outside the safe area — this reads as a jumble, not a tripping gag, so it fails on composition and polish.",
+        "revisionNotes": [
+          "The door (round speech-bubble doorway) sits empty at bottom-left, completely disconnected from the robot — move it to left-third at the bot's height so the robot is visibly passing through it, per the brief's 'left to right' staging.",
+          "The wire is anchored near the viewer's chair, not under the bot's trailing foot, so the 'tripped on a wire' beat is lost — reattach wire to bot's foot/leg anchor instead of offsetting toward the human.",
+          "Bot's legs directly overlap the viewer's head and torso — this is a polish-breaking overlap; separate the anchors so the bot trips in open space to the left of the chair, not stacked on the person.",
+          "Lint flags both 'bot' and 'spill' extending outside the safe area — scale bot down to ~0.85 and shift left, and pull the spill's flying items (currently clipped at x~1041) back inside the frame.",
+          "Reduce bot's rotate from 18° — combined with the 'arms out, surprised' pose and no visible ground contact, the robot reads as floating/flying rather than mid-trip.",
+          "Composition has no clear left-to-right read (door, wire, spill, chair are scattered with gaps and overlaps) — reflow so door → tripping bot → wire → spilled bags → viewer forms one legible diagonal line."
+        ]
+      },
+      "average": 2.86,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The riso-duotone palette is fresh and the cast casting is correct, but the spilled bag overlaps the human instead of the robot, the wire barely touches the trip point, and a large empty top half plus a chair/human render glitch make the joke take more than a glance to parse — needs a composition and placement pass before publishing.",
+        "revisionNotes": [
+          "Spill component drifts into the viewer's space, overlapping the human's face/shoulder; pull its offset in toward the bot (e.g. offset [10,-60] instead of [30,-90]) so flying bag contents read as coming from the robot, not floating at the person.",
+          "Wire reads as a disconnected plug near the floor with a visible gap to the robot's feet; scale it to ~1.4 and re-anchor to bot's trailing foot (side: bottom, offset near [0,-5]) so the trip is legible.",
+          "Top ~40% of the frame is empty while all four elements crowd the bottom; raise door/bot/chair/viewer anchors upward (y from 0.6-0.82 toward 0.45-0.65) or add a simple floor/rug shape to balance the square.",
+          "Chair and viewer have an overlapping double-edge render glitch at the armrests; nudge chair x by -0.03 and drop its scale to ~0.9 so the silhouettes don't collide.",
+          "Doorway circle overlaps the bot's arm/antenna, making the speech-bubble shape hard to parse as a threshold; move door to x=0.16 and scale to 0.9 to open a clear gap between door and robot.",
+          "Viewer's arms-crossed, unimpressed pose from the brief doesn't register in the render; confirm the human component's pose prop reads as crossed arms, or add a small raw shape for folded arms."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The gag is legible on a close look but the execution undercuts it: the doorway is a bare floating circle disconnected from the bot, the trip and spill read ambiguously rather than as a clear stumble, and a leg/chair overlap looks like a rendering glitch, leaving the bottom third of the frame empty.",
+        "revisionNotes": [
+          "Give the door real presence: thicken into a proper arched doorway (add a frame/threshold line) and move it to x~0.22 so the bot visibly passes through it; right now it's a bare circle floating in empty space, disconnected from the bot.",
+          "Tilt the bot further forward (rotate ~20-25 instead of 10) with front leg extended toward the wire, so the trip reads as a fall-in-progress, not a surprised stand still.",
+          "Reposition the wire directly under the bot's front foot (offset so it overlaps the leg, not sits below-left of it) so contact with the trip hazard is unmistakable; currently it reads as a stray power cord.",
+          "Redraw the spill props as a diagonal spray of items falling below-right of the bag rather than hovering above it, so it clearly reads as contents spilling, not confetti.",
+          "Fix the clipping between the chair's front-leg shape and the human's legs (currently a double-exposed leg artifact); nudge the human's x anchor or the chair leg props so they don't overlap.",
+          "Fill the empty bottom third of the frame: lower the y-anchors for door/bot/chair slightly and bump overall scale so the composition uses the full square instead of a thin horizontal band."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    }
+  ]
+}

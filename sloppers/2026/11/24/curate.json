@@ -1,0 +1,200 @@
+{
+  "topStories": [
+    {
+      "title": "AI Agents Push Deeper Into Shopping And Messaging, But A New Benchmark Says They Still Fumble Daily Tasks",
+      "itemIds": [
+        "feeds:5edc970ed59b",
+        "feeds:b0f646dfac9a",
+        "feeds:86266e890e18",
+        "feeds:53cea3bae71e",
+        "hackernews:02e27935986c"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "society",
+        "labor"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "ai-agents-for-daily-life"
+    },
+    {
+      "title": "A Streaming Platform Will Delete Tens Of Millions Of AI-Generated Songs",
+      "itemIds": [
+        "feeds:3d9795e0b578",
+        "feeds:d75134ae8ee5",
+        "feeds:6f0f83d3e1c3",
+        "hackernews:8914c0669275"
+      ],
+      "dimensions": [
+        "industry",
+        "society",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "tidal-ai-music-ban"
+    },
+    {
+      "title": "AI Agents Exploited A Zero-Day With Little Human Help, As A Government Warns Cyber Defenses Are Lagging",
+      "itemIds": [
+        "feeds:44bd775b8ffe",
+        "feeds:4113acb1424b"
+      ],
+      "dimensions": [
+        "safety",
+        "policy",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-cyberattack-defense-warnings"
+    },
+    {
+      "title": "A State Bans AI Companion Chatbot Toys For Children For Five Years",
+      "itemIds": [
+        "hackernews:1ff8d72e6607"
+      ],
+      "dimensions": [
+        "policy",
+        "law",
+        "education",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-toy-ban-child-protection"
+    },
+    {
+      "title": "A Reinstated Chip-Company Chief Apologizes To Staff, Denies A Political Rescue, Becomes A Deepfake Meme",
+      "itemIds": [
+        "feeds:87d60b72d85a",
+        "feeds:aa4730513839",
+        "feeds:93afcdb77535",
+        "feeds:ca9d29ca2d38",
+        "feeds:97f21b1a1bb0",
+        "feeds:171b94fafc68",
+        "feeds:07ccdd07fbb2"
+      ],
+      "dimensions": [
+        "industry",
+        "labor",
+        "society",
+        "policy"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "Mathematicians Struggle To Verify An AI-Assisted Proof Of The Riemann Hypothesis",
+      "itemIds": [
+        "feeds:ea655aef5669",
+        "feeds:92a401c0e0e4"
+      ],
+      "dimensions": [
+        "capabilities",
+        "science",
+        "society"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-claims-riemann-proof"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "tidal-ai-music-ban",
+      "title": "A Streaming Platform Bans And Deletes AI-Generated Music",
+      "dimensions": [
+        "industry",
+        "society",
+        "law"
+      ],
+      "motifs": [
+        "a music app purging rows of AI-generated song icons",
+        "a conveyor belt rejecting thousands of AI tracks a day",
+        "a turntable spinning a song label stamped 'DELETED'"
+      ]
+    },
+    {
+      "id": "ai-toy-ban-child-protection",
+      "title": "A State Bans AI Companion Toys For Children",
+      "dimensions": [
+        "policy",
+        "law",
+        "education",
+        "society"
+      ],
+      "motifs": [
+        "a toy shelf with a small AI robot toy stamped BANNED for five years",
+        "a government building placing a padlock on a child's robot toy",
+        "a countdown calendar marking five years beside a shelved toy box"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Several stories today clear the relevance threshold of 8: AI agents expanding into shopping and messaging while failing a basic-tasks benchmark (12), a platform purging millions of AI songs (8), a zero-day exploited largely by AI agents amid cyberattack warnings (8), and a state banning AI companion toys for five years (8).",
+  "motto": "More Agents, Same Mistakes",
+  "phrase": "AI agents can now shop, message, and chat on your behalf. A new study found they still struggle with everyday life.",
+  "phraseAlternatives": [
+    "A social network put its AI agent inside everyone's private messages this week. A new benchmark says such agents still struggle with ordinary tasks.",
+    "This week, AI agents moved into shopping apps and group chats. A study found they are still bad at everyday life.",
+    "AI agents can now book, buy, and chat for you. They still can't reliably manage a simple daily task."
+  ],
+  "brief": {
+    "concept": "A small AI agent struts proudly through a messaging app's round doorway, arms full of shopping bags, only to trip over an ordinary wire just past the threshold, spilling everything.",
+    "metaphor": "Confidence outruns competence: the agent conquers the doorway into daily life, then stumbles on the simplest step just inside it.",
+    "cast": [
+      {
+        "who": "a small round AI robot carrying shopping bags, mid-stride",
+        "kind": "ai"
+      },
+      {
+        "who": "a round doorway shaped like a speech bubble, standing in for a messaging app",
+        "kind": "institution"
+      },
+      {
+        "who": "a low trailing wire or step just past the doorway",
+        "kind": "object"
+      },
+      {
+        "who": "a human user sitting in an armchair nearby, arms crossed, watching",
+        "kind": "person"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Simple vector scene, left to right: a small AI robot strides through a round, speech-bubble-shaped doorway with shopping bags in hand, chest out, confident. Just past the threshold its foot catches a low wire; its body is already tipping forward, bags' contents flying into the air. To the right, a human sits in a plain armchair, arms crossed, one eyebrow raised, unimpressed. Flat blue-and-pink riso shapes, thick outlines, warm cream paper, with the spilling bag as the single overprinted highlight marking the joke.",
+    "artType": "static",
+    "alt": "A small robot confidently marches through a speech-bubble-shaped doorway carrying shopping bags, then trips over a low wire just beyond it, spilling the bags' contents, while a human sits in a chair watching with arms crossed."
+  },
+  "sourceIds": [
+    "feeds:5edc970ed59b",
+    "feeds:b0f646dfac9a",
+    "feeds:86266e890e18",
+    "feeds:53cea3bae71e"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "education": 1,
+    "planet": 1,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}

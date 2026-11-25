@@ -1,0 +1,129 @@
+{
+  "harness": "0.2.0",
+  "style": "riso-duotone",
+  "background": {},
+  "elements": [
+    {
+      "id": "door",
+      "component": "raw",
+      "at": {
+        "x": 0.16,
+        "y": 0.4
+      },
+      "scale": 0.85,
+      "props": {
+        "width": 300,
+        "height": 340
+      },
+      "svg": "<circle cx=\"150\" cy=\"165\" r=\"130\" class=\"r-line\"/><polygon points=\"130,290 170,290 148,330\" class=\"r-body-alt\"/>"
+    },
+    {
+      "id": "bot",
+      "component": "robot",
+      "at": {
+        "x": 0.38,
+        "y": 0.55
+      },
+      "scale": 0.78,
+      "rotate": 10,
+      "props": {
+        "mood": "surprised",
+        "arms": "up",
+        "color": "body",
+        "antenna": true
+      }
+    },
+    {
+      "id": "wire",
+      "component": "raw",
+      "attachTo": "bot",
+      "side": "bottom",
+      "offset": [
+        0,
+        -5
+      ],
+      "scale": 1.4,
+      "rotate": -6,
+      "props": {
+        "width": 200,
+        "height": 50
+      },
+      "svg": "<rect x=\"4\" y=\"10\" width=\"26\" height=\"26\" rx=\"5\" class=\"r-body\"/><path d=\"M30,25 Q70,5 100,25 T170,25\" class=\"r-line\"/>"
+    },
+    {
+      "id": "spill",
+      "component": "raw",
+      "attachTo": "bot",
+      "side": "right",
+      "offset": [
+        10,
+        -60
+      ],
+      "scale": 0.85,
+      "props": {
+        "width": 220,
+        "height": 220
+      },
+      "svg": "<polygon points=\"40,120 150,110 170,190 30,195\" class=\"r-accent\"/><path d=\"M70,110 Q75,70 95,75\" class=\"r-line\"/><path d=\"M120,108 Q125,68 145,73\" class=\"r-line\"/><circle cx=\"180\" cy=\"60\" r=\"14\" class=\"r-accent\"/><circle cx=\"142\" cy=\"38\" r=\"10\" class=\"r-accent\"/><circle cx=\"202\" cy=\"100\" r=\"9\" class=\"r-accent\"/>"
+    },
+    {
+      "id": "chair",
+      "component": "raw",
+      "at": {
+        "x": 0.77,
+        "y": 0.46
+      },
+      "scale": 0.9,
+      "props": {
+        "width": 260,
+        "height": 220
+      },
+      "svg": "<rect x=\"28\" y=\"8\" width=\"204\" height=\"120\" rx=\"16\" class=\"r-body-alt\"/><rect x=\"8\" y=\"118\" width=\"244\" height=\"56\" rx=\"12\" class=\"r-body-alt\"/><rect x=\"28\" y=\"174\" width=\"16\" height=\"38\" class=\"r-line\"/><rect x=\"216\" y=\"174\" width=\"16\" height=\"38\" class=\"r-line\"/>"
+    },
+    {
+      "id": "viewer",
+      "component": "human",
+      "at": {
+        "x": 0.8,
+        "y": 0.6
+      },
+      "scale": 0.95,
+      "props": {
+        "mood": "neutral",
+        "pose": "sit",
+        "color": "body",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "arms",
+      "component": "raw",
+      "attachTo": "viewer",
+      "side": "center",
+      "offset": [
+        0,
+        -20
+      ],
+      "scale": 1,
+      "props": {
+        "width": 120,
+        "height": 80
+      },
+      "svg": "<rect x=\"10\" y=\"32\" width=\"100\" height=\"16\" rx=\"8\" class=\"r-ink\" transform=\"rotate(18 60 40)\"/><rect x=\"10\" y=\"32\" width=\"100\" height=\"16\" rx=\"8\" class=\"r-ink\" transform=\"rotate(-18 60 40)\"/>"
+    },
+    {
+      "id": "quip",
+      "component": "speech-bubble",
+      "attachTo": "viewer",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "text": "Not again.",
+        "kind": "speech",
+        "tail": "bottom",
+        "size": "md"
+      }
+    }
+  ],
+  "alt": "A small robot with arms thrown up in surprise trips over a thin wire just past a round, speech-bubble-shaped doorway, shopping-bag contents flying from its side, while a person with arms crossed sits in a chair nearby, a speech bubble reading \"Not again.\""
+}
