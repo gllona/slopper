@@ -1,0 +1,142 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {
+    "type": "split",
+    "horizon": 0.5,
+    "color": "bg",
+    "color2": "paper"
+  },
+  "elements": [
+    {
+      "id": "building",
+      "component": "raw",
+      "at": {
+        "x": 0.17,
+        "y": 0.3
+      },
+      "scale": 0.8,
+      "props": {
+        "width": 300,
+        "height": 460
+      },
+      "svg": "<rect x=\"10\" y=\"60\" width=\"280\" height=\"400\" rx=\"4\" class=\"r-body\"/><rect x=\"40\" y=\"100\" width=\"50\" height=\"60\" class=\"r-line\"/><rect x=\"130\" y=\"100\" width=\"50\" height=\"60\" class=\"r-line\"/><rect x=\"220\" y=\"100\" width=\"50\" height=\"60\" class=\"r-line\"/><rect x=\"40\" y=\"190\" width=\"50\" height=\"60\" class=\"r-line\"/><rect x=\"220\" y=\"190\" width=\"50\" height=\"60\" class=\"r-line\"/><rect x=\"115\" y=\"300\" width=\"70\" height=\"160\" class=\"r-shade\"/><rect x=\"115\" y=\"300\" width=\"70\" height=\"160\" class=\"r-line\"/><rect x=\"173\" y=\"300\" width=\"12\" height=\"150\" transform=\"rotate(-40 185 300)\" class=\"r-line\"/>"
+    },
+    {
+      "id": "exec",
+      "component": "human",
+      "at": {
+        "x": 0.4,
+        "y": 0.46
+      },
+      "scale": 0.85,
+      "flip": true,
+      "props": {
+        "mood": "proud",
+        "pose": "stand",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "briefcase",
+      "component": "raw",
+      "attachTo": "exec",
+      "side": "right",
+      "offset": [
+        0,
+        40
+      ],
+      "scale": 1,
+      "props": {
+        "width": 70,
+        "height": 50
+      },
+      "svg": "<rect x=\"5\" y=\"15\" width=\"60\" height=\"35\" rx=\"4\" class=\"r-body\"/><path d=\"M25 15 L25 5 L45 5 L45 15\" class=\"r-line\"/>"
+    },
+    {
+      "id": "chart",
+      "component": "chart",
+      "at": {
+        "x": 0.75,
+        "y": 0.2
+      },
+      "scale": 0.85,
+      "props": {
+        "type": "line",
+        "values": [
+          0.08,
+          0.15,
+          0.25,
+          0.42,
+          0.95
+        ],
+        "arrow": true,
+        "highlight": "last",
+        "frame": false
+      }
+    },
+    {
+      "id": "money-tag",
+      "component": "label",
+      "attachTo": "chart",
+      "side": "top",
+      "offset": [
+        60,
+        15
+      ],
+      "scale": 0.9,
+      "props": {
+        "text": "+$1T",
+        "size": "md",
+        "kind": "tag",
+        "color": "accent"
+      }
+    },
+    {
+      "id": "gavel",
+      "component": "raw",
+      "at": {
+        "x": 0.72,
+        "y": 0.43
+      },
+      "scale": 1,
+      "rotate": -20,
+      "props": {
+        "width": 140,
+        "height": 160
+      },
+      "svg": "<rect x=\"60\" y=\"10\" width=\"20\" height=\"90\" rx=\"6\" class=\"r-body\"/><rect x=\"20\" y=\"100\" width=\"100\" height=\"36\" rx=\"8\" class=\"r-body\"/>"
+    },
+    {
+      "id": "robot",
+      "component": "robot",
+      "at": {
+        "x": 0.72,
+        "y": 0.9
+      },
+      "scale": 0.85,
+      "props": {
+        "mood": "worried",
+        "arms": "out",
+        "antenna": true
+      }
+    },
+    {
+      "id": "photo-bar",
+      "component": "raw",
+      "attachTo": "robot",
+      "side": "right",
+      "offset": [
+        40,
+        -60
+      ],
+      "scale": 0.8,
+      "props": {
+        "width": 140,
+        "height": 100
+      },
+      "svg": "<rect x=\"5\" y=\"5\" width=\"130\" height=\"90\" rx=\"6\" class=\"r-paper\"/><rect x=\"20\" y=\"42\" width=\"100\" height=\"22\" class=\"r-ink\"/>"
+    }
+  ],
+  "alt": "Top half: a company building with its door open, a proud executive walking toward it holding a briefcase, and a rising stock chart tagged plus one trillion dollars. Bottom half: a large gavel hangs in clear air above a small worried robot that holds up a photo covered by a black censor bar."
+}

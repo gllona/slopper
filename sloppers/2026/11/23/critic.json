@@ -1,0 +1,103 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"photo-bar\" (raw) was moved -75 px, 0 px to stay inside the artboard",
+          "\"photo-bar\" extends outside the safe area in the final frame (x 941…1071, y 490…580)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "The split-screen blueprint idea is sound and the cast is correct, but a misplaced money tag beside the gavel, hands touching across the divider, and a clipped censor-bar photo all actively confuse which half of the joke is which — not ready to publish.",
+        "revisionNotes": [
+          "The money-tag \"+$1T\" is attached to the chart's right side, which pushes it across the divider to sit right above the gavel — it now reads as labeling the robot's punishment, not the exec's stock. Detach it and place it near the arrow tip instead, e.g. at x 0.40, y 0.12, scale 0.9.",
+          "The exec's right hand-circle and the robot's left hand-circle touch directly on the dividing line, visually joining the two \"separate stories\" into one handshake. Set exec arm pose so it doesn't extend toward the robot, or move robot to x 0.75 with arms right-only.",
+          "The photo-bar (censor-bar photo) is clipped at the artboard edge per the lint warning and is nearly invisible — the key prop for the right-side joke doesn't read. Scale it to 0.8 and attach it above the robot so the whole rectangle and bar sit inside the safe area.",
+          "The gavel head rests directly on the robot's antenna with no gap, reading as already-landed rather than falling. Raise the gavel's y anchor (e.g. 0.20 instead of 0.27) to show clear air between hammer and robot for a 'descending' beat.",
+          "This is the third recent slopper using a vertical-divider split composition with the blueprint palette (see recent.png row1-col2, row3-col1/4) — try a diagonal split or stacked top/bottom layout, or a different accent color.",
+          "The briefcase prop attached to the exec isn't visible in the render (likely hidden behind the robot's arm) — nudge its offset further left/down so it clears the robot and reads as a held case."
+        ]
+      },
+      "average": 2.71,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"money-tag\" (label) was moved 0 px, 60 px to stay inside the safe area",
+          "\"photo-bar\" (raw) was moved -85 px, 0 px to stay inside the artboard",
+          "\"photo-bar\" extends outside the safe area in the final frame (x 968…1072, y 666…738)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "The reinstated-exec half reads instantly, but the lawsuit half collapses: the censor-bar photo is clipped off the right edge and floats disconnected from the robot's hand, so the \"illegal images\" clause barely registers, and the navy/yellow blueprint-with-rising-chart look repeats two very recent pieces.",
+        "revisionNotes": [
+          "Reposition \"photo-bar\" fully inside the safe area, e.g. offset [-20, -60] from robot and scale 0.7, so the censor bar sits in the robot's raised hand instead of clipping off the right edge.",
+          "Give the robot a 'holds' prop (arms bent toward the photo) instead of arms-out-empty, so it visibly presents the photo rather than appearing to float beside it unexplained.",
+          "Swap the vertical-line split described in the brief for how it actually rendered (horizontal wave divide); if keeping the top/bottom layout, nudge gavel and robot left to x~0.55 so the right margin isn't crowding the photo prop.",
+          "Palette and composition (navy field, yellow accent dots, rising line chart with arrow) are very close to two other recent blueprint sloppers; try a different accent color or a non-chart device for the stock surge to differentiate.",
+          "Lower the gavel a touch or add a light impact mark so it reads as actively striking rather than hovering in empty space above the robot.",
+          "Consider swapping robot mood from 'worried' to something that more clearly reads as 'caught/guilty' to sharpen the slow-justice beat."
+        ]
+      },
+      "average": 3,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 2,
+          "style": 2,
+          "polish": 2,
+          "novelty": 3,
+          "kindness": 4
+        },
+        "verdict": "The left-side joke (CEO's swift return and stock surge) reads fine, but the entire right-side punchline is broken: the gavel and censored photo called for in the scene are missing, so the \"slow justice for AI harm\" half of the joke doesn't land, and the style has drifted from blueprint into flat solid color. Not publishable as-is.",
+        "revisionNotes": [
+          "Restore the gavel element over the robot (attachTo robot, side top, rotate -15, scale ~0.9) — without it the entire 'slow justice' punchline for the chatbot headline is missing.",
+          "Add back the photo-bar prop (small photo with black censor rectangle) in the robot's raised hands so viewers understand what it's holding and why a gavel would fall on it.",
+          "Add the impact marks (small ink bursts) at the point of gavel/robot contact to sell the 'strike' beat once the gavel is restored.",
+          "Re-render in true blueprint style — thin white linework plus a light technical grid/paper texture and pale fills — the current solid flat navy/yellow blocks don't match the style card at all.",
+          "Replace the horizontal wavy split with the briefed thin vertical divider so building+exec+arrow read as the left scene and gavel+robot as the right scene, instead of stacking top/bottom.",
+          "Attach the briefcase to the exec's hand (attachTo exec, side right) instead of leaving it floating unattached between the exec and the thermometer."
+        ]
+      },
+      "average": 2.43,
+      "passed": false
+    }
+  ]
+}
