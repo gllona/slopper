@@ -1,0 +1,98 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 2,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "The two parallel stories don't land: the 'building' reads as a rain cloud and the music notes are missing entirely, while the hacker robot just stands beside the crack instead of squeezing through it, so the brief's central visual metaphors are lost; a stray outline also appears to tether the wall to the hacker and analyst. Does not pass.",
+        "revisionNotes": [
+          "Restore the missing 'notes' asset: the music-note shapes spilling from the building's bottom are entirely absent from the render, so the 'sweeping out music' idea doesn't read at all.",
+          "The 'building' cloud shape reads as a rain cloud over the robot's head, not a tilting music-library building — add a door/opening cue or use a boxier institution silhouette so the sweep-out metaphor is legible.",
+          "Show the hacker robot actually mid-squeeze through the crack (overlapping the wall at the crack's x/y, partly occluded) instead of standing fully visible in front of it — right now it looks like three figures posing near a sign, not a break-in.",
+          "Close the wall's raw SVG outline — its stroke trails off the rectangle and runs along the ground into the hacker's arm and the analyst's hand like a stray wire; fix the path so it doesn't visually link unrelated characters.",
+          "Check the '0-DAY' label glyph at this size/font — the zero reads as the letter O ('O-DAY'); increase size or adjust the font so it's unambiguous.",
+          "Give the musician robot a visible microphone prop per the brief so 'swept out mid-performance, mic raised' is readable, not just a generic surprised pose with arms up."
+        ]
+      },
+      "average": 2.71,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"building\" extends outside the safe area in the final frame (x 47…321, y 500…840)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The split-frame idea is legible with the help of the '0-DAY' tag, but a washed-out building, an ambiguous mic prop, a cage-like crack, and a passive analyst blunt the joke, and the layout echoes recent split/horizon compositions too closely — average falls below the bar, so this doesn't pass yet.",
+        "revisionNotes": [
+          "Fill the empty top ~35% of the canvas: raise the '0-DAY' label to around y:0.25 or add a short caption bar so the heavy bottom-third grouping doesn't leave the top looking unused.",
+          "The 'building' raw shape uses r-body-alt which nearly matches the background tone — fill it with a stronger contrast color (r-accent2 or solid body) so the tilting music-library reads as a solid structure, not just a thin outline.",
+          "The 'mic' prop attached to the musician robot reads as a stray ball in its raised hand. Scale it to ~1.3 and offset further from the hand (or rotate it more horizontally) so the handle+head silhouette is legible as a microphone.",
+          "wall-left/wall-right currently frame the hacker robot like a cage/bracket rather than a cracked wall being squeezed through — narrow the gap, and let the crack line visibly continue above and below the robot's silhouette.",
+          "Give the 'analyst' a clearer 'watching the gap' pose: turn the body toward the crack or add crossed arms via a raw prop; the current front-facing neutral stand doesn't sell the 'nobody watching' irony.",
+          "Nudge 'building' right/down a touch or reduce scale slightly to clear the safe-area margin flagged by the lint warning (x 47…321, y 500…840)."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The split-frame concept is readable with effort, but a clipped hacker robot, an invisible crossed-arms prop, an ambiguous \"0-DAY\" label, and dead space top/bottom keep this from a publishable finish.",
+        "revisionNotes": [
+          "Re-stack the wall/crack/hacker z-order: the jagged crack bolt currently cuts through the hacker robot's head and torso like a rendering error; draw the crack behind the robot or clip it so the robot reads as squeezing through cleanly.",
+          "The '0-DAY' label's zero is indistinguishable from the letter O at this weight; add a slash or narrow the counter so it unmistakably reads as a digit.",
+          "The crossed-arms raw shape on the analyst isn't legible in the final render (offset puts it behind the body); bring it forward and nudge offset to roughly [0,-60] at scale 1.0 so the crossed posture reads clearly.",
+          "Lower third and top edge of the frame are empty beige; add a simple ground line or shadow under each half (per style note 'one bright ink highlight') to anchor the figures and use the square better.",
+          "The dangling circles under the tilting building read as blank beads, not music notes; add a small flag/stem to 2-3 of them at scale ~1 so the 'spilling songs' idea is instant.",
+          "Scale the mic prop on the musician up to ~1.5 and shift it clear of the raised hand outline so it doesn't merge with the robot's own hand shape, making the 'mid-performance' beat unambiguous."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    }
+  ]
+}
