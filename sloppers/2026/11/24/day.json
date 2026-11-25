@@ -1,0 +1,232 @@
+{
+  "date": "2026-11-24",
+  "number": 56,
+  "mode": "fresh",
+  "motto": "Deleted Songs, Silent Hackers",
+  "phrase": "A streaming service says it will delete millions of AI-made songs next month. Meanwhile, hackers' AI agents reportedly found and used a security flaw with little human help.",
+  "phraseAlternatives": [
+    "One company is erasing millions of AI songs from its library. Another is untangling how AI agents hacked a flaw almost by themselves.",
+    "A music platform will delete millions of AI-made songs next month. The same week, AI agents found and used a security hole with barely any human help.",
+    "Streaming services are purging AI music by the millions. Security teams just learned AI agents can already hack with barely any human guidance."
+  ],
+  "alt": "Split scene: on the left, a tilted library building spills music notes near a small blue robot musician holding a mic, swept out mid-performance with arms raised in surprise. On the right, a wall splits into two jagged panels stamped 0-DAY; a pink robot squeezes through the gap, partly hidden behind the right panel, while a human analyst watches from further off with a worried look.",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 2,
+    "safety": 3,
+    "society": 3,
+    "education": 1,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "tidal-ai-music-ban",
+    "ai-agents-autonomous-hacking",
+    "nvidia-spy-case",
+    "ny-ai-chatbot-ban-minors",
+    "ai-agents-for-daily-life",
+    "anthropic-ipo-countdown"
+  ],
+  "topStories": [
+    {
+      "title": "A Streaming Service Bans Fully AI-Generated Music",
+      "itemIds": [
+        "feeds:3d9795e0b578",
+        "feeds:d75134ae8ee5",
+        "feeds:6f0f83d3e1c3",
+        "hackernews:8914c0669275"
+      ],
+      "dimensions": [
+        "society",
+        "law",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "tidal-ai-music-ban"
+    },
+    {
+      "title": "Hackers' AI Agents Find And Exploit A Zero-Day With Little Human Help",
+      "itemIds": [
+        "feeds:44bd775b8ffe"
+      ],
+      "dimensions": [
+        "safety",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agents-autonomous-hacking"
+    },
+    {
+      "title": "A Reinstated Chip-Company Chief Apologizes And Pushes Back On The Rescue Narrative",
+      "itemIds": [
+        "feeds:53fd63244ab1",
+        "feeds:87d60b72d85a",
+        "feeds:93afcdb77535",
+        "feeds:ca9d29ca2d38",
+        "feeds:97f21b1a1bb0",
+        "feeds:171b94fafc68",
+        "feeds:aa4730513839",
+        "feeds:07ccdd07fbb2"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "society"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "A State Bans AI Companion Chatbots Marketed To Children",
+      "itemIds": [
+        "hackernews:1ff8d72e6607"
+      ],
+      "dimensions": [
+        "policy",
+        "law",
+        "society",
+        "education"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ny-ai-chatbot-ban-minors"
+    },
+    {
+      "title": "Retailers Push AI Shopping Agents As A New Benchmark Shows Agents Struggle With Everyday Tasks",
+      "itemIds": [
+        "feeds:86266e890e18",
+        "feeds:5edc970ed59b",
+        "feeds:b0f646dfac9a",
+        "feeds:53cea3bae71e"
+      ],
+      "dimensions": [
+        "capabilities",
+        "industry",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-agents-for-daily-life"
+    },
+    {
+      "title": "An AI Lab's Shares Fall Below Its IPO Price As Boom Fears Persist",
+      "itemIds": [
+        "feeds:7992bf690613",
+        "hackernews:ac64a3fde082"
+      ],
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "anthropic-ipo-countdown"
+    }
+  ],
+  "brief": {
+    "concept": "A streaming service sweeps millions of AI-made songs off its shelves on one side, while on the other an AI agent slips through a cracked wall to exploit a security flaw with nobody watching the gap.",
+    "metaphor": "A cleanup and a break-in happening at the same time show two faces of today's AI: content being thrown out as fake, and agents quietly going further than anyone told them to.",
+    "cast": [
+      {
+        "who": "a tilting music-library building sweeping music notes out its door",
+        "kind": "institution"
+      },
+      {
+        "who": "a small AI robot musician swept out mid-performance, microphone raised",
+        "kind": "ai"
+      },
+      {
+        "who": "a plain wall with a jagged crack stamped '0-DAY'",
+        "kind": "object"
+      },
+      {
+        "who": "a different small AI robot squeezing through the crack, unescorted",
+        "kind": "ai"
+      },
+      {
+        "who": "a human analyst standing aside, arms crossed, watching the gap",
+        "kind": "person"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Split frame down the middle. Left half: a cloud-shaped music-library building tips sideways, spilling music notes and sweeping out a small robot musician mid-performance, mic still raised. Right half: a plain wall with a jagged crack stamped '0-DAY', a different small AI robot squeezing through it unescorted, while a human analyst stands off to the side, arms crossed, watching the gap. Keep each half to two main shapes; one bright ink highlight marks the crack and the overflowing bin of notes.",
+    "artType": "static",
+    "alt": "A split image: on the left, a tilting music-library building sweeps a small robot musician and scattered music notes out the door. On the right, a different small AI robot slips through a cracked wall marked zero-day while a human analyst watches with arms crossed."
+  },
+  "sources": [
+    {
+      "id": "feeds:3d9795e0b578",
+      "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+      "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-11-24T17:34:34.000Z"
+    },
+    {
+      "id": "feeds:d75134ae8ee5",
+      "title": "Tidal will start banning AI-generated music next month",
+      "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+      "source": "feeds",
+      "publisher": "The Verge",
+      "publishedAt": "2026-11-24T17:17:09.000Z"
+    },
+    {
+      "id": "feeds:6f0f83d3e1c3",
+      "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+      "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+      "source": "feeds",
+      "publisher": "TechCrunch",
+      "publishedAt": "2026-11-24T16:46:00.000Z"
+    },
+    {
+      "id": "hackernews:8914c0669275",
+      "title": "Tidal bans AI-generated music",
+      "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+      "source": "hackernews",
+      "publisher": "variety.com",
+      "publishedAt": "2026-11-24T16:12:38.000Z"
+    },
+    {
+      "id": "feeds:44bd775b8ffe",
+      "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+      "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+      "source": "feeds",
+      "publisher": "Ars Technica",
+      "publishedAt": "2026-11-24T12:30:05.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.29,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-25T17:49:47.609Z"
+}
