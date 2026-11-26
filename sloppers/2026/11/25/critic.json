@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"swarm\" (raw) was moved 0 px, 249 px to stay inside the artboard",
+          "\"swarm\" extends outside the safe area in the final frame (x 452…591, y 25…614)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 4,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "A clear, kind juxtaposition that reads fast and the paper-cutout style feels intentional, but the swarm nudges the safe-area edge and the clerk's desk gets lost behind the paper pile, so it's a solid pass with room to tighten.",
+        "revisionNotes": [
+          "Scale the \"swarm\" raw shape down to ~0.85 or shift its offset down ~40px; lint flags it extending above the safe area (y 25-614) and the topmost dots sit right at the canvas edge.",
+          "The \"desk\" component next to the clerk is nearly invisible, swallowed by the \"pile\" paper strips; give it a stronger fill (swap r-body-alt for r-accent) or raise its z-order so the 'sits at a desk beside it' beat actually reads.",
+          "Tower's left fin and the hall's roof edge nearly touch around x=410-460; nudge tower anchor from x 0.46 to ~0.50 or move hall slightly further left-third to give a clean gap between the two props.",
+          "The satellite trail reads as scattered bubbles rather than a swarm; add 2-3 more small circles along the curve or tighten spacing so 'A MILLION SATELLITES' feels backed by a denser cluster.",
+          "Where the trail crosses the top-center label, a couple of dots sit flush against the letters; offset the label up slightly or thin the trail there so the text stays on clean background."
+        ]
+      },
+      "average": 3.86,
+      "passed": true
+    }
+  ]
+}

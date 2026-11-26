@@ -1,0 +1,211 @@
+{
+  "topStories": [
+    {
+      "title": "FCC Approves SpaceX's Plan For Up To A Million AI Satellites",
+      "itemIds": [
+        "feeds:cc44d5e0e57b"
+      ],
+      "dimensions": [
+        "industry",
+        "planet",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "spacex-ai-satellites"
+    },
+    {
+      "title": "AI-Generated Requests Overwhelm America's Open Records Offices",
+      "itemIds": [
+        "feeds:9294811a4f3d"
+      ],
+      "dimensions": [
+        "society",
+        "labor",
+        "policy"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 1,
+      "storyline": "ai-strains-public-records"
+    },
+    {
+      "title": "Nvidia's Governance Crisis Deepens: Credit Downgrade Weighed, Code Of Conduct Breach, Stock Drop",
+      "itemIds": [
+        "feeds:77bb663b6361",
+        "feeds:c3986ed0d71a",
+        "feeds:bba05557f7ea",
+        "feeds:cd26d95554d7",
+        "feeds:f6203d353d9a",
+        "feeds:ec57c99a6a09"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 3,
+      "breadth": 2,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "State Attorneys General Challenge Sale Of Users' Private AI Chats In Bankruptcy Auction",
+      "itemIds": [
+        "feeds:628d3c512960"
+      ],
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "character-ai-data-auction-fight"
+    },
+    {
+      "title": "New York's AI Companion Toy Ban Takes Shape Ahead Of The Holidays",
+      "itemIds": [
+        "feeds:fd3eea6ab732",
+        "hackernews:13305f74bc3c"
+      ],
+      "dimensions": [
+        "policy",
+        "law",
+        "society",
+        "education"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ny-ai-chatbot-ban-minors"
+    },
+    {
+      "title": "Foreign AI Romance Apps Reshape Youth Intimacy In Africa",
+      "itemIds": [
+        "feeds:7f3cf867d5ac"
+      ],
+      "dimensions": [
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-companion-apps-global-south"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "spacex-ai-satellites",
+      "title": "A Space Company's Plan For A Million AI Satellites In Orbit",
+      "dimensions": [
+        "industry",
+        "planet",
+        "policy"
+      ],
+      "motifs": [
+        "a rocket launching a swarm of small AI-eye satellites into a starry sky",
+        "a crowded orbit ring glowing with AI chip satellites",
+        "a launch tower pointing straight up through the clouds"
+      ]
+    },
+    {
+      "id": "ai-strains-public-records",
+      "title": "AI-Driven Requests Overwhelm Small Public Records Offices",
+      "dimensions": [
+        "society",
+        "labor",
+        "policy"
+      ],
+      "motifs": [
+        "a single clerk's desk buried under a rising stack of paper",
+        "a tiny town hall straining under a flood of request forms",
+        "a request form multiplying itself on a clerk's desk"
+      ]
+    },
+    {
+      "id": "character-ai-data-auction-fight",
+      "title": "State Attorneys General Fight A Bankrupt Chatbot Company's Data Auction",
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "motifs": [
+        "a gavel stopping an auctioneer's hammer over a pile of chat bubbles",
+        "a locked filing cabinet labeled PRIVATE up for auction",
+        "a courthouse step blocking a cart of data boxes"
+      ]
+    },
+    {
+      "id": "ai-companion-apps-global-south",
+      "title": "Foreign AI Companion Apps Spread In Markets Without Safeguards",
+      "dimensions": [
+        "society"
+      ],
+      "motifs": [
+        "a young figure holding a glowing heart-shaped chat bubble",
+        "a village elder watching a phone screen glow with a chatbot heart icon",
+        "an empty guardrail sign beside a popular chatbot storefront"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Three top stories (SpaceX's million-satellite AI orbit plan, the deepening Nvidia governance/credit crisis, and state AGs blocking a bankrupt chatbot company's private-chat auction) each score relevance 12, well past the fresh threshold of 8.",
+  "motto": "A Million Satellites, One Clerk",
+  "phrase": "A space company won approval to put up to a million AI satellites into orbit. Meanwhile, a small town's lone records clerk is overwhelmed by a flood of AI-generated requests.",
+  "phraseAlternatives": [
+    "A space company can now launch up to a million AI satellites. Back on Earth, one town clerk is buried in AI-driven paperwork.",
+    "Up to a million AI satellites got the green light for orbit. One small-town clerk still cannot get through today's inbox.",
+    "AI is heading to space by the million. In one small town, it is just heading to the records office.",
+    "A million AI satellites are now allowed in orbit. A single clerk on the ground is still fighting a paper mountain."
+  ],
+  "brief": {
+    "concept": "A space company launches a swarm of small AI satellites toward orbit while, on the ground, a single small-town clerk sinks beneath a rising pile of AI-driven paperwork.",
+    "metaphor": "AI reaches for the stars while ordinary bureaucracy drowns in its own paper trail.",
+    "cast": [
+      {
+        "who": "a swarm of small round AI satellites rising into a starry sky",
+        "kind": "ai"
+      },
+      {
+        "who": "a launch tower with a rocket shape at the base of the sky, sending the satellites up",
+        "kind": "object"
+      },
+      {
+        "who": "a tired human records clerk sitting at a small desk, head in hand",
+        "kind": "person"
+      },
+      {
+        "who": "a tiny town hall building with paper spilling out its door",
+        "kind": "institution"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Split composition, horizon line across the middle. Upper half: a dark night sky where a rocket-shaped launch tower at the horizon sends a curving trail of small round AI satellites up toward the top edge. Lower half: a small, modest town hall building, door overflowing with a tall, leaning stack of paper spilling onto the ground; the clerk sits at a tiny desk right beside the pile. Flat cut-paper layers, no gradients, each element its own solid color.",
+    "artType": "static",
+    "alt": "In a night sky, a rocket launches a cluster of small round AI satellites upward. On the ground below, a tired clerk sits at a desk beside a small town hall building that is overflowing with spilling paperwork."
+  },
+  "sourceIds": [
+    "feeds:cc44d5e0e57b",
+    "feeds:9294811a4f3d"
+  ],
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 1,
+    "policy": 3,
+    "law": 2,
+    "safety": 2,
+    "society": 3,
+    "education": 1,
+    "planet": 2,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
