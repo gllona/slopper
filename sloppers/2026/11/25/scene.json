@@ -1,0 +1,129 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {
+    "type": "sky-ground",
+    "horizon": 0.6,
+    "color": "bg",
+    "color2": "accent2"
+  },
+  "elements": [
+    {
+      "id": "vault",
+      "component": "raw",
+      "at": {
+        "x": 0.185,
+        "y": 0.406
+      },
+      "scale": 1,
+      "rotate": 8,
+      "props": {
+        "width": 240,
+        "height": 420
+      },
+      "svg": "<rect class=\"r-ink\" x=\"20\" y=\"70\" width=\"200\" height=\"330\" rx=\"10\"/><polygon class=\"r-accent\" points=\"20,70 220,70 120,15\"/><circle class=\"r-paper\" cx=\"120\" cy=\"235\" r=\"70\"/><circle class=\"r-ink\" cx=\"120\" cy=\"235\" r=\"14\"/><line class=\"r-thin\" x1=\"120\" y1=\"165\" x2=\"120\" y2=\"205\"/><line class=\"r-thin\" x1=\"120\" y1=\"265\" x2=\"120\" y2=\"305\"/><line class=\"r-thin\" x1=\"50\" y1=\"235\" x2=\"105\" y2=\"235\"/><line class=\"r-thin\" x1=\"135\" y1=\"235\" x2=\"190\" y2=\"235\"/>"
+    },
+    {
+      "id": "chats",
+      "component": "raw",
+      "at": {
+        "x": 0.407,
+        "y": 0.306
+      },
+      "scale": 0.55,
+      "rotate": -8,
+      "props": {
+        "width": 200,
+        "height": 200
+      },
+      "svg": "<rect class=\"r-body-alt\" x=\"15\" y=\"10\" width=\"95\" height=\"62\" rx=\"20\"/><polygon class=\"r-body-alt\" points=\"35,72 50,72 30,92\"/><rect class=\"r-accent\" x=\"105\" y=\"75\" width=\"75\" height=\"50\" rx=\"16\"/><polygon class=\"r-accent\" points=\"120,125 135,125 115,142\"/><circle class=\"r-ink\" cx=\"60\" cy=\"155\" r=\"14\"/><rect class=\"r-ink\" x=\"46\" y=\"170\" width=\"28\" height=\"30\" rx=\"10\"/>"
+    },
+    {
+      "id": "reg",
+      "component": "human",
+      "at": {
+        "x": 0.602,
+        "y": 0.6
+      },
+      "scale": 1,
+      "props": {
+        "mood": "worried",
+        "pose": "point",
+        "kind": "adult",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "sold-sign",
+      "component": "label",
+      "at": {
+        "x": 0.33,
+        "y": 0.8
+      },
+      "scale": 1,
+      "props": {
+        "text": "SOLD",
+        "size": "md",
+        "kind": "sign",
+        "color": "text"
+      }
+    },
+    {
+      "id": "launch",
+      "component": "raw",
+      "at": {
+        "x": 0.815,
+        "y": 0.461
+      },
+      "scale": 1,
+      "props": {
+        "width": 160,
+        "height": 300
+      },
+      "svg": "<rect class=\"r-ink\" x=\"20\" y=\"260\" width=\"120\" height=\"25\" rx=\"6\"/><rect class=\"r-ink\" x=\"35\" y=\"285\" width=\"12\" height=\"15\"/><rect class=\"r-ink\" x=\"113\" y=\"285\" width=\"12\" height=\"15\"/><rect class=\"r-accent\" x=\"65\" y=\"60\" width=\"30\" height=\"200\" rx=\"14\"/><polygon class=\"r-accent-2\" points=\"65,60 95,60 80,15\"/><polygon class=\"r-body\" points=\"65,200 45,240 65,240\"/><polygon class=\"r-body\" points=\"95,200 115,240 95,240\"/><circle class=\"r-paper\" cx=\"80\" cy=\"120\" r=\"10\"/>"
+    },
+    {
+      "id": "orbit",
+      "component": "raw",
+      "at": {
+        "x": 0.815,
+        "y": 0.176
+      },
+      "scale": 0.6,
+      "props": {
+        "width": 420,
+        "height": 300
+      },
+      "svg": "<path class=\"r-body\" d=\"M0,300 C0,190 420,190 420,300 Z\"/><ellipse class=\"r-thin\" cx=\"210\" cy=\"170\" rx=\"190\" ry=\"46\"/><rect class=\"r-ink\" x=\"30\" y=\"148\" width=\"20\" height=\"14\" rx=\"3\"/><rect class=\"r-ink\" x=\"370\" y=\"148\" width=\"20\" height=\"14\" rx=\"3\"/><rect class=\"r-ink\" x=\"200\" y=\"120\" width=\"20\" height=\"14\" rx=\"3\"/>"
+    },
+    {
+      "id": "sat-bot",
+      "component": "robot",
+      "at": {
+        "x": 0.833,
+        "y": 0.213
+      },
+      "scale": 0.3,
+      "props": {
+        "mood": "happy",
+        "arms": "up"
+      }
+    },
+    {
+      "id": "launched-sign",
+      "component": "label",
+      "at": {
+        "x": 0.72,
+        "y": 0.8
+      },
+      "scale": 1,
+      "props": {
+        "text": "LAUNCHED",
+        "size": "md",
+        "kind": "plain",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "Split scene: on the left a tipping vault building spills chat bubbles, one holding a small child icon, toward a worried person reaching up, with a SOLD sign planted in the ground. On the right a rocket lifts off a launch pad toward a ring of small satellites circling the sky, with a tiny robot waving from inside the ring and a LAUNCHED sign below."
+}

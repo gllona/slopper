@@ -1,0 +1,225 @@
+{
+  "topStories": [
+    {
+      "title": "Character.AI's Bankruptcy Sale Of Users' Private Chats Challenged By States",
+      "itemIds": [
+        "feeds:628d3c512960"
+      ],
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "character-ai-data-auction-fight"
+    },
+    {
+      "title": "FCC Approves Up To A Million AI Datacenter Satellites",
+      "itemIds": [
+        "feeds:cc44d5e0e57b"
+      ],
+      "dimensions": [
+        "industry",
+        "capabilities",
+        "planet"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "spacex-orbital-ai-datacenters"
+    },
+    {
+      "title": "Nvidia's Governance Crisis Deepens: Downgrade Risk, Code-Of-Conduct Breach, Falling Stock",
+      "itemIds": [
+        "feeds:77bb663b6361",
+        "feeds:c3986ed0d71a",
+        "feeds:ec57c99a6a09",
+        "feeds:cd26d95554d7",
+        "feeds:f6203d353d9a",
+        "feeds:bba05557f7ea"
+      ],
+      "dimensions": [
+        "industry",
+        "policy",
+        "law"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "nvidia-spy-case"
+    },
+    {
+      "title": "Militaries Keep Targeting Datacenters In Wartime",
+      "itemIds": [
+        "feeds:e0d965bae52b"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "military-datacenter-targeting"
+    },
+    {
+      "title": "Foreign AI Companion Apps Reshape Youth Intimacy In Africa",
+      "itemIds": [
+        "feeds:7f3cf867d5ac"
+      ],
+      "dimensions": [
+        "society",
+        "education"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-companion-apps-global-south-youth"
+    },
+    {
+      "title": "AI-Boosted Public Records Requests Strain Small-Town Clerks",
+      "itemIds": [
+        "feeds:9294811a4f3d"
+      ],
+      "dimensions": [
+        "society",
+        "policy",
+        "labor"
+      ],
+      "novelty": 2,
+      "magnitude": 1,
+      "breadth": 1,
+      "storyline": "ai-floods-open-records-systems"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "character-ai-data-auction-fight",
+      "title": "A Bankrupt Chatbot Company's Plan To Auction Off Private Chats",
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "motifs": [
+        "an auctioneer's gavel over a glowing vault of chat bubbles",
+        "a regulator's hand reaching up to stop the sale",
+        "a child's icon tucked among the chat bubbles for sale"
+      ]
+    },
+    {
+      "id": "spacex-orbital-ai-datacenters",
+      "title": "A Rocket Company's Plan For AI Datacenters In Orbit",
+      "dimensions": [
+        "industry",
+        "capabilities",
+        "planet"
+      ],
+      "motifs": [
+        "a rocket launching a ring of small satellite datacenters around Earth",
+        "a crowded orbit filling up with server-shaped satellites",
+        "a small AI robot waving from inside a satellite window"
+      ]
+    },
+    {
+      "id": "military-datacenter-targeting",
+      "title": "Datacenters Become Military Targets In Wartime",
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry"
+      ],
+      "motifs": [
+        "a cloud-shaped datacenter wearing a military helmet",
+        "a map marked with datacenter targets",
+        "a missile path bending toward a server rack"
+      ]
+    },
+    {
+      "id": "ai-companion-apps-global-south-youth",
+      "title": "AI Companion Apps Reshape Youth Intimacy In The Global South",
+      "dimensions": [
+        "society",
+        "education"
+      ],
+      "motifs": [
+        "a young person's phone glowing with a heart-shaped chat bubble",
+        "an elder figure watching uneasily from a doorway",
+        "a chatbot heart replacing a family circle"
+      ]
+    },
+    {
+      "id": "ai-floods-open-records-systems",
+      "title": "AI-Boosted Requests Overwhelm Local Open-Records Offices",
+      "dimensions": [
+        "society",
+        "policy",
+        "labor"
+      ],
+      "motifs": [
+        "a small-town clerk's desk buried under a mountain of request forms",
+        "a single human desk facing a conveyor belt of requests",
+        "a request form multiplying itself on a copier"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Several top stories clear the relevance threshold of 8: the Character.AI private-chat auction fight and the FCC's approval of up to a million orbiting AI-datacenter satellites each score 12 (novelty 3 x magnitude 2 x breadth 2).",
+  "motto": "Secrets Sold, Satellites Launched",
+  "phrase": "Regulators are fighting a company's plan to auction off millions of private chats, including children's. Meanwhile, a company won approval to send up to a million AI datacenters into space.",
+  "phraseAlternatives": [
+    "A bankruptcy sale wants to auction off millions of private chats, some from children, despite state objections. Meanwhile, a rocket company can launch a million AI datacenters into space.",
+    "States are trying to block a company from selling millions of users' private chats, including children's. Elsewhere, regulators cleared the way for up to a million orbiting AI datacenters.",
+    "Millions of private chats, some from children, are headed for a bankruptcy auction unless states stop it. Meanwhile, the sky may soon fill with up to a million AI datacenters.",
+    "One company's private chats are for sale, children's included, and regulators are racing to stop it. Another company just got the green light to put AI datacenters into orbit."
+  ],
+  "brief": {
+    "concept": "A company tries to auction off a vault of millions of users' private chats, children's included, while regulators reach up to stop the sale; at the same moment, a rocket company launches a ring of small AI-datacenter satellites into orbit above them.",
+    "metaphor": "Private secrets become merchandise on the ground while computing power quietly colonizes the sky.",
+    "cast": [
+      {
+        "who": "a vault-shaped building tipping forward, spilling chat bubbles toward an auction hammer",
+        "kind": "institution"
+      },
+      {
+        "who": "a human regulator reaching up to stop the falling chats, a child's icon among them",
+        "kind": "person"
+      },
+      {
+        "who": "a launch pad sending a ring of small satellite datacenters around the Earth",
+        "kind": "institution"
+      },
+      {
+        "who": "a small cheerful AI robot waving down from inside one orbiting satellite",
+        "kind": "ai"
+      }
+    ],
+    "style": "paper-cutout",
+    "composition": "Split frame with a thin horizon line. Left half, ground level: a vault-shaped building leans over, pouring glowing speech-bubble chats down toward an auctioneer's hammer; a human hand reaches up from below to catch and stop part of the stream, with one small child-shaped icon visible among the falling bubbles. Right half, sky: a rocket lifts off a launch pad and arcs up into a ring of small satellite-datacenters circling a simple curved Earth silhouette; one satellite window shows a small robot waving. Keep each half to two main shapes so the cut-paper layers stay clean.",
+    "artType": "static",
+    "alt": "On one side, a vault-shaped building spills glowing chat bubbles toward an auction hammer while a hand reaches up to stop it, with a child's icon among the bubbles. On the other side, a rocket launches toward a ring of small satellites orbiting Earth, with a tiny robot waving from one of them."
+  },
+  "sourceIds": [
+    "feeds:628d3c512960",
+    "feeds:cc44d5e0e57b"
+  ],
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 1,
+    "policy": 2,
+    "law": 2,
+    "safety": 2,
+    "society": 3,
+    "education": 2,
+    "planet": 2,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": false,
+        "errors": [
+          "\"sat-bot\" is cut off by the artboard edge in the final frame (x 958…1082, y 179…349)"
+        ],
+        "warnings": [
+          "\"sold-sign\" (label) was moved 0 px, -67 px to stay inside the safe area",
+          "\"sat-bot\" (robot) was moved -19 px, 0 px to stay inside the artboard"
+        ]
+      },
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 3,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The cast is correctly human-vs-robot and the idea is legible once you read the SOLD/LAUNCHED labels, but the vault reads as a target, there's no auction hammer, the regulator's arm visually points at the rocket instead of the falling chats, and the static rocket undercuts the launch beat — these push it just under passing.",
+        "revisionNotes": [
+          "Redesign the vault component: the dial currently reads as a target/bullseye, not a vault door. Replace the crosshair lines with a wheel-lock or handle shape, and keep a taller, narrower building silhouette so it reads as a leaning vault, not a shield.",
+          "Add an auctioneer's hammer as a raw prop near the chats/SOLD sign; right now the auction idea rests entirely on the text label, with no hammer shape anywhere in the scene.",
+          "Re-aim the regulator's pointing arm (reg, x=0.602) toward the vault/chat bubbles instead of toward the rocket; as drawn the arm visually links the person to the launch pad, muddying which half of the split joke they belong to.",
+          "Scale up 'chats' (currently 0.55) and add a connecting trail from the vault so the bubbles read as spilling rather than two floating shapes; make the child icon a recognizable small head/body, not a plain dot.",
+          "Give the rocket a flame or motion trail, or tilt it off the pad, so LAUNCHED is shown by the art, not only by the label — right now it reads as a static toy on a stand.",
+          "Make the green dome under the orbit ring read as Earth (full curved arc or surface texture) rather than a flat hill."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 3,
+          "composition": 3,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The split-frame idea and casting (human regulator, AI-only robot) are sound, but key story props — the spilling chats, the child icon, the gavel, and the satellite ring — are rendered so sparsely or awkwardly (robot perched atop the Earth like a hat, hammer reduced to scribbles) that the specific joke doesn't fully land; not yet ready to publish.",
+        "revisionNotes": [
+          "Rebuild the 'chats' stream as 4-5 small glowing speech bubbles trailing from vault to regulator's hand, plus a distinct small child-icon bubble among them per brief — now it's one bubble and two dots, so 'millions of chats, children's included' barely reads.",
+          "The 'hammer' element reads as disconnected scribbles, not a gavel. Rebuild as one clear handle+head shape, scale ~1.2, anchored closer to the SOLD sign so the auction beat is legible.",
+          "Move 'sat-bot' off the top rim of the Earth silhouette (currently looks like it's standing on the planet like a hat) — anchor along the 'orbit' ellipse path instead, around y=0.14-0.16, so it reads as waving from an orbiting satellite.",
+          "Thicken the 'orbit' ring stroke and enlarge/space the satellite rects along it; at current scale 0.7 with a thin stroke the 'ring of datacenters' nearly disappears.",
+          "Clarify the 'vault' silhouette — the dial+triangle-roof shape reads ambiguously as a bomb or plunger. Add a small doorway or window so it unmistakably reads as a leaning building/vault.",
+          "Left ground area between vault and SOLD sign is empty; tighten the gap so the chain vault → chats → hammer → SOLD reads as one continuous beat left to right."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    }
+  ]
+}
