@@ -1,0 +1,134 @@
+{
+  "harness": "0.2.0",
+  "style": "paper-cutout",
+  "background": {
+    "type": "split",
+    "horizon": 0.74,
+    "color": "ink",
+    "color2": "accent2"
+  },
+  "elements": [
+    {
+      "id": "tower",
+      "component": "raw",
+      "at": {
+        "x": 0.46,
+        "y": 0.74
+      },
+      "offset": [
+        0,
+        -130
+      ],
+      "scale": 1,
+      "props": {
+        "width": 160,
+        "height": 260
+      },
+      "svg": "<rect class=\"r-paper\" x=\"50\" y=\"70\" width=\"60\" height=\"150\" rx=\"10\"/><path class=\"r-accent\" d=\"M50,70 L80,10 L110,70 Z\"/><path class=\"r-accent-2\" d=\"M50,180 L20,230 L50,230 Z\"/><path class=\"r-accent-2\" d=\"M110,180 L140,230 L110,230 Z\"/><circle class=\"r-ink\" cx=\"80\" cy=\"120\" r=\"14\"/>"
+    },
+    {
+      "id": "swarm",
+      "component": "raw",
+      "attachTo": "tower",
+      "side": "top",
+      "offset": [
+        10,
+        -150
+      ],
+      "scale": 1,
+      "props": {
+        "width": 300,
+        "height": 620
+      },
+      "svg": "<circle class=\"r-paper\" cx=\"150\" cy=\"580\" r=\"30\"/><rect class=\"r-accent-2\" x=\"100\" y=\"572\" width=\"34\" height=\"16\"/><rect class=\"r-accent-2\" x=\"186\" y=\"572\" width=\"34\" height=\"16\"/><circle class=\"r-paper\" cx=\"190\" cy=\"470\" r=\"26\"/><rect class=\"r-accent-2\" x=\"148\" y=\"463\" width=\"28\" height=\"14\"/><rect class=\"r-accent-2\" x=\"206\" y=\"463\" width=\"28\" height=\"14\"/><circle class=\"r-paper\" cx=\"120\" cy=\"360\" r=\"22\"/><circle class=\"r-paper\" cx=\"170\" cy=\"260\" r=\"18\"/><circle class=\"r-paper\" cx=\"110\" cy=\"170\" r=\"15\"/><circle class=\"r-paper\" cx=\"160\" cy=\"90\" r=\"12\"/><circle class=\"r-paper\" cx=\"130\" cy=\"30\" r=\"9\"/>"
+    },
+    {
+      "id": "hall",
+      "component": "raw",
+      "at": "left-third",
+      "offset": [
+        0,
+        -100
+      ],
+      "scale": 1,
+      "props": {
+        "width": 240,
+        "height": 200
+      },
+      "svg": "<rect class=\"r-body-alt\" x=\"20\" y=\"60\" width=\"200\" height=\"140\" rx=\"6\"/><path class=\"r-accent\" d=\"M10,60 L120,0 L230,60 Z\"/><rect class=\"r-ink\" x=\"100\" y=\"120\" width=\"40\" height=\"80\"/><rect class=\"r-paper\" x=\"40\" y=\"80\" width=\"18\" height=\"120\"/><rect class=\"r-paper\" x=\"182\" y=\"80\" width=\"18\" height=\"120\"/>"
+    },
+    {
+      "id": "pile",
+      "component": "raw",
+      "attachTo": "hall",
+      "side": "right",
+      "offset": [
+        15,
+        5
+      ],
+      "scale": 1,
+      "props": {
+        "width": 140,
+        "height": 160
+      },
+      "svg": "<rect class=\"r-paper\" x=\"15\" y=\"130\" width=\"110\" height=\"16\" transform=\"rotate(-3 70 138)\"/><rect class=\"r-paper\" x=\"20\" y=\"108\" width=\"100\" height=\"16\" transform=\"rotate(4 70 116)\"/><rect class=\"r-paper\" x=\"18\" y=\"86\" width=\"104\" height=\"16\" transform=\"rotate(-6 70 94)\"/><rect class=\"r-paper\" x=\"25\" y=\"64\" width=\"90\" height=\"16\" transform=\"rotate(8 70 72)\"/><rect class=\"r-paper\" x=\"30\" y=\"42\" width=\"80\" height=\"16\" transform=\"rotate(-10 70 50)\"/><rect class=\"r-paper\" x=\"55\" y=\"18\" width=\"60\" height=\"16\" transform=\"rotate(16 85 26)\"/>"
+    },
+    {
+      "id": "clerk",
+      "component": "human",
+      "at": "right-third",
+      "scale": 1,
+      "props": {
+        "mood": "exhausted",
+        "pose": "sit",
+        "holds": "none"
+      }
+    },
+    {
+      "id": "desk",
+      "component": "raw",
+      "attachTo": "clerk",
+      "side": "left",
+      "offset": [
+        -30,
+        -10
+      ],
+      "scale": 1,
+      "props": {
+        "width": 160,
+        "height": 110
+      },
+      "svg": "<rect class=\"r-body-alt\" x=\"10\" y=\"30\" width=\"140\" height=\"18\" rx=\"4\"/><rect class=\"r-ink\" x=\"20\" y=\"48\" width=\"10\" height=\"55\"/><rect class=\"r-ink\" x=\"130\" y=\"48\" width=\"10\" height=\"55\"/><rect class=\"r-shade\" x=\"10\" y=\"100\" width=\"140\" height=\"8\"/><rect class=\"r-paper\" x=\"55\" y=\"14\" width=\"50\" height=\"20\" rx=\"2\"/>"
+    },
+    {
+      "id": "label-top",
+      "component": "label",
+      "at": "top-center",
+      "scale": 1,
+      "props": {
+        "text": "A MILLION SATELLITES",
+        "size": "md",
+        "color": "paper",
+        "kind": "plain"
+      }
+    },
+    {
+      "id": "label-clerk",
+      "component": "label",
+      "attachTo": "clerk",
+      "side": "top",
+      "offset": [
+        0,
+        -10
+      ],
+      "scale": 1,
+      "props": {
+        "text": "ONE CLERK",
+        "size": "md",
+        "color": "text",
+        "kind": "tag"
+      }
+    }
+  ],
+  "alt": "A night sky shows a rocket-shaped tower launching a curving trail of small round satellites toward the top, labeled \"a million satellites.\" Below the horizon, a small town hall spills a leaning stack of paper, and an exhausted clerk sits slumped at a tiny desk beside it, labeled \"one clerk.\""
+}
