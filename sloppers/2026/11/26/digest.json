@@ -1,0 +1,775 @@
+{
+  "date": "2026-11-26",
+  "fetchedAt": "2026-11-27T11:07:49.879Z",
+  "sources": [
+    {
+      "source": "feeds",
+      "ok": true,
+      "count": 6
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "count": 6
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 16
+    },
+    {
+      "source": "gdelt",
+      "ok": false,
+      "count": 0,
+      "error": "all GDELT queries failed"
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "count": 40
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "feeds:83e41de8930f",
+      "source": "feeds",
+      "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "snippet": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of…",
+      "publishedAt": "2026-11-26T09:54:40.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:4fd213eda966",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
+      "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
+      "snippet": "The FCA warned against “another force of attack” from agents after the company declined a request to work on joint testing ahead of rolling out its personal agent in the UK on Tuesday.",
+      "publishedAt": "2026-11-26T10:51:27.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:33b3d08d99ae",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "snippet": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+      "publishedAt": "2026-11-26T20:03:54.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:7aa896c7cb49",
+      "source": "feeds",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "snippet": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+      "publishedAt": "2026-11-26T16:00:00.000Z",
+      "publisher": "TechCrunch",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:be75690cf224",
+      "source": "feeds",
+      "url": "https://www.bbc.co.uk/news/articles/cqevr4lnd1nxo?at_medium=RSS&at_campaign=rss",
+      "title": "Asia made a big AI bet on Nvidia. What happens now?",
+      "snippet": "Asian stocks have been on a rollercoaster ride after Jensen Huang's shock return as Nvidia CEO.",
+      "publishedAt": "2026-11-26T23:08:12.000Z",
+      "publisher": "BBC News",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:85cc5ba7a9a8",
+      "source": "feeds",
+      "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+      "title": "Musk's plan to send a million SpaceX data satellites into space approved",
+      "snippet": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
+      "publishedAt": "2026-11-26T09:27:44.000Z",
+      "publisher": "BBC News",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:e78fec8e8f6e",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261126/p25",
+      "title": "A US judge sentences a Florida man to 47 months in prison for using AI to impersonate Kick streamer N3on, defrauding a memecoin's organizers out of ~$260K (Nathan Grayson/Aftermath)",
+      "snippet": "Nathan Grayson / Aftermath : A US judge sentences a Florida man to 47 months in prison for using AI to impersonate Kick streamer N3on, defrauding a memecoin's organizers out of ~$260K — What goes around comes around, I suppose. Earlier this year, Kick streamer N3on, a weasly little twig person who…",
+      "publishedAt": "2026-11-26T22:10:01.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:1cc0e0456333",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261126/p22",
+      "title": "Sources: SAP is preparing a plan to eliminate at least 10,000 positions, or 9% of its staff globally, to transform its software business for the AI era (Christina Kyriasoglou/Bloomberg)",
+      "snippet": "Christina Kyriasoglou / Bloomberg : Sources: SAP is preparing a plan to eliminate at least 10,000 positions, or 9% of its staff globally, to transform its software business for the AI era — SAP SE is preparing a plan to eliminate at least 10,000 positions to transform its software business for the…",
+      "publishedAt": "2026-11-26T16:50:28.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:49b24ba9abb7",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261126/p20",
+      "title": "Avicena, which links AI chips with microLEDs instead of lasers, raised a $100M+ Series C led by Intervest, with participation from SK Hynix, Samsung, and AMD (Cristian Dina/The Next Web)",
+      "snippet": "Cristian Dina / The Next Web : Avicena, which links AI chips with microLEDs instead of lasers, raised a $100M+ Series C led by Intervest, with participation from SK Hynix, Samsung, and AMD — SK hynix, Samsung and AMD's venture arms joined the Series C. New chief executive Kevin Pope plans to bring…",
+      "publishedAt": "2026-11-26T15:50:27.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:0a2da6a5d1b7",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261126/p19",
+      "title": "Texas resumes data center permitting, approving permits for SpaceX's $24B gas power plant, ahead of Democratic Governor Gina Hinojosa taking office in January (Stephanie Findlay/Financial Times)",
+      "snippet": "Stephanie Findlay / Financial Times : Texas resumes data center permitting, approving permits for SpaceX's $24B gas power plant, ahead of Democratic Governor Gina Hinojosa taking office in January — Incoming governor Gina Hinojosa pledged to rein in construction of new projects during her campaign…",
+      "publishedAt": "2026-11-26T13:45:00.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:8e940bae496d",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261126/p18",
+      "title": "TrustedRouter, which raised $6M to offer E2EE and confidential computing for enterprise AI queries, says it processes 6B+ tokens per day, up from 1B in August (Davey Alba/Bloomberg)",
+      "snippet": "Davey Alba / Bloomberg : TrustedRouter, which raised $6M to offer E2EE and confidential computing for enterprise AI queries, says it processes 6B+ tokens per day, up from 1B in August — The startup offers companies a way to keep employees' AI use private from model makers … Tech Across the Globe",
+      "publishedAt": "2026-11-26T13:30:01.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:81f39aec214f",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261126/p16",
+      "title": "OpenAI says it corrected a GPT-6.2 Astra and Sol launch billing mistake that had incorrectly discounted usage; Astra users will now hit their limits 40% faster (Graham Barlow/TechRadar)",
+      "snippet": "Graham Barlow / TechRadar : OpenAI says it corrected a GPT-6.2 Astra and Sol launch billing mistake that had incorrectly discounted usage; Astra users will now hit their limits 40% faster — Too little, too late? … - OpenAI has admitted to a billing mistake with its new GPT-6.2 models — You'll now…",
+      "publishedAt": "2026-11-26T13:01:08.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:aebfbe56731b",
+      "source": "hackernews",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "title": "AI made self-hosting fun again",
+      "snippet": "737 points and 367 comments on Hacker News (https://news.ycombinator.com/item?id=50660180).",
+      "publishedAt": "2026-11-26T21:47:45.000Z",
+      "score": 737,
+      "publisher": "janlukas.blog",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:1572d1e1c176",
+      "source": "hackernews",
+      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "snippet": "488 points and 267 comments on Hacker News (https://news.ycombinator.com/item?id=50651117).",
+      "publishedAt": "2026-11-26T03:36:58.000Z",
+      "score": 488,
+      "publisher": "twitter.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:6cee240b885d",
+      "source": "hackernews",
+      "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+      "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+      "snippet": "375 points and 91 comments on Hacker News (https://news.ycombinator.com/item?id=50659841).",
+      "publishedAt": "2026-11-26T21:08:05.000Z",
+      "score": 375,
+      "publisher": "worksinprogress.co",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:40cb24997469",
+      "source": "hackernews",
+      "url": "https://devnull.land/amd-specific-llama-cpp",
+      "title": "AMD-specific fork of llama.cpp",
+      "snippet": "368 points and 89 comments on Hacker News (https://news.ycombinator.com/item?id=50657265).",
+      "publishedAt": "2026-11-26T17:11:29.000Z",
+      "score": 368,
+      "publisher": "devnull.land",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:9a36b64e1e92",
+      "source": "hackernews",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "snippet": "337 points and 303 comments on Hacker News (https://news.ycombinator.com/item?id=50653477).",
+      "publishedAt": "2026-11-26T09:44:23.000Z",
+      "score": 337,
+      "publisher": "techstackups.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:c07b74d3a070",
+      "source": "hackernews",
+      "url": "https://diseasescuredbyai.com/",
+      "title": "Tracking Diseases Cured by AI",
+      "snippet": "310 points and 190 comments on Hacker News (https://news.ycombinator.com/item?id=50657307).",
+      "publishedAt": "2026-11-26T17:16:41.000Z",
+      "score": 310,
+      "publisher": "diseasescuredbyai.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:e2ac2e209969",
+      "source": "hackernews",
+      "url": "https://commandcode.ai/moat",
+      "title": "Moat: OpenRouter replacement",
+      "snippet": "291 points and 155 comments on Hacker News (https://news.ycombinator.com/item?id=50652184).",
+      "publishedAt": "2026-11-26T06:32:48.000Z",
+      "score": 291,
+      "publisher": "commandcode.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:16dc45523745",
+      "source": "hackernews",
+      "url": "http://themouseless.dev/vim/",
+      "title": "Show HN: I wrote an entire Vim manual over 4 years",
+      "snippet": "186 points and 56 comments on Hacker News (https://news.ycombinator.com/item?id=50655868).",
+      "publishedAt": "2026-11-26T14:44:22.000Z",
+      "score": 186,
+      "publisher": "themouseless.dev",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:e1eae35badcb",
+      "source": "hackernews",
+      "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
+      "title": "An introduction to uncertainty in machine learning",
+      "snippet": "84 points and 2 comments on Hacker News (https://news.ycombinator.com/item?id=50658498).",
+      "publishedAt": "2026-11-26T19:04:50.000Z",
+      "score": 84,
+      "publisher": "chrhenning.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:304eb6f376a1",
+      "source": "hackernews",
+      "url": "https://karpathy.ai/usaciv/",
+      "title": "The USA as a Civilizations-esque map",
+      "snippet": "71 points and 58 comments on Hacker News (https://news.ycombinator.com/item?id=50658997).",
+      "publishedAt": "2026-11-26T19:53:58.000Z",
+      "score": 71,
+      "publisher": "karpathy.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:743be50c28f4",
+      "source": "hackernews",
+      "url": "https://news.ycombinator.com/item?id=50657957",
+      "title": "Ask HN: How do you find meaning of life at 41?",
+      "snippet": "62 points and 106 comments on Hacker News (https://news.ycombinator.com/item?id=50657957).",
+      "publishedAt": "2026-11-26T18:14:53.000Z",
+      "score": 62,
+      "publisher": "news.ycombinator.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:f2e6cfed540d",
+      "source": "hackernews",
+      "url": "https://topcitedscientists.com/figures/ai-at-four-us-companies/",
+      "title": "Top-cited AI scientists at four US companies compared",
+      "snippet": "41 points and 23 comments on Hacker News (https://news.ycombinator.com/item?id=50658910).",
+      "publishedAt": "2026-11-26T19:44:31.000Z",
+      "score": 41,
+      "publisher": "topcitedscientists.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:3035a99a5f2a",
+      "source": "hackernews",
+      "url": "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/",
+      "title": "'AI' might be the end of our careers",
+      "snippet": "35 points and 43 comments on Hacker News (https://news.ycombinator.com/item?id=50657452).",
+      "publishedAt": "2026-11-26T17:29:28.000Z",
+      "score": 35,
+      "publisher": "baldurbjarnason.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:b3032aea363b",
+      "source": "hackernews",
+      "url": "https://www.france24.com/en/poland-says-will-create-no-fly-zone-at-ukraine-border-after-repeated-airspace-violations",
+      "title": "Poland to create no-fly zone at border after repeated airspace violations",
+      "snippet": "32 points and 9 comments on Hacker News (https://news.ycombinator.com/item?id=50658549).",
+      "publishedAt": "2026-11-26T19:09:14.000Z",
+      "score": 32,
+      "publisher": "france24.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:e03f6bdd8e90",
+      "source": "hackernews",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1y6260i/zai_clarifies_glm55_has_not_been_delayed/",
+      "title": "Z.ai clarifies GLM-5.5 has not been delayed, scheduled for December launch",
+      "snippet": "27 points and 3 comments on Hacker News (https://news.ycombinator.com/item?id=50657724).",
+      "publishedAt": "2026-11-26T17:55:10.000Z",
+      "score": 27,
+      "publisher": "reddit.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:4675da88fa53",
+      "source": "hackernews",
+      "url": "https://www.forbes.com/sites/the-wiretap/2026/11/25/us-government-under-ai-cyberattack",
+      "title": "The US Government Is Under AI Cyberattack",
+      "snippet": "23 points and 3 comments on Hacker News (https://news.ycombinator.com/item?id=50660004).",
+      "publishedAt": "2026-11-26T21:26:33.000Z",
+      "score": 23,
+      "publisher": "forbes.com",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:1e52228e1c5c",
+      "source": "huggingface",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+      "title": "Trending open model: thinkingmachines/Inkling-2-Mini",
+      "snippet": "Task: image-text-to-text. 6358 likes, 96527 downloads.",
+      "publishedAt": "2026-11-17T00:26:57.000Z",
+      "score": 1429,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:7bbde4382a9f",
+      "source": "huggingface",
+      "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+      "title": "Trending open model: unsloth/Inkling-2-Mini-GGUF",
+      "snippet": "Task: image-text-to-text. 1533 likes, 2445633 downloads.",
+      "publishedAt": "2026-11-20T13:09:48.000Z",
+      "score": 1258,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:d4687905ee9a",
+      "source": "huggingface",
+      "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "title": "Trending open model: AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "snippet": "Task: image-text-to-text. 965 likes, 762491 downloads.",
+      "publishedAt": "2026-11-20T20:42:23.000Z",
+      "score": 523.6,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:fb828fc93bb9",
+      "source": "huggingface",
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+      "title": "Trending open model: prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+      "snippet": "Task: text-generation. 572 likes, 59366 downloads.",
+      "publishedAt": "2026-11-24T16:32:20.000Z",
+      "score": 495,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:552aaf9e3350",
+      "source": "huggingface",
+      "url": "https://huggingface.co/inworld/voice-isolator",
+      "title": "Trending open model: inworld/voice-isolator",
+      "snippet": "Task: audio-to-audio. 977 likes, 15244 downloads.",
+      "publishedAt": "2026-11-14T02:14:35.000Z",
+      "score": 230,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:c90ad8e90767",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34575",
+      "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+      "snippet": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 80,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:715934d93493",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34923",
+      "title": "Mixture-of-Loops Transformer",
+      "snippet": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 70,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:ed82045bb976",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34237",
+      "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
+      "snippet": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind. A program that exits cleanly can still render overlapping…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 56,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:a9150d158b3a",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34941",
+      "title": "Improving and Expanding Video Editing Capabilities Without Videos",
+      "snippet": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 44,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:cb6f855348c6",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.33144",
+      "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
+      "snippet": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We present PyRUA-Dex, a framework that enables…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 42,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:e5aa4da1b0eb",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.30844",
+      "title": "DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers",
+      "snippet": "Diffusion Transformers (DiTs) scale model capacity by increasing both parameter count and computation. Mixture-of-Experts (MoE) variants expand parameter capacity while keeping per-token computation roughly fixed, but still require substantial parameter storage. In this paper, we propose Dynamic…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 39,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:5e45a223489b",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.28732",
+      "title": "Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts",
+      "snippet": "In-context learning (ICL) enables foundation models to perform unseen tasks from context without parameter updates. In robotic manipulation, a human video provides the context that specifies how a task should be performed. However, scaling human-video ICL on world-action models (WAMs) faces two…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 28,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:d7cff3c2a286",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34420",
+      "title": "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
+      "snippet": "Multi-page document vision-language models encode each page independently, creating a feature-level discontinuity at page boundaries: visual tokens are formed without access to content on adjacent pages, and the language model must reason over these page representations formed in isolation. We…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 28,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:8f9b4e188e89",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34811",
+      "title": "HOG-WAM: Improving Visual Robustness through Future Gradient Prediction",
+      "snippet": "World-action models jointly predict future observations and actions, yet visual corruption can disrupt the resulting policies. We introduce HOG-WAM, which adds future Histograms of Oriented Gradients (HOG) as structural supervision derived directly from demonstration images. An auxiliary HOG…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 22,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:3144d5f49f93",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.33457",
+      "title": "Playfulness as Feedback for Agentic Game Development",
+      "snippet": "Coding agents can generate runnable games from natural-language descriptions. However, a runnable game does not guarantee an excellent gameplay experience for players. In our view, a playful game should provide 1) reliable core functionality, 2) appealing visual design and assets, and 3) rich…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 20,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:5553e89a5f10",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.31237",
+      "title": "Let Vision-Language Models Generate Images through Their Representations",
+      "snippet": "Recent unified multimodal models aim to combine visual understanding and generation within a single model, yet effectively integrating the two capabilities remains challenging. Leveraging pretrained vision-language models offers a way to build on already learned multimodal knowledge, but making…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 19,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:f4bb49dc080e",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34466",
+      "title": "EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts",
+      "snippet": "AI wearables, such as smart glasses, extend the context available to agents beyond digital environments to users' physical surroundings. With these devices, computer tasks can originate from users' ongoing activities rather than solely from explicit instructions. Through first-person observations…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 19,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:2c1ec69d4b46",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34929",
+      "title": "High-Fidelity Image Matting with Pixel-Space Diffusion Transformers",
+      "snippet": "Diffusion models have shown strong potential for image matting by transferring generative priors learned from large-scale pretraining. However, existing approaches largely rely on latent diffusion models, whose compressed representations and VAE-based reconstruction introduce a mismatch with the…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 19,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:77afb9189bf0",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34907",
+      "title": "Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
+      "snippet": "Real-time autoregressive video generators stream minutes of video and accept new prompts on the fly, but struggle to keep people, objects, and places consistent over a long interactive story. Agent systems provide such memory for offline multi-shot generation, yet they read the whole script in…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 19,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:61ccbbbd6885",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34347",
+      "title": "AIRIS: Benchmarking Social Embodied Intelligence in Egocentric Streaming Videos",
+      "snippet": "Embodied agents operating around people must not only recognize social cues, but also decide when the available evidence is sufficient, whether to intervene, and how to respond without violating social norms. Existing benchmarks typically evaluate these abilities in isolation or with access to…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 17,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:6b0357c019a3",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34128",
+      "title": "FoundSurface: Feedforward Ray-Based 3D Scene Surface Reconstruction from Unposed Images",
+      "snippet": "Accurate 3D surface reconstruction from unposed images remains a fundamental challenge in computer vision. Recent feed-forward pointmap methods eliminate the need for camera poses but inherently produce discrete, sparse representations. In this paper, we present a generalizable pipeline that…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 17,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:1c5ea85d2cf8",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.30472",
+      "title": "Target-Part Preference Optimization for Part-Aware 3D Generation",
+      "snippet": "Part-aware 3D generation requires not only globally plausible objects but also complete, well-separated semantic parts, yet high-quality part decompositions remain too scarce to support large-scale supervised fine-tuning. We study whether preference fine-tuning based on Direct Preference…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 16,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:48ff62fda39e",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.33636",
+      "title": "What Is Redundant at High Resolution? Efficient Attention and Feed-Forward Design for All-in-One Image Restoration",
+      "snippet": "Multi-scale architectures are widely adopted in all-in-one image restoration (AIO-IR) to capture larger-scale context at low-resolution stages and refine details at high-resolution (HR) stages. However, processing spatially large feature maps at HR stages incurs substantial computational costs and…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 15,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:462470b568fc",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.33143",
+      "title": "ROAM-Bench: Evaluating Embodied Active Spatial Intelligence through Evidence Verification",
+      "snippet": "Embodied spatial intelligence requires agents to gather information through exploration and interaction, then use it to reason and act. Existing benchmarks insufficiently distinguish correct outcomes from completion of these task requirements. We introduce ROAM-Bench to evaluate these abilities…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 15,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:31f19f2db169",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.30965",
+      "title": "Beyond Self-Consistency: Recursive Self-Improvement at Test Time",
+      "snippet": "Large language models (LLMs) that continue improving after deployment (e.g., recursive self-improvement) offer a promising path toward general intelligence. Current test-time methods pursue this goal on unlabeled questions, primarily relying on self-consistency: they generate independent solutions…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 14,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:0c0ada9bd8dc",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34849",
+      "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+      "snippet": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 14,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:14e4bb610992",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.33925",
+      "title": "Beyond the Happy Path: Generalizing Robot World Models from Simulated Failures",
+      "snippet": "Robot world models are increasingly used to evaluate and plan policies, yet robot training data are dominated by successful demonstrations. Off the happy path, when a grasp is misaligned or mistimed and the object is pushed, tilted, or slips, their predictions break down. Across five pretrained…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 13,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:dc49b77d2fc5",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.33915",
+      "title": "SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation",
+      "snippet": "General-purpose multimodal foundation models enable robots to adapt during deployment from observations and execution feedback, without task-specific demonstrations or training. However, the robot retains what it learns only in the model's working context. Once the task ends, it loses this…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 11,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:810d29245067",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34079",
+      "title": "WorldBridge: Bridging Scattered Views for Coherent 3D World Generation",
+      "snippet": "Generating coherent and explorable 3D worlds from scattered images with little or no visual overlap is a fundamental and long-standing challenge in computer vision, which existing geometry-aware methods fail to address. Meanwhile, existing image- and video-based methods may generate unseen regions…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 10,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:7b6f4e170d35",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.33922",
+      "title": "iMFPO: Improving Mean Flow Policy Optimization with Drift-Aware Velocity Alignment for Embodied Control",
+      "snippet": "Flow-based generative policies offer expressive action modeling for embodied control, yet achieving efficient one-step generation under reward-driven policy optimization remains challenging. In particular, evolving action distributions during online reinforcement learning may introduce…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 10,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:f902a38c88dc",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.28010",
+      "title": "Beyond Code and Pixels: Co-Generating Editable and Visually Rich Presentations",
+      "snippet": "Generating PPTX presentations is a structured task that requires semantic planning, visual composition, precise layout, and editability, motivating collaboration among specialized agents. However, programmatic methods offer editability but often produce rigid designs, while image-based methods…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 10,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:c36039d5180c",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34147",
+      "title": "Letting Models Manage Their Own Context: Where We Stand",
+      "snippet": "Agent harnesses today manage context on the model's behalf: when the window fills, the harness triggers a compaction that summarizes the history. We study the alternative, model-driven context management, in which the model itself decides when and what to compact through a context API. We gave…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 9,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:166b4565dc51",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34675",
+      "title": "RoboEvo^2: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution",
+      "snippet": "Robots should adapt to unfamiliar environments and acquire new skills through interaction, then execute those skills efficiently with practice. Vision-language-action policies provide efficient control, but often need additional human demonstrations to handle unfamiliar settings; reasoning agents…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 9,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:cd8f7abf11e7",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.31895",
+      "title": "Loupe: Reinforcing Knowledge-Intensive Video Generation Agents",
+      "snippet": "Knowledge-intensive video generation remains challenging because prompts often omit the facts, appearances, and temporal relationships required for accurate generation. While search-based workflows can retrieve missing evidence, manually designed strategies limit adaptive planning, and…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 8,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:f10db7075efa",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.28244",
+      "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
+      "snippet": "Autoresearch agents, which autonomously design, run, and refine experiments, are accelerating scientific progress, particularly in AI research. However, existing agents rely on harnesses that combine multiple mechanisms, making it difficult to determine how individual components contribute to…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 5,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:b02ae9797e69",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.21056",
+      "title": "Evaluation-Free Recursive Self-Improvement for Coding Agents",
+      "snippet": "Recent self-improving coding agents have achieved strong benchmark performance by iteratively modifying their own executable implementations. A common pattern uses downstream task-derived evidence to decide which candidates or lineages continue evolving, which we term evaluate-and-select…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 4,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:477354a58285",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.33307",
+      "title": "Lost in Translation, Not in Confidence: Benchmarking and Calibrating Multilingual Decision Models",
+      "snippet": "Decision models are language models fine-tuned to return a probability for each option of a typed query, which routers and guardrails threshold directly. They are built on multilingual bases but ranked almost entirely in English. We evaluate 25 top-ranked open-weight decision models on 17 tasks in…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 4,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:485ad376e1fa",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.33579",
+      "title": "DexEngine: Scaling Human Demonstrations into Physically Executable Whole-Robot Data",
+      "snippet": "A growing body of recent work addresses the retargeting of human hand-object demonstrations to robotic hands. To train whole-robot policies, however, the retargeted motions must be kinematically feasible and physically executable, and be produced efficiently at scale. We present DexEngine, a…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 4,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:45150f05968c",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.30895",
+      "title": "Speak When You See It: Proactive Task Assistants Should Wait for Evidence, Not the Clock",
+      "snippet": "Proactive assistants that guide people through physical tasks must decide, every few seconds, whether a step is complete and whether a mistake has occurred. We find that two benchmarks for this task largely reward knowing when rather than seeing what: a timer that never looks at the video, raising…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 4,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:c8218ce49a2a",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34331",
+      "title": "Puzzling-Bench: Evaluating Language Models on 23,777 Human-Written Puzzles with Community-Verified Answers",
+      "snippet": "We introduce Puzzling-Bench, a benchmark of 23,777 puzzles with community-verified answers drawn from the Puzzling Stack Exchange archive (2014-2026): riddles, ciphers, logic grids, lateral-thinking problems, wordplay and recreational mathematics, a third of them with images. Every puzzle carries…",
+      "publishedAt": "2026-11-26T00:00:00.000Z",
+      "score": 4,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    }
+  ]
+}

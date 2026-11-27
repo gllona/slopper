@@ -1,0 +1,102 @@
+{
+  "passed": false,
+  "bestIteration": 1,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 3,
+          "composition": 3,
+          "style": 3,
+          "polish": 3,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The basic \"jobs cut vs. power approved\" gag reads, but half the brief's metaphor (the office cross-section, the second official racing a door that swings shut) never made it into the frame, and the palette/layout is too close to several recent blueprint-blue-and-yellow pieces to feel fresh.",
+        "revisionNotes": [
+          "Add the office cross-section with rows of empty desks behind the worker/robot (institution cast element from the brief) so the robot visibly 'moves into' a vacated desk rather than standing on open ground.",
+          "Add the second official reaching a door that swings shut, briefcase mid-air, right of the datacenter — this is the whole 'ahead of a stricter governor' punchline and it's currently missing entirely.",
+          "Attach the box prop to the worker's hands/arms instead of floating detached above the head at the top anchor; same for the permit over the official — have the official actually hold/stamp it at chest height, scale 1.2, so it reads as an action not a wall decal.",
+          "Add the blueprint grid/graph-paper texture to the background; right now it's flat solid color and doesn't match the 'blueprint' style card the way other recent pieces do.",
+          "Swap the palette or composition pattern (navy background, yellow accents, robot flanked by two humans) — at least three recent sloppers use this same look, so novelty is weak; try a different accent color or vertical split instead of a flat ground line.",
+          "Use the empty bottom third: lower the horizon or add a small environmental detail (cable, power line, shadow) so the composition doesn't feel bottom-heavy with dead space."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"second-official\" (human) was moved -10 px, 0 px to stay inside the artboard",
+          "\"door\" (raw) was moved -131 px, 0 px to stay inside the artboard",
+          "\"second-official\" extends outside the safe area in the final frame (x 855…1071, y 547…809)",
+          "\"door\" extends outside the safe area in the final frame (x 986…1071, y 560…745)",
+          "\"power-line\" extends outside the safe area in the final frame (x 110…970, y 1011…1046)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 4
+        },
+        "verdict": "The core gag reads clearly (sad worker replaced by a cheery robot vs. a happy official rubber-stamping the gas plant), but the second-official/door beat is badly clipped off the right edge, several props overlap messily, and the split-building blueprint composition repeats recent sloppers too closely — average score falls under the 3.5 pass bar.",
+        "revisionNotes": [
+          "Second-official and door are clipped at the right canvas edge (lint confirms x up to 1071, well outside safe area) — move second-official to roughly x:0.82, scale 0.5, and reduce door's attach offset so the full hinged-door shape is visible inside the safe margin.",
+          "The door prop currently renders as a narrow sliver at the frame border — rebuild it at a smaller scale fully on-canvas so 'swinging shut, briefcase mid-air' actually reads as a beat, not noise.",
+          "Steam puffs from the datacenter overlap the permit's checkmark corner — shift permit offset up-left by ~20px or move steam puffs behind the datacenter stack so the checkmark stays clean.",
+          "The moving box attached to worker reads as a vague pale wedge melting into the robot's leg — bump its scale to ~1.0 and nudge it fully in front of the worker's body so it reads unambiguously as a carried box.",
+          "Composition leans on the same left/right split-building-vs-robot blueprint layout as recent frames (e.g. the resigned/your-problem and chief-resigns/rival-launches sloppers) — vary the horizon break or swap one side to a non-building silhouette for more novelty.",
+          "Power-line prop bleeds past the bottom safe margin per the lint warning; shorten its width or raise y slightly so the poles don't clip the edge."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 4,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The left half (worker out, robot in) reads instantly, but the right half is let down by a face/permit overlap bug, an uneven scale between tiny smokestack/datacenter and full-size figures, a missing brief element (the second official racing the door), and a composition that closely echoes a recent blueprint split-scene piece — it falls short of publish quality.",
+        "revisionNotes": [
+          "Fix the overlap bug: the permit panel (at x0.64,y0.44) clips directly over the official's face (head at x0.58,y0.74) leaving a stray dark fragment visible — reposition the permit to the official's right side via attachTo/offset so the face stays clear.",
+          "The brief's second beat — 'a second official reaching a door just as it swings shut, briefcase mid-air' — is missing entirely from the scene; add it so the 'ahead of a stricter governor taking office' urgency actually reads.",
+          "Scale up datacenter (currently 0.65) and smokestack (90x360, very thin) to match the visual weight of the office building on the left; the right half currently reads as a cluster of small afterthoughts next to two full-size figures.",
+          "Pull the smokestack in from x=0.9 so it isn't crowding the right edge of the safe area.",
+          "This is the fourth blueprint-palette, two-top-label split-scene composition in the recent batch (near-identical to the 'Resigned / Your Problem' piece) — vary the background type or label placement for novelty.",
+          "Give the official an active stamping pose rather than a static permit-hold to sell 'approved' as an action, reinforcing the race-against-time beat from the brief."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    }
+  ]
+}

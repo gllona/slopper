@@ -1,0 +1,21 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "revise",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "medium",
+          "evidence": "Phrase: \"A state rushed through a big gas plant for AI data centers before a stricter governor takes office.\"",
+          "suggestion": "The source only says Texas 'resumed' permitting and approved the permit 'ahead of' the incoming governor taking office — it doesn't characterize the process as hasty or improper. Replace 'rushed through' with a neutral verb closer to the source, e.g. 'approved' or 'resumed permitting for', to avoid implying impropriety not stated in the source.",
+          "stage": "curate"
+        }
+      ]
+    },
+    {
+      "verdict": "pass",
+      "findings": []
+    }
+  ]
+}
