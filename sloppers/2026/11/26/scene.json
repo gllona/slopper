@@ -1,0 +1,121 @@
+{
+  "harness": "0.2.0",
+  "style": "blueprint",
+  "background": {
+    "type": "split",
+    "horizon": 0.78,
+    "color": "bg",
+    "color2": "paper"
+  },
+  "elements": [
+    {
+      "id": "worker",
+      "component": "human",
+      "at": {
+        "x": 0.15,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "mood": "exhausted",
+        "pose": "stand"
+      }
+    },
+    {
+      "id": "box",
+      "component": "raw",
+      "attachTo": "worker",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "width": 110,
+        "height": 100
+      },
+      "svg": "<rect x=\"10\" y=\"35\" width=\"90\" height=\"55\" class=\"r-body\"/><path d=\"M10 35 L55 15 L100 35 Z\" class=\"r-line\"/>"
+    },
+    {
+      "id": "robot",
+      "component": "robot",
+      "at": {
+        "x": 0.38,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "mood": "happy",
+        "antenna": true
+      }
+    },
+    {
+      "id": "official",
+      "component": "human",
+      "at": {
+        "x": 0.6,
+        "y": 0.78
+      },
+      "scale": 1,
+      "props": {
+        "mood": "proud",
+        "pose": "point"
+      }
+    },
+    {
+      "id": "permit",
+      "component": "raw",
+      "attachTo": "official",
+      "side": "top",
+      "scale": 1,
+      "props": {
+        "width": 180,
+        "height": 140
+      },
+      "svg": "<rect x=\"10\" y=\"10\" width=\"160\" height=\"120\" class=\"r-body\"/><line x1=\"30\" y1=\"35\" x2=\"150\" y2=\"35\" class=\"r-thin\"/><line x1=\"30\" y1=\"55\" x2=\"150\" y2=\"55\" class=\"r-thin\"/><line x1=\"30\" y1=\"75\" x2=\"150\" y2=\"75\" class=\"r-thin\"/><circle cx=\"125\" cy=\"95\" r=\"32\" class=\"r-accent\"/><path d=\"M108 95 L122 108 L145 78\" class=\"r-line\"/>"
+    },
+    {
+      "id": "datacenter",
+      "component": "datacenter",
+      "at": {
+        "x": 0.82,
+        "y": 0.78
+      },
+      "scale": 0.75,
+      "props": {
+        "racks": 3,
+        "lights": "busy",
+        "steam": true,
+        "fans": true
+      }
+    },
+    {
+      "id": "label-left",
+      "component": "label",
+      "at": {
+        "x": 0.265,
+        "y": 0.14
+      },
+      "scale": 1,
+      "props": {
+        "text": "Jobs Cut",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    },
+    {
+      "id": "label-right",
+      "component": "label",
+      "at": {
+        "x": 0.71,
+        "y": 0.14
+      },
+      "scale": 1,
+      "props": {
+        "text": "Power Approved",
+        "size": "md",
+        "kind": "tag",
+        "color": "text"
+      }
+    }
+  ],
+  "alt": "A tired worker walks away from an office carrying a box while a small robot happily settles into the empty desk; across a dividing line, an official holds up a large stamped permit beside a smoking data center, under labels reading Jobs Cut and Power Approved."
+}

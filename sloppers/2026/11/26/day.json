@@ -1,0 +1,177 @@
+{
+  "date": "2026-11-26",
+  "number": 58,
+  "mode": "fresh",
+  "motto": "Jobs Cut, Power Approved",
+  "phrase": "A software firm plans to cut 10,000 jobs for the AI era. A state approved a big gas plant for AI data centers ahead of a stricter governor taking office.",
+  "phraseAlternatives": [
+    "A tech company plans to cut thousands of jobs to adapt to AI. The same week, a state approved a huge new gas plant to keep AI data centers running.",
+    "A tech company refused to let a regulator test its new AI agent. Meanwhile, 42 state prosecutors raced to stop a bankrupt chatbot firm from auctioning users' private chats.",
+    "Chip shipments to several countries were paused to keep them from reaching a rival. A software company said it would cut thousands of jobs instead, citing the AI era."
+  ],
+  "alt": "A tired worker walks away from an office carrying a box while a small robot happily settles into the empty desk; across a dividing line, an official holds up a large stamped permit beside a smoking data center, under labels reading Jobs Cut and Power Approved.",
+  "artType": "static",
+  "style": "blueprint",
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 2,
+    "policy": 3,
+    "law": 2,
+    "safety": 2,
+    "society": 2,
+    "planet": 2,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  },
+  "storylines": [
+    "enterprise-ai-layoffs-wave",
+    "texas-gas-plant-permit-timing",
+    "meta-muse-uk-regulator-standoff",
+    "china-ai-export-controls",
+    "character-ai-data-auction-fight"
+  ],
+  "topStories": [
+    {
+      "title": "A Software Giant Plans To Cut 10,000 Jobs For The AI Era",
+      "itemIds": [
+        "techmeme:1cc0e0456333"
+      ],
+      "dimensions": [
+        "labor",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "enterprise-ai-layoffs-wave"
+    },
+    {
+      "title": "Texas Resumes Datacenter Permitting, Clears $24B Gas Plant Before New Governor Takes Office",
+      "itemIds": [
+        "techmeme:0a2da6a5d1b7"
+      ],
+      "dimensions": [
+        "planet",
+        "policy",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "texas-gas-plant-permit-timing"
+    },
+    {
+      "title": "UK Financial Regulator Says Tech Giant Refused Joint Testing Of Its New Personal AI Agent",
+      "itemIds": [
+        "feeds:4fd213eda966"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "meta-muse-uk-regulator-standoff"
+    },
+    {
+      "title": "Chip Maker Pauses AI Chip Shipments To Southeast Asia Amid Export Curbs",
+      "itemIds": [
+        "feeds:33b3d08d99ae"
+      ],
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "china-ai-export-controls"
+    },
+    {
+      "title": "42 State Attorneys General Move To Block Bankrupt Chatbot Company's Data Sale",
+      "itemIds": [
+        "feeds:83e41de8930f"
+      ],
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "character-ai-data-auction-fight"
+    }
+  ],
+  "brief": {
+    "concept": "A software company empties its offices into moving boxes while, across town, an official stamps a huge gas-plant permit for a data center before a new official can take over the role.",
+    "metaphor": "Two doors on one horizon: a company door losing workers to AI on one side, a permit door being stamped shut just in time on the other.",
+    "cast": [
+      {
+        "who": "a tired human worker walking out of an office carrying a small box",
+        "kind": "person"
+      },
+      {
+        "who": "an office building shown in cross-section with rows of empty desks",
+        "kind": "institution"
+      },
+      {
+        "who": "a small round AI robot settling into the newly emptied desk by the window",
+        "kind": "ai"
+      },
+      {
+        "who": "a human official stamping a giant permit beside a gas-plant smokestack and a data center",
+        "kind": "person"
+      },
+      {
+        "who": "a second official reaching a door just as it swings shut, briefcase mid-air",
+        "kind": "person"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split scene on the blueprint grid. Left half: an office building in cross-section, rows of desks, one human figure walking out through the door with a box, a small AI robot settling into the nearest empty desk. Right half: a smokestack and a boxy data center, a human official stamping a large permit between them in the single yellow highlight, a second official reaching a door just as it swings shut, briefcase mid-air. A shared horizon line ties both halves together.",
+    "artType": "static",
+    "alt": "On one side, a worker leaves an office carrying a box while a small robot sits down at the newly empty desk; on the other, an official stamps a large permit beside a smokestack and a data center as a second official reaches a door that has just swung shut."
+  },
+  "sources": [
+    {
+      "id": "techmeme:1cc0e0456333",
+      "title": "Sources: SAP is preparing a plan to eliminate at least 10,000 positions, or 9% of its staff globally, to transform its software business for the AI era (Christina Kyriasoglou/Bloomberg)",
+      "url": "https://www.techmeme.com/261126/p22",
+      "source": "techmeme",
+      "publisher": "Techmeme",
+      "publishedAt": "2026-11-26T16:50:28.000Z"
+    },
+    {
+      "id": "techmeme:0a2da6a5d1b7",
+      "title": "Texas resumes data center permitting, approving permits for SpaceX's $24B gas power plant, ahead of Democratic Governor Gina Hinojosa taking office in January (Stephanie Findlay/Financial Times)",
+      "url": "https://www.techmeme.com/261126/p19",
+      "source": "techmeme",
+      "publisher": "Techmeme",
+      "publishedAt": "2026-11-26T13:45:00.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.29,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-27T11:45:18.914Z"
+}

@@ -1,0 +1,178 @@
+{
+  "topStories": [
+    {
+      "title": "A Software Giant Plans To Cut 10,000 Jobs For The AI Era",
+      "itemIds": [
+        "techmeme:1cc0e0456333"
+      ],
+      "dimensions": [
+        "labor",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "enterprise-ai-layoffs-wave"
+    },
+    {
+      "title": "Texas Resumes Datacenter Permitting, Clears $24B Gas Plant Before New Governor Takes Office",
+      "itemIds": [
+        "techmeme:0a2da6a5d1b7"
+      ],
+      "dimensions": [
+        "planet",
+        "policy",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "texas-gas-plant-permit-timing"
+    },
+    {
+      "title": "UK Financial Regulator Says Tech Giant Refused Joint Testing Of Its New Personal AI Agent",
+      "itemIds": [
+        "feeds:4fd213eda966"
+      ],
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry"
+      ],
+      "novelty": 3,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "meta-muse-uk-regulator-standoff"
+    },
+    {
+      "title": "Chip Maker Pauses AI Chip Shipments To Southeast Asia Amid Export Curbs",
+      "itemIds": [
+        "feeds:33b3d08d99ae"
+      ],
+      "dimensions": [
+        "industry",
+        "policy"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "china-ai-export-controls"
+    },
+    {
+      "title": "42 State Attorneys General Move To Block Bankrupt Chatbot Company's Data Sale",
+      "itemIds": [
+        "feeds:83e41de8930f"
+      ],
+      "dimensions": [
+        "law",
+        "safety",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "character-ai-data-auction-fight"
+    }
+  ],
+  "newStorylines": [
+    {
+      "id": "enterprise-ai-layoffs-wave",
+      "title": "A Wave Of AI-Era Layoffs Hits Big Software Firms",
+      "dimensions": [
+        "labor",
+        "industry"
+      ],
+      "motifs": [
+        "a company building emptying desks into moving boxes",
+        "a staff pie chart shrinking beside a rising AI robot icon",
+        "a layoff notice stacked beside a glowing server rack"
+      ]
+    },
+    {
+      "id": "texas-gas-plant-permit-timing",
+      "title": "A State Approves A Big Gas Plant For AI Data Centers Before A New Governor Arrives",
+      "dimensions": [
+        "planet",
+        "policy",
+        "industry"
+      ],
+      "motifs": [
+        "a permit stamp landing beside a ticking inauguration clock",
+        "a gas-plant smokestack rising behind a data center",
+        "an incoming official reaching a door that just closed"
+      ]
+    },
+    {
+      "id": "meta-muse-uk-regulator-standoff",
+      "title": "A Regulator And A Tech Giant Clash Over Agent Testing",
+      "dimensions": [
+        "policy",
+        "safety",
+        "industry"
+      ],
+      "motifs": [
+        "a locked testing-room door a regulator can't open",
+        "a personal AI agent icon launching past a waving regulator",
+        "a handshake refused between a building and an inspector's clipboard"
+      ]
+    }
+  ],
+  "mode": "fresh",
+  "modeReason": "Three independent stories — a software firm's AI-era layoffs, a state's gas-plant permitting ahead of a new governor, and a UK regulator's clash with a tech giant over agent testing — each score at or above the relevance threshold, including stories not solely about industry, so the balance rule and the magnitude of the day both point to fresh.",
+  "motto": "Jobs Cut, Power Approved",
+  "phrase": "A software firm plans to cut 10,000 jobs for the AI era. A state approved a big gas plant for AI data centers ahead of a stricter governor taking office.",
+  "phraseAlternatives": [
+    "A tech company plans to cut thousands of jobs to adapt to AI. The same week, a state approved a huge new gas plant to keep AI data centers running.",
+    "A tech company refused to let a regulator test its new AI agent. Meanwhile, 42 state prosecutors raced to stop a bankrupt chatbot firm from auctioning users' private chats.",
+    "Chip shipments to several countries were paused to keep them from reaching a rival. A software company said it would cut thousands of jobs instead, citing the AI era."
+  ],
+  "brief": {
+    "concept": "A software company empties its offices into moving boxes while, across town, an official stamps a huge gas-plant permit for a data center before a new official can take over the role.",
+    "metaphor": "Two doors on one horizon: a company door losing workers to AI on one side, a permit door being stamped shut just in time on the other.",
+    "cast": [
+      {
+        "who": "a tired human worker walking out of an office carrying a small box",
+        "kind": "person"
+      },
+      {
+        "who": "an office building shown in cross-section with rows of empty desks",
+        "kind": "institution"
+      },
+      {
+        "who": "a small round AI robot settling into the newly emptied desk by the window",
+        "kind": "ai"
+      },
+      {
+        "who": "a human official stamping a giant permit beside a gas-plant smokestack and a data center",
+        "kind": "person"
+      },
+      {
+        "who": "a second official reaching a door just as it swings shut, briefcase mid-air",
+        "kind": "person"
+      }
+    ],
+    "style": "blueprint",
+    "composition": "Split scene on the blueprint grid. Left half: an office building in cross-section, rows of desks, one human figure walking out through the door with a box, a small AI robot settling into the nearest empty desk. Right half: a smokestack and a boxy data center, a human official stamping a large permit between them in the single yellow highlight, a second official reaching a door just as it swings shut, briefcase mid-air. A shared horizon line ties both halves together.",
+    "artType": "static",
+    "alt": "On one side, a worker leaves an office carrying a box while a small robot sits down at the newly empty desk; on the other, an official stamps a large permit beside a smokestack and a data center as a second official reaches a door that has just swung shut."
+  },
+  "sourceIds": [
+    "techmeme:1cc0e0456333",
+    "techmeme:0a2da6a5d1b7"
+  ],
+  "dimensions": {
+    "capabilities": 1,
+    "industry": 3,
+    "labor": 2,
+    "policy": 3,
+    "law": 2,
+    "safety": 2,
+    "society": 2,
+    "planet": 2,
+    "science": 1
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 1
+  }
+}
