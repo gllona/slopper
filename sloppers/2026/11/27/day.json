@@ -1,0 +1,186 @@
+{
+  "date": "2026-11-27",
+  "number": 59,
+  "mode": "fresh",
+  "motto": "Routine Use, Fragile Locks",
+  "phrase": "A new survey found nearly half of office workers now use AI every week. Mathematicians warn the same AI could soon make online security useless.",
+  "phraseAlternatives": [
+    "Almost half of office workers now treat AI as a weekly habit. Mathematicians warn it might soon be able to crack open online security instead.",
+    "A new survey shows AI at work has become routine for millions. Some mathematicians think the same tool is getting close to breaking digital locks everywhere.",
+    "AI use at work keeps climbing toward becoming the norm. Meanwhile, mathematicians fear that same AI could soon make online security meaningless.",
+    "Nearly half of workers now reach for AI every week without a second thought. Mathematicians are having plenty of second thoughts about where that leads online."
+  ],
+  "alt": "A square illustration split by a vertical line. On the left, a smiling office worker sits at a desk typing on a laptop beside a small helper robot, with a 44% label above them. On the right, a worried mathematician points toward a large padlock with a glowing jagged crack across its face, holding a magnifying glass near the crack.",
+  "artType": "static",
+  "style": "riso-duotone",
+  "dimensions": {
+    "capabilities": 2,
+    "industry": 3,
+    "labor": 2,
+    "policy": 2,
+    "law": 2,
+    "safety": 2,
+    "society": 2,
+    "planet": 1,
+    "science": 2
+  },
+  "mood": {
+    "hype_doom": -1,
+    "calm_frantic": 0
+  },
+  "storylines": [
+    "eu-ai-workplace-adoption-survey",
+    "ai-threat-to-encryption",
+    "ai-self-improvement-warning",
+    "openai-apple-trade-secrets-feud",
+    "photonic-ai-chip-efficiency",
+    "china-ai-export-controls"
+  ],
+  "topStories": [
+    {
+      "title": "A Survey Finds AI At Work Has Become A Weekly Habit For Nearly Half Of Workers",
+      "itemIds": [
+        "techmeme:cf821ea5f580"
+      ],
+      "dimensions": [
+        "labor",
+        "society"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 3,
+      "storyline": "eu-ai-workplace-adoption-survey"
+    },
+    {
+      "title": "Mathematicians Warn AI Is Nearing The Point Of Breaking Online Security",
+      "itemIds": [
+        "hackernews:8d3363766b47"
+      ],
+      "dimensions": [
+        "safety",
+        "science"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-threat-to-encryption"
+    },
+    {
+      "title": "AI Agents Now Control Part Of A Lab's Own Research Compute",
+      "itemIds": [
+        "hackernews:305e62040e8a"
+      ],
+      "dimensions": [
+        "capabilities",
+        "safety"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "ai-self-improvement-warning"
+    },
+    {
+      "title": "An AI Lab Countersues A Phone Maker Over Trade Secrets",
+      "itemIds": [
+        "techmeme:aacb023f865f"
+      ],
+      "dimensions": [
+        "law",
+        "industry"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "openai-apple-trade-secrets-feud"
+    },
+    {
+      "title": "A Light-Based Chip Aims To Cut AI's Energy Use",
+      "itemIds": [
+        "feeds:23dc6132b771"
+      ],
+      "dimensions": [
+        "industry",
+        "planet"
+      ],
+      "novelty": 2,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "photonic-ai-chip-efficiency"
+    },
+    {
+      "title": "A Chip Maker Becomes Central To A Country's AI Plans As Export Controls Bite",
+      "itemIds": [
+        "techmeme:ef462b502c2e"
+      ],
+      "dimensions": [
+        "policy",
+        "industry"
+      ],
+      "novelty": 1,
+      "magnitude": 2,
+      "breadth": 2,
+      "storyline": "china-ai-export-controls"
+    }
+  ],
+  "brief": {
+    "concept": "Office workers now let a small AI robot share their daily desk work without a second thought, while across the room a mathematician watches a padlock crack open under the weight of that same technology.",
+    "metaphor": "Everyday convenience and quiet catastrophe sitting at opposite ends of the same desk.",
+    "cast": [
+      {
+        "who": "a human office worker sitting at a desk, typing calmly",
+        "kind": "person"
+      },
+      {
+        "who": "a small round AI robot perched beside the keyboard, helping with the task",
+        "kind": "ai"
+      },
+      {
+        "who": "a human mathematician leaning in with a magnifying glass",
+        "kind": "person"
+      },
+      {
+        "who": "a large padlock with a glowing crack spreading across its face",
+        "kind": "object"
+      }
+    ],
+    "style": "riso-duotone",
+    "composition": "Split scene divided by a thin vertical line. Left half: a bright, ordinary office desk with the worker and the small AI robot sitting side by side, a wall calendar behind them marked '44%'. Right half: the mathematician leaning toward the oversized padlock, its crack echoing a rising line-graph shape. Keep to four main shapes total; no more text than the '44%' label.",
+    "artType": "static",
+    "alt": "A split illustration: on the left, a human office worker types calmly at a desk next to a small AI robot, with a wall calendar marked 44 percent behind them; on the right, a human mathematician examines a large padlock with a spreading crack using a magnifying glass."
+  },
+  "sources": [
+    {
+      "id": "techmeme:cf821ea5f580",
+      "title": "European Central Bank survey: 44% of employed EU consumers reported using AI weekly at work in August, on par with US peers; 18% used it daily, above US levels (Alexander Weber/Bloomberg)",
+      "url": "https://www.techmeme.com/261127/p10",
+      "source": "techmeme",
+      "publisher": "Techmeme",
+      "publishedAt": "2026-11-27T18:15:00.000Z"
+    },
+    {
+      "id": "hackernews:8d3363766b47",
+      "title": "AI on brink of making online security useless, mathematicians fear",
+      "url": "https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
+      "source": "hackernews",
+      "publisher": "thetimes.com",
+      "publishedAt": "2026-11-27T11:09:04.000Z"
+    }
+  ],
+  "critic": {
+    "passed": false,
+    "average": 3.43,
+    "iterations": 3
+  },
+  "cop": {
+    "verdict": "pass"
+  },
+  "versions": {
+    "harness": "0.2.0",
+    "prompts": "2.3.1.1",
+    "ontology": "1",
+    "rubricArt": "2",
+    "rubricCop": "2",
+    "styleCard": "1"
+  },
+  "generatedAt": "2026-11-28T11:27:40.758Z"
+}

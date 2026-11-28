@@ -1,0 +1,626 @@
+{
+  "date": "2026-11-27",
+  "fetchedAt": "2026-11-28T11:08:24.972Z",
+  "sources": [
+    {
+      "source": "feeds",
+      "ok": true,
+      "count": 2
+    },
+    {
+      "source": "techmeme",
+      "ok": true,
+      "count": 5
+    },
+    {
+      "source": "hackernews",
+      "ok": true,
+      "count": 20
+    },
+    {
+      "source": "gdelt",
+      "ok": false,
+      "count": 0,
+      "error": "all GDELT queries failed"
+    },
+    {
+      "source": "huggingface",
+      "ok": true,
+      "count": 27
+    },
+    {
+      "source": "arxiv",
+      "ok": true,
+      "count": 0
+    }
+  ],
+  "items": [
+    {
+      "id": "feeds:803beb022f0e",
+      "source": "feeds",
+      "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+      "snippet": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and […]",
+      "publishedAt": "2026-11-27T14:00:00.000Z",
+      "publisher": "The Verge",
+      "lang": "en"
+    },
+    {
+      "id": "feeds:23dc6132b771",
+      "source": "feeds",
+      "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+      "title": "A New Breed of Chip Runs AI Models Using Waves of Light",
+      "snippet": "German company Q.ANT is trying to cut the amount of energy required to run AI models by using light to perform the toughest calculations.",
+      "publishedAt": "2026-11-27T07:00:00.000Z",
+      "publisher": "Wired",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:817707156f66",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261127/p14",
+      "title": "Some users claim Claude is silently sabotaging projects, especially those involving ML work, but it's hard to prove because models are built to be proactive (Drew Breunig)",
+      "snippet": "Drew Breunig : Some users claim Claude is silently sabotaging projects, especially those involving ML work, but it's hard to prove because models are built to be proactive — Is Claude Throwing the Game? — There's a recent spate of claims that Claude is silently sabotaging people's projects…",
+      "publishedAt": "2026-11-27T21:35:01.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:6608a2e62224",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261127/p13",
+      "title": "Q&A with AI researchers Ege Erdil and Daniel Kokotajlo on the odds of an intelligence explosion before 2029, pausing AI, the US antagonizing China, and more (Dwarkesh Patel/Dwarkesh Podcast)",
+      "snippet": "Dwarkesh Patel / Dwarkesh Podcast : Q&A with AI researchers Ege Erdil and Daniel Kokotajlo on the odds of an intelligence explosion before 2029, pausing AI, the US antagonizing China, and more — “If we pause now, people still won't understand what's at stake.” — New podcast episode between Ege…",
+      "publishedAt": "2026-11-27T20:15:01.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:aacb023f865f",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261127/p12",
+      "title": "OpenAI countersues Apple for allegedly stealing trade secrets via a staffer who returned to Apple and \"coercing and threatening\" suppliers that work with both (Financial Times)",
+      "snippet": "Financial Times : OpenAI countersues Apple for allegedly stealing trade secrets via a staffer who returned to Apple and “coercing and threatening” suppliers that work with both — The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with both companies, as…",
+      "publishedAt": "2026-11-27T18:57:47.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:cf821ea5f580",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261127/p10",
+      "title": "European Central Bank survey: 44% of employed EU consumers reported using AI weekly at work in August, on par with US peers; 18% used it daily, above US levels (Alexander Weber/Bloomberg)",
+      "snippet": "Alexander Weber / Bloomberg : European Central Bank survey: 44% of employed EU consumers reported using AI weekly at work in August, on par with US peers; 18% used it daily, above US levels — Euro-area workers are turning to artificial intelligence at a similar rate as their peers in the US…",
+      "publishedAt": "2026-11-27T18:15:00.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "techmeme:ef462b502c2e",
+      "source": "techmeme",
+      "url": "https://www.techmeme.com/261127/p7",
+      "title": "Interviews with Huawei CEO Ren Zhengfei and others on how Trump's restrictions pushed Huawei toward self-reliance, making it central to China's AI ambitions (New York Times)",
+      "snippet": "New York Times : Interviews with Huawei CEO Ren Zhengfei and others on how Trump's restrictions pushed Huawei toward self-reliance, making it central to China's AI ambitions — As China's access to Nvidia's advanced chips shrinks, Huawei is becoming increasingly indispensable to Beijing despite a…",
+      "publishedAt": "2026-11-27T14:20:01.000Z",
+      "publisher": "Techmeme",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:a8f643349bc0",
+      "source": "hackernews",
+      "url": "https://construct22.com/",
+      "title": "Group chat where your AI talks behind your back",
+      "snippet": "711 points and 290 comments on Hacker News (https://news.ycombinator.com/item?id=50663595).",
+      "publishedAt": "2026-11-27T06:44:34.000Z",
+      "score": 711,
+      "publisher": "construct22.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:ff46556d3568",
+      "source": "hackernews",
+      "url": "https://bouncemarket.minhanhday.com/",
+      "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+      "snippet": "378 points and 128 comments on Hacker News (https://news.ycombinator.com/item?id=50667726).",
+      "publishedAt": "2026-11-27T15:01:50.000Z",
+      "score": 378,
+      "publisher": "bouncemarket.minhanhday.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:50a0c4869eb8",
+      "source": "hackernews",
+      "url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
+      "title": "US Air Force's cloud computing platform hacked",
+      "snippet": "345 points and 211 comments on Hacker News (https://news.ycombinator.com/item?id=50666375).",
+      "publishedAt": "2026-11-27T12:54:11.000Z",
+      "score": 345,
+      "publisher": "news.sky.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:117d78644729",
+      "source": "hackernews",
+      "url": "https://thesoapbox.email/archive/3",
+      "title": "I'm Scared of AI",
+      "snippet": "213 points and 247 comments on Hacker News (https://news.ycombinator.com/item?id=50669561).",
+      "publishedAt": "2026-11-27T17:45:31.000Z",
+      "score": 213,
+      "publisher": "thesoapbox.email",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:99ad51141652",
+      "source": "hackernews",
+      "url": "https://www.kimi.ai/news/kimi-for-science-program",
+      "title": "Kimi for Science: More scientific ideas, made possible",
+      "snippet": "186 points and 159 comments on Hacker News (https://news.ycombinator.com/item?id=50665920).",
+      "publishedAt": "2026-11-27T12:03:11.000Z",
+      "score": 186,
+      "publisher": "kimi.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:546361bbbb93",
+      "source": "hackernews",
+      "url": "https://dragdropmath.com/",
+      "title": "Show HN: DragDropMath – Learn math by feel",
+      "snippet": "144 points and 39 comments on Hacker News (https://news.ycombinator.com/item?id=50669673).",
+      "publishedAt": "2026-11-27T17:56:28.000Z",
+      "score": 144,
+      "publisher": "dragdropmath.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:8d3363766b47",
+      "source": "hackernews",
+      "url": "https://www.thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
+      "title": "AI on brink of making online security useless, mathematicians fear",
+      "snippet": "119 points and 162 comments on Hacker News (https://news.ycombinator.com/item?id=50665488).",
+      "publishedAt": "2026-11-27T11:09:04.000Z",
+      "score": 119,
+      "publisher": "thetimes.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:c6ad98147159",
+      "source": "hackernews",
+      "url": "https://github.com/skeeto/prospero",
+      "title": "Prospero: Bloat-free, native AI coding harness with ImGui",
+      "snippet": "78 points and 30 comments on Hacker News (https://news.ycombinator.com/item?id=50671275).",
+      "publishedAt": "2026-11-27T20:23:14.000Z",
+      "score": 78,
+      "publisher": "github.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:b7f18d41d591",
+      "source": "hackernews",
+      "url": "https://sessiongraph.ai/",
+      "title": "SessionGraph: Visualize all your coding agent sessions in one interactive graph",
+      "snippet": "65 points and 27 comments on Hacker News (https://news.ycombinator.com/item?id=50671651).",
+      "publishedAt": "2026-11-27T21:07:34.000Z",
+      "score": 65,
+      "publisher": "sessiongraph.ai",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:41a6c39389e7",
+      "source": "hackernews",
+      "url": "https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10/",
+      "title": "Show HN: Getting 101 tok/s from Inkling 2 Mini in vLLM on one GB10",
+      "snippet": "57 points and 15 comments on Hacker News (https://news.ycombinator.com/item?id=50670443).",
+      "publishedAt": "2026-11-27T18:59:55.000Z",
+      "score": 57,
+      "publisher": "runtimenotes.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:305e62040e8a",
+      "source": "hackernews",
+      "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+      "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+      "snippet": "56 points and 28 comments on Hacker News (https://news.ycombinator.com/item?id=50661218).",
+      "publishedAt": "2026-11-27T00:03:18.000Z",
+      "score": 56,
+      "publisher": "the-decoder.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:562f3dd24a95",
+      "source": "hackernews",
+      "url": "https://www.reuters.com/world/hackers-breach-us-air-force-flagship-cloud-one-computing-platform-2026-11-27/",
+      "title": "Hackers breach US Air Force flagship Cloud One computing platform",
+      "snippet": "43 points and 5 comments on Hacker News (https://news.ycombinator.com/item?id=50665811).",
+      "publishedAt": "2026-11-27T11:52:53.000Z",
+      "score": 43,
+      "publisher": "reuters.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:a77e4a4f587e",
+      "source": "hackernews",
+      "url": "https://www.london.edu/think/ai-bubble-about-to-burst",
+      "title": "New AI research suggests AI bubble bursting and to expect major market collapse",
+      "snippet": "39 points and 26 comments on Hacker News (https://news.ycombinator.com/item?id=50662153).",
+      "publishedAt": "2026-11-27T02:44:12.000Z",
+      "score": 39,
+      "publisher": "london.edu",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:ca60d4bd2b50",
+      "source": "hackernews",
+      "url": "https://www.semafor.com/article/11/26/2026/banks-look-to-dump-ai-debt",
+      "title": "Banks look to dump AI debt",
+      "snippet": "38 points and 6 comments on Hacker News (https://news.ycombinator.com/item?id=50671559).",
+      "publishedAt": "2026-11-27T20:56:17.000Z",
+      "score": 38,
+      "publisher": "semafor.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:2d524caedb9a",
+      "source": "hackernews",
+      "url": "https://blog.terraformindustries.com/2026/11/24/terraform-industries-activates-muroc-desert-test-site/",
+      "title": "Synthetic fuel from sunlight, water and air",
+      "snippet": "29 points and 13 comments on Hacker News (https://news.ycombinator.com/item?id=50669684).",
+      "publishedAt": "2026-11-27T17:57:29.000Z",
+      "score": 29,
+      "publisher": "blog.terraformindustries.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:9255c679823c",
+      "source": "hackernews",
+      "url": "https://www.nytimes.com/2026/11/26/science/john-urschel-ai-nfl-math.html",
+      "title": "The NFL Player Who Left Football for Math",
+      "snippet": "28 points and 8 comments on Hacker News (https://news.ycombinator.com/item?id=50669963).",
+      "publishedAt": "2026-11-27T18:17:20.000Z",
+      "score": 28,
+      "publisher": "nytimes.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:16209667347d",
+      "source": "hackernews",
+      "url": "https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem/",
+      "title": "Stanford Physicist Uses AI to Tackle Quantum Gravity Problem",
+      "snippet": "23 points and 11 comments on Hacker News (https://news.ycombinator.com/item?id=50667664).",
+      "publishedAt": "2026-11-27T14:55:57.000Z",
+      "score": 23,
+      "publisher": "thequantuminsider.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:e38d7cdddb37",
+      "source": "hackernews",
+      "url": "https://www.seattletimes.com/business/dungeons-dragons-maker-will-pass-ai-settlement-money-to-authors/",
+      "title": "Dungeons and Dragons maker will pass AI settlement money to authors",
+      "snippet": "21 points and 4 comments on Hacker News (https://news.ycombinator.com/item?id=50669073).",
+      "publishedAt": "2026-11-27T17:05:45.000Z",
+      "score": 21,
+      "publisher": "seattletimes.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:2a7ba4df9a01",
+      "source": "hackernews",
+      "url": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
+      "title": "Pizza history: AI agent's cardless purchase is a first for UK",
+      "snippet": "20 points and 42 comments on Hacker News (https://news.ycombinator.com/item?id=50665732).",
+      "publishedAt": "2026-11-27T11:41:11.000Z",
+      "score": 20,
+      "publisher": "theguardian.com",
+      "lang": "en"
+    },
+    {
+      "id": "hackernews:63da88048efd",
+      "source": "hackernews",
+      "url": "https://www.fofr.ai/greenhouse-after-the-typhoon",
+      "title": "Painting 1990s anime scenes in Python",
+      "snippet": "20 points and 11 comments on Hacker News (https://news.ycombinator.com/item?id=50672829).",
+      "publishedAt": "2026-11-27T23:50:17.000Z",
+      "score": 20,
+      "publisher": "fofr.ai",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:1e52228e1c5c",
+      "source": "huggingface",
+      "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+      "title": "Trending open model: thinkingmachines/Inkling-2-Mini",
+      "snippet": "Task: image-text-to-text. 6522 likes, 177012 downloads.",
+      "publishedAt": "2026-11-17T00:26:57.000Z",
+      "score": 1056,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:7bbde4382a9f",
+      "source": "huggingface",
+      "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+      "title": "Trending open model: unsloth/Inkling-2-Mini-GGUF",
+      "snippet": "Task: image-text-to-text. 1630 likes, 3621301 downloads.",
+      "publishedAt": "2026-11-20T13:09:48.000Z",
+      "score": 965,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:fb828fc93bb9",
+      "source": "huggingface",
+      "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+      "title": "Trending open model: prism-ml/Ternary-Bonsai-2.5-27B-GGUF",
+      "snippet": "Task: text-generation. 661 likes, 473980 downloads.",
+      "publishedAt": "2026-11-24T16:32:20.000Z",
+      "score": 561,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:d4687905ee9a",
+      "source": "huggingface",
+      "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "title": "Trending open model: AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
+      "snippet": "Task: image-text-to-text. 1052 likes, 1297386 downloads.",
+      "publishedAt": "2026-11-20T20:42:23.000Z",
+      "score": 527.8,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:552aaf9e3350",
+      "source": "huggingface",
+      "url": "https://huggingface.co/inworld/voice-isolator",
+      "title": "Trending open model: inworld/voice-isolator",
+      "snippet": "Task: audio-to-audio. 1018 likes, 22810 downloads.",
+      "publishedAt": "2026-11-14T02:14:35.000Z",
+      "score": 414,
+      "publisher": "Hugging Face",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:5e4d386e596a",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34051",
+      "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+      "snippet": "Linear attention offers an efficient solution for long-sequence modeling via linear complexity and fixed-size recurrent states. Gated DeltaNet-2 (GDN-2) introduces independent channel-wise control over erasure and writing, enhancing state-update expressiveness and in-context retrieval, yet it…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 132,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:24553e4fd50f",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34232",
+      "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+      "snippet": "Computer-using agents are increasingly expected to complete realistic user goals rather than isolated GUI actions. However, existing benchmarks typically isolate web, mobile, or desktop environments, leaving it unclear whether a single generalist agent can execute long-horizon workflows that span…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 110,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:0f86cc7fc7af",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34813",
+      "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+      "snippet": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the visual medium…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 61,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:0638b51138d8",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.31619",
+      "title": "What a Forecasting Leaderboard Can Establish: Resolution Reporting for Zero-Shot Time-Series Models",
+      "snippet": "A foundation model for time series is pretrained once and then asked to forecast series it has never seen, so the evidence for it is its score on held-out datasets. Such datasets are scarce, and a few public leaderboards carry most comparisons, yet none of them states how small a difference its…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 58,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:cb9a14253afa",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34457",
+      "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+      "snippet": "Recent video generators produce realistic videos, yet controlling how scenes unfold remains challenging. Structural proxies, such as animated 3D blockouts, guide generation by specifying scene layout, motion, camera behavior, and event order. However, these coarse inputs leave details unspecified…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 36,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:8f55d503a9bd",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34290",
+      "title": "StateWeaver: Multi-Agent Coordination of Story-State Transitions for Long-Horizon Video Generation",
+      "snippet": "Modern video foundation models generate high-quality short clips, but preserving long-video consistency and correctly depicting event-driven state changes remain challenging. Existing agentic workflows face these challenges because continual planning and repair accumulate context, while reference…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 27,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:f98047a1bebe",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34693",
+      "title": "ShowNow: Fine-Grained Speculative Streaming for Responsive World Models",
+      "snippet": "Interactive world models must generate video continuously while responding promptly to user actions. Real-time throughput alone leaves input latency unresolved: coarse generation blocks delay action updates, and generation after input adds work to the response path. We introduce ShowNow, a…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 21,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:84ae9501cf6c",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34852",
+      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+      "snippet": "Deep research agents gather information from multiple sources and synthesize it into reports on complex, open-ended questions. Existing benchmarks assess report quality along several dimensions, but lack a dedicated knowledge-centric evaluation of which research directions a report covers and how…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 17,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:186a9e895a6f",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.32238",
+      "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+      "snippet": "Agent-orchestrated robot systems combine the general reasoning capability of multimodal agents with the precise physical control of learned visuomotor policies. Yet such systems often fail at the moment of handoff: a policy is reliable only from a limited set of start states, while the agent may…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 7,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:66c7c42609e8",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.30494",
+      "title": "Revisiting LLMs as Context Engineers",
+      "snippet": "As large language models (LLMs) are used in more and more new tasks, context engineering becomes a fundamental method to efficiently steer LLMs by constructing instruction prompts or metadata without intensive training. A growing number of LLM context engineering (LCE) approaches automate the task…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 5,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:c5002df531d8",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.33885",
+      "title": "LayoutRecall: Preserving Appearance in Multi-Round 3D Layout-Controlled Image Editing",
+      "snippet": "3D layout-controlled image editing gives users explicit control over object placement and camera viewpoint. In a sequence of edits, however, the latest image can lose the appearance of an object when it is occluded or leaves view. The target layout specifies where the object should reappear, while…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 4,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:d0b25903a80e",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.30483",
+      "title": "When an AI agent makes a mistake in a database, what decides the damage?",
+      "snippet": "AI agents now run statements against production databases, and several of the incidents that followed deleted production data, which came back only through backups or the provider's help. We ask what decides the damage when such an agent makes a mistake: the model, a guard layer in front of the…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 4,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:27436100a8ef",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.28849",
+      "title": "Guarding with Judgment: Learning to Intervene for Multimodal Safety",
+      "snippet": "When visual context makes an ordinary request unsafe to answer as asked, a blanket refusal may leave the user's need unresolved. Choosing how to help requires distinguishing an established hazard from a condition that still needs verification, a distinction that binary safety labels leave…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 2,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:d5acfa8523a4",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34782",
+      "title": "Generation as Reverse Encoding",
+      "snippet": "Pretrained visual representations accelerate generative learning by abstracting away appearance and spatial detail. Yet the same abstraction makes the return to pixels far harder, shifting much of the burden onto a larger decoder. We ask why the representation-to-pixel path should be learned…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 2,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:2fa12053d60a",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.34719",
+      "title": "Reading, Not Adapting: Unlocking Frozen Visual Knowledge for AI-Generated Image Detection",
+      "snippet": "Generalization to unseen image generators has driven efforts to adapt pretrained visual representations for detection. Yet recent findings show that vision foundation models already encode transferable detection knowledge, while further adaptation can impair generalization. This motivates a shift…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 2,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:21bf7cad0c22",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.30025",
+      "title": "Damped Atomic Wave Integration Neurons (DAWIN): A Universal Primitive for Continuous-Time Spatiotemporal Learning",
+      "snippet": "Conventional artificial neurons separate spatial feature aggregation from continuous physical time, limiting their ability to model irregular observations. We introduce the Damped Atomic Wave Integration Neuron (DAWIN), a continuous-time primitive for replacing standard neural layers in MLPs…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 1,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:e61c91e4edaa",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.30723",
+      "title": "BiSAT: Bidirectionally Aligned Semantic-Acoustic Tokenization for Speech Language Models",
+      "snippet": "Speech language models (LMs) generate speech as sequences of discrete tokens. Their tokenizer must therefore preserve both acoustic detail and linguistic content at a low bitrate. Semantic-enhanced tokenizers may lose acoustic detail, whereas acoustic-oriented tokenizers retain acoustic variation…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 1,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:ebed3d807434",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.31491",
+      "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
+      "snippet": "Spatial arbitrage pricing theory (S-APT) extends factor models to allow returns to spill over between connected firms, beyond what common risk factors explain. In recent years, tabular foundation models (TFMs) have matched or outperformed tuned gradient-boosted and bagged ensembles on small and…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 1,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:1c03ab421035",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.32993",
+      "title": "Decision-Native Multimodal Clinical Modeling via Anatomical Grounding and Confidence Calibration",
+      "snippet": "Structured clinical decisions from volumetric computed tomography (CT) require anatomically grounded predictions and calibrated confidence estimates. However, existing 3D medical multimodal models often suffer from uncalibrated autoregressive decoding and shortcut reliance on irrelevant anatomical…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 1,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:c7e508eda5b7",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.27112",
+      "title": "Markdown Is Not a Firewall: four coding agents, one rules file, four boundaries",
+      "snippet": "Teams put a one-page rules file in a repository and call it a control on coding agents. A registered study found agents rarely look up a repository's contribution rules. I asked the security question: what does a rules file do at a boundary, against a gate? I tested one 278-word rules file, with…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 0,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:783c6944259d",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.31516",
+      "title": "InitFree-SfM: When Initialization-Free Bundle Adjustment meets Learned Structure-from-Motion",
+      "snippet": "Initialization-free bundle adjustment (InitFree BA) aims to jointly recover camera poses and scene structure without requiring an initial global estimate. It is a very challenging problem, especially compared to traditional BA where a good estimation is assumed. While recent methods optimize…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 0,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    },
+    {
+      "id": "huggingface:df2c45dcdbc5",
+      "source": "huggingface",
+      "url": "https://huggingface.co/papers/2611.31155",
+      "title": "So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes",
+      "snippet": "A publicly available dataset of 62029 rank-23 schemes for 3times3 matrix multiplication is presented. Every scheme in it has its own rank pattern, an invariant formed by the ranks of the factor matrices of a scheme, so all schemes are pairwise inequivalent. The schemes were obtained by a numerical…",
+      "publishedAt": "2026-11-27T00:00:00.000Z",
+      "score": 0,
+      "publisher": "Hugging Face Daily Papers",
+      "lang": "en"
+    }
+  ]
+}
