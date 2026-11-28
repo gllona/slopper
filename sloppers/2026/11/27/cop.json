@@ -1,0 +1,16 @@
+{
+  "verdict": "pass",
+  "rounds": [
+    {
+      "verdict": "pass",
+      "findings": [
+        {
+          "check": "defamation",
+          "severity": "low",
+          "evidence": "Phrase: 'A new survey found nearly half of office workers now use AI every week. Mathematicians warn the same AI could soon make online security useless.' The two source articles are unrelated stories (an ECB consumer-AI-adoption survey and a separate mathematicians' warning about AI and cryptography) stitched together as if describing 'the same AI' and a single causal narrative.",
+          "suggestion": "Reword to avoid implying the survey's AI and the security-risk AI are one connected story, e.g. 'A new survey found nearly half of office workers now use AI every week — as mathematicians warn AI could soon make online security useless.'"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "passed": false,
+  "bestIteration": 2,
+  "iterations": [
+    {
+      "iteration": 1,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"mathematician\" (human) was moved -54 px, 0 px to stay inside the artboard",
+          "\"worker\" extends outside the safe area in the final frame (x 28…296, y 446…842)",
+          "\"mathematician\" extends outside the safe area in the final frame (x 743…1066, y 416…842)"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 3,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "The worker/robot/44% beat reads fine, but the whole second half of the joke collapses: the padlock looks like a handbag with a logo, the magnifier floats disconnected, and both end figures are clipped by the safe area — this doesn't clear the bar for publishing today.",
+        "revisionNotes": [
+          "Rebuild the \"padlock\" raw shape so it reads as a padlock with a cracked face — right now it reads as a handbag with a logo; separate the shackle arc from the body clearly and make the crack a jagged line across the face, not a lightning-bolt-in-circle icon.",
+          "Attach the magnifier to the mathematician's hand (attachTo: mathematician, side: left, offset near the extended arm) instead of floating disconnected beside the padlock — currently it looks like an unrelated balloon.",
+          "Pull \"worker\" (x ~0.18) and \"mathematician\" (reduce point-arm reach, scale ~0.9) inward from the edges; lint flags both are clipped by the safe area in the final frame.",
+          "Add a desk/laptop shape under the worker so \"typing calmly at a desk\" actually reads — right now the worker and robot float on an open horizon with no office cues besides the 44% tag.",
+          "Replace the flat horizon-line split with the briefed vertical-line split (office left / math right) so the two-panel structure of the joke is visible, instead of four figures lined up on a beach-like ground.",
+          "Redirect the mathematician's pointing arm toward the padlock itself rather than off into empty space near the canvas edge, to visually connect the \"examining the crack\" beat."
+        ]
+      },
+      "average": 3.14,
+      "passed": false
+    },
+    {
+      "iteration": 2,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": []
+      },
+      "review": {
+        "scores": {
+          "clarity": 3,
+          "coherence": 4,
+          "composition": 2,
+          "style": 4,
+          "polish": 2,
+          "novelty": 4,
+          "kindness": 5
+        },
+        "verdict": "Correct cast (humans stay human, robot stays AI) and a fresh palette/layout versus recent sloppers, but the padlock reads as a handbag and overlaps the magnifier into one confusing blob, and the desk surface is essentially invisible, leaving the composition bottom-heavy and the right-side punchline unclear — average falls just short of passing.",
+        "revisionNotes": [
+          "The desk surface (rect, 360x22) is effectively invisible behind the worker figure — raise its z-order or nudge its y anchor so the desktop reads clearly under the laptop and robot.",
+          "The padlock reads as a handbag, not a lock: increase padlock scale from 0.68 to ~0.9, thicken the shackle arc stroke, and make the crack a single bold jagged line instead of a thin polyline lost in the glow ellipse.",
+          "Magnifier and padlock silhouettes merge into one blob — move the magnifier offset further left/down (e.g. [-60, 20] instead of [-20, -60]) so its circle sits clearly apart from the padlock body.",
+          "Top third of the frame is empty dead space while both groups crowd the bottom — move the 44% tag to ~y:0.18 and lift worker/robot/mathematician anchors to ~y:0.65 to better fill the square.",
+          "Scale mismatch across the split: worker at 0.85 dwarfs mathematician at 0.72 and padlock at 0.68 — bring mathematician to ~0.85 and padlock to ~0.9 so the right half carries equal visual weight."
+        ]
+      },
+      "average": 3.43,
+      "passed": false
+    },
+    {
+      "iteration": 3,
+      "lint": {
+        "ok": true,
+        "errors": [],
+        "warnings": [
+          "\"mathematician\" (human) was moved -54 px, 0 px to stay inside the artboard"
+        ]
+      },
+      "review": {
+        "scores": {
+          "clarity": 2,
+          "coherence": 4,
+          "composition": 4,
+          "style": 4,
+          "polish": 2,
+          "novelty": 2,
+          "kindness": 5
+        },
+        "verdict": "The left half (worker + AI robot + 44%) reads instantly, but the right half's padlock renders as an ambiguous tote-bag shape with no visible magnifying glass, so the \"security cracking\" punchline doesn't land; the split-divider layout also closely repeats a recent slopper. Does not pass.",
+        "revisionNotes": [
+          "Redraw the padlock: at current scale (0.9, 220x300) the rounded shackle plus square body reads as a tote/handbag, not a lock. Add a visible keyhole and square off the shackle so it's unmistakably a padlock.",
+          "The magnifier (attachTo mathematician, offset [-60,20], scale 0.65) is not legible in the final frame - it merges with or hides behind the padlock's shackle loop. Offset it further left/up so the lens circle is clearly separate from the padlock.",
+          "Mathematician pose is 'point' but the brief calls for 'leaning in with a magnifying glass' - swap to a leaning/examining pose so the beat (worried scrutiny of a cracking lock) is legible.",
+          "The lint warning shows the mathematician was nudged -54px to fit the artboard; recheck the right-side bounding box so the figure, magnifier, and padlock aren't competing for the same cramped space near the edge.",
+          "This split-screen-with-vertical-divider layout (human each side, cream/navy duotone) closely echoes the recent 'RESIGNED / YOUR PROBLEM' slopper - angle the divider or vary the palette/pose silhouettes to read as distinct.",
+          "Left side (worker, robot, 44% tag) works well and reads instantly - keep that half as-is."
+        ]
+      },
+      "average": 3.29,
+      "passed": false
+    }
+  ]
+}
